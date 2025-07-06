@@ -535,9 +535,9 @@
 	.book-pages {
 		position: absolute;
 		top: 2px;
-		right: -6px;
-		bottom: 2px;
-		width: 4px;
+		right: -3px;
+		bottom: 3px;
+		width: 2px;
 		background: #ffffff !important;
 		background-image: repeating-linear-gradient(
 			to bottom,
@@ -553,6 +553,7 @@
 		overflow: visible;
 		transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 		transform-origin: left center;
+		opacity: 0;
 		z-index: 1;
 	}
 
@@ -562,7 +563,7 @@
 		top: 0;
 		right: -4px;
 		bottom: 0;
-		width: 4px;
+		width: 2px;
 		background: #ffffff !important;
 		background-image: repeating-linear-gradient(
 			to bottom,
@@ -587,7 +588,7 @@
 		top: 0;
 		right: -8px;
 		bottom: 0;
-		width: 4px;
+		width: 2px;
 		background: #ffffff !important;
 		background-image: repeating-linear-gradient(
 			to bottom,
@@ -607,23 +608,26 @@
 	}
 
 	.book-card:hover .book-pages {
-		transform: rotateY(2deg);
-		width: 5px;
-		right: -7px;
+		opacity: 1;
+		transform: rotateY(1deg);
+		width: 2px;
+		right: -3px;
 		z-index: 5;
 	}
 
 	.book-card:hover .book-pages::before {
 		opacity: 1;
-		transform: rotateY(4deg);
-		right: -5px;
+		transform: rotateY(2deg);
+		right: -2px;
+		width: 2px;
 		z-index: 4;
 	}
 
 	.book-card:hover .book-pages::after {
 		opacity: 1;
-		transform: rotateY(6deg);
-		right: -8px;
+		transform: rotateY(3deg);
+		right: -4px;
+		width: 2px;
 		z-index: 3;
 	}
 
