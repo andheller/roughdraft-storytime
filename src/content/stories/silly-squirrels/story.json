@@ -1,0 +1,26 @@
+{
+	"title": "The Silly Squirrels Adventure",
+	"description": "A fun tale about three silly squirrels who discover the magic of friendship and teamwork.",
+	"chapters": [
+		{
+			"id": 1,
+			"title": "Meet the Squirrels",
+			"file": "chapter-1.md"
+		},
+		{
+			"id": 2,
+			"title": "The Great Acorn Hunt",
+			"file": "chapter-2.md"
+		},
+		{
+			"id": 3,
+			"title": "A Nutty Problem",
+			"file": "chapter-3.md"
+		},
+		{
+			"id": 4,
+			"title": "Working Together",
+			"file": "chapter-4.md"
+		}
+	]
+}

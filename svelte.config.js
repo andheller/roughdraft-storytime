@@ -1,4 +1,3 @@
-import { mdsvex } from 'mdsvex';
 import adapter from '@sveltejs/adapter-auto';
 
 /** @type {import('@sveltejs/kit').Config} */
@@ -9,8 +8,7 @@ const config = {
 		// See https://svelte.dev/docs/kit/adapters for more information about adapters.
 		adapter: adapter()
 	},
-	preprocess: [mdsvex()],
-	extensions: ['.svelte', '.svx']
+	extensions: ['.svelte']
 };
 
 export default config;
