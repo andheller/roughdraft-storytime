@@ -5,7 +5,7 @@
 	let showBookModal = $state(false);
 	let animatingBook = $state(null);
 	let coverStyle = $state('fabric'); // Only using fabric now
-	let woodGrain = $state('wood.png'); // Default wood grain
+	let woodGrain = $state('2.png'); // Default wood grain set to wood 2
 	
 	// Calculate books per shelf based on screen size
 	let booksPerShelf = $state(5);
@@ -89,7 +89,7 @@
 
 <div class="bookshelf-room">
 	<!-- Wood background with depth -->
-	<div class="wood-background" style="background-image: url('{woodGrain === 'wood.png' ? '/texture/' + woodGrain : '/grain-options/' + woodGrain}')"></div>
+	<div class="wood-background" style="background-image: url('/grain-options/{woodGrain}')"></div>
 	
 	<!-- Warm lighting overlay -->
 	<div class="lighting-overlay"></div>
@@ -99,48 +99,6 @@
 			<h1>Roughdraft Storytime</h1>
 			<p>Where stories come to life, one draft at a time</p>
 			
-			<!-- Wood Grain Picker -->
-			<div class="wood-grain-picker">
-				<h3>Wood Grain</h3>
-				<div class="grain-options">
-					<button 
-						class="grain-option {woodGrain === 'wood.png' ? 'active' : ''}"
-						onclick={() => woodGrain = 'wood.png'}
-						style="background-image: url('/texture/wood.png')"
-						aria-label="Default wood grain"
-					></button>
-					<button 
-						class="grain-option {woodGrain === '1.png' ? 'active' : ''}"
-						onclick={() => woodGrain = '1.png'}
-						style="background-image: url('/grain-options/1.png')"
-						aria-label="Wood grain option 1"
-					></button>
-					<button 
-						class="grain-option {woodGrain === '2.png' ? 'active' : ''}"
-						onclick={() => woodGrain = '2.png'}
-						style="background-image: url('/grain-options/2.png')"
-						aria-label="Wood grain option 2"
-					></button>
-					<button 
-						class="grain-option {woodGrain === '3.png' ? 'active' : ''}"
-						onclick={() => woodGrain = '3.png'}
-						style="background-image: url('/grain-options/3.png')"
-						aria-label="Wood grain option 3"
-					></button>
-					<button 
-						class="grain-option {woodGrain === '4.png' ? 'active' : ''}"
-						onclick={() => woodGrain = '4.png'}
-						style="background-image: url('/grain-options/4.png')"
-						aria-label="Wood grain option 4"
-					></button>
-					<button 
-						class="grain-option {woodGrain === '5.png' ? 'active' : ''}"
-						onclick={() => woodGrain = '5.png'}
-						style="background-image: url('/grain-options/5.png')"
-						aria-label="Wood grain option 5"
-					></button>
-				</div>
-			</div>
 		</header>
 
 		<!-- Bookshelf with Shelves -->
@@ -150,8 +108,8 @@
 				<div class="shelf-row">
 					<!-- Wooden shelf -->
 					<div class="wooden-shelf">
-						<div class="shelf-surface" style="background-image: url('{woodGrain === 'wood.png' ? '/texture/' + woodGrain : '/grain-options/' + woodGrain}')"></div>
-						<div class="shelf-edge" style="background-image: url('{woodGrain === 'wood.png' ? '/texture/' + woodGrain : '/grain-options/' + woodGrain}')"></div>
+						<div class="shelf-surface"></div>
+						<div class="shelf-edge"></div>
 						<div class="shelf-shadow"></div>
 					</div>
 					
@@ -309,76 +267,6 @@
 		font-weight: 500;
 	}
 
-	.wood-grain-picker {
-		margin-top: 2rem;
-		text-align: center;
-	}
-
-	.wood-grain-picker h3 {
-		font-size: 1.2rem;
-		color: #2c1810;
-		font-family: Georgia, serif;
-		margin-bottom: 1rem;
-		text-shadow: 
-			0 1px 0 rgba(255, 255, 255, 0.08),
-			0 -1px 0 rgba(0, 0, 0, 0.6);
-	}
-
-	.grain-options {
-		display: flex;
-		justify-content: center;
-		gap: 0.75rem;
-		flex-wrap: wrap;
-	}
-
-	.grain-option {
-		width: 50px;
-		height: 50px;
-		border: 3px solid rgba(255, 255, 255, 0.3);
-		border-radius: 8px;
-		background-size: cover;
-		background-position: center;
-		background-repeat: no-repeat;
-		cursor: pointer;
-		transition: all 0.3s ease;
-		box-shadow: 
-			0 2px 8px rgba(0, 0, 0, 0.3),
-			inset 0 1px 0 rgba(255, 255, 255, 0.2);
-		position: relative;
-	}
-
-	.grain-option::before {
-		content: '';
-		position: absolute;
-		inset: 0;
-		background: rgba(0, 0, 0, 0.1);
-		border-radius: 5px;
-		transition: all 0.3s ease;
-	}
-
-	.grain-option:hover {
-		transform: translateY(-2px);
-		box-shadow: 
-			0 4px 12px rgba(0, 0, 0, 0.4),
-			inset 0 1px 0 rgba(255, 255, 255, 0.3);
-		border-color: rgba(255, 255, 255, 0.5);
-	}
-
-	.grain-option:hover::before {
-		background: rgba(0, 0, 0, 0.05);
-	}
-
-	.grain-option.active {
-		border-color: #ffd700;
-		box-shadow: 
-			0 4px 12px rgba(255, 215, 0, 0.4),
-			inset 0 1px 0 rgba(255, 255, 255, 0.4);
-		transform: translateY(-2px);
-	}
-
-	.grain-option.active::before {
-		background: rgba(255, 215, 0, 0.1);
-	}
 
 
 	.bookshelf-container {
@@ -410,13 +298,11 @@
 		left: 0;
 		right: 0;
 		height: 40px;
-		background: linear-gradient(to bottom, #deb887 0%, #cd853f 100%);
-		background-size: 200px 200px;
-		background-blend-mode: multiply;
+		background: linear-gradient(to bottom, #ffffff 0%, #f5f5f5 100%);
 		border-radius: 4px 4px 0 0;
 		box-shadow: 
 			0 2px 8px rgba(0, 0, 0, 0.3),
-			inset 0 1px 0 rgba(255, 255, 255, 0.2);
+			inset 0 1px 0 rgba(255, 255, 255, 0.6);
 	}
 
 	.shelf-surface::before {
@@ -433,13 +319,10 @@
 		left: 0;
 		right: 0;
 		height: 20px;
-		background: linear-gradient(to bottom, #cd853f 0%, #8b4513 100%);
-		background-size: 200px 200px;
-		background-blend-mode: multiply;
-		background-position: 0 -40px;
+		background: linear-gradient(to bottom, #f5f5f5 0%, #e8e8e8 100%);
 		box-shadow: 
 			0 4px 12px rgba(0, 0, 0, 0.4),
-			inset 0 1px 0 rgba(255, 255, 255, 0.1);
+			inset 0 1px 0 rgba(255, 255, 255, 0.4);
 	}
 
 	.shelf-shadow {
@@ -503,9 +386,9 @@
 		content: '';
 		position: absolute;
 		top: 0;
-		right: -6px;
-		bottom: 0;
-		width: 6px;
+		right: -4px;
+		bottom: 4px;
+		width: 4px;
 		background: 
 			linear-gradient(to right, 
 				color-mix(in srgb, var(--book-color) 80%, #000000 20%),
@@ -525,7 +408,7 @@
 	}
 
 	.book-card:hover .book-cover {
-		transform: translateY(-15px) rotateY(-25deg) rotateX(8deg);
+		transform: translateY(-3px) rotateY(-3deg) rotateX(1deg);
 		z-index: 10;
 	}
 
@@ -538,7 +421,7 @@
 		height: 100%;
 		position: relative;
 		border-radius: 0 6px 6px 0;
-		overflow: hidden;
+		overflow: visible;
 		transform-style: preserve-3d;
 		box-shadow: 
 			0 4px 12px rgba(0, 0, 0, 0.3),
@@ -652,85 +535,96 @@
 	.book-pages {
 		position: absolute;
 		top: 2px;
-		right: -8px;
+		right: -6px;
 		bottom: 2px;
-		width: 6px;
-		background: repeating-linear-gradient(
+		width: 4px;
+		background: #ffffff !important;
+		background-image: repeating-linear-gradient(
 			to bottom,
-			#ffffff,
-			#ffffff 1px,
-			#fafafa 1px,
-			#fafafa 2px
-		);
+			#ffffff 0px,
+			#ffffff 0.5px,
+			#f8f8f8 0.5px,
+			#f8f8f8 1px
+		) !important;
 		border-radius: 0 2px 2px 0;
 		box-shadow:
-			inset -1px 0 2px rgba(0, 0, 0, 0.1),
-			1px 0 3px rgba(0, 0, 0, 0.15);
+			0 0 0 1px #ffffff,
+			0 2px 4px rgba(0, 0, 0, 0.2);
 		overflow: visible;
 		transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-		z-index: 2;
+		transform-origin: left center;
+		z-index: 1;
 	}
 
 	.book-pages::before {
 		content: '';
 		position: absolute;
 		top: 0;
-		right: -5px;
+		right: -4px;
 		bottom: 0;
-		width: 5px;
-		background: repeating-linear-gradient(
+		width: 4px;
+		background: #ffffff !important;
+		background-image: repeating-linear-gradient(
 			to bottom,
-			#ffffff,
-			#ffffff 1px,
-			#f8f8f8 1px,
-			#f8f8f8 2px
-		);
+			#ffffff 0px,
+			#ffffff 0.5px,
+			#f5f5f5 0.5px,
+			#f5f5f5 1px
+		) !important;
 		border-radius: 0 2px 2px 0;
 		box-shadow: 
-			inset -1px 0 2px rgba(0, 0, 0, 0.08),
-			1px 0 2px rgba(0, 0, 0, 0.12);
-		opacity: 1;
+			0 0 0 1px #ffffff,
+			0 2px 3px rgba(0, 0, 0, 0.15);
+		opacity: 0;
 		transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+		transform-origin: left center;
+		z-index: 0;
 	}
 
 	.book-pages::after {
 		content: '';
 		position: absolute;
 		top: 0;
-		right: -10px;
+		right: -8px;
 		bottom: 0;
-		width: 5px;
-		background: repeating-linear-gradient(
+		width: 4px;
+		background: #ffffff !important;
+		background-image: repeating-linear-gradient(
 			to bottom,
-			#ffffff,
-			#ffffff 1px,
-			#f5f5f5 1px,
-			#f5f5f5 2px
-		);
+			#ffffff 0px,
+			#ffffff 0.5px,
+			#f2f2f2 0.5px,
+			#f2f2f2 1px
+		) !important;
 		border-radius: 0 2px 2px 0;
 		box-shadow: 
-			inset -1px 0 2px rgba(0, 0, 0, 0.06),
-			1px 0 2px rgba(0, 0, 0, 0.1);
-		opacity: 1;
+			0 0 0 1px #ffffff,
+			0 2px 3px rgba(0, 0, 0, 0.12);
+		opacity: 0;
 		transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+		transform-origin: left center;
+		z-index: -1;
 	}
 
 	.book-card:hover .book-pages {
-		width: 10px;
-		right: -12px;
-		box-shadow:
-			inset -2px 0 3px rgba(0, 0, 0, 0.15),
-			2px 0 4px rgba(0, 0, 0, 0.2);
+		transform: rotateY(2deg);
+		width: 5px;
+		right: -7px;
+		z-index: 5;
 	}
 
 	.book-card:hover .book-pages::before {
 		opacity: 1;
-		right: -8px;
+		transform: rotateY(4deg);
+		right: -5px;
+		z-index: 4;
 	}
 
 	.book-card:hover .book-pages::after {
 		opacity: 1;
-		right: -13px;
+		transform: rotateY(6deg);
+		right: -8px;
+		z-index: 3;
 	}
 
 	.book-spine {
