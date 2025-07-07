@@ -23,6 +23,10 @@ export async function load({ params }) {
 	}
 
 	return {
-		story
+		story,
+		theme: {
+			theme: 'white',
+			fontType: 'serif'
+		}
 	};
 }

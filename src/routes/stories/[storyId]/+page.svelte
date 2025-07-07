@@ -4,6 +4,27 @@
 	let { data } = $props();
 
 	let storyId = data.story.id;
+	let currentDesign = data.theme;
+	
+	const themes = {
+		white: {
+			bgColor: 'bg-white',
+			textColor: 'text-gray-900',
+			mutedColor: 'text-gray-600'
+		},
+		dark: {
+			bgColor: 'bg-gray-900',
+			textColor: 'text-white',
+			mutedColor: 'text-gray-300'
+		},
+		sepia: {
+			bgColor: 'bg-orange-50',
+			textColor: 'text-orange-900',
+			mutedColor: 'text-orange-700'
+		}
+	};
+	
+	const currentTheme = themes[currentDesign.theme];
 </script>
 
 <svelte:head>
@@ -29,6 +50,6 @@
 			</a>
 		</div>
 
-		<StoryReader {storyId} />
+		<StoryReader {storyId} {currentDesign} {currentTheme} />
 	</div>
 </div>
