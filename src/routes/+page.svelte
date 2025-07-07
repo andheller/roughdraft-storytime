@@ -1,11 +1,28 @@
 <script>
 	import { bookList } from '$lib/books.js';
+	import { goto } from '$app/navigation';
+	import { browser } from '$app/environment';
+	import { page } from '$app/stores';
 
 	let selectedBook = $state(null);
 	let showBookModal = $state(false);
 	let animatingBook = $state(null);
 	let coverStyle = $state('fabric'); // Only using fabric now
-	let woodGrain = $state('2.png'); // Default wood grain set to wood 2
+	let isTransitioning = $state(false);
+	let isReturning = $state(false);
+
+	// Check if we're returning from a story page
+	if (browser) {
+		// Check for navigation state from back button
+		const fromStory = window.history.state?.from === 'story';
+		const referrer = document.referrer;
+		const isStoryReferrer = referrer && referrer.includes(window.location.origin) && 
+							  !referrer.endsWith('/') && !referrer.includes('/#');
+		
+		if (fromStory || isStoryReferrer) {
+			isReturning = true;
+		}
+	}
 	
 	// Calculate books per shelf based on screen size
 	let booksPerShelf = $state(5);
@@ -46,10 +63,14 @@
 		} else {
 			selectedBook = book;
 			animatingBook = book.id;
-			// Add slight delay for animation, then navigate directly to story
+			// Start page transition immediately with book animation
 			setTimeout(() => {
-				window.location.href = `/${book.storyId}`;
-			}, 300);
+				isTransitioning = true;
+			}, 100);
+			// Navigate after book animation completes
+			setTimeout(() => {
+				goto(`/${book.storyId}`, { state: { from: 'bookshelf' } });
+			}, 400);
 		}
 	}
 
@@ -62,8 +83,13 @@
 	}
 
 	function openBook(book) {
-		// Navigate to the story
-		window.location.href = `/${book.storyId}`;
+		// Navigate to the story with transition
+		setTimeout(() => {
+			isTransitioning = true;
+		}, 50);
+		setTimeout(() => {
+			goto(`/${book.storyId}`, { state: { from: 'bookshelf' } });
+		}, 150);
 	}
 
 	function handleKeyDown(event, book) {
@@ -87,9 +113,9 @@
 	<title>Bookshelf - Kids Story Collection</title>
 </svelte:head>
 
-<div class="bookshelf-room">
+<div class="bookshelf-room {isTransitioning ? 'transitioning-out' : ''} {isReturning ? 'returning' : ''}">
 	<!-- Wood background with depth -->
-	<div class="wood-background" style="background-image: url('/grain-options/{woodGrain}')"></div>
+	<div class="wood-background"></div>
 	
 	<!-- Warm lighting overlay -->
 	<div class="lighting-overlay"></div>
@@ -198,14 +224,28 @@
 		overflow-x: hidden;
 	}
 
+	@media (prefers-color-scheme: dark) {
+		.bookshelf-room {
+			background: #2e1810;
+		}
+	}
+
 	.wood-background {
 		position: absolute;
 		inset: 0;
+		background-image: url('/grain-options/2.png');
 		background-size: 256px 256px;
 		background-repeat: repeat;
 		background-position: 0 0;
 		opacity: 0.9;
 		z-index: 0;
+	}
+
+	@media (prefers-color-scheme: dark) {
+		.wood-background {
+			background-image: url('/grain-options/dark.png');
+			opacity: 0.8;
+		}
 	}
 
 	.wood-background::before {
@@ -257,6 +297,16 @@
 		font-weight: bold;
 	}
 
+	@media (prefers-color-scheme: dark) {
+		.bookshelf-header h1 {
+			color: #ffffff;
+			text-shadow: 
+				0 1px 0 rgba(0, 0, 0, 0.3),
+				0 -1px 0 rgba(255, 255, 255, 0.1),
+				0 2px 4px rgba(0, 0, 0, 0.8);
+		}
+	}
+
 	.bookshelf-header p {
 		font-size: clamp(1.1rem, 2vw, 1.4rem);
 		color: #2c1810;
@@ -265,6 +315,16 @@
 			0 1px 0 rgba(255, 255, 255, 0.08),
 			0 -1px 0 rgba(0, 0, 0, 0.6);
 		font-weight: 500;
+	}
+
+	@media (prefers-color-scheme: dark) {
+		.bookshelf-header p {
+			color: #e0e0e0;
+			text-shadow: 
+				0 1px 0 rgba(0, 0, 0, 0.5),
+				0 -1px 0 rgba(255, 255, 255, 0.05),
+				0 2px 4px rgba(0, 0, 0, 0.7);
+		}
 	}
 
 
@@ -305,6 +365,15 @@
 			inset 0 1px 0 rgba(255, 255, 255, 0.6);
 	}
 
+	@media (prefers-color-scheme: dark) {
+		.shelf-surface {
+			background: linear-gradient(to bottom, #2F4F4F 0%, #1e3535 100%);
+			box-shadow: 
+				0 2px 8px rgba(0, 0, 0, 0.5),
+				inset 0 1px 0 rgba(255, 255, 255, 0.1);
+		}
+	}
+
 	.shelf-surface::before {
 		content: '';
 		position: absolute;
@@ -323,6 +392,15 @@
 		box-shadow: 
 			0 4px 12px rgba(0, 0, 0, 0.4),
 			inset 0 1px 0 rgba(255, 255, 255, 0.4);
+	}
+
+	@media (prefers-color-scheme: dark) {
+		.shelf-edge {
+			background: linear-gradient(to bottom, #1e3535 0%, #2a4545 100%);
+			box-shadow: 
+				0 4px 12px rgba(0, 0, 0, 0.6),
+				inset 0 1px 0 rgba(255, 255, 255, 0.05);
+		}
 	}
 
 	.shelf-shadow {
@@ -371,6 +449,10 @@
 	.book-card.selected {
 		transform: scale(1.05) translateZ(30px);
 		z-index: 10;
+	}
+
+	.book-card.selected .book-cover {
+		animation: bookOpenAnimation 0.4s ease-out forwards;
 	}
 
 	.book-cover {
@@ -869,6 +951,30 @@
 		background: linear-gradient(135deg, #ffdb58, #ffb84d);
 	}
 
+	/* Page Transition Effects */
+	.bookshelf-room {
+		transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.3s ease;
+	}
+
+	.bookshelf-room.transitioning-out {
+		transform: translateX(-100%);
+		opacity: 0.8;
+	}
+
+	/* Return from Story - Slide from Left */
+	.bookshelf-room.returning {
+		transform: translateX(-100%);
+		opacity: 0;
+		animation: slideFromLeft 0.5s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+	}
+
+	/* Ensure normal page loads don't have transition */
+	.bookshelf-room:not(.returning):not(.transitioning-out) {
+		transform: translateX(0);
+		opacity: 1;
+		transition: none;
+	}
+
 	/* Animations */
 
 	@keyframes fadeIn {
@@ -884,6 +990,22 @@
 	@keyframes bookEntrance {
 		from { transform: rotateY(-30deg) scale(0.8); opacity: 0; }
 		to { transform: rotateY(0deg) scale(1); opacity: 1; }
+	}
+
+	@keyframes slideFromRight {
+		from { transform: translateX(100%); opacity: 0; }
+		to { transform: translateX(0); opacity: 1; }
+	}
+
+	@keyframes bookOpenAnimation {
+		0% { transform: translateY(0) rotateY(0deg) scale(1); }
+		50% { transform: translateY(-10px) rotateY(-15deg) scale(1.1); }
+		100% { transform: translateY(-5px) rotateY(-10deg) scale(1.05); }
+	}
+
+	@keyframes slideFromLeft {
+		from { transform: translateX(-100%); opacity: 0; }
+		to { transform: translateX(0); opacity: 1; }
 	}
 
 	/* Responsive Design */

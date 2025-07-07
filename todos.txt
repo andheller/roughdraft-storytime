@@ -1,0 +1,49 @@
+ROUGHDRAFT STORYTIME - TODO LIST
+=====================================
+
+📚 CONTENT & STRUCTURE
+- [ ] Organize books.js to use arrays instead of objects
+- [ ] Consider renaming books.js to content.js (future: support other media types)
+- [ ] Add writing system to books for extra context and planning
+- [ ] Render writing system context in fun ways (potentially)
+- [ ] Add media support to stories (images, audio, etc.)
+
+🎵 AUDIO FEATURES  
+- [ ] Test 11labs integration for story narration
+- [ ] Add audio player component for stories (conditional - only if story has audio)
+- [ ] Implement audio controls (play/pause, speed, etc.)
+
+🔍 SEO & METADATA
+- [ ] Add JSON-LD schema for books/stories
+- [ ] Update site URL references to roughdraftstorytime.com
+- [ ] Add sitemap.xml generation
+- [ ] Add robots.txt
+- [ ] Complete OpenGraph meta tags (og:image, og:url, og:site_name)
+- [ ] Add Twitter Card meta tags
+- [ ] Add canonical URLs
+
+✨ BRANDING & UX
+- [ ] Create better tagline (replace "Where stories come to life, one draft at a time")
+- [ ] Improve homepage copy and messaging
+- [ ] Add favicon if needed
+
+📋 TECHNICAL NOTES
+- Site URL: roughdraftstorytime.com
+- No search functionality planned (keep simple)
+- Focus on keeping code simple and fun
+- JSON-LD: Use Book schema, no SearchAction needed
+- Audio: Only show player if story has audio file
+
+🧹 CLEANUP & OPTIMIZATION
+- [ ] Shrink grain background images for better performance
+- [ ] Remove unused code and images
+- [ ] Refactor and simplify codebase
+- [ ] Clean up CSS and remove redundant styles
+- [ ] Audit static assets for unused files
+
+🎯 PRIORITIES
+1. Cleanup & optimization (shrink grain bg, remove unused code/images)
+2. JSON-LD schema implementation
+3. 11labs testing & audio player
+4. Content structure reorganization
+5. Better tagline and branding

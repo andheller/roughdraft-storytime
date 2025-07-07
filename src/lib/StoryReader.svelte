@@ -2,7 +2,7 @@
 	import { parseMarkdown } from './markdown.js';
 	import { getStory } from '../content/stories/index.js';
 
-	let { storyId } = $props();
+	let { storyId, currentDesign, currentTheme } = $props();
 
 	let story = $state(getStory(storyId));
 	let chaptersWithContent = $state([]);
@@ -23,36 +23,31 @@
 			element.scrollIntoView({ behavior: 'smooth', block: 'start' });
 		}
 	}
+
+	const fontClass = $derived(currentDesign.fontType === 'serif' ? 'font-serif' : 'font-sans');
 </script>
 
 {#if story && chaptersWithContent.length > 0}
 	<div class="story-container mx-auto max-w-4xl">
 		<!-- Story Header -->
-		<header class="mb-12 rounded-xl bg-white/90 p-8 shadow-lg backdrop-blur-sm border border-amber-200">
-			<div class="mb-4 inline-flex items-center gap-2 px-3 py-1 bg-amber-100 rounded-full text-amber-800 text-sm font-medium">
-				<svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-					<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
-				</svg>
-				Complete Story
-			</div>
-			
-			<h1 class="mb-4 font-serif text-4xl font-bold text-amber-900">
+		<header class="mb-16 py-8">
+			<h1 class="mb-6 {fontClass} text-5xl font-bold {currentTheme.textColor} leading-tight">
 				{story.title}
 			</h1>
 			
-			<p class="mb-6 text-lg text-amber-700 leading-relaxed">
+			<p class="mb-8 text-xl {currentTheme.mutedColor} leading-relaxed max-w-3xl">
 				{story.description}
 			</p>
 			
-			<div class="flex flex-wrap gap-4 mb-6 text-amber-600">
+			<div class="flex flex-wrap gap-6 mb-12 {currentTheme.mutedColor}">
 				<div class="flex items-center gap-2">
-					<svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+					<svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.746 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/>
 					</svg>
 					<span class="font-medium">{story.chapters.length} Chapters</span>
 				</div>
 				<div class="flex items-center gap-2">
-					<svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+					<svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
 					</svg>
 					<span class="font-medium">~{Math.ceil(story.chapters.length * 3)} min read</span>
@@ -60,21 +55,20 @@
 			</div>
 			
 			<!-- Table of Contents -->
-			<div class="rounded-lg border border-amber-200 bg-amber-50 p-6">
-				<h2 class="mb-4 font-serif text-xl font-semibold text-amber-900">Table of Contents</h2>
-				<div class="grid gap-3 md:grid-cols-2">
+			<div class="mb-8">
+				<h2 class="mb-6 {fontClass} text-2xl font-semibold {currentTheme.textColor}">Table of Contents</h2>
+				<div class="grid gap-2 md:grid-cols-2 lg:grid-cols-3">
 					{#each story.chapters as chapter (chapter.id)}
 						<button
 							on:click={() => scrollToChapter(chapter.id)}
-							class="group flex items-center gap-3 rounded-lg p-3 text-left transition-all hover:bg-amber-100 hover:shadow-sm"
+							class="group flex items-center gap-3 p-3 text-left transition-all hover:opacity-80 rounded-lg"
 							title="Jump to {chapter.title}"
 						>
-							<div class="flex h-8 w-8 items-center justify-center rounded-full bg-amber-200 text-sm font-medium text-amber-800 group-hover:bg-amber-300">
+							<div class="flex h-6 w-6 items-center justify-center text-sm font-bold {currentTheme.mutedColor}">
 								{chapter.id}
 							</div>
 							<div class="flex-1">
-								<div class="font-medium text-amber-900">{chapter.title}</div>
-								<div class="text-xs text-amber-600">Chapter {chapter.id}</div>
+								<div class="font-medium {currentTheme.textColor}">{chapter.title}</div>
 							</div>
 						</button>
 					{/each}
@@ -82,26 +76,13 @@
 			</div>
 		</header>
 
-		<!-- Quick Navigation (Sticky) -->
-		<nav class="sticky top-4 z-10 mb-8 rounded-lg border border-amber-200 bg-white/90 p-3 shadow-sm backdrop-blur-sm">
-			<div class="flex flex-wrap justify-center gap-2">
-				{#each story.chapters as chapter (chapter.id)}
-					<button
-						on:click={() => scrollToChapter(chapter.id)}
-						class="rounded-full bg-amber-100 px-3 py-1 text-sm text-amber-700 transition-colors hover:bg-amber-200"
-						title="Jump to Chapter {chapter.id}"
-					>
-						{chapter.id}
-					</button>
-				{/each}
-			</div>
-		</nav>
+
 
 		<!-- All Chapters -->
-		<main class="prose prose-lg max-w-none prose-amber">
+		<main class="prose prose-lg max-w-none {fontClass} story-content {currentTheme.textColor}">
 			{#each chaptersWithContent as chapter (chapter.id)}
-				<section id="chapter-{chapter.id}" class="mb-16 scroll-mt-24">
-					<div class="chapter-content rounded-xl bg-white/60 p-8 shadow-sm backdrop-blur-sm">
+				<section id="chapter-{chapter.id}" class="mb-20 scroll-mt-24">
+					<div class="chapter-content py-8">
 						<!-- eslint-disable-next-line svelte/no-at-html-tags -->
 						{@html chapter.html}
 					</div>
@@ -110,12 +91,12 @@
 		</main>
 		
 		<!-- Story End -->
-		<div class="not-prose mt-12 rounded-xl bg-white/80 p-8 text-center shadow-lg backdrop-blur-sm">
-			<div class="mb-4 text-4xl font-bold text-amber-900">🎉 The End! 🎉</div>
-			<p class="mb-6 font-serif text-lg text-amber-700">Thanks for reading "{story.title}"!</p>
+		<div class="not-prose mt-20 py-12 text-center">
+			<div class="mb-6 text-4xl font-bold {currentTheme.textColor}">🎉 The End! 🎉</div>
+			<p class="mb-8 {fontClass} text-xl {currentTheme.mutedColor}">Thanks for reading "{story.title}"!</p>
 			<a
 				href="/"
-				class="inline-block rounded-lg bg-gradient-to-r from-orange-500 to-amber-500 px-6 py-3 font-medium text-white shadow-lg transition-all hover:from-orange-600 hover:to-amber-600 hover:shadow-xl"
+				class="inline-block px-8 py-3 font-medium {currentTheme.mutedColor} hover:{currentTheme.textColor} transition-colors underline underline-offset-4"
 			>
 				Read More Stories
 			</a>
@@ -131,56 +112,6 @@
 {/if}
 
 <style>
-	@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;1,400&family=Merriweather:ital,wght@0,400;0,700;1,400&display=swap');
-	
-	:global(.story-container .prose) {
-		font-family: 'Crimson Text', serif;
-		font-size: 1.25rem;
-		line-height: 1.8;
-		color: #451a03;
-	}
-
-	:global(.story-container .prose h1) {
-		font-family: 'Merriweather', serif;
-		color: #92400e;
-		margin-bottom: 1.5rem;
-		line-height: 1.3;
-	}
-
-	:global(.story-container .prose h2) {
-		font-family: 'Merriweather', serif;
-		color: #92400e;
-		margin-bottom: 1rem;
-	}
-
-	:global(.story-container .prose p) {
-		margin-bottom: 1.75rem;
-		text-align: justify;
-		text-indent: 2em;
-	}
-
-	:global(.story-container .prose p:first-of-type) {
-		text-indent: 0;
-		font-size: 1.3rem;
-		font-weight: 600;
-		color: #78350f;
-	}
-
-	:global(.story-container .prose em) {
-		font-style: italic;
-		color: #a16207;
-		text-align: center;
-		display: block;
-		margin: 2rem 0;
-		font-size: 1rem;
-		text-indent: 0;
-	}
-
-	:global(.story-container .prose strong) {
-		color: #78350f;
-		font-weight: 600;
-	}
-
 	/* Smooth scrolling for the whole page */
 	:global(html) {
 		scroll-behavior: smooth;
@@ -202,26 +133,73 @@
 		box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
 	}
 
+	/* Ensure all story content inherits the text color */
+	:global(.story-content *) {
+		color: inherit !important;
+	}
+
+	/* Typography styles that adapt to current design */
+	:global(.story-container .prose h1) {
+		font-weight: 700;
+		margin-bottom: 1.5rem;
+		line-height: 1.3;
+		font-size: 2.5rem;
+	}
+
+	:global(.story-container .prose h2) {
+		font-weight: 600;
+		margin-bottom: 1rem;
+		font-size: 2rem;
+	}
+
+	:global(.story-container .prose p) {
+		margin-bottom: 1.75rem;
+		text-indent: 2em;
+		font-size: 1.2rem;
+		line-height: 1.8;
+	}
+
+	:global(.story-container .prose p:first-of-type) {
+		text-indent: 0;
+		font-size: 1.3em;
+		font-weight: 600;
+		opacity: 0.9;
+	}
+
+	:global(.story-container .prose em) {
+		font-style: italic;
+		text-align: center;
+		display: block;
+		margin: 2rem 0;
+		font-size: 0.9em;
+		text-indent: 0;
+		opacity: 0.8;
+	}
+
+	:global(.story-container .prose strong) {
+		font-weight: 600;
+		opacity: 0.9;
+	}
+
 	/* Drop caps for chapter beginnings */
 	:global(.chapter-content p:first-of-type::first-letter) {
 		float: left;
-		font-family: 'Merriweather', serif;
 		font-size: 4rem;
 		line-height: 3rem;
 		padding-right: 0.5rem;
 		padding-top: 0.25rem;
-		color: #d97706;
 		font-weight: 700;
+		opacity: 0.7;
 	}
 
 	/* Elegant quote styling */
 	:global(.story-container .prose blockquote) {
-		border-left: 4px solid #d97706;
-		background: rgba(217, 119, 6, 0.05);
+		border-left: 4px solid currentColor;
+		background: rgba(0, 0, 0, 0.05);
 		padding: 1.5rem;
 		margin: 2rem 0;
 		border-radius: 0 0.5rem 0.5rem 0;
 		font-style: italic;
-		color: #78350f;
+		opacity: 0.9;
 	}
 </style>

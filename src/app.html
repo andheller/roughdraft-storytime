@@ -4,6 +4,23 @@
 		<meta charset="utf-8" />
 		<link rel="icon" href="%sveltekit.assets%/favicon.svg" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<script>
+			// Prevent theme flash by setting theme class immediately
+			(function() {
+				const savedTheme = document.cookie
+					.split('; ')
+					.find(row => row.startsWith('story-theme='))
+					?.split('=')[1] || 'white';
+				
+				const themeClasses = {
+					white: 'bg-white',
+					dark: 'bg-gray-900', 
+					sepia: 'bg-orange-50'
+				};
+				
+				document.documentElement.className = themeClasses[savedTheme] || 'bg-white';
+			})();
+		</script>
 		%sveltekit.head%
 	</head>
 	<body data-sveltekit-preload-data="hover">
