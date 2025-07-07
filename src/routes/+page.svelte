@@ -16,17 +16,20 @@
 		// Check for navigation state from back button
 		const fromStory = window.history.state?.from === 'story';
 		const referrer = document.referrer;
-		const isStoryReferrer = referrer && referrer.includes(window.location.origin) && 
-							  !referrer.endsWith('/') && !referrer.includes('/#');
-		
+		const isStoryReferrer =
+			referrer &&
+			referrer.includes(window.location.origin) &&
+			!referrer.endsWith('/') &&
+			!referrer.includes('/#');
+
 		if (fromStory || isStoryReferrer) {
 			isReturning = true;
 		}
 	}
-	
+
 	// Calculate books per shelf based on screen size
 	let booksPerShelf = $state(5);
-	
+
 	// Update books per shelf based on window size and available space
 	function updateBooksPerShelf() {
 		if (typeof window !== 'undefined') {
@@ -50,7 +53,7 @@
 			}
 		}
 	}
-	
+
 	// Initialize and listen for resize
 	if (typeof window !== 'undefined') {
 		updateBooksPerShelf();
@@ -106,17 +109,20 @@
 		}
 		return coverStyle;
 	}
-
 </script>
 
 <svelte:head>
 	<title>Bookshelf - Kids Story Collection</title>
 </svelte:head>
 
-<div class="bookshelf-room {isTransitioning ? 'transitioning-out' : ''} {isReturning ? 'returning' : ''}">
+<div
+	class="bookshelf-room {isTransitioning ? 'transitioning-out' : ''} {isReturning
+		? 'returning'
+		: ''}"
+>
 	<!-- Wood background with depth -->
 	<div class="wood-background"></div>
-	
+
 	<!-- Warm lighting overlay -->
 	<div class="lighting-overlay"></div>
 
@@ -124,7 +130,6 @@
 		<header class="bookshelf-header">
 			<h1>Roughdraft Storytime</h1>
 			<p>Where stories come to life, one draft at a time</p>
-			
 		</header>
 
 		<!-- Bookshelf with Shelves -->
@@ -138,7 +143,7 @@
 						<div class="shelf-edge"></div>
 						<div class="shelf-shadow"></div>
 					</div>
-					
+
 					<!-- Books on this shelf -->
 					<div class="shelf-books">
 						{#each bookList.slice(shelfIndex * booksPerShelf, (shelfIndex + 1) * booksPerShelf) as book, bookIndex (book.id)}
@@ -157,7 +162,11 @@
 													<h3 class="book-title">{book.title}</h3>
 													{#if book.coverImage}
 														<div class="book-cover-image-container">
-															<img src={book.coverImage} alt={book.title} class="book-cover-image" />
+															<img
+																src={book.coverImage}
+																alt={book.title}
+																class="book-cover-image"
+															/>
 														</div>
 													{/if}
 												</div>
@@ -180,7 +189,7 @@
 		<div class="book-modal" onclick={closeBook} role="button" tabindex="-1">
 			<div class="book-modal-content" onclick={(e) => e.stopPropagation()}>
 				<button class="close-btn" onclick={closeBook} aria-label="Close book">×</button>
-				
+
 				<div class="book-detail">
 					<div class="book-cover-large">
 						<div class="book-cover-front-large" style="--book-color: {selectedBook.leatherColor};">
@@ -191,7 +200,11 @@
 										<p class="cover-author-large">by {selectedBook.author}</p>
 										{#if selectedBook.coverImage}
 											<div class="book-cover-image-container-large">
-												<img src={selectedBook.coverImage} alt={selectedBook.title} class="book-cover-image-large" />
+												<img
+													src={selectedBook.coverImage}
+													alt={selectedBook.title}
+													class="book-cover-image-large"
+												/>
 											</div>
 										{/if}
 										<p class="cover-description">{selectedBook.description}</p>
@@ -201,7 +214,7 @@
 							<div class="book-pages-large"></div>
 						</div>
 					</div>
-					
+
 					<button class="open-book-btn" onclick={() => openBook(selectedBook)}>
 						Open Book & Start Reading
 					</button>
@@ -209,7 +222,6 @@
 			</div>
 		</div>
 	{/if}
-
 </div>
 
 <style>
@@ -219,7 +231,7 @@
 
 	.bookshelf-room {
 		min-height: 100vh;
-		background: #8B4513;
+		background: #8b4513;
 		position: relative;
 		overflow-x: hidden;
 	}
@@ -233,7 +245,7 @@
 	.wood-background {
 		position: absolute;
 		inset: 0;
-		background-image: url('/grain-options/2.png');
+		background-image: url('/grain-options/2.jpg');
 		background-size: 256px 256px;
 		background-repeat: repeat;
 		background-position: 0 0;
@@ -243,7 +255,7 @@
 
 	@media (prefers-color-scheme: dark) {
 		.wood-background {
-			background-image: url('/grain-options/dark.png');
+			background-image: url('/grain-options/dark.jpg');
 			opacity: 0.8;
 		}
 	}
@@ -252,10 +264,20 @@
 		content: '';
 		position: absolute;
 		inset: 0;
-		background: 
-			linear-gradient(45deg, rgba(139, 69, 19, 0.1) 0%, transparent 50%, rgba(101, 67, 33, 0.1) 100%),
-			linear-gradient(135deg, rgba(160, 82, 45, 0.05) 0%, transparent 50%, rgba(139, 69, 19, 0.05) 100%);
-		box-shadow: 
+		background:
+			linear-gradient(
+				45deg,
+				rgba(139, 69, 19, 0.1) 0%,
+				transparent 50%,
+				rgba(101, 67, 33, 0.1) 100%
+			),
+			linear-gradient(
+				135deg,
+				rgba(160, 82, 45, 0.05) 0%,
+				transparent 50%,
+				rgba(139, 69, 19, 0.05) 100%
+			);
+		box-shadow:
 			inset 0 0 200px rgba(101, 67, 33, 0.3),
 			inset 0 0 100px rgba(139, 69, 19, 0.2);
 	}
@@ -288,7 +310,7 @@
 	.bookshelf-header h1 {
 		font-size: clamp(2.5rem, 5vw, 4rem);
 		color: #1a0f0a;
-		text-shadow: 
+		text-shadow:
 			0 1px 0 rgba(255, 255, 255, 0.1),
 			0 -1px 0 rgba(0, 0, 0, 0.8),
 			inset 0 1px 2px rgba(0, 0, 0, 0.5);
@@ -300,7 +322,7 @@
 	@media (prefers-color-scheme: dark) {
 		.bookshelf-header h1 {
 			color: #ffffff;
-			text-shadow: 
+			text-shadow:
 				0 1px 0 rgba(0, 0, 0, 0.3),
 				0 -1px 0 rgba(255, 255, 255, 0.1),
 				0 2px 4px rgba(0, 0, 0, 0.8);
@@ -311,7 +333,7 @@
 		font-size: clamp(1.1rem, 2vw, 1.4rem);
 		color: #2c1810;
 		font-style: italic;
-		text-shadow: 
+		text-shadow:
 			0 1px 0 rgba(255, 255, 255, 0.08),
 			0 -1px 0 rgba(0, 0, 0, 0.6);
 		font-weight: 500;
@@ -320,14 +342,12 @@
 	@media (prefers-color-scheme: dark) {
 		.bookshelf-header p {
 			color: #e0e0e0;
-			text-shadow: 
+			text-shadow:
 				0 1px 0 rgba(0, 0, 0, 0.5),
 				0 -1px 0 rgba(255, 255, 255, 0.05),
 				0 2px 4px rgba(0, 0, 0, 0.7);
 		}
 	}
-
-
 
 	.bookshelf-container {
 		width: 100%;
@@ -360,15 +380,15 @@
 		height: 40px;
 		background: linear-gradient(to bottom, #ffffff 0%, #f5f5f5 100%);
 		border-radius: 4px 4px 0 0;
-		box-shadow: 
+		box-shadow:
 			0 2px 8px rgba(0, 0, 0, 0.3),
 			inset 0 1px 0 rgba(255, 255, 255, 0.6);
 	}
 
 	@media (prefers-color-scheme: dark) {
 		.shelf-surface {
-			background: linear-gradient(to bottom, #2F4F4F 0%, #1e3535 100%);
-			box-shadow: 
+			background: linear-gradient(to bottom, #2f4f4f 0%, #1e3535 100%);
+			box-shadow:
 				0 2px 8px rgba(0, 0, 0, 0.5),
 				inset 0 1px 0 rgba(255, 255, 255, 0.1);
 		}
@@ -378,7 +398,12 @@
 		content: '';
 		position: absolute;
 		inset: 0;
-		background: linear-gradient(to bottom, rgba(255, 255, 255, 0.1), transparent 50%, rgba(0, 0, 0, 0.1));
+		background: linear-gradient(
+			to bottom,
+			rgba(255, 255, 255, 0.1),
+			transparent 50%,
+			rgba(0, 0, 0, 0.1)
+		);
 		border-radius: 4px 4px 0 0;
 	}
 
@@ -389,7 +414,7 @@
 		right: 0;
 		height: 20px;
 		background: linear-gradient(to bottom, #f5f5f5 0%, #e8e8e8 100%);
-		box-shadow: 
+		box-shadow:
 			0 4px 12px rgba(0, 0, 0, 0.4),
 			inset 0 1px 0 rgba(255, 255, 255, 0.4);
 	}
@@ -397,7 +422,7 @@
 	@media (prefers-color-scheme: dark) {
 		.shelf-edge {
 			background: linear-gradient(to bottom, #1e3535 0%, #2a4545 100%);
-			box-shadow: 
+			box-shadow:
 				0 4px 12px rgba(0, 0, 0, 0.6),
 				inset 0 1px 0 rgba(255, 255, 255, 0.05);
 		}
@@ -471,13 +496,13 @@
 		right: -4px;
 		bottom: 4px;
 		width: 4px;
-		background: 
-			linear-gradient(to right, 
-				color-mix(in srgb, var(--book-color) 80%, #000000 20%),
-				color-mix(in srgb, var(--book-color) 70%, #000000 30%)
-			);
+		background: linear-gradient(
+			to right,
+			color-mix(in srgb, var(--book-color) 80%, #000000 20%),
+			color-mix(in srgb, var(--book-color) 70%, #000000 30%)
+		);
 		border-radius: 0 2px 2px 0;
-		box-shadow: 
+		box-shadow:
 			2px 0 4px rgba(0, 0, 0, 0.3),
 			inset -1px 0 2px rgba(0, 0, 0, 0.2);
 		opacity: 0;
@@ -505,7 +530,7 @@
 		border-radius: 0 6px 6px 0;
 		overflow: visible;
 		transform-style: preserve-3d;
-		box-shadow: 
+		box-shadow:
 			0 4px 12px rgba(0, 0, 0, 0.3),
 			0 0 0 1px rgba(255, 255, 255, 0.1);
 	}
@@ -516,8 +541,9 @@
 		position: relative;
 		overflow: hidden;
 		/* Darker color with subtle texture */
-		background: 
-			linear-gradient(135deg, 
+		background:
+			linear-gradient(
+				135deg,
 				color-mix(in srgb, var(--book-color) 80%, #000000 20%),
 				color-mix(in srgb, var(--book-color) 70%, #000000 30%)
 			),
@@ -535,7 +561,7 @@
 			/* Blur effect in the middle */
 			radial-gradient(ellipse 60% 40% at center, rgba(255, 255, 255, 0.1) 0%, transparent 70%),
 			/* Subtle edge darkening */
-			linear-gradient(to bottom, rgba(0, 0, 0, 0.1), transparent 30%, rgba(0, 0, 0, 0.2));
+				linear-gradient(to bottom, rgba(0, 0, 0, 0.1), transparent 30%, rgba(0, 0, 0, 0.2));
 		backdrop-filter: blur(0.5px);
 	}
 
@@ -585,7 +611,6 @@
 		color: rgba(255, 255, 255, 0.9);
 		text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
 	}
-
 
 	.book-illustration {
 		flex-grow: 1;
@@ -655,7 +680,7 @@
 			#f5f5f5 1px
 		) !important;
 		border-radius: 0 2px 2px 0;
-		box-shadow: 
+		box-shadow:
 			0 0 0 1px #ffffff,
 			0 2px 3px rgba(0, 0, 0, 0.15);
 		opacity: 0;
@@ -680,7 +705,7 @@
 			#f2f2f2 1px
 		) !important;
 		border-radius: 0 2px 2px 0;
-		box-shadow: 
+		box-shadow:
 			0 0 0 1px #ffffff,
 			0 2px 3px rgba(0, 0, 0, 0.12);
 		opacity: 0;
@@ -719,7 +744,7 @@
 		left: -8px;
 		bottom: 0;
 		width: 8px;
-		background: 
+		background:
 			linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1) 50%, transparent),
 			var(--book-color);
 		border-radius: 3px 0 0 3px;
@@ -791,7 +816,7 @@
 		position: relative;
 		border-radius: 0 8px 8px 0;
 		overflow: hidden;
-		box-shadow: 
+		box-shadow:
 			0 8px 20px rgba(0, 0, 0, 0.4),
 			0 0 0 1px rgba(255, 255, 255, 0.1);
 	}
@@ -802,8 +827,9 @@
 		position: relative;
 		overflow: hidden;
 		/* Darker color with subtle texture */
-		background: 
-			linear-gradient(135deg, 
+		background:
+			linear-gradient(
+				135deg,
 				color-mix(in srgb, var(--book-color) 80%, #000000 20%),
 				color-mix(in srgb, var(--book-color) 70%, #000000 30%)
 			),
@@ -821,7 +847,7 @@
 			/* Blur effect in the middle */
 			radial-gradient(ellipse 60% 40% at center, rgba(255, 255, 255, 0.1) 0%, transparent 70%),
 			/* Subtle edge darkening */
-			linear-gradient(to bottom, rgba(0, 0, 0, 0.1), transparent 30%, rgba(0, 0, 0, 0.2));
+				linear-gradient(to bottom, rgba(0, 0, 0, 0.1), transparent 30%, rgba(0, 0, 0, 0.2));
 		backdrop-filter: blur(0.5px);
 		pointer-events: none;
 	}
@@ -953,7 +979,9 @@
 
 	/* Page Transition Effects */
 	.bookshelf-room {
-		transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.3s ease;
+		transition:
+			transform 0.5s cubic-bezier(0.4, 0, 0.2, 1),
+			opacity 0.3s ease;
 	}
 
 	.bookshelf-room.transitioning-out {
@@ -978,34 +1006,68 @@
 	/* Animations */
 
 	@keyframes fadeIn {
-		from { opacity: 0; }
-		to { opacity: 1; }
+		from {
+			opacity: 0;
+		}
+		to {
+			opacity: 1;
+		}
 	}
 
 	@keyframes slideUp {
-		from { transform: translateY(30px); opacity: 0; }
-		to { transform: translateY(0); opacity: 1; }
+		from {
+			transform: translateY(30px);
+			opacity: 0;
+		}
+		to {
+			transform: translateY(0);
+			opacity: 1;
+		}
 	}
 
 	@keyframes bookEntrance {
-		from { transform: rotateY(-30deg) scale(0.8); opacity: 0; }
-		to { transform: rotateY(0deg) scale(1); opacity: 1; }
+		from {
+			transform: rotateY(-30deg) scale(0.8);
+			opacity: 0;
+		}
+		to {
+			transform: rotateY(0deg) scale(1);
+			opacity: 1;
+		}
 	}
 
 	@keyframes slideFromRight {
-		from { transform: translateX(100%); opacity: 0; }
-		to { transform: translateX(0); opacity: 1; }
+		from {
+			transform: translateX(100%);
+			opacity: 0;
+		}
+		to {
+			transform: translateX(0);
+			opacity: 1;
+		}
 	}
 
 	@keyframes bookOpenAnimation {
-		0% { transform: translateY(0) rotateY(0deg) scale(1); }
-		50% { transform: translateY(-10px) rotateY(-15deg) scale(1.1); }
-		100% { transform: translateY(-5px) rotateY(-10deg) scale(1.05); }
+		0% {
+			transform: translateY(0) rotateY(0deg) scale(1);
+		}
+		50% {
+			transform: translateY(-10px) rotateY(-15deg) scale(1.1);
+		}
+		100% {
+			transform: translateY(-5px) rotateY(-10deg) scale(1.05);
+		}
 	}
 
 	@keyframes slideFromLeft {
-		from { transform: translateX(-100%); opacity: 0; }
-		to { transform: translateX(0); opacity: 1; }
+		from {
+			transform: translateX(-100%);
+			opacity: 0;
+		}
+		to {
+			transform: translateX(0);
+			opacity: 1;
+		}
 	}
 
 	/* Responsive Design */
