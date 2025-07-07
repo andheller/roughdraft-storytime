@@ -10,7 +10,7 @@
 		"prepare": "svelte-kit sync || echo ''",
 		"format": "prettier --write .",
 		"lint": "prettier --check . && eslint .",
-		"deploy": "npx wrangler pages deploy .svelte-kit/cloudflare"
+		"deploy": "npx wrangler pages deploy .svelte-kit/cloudflare/_worker.js"
 	},
 	"devDependencies": {
 		"@eslint/compat": "^1.2.5",
