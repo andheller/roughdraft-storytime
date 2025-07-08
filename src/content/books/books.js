@@ -2,18 +2,34 @@
 export const bookList = [
 	{
 		id: 'silly-squirrels',
-		title: 'The Silly Squirrels Adventure',
+		title: 'The Great Acorn Hunt',
 		author: 'Story Time',
 		color: '#8B4513',
 		leatherColor: 'hsl(25, 70%, 35%)',
 		emoji: '🐿️',
 		coverImage: '/covers/silly-squirrels.jpg',
 		description:
-			'A fun tale about three silly squirrels who discover the magic of friendship and teamwork.',
-		storyId: 'silly-squirrels',
+			'A fun tale about a squirrel family - Mama, Papa, and Baby Nutty - who discover the magic of teamwork.',
+		seriesId: 'silly-squirrels',
+		storyId: 'the-great-acorn-hunt',
 		height: 240,
 		thickness: 55,
 		tilt: -2
+	},
+	{
+		id: 'professional-younger-sibling',
+		title: 'The Professional Younger Sibling',
+		author: 'Riley Thompson',
+		color: '#FF6B6B',
+		leatherColor: 'hsl(0, 79%, 72%)',
+		emoji: '👶',
+		description:
+			'Riley has the best job in the world: being a professional younger sibling. But when older siblings stage a convention against her, she discovers there might be more to family life than getting away with things.',
+		seriesId: 'the-professional-younger-sibling',
+		storyId: 'the-professional-younger-sibling',
+		height: 245,
+		thickness: 58,
+		tilt: 1
 	},
 	{
 		id: 'brave-bunny',

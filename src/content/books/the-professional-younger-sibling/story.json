@@ -1,0 +1,62 @@
+{
+  "id": "the-professional-younger-sibling",
+  "title": "The Professional Younger Sibling",
+  "author": "Riley Thompson",
+  "description": "Riley has the best job in the world: being a professional younger sibling. But when older siblings stage a convention against her, she discovers there might be more to family life than getting away with things.",
+  "coverImage": "/covers/professional-younger-sibling.jpg",
+  "ageRange": "7-9",
+  "genre": "Humor",
+  "tags": ["family", "siblings", "growing up", "humor"],
+  "chapters": [
+    {
+      "id": 1,
+      "title": "My Professional Qualifications",
+      "file": "chapter-1.md"
+    },
+    {
+      "id": 2,
+      "title": "The Older Sibling Convention",
+      "file": "chapter-2.md"
+    },
+    {
+      "id": 3,
+      "title": "Field Research", 
+      "file": "chapter-3.md"
+    },
+    {
+      "id": 4,
+      "title": "The Substitute Youngest",
+      "file": "chapter-4.md"
+    },
+    {
+      "id": 5,
+      "title": "Professional Development Day",
+      "file": "chapter-5.md"
+    },
+    {
+      "id": 6,
+      "title": "The Great Sibling Strike",
+      "file": "chapter-6.md"
+    },
+    {
+      "id": 7,
+      "title": "Consulting for the Opposition",
+      "file": "chapter-7.md"
+    },
+    {
+      "id": 8,
+      "title": "The Retirement Plan",
+      "file": "chapter-8.md"
+    },
+    {
+      "id": 9,
+      "title": "Advanced Sibling Relations",
+      "file": "chapter-9.md"
+    },
+    {
+      "id": 10,
+      "title": "The Professional Family Member",
+      "file": "chapter-10.md"
+    }
+  ]
+}

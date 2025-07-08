@@ -2,9 +2,9 @@
 	import { parseMarkdown } from './markdown.js';
 	import { getStory } from '../content/stories/index.js';
 
-	let { storyId, currentDesign, currentTheme } = $props();
+	let { seriesId, storyId, currentDesign, currentTheme } = $props();
 
-	let story = $state(getStory(storyId));
+	let story = $state(getStory(seriesId, storyId));
 	let chaptersWithContent = $state([]);
 
 	$effect(() => {
@@ -184,10 +184,10 @@
 	/* Drop caps for chapter beginnings */
 	:global(.chapter-content p:first-of-type::first-letter) {
 		float: left;
-		font-size: 4rem;
-		line-height: 3rem;
-		padding-right: 0.5rem;
-		padding-top: 0.25rem;
+		font-size: 6rem;
+		line-height: 2.4rem;
+		padding-right: 0.75rem;
+		padding-top: 0.125rem;
 		font-weight: 700;
 		opacity: 0.7;
 	}

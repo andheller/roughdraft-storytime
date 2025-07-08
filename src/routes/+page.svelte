@@ -1,13 +1,11 @@
 <script>
-	import { bookList } from '$lib/books.js';
+	import { bookList } from '$content/books/books.js';
 	import { goto } from '$app/navigation';
 	import { browser } from '$app/environment';
 	import { page } from '$app/stores';
 
 	let selectedBook = $state(null);
-	let showBookModal = $state(false);
 	let animatingBook = $state(null);
-	let coverStyle = $state('fabric'); // Only using fabric now
 	let isTransitioning = $state(false);
 	let isReturning = $state(false);
 
@@ -30,27 +28,23 @@
 	// Calculate books per shelf based on screen size
 	let booksPerShelf = $state(5);
 
-	// Update books per shelf based on window size and available space
+	// Update books per shelf based on window size
 	function updateBooksPerShelf() {
-		if (typeof window !== 'undefined') {
-			if (window.innerWidth < 480) {
-				// Book width: 120px, gap: 8px, padding: 2rem total = 32px
-				// Available: 480px - 32px = 448px
-				booksPerShelf = 2; // 2 books × 120px + 1 gap × 8px = 248px
-			} else if (window.innerWidth < 768) {
-				// Book width: 140px, gap: 12px, padding: 3rem total = 48px
-				// Available: 768px - 48px = 720px
-				booksPerShelf = 2; // 2 books × 140px + 1 gap × 12px = 292px
-			} else if (window.innerWidth < 1000) {
-				// Book width: 180px, gap: 16px, padding: 6rem total = 96px
-				booksPerShelf = 4; // 4 books × 180px + 3 gaps × 16px = 768px
-			} else if (window.innerWidth < 1400) {
-				// Book width: 180px, gap: 16px, container max 1200px
-				booksPerShelf = 5; // 5 books × 180px + 4 gaps × 16px = 964px
-			} else {
-				// Book width: 200px, gap: 24px, container max 1200px
-				booksPerShelf = 5; // Keep at 5 to avoid overflow
-			}
+		if (typeof window === 'undefined') return;
+		
+		const width = window.innerWidth;
+		if (width < 480) {
+			booksPerShelf = 1;  // Extra small phones
+		} else if (width < 640) {
+			booksPerShelf = 2;  // Small phones
+		} else if (width < 768) {
+			booksPerShelf = 2;  // Large phones
+		} else if (width < 1024) {
+			booksPerShelf = 3;  // Tablets
+		} else if (width < 1200) {
+			booksPerShelf = 4;  // Small laptops
+		} else {
+			booksPerShelf = 5;  // Large laptops and up
 		}
 	}
 
@@ -72,17 +66,14 @@
 			}, 100);
 			// Navigate after book animation completes
 			setTimeout(() => {
-				goto(`/${book.storyId}`, { state: { from: 'bookshelf' } });
+				goto(`/${book.seriesId}/${book.storyId}`, { state: { from: 'bookshelf' } });
 			}, 400);
 		}
 	}
 
 	function closeBook() {
-		showBookModal = false;
-		setTimeout(() => {
-			selectedBook = null;
-			animatingBook = null;
-		}, 300);
+		selectedBook = null;
+		animatingBook = null;
 	}
 
 	function openBook(book) {
@@ -91,7 +82,7 @@
 			isTransitioning = true;
 		}, 50);
 		setTimeout(() => {
-			goto(`/${book.storyId}`, { state: { from: 'bookshelf' } });
+			goto(`/${book.seriesId}/${book.storyId}`, { state: { from: 'bookshelf' } });
 		}, 150);
 	}
 
@@ -102,13 +93,6 @@
 		}
 	}
 
-	function getBookCoverStyle(book, index) {
-		if (coverStyle === 'mixed') {
-			const styles = ['fabric', 'plain', 'vintage'];
-			return styles[index % styles.length];
-		}
-		return coverStyle;
-	}
 </script>
 
 <svelte:head>
@@ -185,8 +169,8 @@
 	</div>
 
 	<!-- Book Detail Modal -->
-	{#if showBookModal && selectedBook}
-		<div class="book-modal" onclick={closeBook} role="button" tabindex="-1">
+	{#if selectedBook}
+		<div class="book-modal" onclick={closeBook} onkeydown={(e) => e.key === 'Escape' && closeBook()}>
 			<div class="book-modal-content" onclick={(e) => e.stopPropagation()}>
 				<button class="close-btn" onclick={closeBook} aria-label="Close book">×</button>
 
@@ -236,12 +220,6 @@
 		overflow-x: hidden;
 	}
 
-	@media (prefers-color-scheme: dark) {
-		.bookshelf-room {
-			background: #2e1810;
-		}
-	}
-
 	.wood-background {
 		position: absolute;
 		inset: 0;
@@ -251,13 +229,6 @@
 		background-position: 0 0;
 		opacity: 0.9;
 		z-index: 0;
-	}
-
-	@media (prefers-color-scheme: dark) {
-		.wood-background {
-			background-image: url('/grain-options/dark.jpg');
-			opacity: 0.8;
-		}
 	}
 
 	.wood-background::before {
@@ -319,16 +290,6 @@
 		font-weight: bold;
 	}
 
-	@media (prefers-color-scheme: dark) {
-		.bookshelf-header h1 {
-			color: #ffffff;
-			text-shadow:
-				0 1px 0 rgba(0, 0, 0, 0.3),
-				0 -1px 0 rgba(255, 255, 255, 0.1),
-				0 2px 4px rgba(0, 0, 0, 0.8);
-		}
-	}
-
 	.bookshelf-header p {
 		font-size: clamp(1.1rem, 2vw, 1.4rem);
 		color: #2c1810;
@@ -337,16 +298,6 @@
 			0 1px 0 rgba(255, 255, 255, 0.08),
 			0 -1px 0 rgba(0, 0, 0, 0.6);
 		font-weight: 500;
-	}
-
-	@media (prefers-color-scheme: dark) {
-		.bookshelf-header p {
-			color: #e0e0e0;
-			text-shadow:
-				0 1px 0 rgba(0, 0, 0, 0.5),
-				0 -1px 0 rgba(255, 255, 255, 0.05),
-				0 2px 4px rgba(0, 0, 0, 0.7);
-		}
 	}
 
 	.bookshelf-container {
@@ -385,15 +336,6 @@
 			inset 0 1px 0 rgba(255, 255, 255, 0.6);
 	}
 
-	@media (prefers-color-scheme: dark) {
-		.shelf-surface {
-			background: linear-gradient(to bottom, #2f4f4f 0%, #1e3535 100%);
-			box-shadow:
-				0 2px 8px rgba(0, 0, 0, 0.5),
-				inset 0 1px 0 rgba(255, 255, 255, 0.1);
-		}
-	}
-
 	.shelf-surface::before {
 		content: '';
 		position: absolute;
@@ -419,15 +361,6 @@
 			inset 0 1px 0 rgba(255, 255, 255, 0.4);
 	}
 
-	@media (prefers-color-scheme: dark) {
-		.shelf-edge {
-			background: linear-gradient(to bottom, #1e3535 0%, #2a4545 100%);
-			box-shadow:
-				0 4px 12px rgba(0, 0, 0, 0.6),
-				inset 0 1px 0 rgba(255, 255, 255, 0.05);
-		}
-	}
-
 	.shelf-shadow {
 		position: absolute;
 		top: 60px;
@@ -446,7 +379,7 @@
 		right: 0;
 		height: 220px;
 		display: flex;
-		justify-content: center;
+		justify-content: space-evenly;
 		align-items: flex-end;
 		gap: 1rem;
 		padding: 0 3rem;
@@ -604,26 +537,6 @@
 		text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
 	}
 
-	.book-author {
-		font-size: 14px;
-		margin-bottom: 15px;
-		font-style: italic;
-		color: rgba(255, 255, 255, 0.9);
-		text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
-	}
-
-	.book-illustration {
-		flex-grow: 1;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-	}
-
-	.book-emoji {
-		font-size: 48px;
-		filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.3));
-	}
-
 	.book-cover-image-container {
 		position: absolute;
 		inset: 0;
@@ -648,14 +561,14 @@
 		background: #ffffff !important;
 		background-image: repeating-linear-gradient(
 			to bottom,
-			#ffffff 0px,
-			#ffffff 0.5px,
-			#f8f8f8 0.5px,
-			#f8f8f8 1px
+			var(--book-color) 0px,
+			var(--book-color) 0.05px,
+			#ffffff 0.05px,
+			#ffffff 1px
 		) !important;
 		border-radius: 0 2px 2px 0;
 		box-shadow:
-			0 0 0 1px #ffffff,
+			0 0 0 0.5px var(--book-color),
 			0 2px 4px rgba(0, 0, 0, 0.2);
 		overflow: visible;
 		transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
@@ -674,14 +587,14 @@
 		background: #ffffff !important;
 		background-image: repeating-linear-gradient(
 			to bottom,
-			#ffffff 0px,
-			#ffffff 0.5px,
-			#f5f5f5 0.5px,
-			#f5f5f5 1px
+			var(--book-color) 0px,
+			var(--book-color) 0.05px,
+			#ffffff 0.05px,
+			#ffffff 1px
 		) !important;
 		border-radius: 0 2px 2px 0;
 		box-shadow:
-			0 0 0 1px #ffffff,
+			0 0 0 1px var(--book-color),
 			0 2px 3px rgba(0, 0, 0, 0.15);
 		opacity: 0;
 		transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
@@ -699,14 +612,14 @@
 		background: #ffffff !important;
 		background-image: repeating-linear-gradient(
 			to bottom,
-			#ffffff 0px,
-			#ffffff 0.5px,
-			#f2f2f2 0.5px,
-			#f2f2f2 1px
+			var(--book-color) 0px,
+			var(--book-color) 0.05px,
+			#ffffff 0.05px,
+			#ffffff 1px
 		) !important;
 		border-radius: 0 2px 2px 0;
 		box-shadow:
-			0 0 0 1px #ffffff,
+			0 0 0 1px var(--book-color),
 			0 2px 3px rgba(0, 0, 0, 0.12);
 		opacity: 0;
 		transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
@@ -719,7 +632,7 @@
 		transform: rotateY(1deg);
 		width: 2px;
 		right: -3px;
-		z-index: 5;
+		z-index: 1;
 	}
 
 	.book-card:hover .book-pages::before {
@@ -727,7 +640,7 @@
 		transform: rotateY(2deg);
 		right: -2px;
 		width: 2px;
-		z-index: 4;
+		z-index: 0;
 	}
 
 	.book-card:hover .book-pages::after {
@@ -735,7 +648,7 @@
 		transform: rotateY(3deg);
 		right: -4px;
 		width: 2px;
-		z-index: 3;
+		z-index: -1;
 	}
 
 	.book-spine {
@@ -750,6 +663,7 @@
 		border-radius: 3px 0 0 3px;
 		box-shadow: -2px 0 6px rgba(0, 0, 0, 0.3);
 		overflow: hidden;
+		z-index: 2;
 	}
 
 	/* Modal Styles */
@@ -896,19 +810,6 @@
 		text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
 		margin-bottom: 25px;
 		font-style: italic;
-	}
-
-	.cover-illustration-large {
-		flex-grow: 1;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		margin-bottom: 20px;
-	}
-
-	.cover-emoji-large {
-		font-size: 100px;
-		filter: drop-shadow(4px 4px 8px rgba(0, 0, 0, 0.4));
 	}
 
 	.book-cover-image-container-large {
@@ -1092,14 +993,6 @@
 			font-size: 16px;
 		}
 
-		.book-author {
-			font-size: 12px;
-		}
-
-		.book-emoji {
-			font-size: 40px;
-		}
-
 		.book-cover-large {
 			width: 280px;
 			height: 380px;
@@ -1111,10 +1004,6 @@
 
 		.cover-author-large {
 			font-size: 14px;
-		}
-
-		.cover-emoji-large {
-			font-size: 80px;
 		}
 
 		.close-btn {
@@ -1151,14 +1040,6 @@
 			font-size: 14px;
 		}
 
-		.book-author {
-			font-size: 11px;
-		}
-
-		.book-emoji {
-			font-size: 36px;
-		}
-
 		.book-cover-large {
 			width: 250px;
 			height: 340px;
@@ -1166,10 +1047,6 @@
 
 		.cover-title-large {
 			font-size: 22px;
-		}
-
-		.cover-emoji-large {
-			font-size: 70px;
 		}
 
 		.cover-description {
@@ -1203,12 +1080,5 @@
 			font-size: 22px;
 		}
 
-		.book-author {
-			font-size: 16px;
-		}
-
-		.book-emoji {
-			font-size: 52px;
-		}
 	}
 </style>

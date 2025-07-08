@@ -1,0 +1,12 @@
+{
+	"title": "Silly Squirrels",
+	"description": "A collection of fun tales about squirrel families and their adventures",
+	"stories": [
+		{
+			"id": "the-great-acorn-hunt",
+			"title": "The Great Acorn Hunt",
+			"description": "A fun tale about a squirrel family - Mama, Papa, and Baby Nutty - who discover the magic of teamwork.",
+			"folder": "the-great-acorn-hunt"
+		}
+	]
+}
