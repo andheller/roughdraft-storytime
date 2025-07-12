@@ -1,4 +1,4 @@
-import { stories } from '../../../content/stories/index.js';
+import { getAvailableStories, storyExists } from '../../../lib/content-loader.js';
 import { error } from '@sveltejs/kit';
 
 // Enable prerendering for all story pages
@@ -6,40 +6,26 @@ export const prerender = true;
 
 // Generate all possible story routes for prerendering
 export async function entries() {
-	const entries = [];
+	const stories = await getAvailableStories();
 	
-	// Generate entries for all series and stories
-	Object.keys(stories).forEach(seriesId => {
-		const series = stories[seriesId];
-		series.stories.forEach(story => {
-			entries.push({
-				seriesId: seriesId,
-				storyId: story.id
-			});
-		});
-	});
-	
-	return entries;
+	return stories.map(story => ({
+		seriesId: story.seriesId,
+		storyId: story.storyId
+	}));
 }
 
 // Load story data for the page
 export async function load({ params }) {
 	const { seriesId, storyId } = params;
 
-	// Find the series
-	const series = stories[seriesId];
-	if (!series) {
-		throw error(404, `Series not found: ${seriesId}`);
-	}
-
-	// Find the story within the series
-	const story = series.stories.find((s) => s.id === storyId);
-	if (!story) {
-		throw error(404, `Story not found: ${storyId} in series ${seriesId}`);
+	// Check if story exists
+	if (!storyExists(seriesId, storyId)) {
+		throw error(404, `Story not found: ${seriesId}/${storyId}`);
 	}
 
 	return {
-		story,
+		seriesId,
+		storyId,
 		theme: {
 			theme: 'white',
 			fontType: 'serif'

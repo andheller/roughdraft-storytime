@@ -1,0 +1,31 @@
+{
+  "title": "The Silly Squirrels Power Up!",
+  "description": "Join Mama, Papa, and Nutty as they discover the amazing power of steam engines and learn how rockets and submarines work! A fun adventure full of science and silly jokes.",
+  "chapters": [
+    {
+      "id": 1,
+      "title": "The Steamy Discovery",
+      "file": "chapter-1.md"
+    },
+    {
+      "id": 2,
+      "title": "Steam Engine Shenanigans",
+      "file": "chapter-2.md"
+    },
+    {
+      "id": 3,
+      "title": "Rocket-Powered Chaos",
+      "file": "chapter-3.md"
+    },
+    {
+      "id": 4,
+      "title": "Submarine Surprises",
+      "file": "chapter-4.md"
+    },
+    {
+      "id": 5,
+      "title": "The Epic Steam Spectacular",
+      "file": "chapter-5.md"
+    }
+  ]
+}

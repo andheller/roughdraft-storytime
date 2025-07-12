@@ -1,0 +1,15 @@
+{
+  "seriesId": "silly-squirrels",
+  "storyId": "the-silly-squirrels-power-up",
+  "title": "The Silly Squirrels Power Up!",
+  "generatedAt": "2025-07-09T18:19:45.416Z",
+  "voice": "Rachel",
+  "voice_id": "EXAVITQu4vr4xnSDxMaL",
+  "model": "eleven_multilingual_v2",
+  "chapters": [
+    {
+      "id": 1,
+      "filename": "chapter-1.mp3"
+    }
+  ]
+}

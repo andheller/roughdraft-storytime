@@ -5,8 +5,14 @@
 		{
 			"id": "the-great-acorn-hunt",
 			"title": "The Great Acorn Hunt",
-			"description": "A fun tale about a squirrel family - Mama, Papa, and Baby Nutty - who discover the magic of teamwork.",
+			"description": "A fun tale about a squirrel family - Mama, Papa, and Nutty - who discover the magic of teamwork.",
 			"folder": "the-great-acorn-hunt"
+		},
+		{
+			"id": "the-silly-squirrels-power-up",
+			"title": "The Silly Squirrels Power Up!",
+			"description": "Join Mama, Papa, and Nutty as they discover the amazing power of steam engines and learn how rockets and submarines work! A fun adventure full of science and silly jokes.",
+			"folder": "the-silly-squirrels-power-up"
 		}
 	]
 }

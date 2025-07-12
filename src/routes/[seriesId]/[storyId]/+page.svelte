@@ -7,8 +7,8 @@
 
 	let { data } = $props();
 
-	let storyId = data.story.id;
-	let seriesId = data.story.seriesId;
+	let storyId = data.storyId;
+	let seriesId = data.seriesId;
 	
 	// Start with server-side theme data (defaults for prerendered pages)
 	let currentDesign = $state(data.theme);
@@ -105,14 +105,14 @@
 </script>
 
 <svelte:head>
-	<title>{data.story.title} - Kids Story Collection</title>
-	<meta name="description" content={data.story.description} />
+	<title>{storyId} - Kids Story Collection</title>
+	<meta name="description" content="Children's story" />
 	<meta
 		name="keywords"
-		content="kids story, children's book, {data.story.title.toLowerCase()}, children's literature"
+		content="kids story, children's book, {storyId.toLowerCase()}, children's literature"
 	/>
-	<meta property="og:title" content={data.story.title} />
-	<meta property="og:description" content={data.story.description} />
+	<meta property="og:title" content={storyId} />
+	<meta property="og:description" content="Children's story" />
 	<meta property="og:type" content="book" />
 </svelte:head>
 

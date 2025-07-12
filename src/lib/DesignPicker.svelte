@@ -74,9 +74,10 @@
 	<div class="flex items-center gap-1 bg-white/80 backdrop-blur-sm rounded-lg p-1">
 		{#each Object.entries(themes) as [key, theme]}
 			<button
-				on:click={() => updateTheme(key)}
+				onclick={() => updateTheme(key)}
 				class="w-8 h-8 rounded {theme.bgColor} border-2 transition-all {design.theme === key ? 'border-gray-400 scale-110' : 'border-gray-200 hover:border-gray-300'}"
 				title={theme.name}
+			aria-label="Select {theme.name} theme"
 			></button>
 		{/each}
 	</div>
@@ -84,16 +85,18 @@
 	<!-- Font Type Buttons -->
 	<div class="flex items-center gap-1 bg-white/80 backdrop-blur-sm rounded-lg p-1">
 		<button
-			on:click={() => setFontType('serif')}
+			onclick={() => setFontType('serif')}
 			class="w-8 h-8 flex items-center justify-center rounded font-serif text-lg transition-all {design.fontType === 'serif' ? 'bg-gray-200 text-gray-900' : 'text-gray-600 hover:text-gray-800'}"
 			title="Serif font"
+			aria-label="Select serif font"
 		>
 			A
 		</button>
 		<button
-			on:click={() => setFontType('sans')}
+			onclick={() => setFontType('sans')}
 			class="w-8 h-8 flex items-center justify-center rounded font-sans text-lg transition-all {design.fontType === 'sans' ? 'bg-gray-200 text-gray-900' : 'text-gray-600 hover:text-gray-800'}"
 			title="Sans-serif font"
+			aria-label="Select sans-serif font"
 		>
 			A
 		</button>

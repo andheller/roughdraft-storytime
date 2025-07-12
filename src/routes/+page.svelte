@@ -4,7 +4,6 @@
 	import { browser } from '$app/environment';
 	import { page } from '$app/stores';
 
-	let selectedBook = $state(null);
 	let animatingBook = $state(null);
 	let isTransitioning = $state(false);
 	let isReturning = $state(false);
@@ -55,36 +54,17 @@
 	}
 
 	function selectBook(book) {
-		if (selectedBook === book) {
-			closeBook();
-		} else {
-			selectedBook = book;
-			animatingBook = book.id;
-			// Start page transition immediately with book animation
-			setTimeout(() => {
-				isTransitioning = true;
-			}, 100);
-			// Navigate after book animation completes
-			setTimeout(() => {
-				goto(`/${book.seriesId}/${book.storyId}`, { state: { from: 'bookshelf' } });
-			}, 400);
-		}
-	}
-
-	function closeBook() {
-		selectedBook = null;
-		animatingBook = null;
-	}
-
-	function openBook(book) {
-		// Navigate to the story with transition
+		animatingBook = book.id;
+		// Start page transition immediately with book animation
 		setTimeout(() => {
 			isTransitioning = true;
-		}, 50);
+		}, 100);
+		// Navigate after book animation completes
 		setTimeout(() => {
 			goto(`/${book.seriesId}/${book.storyId}`, { state: { from: 'bookshelf' } });
-		}, 150);
+		}, 400);
 	}
+
 
 	function handleKeyDown(event, book) {
 		if (event.key === 'Enter' || event.key === ' ') {
@@ -168,44 +148,6 @@
 		</div>
 	</div>
 
-	<!-- Book Detail Modal -->
-	{#if selectedBook}
-		<div class="book-modal" onclick={closeBook} onkeydown={(e) => e.key === 'Escape' && closeBook()}>
-			<div class="book-modal-content" onclick={(e) => e.stopPropagation()}>
-				<button class="close-btn" onclick={closeBook} aria-label="Close book">×</button>
-
-				<div class="book-detail">
-					<div class="book-cover-large">
-						<div class="book-cover-front-large" style="--book-color: {selectedBook.leatherColor};">
-							<div class="cover-texture-large">
-								<div class="cover-content-large {selectedBook.coverImage ? 'no-padding' : ''}">
-									<div class="cover-border-large">
-										<h2 class="cover-title-large">{selectedBook.title}</h2>
-										<p class="cover-author-large">by {selectedBook.author}</p>
-										{#if selectedBook.coverImage}
-											<div class="book-cover-image-container-large">
-												<img
-													src={selectedBook.coverImage}
-													alt={selectedBook.title}
-													class="book-cover-image-large"
-												/>
-											</div>
-										{/if}
-										<p class="cover-description">{selectedBook.description}</p>
-									</div>
-								</div>
-							</div>
-							<div class="book-pages-large"></div>
-						</div>
-					</div>
-
-					<button class="open-book-btn" onclick={() => openBook(selectedBook)}>
-						Open Book & Start Reading
-					</button>
-				</div>
-			</div>
-		</div>
-	{/if}
 </div>
 
 <style>
@@ -405,7 +347,7 @@
 	}
 
 	.book-card.selected {
-		transform: scale(1.05) translateZ(30px);
+		transform: scale(1.02) translateZ(30px);
 		z-index: 10;
 	}
 
@@ -422,38 +364,14 @@
 		overflow: visible;
 	}
 
-	.book-cover::before {
-		content: '';
-		position: absolute;
-		top: 0;
-		right: -4px;
-		bottom: 4px;
-		width: 4px;
-		background: linear-gradient(
-			to right,
-			color-mix(in srgb, var(--book-color) 80%, #000000 20%),
-			color-mix(in srgb, var(--book-color) 70%, #000000 30%)
-		);
-		border-radius: 0 2px 2px 0;
-		box-shadow:
-			2px 0 4px rgba(0, 0, 0, 0.3),
-			inset -1px 0 2px rgba(0, 0, 0, 0.2);
-		opacity: 0;
-		transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-		z-index: -1;
-	}
-
-	.book-card:hover .book-cover::before {
-		opacity: 1;
-	}
 
 	.book-card:hover .book-cover {
-		transform: translateY(-3px) rotateY(-3deg) rotateX(1deg);
+		transform: translateY(-3px) rotateY(-8deg);
 		z-index: 10;
 	}
 
 	.book-card.selected .book-cover {
-		transform: translateY(-20px) rotateY(15deg) scale(1.1);
+		transform: translateY(-20px) rotateY(15deg) scale(1.05);
 	}
 
 	.book-cover-front {
@@ -558,20 +476,16 @@
 		right: -3px;
 		bottom: 3px;
 		width: 2px;
-		background: #ffffff !important;
-		background-image: repeating-linear-gradient(
-			to bottom,
-			var(--book-color) 0px,
-			var(--book-color) 0.05px,
-			#ffffff 0.05px,
-			#ffffff 1px
-		) !important;
-		border-radius: 0 2px 2px 0;
-		box-shadow:
-			0 0 0 0.5px var(--book-color),
-			0 2px 4px rgba(0, 0, 0, 0.2);
+		background: 
+			linear-gradient(to right, #fefcf8 0%, #fdfbf7 50%, #fcfaf6 100%),
+			linear-gradient(to bottom, rgba(255, 255, 255, 0.1) 0%, transparent 20%, rgba(0, 0, 0, 0.02) 80%, rgba(0, 0, 0, 0.04) 100%);
+		border-radius: 0 1px 1px 0;
+		box-shadow: 
+			0 3px 8px rgba(0, 0, 0, 0.15),
+			inset -0.5px 0 1px rgba(0, 0, 0, 0.1),
+			inset 0 1px 0 rgba(255, 255, 255, 0.3);
 		overflow: visible;
-		transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+		transition: all 0.25s cubic-bezier(0.25, 0.1, 0.25, 1);
 		transform-origin: left center;
 		opacity: 0;
 		z-index: 1;
@@ -584,20 +498,16 @@
 		right: -4px;
 		bottom: 0;
 		width: 2px;
-		background: #ffffff !important;
-		background-image: repeating-linear-gradient(
-			to bottom,
-			var(--book-color) 0px,
-			var(--book-color) 0.05px,
-			#ffffff 0.05px,
-			#ffffff 1px
-		) !important;
-		border-radius: 0 2px 2px 0;
-		box-shadow:
-			0 0 0 1px var(--book-color),
-			0 2px 3px rgba(0, 0, 0, 0.15);
+		background: 
+			linear-gradient(to right, #faf8f2 0%, #f9f7f1 50%, #f8f6f0 100%),
+			linear-gradient(to bottom, rgba(255, 255, 255, 0.08) 0%, transparent 25%, rgba(0, 0, 0, 0.03) 75%, rgba(0, 0, 0, 0.05) 100%);
+		border-radius: 0 1px 1px 0;
+		box-shadow: 
+			0 2px 6px rgba(0, 0, 0, 0.12),
+			inset -0.5px 0 1px rgba(0, 0, 0, 0.08),
+			inset 0 1px 0 rgba(255, 255, 255, 0.25);
 		opacity: 0;
-		transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+		transition: all 0.3s cubic-bezier(0.25, 0.1, 0.25, 1) 0.02s;
 		transform-origin: left center;
 		z-index: 0;
 	}
@@ -609,47 +519,44 @@
 		right: -8px;
 		bottom: 0;
 		width: 2px;
-		background: #ffffff !important;
-		background-image: repeating-linear-gradient(
-			to bottom,
-			var(--book-color) 0px,
-			var(--book-color) 0.05px,
-			#ffffff 0.05px,
-			#ffffff 1px
-		) !important;
-		border-radius: 0 2px 2px 0;
-		box-shadow:
-			0 0 0 1px var(--book-color),
-			0 2px 3px rgba(0, 0, 0, 0.12);
+		background: 
+			linear-gradient(to right, #f5f3eb 0%, #f4f2ea 50%, #f3f1e9 100%),
+			linear-gradient(to bottom, rgba(255, 255, 255, 0.06) 0%, transparent 30%, rgba(0, 0, 0, 0.04) 70%, rgba(0, 0, 0, 0.06) 100%);
+		border-radius: 0 1px 1px 0;
+		box-shadow: 
+			0 2px 5px rgba(0, 0, 0, 0.1),
+			inset -0.5px 0 1px rgba(0, 0, 0, 0.06),
+			inset 0 1px 0 rgba(255, 255, 255, 0.2);
 		opacity: 0;
-		transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+		transition: all 0.35s cubic-bezier(0.25, 0.1, 0.25, 1) 0.05s;
 		transform-origin: left center;
 		z-index: -1;
 	}
 
 	.book-card:hover .book-pages {
-		opacity: 1;
-		transform: rotateY(1deg);
-		width: 2px;
+		opacity: 0.95;
+		transform: rotateY(3deg) translateY(-1px);
+		width: 2.5px;
 		right: -3px;
 		z-index: 1;
 	}
 
 	.book-card:hover .book-pages::before {
-		opacity: 1;
-		transform: rotateY(2deg);
+		opacity: 0.9;
+		transform: rotateY(5deg) translateY(-2px);
 		right: -2px;
 		width: 2px;
 		z-index: 0;
 	}
 
 	.book-card:hover .book-pages::after {
-		opacity: 1;
-		transform: rotateY(3deg);
+		opacity: 0.85;
+		transform: rotateY(7deg) translateY(-3px);
 		right: -4px;
-		width: 2px;
+		width: 1.5px;
 		z-index: -1;
 	}
+
 
 	.book-spine {
 		position: absolute;
@@ -666,217 +573,6 @@
 		z-index: 2;
 	}
 
-	/* Modal Styles */
-	.book-modal {
-		position: fixed;
-		inset: 0;
-		background: rgba(0, 0, 0, 0.9);
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		z-index: 1000;
-		animation: fadeIn 0.3s ease;
-		backdrop-filter: blur(5px);
-	}
-
-	.book-modal-content {
-		position: relative;
-		animation: slideUp 0.4s ease;
-		max-width: 90vw;
-		max-height: 90vh;
-		overflow: auto;
-	}
-
-	.close-btn {
-		position: absolute;
-		top: -50px;
-		right: -50px;
-		width: 44px;
-		height: 44px;
-		border-radius: 50%;
-		background: rgba(255, 255, 255, 0.9);
-		border: none;
-		font-size: 28px;
-		cursor: pointer;
-		transition: all 0.2s ease;
-		z-index: 10;
-		box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
-		color: #333;
-		font-weight: bold;
-	}
-
-	.close-btn:hover {
-		background: white;
-		transform: scale(1.1);
-	}
-
-	.book-detail {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		gap: 2rem;
-	}
-
-	.book-cover-large {
-		width: 320px;
-		height: 440px;
-		transform-style: preserve-3d;
-		animation: bookEntrance 0.6s ease;
-	}
-
-	.book-cover-front-large {
-		width: 100%;
-		height: 100%;
-		position: relative;
-		border-radius: 0 8px 8px 0;
-		overflow: hidden;
-		box-shadow:
-			0 8px 20px rgba(0, 0, 0, 0.4),
-			0 0 0 1px rgba(255, 255, 255, 0.1);
-	}
-
-	.cover-texture-large {
-		width: 100%;
-		height: 100%;
-		position: relative;
-		overflow: hidden;
-		/* Darker color with subtle texture */
-		background:
-			linear-gradient(
-				135deg,
-				color-mix(in srgb, var(--book-color) 80%, #000000 20%),
-				color-mix(in srgb, var(--book-color) 70%, #000000 30%)
-			),
-			url('/texture/fabric.jpg');
-		background-size: 100%, 400px;
-		background-repeat: no-repeat, repeat;
-		background-blend-mode: normal, soft-light;
-	}
-
-	.cover-texture-large::before {
-		content: '';
-		position: absolute;
-		inset: 0;
-		background: 
-			/* Blur effect in the middle */
-			radial-gradient(ellipse 60% 40% at center, rgba(255, 255, 255, 0.1) 0%, transparent 70%),
-			/* Subtle edge darkening */
-				linear-gradient(to bottom, rgba(0, 0, 0, 0.1), transparent 30%, rgba(0, 0, 0, 0.2));
-		backdrop-filter: blur(0.5px);
-		pointer-events: none;
-	}
-
-	.cover-content-large {
-		position: absolute;
-		inset: 0;
-		padding: 30px 25px;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-	}
-
-	.cover-content-large.no-padding {
-		padding: 0;
-	}
-
-	.cover-border-large {
-		width: 100%;
-		height: 100%;
-		border: 3px solid rgba(255, 255, 255, 0.4);
-		border-radius: 6px;
-		padding: 25px;
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		text-align: center;
-		background: rgba(0, 0, 0, 0.2);
-		backdrop-filter: blur(1px);
-		box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.3);
-	}
-
-	.cover-title-large {
-		font-size: 28px;
-		font-weight: bold;
-		color: #ffffff;
-		text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
-		margin-bottom: 12px;
-		font-family: Georgia, serif;
-		line-height: 1.2;
-	}
-
-	.cover-author-large {
-		font-size: 16px;
-		color: rgba(255, 255, 255, 0.9);
-		text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
-		margin-bottom: 25px;
-		font-style: italic;
-	}
-
-	.book-cover-image-container-large {
-		position: absolute;
-		inset: 0;
-		overflow: hidden;
-		z-index: -1;
-	}
-
-	.book-cover-image-large {
-		width: 100%;
-		height: 100%;
-		object-fit: cover;
-		object-position: center;
-		box-shadow: inset 0 0 30px rgba(0, 0, 0, 0.5);
-	}
-
-	.cover-description {
-		font-size: 14px;
-		color: rgba(255, 255, 255, 0.9);
-		text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
-		line-height: 1.5;
-		font-family: Georgia, serif;
-	}
-
-	.book-pages-large {
-		position: absolute;
-		top: 5px;
-		right: -12px;
-		bottom: 5px;
-		width: 12px;
-		background: repeating-linear-gradient(
-			to bottom,
-			#f5f5dc,
-			#f5f5dc 1px,
-			#e8e8d0 1px,
-			#e8e8d0 2px
-		);
-		border-radius: 0 3px 3px 0;
-		box-shadow:
-			inset -2px 0 4px rgba(0, 0, 0, 0.2),
-			2px 0 4px rgba(0, 0, 0, 0.2);
-	}
-
-	.open-book-btn {
-		background: linear-gradient(135deg, #ffd700, #ffa500);
-		color: #2c1810;
-		border: none;
-		padding: 18px 36px;
-		border-radius: 50px;
-		font-size: 18px;
-		font-weight: bold;
-		cursor: pointer;
-		transition: all 0.3s ease;
-		box-shadow:
-			0 6px 20px rgba(255, 215, 0, 0.4),
-			inset 0 1px 0 rgba(255, 255, 255, 0.4);
-		font-family: Georgia, serif;
-	}
-
-	.open-book-btn:hover {
-		transform: translateY(-2px);
-		box-shadow:
-			0 8px 25px rgba(255, 215, 0, 0.6),
-			inset 0 1px 0 rgba(255, 255, 255, 0.6);
-		background: linear-gradient(135deg, #ffdb58, #ffb84d);
-	}
 
 	/* Page Transition Effects */
 	.bookshelf-room {
@@ -915,27 +611,6 @@
 		}
 	}
 
-	@keyframes slideUp {
-		from {
-			transform: translateY(30px);
-			opacity: 0;
-		}
-		to {
-			transform: translateY(0);
-			opacity: 1;
-		}
-	}
-
-	@keyframes bookEntrance {
-		from {
-			transform: rotateY(-30deg) scale(0.8);
-			opacity: 0;
-		}
-		to {
-			transform: rotateY(0deg) scale(1);
-			opacity: 1;
-		}
-	}
 
 	@keyframes slideFromRight {
 		from {
@@ -993,26 +668,6 @@
 			font-size: 16px;
 		}
 
-		.book-cover-large {
-			width: 280px;
-			height: 380px;
-		}
-
-		.cover-title-large {
-			font-size: 24px;
-		}
-
-		.cover-author-large {
-			font-size: 14px;
-		}
-
-		.close-btn {
-			top: -30px;
-			right: -30px;
-			width: 36px;
-			height: 36px;
-			font-size: 24px;
-		}
 	}
 
 	@media (max-width: 480px) {
@@ -1040,23 +695,6 @@
 			font-size: 14px;
 		}
 
-		.book-cover-large {
-			width: 250px;
-			height: 340px;
-		}
-
-		.cover-title-large {
-			font-size: 22px;
-		}
-
-		.cover-description {
-			font-size: 13px;
-		}
-
-		.open-book-btn {
-			padding: 14px 28px;
-			font-size: 16px;
-		}
 	}
 
 	@media (min-width: 1200px) {

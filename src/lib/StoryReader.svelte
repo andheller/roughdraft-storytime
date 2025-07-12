@@ -1,26 +1,67 @@
 <script>
 	import { parseMarkdown } from './markdown.js';
-	import { getStory } from '../content/stories/index.js';
+	import { loadStory, getChapterAudioUrl } from './content-loader.js';
+	import AudioPlayer from './AudioPlayer.svelte';
 
 	let { seriesId, storyId, currentDesign, currentTheme } = $props();
 
-	let story = $state(getStory(seriesId, storyId));
+	let story = $state(null);
 	let chaptersWithContent = $state([]);
+	let currentChapter = $state(1);
+	let currentAudioUrl = $state(null);
 
 	$effect(() => {
-		if (story) {
-			// Parse all chapters at once for SEO and continuous reading
-			chaptersWithContent = story.chapters.map((chapter) => ({
-				...chapter,
-				html: parseMarkdown(chapter.content)
-			}));
+		async function loadStoryData() {
+			try {
+				const storyData = await loadStory(seriesId, storyId);
+				story = storyData;
+				
+				// Parse all chapters at once for SEO and continuous reading
+				chaptersWithContent = storyData.chapters.map((chapter) => ({
+					...chapter,
+					html: parseMarkdown(chapter.content)
+				}));
+				
+				// Set initial audio URL if available
+				if (storyData.audio?.available) {
+					currentAudioUrl = getChapterAudioUrl(seriesId, storyId, currentChapter);
+				}
+			} catch (error) {
+				console.error('Failed to load story:', error);
+			}
+		}
+		
+		loadStoryData();
+	});
+
+	// Update audio URL when chapter changes
+	$effect(() => {
+		if (story?.audio?.available) {
+			// Check if current chapter has audio
+			const chapterAudio = story.audio.chapters.find(ch => ch.id === currentChapter);
+			currentAudioUrl = chapterAudio ? chapterAudio.audioUrl : null;
 		}
 	});
 
-	function scrollToChapter(chapterId) {
-		const element = document.getElementById(`chapter-${chapterId}`);
+	function scrollToChapter(chapterNumber) {
+		const element = document.getElementById(`chapter-${chapterNumber}`);
 		if (element) {
 			element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+		}
+		currentChapter = chapterNumber;
+	}
+
+	function goToNextChapter() {
+		if (currentChapter < story.chapters.length) {
+			currentChapter += 1;
+			scrollToChapter(currentChapter);
+		}
+	}
+
+	function goToPreviousChapter() {
+		if (currentChapter > 1) {
+			currentChapter -= 1;
+			scrollToChapter(currentChapter);
 		}
 	}
 
@@ -52,20 +93,55 @@
 					</svg>
 					<span class="font-medium">~{Math.ceil(story.chapters.length * 3)} min read</span>
 				</div>
+				{#if story.audio?.available}
+					<div class="flex items-center gap-2">
+						<svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M9 12a3 3 0 106 0 3 3 0 00-6 0z"/>
+						</svg>
+						<span class="font-medium">Audio Available ({story.audio.voice})</span>
+					</div>
+				{/if}
 			</div>
+			
+			<!-- Audio Player -->
+			{#if story.audio?.available}
+				<div class="mb-8">
+					{#if currentAudioUrl}
+						<AudioPlayer 
+							bind:audioUrl={currentAudioUrl}
+							title="Chapter {currentChapter}"
+							onEnded={goToNextChapter}
+							className="max-w-2xl"
+							{currentChapter}
+							{story}
+							{goToNextChapter}
+							{goToPreviousChapter}
+						/>
+					{:else}
+						<div class="max-w-2xl bg-gray-100 border border-gray-200 rounded-lg p-4">
+							<div class="flex items-center gap-2 text-gray-600">
+								<svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+									<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M9 12a3 3 0 106 0 3 3 0 00-6 0z"/>
+								</svg>
+								<span>Audio not available for Chapter {currentChapter}</span>
+							</div>
+						</div>
+					{/if}
+				</div>
+			{/if}
 			
 			<!-- Table of Contents -->
 			<div class="mb-8">
 				<h2 class="mb-6 {fontClass} text-2xl font-semibold {currentTheme.textColor}">Table of Contents</h2>
 				<div class="grid gap-2 md:grid-cols-2 lg:grid-cols-3">
-					{#each story.chapters as chapter (chapter.id)}
+					{#each story.chapters as chapter, index (chapter.number)}
 						<button
-							on:click={() => scrollToChapter(chapter.id)}
+							onclick={() => scrollToChapter(chapter.number)}
 							class="group flex items-center gap-3 p-3 text-left transition-all hover:opacity-80 rounded-lg"
 							title="Jump to {chapter.title}"
 						>
 							<div class="flex h-6 w-6 items-center justify-center text-sm font-bold {currentTheme.mutedColor}">
-								{chapter.id}
+								{chapter.number}
 							</div>
 							<div class="flex-1">
 								<div class="font-medium {currentTheme.textColor}">{chapter.title}</div>
@@ -80,8 +156,8 @@
 
 		<!-- All Chapters -->
 		<main class="prose prose-lg max-w-none {fontClass} story-content {currentTheme.textColor}">
-			{#each chaptersWithContent as chapter (chapter.id)}
-				<section id="chapter-{chapter.id}" class="mb-20 scroll-mt-24">
+			{#each chaptersWithContent as chapter (chapter.number)}
+				<section id="chapter-{chapter.number}" class="mb-4 scroll-mt-24">
 					<div class="chapter-content py-8">
 						<!-- eslint-disable-next-line svelte/no-at-html-tags -->
 						{@html chapter.html}
@@ -119,7 +195,7 @@
 
 	/* Better spacing between chapters */
 	:global(.chapter-content) {
-		margin-bottom: 4rem;
+		margin-bottom: 1rem;
 	}
 
 	/* Make continue buttons more prominent */
@@ -155,7 +231,7 @@
 	:global(.story-container .prose p) {
 		margin-bottom: 1.75rem;
 		text-indent: 2em;
-		font-size: 1.2rem;
+		font-size: 1.35rem;
 		line-height: 1.8;
 	}
 
@@ -184,10 +260,10 @@
 	/* Drop caps for chapter beginnings */
 	:global(.chapter-content p:first-of-type::first-letter) {
 		float: left;
-		font-size: 6rem;
-		line-height: 2.4rem;
-		padding-right: 0.75rem;
-		padding-top: 0.125rem;
+		font-size: 3.5rem;
+		line-height: 1;
+		padding-right: 0.25rem;
+		margin-top: -0.25rem;
 		font-weight: 700;
 		opacity: 0.7;
 	}
