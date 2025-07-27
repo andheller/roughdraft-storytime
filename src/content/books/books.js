@@ -32,6 +32,21 @@ export const bookList = [
 		tilt: 3
 	},
 	{
+		id: 'silly-squirrels-sub-marine-adventure',
+		title: 'The Silly Squirrels Sub-Marine Adventure',
+		author: 'Story Time',
+		color: '#4682B4',
+		leatherColor: 'hsl(207, 44%, 49%)',
+		emoji: '🚢',
+		description:
+			'Join Mama, Papa, and Nutty as they build submarine after submarine, each one better than the last, on their quest to find the legendary golden acorn hidden deep in the river!',
+		seriesId: 'silly-squirrels',
+		storyId: 'the-silly-squirrels-sub-marine-adventure',
+		height: 255,
+		thickness: 65,
+		tilt: -1
+	},
+	{
 		id: 'professional-younger-sibling',
 		title: 'The Professional Younger Sibling',
 		author: 'Riley Thompson',

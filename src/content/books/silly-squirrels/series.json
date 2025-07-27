@@ -13,6 +13,12 @@
 			"title": "The Silly Squirrels Power Up!",
 			"description": "Join Mama, Papa, and Nutty as they discover the amazing power of steam engines and learn how rockets and submarines work! A fun adventure full of science and silly jokes.",
 			"folder": "the-silly-squirrels-power-up"
+		},
+		{
+			"id": "the-silly-squirrels-sub-marine-adventure",
+			"title": "The Silly Squirrels Sub-Marine Adventure",
+			"description": "Join Mama, Papa, and Nutty as they build submarine after submarine, each one better than the last, on their quest to find the legendary golden acorn hidden deep in the river!",
+			"folder": "the-silly-squirrels-sub-marine-adventure"
 		}
 	]
 }
