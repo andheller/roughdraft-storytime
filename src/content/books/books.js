@@ -62,6 +62,21 @@ export const bookList = [
 		tilt: 2
 	},
 	{
+		id: 'silly-squirrels-space-adventure',
+		title: 'The Silly Squirrels Space Adventure',
+		author: 'Claude',
+		color: '#8A2BE2',
+		leatherColor: 'hsl(271, 76%, 53%)',
+		emoji: '🚀',
+		description:
+			'Join Nutty, Mama, and Papa as they build a 4-stage rocket to solve Nutville\'s satellite problem and blast off on the most epic space adventure ever! But will their crash landing bring them back down to earth?',
+		seriesId: 'silly-squirrels',
+		storyId: 'the-silly-squirrels-space-adventure',
+		height: 260,
+		thickness: 68,
+		tilt: -3
+	},
+	{
 		id: 'professional-younger-sibling',
 		title: 'The Professional Younger Sibling',
 		author: 'Riley Thompson',

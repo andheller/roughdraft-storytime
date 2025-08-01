@@ -1,0 +1,35 @@
+{
+  "title": "The Silly Squirrels Space Adventure",
+  "author": "Claude",
+  "description": "Join Nutty, Mama, and Papa as they build a 4-stage rocket to solve Nutville's satellite problem and blast off on the most epic space adventure ever! But will their crash landing bring them back down to earth?",
+  "ageRange": "5-8",
+  "genre": "Adventure",
+  "tags": ["adventure", "space", "rockets", "engineering", "dreams", "family"],
+  "chapters": [
+    {
+      "id": 1,
+      "title": "The Satellite Situation",
+      "file": "chapter-1.md"
+    },
+    {
+      "id": 2,
+      "title": "The 4-Stage Rocket Plan",
+      "file": "chapter-2.md"
+    },
+    {
+      "id": 3,
+      "title": "Blast Off to Space!",
+      "file": "chapter-3.md"
+    },
+    {
+      "id": 4,
+      "title": "The Parachute Crash Landing",
+      "file": "chapter-4.md"
+    },
+    {
+      "id": 5,
+      "title": "Back Down to Earth",
+      "file": "chapter-5.md"
+    }
+  ]
+}

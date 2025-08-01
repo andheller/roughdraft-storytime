@@ -19,6 +19,12 @@
 			"title": "The Silly Squirrels Sub-Marine Adventure",
 			"description": "Join Mama, Papa, and Nutty as they build submarine after submarine, each one better than the last, on their quest to find the legendary golden acorn hidden deep in the river!",
 			"folder": "the-silly-squirrels-sub-marine-adventure"
+		},
+		{
+			"id": "the-silly-squirrels-space-adventure",
+			"title": "The Silly Squirrels Space Adventure",
+			"description": "Join Nutty, Mama, and Papa as they build a 4-stage rocket to solve Nutville's satellite problem and blast off on the most epic space adventure ever! But will their crash landing bring them back down to earth?",
+			"folder": "the-silly-squirrels-space-adventure"
 		}
 	]
 }
