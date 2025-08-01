@@ -47,6 +47,21 @@ export const bookList = [
 		tilt: -1
 	},
 	{
+		id: 'silly-squirrels-pizza-jetpack-delivery',
+		title: 'The Silly Squirrels Pizza Jetpack Delivery Service',
+		author: 'Claude',
+		color: '#FF8C00',
+		leatherColor: 'hsl(33, 100%, 50%)',
+		emoji: '🍕',
+		description:
+			'When the town needs faster pizza delivery, Nutkin and friends build jetpacks from soda bottles and don goofy hats as helmets! Join their hilarious adventure as they learn to fly and deliver pizzas with water gun wake-up calls and plenty of crashes along the way!',
+		seriesId: 'silly-squirrels',
+		storyId: 'the-silly-squirrels-pizza-jetpack-delivery',
+		height: 235,
+		thickness: 50,
+		tilt: 2
+	},
+	{
 		id: 'professional-younger-sibling',
 		title: 'The Professional Younger Sibling',
 		author: 'Riley Thompson',

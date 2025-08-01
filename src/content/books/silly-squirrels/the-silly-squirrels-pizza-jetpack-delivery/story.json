@@ -1,0 +1,35 @@
+{
+  "title": "The Silly Squirrels Pizza Jetpack Delivery Service",
+  "author": "Claude",
+  "description": "When the town needs faster pizza delivery, Nutkin and friends build jetpacks from soda bottles and don goofy hats as helmets! Join their hilarious adventure as they learn to fly and deliver pizzas with water gun wake-up calls and plenty of crashes along the way!",
+  "ageRange": "5-8",
+  "genre": "Comedy",
+  "tags": ["comedy", "adventure", "teamwork", "pizza", "jetpacks", "invention"],
+  "chapters": [
+    {
+      "id": 1,
+      "title": "The Pizza Problem",
+      "file": "chapter-1.md"
+    },
+    {
+      "id": 2,
+      "title": "Building Bottle Jetpacks",
+      "file": "chapter-2.md"
+    },
+    {
+      "id": 3,
+      "title": "Crash Landing Chronicles", 
+      "file": "chapter-3.md"
+    },
+    {
+      "id": 4,
+      "title": "Water Gun Wake-Up Calls",
+      "file": "chapter-4.md"
+    },
+    {
+      "id": 5,
+      "title": "Pizza Heroes Take Flight",
+      "file": "chapter-5.md"
+    }
+  ]
+}
