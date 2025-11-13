@@ -1,0 +1,50 @@
+{
+  "title": "The Ridiculous Restaurant",
+  "author": "Claude",
+  "description": "When four raccoons find an abandoned building, they have a brilliant idea: open a restaurant! There's just one tiny problem—none of them know the first thing about running a restaurant. What follows is a hilarious tale of garbage gourmet, menu mayhem, and the most ridiculous restaurant the town has ever seen!",
+  "ageRange": "6-9",
+  "genre": "Comedy/Adventure",
+  "tags": ["animals", "humor", "friendship", "problem-solving", "food", "nonsense"],
+  "chapters": [
+    {
+      "id": 1,
+      "title": "The Grand Opening (Disaster)",
+      "file": "chapter-1.md"
+    },
+    {
+      "id": 2,
+      "title": "The Menu Madness",
+      "file": "chapter-2.md"
+    },
+    {
+      "id": 3,
+      "title": "The Inspector Arrives",
+      "file": "chapter-3.md"
+    },
+    {
+      "id": 4,
+      "title": "The Celebrity Customer",
+      "file": "chapter-4.md"
+    },
+    {
+      "id": 5,
+      "title": "The Kitchen Catastrophe",
+      "file": "chapter-5.md"
+    },
+    {
+      "id": 6,
+      "title": "The Competition",
+      "file": "chapter-6.md"
+    },
+    {
+      "id": 7,
+      "title": "The Secret Ingredient",
+      "file": "chapter-7.md"
+    },
+    {
+      "id": 8,
+      "title": "The Big Review",
+      "file": "chapter-8.md"
+    }
+  ]
+}
