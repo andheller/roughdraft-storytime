@@ -1,0 +1,35 @@
+{
+  "title": "The Silly Squirrels TNT Spectacular",
+  "author": "Claude",
+  "description": "When Nutville's 100th anniversary celebration needs a fireworks show, Nutty discovers TWO MILLION sticks of TNT and decides to create the most explosive, spectacular, absolutely ridiculous show in history! What could possibly go wrong?",
+  "ageRange": "5-8",
+  "genre": "Adventure",
+  "tags": ["adventure", "celebration", "explosions", "comedy", "problem-solving", "family"],
+  "chapters": [
+    {
+      "id": 1,
+      "title": "The Boring Celebration Problem",
+      "file": "chapter-1.md"
+    },
+    {
+      "id": 2,
+      "title": "Two Million Sticks of TNT",
+      "file": "chapter-2.md"
+    },
+    {
+      "id": 3,
+      "title": "The Setup Shuffle",
+      "file": "chapter-3.md"
+    },
+    {
+      "id": 4,
+      "title": "The Big Boom",
+      "file": "chapter-4.md"
+    },
+    {
+      "id": 5,
+      "title": "The Best Worst Show Ever",
+      "file": "chapter-5.md"
+    }
+  ]
+}

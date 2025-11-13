@@ -25,6 +25,12 @@
 			"title": "The Silly Squirrels Space Adventure",
 			"description": "Join Nutty, Mama, and Papa as they build a 4-stage rocket to solve Nutville's satellite problem and blast off on the most epic space adventure ever! But will their crash landing bring them back down to earth?",
 			"folder": "the-silly-squirrels-space-adventure"
+		},
+		{
+			"id": "the-silly-squirrels-tnt-spectacular",
+			"title": "The Silly Squirrels TNT Spectacular",
+			"description": "When Nutville's 100th anniversary celebration needs a fireworks show, Nutty discovers TWO MILLION sticks of TNT and decides to create the most explosive, spectacular, absolutely ridiculous show in history! What could possibly go wrong?",
+			"folder": "the-silly-squirrels-tnt-spectacular"
 		}
 	]
 }
