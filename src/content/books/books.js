@@ -77,6 +77,21 @@ export const bookList = [
 		tilt: -3
 	},
 	{
+		id: 'silly-squirrels-tnt-spectacular',
+		title: 'The Silly Squirrels TNT Spectacular',
+		author: 'Claude',
+		color: '#FF4500',
+		leatherColor: 'hsl(16, 100%, 50%)',
+		emoji: '💥',
+		description:
+			'When Nutville\'s 100th anniversary celebration needs a fireworks show, Nutty discovers TWO MILLION sticks of TNT and decides to create the most explosive, spectacular, absolutely ridiculous show in history! What could possibly go wrong?',
+		seriesId: 'silly-squirrels',
+		storyId: 'the-silly-squirrels-tnt-spectacular',
+		height: 248,
+		thickness: 62,
+		tilt: 2
+	},
+	{
 		id: 'professional-younger-sibling',
 		title: 'The Professional Younger Sibling',
 		author: 'Riley Thompson',
