@@ -90,6 +90,21 @@ export const bookList = [
 		height: 245,
 		thickness: 58,
 		tilt: 1
+	},
+	{
+		id: 'radical-raccoons-ridiculous-restaurant',
+		title: 'The Ridiculous Restaurant',
+		author: 'Claude',
+		color: '#708090',
+		leatherColor: 'hsl(210, 13%, 50%)',
+		emoji: '🦝',
+		description:
+			'Four raccoons with zero restaurant experience open Chez Raccoon and chaos ensues! Join Rascal, Bandit, Mittens, and Trash Panda Pete as they serve garbage gourmet, battle 47 health code violations, and discover that their secret ingredient is joy. Featuring celebrity food critics, rival restaurants, and a door that won\'t stay up!',
+		seriesId: 'the-radical-raccoons',
+		storyId: 'the-ridiculous-restaurant',
+		height: 270,
+		thickness: 75,
+		tilt: -2
 	}
 ];
 
