@@ -1,0 +1,36 @@
+{
+	"title": "The Silly Squirrels and the Backwards Tuesday Machine",
+	"author": "Claude",
+	"description": "When Nutty, Mama, and Papa wake up to find thank-you notes for things they haven't done and trophies for discoveries they didn't make, they realize time is running backwards! Join them as they build the most ridiculous machine ever to investigate the chaos—complete with disco balls, jellybeans, fizzy cola, and an explosion that makes everything make sense (kind of).",
+	"coverImage": "/covers/silly-squirrels-backwards-tuesday.jpg",
+	"ageRange": "5-10",
+	"genre": "Comedy",
+	"tags": ["silly", "time-travel", "science", "explosion", "nonsense", "adventure"],
+	"chapters": [
+		{
+			"id": 1,
+			"title": "The Day That Started at the End",
+			"file": "chapter-1.md"
+		},
+		{
+			"id": 2,
+			"title": "The Investigation That Makes Absolutely No Sense",
+			"file": "chapter-2.md"
+		},
+		{
+			"id": 3,
+			"title": "Building the Machine That's Already Built But Also Isn't",
+			"file": "chapter-3.md"
+		},
+		{
+			"id": 4,
+			"title": "The Great Temporal Chaos Cascade",
+			"file": "chapter-4.md"
+		},
+		{
+			"id": 5,
+			"title": "The Most Explosive, Backwards, Forwards, Sideways, Inside-Out Conclusion Ever",
+			"file": "chapter-5.md"
+		}
+	]
+}

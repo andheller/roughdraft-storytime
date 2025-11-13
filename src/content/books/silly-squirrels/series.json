@@ -25,6 +25,18 @@
 			"title": "The Silly Squirrels Space Adventure",
 			"description": "Join Nutty, Mama, and Papa as they build a 4-stage rocket to solve Nutville's satellite problem and blast off on the most epic space adventure ever! But will their crash landing bring them back down to earth?",
 			"folder": "the-silly-squirrels-space-adventure"
+		},
+		{
+			"id": "the-silly-squirrels-pizza-jetpack-delivery",
+			"title": "The Silly Squirrels Pizza Jetpack Delivery Service",
+			"description": "When the town needs faster pizza delivery, Nutkin and friends build jetpacks from soda bottles and don goofy hats as helmets! Join their hilarious adventure as they learn to fly and deliver pizzas with water gun wake-up calls and plenty of crashes along the way!",
+			"folder": "the-silly-squirrels-pizza-jetpack-delivery"
+		},
+		{
+			"id": "the-silly-squirrels-backwards-tuesday",
+			"title": "The Silly Squirrels and the Backwards Tuesday Machine",
+			"description": "When Nutty, Mama, and Papa wake up to find thank-you notes for things they haven't done, they realize time is running backwards! Join them as they build the most ridiculous machine ever—complete with disco balls, jellybeans, fizzy cola, and an explosion that makes everything wonderfully silly!",
+			"folder": "the-silly-squirrels-backwards-tuesday"
 		}
 	]
 }

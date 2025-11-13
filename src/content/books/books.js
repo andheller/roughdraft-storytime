@@ -77,6 +77,21 @@ export const bookList = [
 		tilt: -3
 	},
 	{
+		id: 'silly-squirrels-backwards-tuesday',
+		title: 'The Backwards Tuesday Machine',
+		author: 'Claude',
+		color: '#FF1493',
+		leatherColor: 'hsl(328, 100%, 54%)',
+		emoji: '⏰',
+		description:
+			'Pure chaos! When time starts running backwards in Nutville, Nutty and family build a machine with disco balls, jellybeans, and fizzy cola. Features: talking disco balls, time-traveling cows, and the most spectacular explosion ever!',
+		seriesId: 'silly-squirrels',
+		storyId: 'the-silly-squirrels-backwards-tuesday',
+		height: 265,
+		thickness: 70,
+		tilt: 4
+	},
+	{
 		id: 'professional-younger-sibling',
 		title: 'The Professional Younger Sibling',
 		author: 'Riley Thompson',
