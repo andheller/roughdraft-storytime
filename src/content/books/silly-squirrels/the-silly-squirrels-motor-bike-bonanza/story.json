@@ -1,0 +1,16 @@
+{
+  "title": "The Silly Squirrels Motor-Bike Bonanza",
+  "author": "Claude",
+  "description": "Mama, Papa, and Nutty build supa dupa speedy motor-bikes to help Nutville go whoooooosh! With acorn engines, leaf spoilers, and banana-seat silliness, will they master speed without turning the town into a blur?",
+  "ageRange": "5-8",
+  "genre": "Comedy",
+  "tags": ["comedy", "adventure", "invention", "engineering", "speed", "family"],
+  "chapters": [
+    { "id": 1, "title": "The Need for Speed", "file": "chapter-1.md" },
+    { "id": 2, "title": "Nuts, Bolts, and Vroom", "file": "chapter-2.md" },
+    { "id": 3, "title": "Test Track Tumbles", "file": "chapter-3.md" },
+    { "id": 4, "title": "Supa Dupa Speed Trials", "file": "chapter-4.md" },
+    { "id": 5, "title": "The Nutville Grand Zoom", "file": "chapter-5.md" }
+  ]
+}
+

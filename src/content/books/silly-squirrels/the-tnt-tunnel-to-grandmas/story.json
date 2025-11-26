@@ -1,0 +1,30 @@
+{
+	"title": "The Silly Squirrels and the TNT Tunnel to Grandma's",
+	"author": "Claude",
+	"description": "When a giant fallen oak blocks the path to Grandma Nutwobble's tree, Nutty has a brilliant idea: dig a tunnel! But digging is slow... until Papa discovers some 'vintage excavation supplies' (dusty crates of TNT) in the old mine. What could possibly go wrong? EVERYTHING. Featuring: explosions, more explosions, a grumpy mole, ancient cave paintings, and a surprise ending that's dynamite!",
+	"ageRange": "5-10",
+	"genre": "Comedy",
+	"tags": ["silly", "explosions", "tnt", "tunnel", "grandma", "adventure", "family"],
+	"chapters": [
+		{
+			"id": 1,
+			"title": "The Long Way Around",
+			"file": "chapter-1.md"
+		},
+		{
+			"id": 2,
+			"title": "Just a Pinch",
+			"file": "chapter-2.md"
+		},
+		{
+			"id": 3,
+			"title": "The Boom Heard 'Round Nutville",
+			"file": "chapter-3.md"
+		},
+		{
+			"id": 4,
+			"title": "Grandma's Got Dynamite",
+			"file": "chapter-4.md"
+		}
+	]
+}

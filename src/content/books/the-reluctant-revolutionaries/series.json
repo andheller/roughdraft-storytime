@@ -1,0 +1,12 @@
+{
+	"title": "The Reluctant Revolutionaries",
+	"description": "Hilarious historical adventures of kids who accidentally stumble into history's greatest moments. They didn't ask to be heroes - history just keeps happening to them!",
+	"stories": [
+		{
+			"id": "liberty-or-lunchtime",
+			"title": "Liberty or Lunchtime: The Accidental Adventures of Theo Finch",
+			"description": "9-year-old Theo just wants to go home and eat pie. Instead, he keeps accidentally becoming a hero of the American Revolution. Features: Valley Forge, the Delaware crossing, Yorktown, and one very determined kid who really, really didn't volunteer for any of this.",
+			"folder": "liberty-or-lunchtime"
+		}
+	]
+}

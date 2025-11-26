@@ -1,0 +1,25 @@
+{
+  "title": "The Great Motor-Bike Acorn Hunt",
+  "author": "Team Roughdraft",
+  "description": "Nutty, Mama, and Papa build squirrel-sized motor-bikes to chase crumbs, corral rogue balloons, untangle a bossy banner, and un-misplace Nutville’s Golden Acorn—all at responsible speeds and questionable snack intervals.",
+  "ageRange": "5-8",
+  "genre": "Comedy, Mystery",
+  "tags": [
+    "comedy",
+    "adventure",
+    "mystery",
+    "invention",
+    "engineering",
+    "family",
+    "festival",
+    "vehicles"
+  ],
+  "chapters": [
+    { "id": 1, "title": "Operation Acorn VROOM", "file": "chapter-1.md" },
+    { "id": 2, "title": "Machines Before Morning", "file": "chapter-2.md" },
+    { "id": 3, "title": "Crumbs on Walnut Way", "file": "chapter-3.md" },
+    { "id": 4, "title": "Marsh Signals", "file": "chapter-4.md" },
+    { "id": 5, "title": "Knots and the Clock", "file": "chapter-5.md" },
+    { "id": 6, "title": "Spring Fling, Right on Time", "file": "chapter-6.md" }
+  ]
+}

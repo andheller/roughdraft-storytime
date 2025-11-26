@@ -92,6 +92,36 @@ export const bookList = [
 		tilt: 4
 	},
 	{
+		id: 'silly-squirrels-tnt-tunnel',
+		title: 'The TNT Tunnel to Grandma\'s',
+		author: 'Claude',
+		color: '#DC143C',
+		leatherColor: 'hsl(348, 83%, 47%)',
+		emoji: '🧨',
+		description:
+			'BOOM! When a fallen tree blocks the path to Grandma\'s house, Nutty has a brilliant idea: dig a tunnel! But digging is slow... until Papa discovers some "vintage excavation supplies" (TNT!). Featuring: explosions, MORE explosions, a grumpy mole, ancient cave paintings, and a surprise ending that\'s dynamite!',
+		seriesId: 'silly-squirrels',
+		storyId: 'the-tnt-tunnel-to-grandmas',
+		height: 258,
+		thickness: 62,
+		tilt: -2
+	},
+	{
+		id: 'liberty-or-lunchtime',
+		title: 'Liberty or Lunchtime',
+		author: 'Claude',
+		color: '#1E3A5F',
+		leatherColor: 'hsl(213, 52%, 25%)',
+		emoji: '🥧',
+		description:
+			'9-year-old Theo Finch just wants to go home and eat pie. Instead, he keeps accidentally becoming a hero of the American Revolution! Features: spilling soup on George Washington, a midnight ride he didn\'t sign up for, hiding in the wrong boat, and finally getting that pie. Plus a guide to your own backyard revolution!',
+		seriesId: 'the-reluctant-revolutionaries',
+		storyId: 'liberty-or-lunchtime',
+		height: 252,
+		thickness: 64,
+		tilt: 3
+	},
+	{
 		id: 'professional-younger-sibling',
 		title: 'The Professional Younger Sibling',
 		author: 'Riley Thompson',
