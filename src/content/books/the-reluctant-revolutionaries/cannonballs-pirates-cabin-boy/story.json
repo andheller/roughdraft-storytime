@@ -1,0 +1,35 @@
+{
+	"title": "Cannonballs, Pirates, and One Very Confused Cabin Boy",
+	"author": "Claude",
+	"description": "10-year-old Jasper Thibodaux just wanted to see a real warship. Instead, he accidentally stows away on the USS Constitution, survives cannonballs bouncing off the hull, and ends up fighting alongside pirates at the Battle of New Orleans. The war's already over—someone just forgot to tell everyone!",
+	"ageRange": "7-10",
+	"genre": "Historical Fiction",
+	"tags": ["war of 1812", "history", "humor", "uss constitution", "old ironsides", "battle of new orleans", "jean lafitte", "andrew jackson"],
+	"chapters": [
+		{
+			"id": 1,
+			"title": "How to Accidentally Join the Navy",
+			"file": "chapter-1.md"
+		},
+		{
+			"id": 2,
+			"title": "Old Ironsides (The Cannonballs Just Bounce Off!)",
+			"file": "chapter-2.md"
+		},
+		{
+			"id": 3,
+			"title": "Pirates Are Supposed to Be the Bad Guys",
+			"file": "chapter-3.md"
+		},
+		{
+			"id": 4,
+			"title": "The Battle After the War Was Over",
+			"file": "chapter-4.md"
+		},
+		{
+			"id": 5,
+			"title": "Home, With Stories Nobody Will Believe",
+			"file": "chapter-5.md"
+		}
+	]
+}

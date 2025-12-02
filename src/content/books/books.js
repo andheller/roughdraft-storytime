@@ -107,6 +107,36 @@ export const bookList = [
 		tilt: -2
 	},
 	{
+		id: 'silly-squirrels-boom-boom-express',
+		title: 'The Boom-Boom Express',
+		author: 'Claude',
+		color: '#FF4500',
+		leatherColor: 'hsl(16, 100%, 50%)',
+		emoji: '🚂',
+		description:
+			'When Nutville needs faster deliveries, Papa builds a TNT-powered train! Every package arrives with a BOOM, a CRASH, and usually in the wrong town. But what\'s in that mysterious "FRAGILE" box they\'ve been protecting all day? Spoiler: it\'s from Grandma. And Grandma has PLANS.',
+		seriesId: 'silly-squirrels',
+		storyId: 'the-silly-squirrels-boom-boom-express',
+		height: 252,
+		thickness: 60,
+		tilt: 1
+	},
+	{
+		id: 'silly-squirrels-giant-moon-acorn',
+		title: 'The Giant Moon Acorn',
+		author: 'Claude',
+		color: '#FFD700',
+		leatherColor: 'hsl(51, 100%, 50%)',
+		emoji: '🌙',
+		description:
+			'Nutty looks up at the night sky and sees the BIGGEST ACORN EVER! (It\'s the moon.) Naturally, the only solution is to build TNT-powered rockets from trashcans and traffic cones to go eat it. Maximum height achieved: 10 feet. Maximum chaos achieved: UNLIMITED.',
+		seriesId: 'silly-squirrels',
+		storyId: 'the-silly-squirrels-giant-moon-acorn',
+		height: 248,
+		thickness: 58,
+		tilt: -3
+	},
+	{
 		id: 'liberty-or-lunchtime',
 		title: 'Liberty or Lunchtime',
 		author: 'Claude',
@@ -120,6 +150,36 @@ export const bookList = [
 		height: 252,
 		thickness: 64,
 		tilt: 3
+	},
+	{
+		id: 'midnight-ride-i-actually-finished',
+		title: 'The Midnight Ride I Actually Finished',
+		author: 'Claude',
+		color: '#8B0000',
+		leatherColor: 'hsl(0, 100%, 27%)',
+		emoji: '🐴',
+		description:
+			'Everyone knows Paul Revere\'s ride. Nobody knows he got CAPTURED. 11-year-old Mercy Prescott just wanted to return a pie dish. Instead, she becomes the girl who actually warned Concord—dodging British patrols on an elderly horse named Buttercup.',
+		seriesId: 'the-reluctant-revolutionaries',
+		storyId: 'the-midnight-ride-i-actually-finished',
+		height: 248,
+		thickness: 58,
+		tilt: -1
+	},
+	{
+		id: 'cannonballs-pirates-cabin-boy',
+		title: 'Cannonballs, Pirates, and One Very Confused Cabin Boy',
+		author: 'Claude',
+		color: '#2F4F4F',
+		leatherColor: 'hsl(180, 25%, 25%)',
+		emoji: '🏴‍☠️',
+		description:
+			'10-year-old Jasper accidentally stows away on the USS Constitution, watches cannonballs bounce off the hull, befriends the famous pirate Jean Lafitte, and fights at the Battle of New Orleans—which happened AFTER the war was already over!',
+		seriesId: 'the-reluctant-revolutionaries',
+		storyId: 'cannonballs-pirates-cabin-boy',
+		height: 256,
+		thickness: 66,
+		tilt: 2
 	},
 	{
 		id: 'professional-younger-sibling',

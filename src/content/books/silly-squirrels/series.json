@@ -43,6 +43,18 @@
 			"title": "The Silly Squirrels and the TNT Tunnel to Grandma's",
 			"description": "When a giant fallen oak blocks the path to Grandma Nutwobble's tree, Nutty has a brilliant idea: dig a tunnel! But digging is slow... until Papa discovers some 'vintage excavation supplies' (dusty crates of TNT). What could possibly go wrong? EVERYTHING. Featuring: explosions, more explosions, a grumpy mole, ancient cave paintings, and a surprise ending that's dynamite!",
 			"folder": "the-tnt-tunnel-to-grandmas"
+		},
+		{
+			"id": "the-silly-squirrels-boom-boom-express",
+			"title": "The Silly Squirrels and the Boom-Boom Express",
+			"description": "When Nutville needs faster deliveries, Papa builds a TNT-powered train! Every package arrives with a BOOM, a CRASH, and usually in the wrong town. But what's in that mysterious 'FRAGILE' box they've been protecting all day? Spoiler: it's from Grandma. And Grandma has PLANS.",
+			"folder": "the-silly-squirrels-boom-boom-express"
+		},
+		{
+			"id": "the-silly-squirrels-giant-moon-acorn",
+			"title": "The Silly Squirrels and the Giant Moon Acorn",
+			"description": "Nutty looks up at the night sky and sees the BIGGEST ACORN EVER! (It's the moon.) Naturally, the only solution is to build TNT-powered rockets from trashcans and traffic cones to go eat it. Maximum height achieved: 10 feet. Maximum chaos achieved: UNLIMITED.",
+			"folder": "the-silly-squirrels-giant-moon-acorn"
 		}
 	]
 }

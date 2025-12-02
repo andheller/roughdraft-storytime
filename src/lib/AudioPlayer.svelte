@@ -35,10 +35,23 @@ function togglePlay() {
 
 function seek(event) {
   if (!audioElement || !isLoaded) return;
-  
+
   const rect = event.currentTarget.getBoundingClientRect();
   const percentage = (event.clientX - rect.left) / rect.width;
   audioElement.currentTime = percentage * duration;
+}
+
+function handleSliderKeydown(event) {
+  if (!audioElement || !isLoaded) return;
+
+  const step = duration * 0.05; // 5% of duration
+  if (event.key === 'ArrowRight' || event.key === 'ArrowUp') {
+    audioElement.currentTime = Math.min(currentTime + step, duration);
+    event.preventDefault();
+  } else if (event.key === 'ArrowLeft' || event.key === 'ArrowDown') {
+    audioElement.currentTime = Math.max(currentTime - step, 0);
+    event.preventDefault();
+  }
 }
 
 function setPlaybackRate(rate) {
@@ -90,7 +103,7 @@ $effect(() => {
 
 {#if audioUrl}
   <div class="bg-white/80 backdrop-blur-sm border border-gray-200 rounded-lg p-4 shadow-sm {className}">
-    <audio 
+    <audio
       bind:this={audioElement}
       src={audioUrl}
       preload="metadata"
@@ -99,7 +112,7 @@ $effect(() => {
       onplay={handlePlay}
       onpause={handlePause}
       onended={handleEnded}
-    />
+    ></audio>
     
     <div class="flex items-center gap-3">
       <!-- Play/Pause Button -->
@@ -122,10 +135,12 @@ $effect(() => {
       
       <!-- Progress Bar -->
       <div class="flex-1 flex items-center gap-2">
-        <div 
-          class="flex-1 h-2 bg-gray-200 rounded-full cursor-pointer hover:bg-gray-300 transition-colors"
+        <div
+          class="flex-1 h-2 bg-gray-200 rounded-full cursor-pointer hover:bg-gray-300 transition-colors focus:outline-none focus:ring-2 focus:ring-blue-500"
           onclick={seek}
+          onkeydown={handleSliderKeydown}
           role="slider"
+          tabindex="0"
           aria-label="Audio progress"
           aria-valuemin="0"
           aria-valuemax={duration}

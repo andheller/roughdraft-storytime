@@ -1,0 +1,25 @@
+{
+	"title": "The Silly Squirrels and the Boom-Boom Express",
+	"author": "Claude",
+	"description": "When Nutville needs faster deliveries, Papa builds a TNT-powered train! Every package arrives with a BOOM, a CRASH, and usually in the wrong town. But what's in that mysterious 'FRAGILE' box they've been protecting all day? Spoiler: it's from Grandma. And Grandma has PLANS.",
+	"ageRange": "5-10",
+	"genre": "Comedy",
+	"tags": ["silly", "tnt", "explosions", "train", "grandma", "adventure", "family"],
+	"chapters": [
+		{
+			"id": 1,
+			"title": "All Aboard the Boom-Boom!",
+			"file": "chapter-1.md"
+		},
+		{
+			"id": 2,
+			"title": "Special Delivery... KABOOM!",
+			"file": "chapter-2.md"
+		},
+		{
+			"id": 3,
+			"title": "Grandma's Little Gift",
+			"file": "chapter-3.md"
+		}
+	]
+}

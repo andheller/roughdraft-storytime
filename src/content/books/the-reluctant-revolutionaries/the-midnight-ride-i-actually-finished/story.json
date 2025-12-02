@@ -1,0 +1,35 @@
+{
+	"title": "The Midnight Ride I Actually Finished",
+	"author": "Claude",
+	"description": "Everyone knows Paul Revere's famous ride. Nobody knows he got CAPTURED. When 11-year-old Mercy Prescott borrows a horse to return a pie dish, she accidentally becomes the girl who actually warned Concord. Features: British patrols, one very tired horse, a lot of screaming, and the shot heard round the world.",
+	"ageRange": "7-10",
+	"genre": "Historical Fiction",
+	"tags": ["american revolution", "history", "humor", "paul revere", "lexington and concord", "midnight ride"],
+	"chapters": [
+		{
+			"id": 1,
+			"title": "I Was Just Returning a Pie Dish",
+			"file": "chapter-1.md"
+		},
+		{
+			"id": 2,
+			"title": "Two Lanterns and a Whole Lot of Trouble",
+			"file": "chapter-2.md"
+		},
+		{
+			"id": 3,
+			"title": "The Part Where Everyone Gets Captured (Except Me)",
+			"file": "chapter-3.md"
+		},
+		{
+			"id": 4,
+			"title": "The Shot Heard Round the World (I Heard It Too)",
+			"file": "chapter-4.md"
+		},
+		{
+			"id": 5,
+			"title": "History Remembers... Someone Else",
+			"file": "chapter-5.md"
+		}
+	]
+}

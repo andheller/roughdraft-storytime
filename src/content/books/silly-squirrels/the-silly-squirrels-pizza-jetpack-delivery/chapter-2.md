@@ -8,7 +8,7 @@ By the time Mama and Papa Nutwobble arrived at their workshop (which was really 
 
 "Okay, here's the plan," Nutty announced, wearing a colander on his head like a helmet. "We strap these big bottles to our backs, fill them with... um..." He paused. "What makes jetpacks work again?"
 
-"Rocket fuel?" Chip suggested.
+"Rocket fuel?" Papa suggested.
 
 "We don't have rocket fuel," Mama pointed out.
 

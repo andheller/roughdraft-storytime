@@ -1,0 +1,15 @@
+{
+  "title": "Someone Should Have Told Me",
+  "author": "Andrew",
+  "description": "Frankie Huang follows rules EXACTLY. So when she's put in charge of her little brother for a week, and a stray cat shows up, and the cat maybe eats all the snacks, and maybe has kittens in the closet—none of that is her fault. She has documentation.",
+  "ageRange": "7-10",
+  "genre": "Humor",
+  "tags": ["funny", "siblings", "cats", "responsibility", "rules"],
+  "chapters": [
+    { "id": 1, "title": "A Cat Is Not a Friend", "file": "chapter-1.md" },
+    { "id": 2, "title": "An Emergency Is When Someone Is Dying", "file": "chapter-2.md" },
+    { "id": 3, "title": "Returning Is Not the Same as Getting Rid Of", "file": "chapter-3.md" },
+    { "id": 4, "title": "Responsible People Ask For Help", "file": "chapter-4.md" },
+    { "id": 5, "title": "Take Care of Each Other", "file": "chapter-5.md" }
+  ]
+}

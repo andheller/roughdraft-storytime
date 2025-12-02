@@ -7,6 +7,18 @@
 			"title": "Liberty or Lunchtime: The Accidental Adventures of Theo Finch",
 			"description": "9-year-old Theo just wants to go home and eat pie. Instead, he keeps accidentally becoming a hero of the American Revolution. Features: Valley Forge, the Delaware crossing, Yorktown, and one very determined kid who really, really didn't volunteer for any of this.",
 			"folder": "liberty-or-lunchtime"
+		},
+		{
+			"id": "the-midnight-ride-i-actually-finished",
+			"title": "The Midnight Ride I Actually Finished",
+			"description": "Everyone knows Paul Revere's famous ride. Nobody knows he got CAPTURED. When 11-year-old Mercy Prescott borrows a horse to return a pie dish, she accidentally becomes the girl who actually warned Concord. Features: British patrols, one very tired horse, a lot of screaming, and the shot heard round the world.",
+			"folder": "the-midnight-ride-i-actually-finished"
+		},
+		{
+			"id": "cannonballs-pirates-cabin-boy",
+			"title": "Cannonballs, Pirates, and One Very Confused Cabin Boy",
+			"description": "10-year-old Jasper Thibodaux just wanted to see a real warship. Instead, he accidentally stows away on the USS Constitution, survives cannonballs bouncing off the hull, and ends up fighting alongside pirates at the Battle of New Orleans. The war's already over—someone just forgot to tell everyone!",
+			"folder": "cannonballs-pirates-cabin-boy"
 		}
 	]
 }

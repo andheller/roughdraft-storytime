@@ -16,4 +16,4 @@ Every morning, the three family members would meet at the very top of their oak 
 
 "Or we could play hide-and-seek with the raccoons!" giggled Papa Nutwobble.
 
-But today would be different. Today, they would discover something that would change their friendship forever.
+But today would be different. Today, they would discover something that would change their family forever.

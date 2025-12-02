@@ -1,0 +1,25 @@
+{
+	"title": "The Silly Squirrels and the Giant Moon Acorn",
+	"author": "Claude",
+	"description": "Nutty looks up at the night sky and sees the BIGGEST ACORN EVER! (It's the moon.) Naturally, the only solution is to build TNT-powered rockets from trashcans and traffic cones to go eat it. Maximum height achieved: 10 feet. Maximum chaos achieved: UNLIMITED.",
+	"ageRange": "5-10",
+	"genre": "Comedy",
+	"tags": ["silly", "tnt", "explosions", "rockets", "moon", "space", "adventure", "family"],
+	"chapters": [
+		{
+			"id": 1,
+			"title": "That's No Moon... Wait, Yes It Is, But Also AN ACORN!",
+			"file": "chapter-1.md"
+		},
+		{
+			"id": 2,
+			"title": "Houston, We Have a Problem (Also Several Explosions)",
+			"file": "chapter-2.md"
+		},
+		{
+			"id": 3,
+			"title": "The Moon Can Wait (But Breakfast Can't)",
+			"file": "chapter-3.md"
+		}
+	]
+}
