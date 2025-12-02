@@ -84,7 +84,19 @@ Nutty stared into the mysterious depths, his heart racing with excitement and ju
 
 "But I think we need one more try. One more submarine that's absolutely, completely, totally perfect for the deepest underwater exploration possible!"
 
-As they surfaced in their wonderful Pine Cone Explorer, all three squirrels were grinning from ear to ear.
+Gerald, who had been swimming alongside them the entire time (for "navigational verification purposes"), looked toward the Deep Canyon with an expression that was definitely NOT wonder and excitement.
+
+"The Deep Canyon," he said quietly. "I've... I've never actually gone down there. Too deep for even a catfish."
+
+"You've never been?" Nutty asked.
+
+"No one has. Not in forty-seven years." Gerald was silent for a moment. Then, so quietly they almost missed it: "Maybe... maybe there IS something down there. Not that I believe it's the Golden Acorn. But... something."
+
+"Gerald!" Mama exclaimed. "Are you starting to believe?"
+
+"ABSOLUTELY NOT," Gerald said immediately, snapping back to his grumpy self. "I'm just saying the Deep Canyon is scientifically unexplored. That's all. It's a... a research interest. Nothing to do with magical acorns. Which don't exist."
+
+But as they surfaced in their wonderful Pine Cone Explorer, all three squirrels were grinning from ear to ear - and not just because of their submarine success.
 
 "Submarine Number Four was our best yet!" Papa declared.
 
