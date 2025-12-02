@@ -36,6 +36,22 @@ By afternoon, they had created their masterpiece: the **Pine Cone Explorer**. It
 
 At the riverbank, they carefully lowered their creation into the water. Not only did it float perfectly, but it moved through the water with incredible grace.
 
+Gerald was already waiting. He'd been there since before dawn, which he explained was "totally coincidental" and "definitely not because he'd been too excited to sleep."
+
+"Oh, you're here," Gerald said flatly, as if he hadn't been pacing the riverbed for two hours. "I was just... conducting a census. Of underwater rocks. Very important work."
+
+"We're glad you came!" Nutty said.
+
+"I didn't 'come.' I was already here. For the rock census." Gerald examined their Pine Cone Explorer with poorly disguised interest. "This one looks... adequate. I suppose. For a land mammal construction project."
+
+"That's practically a compliment!" Mama beamed.
+
+"It was NOT a—" Gerald sighed heavily. "Just get in your ridiculous pine cone contraption."
+
+As they boarded, Gerald swam past "The Leaf Loft" (now "The Leaf Loft Luxury Apartments" - they'd expanded), "The Bark Bed & Breakfast" (fully booked through spring), and the new "Acorn Arms" - three acorn shell submarines that a family of clever fish had connected together into a condominium complex.
+
+"By the way," Gerald mentioned dryly, "you've started a housing boom. There's a waiting list for the next Nutwobble disaster. The minnows are hoping you fail at least three more times - they want to open a restaurant."
+
 "Diving stations, everyone!" Papa called as they climbed through the ingenious hatch Mama had designed.
 
 This submarine was spacious enough for all three of them to sit comfortably, with room for their supplies and even a small emergency snack compartment (because what's submarine exploration without proper provisions?).

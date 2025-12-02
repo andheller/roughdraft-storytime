@@ -66,11 +66,33 @@ More water seeped in.
 
 Ten minutes later, three very wet and very bark-covered squirrels sat on the riverbank, watching their second submarine attempt bob half-submerged nearby.
 
+Gerald's grumpy face surfaced next to the half-sunk bark boat. He examined it with the weary expression of a landlord discovering his tenants have been throwing furniture out the window.
+
+"Another one?" he asked flatly.
+
+"We almost made it work this time!" Nutty said defensively.
+
+"Uh-huh." Gerald swam a slow circle around the bark boat. "You know your leaf pile from yesterday? A family of minnows has already moved in. They're calling it 'The Leaf Loft.' They put up curtains."
+
+"Really?" Mama asked, surprised.
+
+"Little seaweed curtains. Very tasteful." Gerald sighed. "I give it three days before your bark contraption here becomes 'The Bark Bed & Breakfast.' The local fish are already forming a waiting list for Nutwobble-brand disaster housing."
+
+"We're not trying to build fish houses!" Nutty protested.
+
+"And yet," Gerald said dryly, "you're so good at it."
+
 "The good news," Papa said, picking bark chips out of his whiskers, "is that we made it underwater!"
 
 "The bad news," Mama added, wringing water from her tail, "is that we also made it back to the surface rather urgently."
 
 Nutty stared at their bark boat, which was now more of a bark bath. "It was **so close** to working! We just need to figure out how to make it completely watertight."
+
+Gerald's head was still poking above the surface. "You could always stop. Just throwing that out there. As an option. That exists."
+
+"Never!" Nutty declared.
+
+"Didn't think so." Gerald sank back down, muttering something about "stubborn mammals" and "property values."
 
 "And maybe a bit roomier," Papa suggested, still feeling cramped.
 

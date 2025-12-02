@@ -86,4 +86,4 @@ I think this is going to be a very successful career.
 
 *Author's Note: This story was written by Riley Thompson with some help from grown-ups who know how to spell big words. Riley is still accepting applications for additional family members who might need professional youngest sibling and advice services. Please apply in person with references from your current family.*
 
-*Also, Jordan says to tell you that the banana song is still stuck in their head and it's been two months now. Riley feels a little bit sorry about this but not sorry enough to stop humming it sometimes.*
+*Also, Jordan says to tell you that the banana song is still stuck in his head and it's been two months now. Riley feels a little bit sorry about this but not sorry enough to stop humming it sometimes.*

@@ -38,11 +38,27 @@ The crowd stepped back as the family set up their rocket demonstration. They had
 
 "Is it going to crash into anything important?" asked Mr. Bear nervously.
 
-"We've gotten much better at aiming," Papa said reassuringly. "Mostly."
+"We've gotten much better at aiming," Papa said reassuringly. "Mostly. We only destroyed three gardens, two birdbaths, and one very surprised mailbox during testing."
+
+"MY mailbox!" called out Mrs. Oakley from the crowd, but she was smiling. Mostly. "And my roses! And my birdbath! And my SECOND birdbath that I bought to replace the first birdbath!"
+
+"We said we were sorry!" Papa called back.
+
+"You sent me forty-seven fruit baskets!"
+
+"Did you like them?"
+
+"...They were delicious. But I'm still watching you."
 
 "FIRE IN THE HOLE!" Nutty called out.
 
-WHOOOOOOSH! The rocket shot across the town square in a perfect arc, trailing steam behind it like a comet made of Very Excited Water. It landed gracefully in the designated area, exactly where they'd planned.
+WHOOOOOOSH! The rocket shot across the town square in a perfect arc, trailing steam behind it like a comet made of Very Excited Water. Everyone held their breath as it soared over the crowd.
+
+Mrs. Oakley clutched her hat nervously.
+
+The rocket landed gracefully in the designated area, exactly where they'd planned. Not in anyone's garden. Not in any birdbaths. Just perfectly, beautifully, in the target zone.
+
+Mrs. Oakley burst into applause. "FINALLY! THEY DID IT WITHOUT DESTROYING ANYTHING OF MINE!"
 
 "INCREDIBLE!" shouted the crowd.
 
@@ -120,10 +136,36 @@ As the three squirrels headed home under the stars, their hearts were full of pr
 
 After all, there was always more to discover, more to learn, and more ways to help their community. And with steam power on their side, there was no limit to what they could achieve!
 
-Well, except maybe the limit of how many times you could accidentally launch things into Mrs. Oakley's garden before she started charging admission to the crater viewing.
+Well, except maybe the limit of how many times you could accidentally launch things into Mrs. Oakley's garden before she started charging admission.
+
+Speaking of which, as they walked home, they passed Mrs. Oakley's yard. There was now a small wooden sign out front that read: "NUTWOBBLE ROCKET CRATER TOURS - 2 ACORNS - SEE WHERE SCIENCE WENT WRONG!"
+
+"She's charging admission?" Papa asked.
+
+"She's selling souvenirs too," Mama noticed, pointing to a table with tiny model rockets labeled "I SURVIVED THE NUTWOBBLE ROCKET PROGRAM."
+
+"You know," Nutty said thoughtfully, "I think Mrs. Oakley might be a better businesswoman than we are scientists."
+
+"We're GREAT scientists!" Papa protested.
+
+"We set seventeen things on fire this month, Papa."
+
+"Science fire! Educational fire!"
+
+"Your eyebrows are still gone."
+
+"AERODYNAMIC eyebrows!"
+
+Mrs. Oakley waved at them from her porch. "Same time next week? You launching anything else I should know about?"
+
+"We're working on flying machines!" Nutty called back.
+
+Mrs. Oakley immediately started hammering a "HARD HAT ZONE" sign into her lawn.
 
 But that's a problem for tomorrow.
 
 Tonight, they were just a family of squirrels who had changed their world with the power of Really Angry Water, and honestly, what more could you ask for?
 
 The end... or rather, the beginning of many more steam-powered adventures to come!
+
+(And possibly the beginning of Mrs. Oakley's very profitable disaster tourism business. But that's definitely another story.)

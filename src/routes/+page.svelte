@@ -472,103 +472,78 @@
 
 	.book-pages {
 		position: absolute;
-		top: 2px;
-		right: -3px;
-		bottom: 3px;
-		width: 2px;
-		background: 
-			linear-gradient(to right, #fefcf8 0%, #fdfbf7 50%, #fcfaf6 100%),
-			linear-gradient(to bottom, rgba(255, 255, 255, 0.1) 0%, transparent 20%, rgba(0, 0, 0, 0.02) 80%, rgba(0, 0, 0, 0.04) 100%);
-		border-radius: 0 1px 1px 0;
-		box-shadow: 
-			0 3px 8px rgba(0, 0, 0, 0.15),
-			inset -0.5px 0 1px rgba(0, 0, 0, 0.1),
-			inset 0 1px 0 rgba(255, 255, 255, 0.3);
-		overflow: visible;
-		transition: all 0.25s cubic-bezier(0.25, 0.1, 0.25, 1);
+		top: 3px;
+		right: -12px;
+		bottom: 4px;
+		width: 12px;
+		background:
+			/* Page edge gradient */
+			linear-gradient(to right, #f8f6f0 0%, #faf8f2 30%, #f5f3ed 100%),
+			/* Subtle horizontal lines to suggest pages */
+			repeating-linear-gradient(
+				to bottom,
+				transparent 0px,
+				transparent 2px,
+				rgba(0, 0, 0, 0.03) 2px,
+				rgba(0, 0, 0, 0.03) 3px
+			);
+		background-blend-mode: normal, overlay;
+		border-radius: 0 2px 2px 0;
+		box-shadow:
+			2px 2px 6px rgba(0, 0, 0, 0.15),
+			inset -2px 0 3px rgba(0, 0, 0, 0.08),
+			inset 0 1px 0 rgba(255, 255, 255, 0.5),
+			inset 0 -1px 0 rgba(0, 0, 0, 0.05);
+		overflow: hidden;
+		transition: all 0.3s cubic-bezier(0.25, 0.1, 0.25, 1);
 		transform-origin: left center;
 		opacity: 0;
 		z-index: 1;
 	}
 
+	/* Top edge of pages */
 	.book-pages::before {
 		content: '';
 		position: absolute;
 		top: 0;
-		right: -4px;
-		bottom: 0;
-		width: 2px;
-		background: 
-			linear-gradient(to right, #faf8f2 0%, #f9f7f1 50%, #f8f6f0 100%),
-			linear-gradient(to bottom, rgba(255, 255, 255, 0.08) 0%, transparent 25%, rgba(0, 0, 0, 0.03) 75%, rgba(0, 0, 0, 0.05) 100%);
-		border-radius: 0 1px 1px 0;
-		box-shadow: 
-			0 2px 6px rgba(0, 0, 0, 0.12),
-			inset -0.5px 0 1px rgba(0, 0, 0, 0.08),
-			inset 0 1px 0 rgba(255, 255, 255, 0.25);
-		opacity: 0;
-		transition: all 0.3s cubic-bezier(0.25, 0.1, 0.25, 1) 0.02s;
-		transform-origin: left center;
-		z-index: 0;
+		left: 0;
+		right: 0;
+		height: 3px;
+		background: linear-gradient(to bottom, #fdfbf5, #f5f3ed);
+		border-radius: 0 2px 0 0;
 	}
 
+	/* Bottom edge of pages */
 	.book-pages::after {
 		content: '';
 		position: absolute;
-		top: 0;
-		right: -8px;
 		bottom: 0;
-		width: 2px;
-		background: 
-			linear-gradient(to right, #f5f3eb 0%, #f4f2ea 50%, #f3f1e9 100%),
-			linear-gradient(to bottom, rgba(255, 255, 255, 0.06) 0%, transparent 30%, rgba(0, 0, 0, 0.04) 70%, rgba(0, 0, 0, 0.06) 100%);
-		border-radius: 0 1px 1px 0;
-		box-shadow: 
-			0 2px 5px rgba(0, 0, 0, 0.1),
-			inset -0.5px 0 1px rgba(0, 0, 0, 0.06),
-			inset 0 1px 0 rgba(255, 255, 255, 0.2);
-		opacity: 0;
-		transition: all 0.35s cubic-bezier(0.25, 0.1, 0.25, 1) 0.05s;
-		transform-origin: left center;
-		z-index: -1;
+		left: 0;
+		right: 0;
+		height: 3px;
+		background: linear-gradient(to top, #e8e6e0, #f0eee8);
+		border-radius: 0 0 2px 0;
 	}
 
 	.book-card:hover .book-pages {
-		opacity: 0.95;
-		transform: rotateY(3deg) translateY(-1px);
-		width: 2.5px;
-		right: -3px;
-		z-index: 1;
-	}
-
-	.book-card:hover .book-pages::before {
-		opacity: 0.9;
-		transform: rotateY(5deg) translateY(-2px);
-		right: -2px;
-		width: 2px;
-		z-index: 0;
-	}
-
-	.book-card:hover .book-pages::after {
-		opacity: 0.85;
-		transform: rotateY(7deg) translateY(-3px);
-		right: -4px;
-		width: 1.5px;
-		z-index: -1;
+		opacity: 1;
+		transform: rotateY(5deg);
+		width: 15px;
+		right: -15px;
 	}
 
 
 	.book-spine {
 		position: absolute;
 		top: 0;
-		left: -8px;
+		left: -15px;
 		bottom: 0;
-		width: 8px;
+		width: 15px;
 		background:
-			linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1) 50%, transparent),
+			linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.15) 50%, transparent),
 			var(--book-color);
-		border-radius: 3px 0 0 3px;
-		box-shadow: -2px 0 6px rgba(0, 0, 0, 0.3);
+		border-radius: 4px 0 0 4px;
+		box-shadow: -3px 0 8px rgba(0, 0, 0, 0.4);
 		overflow: hidden;
 		z-index: 2;
 	}

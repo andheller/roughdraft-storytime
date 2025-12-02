@@ -195,6 +195,21 @@ export const bookList = [
 		height: 245,
 		thickness: 58,
 		tilt: 1
+	},
+	{
+		id: 'someone-should-have-told-me',
+		title: 'Someone Should Have Told Me',
+		author: 'Claude',
+		color: '#F4A460',
+		leatherColor: 'hsl(28, 87%, 67%)',
+		emoji: '🐱',
+		description:
+			'Frankie follows rules EXACTLY. So when he\'s in charge of his brother for a week and a stray cat shows up, and the cat eats all the snacks, and maybe has kittens in the closet—none of that is his fault. He has documentation.',
+		seriesId: 'someone-should-have-told-me',
+		storyId: 'someone-should-have-told-me',
+		height: 250,
+		thickness: 62,
+		tilt: -2
 	}
 ];
 

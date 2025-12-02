@@ -1,6 +1,6 @@
 # Chapter 7: Consulting for the Opposition
 
-Something very weird happened today. Jordan asked me for advice. Not advice about something easy, like what color crayon to use or whether their sandwich needed more peanut butter. Advice about sibling stuff.
+Something very weird happened today. Jordan asked me for advice. Not advice about something easy, like what color crayon to use or whether his sandwich needed more peanut butter. Advice about sibling stuff.
 
 It started when Jordan found me in my room reading and said, "Riley, can I ask you something?"
 

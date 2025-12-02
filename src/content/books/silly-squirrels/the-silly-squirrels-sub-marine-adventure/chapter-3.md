@@ -42,9 +42,25 @@ They lowered their pebble anchors and began to descend. Unlike their previous at
 
 ---
 
-For twenty wonderful minutes, the three squirrels explored the underwater world in their acorn submarines. They saw dancing water weeds, curious minnows, and even a wise old crayfish who waved at them with his claws.
+For twenty wonderful minutes, the three squirrels explored the underwater world in their acorn submarines. They saw dancing water weeds, curious minnows who waved from the windows of "The Leaf Loft" (which now had a mailbox), and even a wise old crayfish who waved at them with his claws.
 
 "We're actually doing it!" Mama laughed, spinning her paddle wheels to do a little underwater loop. "We're real submarine explorers!"
+
+A familiar grumpy face appeared outside Nutty's acorn submarine window. Gerald was swimming alongside them, trying very hard to look unimpressed.
+
+"I'm not following you," Gerald said immediately. "I just happen to be swimming in this direction. For unrelated reasons."
+
+"Are you curious about our submarines?" Nutty asked, grinning.
+
+"Absolutely not. I'm conducting routine river patrol. Which I definitely do every day and not just today."
+
+"You want to see if we find the Golden Acorn, don't you?"
+
+"I want to see you NOT find the Golden Acorn so I can say 'I told you so,'" Gerald corrected. "There's a difference. It's called 'scientific observation of inevitable failure.'"
+
+"That's not a real thing," Papa called from his acorn submarine.
+
+"It is now. I just invented it."
 
 Papa navigated between some underwater rocks, feeling very professional. "I can see why submarines are shaped like this. The acorn design cuts through the water like... well, like a nut through air!"
 
@@ -64,8 +80,30 @@ Nutty was already sketching ideas in the sand with a stick. "What if we made the
 
 "Tomorrow is Submarine Number Four!" Papa declared. "And I have a feeling it's going to be our best one yet!"
 
-As they carried their acorn submarines home (they were too proud of them to leave them at the river), Nutty couldn't stop grinning.
+As they prepared to carry their acorn submarines home (they were too proud of them to leave them at the river), Gerald surfaced nearby.
+
+"So," he said, trying to sound casual and failing completely, "you're coming back tomorrow, right? Not that I care. Just... river patrol scheduling purposes."
+
+"We'll be back," Nutty promised.
+
+"Whatever. I'll probably be busy." Gerald paused. "What time, exactly?"
+
+"Dawn!"
+
+"I'll be busy at dawn. Definitely. Doing other things." He sank beneath the surface, then immediately popped back up. "But if I HAPPEN to be in the area..."
+
+"We'd love to have you watch us succeed!" Mama said cheerfully.
+
+"Watch you FAIL," Gerald corrected automatically. "Watch you fail. That's what I said."
+
+As they carried their acorn submarines home, Nutty couldn't stop grinning.
 
 "We're really getting the hang of this submarine business," he said happily. "The Golden Acorn better be ready for us!"
+
+"And I think Gerald secretly wants us to find it," Mama added.
+
+"Impossible," Papa laughed. "That catfish is too grumpy to want anything nice to happen."
+
+But Nutty wasn't so sure. He'd seen the look in Gerald's eyes when they talked about the Deep Canyon. It was the look of someone who WANTED to believe, even if he wouldn't admit it.
 
 "Ready or not," Mama laughed, "here come the Silly Squirrels!"

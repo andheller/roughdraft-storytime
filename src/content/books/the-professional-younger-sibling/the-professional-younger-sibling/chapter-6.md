@@ -62,7 +62,7 @@ When we finally finished cleaning up Mom's office, she called us all back to the
 
 "I know Jordan reorganized my office," she said. "And I know the rest of you were trying to protect Jordan, which was very sweet. But lying to me is not okay, even when you're trying to help each other."
 
-We all apologized, and Jordan apologized extra because it was their fault to begin with.
+We all apologized, and Jordan apologized extra because it was his fault to begin with.
 
 "However," Mom continued, "I am proud of you for sticking together as siblings. That's exactly what families are supposed to do."
 

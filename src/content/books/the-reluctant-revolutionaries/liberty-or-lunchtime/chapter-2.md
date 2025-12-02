@@ -1,167 +1,180 @@
-# Chapter 2: The Midnight Ride I Didn't Sign Up For
+# Chapter 2: Valley Forge is the Worst
 
-Spring finally came to Valley Forge, and I had a new plan: Stay invisible.
+A year had passed since the Delaware crossing, and I was STILL with the army.
 
-No more stumbling into generals. No more accidentally catching spies. Just feed the horses, stay quiet, and hopefully everyone would forget I existed until the war ended and I could go home.
+I'm ten years old now, which means I've had ten winters, and I can say with complete certainty that Valley Forge, Pennsylvania, in the winter of 1777, is the absolute WORST.
 
-My new job was perfect for invisibility. I worked in the stables, feeding and brushing the horses. Horses don't ask you to be a hero. Horses just want oats and head scratches.
+Here are the things I am currently experiencing:
+1. Cold. So cold. Colder than cold.
+2. Hungry. The soldiers keep joking about "fire cakes," which are just flour and water cooked over a fire. They are not as fun as they sound.
+3. Bored. There's nothing to do except be cold and hungry.
 
-"You're my favorite part of this whole war," I told a brown mare named Biscuit.
+I'm supposed to be in Philadelphia. I'm supposed to be eating my mom's apple pie. Instead, I'm STILL stuck at an army camp with Uncle Harold, because apparently saving a general at Trenton made me "too valuable" to send home.
 
-Biscuit snorted and ate more hay.
+"But Uncle Harold," I had begged after the battle, "I want to go HOME."
 
-See? Perfect job.
+"The war's not over yet, Theo."
 
----
+"It's been a YEAR!"
 
-Everything was going great until the night of April 15th.
+"And it might be another year. Or three. Wars take time."
 
-I was moving Biscuit from one stall to another. Simple task. Even I couldn't mess it up.
-
-"Come on, girl." I climbed onto her back (the ground was muddy and I didn't want to walk through it). "Just a short ride to the other stable."
-
-Biscuit walked calmly for about three seconds.
-
-Then a soldier behind us dropped a metal bucket with a massive CLANG.
-
-Biscuit panicked.
-
-She reared up, nearly throwing me off. I grabbed her mane. She shot forward like a cannonball.
-
-"STOP!" I screamed. "BISCUIT, STOP!"
-
-Biscuit did not stop.
-
-We galloped past the officers' tents. Past the guard posts. Past the edge of camp. Into the dark countryside beyond.
-
-"SOMEBODY HELP!"
-
-Nobody helped.
+So here I was. Valley Forge. Winter. Miserable.
 
 ---
 
-I have no idea how long we rode. It felt like hours. Biscuit ran like something was chasing her, even though nothing was chasing her except maybe her own fear of buckets.
+"Theo!" Uncle Harold called from across the camp. "I need you to deliver this soup to the officers' tent!"
 
-Finally, FINALLY, she slowed down outside a tavern in a small town I didn't recognize.
+I looked at the pot of soup. It was thin and watery and had maybe three pieces of actual vegetable in it.
 
-I slid off her back, shaking. "What is WRONG with you?!"
+"This is soup?" I asked.
 
-Biscuit just snorted.
+"It's what we've got," Uncle Harold said. "Now go. The generals are waiting."
 
-The tavern door opened, and a man in a Continental uniform hurried out.
+I trudged through the snow, carefully carrying the pot. My shoes had holes in them. My coat was too thin. A soldier walked past me and sneezed, and I was pretty sure he hadn't eaten in two days.
 
-"Finally!" he exclaimed. "I've been waiting for hours! Do you have the message?"
+"I want to go home," I muttered for the four hundredth time that week.
 
-I stared at him. "What message?"
+The officers' tent was the biggest one in camp. I pushed through the flap and immediately tripped on a loose rope.
 
-His face fell. "You're the dispatch rider, aren't you? From Valley Forge? With General Washington's orders?"
+The soup went flying.
 
-"I'm a kid who feeds horses. One of them ran away with me."
+And landed directly on the boots of a very tall man in a fancy blue coat.
 
-The man looked at Biscuit. He looked at me. He looked back at Biscuit.
+Time froze. I stared at the soup dripping down his boots. He stared at me. Everyone in the tent stared at both of us.
 
-"That's... that's General Washington's fastest horse. The one reserved for urgent messages."
+"I am SO sorry!" I scrambled to wipe off his boots with my sleeve. "I didn't mean to— the rope was— I can—"
 
-I looked at Biscuit. Biscuit looked at me, completely innocent.
+"Stop." The man's voice was deep and calm.
 
-"Of course it is," I muttered.
+I stopped.
 
-Just then, we heard hoofbeats. Another rider appeared from the darkness—a soldier, red-faced and exhausted.
+"Stand up."
 
-"Did the message get through?!" he wheezed, pulling up next to us.
+I stood up.
 
-"What message?!" I shouted.
+The tall man looked down at me. He had a tired face and worried eyes, but he wasn't angry. Instead, he almost smiled.
 
-The soldier reached into his saddlebag and pulled out... nothing. His eyes went wide.
+"At least the soup was warm," he said. "My feet were freezing."
 
-"It's gone! The dispatch must have fallen out when—" He stopped. He stared at Biscuit. "Wait. Is that Washington's horse? Did YOU take the message?!"
+A few officers chuckled nervously. I just stared, because I had suddenly realized who I was looking at.
 
-"I didn't take anything! I don't know what's happening!"
+This was General George Washington. The same man who had pinned a medal on me after the Delaware crossing.
 
-Then I felt something crinkle in my pocket.
+And I had just dumped soup on his shoes.
 
-I reached in and pulled out a folded piece of paper with a wax seal. It must have fallen in when I grabbed Biscuit's saddlebag for balance.
+"I'm sorry, sir," I whispered. "I really didn't mean to."
 
-"Is... is this it?"
+"I know." Then his eyes narrowed. "Wait. Theo Finch? The boy from the Delaware?"
 
-The man from the tavern snatched it, read it quickly, and his whole face changed.
+"Yes, sir." I wanted to disappear into the floor.
 
-"Troop movements! British positions! This is exactly what we needed!" He looked at me with something like awe. "Son, you just delivered one of the most important messages of the war."
+"The wagon wheel boy!" An officer nearby started laughing. "I heard about you! Saved General Sullivan!"
 
-"I didn't deliver anything! The horse ran away!"
+"It was an accident," I muttered.
 
-"Modesty!" The soldier beamed. "Just like General Washington described you. 'The humble hero.'"
+Washington looked amused. "Well, Theo Finch, it seems you've found me again. Go get some rest. And perhaps walk more carefully with the next pot."
 
-"I'M NOT HUMBLE, I'M CONFUSED!"
-
-Nobody listened.
+I practically ran out of that tent.
 
 ---
 
-The next morning, I rode back to Valley Forge (slowly, with a MUCH calmer Biscuit) and found Uncle Harold waiting for me.
+That night, I couldn't sleep. Partly because it was cold (obviously), but mostly because I couldn't stop thinking about spilling soup on George Washington.
 
-"Where have you BEEN?!" he demanded.
+My mom would be mortified. My dad would laugh. I just wanted to disappear.
 
-"I don't want to talk about it."
+Around midnight, I snuck out of my tent to walk around. Sometimes walking helps when I can't sleep. Also, it's slightly warmer to move than to lie still.
 
-"You're all anyone can talk about! 'The Midnight Rider'! They're saying you rode through the night to deliver a crucial message!"
+The camp was quiet except for the guards and the occasional cough from the soldiers' tents. I wandered toward the edge of camp, where the trees started.
 
-"A HORSE ran away with me."
+That's when I heard voices.
 
-"You saved an entire regiment! General Washington wants to see you!"
+Quiet voices. Speaking in the shadows.
 
-"I DON'T WANT TO SEE GENERAL WASHINGTON!"
+"The supply wagons arrive Thursday," someone whispered. "That's when we strike."
 
-But of course, I didn't get a choice.
+"How many guards?"
+
+"Only four. It'll be easy."
+
+I froze. These weren't American accents. These were... British?
+
+I peeked around a tree. Two men in dark cloaks stood in the shadows, just outside the camp's edge. One was drawing something in the dirt—a map, maybe?
+
+"General Howe will be pleased," one said. "Steal their supplies, and this pathetic rebellion ends by spring."
+
+Spies. British spies. Planning to steal the army's food.
+
+I should have run. I should have quietly snuck away and told a guard. Instead, I stepped on a twig.
+
+CRACK.
+
+Both men spun around.
+
+"WHO'S THERE?!"
+
+I did what any sensible ten-year-old would do: I ran.
+
+I ran faster than I've ever run in my life. Behind me, I heard shouting and crashing as the spies chased me through the dark woods.
+
+"HELP!" I screamed. "SPIES! THERE ARE SPIES!"
+
+I burst out of the trees and crashed directly into a tent.
+
+George Washington's tent.
+
+Again.
+
+I tumbled through the flap and rolled across the floor, coming to a stop at someone's feet. I looked up. Washington stood there, still dressed, holding a candle.
+
+"Young Theo," he said calmly, as if children crashed into his tent every night. "You seem distressed."
+
+"SPIES!" I gasped. "In the woods! British! They're planning to steal the supplies!"
+
+Washington's expression changed instantly. He strode to the tent entrance and called out to the guards. Within minutes, soldiers were streaming into the woods with torches.
+
+They caught both spies.
 
 ---
 
-Once again, I stood in front of George Washington. He looked at me like I was a puzzle he couldn't quite figure out.
+The next morning, I stood in front of George Washington again. This time, I hadn't spilled anything on him.
 
-"Theodore Finch," he said slowly. "The same boy who caught the spies. Now you've delivered a message that helped us outmaneuver the British."
+"Theodore Finch," Washington said formally, "last night you single-handedly uncovered a British plot that could have starved this entire army."
 
-"Sir, I didn't mean to—"
+"I just heard them talking," I said. "I didn't really do anything."
 
-"You rode twenty miles in the dark. Alone."
+"You ran. You warned us. You saved lives." He pinned a second medal on my coat, right next to the first one. "You're a hero. Again."
 
-"The horse—"
+I looked at my two medals. I looked at Washington. I looked at the medals again.
 
-"Through potentially dangerous territory."
+"With all due respect, sir," I said, "I just want to go home and eat pie."
 
-"She wouldn't STOP—"
+Washington almost smiled again. That seemed to be his thing—almost smiling.
 
-"With vital intelligence that you protected with your own life."
+"Theo Finch," he said thoughtfully. "First the Delaware, now this. You remind me of myself at your age. Except I liked pie less."
 
-I gave up.
+"That seems impossible, sir."
 
-"Yes, sir. That's exactly what happened."
+This time, he actually did smile. Just a little.
 
-Washington nodded gravely. "I'm adding you to the official list of dispatch riders."
-
-My heart sank. "Sir, please, I'm just here to help my uncle cook. I feed horses. I'm not a soldier."
-
-"You're not a soldier," Washington agreed. "You're something more useful. You're lucky." He handed me another medal. "Luck wins wars, Theo Finch."
+"Get some rest, hero. I suspect this war will find you again."
 
 ---
 
-That night, I sat in Uncle Harold's tent, staring at my two medals.
+I went back to Uncle Harold's tent, clutching my second medal.
 
-"I don't WANT to be lucky," I told him. "I want to be HOME."
+"I don't want to be a hero," I told him. "I want to go HOME."
 
-Uncle Harold patted my shoulder. "Eat your dinner, dispatch rider."
+Uncle Harold just laughed and handed me a fire cake.
 
-"I'm not a dispatch rider! I'm a kid who wants PIE!"
+"Eat your breakfast, hero."
 
-He handed me another fire cake.
+I bit into the tasteless, awful fire cake and thought about my mom's apple pie.
 
-"Pie isn't on the menu."
+Three hundred miles away.
 
-I bit into the fire cake and thought about how much I hated Valley Forge, horses, midnight rides, and pretty much everything except the idea of my mom's kitchen, three hundred miles away.
+Might as well be on the moon.
 
-Two medals now. Two completely accidental heroic acts.
+And somewhere deep in my gut, I had a terrible feeling that General Washington was right.
 
-And deep down, I had a sinking feeling this wasn't over.
-
-History wasn't done with me.
-
-Not even close.
+This war wasn't done with me yet.

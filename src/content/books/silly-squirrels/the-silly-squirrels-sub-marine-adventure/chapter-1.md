@@ -46,6 +46,22 @@ The leaf submarine was soaking up river water like a sponge. Within seconds, it 
 
 Mama pulled a dripping pine needle from her ear. "Well, that was... educational."
 
+From beneath the water's surface, a grumpy face emerged. It belonged to the oldest, crankiest catfish in the river - Gerald. His whiskers drooped with disapproval, and he had the expression of someone who had been napping peacefully until three squirrels dropped a salad on his head.
+
+"Let me guess," Gerald said, his voice like gravel being gargled. "You're looking for the Golden Acorn."
+
+"You know about the Golden Acorn?!" Nutty gasped excitedly.
+
+"Kid, EVERYONE knows about the Golden Acorn. And everyone with half a brain knows it's a MYTH." Gerald picked a soggy leaf off his whisker with great dignity. "Old Owl tells that story to every gullible woodland creature who'll listen. Last month he had the rabbits convinced there was a Golden Carrot."
+
+"Did they find it?" Nutty asked hopefully.
+
+"There WAS no Golden Carrot! That's my point!" Gerald blew a bubble of exasperation. "Look, I've lived in this river for forty-seven years. FORTY-SEVEN. The only gold down there is the goldfish, and frankly, they're not that impressive."
+
+"We're going to prove you wrong!" Nutty declared.
+
+"Sure you are, kid." Gerald sank back into the water, but not before adding, "By the way, your leaf pile is now blocking the entrance to my living room. Just thought you should know."
+
 Nutty watched the last few orange leaves float away downstream. "Maybe leaves aren't the best submarine material," he admitted sheepishly.
 
 "Don't worry, son," Papa said, patting Nutty's soggy tail. "Every great inventor learns from their failures. Thomas Edison tried hundreds of materials before he found the right one for his light bulb!"

@@ -16,15 +16,17 @@ Nutty blinked in confusion, trying to make sense of what he was seeing. He was l
 
 "Rockets?" Nutty touched his head, feeling very confused. "But we... didn't we just...?"
 
-He looked out his window, expecting to see the remnants of their 4-stage rocket in the field. Instead, he saw Mrs. Hedgehog in her garden, perfectly content and watching her morning cooking show on a crystal-clear TV through her kitchen window.
+He looked out his window, expecting to see the remnants of their 4-stage rocket in the field. Instead, he saw Mrs. Hedgehog in her garden, watching her morning cooking show on a crystal-clear TV through her kitchen window.
 
 "Mrs. Hedgehog's TV is working," he observed slowly.
 
-"Of course it is, dear," Mama said, smoothing down his ruffled fur. "It's been working fine all week."
+"Of course it is now, dear," Mama said, smoothing down his ruffled fur. "Remember? The signal came back on its own last night, right after you fell asleep reading that space magazine."
 
 Nutty scrambled to his feet and ran to look out the window more carefully. Mr. Rabbit was on his porch, reading a newspaper and listening to a perfectly clear weather report on his radio. Tony the Fox drove by with his delivery truck, his GPS working flawlessly as he navigated to his next stop.
 
-"But the satellites..." Nutty mumbled, his brain still trying to sort out what was real and what wasn't. "The satellite signals were all messed up, and we built a rocket, and we went to space, and we fixed everything!"
+"But the satellites..." Nutty mumbled, his brain still trying to sort out what was real and what wasn't. "They were broken! We built a rocket, and we went to space, and we fixed everything!"
+
+"The TV station said it was just a temporary glitch," Papa explained. "Something about sunspots. Fixed itself overnight."
 
 Papa and Mama exchanged a knowing look - the kind of look parents give each other when their child has had a particularly vivid dream.
 

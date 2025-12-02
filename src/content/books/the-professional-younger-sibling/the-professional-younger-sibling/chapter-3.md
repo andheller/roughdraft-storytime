@@ -38,7 +38,7 @@ My third research subject was Lucy, who lives next door and is the youngest of t
 
 "Then I blame it on him," she said. "No one ever suspects the good twin."
 
-This seemed promising until I realized I don't have a twin to blame things on. Jordan is already the trouble sibling in our family, but they're three years older than me, so blaming them for something I did would be pretty obvious.
+This seemed promising until I realized I don't have a twin to blame things on. Jordan is already the trouble sibling in our family, but he's three years older than me, so blaming him for something I did would be pretty obvious.
 
 Finally, I talked to Mrs. Peterson next door, who said when she was little and the youngest of six, her strategy was to be so helpful that her parents couldn't imagine life without her.
 

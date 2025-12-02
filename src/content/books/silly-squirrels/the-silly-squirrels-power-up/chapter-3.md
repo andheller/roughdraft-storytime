@@ -120,53 +120,55 @@ As the sun started to set, they were feeling pretty confident about their rocket
 
 Which turned out to be significantly harder than expected.
 
-The next morning, they built an improved rocket – longer, more pointed, with little metal fins on the back to help it fly straight. It looked like a proper rocket, the kind you'd see in science fiction movies.
+The next morning, they built an improved rocket – longer, more pointed, with little metal fins on the back to help it fly straight. It looked like a proper rocket, the kind you'd see in science fiction movies if those movies were made by squirrels with enthusiasm but questionable welding skills.
 
-"This one will definitely work better," Nutty announced confidently, because he hadn't yet learned that the universe has a sense of humor about confident announcements.
+"This one will definitely work better," Nutty announced confidently, because he hadn't yet learned that the universe has a sense of humor about confident announcements. The universe, at that exact moment, was cracking its knuckles.
 
 They loaded it with water, heated it up, and launched it with great ceremony.
 
-The rocket immediately veered to the left, then to the right, then spun in a complete circle before crashing directly into Mrs. Oakley's prize-winning rose bushes.
+The rocket immediately veered to the left, then to the right, then executed what could only be described as a corkscrew of doom before crashing directly into Mrs. Oakley's prize-winning rose bushes. Not just any rose bushes – the ones she'd been entering into the Nutville Garden Competition for seventeen years straight. The ones she talked to every morning. The ones that had names.
 
-"Well," Papa said after a moment of stunned silence, "that was... different."
+"Well," Papa said after a moment of stunned silence during which they could hear Mrs. Oakley's distant scream of "PERCIVAL! GERTRUDE! NOOOOO!", "that was... different."
 
-"What went wrong?" Nutty asked, racing toward the crashed rocket with his notebook.
+"What went wrong?" Nutty asked, racing toward the crashed rocket with his notebook while Mama speed-delivered an apologetic fruit basket to Mrs. Oakley's door.
 
-"I think the nozzle is crooked," Mama observed, examining the rocket. "Look, it's not pointing exactly straight back."
+"I think the nozzle is crooked," Mama observed, appearing back beside them in a blur. "Look, it's not pointing exactly straight back. Also Mrs. Oakley says we owe her seventeen years of emotional investment."
 
 "So even a tiny mistake in construction can cause big problems in flight," Nutty realized. "Like how a small pebble in your shoe can make you run in circles."
 
-"Exactly!" Papa said. "Except with more explosions and angry neighbors!"
+"Exactly!" Papa said. "Except with more explosions and neighbors who now want us to move to another forest!"
 
-They spent the next hour carefully adjusting the rocket, making sure everything was perfectly aligned. This time, Nutty used a straight edge to ensure the nozzle was pointing in exactly the right direction.
+They spent the next hour carefully adjusting the rocket, making sure everything was perfectly aligned. This time, Nutty used a straight edge, a level, and approximately forty-seven double-checks to ensure the nozzle was pointing in exactly the right direction.
 
-"Attempt number two!" he announced.
+"Attempt number two!" he announced, pointing the rocket in the opposite direction from Mrs. Oakley's garden. Just to be safe.
 
-This time, the rocket launched perfectly straight – for about twenty feet. Then it suddenly pitched upward, soared high into the air like it was trying to visit the clouds, and came crashing down in the middle of the creek with a tremendous splash.
+The rocket launched perfectly straight – for about twenty feet. Then it suddenly pitched upward, soared high into the air like it was auditioning for the role of "confused bird," did a loop that would have impressed an acrobatic pilot, and came crashing down directly in Mrs. Oakley's birdbath.
 
-"Our rocket has decided to become a submarine!" Papa laughed.
+In the silence that followed, they could hear the gentle splash, followed by the sound of Mrs. Oakley opening her back door, followed by a word that squirrels were definitely not supposed to know.
 
-"But why did it go up instead of forward?" Mama wondered.
+"Our rocket has decided to become a submarine!" Papa laughed nervously.
 
-"I think we had too much steam pressure," Nutty said, frantically flipping through his notebook. "When the pressure is too high, the steam comes out so fast that it makes the rocket unstable."
+"Why does it keep finding Mrs. Oakley's yard?" Mama asked, genuinely baffled. "We pointed it the OTHER direction!"
 
-"So we need just the right amount of steam," Mama realized. "Not too little, not too much."
+"I think we had too much steam pressure," Nutty said, frantically flipping through his notebook. "When the pressure is too high, the steam comes out so fast that it makes the rocket unstable. And apparently magnetically attracted to Mrs. Oakley's property."
 
-"Right! It's like making the perfect acorn soup – you need just the right amount of everything."
-
-Mama used her super-speed to fish the rocket out of the creek. Fortunately, being made of metal, it had survived its unexpected swim just fine.
+They retrieved the rocket under cover of Mama's super-speed, leaving behind a hastily written apology note and a coupon for a free birdbath cleaning.
 
 "Third time's the charm?" Papa asked hopefully.
 
-"Third time's the charm," Nutty agreed. "But this time, we'll use less heat to create lower pressure."
+"Third time's the charm," Nutty agreed. "But this time, we'll use less heat to create lower pressure. And we'll point it toward the empty field. The REALLY empty field. The one that isn't anywhere near Mrs. Oakley."
 
-For their third attempt, Nutty heated the water gradually and monitored the steam pressure like he was defusing a bomb. When they heard the gentle hissing that indicated the perfect amount of steam, he gave the signal.
+For their third attempt, Nutty heated the water gradually and monitored the steam pressure like he was defusing a bomb. Which, technically, he kind of was. When they heard the gentle hissing that indicated the perfect amount of steam, he gave the signal.
 
 "Launch!"
 
 This time, the rocket performed beautifully. It shot forward in a perfectly straight line, maintained course for the entire flight, and landed gracefully in the soft grass about 150 feet away.
 
+Nowhere near Mrs. Oakley's property.
+
 "SUCCESS!" all three squirrels cheered.
+
+From somewhere in the distance, they heard Mrs. Oakley's suspicious voice: "What was that? Was that rocket-related? Because I WILL install a defense system!"
 
 "Now THAT," Papa said with satisfaction, "was a textbook rocket launch! If there were textbooks about rocket-launching squirrels, which there probably should be."
 

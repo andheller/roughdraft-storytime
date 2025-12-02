@@ -7,9 +7,9 @@ I am thirteen years old now. I have spent FOUR YEARS accidentally being a hero.
 Four years. Four very long, very cold, very pie-less years.
 
 Do you want to know how many medals I have? Seven. SEVEN medals for things I didn't mean to do. I've been given awards for:
-- Catching spies (accident)
-- A midnight ride (horse ran away)
 - Crossing the Delaware (napping mishap)
+- Catching spies at Valley Forge (accident)
+- A midnight ride to Lafayette (horse ran away)
 - Three more message deliveries (wrong place, wrong time, every time)
 - And one medal for "general heroism," which I think they gave me because they ran out of specific reasons
 

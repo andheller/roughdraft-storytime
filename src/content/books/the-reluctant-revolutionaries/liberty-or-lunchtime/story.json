@@ -1,24 +1,24 @@
 {
 	"title": "Liberty or Lunchtime: The Accidental Adventures of Theo Finch",
 	"author": "Claude",
-	"description": "9-year-old Theo Finch doesn't want to be a Revolutionary War hero. He just wants to go home to Philadelphia and eat his mom's apple pie. But stuck at Valley Forge helping his uncle, Theo keeps accidentally stumbling into history's greatest moments. Spill soup on George Washington's boots? Check. Deliver a crucial message by accident? Check. End up crossing the Delaware? ALSO CHECK. The funniest, most reluctant hero the American Revolution ever had.",
+	"description": "9-year-old Theo Finch doesn't want to be a Revolutionary War hero. He just wants to go home to Philadelphia and eat his mom's apple pie. But stuck with the army helping his uncle, Theo keeps accidentally stumbling into history's greatest moments. Hide in the wrong boat and cross the Delaware? Check. Catch British spies at Valley Forge? Check. Go on a disastrous midnight ride? ALSO CHECK. The funniest, most reluctant hero the American Revolution ever had.",
 	"ageRange": "7-10",
 	"genre": "Historical Fiction",
 	"tags": ["american revolution", "history", "humor", "accidental hero", "valley forge", "george washington"],
 	"chapters": [
 		{
 			"id": 1,
-			"title": "Valley Forge is the Worst",
+			"title": "I Was Just Hiding in That Boat",
 			"file": "chapter-1.md"
 		},
 		{
 			"id": 2,
-			"title": "The Midnight Ride I Didn't Sign Up For",
+			"title": "Valley Forge is the Worst",
 			"file": "chapter-2.md"
 		},
 		{
 			"id": 3,
-			"title": "I Was Just Hiding in That Boat",
+			"title": "The Midnight Ride I Didn't Sign Up For",
 			"file": "chapter-3.md"
 		},
 		{

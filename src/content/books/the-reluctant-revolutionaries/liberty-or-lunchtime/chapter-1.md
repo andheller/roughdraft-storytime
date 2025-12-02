@@ -1,178 +1,209 @@
-# Chapter 1: Valley Forge is the Worst
+# Chapter 1: I Was Just Hiding in That Boat
 
-My name is Theodore Finch, but everyone calls me Theo, and I am having the worst winter of my entire life.
+My name is Theodore Finch, but everyone calls me Theo, and I need to tell you about the worst Christmas of my entire life.
 
-I'm nine years old, which means I've had nine winters, and I can say with complete certainty that Valley Forge, Pennsylvania, in the year 1777, is the absolute WORST.
+I'm nine years old. I live in Philadelphia with my mom and dad. I was SUPPOSED to be home eating apple pie and opening presents. Instead, I'm stuck with the Continental Army because my mother thought it would be "educational" to spend a few months with my Uncle Harold, who is a cook for General Washington.
 
-Here are the things I am currently experiencing:
-1. Cold. So cold. Colder than cold.
-2. Hungry. The soldiers keep joking about "fire cakes," which are just flour and water cooked over a fire. They are not as fun as they sound.
-3. Bored. There's nothing to do except be cold and hungry.
+Let me tell you what I've learned so far: War is BORING. And COLD. And I really, really want to go home.
 
-I'm supposed to be in Philadelphia. I'm supposed to be eating my mom's apple pie. Instead, I'm stuck at an army camp with my Uncle Harold, who is a cook for General Washington's Continental Army.
+December 25th, 1776. Christmas Day.
 
-"But Theo," my mother had said when she sent me here, "it will be educational!"
+You know what I wanted for Christmas? To go home. To eat pie. To be anywhere except this freezing army camp.
 
-Let me tell you what I've learned so far: War is BORING. And COLD. Did I mention cold?
+You know what I got?
 
----
+The Delaware River. At night. In a boat I didn't mean to be in.
 
-"Theo!" Uncle Harold called from across the camp. "I need you to deliver this soup to the officers' tent!"
-
-I looked at the pot of soup. It was thin and watery and had maybe three pieces of actual vegetable in it.
-
-"This is soup?" I asked.
-
-"It's what we've got," Uncle Harold said. "Now go. The generals are waiting."
-
-I trudged through the snow, carefully carrying the pot. My shoes had holes in them. My coat was too thin. A soldier walked past me and sneezed, and I was pretty sure he hadn't eaten in two days.
-
-"I want to go home," I muttered for the four hundredth time that week.
-
-The officers' tent was the biggest one in camp. I pushed through the flap and immediately tripped on a loose rope.
-
-The soup went flying.
-
-And landed directly on the boots of a very tall man in a fancy blue coat.
-
-Time froze. I stared at the soup dripping down his boots. He stared at me. Everyone in the tent stared at both of us.
-
-"I am SO sorry!" I scrambled to wipe off his boots with my sleeve. "I didn't mean to— the rope was— I can—"
-
-"Stop." The man's voice was deep and calm.
-
-I stopped.
-
-"Stand up."
-
-I stood up.
-
-The tall man looked down at me. He had a tired face and worried eyes, but he wasn't angry. Instead, he almost smiled.
-
-"At least the soup was warm," he said. "My feet were freezing."
-
-A few officers chuckled nervously. I just stared, because I had suddenly realized who I was looking at.
-
-This was General George Washington. Commander of the Continental Army. The George Washington.
-
-And I had just dumped soup on his shoes.
-
-"I'm sorry, sir," I whispered. "I really didn't mean to."
-
-"I know." He waved his hand. "It's quite alright, young man. We could all use some warmth, even if it comes from soup on our boots." He looked at me more closely. "You're Harold's nephew? The cook's boy?"
-
-I nodded.
-
-"Well, Theo..." He paused. "It is Theo, yes?"
-
-"Yes, sir."
-
-"Go get some rest. And perhaps walk more carefully with the next pot."
-
-I practically ran out of that tent.
+Let me explain.
 
 ---
 
-That night, I couldn't sleep. Partly because it was cold (obviously), but mostly because I couldn't stop thinking about spilling soup on George Washington.
+It started that morning. Uncle Harold had a new assignment for me.
 
-My mom would be mortified. My dad would laugh. I just wanted to disappear.
+"The whole army is moving tonight," he said. "Secret operation. I need you to help me carry cooking supplies to the boats."
 
-Around midnight, I snuck out of my tent to walk around. Sometimes walking helps when I can't sleep. Also, it's slightly warmer to move than to lie still.
+"Boats?" I perked up. "Are we going home?"
 
-The camp was quiet except for the guards and the occasional cough from the soldiers' tents. I wandered toward the edge of camp, where the trees started.
+"We're going to New Jersey."
 
-That's when I heard voices.
+"That's the wrong direction!"
 
-Quiet voices. Speaking in the shadows.
+Uncle Harold ignored me. "Start loading those crates."
 
-"The supply wagons arrive Thursday," someone whispered. "That's when we strike."
+I spent all morning hauling pots and pans and bags of flour to the riverbank. It was freezing. The river was full of floating ice chunks. And my shoes had holes in them.
 
-"How many guards?"
+By afternoon, I was exhausted. The boats sat along the shore, waiting. Nobody was supposed to board until nightfall.
 
-"Only four. It'll be easy."
+That's when I had what I thought was a brilliant idea.
 
-I froze. These weren't American accents. These were... British?
+"If I hide in one of those boats," I reasoned, "I can take a nap. By the time anyone finds me, we'll be in New Jersey, and it'll be too late to make me work."
 
-I peeked around a tree. Two men in dark cloaks stood in the shadows, just outside the camp's edge. One was drawing something in the dirt—a map, maybe?
+I know. I KNOW. But I was tired and cold and absolutely desperate for a break.
 
-"General Howe will be pleased," one said. "Steal their supplies, and this pathetic rebellion ends by spring."
-
-Spies. British spies. Planning to steal the army's food.
-
-I should have run. I should have quietly snuck away and told a guard. Instead, I stepped on a twig.
-
-CRACK.
-
-Both men spun around.
-
-"WHO'S THERE?!"
-
-I did what any sensible nine-year-old would do: I ran.
-
-I ran faster than I've ever run in my life. Behind me, I heard shouting and crashing as the spies chased me through the dark woods.
-
-"HELP!" I screamed. "SPIES! THERE ARE SPIES!"
-
-I burst out of the trees and crashed directly into a tent.
-
-George Washington's tent.
-
-Again.
-
-I tumbled through the flap and rolled across the floor, coming to a stop at someone's feet. I looked up. Washington stood there, still dressed, holding a candle.
-
-"Young Theo," he said calmly, as if children crashed into his tent every night. "You seem distressed."
-
-"SPIES!" I gasped. "In the woods! British! They're planning to steal the supplies!"
-
-Washington's expression changed instantly. He strode to the tent entrance and called out to the guards. Within minutes, soldiers were streaming into the woods with torches.
-
-They caught both spies.
+I snuck onto the closest boat—a big, flat-bottomed one—and buried myself under some canvas tarps near the front. Within minutes, I was asleep.
 
 ---
 
-The next morning, I stood in front of George Washington again. This time, I hadn't spilled anything on him.
+I woke up to the sound of oars.
 
-"Theodore Finch," Washington said formally, "last night you single-handedly uncovered a British plot that could have starved this entire army."
+And shouting. And ice cracking. And a LOT of movement.
 
-"I just heard them talking," I said. "I didn't really do anything."
+"Steady, men! Keep rowing!"
 
-"You ran. You warned us. You saved lives." He pinned a small medal on my coat. "You're a hero."
+I peeked out from under the tarp.
 
-I looked at the medal. I looked at Washington. I looked at the medal again.
+The boat was in the MIDDLE OF THE RIVER. Surrounded by giant chunks of floating ice. Soldiers rowed on every side, grunting and straining against the current.
 
-"With all due respect, sir," I said, "I just want to go home and eat pie."
+And standing at the front of a nearby boat, looking extremely dramatic against the dark sky, was General George Washington.
 
-Washington almost smiled again. That seemed to be his thing—almost smiling.
+Oh no.
+
+Oh no no no.
+
+I was in the middle of the CROSSING OF THE DELAWARE.
+
+I ducked back under the tarp, heart pounding. Maybe if I stayed hidden, nobody would notice me. Maybe I could just stay here until we reached New Jersey and sneak away.
+
+THUMP.
+
+A boot landed right next to my head.
+
+"What's under that tarp?"
+
+Before I could do anything, someone yanked the canvas away. I found myself staring up at a very surprised soldier.
+
+"It's a KID!"
+
+"What's a kid doing here?!"
+
+"Who let a child on this boat?!"
+
+The commotion caught Washington's attention. He looked over from his boat, squinting through the darkness.
+
+"Who's that boy?" he called across the water.
+
+Everyone turned to stare at me. Twenty soldiers, frozen oars in hand, all looking at the nine-year-old who had accidentally invaded their top-secret military operation.
+
+"I was just taking a nap," I said weakly. "I'm Harold's nephew. The cook."
+
+Washington stared at me for a long moment. Then, impossibly, he almost smiled.
+
+"Well, Harold's nephew," he called, "I hope you know how to bail water!"
+
+---
+
+They couldn't send me back—we were already halfway across—so I got drafted into helping.
+
+"Bail water!" a soldier ordered, shoving a bucket at me.
+
+I bailed. Water was sloshing into the boat from every side, and the chunks of ice kept bumping into us like frozen battering rams.
+
+"This is the worst Christmas ever!" I shouted.
+
+"KEEP BAILING!"
+
+I bailed harder.
+
+We reached the far shore around three in the morning. I was soaked. My hands were blistered from the bucket. And I was pretty sure I had ice in places ice should never be.
+
+But we'd made it.
+
+"All troops, form up!" Washington commanded as the last boats landed. "We march on Trenton!"
+
+Wait. March?
+
+"I thought we were just crossing the river!" I said to a nearby soldier.
+
+He laughed. "We're crossing the river to ATTACK the enemy camp. Surprise assault. Merry Christmas to the British."
+
+This was not what I signed up for. This was the OPPOSITE of what I signed up for.
+
+---
+
+I'm not going to describe the whole battle. Partly because it was dark and confusing, and partly because I spent most of it hiding behind a wagon.
+
+But here's what happened: While I was hiding, I noticed something. Three British soldiers were sneaking around the side of the main fight, heading toward a building where, I later learned, important American officers were stationed.
+
+I could have stayed hidden. I SHOULD have stayed hidden.
+
+Instead, I grabbed a loose wagon wheel and threw it.
+
+I don't know WHAT I was thinking.
+
+The wheel rolled across the icy street, hit a rock, bounced, and slammed directly into the lead British soldier's legs. He went down. The other two tripped over him.
+
+American soldiers saw the commotion and captured all three.
+
+Turns out, they were trying to capture an American general.
+
+And I had stopped them. With a wagon wheel.
+
+---
+
+After the battle (we won, by the way—Merry Christmas), Washington found me sitting on a barrel, staring at nothing.
+
+"You," he said, looking down at me. "Harold's nephew. What's your name?"
+
+"T-Theo Finch, sir."
+
+"Theo Finch." He studied me with tired eyes. "You were on that boat."
+
+"I was just taking a nap," I said. "I didn't mean to be there."
+
+"And yet there you were." He looked at me thoughtfully. "You saved General Sullivan. With a wagon wheel."
+
+"It was an accident."
+
+"Was the crossing an accident?"
+
+"YES!"
+
+Washington nodded slowly. "Theo, some people run toward danger because they're brave. Some people find danger because they're unlucky. But you..." He reached into his coat and pulled out a small medal, which he pinned to my coat. "You find danger because history needs you there."
+
+"I don't WANT history to need me!"
+
+"None of us want what history gives us." He patted my shoulder. "Get some rest. You've earned it."
 
 "What's your name again, son?" he asked.
 
 "Theo Finch, sir."
 
-"Theo Finch," he repeated thoughtfully. "I'll remember that name. You remind me of myself at your age. Except I liked pie less."
-
-"That seems impossible, sir."
-
-This time, he actually did smile. Just a little.
-
-"Get some rest, hero. I suspect this war will find you again."
+"Theo Finch," he repeated thoughtfully. "I'll remember that name."
 
 ---
 
-I went back to Uncle Harold's tent, clutching my stupid medal.
+Uncle Harold found me an hour later, asleep on a pile of flour sacks.
 
-"I don't want to be a hero," I told him. "I want to go HOME."
+"I heard you crossed the Delaware," he said.
 
-Uncle Harold just laughed and handed me a fire cake.
+"I was NAPPING."
 
-"Eat your breakfast, hero."
+"In a boat."
 
-I bit into the tasteless, awful fire cake and thought about my mom's apple pie.
+"I didn't know it would MOVE."
 
-Three hundred miles away.
+He handed me something wrapped in cloth. I unwrapped it. Inside was a small pastry—not pie, but close.
 
-Might as well be on the moon.
+"Where did you get this?"
 
-And somewhere deep in my gut, I had a terrible feeling that General Washington was right.
+"A baker in Trenton. Said any kid who stopped an enemy soldier with a wagon wheel deserved a treat."
 
-This war wasn't done with me yet.
+I bit into the pastry. It wasn't my mom's pie. But it was the best thing I'd eaten in weeks.
+
+"I want to go home, Uncle Harold."
+
+"I know."
+
+"I really, really want to go home."
+
+"I know." He sat beside me. "But the war needs you, Theo Finch."
+
+I looked at my medal. My first medal. For an accident. For being in exactly the wrong place at exactly the wrong time.
+
+"The war needs to find someone else," I grumbled.
+
+But deep down, I had a terrible feeling it wouldn't.
+
+History had found me.
+
+And it wasn't letting go.
