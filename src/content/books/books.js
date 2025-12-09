@@ -137,6 +137,36 @@ export const bookList = [
 		tilt: -3
 	},
 	{
+		id: 'silly-squirrels-motor-bike-bonanza',
+		title: 'The Silly Squirrels Motor-Bike Bonanza',
+		author: 'Claude',
+		color: '#32CD32',
+		leatherColor: 'hsl(120, 61%, 50%)',
+		emoji: '🏍️',
+		description:
+			'Mama, Papa, and Nutty build supa dupa speedy motor-bikes to help Nutville go whoooooosh! With acorn engines, leaf spoilers, and banana-seat silliness, will they master speed without turning the town into a blur?',
+		seriesId: 'silly-squirrels',
+		storyId: 'the-silly-squirrels-motor-bike-bonanza',
+		height: 245,
+		thickness: 56,
+		tilt: 2
+	},
+	{
+		id: 'silly-squirrels-motor-bike-acorn-hunt',
+		title: 'The Great Motor-Bike Acorn Hunt',
+		author: 'Team Roughdraft',
+		color: '#B8860B',
+		leatherColor: 'hsl(43, 74%, 41%)',
+		emoji: '🏁',
+		description:
+			'Nutty, Mama, and Papa build squirrel-sized motor-bikes to chase crumbs, corral rogue balloons, untangle a bossy banner, and un-misplace Nutville\'s Golden Acorn—all at responsible speeds and questionable snack intervals.',
+		seriesId: 'silly-squirrels',
+		storyId: 'the-great-motor-bike-acorn-hunt',
+		height: 252,
+		thickness: 60,
+		tilt: -1
+	},
+	{
 		id: 'liberty-or-lunchtime',
 		title: 'Liberty or Lunchtime',
 		author: 'Claude',
@@ -299,6 +329,51 @@ export const bookList = [
 		storyId: 'downriver',
 		height: 258,
 		thickness: 64,
+		tilt: 1
+	},
+	{
+		id: 'one-wild-day-in-punsburg',
+		title: 'One Wild Day in Punsburg',
+		author: 'Andrew',
+		color: '#DAA520',
+		leatherColor: 'hsl(45, 70%, 50%)',
+		emoji: '🪰',
+		description:
+			'Eight pun-filled stories. One chaotic Saturday. Time-controlling flies, a glowing knight, telepathic cats, a dramatic alpaca... they seem unrelated. They\'re not.',
+		seriesId: 'one-wild-day-in-punsburg',
+		storyId: 'one-wild-day-in-punsburg',
+		height: 250,
+		thickness: 60,
+		tilt: 0
+	},
+	{
+		id: 'the-girl-who-was-accidentally-betrothed-to-a-dragon',
+		title: 'The Girl Who Was Accidentally Betrothed to a Dragon',
+		author: '',
+		color: '#B87333',
+		leatherColor: 'hsl(25, 55%, 46%)',
+		emoji: '🐉',
+		description:
+			'Due to a clerical error, Lady Wren has been legally engaged to a dragon since birth. The dragon is equally horrified. Now they must navigate ancient bureaucracy, an unwanted knight, and the discovery that there might be TWO Corneliuses.',
+		seriesId: 'the-girl-who-was-accidentally-betrothed-to-a-dragon',
+		storyId: 'the-girl-who-was-accidentally-betrothed-to-a-dragon',
+		height: 260,
+		thickness: 68,
+		tilt: -2
+	},
+	{
+		id: 'the-somewhat-reliable-narrator',
+		title: 'The Somewhat Reliable Narrator',
+		author: '',
+		color: '#4B3621',
+		leatherColor: 'hsl(28, 45%, 21%)',
+		emoji: '🕊️',
+		description:
+			'A story pieced together from secondhand accounts, rumor, and one very smudged letter. Two kingdoms have been at war for so long nobody remembers why. A princess and a prince become accidental pen pals. A pigeon named Gerald changes history.',
+		seriesId: 'the-somewhat-reliable-narrator',
+		storyId: 'the-somewhat-reliable-narrator',
+		height: 255,
+		thickness: 65,
 		tilt: 1
 	}
 ];

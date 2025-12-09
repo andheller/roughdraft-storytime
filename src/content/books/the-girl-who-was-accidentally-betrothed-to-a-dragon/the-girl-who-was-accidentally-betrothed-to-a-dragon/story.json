@@ -1,0 +1,45 @@
+{
+  "title": "The Girl Who Was Accidentally Betrothed to a Dragon",
+  "author": "",
+  "description": "Due to a clerical error in the Royal Betrothal Office, Lady Wren Fitzgerald has been legally engaged to a dragon since birth. The dragon is equally horrified.",
+  "ageRange": "8-12",
+  "genre": "Fantasy Comedy",
+  "tags": ["humor", "dragons", "bureaucracy", "adventure", "friendship"],
+  "chapters": [
+    {
+      "id": 1,
+      "title": "The Invitation List",
+      "file": "chapter-1.md"
+    },
+    {
+      "id": 2,
+      "title": "The Meeting",
+      "file": "chapter-2.md"
+    },
+    {
+      "id": 3,
+      "title": "The Knight Arrives",
+      "file": "chapter-3.md"
+    },
+    {
+      "id": 4,
+      "title": "The Bureaucrat's Quest",
+      "file": "chapter-4.md"
+    },
+    {
+      "id": 5,
+      "title": "The Forms",
+      "file": "chapter-5.md"
+    },
+    {
+      "id": 6,
+      "title": "The Other Cornelius",
+      "file": "chapter-6.md"
+    },
+    {
+      "id": 7,
+      "title": "The Resolution",
+      "file": "chapter-7.md"
+    }
+  ]
+}

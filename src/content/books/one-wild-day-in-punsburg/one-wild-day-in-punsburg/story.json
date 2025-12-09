@@ -1,0 +1,18 @@
+{
+  "title": "One Wild Day in Punsburg",
+  "author": "Andrew",
+  "description": "Eight silly stories that all happen on the same chaotic Saturday. Time-controlling flies, a glowing knight, a forgetful mussel, telepathic cats, a dramatic alpaca, a cereal mystery, cow journalists... they seem unrelated. They're not.",
+  "ageRange": "6-10",
+  "genre": "Humor",
+  "tags": ["puns", "anthology", "wordplay", "connected stories", "humor", "mystery"],
+  "chapters": [
+    { "id": 1, "title": "Time Flies", "file": "chapter-1.md" },
+    { "id": 2, "title": "Knight Light", "file": "chapter-2.md" },
+    { "id": 3, "title": "Mussel Memory", "file": "chapter-3.md" },
+    { "id": 4, "title": "The Tail of Two Kitties", "file": "chapter-4.md" },
+    { "id": 5, "title": "Alpaca My Bags", "file": "chapter-5.md" },
+    { "id": 6, "title": "Cereal Killer", "file": "chapter-6.md" },
+    { "id": 7, "title": "Breaking Moos", "file": "chapter-7.md" },
+    { "id": 8, "title": "Isle Be There", "file": "chapter-8.md" }
+  ]
+}
