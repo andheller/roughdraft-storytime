@@ -1,0 +1,15 @@
+{
+  "title": "The Wrong Pet Club",
+  "author": "Andrew",
+  "description": "Maya wanted a running dog. She got Speedy, a three-legged rescue who stops to smell everything. Ben's chameleon won't change colors. Jenna's cat might not exist. Together, they're the Wrong Pet Club—and they're about to find out their pets aren't wrong at all.",
+  "ageRange": "8-10",
+  "genre": "Humor",
+  "tags": ["funny", "pets", "friendship", "family", "dogs", "cats"],
+  "chapters": [
+    { "id": 1, "title": "The Worst Best Day", "file": "chapter-1.md" },
+    { "id": 2, "title": "The Club Nobody Wanted", "file": "chapter-2.md" },
+    { "id": 3, "title": "The Parade Problem", "file": "chapter-3.md" },
+    { "id": 4, "title": "Lost", "file": "chapter-4.md" },
+    { "id": 5, "title": "The Right Pets", "file": "chapter-5.md" }
+  ]
+}

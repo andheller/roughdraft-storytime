@@ -1,0 +1,22 @@
+{
+  "title": "The Eastern Valleys",
+  "author": "Andrew",
+  "description": "When the letter finally arrives, the Aldridge family leaves their city apartment for forty hectares of newly terraformed land. Through Oliver's eyes, we follow a year of building, planting, and discovering what it means to make a home from nothing—with hard work, good neighbors, and two faithful robots.",
+  "ageRange": "8-10",
+  "genre": "Science Fiction",
+  "tags": ["frontier", "family", "robots", "homesteading", "community", "future", "inspiring"],
+  "chapters": [
+    { "id": 1, "title": "Forty Hectares", "file": "chapter-1.md" },
+    { "id": 2, "title": "The Long Road", "file": "chapter-2.md" },
+    { "id": 3, "title": "The Glass River", "file": "chapter-3.md" },
+    { "id": 4, "title": "Stakes in the Ground", "file": "chapter-4.md" },
+    { "id": 5, "title": "The House Rises", "file": "chapter-5.md" },
+    { "id": 6, "title": "First Planting", "file": "chapter-6.md" },
+    { "id": 7, "title": "Neighbors", "file": "chapter-7.md" },
+    { "id": 8, "title": "Mr. Tarrant's Advice", "file": "chapter-8.md" },
+    { "id": 9, "title": "The Network", "file": "chapter-9.md" },
+    { "id": 10, "title": "When Things Go Wrong", "file": "chapter-10.md" },
+    { "id": 11, "title": "The Harvest", "file": "chapter-11.md" },
+    { "id": 12, "title": "Forty Hectares", "file": "chapter-12.md" }
+  ]
+}

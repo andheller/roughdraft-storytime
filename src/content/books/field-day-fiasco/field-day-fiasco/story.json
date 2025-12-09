@@ -1,0 +1,15 @@
+{
+  "title": "Field Day Fiasco",
+  "author": "Claude",
+  "description": "Casey Chen's parents take everything literally. EVERYTHING. So when they volunteer for school field day, every sports idiom becomes a disaster. Can Casey survive 'breaking a leg,' 'giving 110%,' and the dreaded tug of WAR?",
+  "ageRange": "7-10",
+  "genre": "Humor",
+  "tags": ["literal", "parents", "sports", "field day", "idioms", "family", "humor"],
+  "chapters": [
+    { "id": 1, "title": "The Careful Way", "file": "chapter-1.md" },
+    { "id": 2, "title": "Coach Thompson Opens His Mouth", "file": "chapter-2.md" },
+    { "id": 3, "title": "The Events Begin", "file": "chapter-3.md" },
+    { "id": 4, "title": "Everything Falls Apart", "file": "chapter-4.md" },
+    { "id": 5, "title": "Hold Your Ground", "file": "chapter-5.md" }
+  ]
+}

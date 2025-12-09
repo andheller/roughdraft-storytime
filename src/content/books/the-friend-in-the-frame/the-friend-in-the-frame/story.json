@@ -1,0 +1,41 @@
+{
+  "id": "the-friend-in-the-frame",
+  "title": "The Friend in the Frame",
+  "author": "Benjamin & Fig",
+  "description": "Benjamin's imaginary friend Fig has been his best friend since he was five. But when Fig starts showing up in family photos—and then in OLD photos from before Benjamin was born—things get weird. The mystery is never solved. But some things don't need explaining.",
+  "ageRange": "7-10",
+  "genre": "Magical Realism",
+  "tags": ["friendship", "family", "imagination", "mystery", "heartwarming"],
+  "chapters": [
+    {
+      "id": 1,
+      "title": "My Best Friend Fig",
+      "file": "chapter-1.md"
+    },
+    {
+      "id": 2,
+      "title": "The Blur Gets Clearer",
+      "file": "chapter-2.md"
+    },
+    {
+      "id": 3,
+      "title": "The Old Albums",
+      "file": "chapter-3.md"
+    },
+    {
+      "id": 4,
+      "title": "Everyone Thinks I'm Crazy",
+      "file": "chapter-4.md"
+    },
+    {
+      "id": 5,
+      "title": "The Conversation",
+      "file": "chapter-5.md"
+    },
+    {
+      "id": 6,
+      "title": "Family Portrait",
+      "file": "chapter-6.md"
+    }
+  ]
+}

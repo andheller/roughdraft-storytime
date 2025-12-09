@@ -22,7 +22,15 @@ I copied these into my Documentation Notebook, with the date and time. Mom saw m
 
 "Evidence is important," I told her. This is something I learned from the courtroom show she watches after we go to bed, the one with the lawyer who points at people and says *I have DOCUMENTATION*. That lawyer never gets in trouble. I plan to also never get in trouble.
 
-Mom kissed the top of my head and said, "Take care of your brother," which was already Rule 5 so I don't know why she said it twice, and then she left.
+Mom kissed the top of my head and said, "Take care of your brother," which was already Rule 5 so I don't know why she said it twice. Then she added, "Mrs. Henderson will check in on you at lunch and after school. I'll call at noon. If you need ANYTHING, she's right next door."
+
+"I know," I said.
+
+"And I'll be home by six every night. It's just the days you're on your own."
+
+"I KNOW," I said again, because she was acting like I hadn't been listening, which I had, very carefully, with documentation.
+
+Then she left.
 
 Bean was watching me write. Bean is five, which means he can read some words but not all words, and the words he can't read he just guesses, and his guesses are always wrong but very confident.
 
@@ -102,7 +110,9 @@ The cat walked inside like she owned the place. She walked right past both of us
 
 "Weird is just a word for things you don't understand yet," Bean said, which was DEFINITELY something he heard on a TV show, but I didn't know which one.
 
-I looked out the window while Bean watched the cat be weird. Mrs. Henderson was coming home from somewhere, carrying way too many grocery bags and looking tired. Mrs. Henderson always looks a little tired, but today she looked tired AND annoyed, like someone had given her a problem she didn't ask for. I decided not to bother her unless it was a real emergency, which a cat definitely wasn't.
+I looked out the window while Bean watched the cat be weird. Mrs. Henderson was coming home from somewhere, carrying way too many grocery bags and looking tired. Mrs. Henderson always looks a little tired, but today she looked tired AND annoyed, like someone had given her a problem she didn't ask for. She was also carrying a big bag of cat food, which was weird because Mrs. Henderson doesn't have a cat. She'd mentioned something last week about her sister trying to give her kittens, and how she absolutely did NOT want kittens, and how her sister never listens. I guess her sister won.
+
+I decided not to bother her unless it was a real emergency, which a cat definitely wasn't.
 
 The cat stayed.
 

@@ -1,0 +1,41 @@
+{
+  "id": "mrs-webster-takes-everything-literally",
+  "title": "Mrs. Webster Takes Everything Literally",
+  "author": "The New Kid",
+  "description": "When Marcus arrives at Brookdale Elementary, everyone warns him about Mrs. Webster, the teacher who takes everything literally. But after weeks of disasters, he starts to suspect the truth: Mrs. Webster isn't confused at all. She's having the time of her life.",
+  "ageRange": "7-10",
+  "genre": "Humor",
+  "tags": ["school", "teachers", "wordplay", "language", "humor", "mystery"],
+  "chapters": [
+    {
+      "id": 1,
+      "title": "The Warnings",
+      "file": "chapter-1.md"
+    },
+    {
+      "id": 2,
+      "title": "Learning the Hard Way",
+      "file": "chapter-2.md"
+    },
+    {
+      "id": 3,
+      "title": "The Webster Twinkle",
+      "file": "chapter-3.md"
+    },
+    {
+      "id": 4,
+      "title": "Operation: Outsmart the Teacher",
+      "file": "chapter-4.md"
+    },
+    {
+      "id": 5,
+      "title": "The Confession",
+      "file": "chapter-5.md"
+    },
+    {
+      "id": 6,
+      "title": "The Secret Keeper",
+      "file": "chapter-6.md"
+    }
+  ]
+}

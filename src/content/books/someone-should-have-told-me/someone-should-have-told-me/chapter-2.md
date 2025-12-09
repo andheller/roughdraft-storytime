@@ -68,21 +68,21 @@ There was a long pause. I could hear something in the background—a meowing sou
 
 "That sounds hard," I said, because that's what you say when adults complain.
 
-"You know what? Fine. Bring Bean over. But only for twenty minutes. I have to clear a space in my basement for these animals I didn't ask for."
+There was a pause. "What store do you need to go to?"
 
-I brought Bean to Mrs. Henderson's house. She looked even more tired in person. There were cardboard boxes everywhere and a cat carrier sitting by the door, empty but waiting.
+"The one on Miller Street. Four blocks."
 
-"Don't let him touch anything," she said. "I'll be in the basement."
+"I need cat food anyway. Bring Bean over, I'll take you both. But we're going FAST, Frankie. I don't have time for browsing."
 
-"Thank you for watching him. This is very—"
+We walked to Mrs. Henderson's house first. She looked even more tired in person. There were cardboard boxes everywhere and a cat carrier sitting by the door, empty but waiting.
 
-But she was already gone, muttering about litter boxes.
+"Don't touch anything," she told Bean. Then to me: "Let's go."
 
-Bean immediately began exploring. Mrs. Henderson's house smelled like old flowers and something else, something like the way the vet's office smells but fainter. I told Bean to sit on the couch and not move, but Bean doesn't understand "not move" as a concept. He thinks it means "move very slowly so Frankie doesn't notice."
+The walk to the store was quick. Mrs. Henderson walks fast for someone who's always tired. Bean had to half-jog to keep up, which he thought was a game. Mrs. Henderson bought a giant bag of cat food and some cans of something called "kitten formula," muttering the whole time about runts and her sister's inability to plan ahead.
 
-I went to the store. I bought granola bars, cheese sticks, apple slices, and fish crackers. I used the emergency money. I would replace the emergency money later, somehow. That was a future problem.
+I bought granola bars, cheese sticks, apple slices, and fish crackers. I used the emergency money. I would replace the emergency money later, somehow. That was a future problem.
 
-When I got back, Bean was EXACTLY where I'd left him, which should have been suspicious, but I was so relieved that I didn't ask questions. I thanked Mrs. Henderson, who was carrying a bag of cat food that was bigger than Bean.
+On the walk back, Bean tried to tell Mrs. Henderson about diggers, but she was too busy complaining about litter boxes to listen.
 
 "That your snacks?" she asked, looking at my bag.
 

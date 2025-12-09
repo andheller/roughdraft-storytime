@@ -90,7 +90,17 @@ This was surprisingly thoughtful for Bean. I almost felt bad about the whole thi
 
 Finally, I got Scoops into Bean's backpack. It was the only bag big enough, and also the only bag Scoops didn't hiss at, probably because it smelled like Bean. I left it unzipped so she could breathe, and I carried it very carefully, like I was carrying something precious, which I was, even if I didn't want to be.
 
-Bean walked next to me, holding my other hand, sniffling.
+I called Mrs. Henderson before we left. "We're returning the cat to the Martinellis," I said. "Can you walk us there?"
+
+She sighed the sigh of someone who has too many things to do and just got asked to do one more. "Fine. But only because I want to make sure I was right about that cat. Give me two minutes."
+
+Mrs. Henderson met us on the sidewalk. She looked at the backpack, which meowed at her.
+
+"That's a terrible cat carrier," she said.
+
+"It's the only thing that worked."
+
+Bean walked between us, holding my hand and sniffling.
 
 "Will she remember us?" he asked.
 
@@ -110,9 +120,9 @@ Bean walked next to me, holding my other hand, sniffling.
 
 "Everything can be a verb if you try hard enough."
 
-The Martinellis lived on Oak Street, which was four blocks away in a direction I didn't usually go. The houses there were bigger than ours, with gardens that looked like someone actually took care of them instead of just hoping the plants would figure it out themselves.
+The Martinellis lived on Oak Street, which was four blocks away in a direction I didn't usually go. Mrs. Henderson walked fast, like she always does, and Bean had to half-jog again. The houses there were bigger than ours, with gardens that looked like someone actually took care of them instead of just hoping the plants would figure it out themselves.
 
-We found the right house by the address Mrs. Henderson had mentioned. It was blue with white shutters and a porch with chairs that matched. There was a garden gnome by the front steps, smiling in a way that seemed threatening.
+We found the right house by the address Mrs. Henderson remembered. It was blue with white shutters and a porch with chairs that matched. There was a garden gnome by the front steps, smiling in a way that seemed threatening.
 
 I knocked on the door.
 
@@ -146,9 +156,11 @@ I looked at Scoops through the gap in the backpack. She was orange all over. I h
 
 "She's WHAT?"
 
-"Pregnant. Going to have kittens. Soon, by the look of it." He smiled, like this was good news and not the worst news I had ever heard. "Congratulations. You're going to be a cat grandpa."
+Mrs. Henderson made a sound like she'd just remembered something she should have known all along. "Oh, for crying out loud. She's not fat from snacks. She's pregnant."
 
-I didn't know what to say. I just stood there, holding a backpack full of pregnant cat that didn't belong to anyone, while Bean tugged at my sleeve.
+"Pregnant. Going to have kittens. Soon, by the look of it." Mr. Martinelli smiled, like this was good news and not the worst news I had ever heard. "Congratulations. You're going to be a cat grandpa."
+
+I didn't know what to say. I just stood there, holding a backpack full of pregnant cat that didn't belong to anyone, while Bean tugged at my sleeve and Mrs. Henderson muttered something about not needing MORE cats in the neighborhood.
 
 "Frankie," he said. "Frankie. She's not their cat."
 
@@ -180,31 +192,21 @@ The walk back was quiet. Scoops had peed in the backpack at some point, probably
 
 "That's STILL confusing."
 
-We passed Mrs. Henderson's house on the way home. She was in her driveway, unloading a cat carrier from her car. There were sounds coming from inside it—not one cat sound, but multiple. She looked even more tired than before.
+Mrs. Henderson walked slightly ahead of us, moving fast like she always does. When we got to her driveway, she stopped and turned around.
 
-"How'd it go?" she called out.
+"I shouldn't have told you she was the Martinellis' cat without checking," she said. "I was so sure. Orange tabby, white paws—except I guess her paws aren't really white, are they? They're just light orange. I need new glasses."
 
-"It wasn't their cat."
+"It's okay," I said.
 
-"What?"
-
-"The Martinellis. It wasn't their cat. Mr. Martinelli said so. He said she's pregnant."
-
-Mrs. Henderson stared at me. Then she started laughing, but not the funny kind of laughing. The kind of laughing where you're so overwhelmed you don't know what else to do.
-
-"Of course she is," she said. "Of COURSE she's pregnant. Because that's what I needed. More cats in the neighborhood."
-
-"I'm sorry?"
-
-"Don't be sorry. It's not your fault. I shouldn't have told you she was the Martinellis' cat without checking." She hefted the carrier, and something inside it meowed. "I've got to get these inside. Three cats from my sister. Including a runt that won't eat right and probably needs bottle feeding every two hours, which I absolutely do not have time for."
+"It's NOT okay. Now you've got a pregnant stray and I've got three cats from my sister including a runt that won't eat right and probably needs bottle feeding every two hours, which I absolutely do not have time for." She sighed. "I'm sixty-three years old and I'm becoming a cat lady against my will."
 
 "That sounds hard," I said, because what else do you say?
 
-"It IS hard. I'm sixty-three years old and I'm becoming a cat lady against my will." She looked at me. "You don't want a kitten, do you? Once yours are born? Save me from having to find homes for four more cats?"
+She looked at me for a long moment. "You don't want a kitten, do you? Once yours are born? Save me from having to find homes for four more cats?"
 
 "No," I said automatically. "I don't think—my mom wouldn't—"
 
-"Fair enough." She went inside, still muttering.
+"Fair enough." She went inside, still muttering about litter boxes and sisters who don't listen.
 
 Bean was quiet until we got home. Then he looked at me with the most serious expression I'd ever seen on his face.
 

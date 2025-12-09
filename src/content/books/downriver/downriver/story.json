@@ -1,0 +1,56 @@
+{
+  "id": "downriver",
+  "title": "Downriver",
+  "author": "Roughdraft Stories",
+  "description": "Samuel Corwin is eleven years old when he joins his uncle on a timber raft floating six hundred miles down the Mississippi River. It is 1854, and the raft moves only by the strength of twenty men pulling at the sweeps. The journey will take six weeks. The pay is four dollars.",
+  "ageRange": "8-10",
+  "genre": "Historical Fiction",
+  "tags": ["historical", "1850s", "Mississippi River", "logging", "coming-of-age", "work", "family"],
+  "chapters": [
+    {
+      "id": 1,
+      "title": "The Last Pine",
+      "file": "chapter-1.md"
+    },
+    {
+      "id": 2,
+      "title": "Learning the Sweeps",
+      "file": "chapter-2.md"
+    },
+    {
+      "id": 3,
+      "title": "The Snag",
+      "file": "chapter-3.md"
+    },
+    {
+      "id": 4,
+      "title": "Dubuque",
+      "file": "chapter-4.md"
+    },
+    {
+      "id": 5,
+      "title": "The Man Who Fell",
+      "file": "chapter-5.md"
+    },
+    {
+      "id": 6,
+      "title": "Rock Island Rapids",
+      "file": "chapter-6.md"
+    },
+    {
+      "id": 7,
+      "title": "Night Storm",
+      "file": "chapter-7.md"
+    },
+    {
+      "id": 8,
+      "title": "St. Louis",
+      "file": "chapter-8.md"
+    },
+    {
+      "id": 9,
+      "title": "The Walk Home",
+      "file": "chapter-9.md"
+    }
+  ]
+}

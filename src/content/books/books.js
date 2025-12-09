@@ -210,6 +210,96 @@ export const bookList = [
 		height: 250,
 		thickness: 62,
 		tilt: -2
+	},
+	{
+		id: 'field-day-fiasco',
+		title: 'Field Day Fiasco',
+		author: 'Claude',
+		color: '#2E8B57',
+		leatherColor: 'hsl(142, 70%, 35%)',
+		emoji: '🏃',
+		description:
+			'Casey Chen\'s parents take everything literally. EVERYTHING. When they volunteer for field day, every idiom becomes disaster. Can Casey survive "break a leg" and the tug of WAR?',
+		seriesId: 'field-day-fiasco',
+		storyId: 'field-day-fiasco',
+		height: 248,
+		thickness: 56,
+		tilt: 2
+	},
+	{
+		id: 'mrs-webster-literally',
+		title: 'Mrs. Webster Takes Everything Literally',
+		author: 'The New Kid',
+		color: '#4A90A4',
+		leatherColor: 'hsl(195, 38%, 47%)',
+		emoji: '📚',
+		description:
+			'When Marcus arrives at Brookdale Elementary, everyone warns him about Mrs. Webster, the teacher who takes everything literally. But after weeks of disasters, he starts to suspect the truth: Mrs. Webster isn\'t confused at all. She\'s having the time of her life.',
+		seriesId: 'mrs-webster-takes-everything-literally',
+		storyId: 'mrs-webster-takes-everything-literally',
+		height: 248,
+		thickness: 56,
+		tilt: -1
+	},
+	{
+		id: 'the-wrong-pet-club',
+		title: 'The Wrong Pet Club',
+		author: 'Andrew',
+		color: '#7B68EE',
+		leatherColor: 'hsl(255, 70%, 60%)',
+		emoji: '🐕',
+		description:
+			'Maya wanted a running dog. She got Speedy, a three-legged rescue who stops to smell everything. Ben\'s chameleon won\'t change colors. Jenna\'s cat might not exist. Together, they\'re the Wrong Pet Club—and they\'re about to find out their pets aren\'t wrong at all.',
+		seriesId: 'the-wrong-pet-club',
+		storyId: 'the-wrong-pet-club',
+		height: 252,
+		thickness: 60,
+		tilt: 2
+	},
+	{
+		id: 'the-friend-in-the-frame',
+		title: 'The Friend in the Frame',
+		author: 'Benjamin & Fig',
+		color: '#9370DB',
+		leatherColor: 'hsl(270, 50%, 60%)',
+		emoji: '📷',
+		description:
+			'Benjamin\'s imaginary friend Fig has been his best friend since he was five. But when Fig starts showing up in family photos—and then in OLD photos from before Benjamin was born—things get weird. The mystery is never solved. But some things don\'t need explaining.',
+		seriesId: 'the-friend-in-the-frame',
+		storyId: 'the-friend-in-the-frame',
+		height: 246,
+		thickness: 54,
+		tilt: -2
+	},
+	{
+		id: 'the-eastern-valleys',
+		title: 'The Eastern Valleys',
+		author: 'Andrew',
+		color: '#4A6B8A',
+		leatherColor: 'hsl(200, 45%, 40%)',
+		emoji: '🌱',
+		description:
+			'When the letter finally arrives, the Aldridge family leaves their city apartment for forty hectares of newly terraformed land. Through Oliver\'s eyes, we follow a year of building, planting, and discovering what it means to make a home from nothing—with hard work, good neighbors, and two faithful robots.',
+		seriesId: 'the-eastern-valleys',
+		storyId: 'the-eastern-valleys',
+		height: 255,
+		thickness: 65,
+		tilt: -1
+	},
+	{
+		id: 'downriver',
+		title: 'Downriver',
+		author: 'Roughdraft Stories',
+		color: '#5D4E37',
+		leatherColor: 'hsl(30, 25%, 29%)',
+		emoji: '🪵',
+		description:
+			'Samuel Corwin is eleven when he joins his uncle on a timber raft floating six hundred miles down the Mississippi. It is 1854, and the journey will take six weeks. The pay is four dollars. Written in the style of Little House on the Prairie.',
+		seriesId: 'downriver',
+		storyId: 'downriver',
+		height: 258,
+		thickness: 64,
+		tilt: 1
 	}
 ];
 
