@@ -244,12 +244,6 @@
 
 	:global(.story-container .prose em) {
 		font-style: italic;
-		text-align: center;
-		display: block;
-		margin: 2rem 0;
-		font-size: 0.9em;
-		text-indent: 0;
-		opacity: 0.8;
 	}
 
 	:global(.story-container .prose strong) {
