@@ -302,6 +302,21 @@ export const bookList = [
 		tilt: -2
 	},
 	{
+		id: 'the-lost-things-rescue-service',
+		title: 'The Lost Things Rescue Service',
+		author: 'Roughdraft Stories',
+		color: '#8C5A3C',
+		leatherColor: 'hsl(24, 40%, 39%)',
+		emoji: '🧤',
+		description:
+			'Nell opens a rescue service for lonely lost objects in her apartment building, but the week she helps a neighbor recover a missing bird pin is also the week she learns what it feels like when someone you love is still nearby and already beginning to leave.',
+		seriesId: 'the-lost-things-rescue-service',
+		storyId: 'the-lost-things-rescue-service',
+		height: 249,
+		thickness: 57,
+		tilt: 1
+	},
+	{
 		id: 'the-eastern-valleys',
 		title: 'The Eastern Valleys',
 		author: 'Andrew',

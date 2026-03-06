@@ -1,0 +1,16 @@
+{
+	"id": "the-lost-things-rescue-service",
+	"title": "The Lost Things Rescue Service",
+	"author": "Roughdraft Stories",
+	"description": "Nell starts a rescue service for lonely lost objects in her apartment building, but the week she finds a missing bird pin is also the week she discovers some people you love can be moving away even while they are still right upstairs.",
+	"ageRange": "8-12",
+	"genre": "Realistic Fiction",
+	"tags": ["friendship", "family", "humor", "apartment building", "growing up"],
+	"chapters": [
+		{
+			"id": 1,
+			"title": "The Lost Things Rescue Service",
+			"file": "chapter-1.md"
+		}
+	]
+}
