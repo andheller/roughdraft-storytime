@@ -91,6 +91,24 @@
 			"title": "The Silly Squirrels and the Night Before Snow Day",
 			"description": "When Nutville waits for the first big snowfall, Nutty decides to help winter arrive faster. Soon the sled hill is ready, the cocoa is boiling, and one homemade snow-making contraption is causing extremely local blizzards.",
 			"folder": "the-silly-squirrels-night-before-snow-day"
+		},
+		{
+			"id": "the-silly-squirrels-bouncy-bridge",
+			"title": "The Silly Squirrels and the Bouncy Bridge",
+			"description": "When Nutville's old creek bridge starts wobbling, Nutty decides to improve it with springs. Soon the bridge is safer in exactly zero ordinary ways and much more exciting in several extremely foolish ones.",
+			"folder": "the-silly-squirrels-bouncy-bridge"
+		},
+		{
+			"id": "the-silly-squirrels-ice-cream-catapult",
+			"title": "The Silly Squirrels and the Ice Cream Catapult",
+			"description": "When the ice cream line at Nutville Park gets too long, Nutty decides scoops should fly through the air to waiting customers. The idea is fast, efficient, and one hundred percent likely to land on somebody unexpected.",
+			"folder": "the-silly-squirrels-ice-cream-catapult"
+		},
+		{
+			"id": "the-silly-squirrels-library-book-rocket",
+			"title": "The Silly Squirrels and the Library Book Rocket",
+			"description": "When overdue library books pile up all over town, Nutty invents a machine to send them back faster. Unfortunately, the machine is much better at launching books than at choosing where they should land.",
+			"folder": "the-silly-squirrels-library-book-rocket"
 		}
 	]
 }

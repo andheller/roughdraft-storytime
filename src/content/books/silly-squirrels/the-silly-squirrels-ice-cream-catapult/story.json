@@ -1,0 +1,15 @@
+{
+  "title": "The Silly Squirrels and the Ice Cream Catapult",
+  "author": "Roughdraft Stories",
+  "description": "When the ice cream line at Nutville Park gets too long, Nutty decides scoops should fly through the air to waiting customers. The idea is fast, efficient, and one hundred percent likely to land on somebody unexpected.",
+  "ageRange": "5-9",
+  "genre": "Comedy",
+  "tags": ["comedy", "ice cream", "catapult", "summer", "invention", "family"],
+  "chapters": [
+    { "id": 1, "title": "The Longest Ice Cream Line in Nutville", "file": "chapter-1.md" },
+    { "id": 2, "title": "Scoops at High Speed", "file": "chapter-2.md" },
+    { "id": 3, "title": "Chocolate Incoming", "file": "chapter-3.md" },
+    { "id": 4, "title": "The Sundae Emergency", "file": "chapter-4.md" },
+    { "id": 5, "title": "Cones for Everyone, Carefully", "file": "chapter-5.md" }
+  ]
+}

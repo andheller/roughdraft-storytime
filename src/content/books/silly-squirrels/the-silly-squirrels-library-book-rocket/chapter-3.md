@@ -1,0 +1,53 @@
+# Chapter 3: Chapter Books in the Sky
+
+Mayor Buttersworth stacked the three novels in the launcher cradle.
+
+One was a detective story.
+One was a sea adventure.
+One was a history of decorative bridges that nobody remembered borrowing.
+
+Nutty stared at the stack.
+"That is too many chapters for one launch."
+
+"Nonsense," said the mayor. "They are cooperating."
+
+They were not cooperating.
+
+Mama pulled the spring arm.
+Nutty counted down.
+Tony covered his head just in case education became aggressive.
+
+FWOOMP-THWIP-FLAP.
+
+The detective story flew toward the roof.
+The sea adventure spun sideways and landed in the fountain.
+The bridge book shot straight up, opened in the air, and rained bookmarks all over the square like very scholarly confetti.
+
+Miss Maple made a noise no librarian should ever have to make.
+
+The detective story missed the basket, bounced off the gutter, and landed in Mrs. Hedgehog's flower cart.
+The sea adventure floated in the fountain like it had always wanted to travel.
+And the bridge book drifted down onto General Nutbert's head, where it remained open at Chapter Seven: *Suspension Supports Through the Ages*.
+
+"That feels educational," said Papa from the roof.
+
+"It feels WET," shouted Miss Maple, pointing at the fountain.
+
+Nutty scribbled furiously. "Important data. Books do not all fly equally."
+
+Grandma folded her paws. "A discovery for the ages."
+
+Then a little line formed by the launcher.
+The children of Nutville were now excited.
+Very excited.
+They wanted to see books fly.
+They wanted to return every overdue title in the town.
+They wanted, for reasons no one could explain, to launch the dictionary.
+
+Miss Maple climbed down from the roof at once.
+"Absolutely not the dictionary," she said.
+
+But by then the library return demonstration had become an event.
+An event with bookmarks in the fountain and chapter books in the sky.
+
+Which was exactly when things became difficult to keep quiet.

@@ -1,0 +1,15 @@
+{
+  "title": "The Silly Squirrels and the Library Book Rocket",
+  "author": "Roughdraft Stories",
+  "description": "When overdue library books pile up all over town, Nutty invents a machine to send them back faster. Unfortunately, the machine is much better at launching books than at choosing where they should land.",
+  "ageRange": "5-9",
+  "genre": "Comedy",
+  "tags": ["comedy", "library", "books", "rocket", "invention", "family"],
+  "chapters": [
+    { "id": 1, "title": "The Overdue Book Problem", "file": "chapter-1.md" },
+    { "id": 2, "title": "Reading at High Velocity", "file": "chapter-2.md" },
+    { "id": 3, "title": "Chapter Books in the Sky", "file": "chapter-3.md" },
+    { "id": 4, "title": "The Great Quiet Retrieval", "file": "chapter-4.md" },
+    { "id": 5, "title": "A Better Return System", "file": "chapter-5.md" }
+  ]
+}

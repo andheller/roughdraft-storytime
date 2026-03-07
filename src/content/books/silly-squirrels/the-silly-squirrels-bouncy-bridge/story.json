@@ -1,0 +1,15 @@
+{
+  "title": "The Silly Squirrels and the Bouncy Bridge",
+  "author": "Roughdraft Stories",
+  "description": "When Nutville's old creek bridge starts wobbling, Nutty decides to improve it with springs. Soon the bridge is safer in exactly zero ordinary ways and much more exciting in several extremely foolish ones.",
+  "ageRange": "5-9",
+  "genre": "Comedy",
+  "tags": ["comedy", "bridge", "springs", "invention", "family", "town"],
+  "chapters": [
+    { "id": 1, "title": "The Wobble Over Walnut Creek", "file": "chapter-1.md" },
+    { "id": 2, "title": "More Bounce, More Better?", "file": "chapter-2.md" },
+    { "id": 3, "title": "Crossing with Extra Boing", "file": "chapter-3.md" },
+    { "id": 4, "title": "The Great Basket Rescue", "file": "chapter-4.md" },
+    { "id": 5, "title": "A Bridge That Behaves", "file": "chapter-5.md" }
+  ]
+}

@@ -227,6 +227,51 @@ export const bookList = [
 		tilt: -2
 	},
 	{
+		id: 'silly-squirrels-bouncy-bridge',
+		title: 'The Bouncy Bridge',
+		author: 'Roughdraft Stories',
+		color: '#7A6A4F',
+		leatherColor: 'hsl(39, 21%, 40%)',
+		emoji: '🌉',
+		description:
+			'Nutty tries to fix a wobbling bridge with springs, turning Walnut Creek into the most exciting and least predictable crossing in all of Nutville.',
+		seriesId: 'silly-squirrels',
+		storyId: 'the-silly-squirrels-bouncy-bridge',
+		height: 252,
+		thickness: 57,
+		tilt: 1
+	},
+	{
+		id: 'silly-squirrels-ice-cream-catapult',
+		title: 'The Ice Cream Catapult',
+		author: 'Roughdraft Stories',
+		color: '#F28C8C',
+		leatherColor: 'hsl(0, 76%, 75%)',
+		emoji: '🍦',
+		description:
+			'To speed up a very long summer line, Nutty invents a machine that launches ice cream cones through the park with mixed but memorable results.',
+		seriesId: 'silly-squirrels',
+		storyId: 'the-silly-squirrels-ice-cream-catapult',
+		height: 250,
+		thickness: 56,
+		tilt: -1
+	},
+	{
+		id: 'silly-squirrels-library-book-rocket',
+		title: 'The Library Book Rocket',
+		author: 'Roughdraft Stories',
+		color: '#5E7AA6',
+		leatherColor: 'hsl(216, 29%, 51%)',
+		emoji: '📚',
+		description:
+			'Nutty builds a machine to return overdue library books faster, but the whole town learns that books and rockets do not always want the same things.',
+		seriesId: 'silly-squirrels',
+		storyId: 'the-silly-squirrels-library-book-rocket',
+		height: 251,
+		thickness: 57,
+		tilt: 2
+	},
+	{
 		id: 'liberty-or-lunchtime',
 		title: 'Liberty or Lunchtime',
 		author: 'Claude',
