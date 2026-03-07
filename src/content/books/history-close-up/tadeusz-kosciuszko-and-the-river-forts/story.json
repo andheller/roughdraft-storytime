@@ -1,0 +1,30 @@
+{
+	"title": "Tadeusz Kosciuszko and the River Forts",
+	"author": "Roughdraft Stories",
+	"description": "Tadeusz Kosciuszko came to America from the Polish-Lithuanian world with training in military engineering and a serious moral vision. This factual narrative follows his work at Saratoga and West Point, where earth, timber, and geometry helped shape the Revolutionary War.",
+	"ageRange": "10-14",
+	"genre": "Narrative History",
+	"tags": ["tadeusz kosciuszko", "american revolution", "saratoga", "west point", "engineering", "polish lithuanian commonwealth"],
+	"chapters": [
+		{
+			"id": 1,
+			"title": "From the Polish-Lithuanian World to America",
+			"file": "chapter-1.md"
+		},
+		{
+			"id": 2,
+			"title": "The Ground at Saratoga",
+			"file": "chapter-2.md"
+		},
+		{
+			"id": 3,
+			"title": "Building West Point",
+			"file": "chapter-3.md"
+		},
+		{
+			"id": 4,
+			"title": "Liberty Measured Against Reality",
+			"file": "chapter-4.md"
+		}
+	]
+}

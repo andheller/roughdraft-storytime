@@ -663,6 +663,21 @@ export const bookList = [
 		height: 253,
 		thickness: 58,
 		tilt: 1
+	},
+	{
+		id: 'history-close-up-kosciuszko',
+		title: 'Tadeusz Kosciuszko and the River Forts',
+		author: 'Roughdraft Stories',
+		color: '#5A634B',
+		leatherColor: 'hsl(83, 14%, 34%)',
+		emoji: '🧭',
+		description:
+			'Tadeusz Kosciuszko used engineering at Saratoga and West Point to shape the war, then forced harder questions about whether liberty meant anything without justice.',
+		seriesId: 'history-close-up',
+		storyId: 'tadeusz-kosciuszko-and-the-river-forts',
+		height: 252,
+		thickness: 57,
+		tilt: -1
 	}
 ];
 
