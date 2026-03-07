@@ -1,0 +1,30 @@
+{
+	"title": "James Lafayette: Double Agent at Yorktown",
+	"author": "Roughdraft Stories",
+	"description": "Born into slavery in Virginia, James Lafayette helped deceive the British during the final great campaign of the Revolutionary War. This factual narrative follows his intelligence work, the Yorktown campaign, and the harder struggle that came after victory: winning his own freedom.",
+	"ageRange": "10-14",
+	"genre": "Narrative History",
+	"tags": ["american revolution", "james lafayette", "yorktown", "spies", "virginia", "african american history"],
+	"chapters": [
+		{
+			"id": 1,
+			"title": "A Virginian in a War About Liberty",
+			"file": "chapter-1.md"
+		},
+		{
+			"id": 2,
+			"title": "Into the British Lines",
+			"file": "chapter-2.md"
+		},
+		{
+			"id": 3,
+			"title": "Watching Cornwallis",
+			"file": "chapter-3.md"
+		},
+		{
+			"id": 4,
+			"title": "Victory Was Not Freedom Yet",
+			"file": "chapter-4.md"
+		}
+	]
+}

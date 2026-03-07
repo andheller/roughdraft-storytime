@@ -391,6 +391,82 @@ export const bookList = [
 		thickness: 65,
 		tilt: 1
 	}
+	,
+	{
+		id: 'history-close-up-napoleon',
+		title: 'Napoleon: The Corsican Who Reshaped Europe',
+		author: 'Roughdraft Stories',
+		color: '#3E5C76',
+		leatherColor: 'hsl(206, 32%, 35%)',
+		emoji: '🦅',
+		description:
+			'From Corsica to Austerlitz to Waterloo, this factual history follows Napoleon Bonaparte\'s rise, empire, and fall while comparing his path with George Washington and Julius Caesar.',
+		seriesId: 'history-close-up',
+		storyId: 'napoleon-the-corsican-who-reshaped-europe',
+		height: 258,
+		thickness: 64,
+		tilt: -2
+	},
+	{
+		id: 'history-close-up-lawrence-washington',
+		title: 'Lawrence Washington and the War Before the Revolution',
+		author: 'Roughdraft Stories',
+		color: '#6B4F3B',
+		leatherColor: 'hsl(26, 29%, 33%)',
+		emoji: '⚓',
+		description:
+			'George Washington\'s older half-brother sailed into Britain\'s Caribbean war, admired Admiral Vernon, and helped shape the household and world the future president inherited.',
+		seriesId: 'history-close-up',
+		storyId: 'lawrence-washington-and-the-war-before-the-revolution',
+		height: 252,
+		thickness: 58,
+		tilt: 1
+	},
+	{
+		id: 'history-close-up-henry-knox',
+		title: 'Henry Knox and the Winter Guns',
+		author: 'Roughdraft Stories',
+		color: '#7B2D26',
+		leatherColor: 'hsl(5, 52%, 32%)',
+		emoji: '🛷',
+		description:
+			'A factual Revolutionary War story about Henry Knox, Fort Ticonderoga, the noble train of artillery, and the winter logistics that helped force the British out of Boston.',
+		seriesId: 'history-close-up',
+		storyId: 'henry-knox-and-the-winter-guns',
+		height: 255,
+		thickness: 60,
+		tilt: -1
+	},
+	{
+		id: 'history-close-up-lafayette',
+		title: 'Lafayette Between Two Revolutions',
+		author: 'Roughdraft Stories',
+		color: '#2F5D50',
+		leatherColor: 'hsl(162, 33%, 27%)',
+		emoji: '🎖️',
+		description:
+			'The Marquis de Lafayette crosses the Atlantic to join Washington, fights through Yorktown, and then faces the much harsher storms of the French Revolution.',
+		seriesId: 'history-close-up',
+		storyId: 'lafayette-between-two-revolutions',
+		height: 256,
+		thickness: 61,
+		tilt: 2
+	},
+	{
+		id: 'history-close-up-james-lafayette',
+		title: 'James Lafayette: Double Agent at Yorktown',
+		author: 'Roughdraft Stories',
+		color: '#5C3B58',
+		leatherColor: 'hsl(307, 22%, 30%)',
+		emoji: '🕵️',
+		description:
+			'Born into slavery in Virginia, James Lafayette became a double agent during the Yorktown campaign and then had to fight after the war for the freedom he had helped win for others.',
+		seriesId: 'history-close-up',
+		storyId: 'james-lafayette-double-agent-at-yorktown',
+		height: 254,
+		thickness: 59,
+		tilt: -2
+	}
 ];
 
 // Helper function to get a book by ID
