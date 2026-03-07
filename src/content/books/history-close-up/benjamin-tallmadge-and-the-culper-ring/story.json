@@ -1,0 +1,30 @@
+{
+  "title": "Benjamin Tallmadge and the Culper Ring",
+  "author": "Roughdraft Stories",
+  "description": "Benjamin Tallmadge helped build the Continental Army's most effective spy network. This factual narrative follows him from Long Island and Yale into the hidden war of codes, boats, couriers, and secrets around British-occupied New York.",
+  "ageRange": "10-14",
+  "genre": "Narrative History",
+  "tags": ["benjamin tallmadge", "culper spy ring", "american revolution", "george washington", "espionage", "new york"],
+  "chapters": [
+    {
+      "id": 1,
+      "title": "A Young Officer Learns the Cost of Failure",
+      "file": "chapter-1.md"
+    },
+    {
+      "id": 2,
+      "title": "Building a Spy Ring in Occupied New York",
+      "file": "chapter-2.md"
+    },
+    {
+      "id": 3,
+      "title": "Codes, Couriers, and the Narrow Edge of Discovery",
+      "file": "chapter-3.md"
+    },
+    {
+      "id": 4,
+      "title": "The Secret War and the Republic That Followed",
+      "file": "chapter-4.md"
+    }
+  ]
+}

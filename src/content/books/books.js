@@ -648,6 +648,21 @@ export const bookList = [
 		height: 254,
 		thickness: 58,
 		tilt: -2
+	},
+	{
+		id: 'history-close-up-benjamin-tallmadge',
+		title: 'Benjamin Tallmadge and the Culper Ring',
+		author: 'Roughdraft Stories',
+		color: '#4E5F73',
+		leatherColor: 'hsl(214, 19%, 38%)',
+		emoji: '🕯️',
+		description:
+			'Benjamin Tallmadge helped build the Culper Ring, turning boats, couriers, codes, and local trust into one of the Revolution\'s most effective intelligence networks.',
+		seriesId: 'history-close-up',
+		storyId: 'benjamin-tallmadge-and-the-culper-ring',
+		height: 253,
+		thickness: 58,
+		tilt: 1
 	}
 ];
 
