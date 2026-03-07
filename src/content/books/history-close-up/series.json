@@ -31,6 +31,24 @@
 			"title": "James Lafayette: Double Agent at Yorktown",
 			"description": "Born into slavery in Virginia, James Lafayette helped deceive the British during the final great campaign of the Revolutionary War. This factual account follows his intelligence work, Yorktown, and the harder struggle that came after victory: winning his own freedom.",
 			"folder": "james-lafayette-double-agent-at-yorktown"
+		},
+		{
+			"id": "george-washington-and-the-weight-of-command",
+			"title": "George Washington and the Weight of Command",
+			"description": "From Virginia surveyor to commander in chief and first president, this factual story follows George Washington with special attention to the moments when he chose restraint instead of personal rule.",
+			"folder": "george-washington-and-the-weight-of-command"
+		},
+		{
+			"id": "nathanael-greene-and-the-war-of-exhaustion",
+			"title": "Nathanael Greene and the War of Exhaustion",
+			"description": "Nathanael Greene inherited a broken southern army and used movement, patience, and pressure to wear down Cornwallis. This factual account follows Cowpens, the Race to the Dan, Guilford Courthouse, and the road toward Yorktown.",
+			"folder": "nathanael-greene-and-the-war-of-exhaustion"
+		},
+		{
+			"id": "julius-caesar-and-the-fall-of-the-republic",
+			"title": "Julius Caesar and the Fall of the Republic",
+			"description": "This factual narrative follows Caesar from Roman politics to Gaul, civil war, dictatorship, and assassination, showing why his life still shapes every story about power and republics in crisis.",
+			"folder": "julius-caesar-and-the-fall-of-the-republic"
 		}
 	]
 }

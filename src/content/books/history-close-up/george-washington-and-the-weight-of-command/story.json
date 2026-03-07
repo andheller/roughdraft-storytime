@@ -1,0 +1,35 @@
+{
+	"title": "George Washington and the Weight of Command",
+	"author": "Roughdraft Stories",
+	"description": "George Washington was not born a legend. This factual narrative follows him from Virginia surveyor to imperial officer, commander of the Continental Army, and first president, with special attention to the moments when he chose restraint instead of personal power.",
+	"ageRange": "10-14",
+	"genre": "Narrative History",
+	"tags": ["george washington", "american revolution", "mount vernon", "presidency", "republic", "virginia"],
+	"chapters": [
+		{
+			"id": 1,
+			"title": "Learning Virginia",
+			"file": "chapter-1.md"
+		},
+		{
+			"id": 2,
+			"title": "A Young Officer of the British Empire",
+			"file": "chapter-2.md"
+		},
+		{
+			"id": 3,
+			"title": "Holding an Army Together",
+			"file": "chapter-3.md"
+		},
+		{
+			"id": 4,
+			"title": "Winning Without Becoming King",
+			"file": "chapter-4.md"
+		},
+		{
+			"id": 5,
+			"title": "The President Who Walked Away",
+			"file": "chapter-5.md"
+		}
+	]
+}

@@ -1,0 +1,30 @@
+{
+  "title": "Julius Caesar and the Fall of the Republic",
+  "author": "Roughdraft Stories",
+  "description": "Julius Caesar rose from Roman politics into conquest, civil war, dictatorship, and assassination. This factual narrative follows his climb through the late Roman Republic and explains why his life still matters to every story about power and ambition.",
+  "ageRange": "10-14",
+  "genre": "Narrative History",
+  "tags": ["julius caesar", "roman republic", "rome", "gaul", "civil war", "ancient history"],
+  "chapters": [
+    {
+      "id": 1,
+      "title": "A Republic Full of Rivals",
+      "file": "chapter-1.md"
+    },
+    {
+      "id": 2,
+      "title": "Gaul and the Making of a Legend",
+      "file": "chapter-2.md"
+    },
+    {
+      "id": 3,
+      "title": "Crossing the Rubicon",
+      "file": "chapter-3.md"
+    },
+    {
+      "id": 4,
+      "title": "Dictator and Dead Man",
+      "file": "chapter-4.md"
+    }
+  ]
+}

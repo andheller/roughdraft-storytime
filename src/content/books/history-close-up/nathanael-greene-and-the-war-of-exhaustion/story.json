@@ -1,0 +1,30 @@
+{
+	"title": "Nathanael Greene and the War of Exhaustion",
+	"author": "Roughdraft Stories",
+	"description": "Nathanael Greene inherited the hardest theater of the Revolutionary War and refused to lose it. This factual narrative follows his southern campaign, the Race to the Dan, Guilford Courthouse, and how wearing down Cornwallis helped open the road to Yorktown.",
+	"ageRange": "10-14",
+	"genre": "Narrative History",
+	"tags": ["american revolution", "nathanael greene", "southern campaign", "cowpens", "guilford courthouse", "yorktown"],
+	"chapters": [
+		{
+			"id": 1,
+			"title": "The General Washington Chose for the South",
+			"file": "chapter-1.md"
+		},
+		{
+			"id": 2,
+			"title": "Cowpens and the Southern Turn",
+			"file": "chapter-2.md"
+		},
+		{
+			"id": 3,
+			"title": "The Race to the Dan",
+			"file": "chapter-3.md"
+		},
+		{
+			"id": 4,
+			"title": "Losing the Field, Winning the Campaign",
+			"file": "chapter-4.md"
+		}
+	]
+}

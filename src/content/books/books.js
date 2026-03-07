@@ -467,6 +467,52 @@ export const bookList = [
 		thickness: 59,
 		tilt: -2
 	}
+	,
+	{
+		id: 'history-close-up-george-washington',
+		title: 'George Washington and the Weight of Command',
+		author: 'Roughdraft Stories',
+		color: '#4A6A4F',
+		leatherColor: 'hsl(128, 18%, 35%)',
+		emoji: '🇺🇸',
+		description:
+			'From surveyor to commander in chief to first president, this factual history follows George Washington with special attention to the moments when he chose restraint instead of personal rule.',
+		seriesId: 'history-close-up',
+		storyId: 'george-washington-and-the-weight-of-command',
+		height: 257,
+		thickness: 63,
+		tilt: 1
+	},
+	{
+		id: 'history-close-up-nathanael-greene',
+		title: 'Nathanael Greene and the War of Exhaustion',
+		author: 'Roughdraft Stories',
+		color: '#6A5A3A',
+		leatherColor: 'hsl(39, 29%, 32%)',
+		emoji: '🏇',
+		description:
+			'Nathanael Greene inherited a broken southern army and used patience, movement, and pressure to wear down Cornwallis through Cowpens, the Race to the Dan, and Guilford Courthouse.',
+		seriesId: 'history-close-up',
+		storyId: 'nathanael-greene-and-the-war-of-exhaustion',
+		height: 255,
+		thickness: 60,
+		tilt: -1
+	},
+	{
+		id: 'history-close-up-julius-caesar',
+		title: 'Julius Caesar and the Fall of the Republic',
+		author: 'Roughdraft Stories',
+		color: '#7A4B2A',
+		leatherColor: 'hsl(24, 49%, 32%)',
+		emoji: '🏛️',
+		description:
+			'This factual narrative follows Julius Caesar from Roman politics to Gaul, civil war, dictatorship, and assassination, showing why his life still shapes every story about republics in crisis.',
+		seriesId: 'history-close-up',
+		storyId: 'julius-caesar-and-the-fall-of-the-republic',
+		height: 259,
+		thickness: 64,
+		tilt: 2
+	}
 ];
 
 // Helper function to get a book by ID
