@@ -1,0 +1,30 @@
+{
+	"title": "History Close-Up",
+	"description": "Narrative nonfiction for curious readers: real people, real turning points, and the choices that changed the world.",
+	"stories": [
+		{
+			"id": "napoleon-the-corsican-who-reshaped-europe",
+			"title": "Napoleon: The Corsican Who Reshaped Europe",
+			"description": "From the mountains of Corsica to the battlefields of Europe, Napoleon Bonaparte rose faster than almost anyone in history. This factual account follows his conquests, his reforms, his disasters, and the long shadow he left behind.",
+			"folder": "napoleon-the-corsican-who-reshaped-europe"
+		},
+		{
+			"id": "lawrence-washington-and-the-war-before-the-revolution",
+			"title": "Lawrence Washington and the War Before the Revolution",
+			"description": "Before George Washington led a revolution, his older half-brother Lawrence marched into Britain's imperial wars. His short life linked George to the world of ships, empire, and Mount Vernon.",
+			"folder": "lawrence-washington-and-the-war-before-the-revolution"
+		},
+		{
+			"id": "henry-knox-and-the-winter-guns",
+			"title": "Henry Knox and the Winter Guns",
+			"description": "An artillery story built from sledges, frozen roads, and stubborn determination. Henry Knox's hard winter journey from Ticonderoga helped force the British out of Boston.",
+			"folder": "henry-knox-and-the-winter-guns"
+		},
+		{
+			"id": "lafayette-between-two-revolutions",
+			"title": "Lafayette Between Two Revolutions",
+			"description": "The Marquis de Lafayette was still a teenager when he sailed to America. This factual story follows him from Washington's camp to Yorktown and into the storms of the French Revolution.",
+			"folder": "lafayette-between-two-revolutions"
+		}
+	]
+}

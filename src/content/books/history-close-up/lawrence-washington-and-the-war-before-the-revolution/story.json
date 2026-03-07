@@ -1,0 +1,30 @@
+{
+  "title": "Lawrence Washington and the War Before the Revolution",
+  "author": "Roughdraft Stories",
+  "description": "Before George Washington became the best-known Virginian in the world, he looked up to an older half-brother who had already seen war. This factual narrative follows Lawrence Washington from colonial Virginia to Admiral Vernon's disastrous Caribbean campaign, then back to the Potomac where his choices helped shape George's future.",
+  "ageRange": "10-14",
+  "genre": "Narrative History",
+  "tags": ["american history", "george washington", "lawrence washington", "war of jenkins ear", "cartagena", "mount vernon"],
+  "chapters": [
+    {
+      "id": 1,
+      "title": "An Older Brother in an Expanding Empire",
+      "file": "chapter-1.md"
+    },
+    {
+      "id": 2,
+      "title": "Cartagena and the Fever Coast",
+      "file": "chapter-2.md"
+    },
+    {
+      "id": 3,
+      "title": "Mount Vernon and the Younger Brother Watching",
+      "file": "chapter-3.md"
+    },
+    {
+      "id": 4,
+      "title": "The Road to Barbados, and What Remained",
+      "file": "chapter-4.md"
+    }
+  ]
+}

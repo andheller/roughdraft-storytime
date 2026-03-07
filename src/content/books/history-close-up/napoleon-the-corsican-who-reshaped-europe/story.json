@@ -1,0 +1,35 @@
+{
+	"title": "Napoleon: The Corsican Who Reshaped Europe",
+	"author": "Roughdraft Stories",
+	"description": "Napoleon Bonaparte began life on an island at the edge of Europe and ended as the most feared ruler on the continent. This factual narrative follows his Corsican roots, his astonishing victories, his empire, and the mistakes that brought him down.",
+	"ageRange": "10-14",
+	"genre": "Narrative History",
+	"tags": ["napoleon", "corsica", "french revolution", "european history", "military history"],
+	"chapters": [
+		{
+			"id": 1,
+			"title": "An Island Between Flags",
+			"file": "chapter-1.md"
+		},
+		{
+			"id": 2,
+			"title": "The Officer the Revolution Needed",
+			"file": "chapter-2.md"
+		},
+		{
+			"id": 3,
+			"title": "The General Who Moved Too Fast",
+			"file": "chapter-3.md"
+		},
+		{
+			"id": 4,
+			"title": "An Emperor at the Height of Power",
+			"file": "chapter-4.md"
+		},
+		{
+			"id": 5,
+			"title": "The Long Fall and the Long Shadow",
+			"file": "chapter-5.md"
+		}
+	]
+}

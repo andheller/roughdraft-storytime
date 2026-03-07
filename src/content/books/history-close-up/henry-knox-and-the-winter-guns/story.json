@@ -1,0 +1,30 @@
+{
+  "title": "Henry Knox and the Winter Guns",
+  "author": "Roughdraft Stories",
+  "description": "Before Henry Knox became George Washington's chief of artillery, he was a Boston bookseller with a gift for learning hard things fast. This factual narrative follows Knox from the first fighting around Boston to the brutal winter journey that hauled heavy cannon from Fort Ticonderoga and helped force the British out of the city.",
+  "ageRange": "10-14",
+  "genre": "Narrative History",
+  "tags": ["american revolution", "henry knox", "fort ticonderoga", "dorchester heights", "artillery", "logistics"],
+  "chapters": [
+    {
+      "id": 1,
+      "title": "The Bookseller Who Studied War",
+      "file": "chapter-1.md"
+    },
+    {
+      "id": 2,
+      "title": "The Fort Full of Cannon",
+      "file": "chapter-2.md"
+    },
+    {
+      "id": 3,
+      "title": "The Noble Train of Artillery",
+      "file": "chapter-3.md"
+    },
+    {
+      "id": 4,
+      "title": "Heights Above Boston",
+      "file": "chapter-4.md"
+    }
+  ]
+}

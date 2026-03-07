@@ -1,0 +1,30 @@
+{
+	"title": "Lafayette Between Two Revolutions",
+	"author": "Roughdraft Stories",
+	"description": "The Marquis de Lafayette was still a teenager when he crossed the Atlantic to join the American Revolution. This factual narrative follows him from his first meeting with George Washington to Yorktown, then into the harder and more dangerous struggle of the French Revolution.",
+	"ageRange": "10-14",
+	"genre": "Narrative History",
+	"tags": ["american revolution", "french revolution", "lafayette", "george washington", "yorktown", "france"],
+	"chapters": [
+		{
+			"id": 1,
+			"title": "The Young Nobleman Who Chose a Distant War",
+			"file": "chapter-1.md"
+		},
+		{
+			"id": 2,
+			"title": "Learning the American War",
+			"file": "chapter-2.md"
+		},
+		{
+			"id": 3,
+			"title": "The Road to Yorktown",
+			"file": "chapter-3.md"
+		},
+		{
+			"id": 4,
+			"title": "A Hero in Two Revolutions",
+			"file": "chapter-4.md"
+		}
+	]
+}
