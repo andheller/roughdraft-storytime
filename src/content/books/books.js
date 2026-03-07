@@ -573,8 +573,7 @@ export const bookList = [
 		height: 251,
 		thickness: 57,
 		tilt: 2
-	}
-	,
+	},
 	{
 		id: 'history-close-up-benedict-arnold',
 		title: 'Benedict Arnold and the Price of Treason',
@@ -588,6 +587,66 @@ export const bookList = [
 		storyId: 'benedict-arnold-and-the-price-of-treason',
 		height: 254,
 		thickness: 59,
+		tilt: -2
+	},
+	{
+		id: 'history-close-up-phillis-wheatley',
+		title: 'Phillis Wheatley and the Words of Liberty',
+		author: 'Roughdraft Stories',
+		color: '#6A4F42',
+		leatherColor: 'hsl(24, 23%, 34%)',
+		emoji: '🪶',
+		description:
+			'Phillis Wheatley was brought to Boston in bondage and became one of the most remarkable poets of the Revolutionary era, using language to test what liberty actually meant.',
+		seriesId: 'history-close-up',
+		storyId: 'phillis-wheatley-and-the-words-of-liberty',
+		height: 252,
+		thickness: 57,
+		tilt: 1
+	},
+	{
+		id: 'history-close-up-francis-marion',
+		title: 'Francis Marion and the Swamp War',
+		author: 'Roughdraft Stories',
+		color: '#556B5A',
+		leatherColor: 'hsl(138, 13%, 32%)',
+		emoji: '🦊',
+		description:
+			'Francis Marion fought a fast partisan war through the South Carolina lowcountry, becoming famous as the "Swamp Fox" while helping keep British control unstable after Charleston fell.',
+		seriesId: 'history-close-up',
+		storyId: 'francis-marion-and-the-swamp-war',
+		height: 255,
+		thickness: 58,
+		tilt: -1
+	},
+	{
+		id: 'history-close-up-mercy-otis-warren',
+		title: 'Mercy Otis Warren and the Pen of Revolution',
+		author: 'Roughdraft Stories',
+		color: '#6A5D4D',
+		leatherColor: 'hsl(35, 16%, 36%)',
+		emoji: '🖋️',
+		description:
+			'Mercy Otis Warren used plays, letters, and hard political judgment to shape revolutionary argument before, during, and after American independence.',
+		seriesId: 'history-close-up',
+		storyId: 'mercy-otis-warren-and-the-pen-of-revolution',
+		height: 250,
+		thickness: 56,
+		tilt: 2
+	},
+	{
+		id: 'history-close-up-rochambeau',
+		title: 'Rochambeau and the Allied Road to Yorktown',
+		author: 'Roughdraft Stories',
+		color: '#3E566E',
+		leatherColor: 'hsl(208, 28%, 34%)',
+		emoji: '🤝',
+		description:
+			'Rochambeau helped turn the French alliance into a working military partnership, marching with Washington toward Yorktown and proving how much the Revolution depended on cooperation.',
+		seriesId: 'history-close-up',
+		storyId: 'rochambeau-and-the-allied-road-to-yorktown',
+		height: 254,
+		thickness: 58,
 		tilt: -2
 	}
 ];

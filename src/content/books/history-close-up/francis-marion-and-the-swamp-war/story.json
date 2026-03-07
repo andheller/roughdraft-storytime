@@ -1,0 +1,30 @@
+{
+	"title": "Francis Marion and the Swamp War",
+	"author": "Roughdraft Stories",
+	"description": "Francis Marion became famous as the Swamp Fox, but the real story is more complicated than legend. This factual narrative follows his South Carolina background, partisan warfare, and the difficult truth about how irregular war helped wear down the British in the South.",
+	"ageRange": "10-14",
+	"genre": "Narrative History",
+	"tags": ["francis marion", "american revolution", "south carolina", "partisan warfare", "swamp fox", "yorktown"],
+	"chapters": [
+		{
+			"id": 1,
+			"title": "A Lowcountry Soldier",
+			"file": "chapter-1.md"
+		},
+		{
+			"id": 2,
+			"title": "When Charleston Fell",
+			"file": "chapter-2.md"
+		},
+		{
+			"id": 3,
+			"title": "Fighting from the Swamps",
+			"file": "chapter-3.md"
+		},
+		{
+			"id": 4,
+			"title": "The Man, the Legend, and the War's Hard Edge",
+			"file": "chapter-4.md"
+		}
+	]
+}

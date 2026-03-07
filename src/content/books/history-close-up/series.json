@@ -75,10 +75,40 @@
 			"folder": "deborah-sampson-the-hidden-soldier"
 		},
 		{
+			"id": "phillis-wheatley-and-the-words-of-liberty",
+			"title": "Phillis Wheatley and the Words of Liberty",
+			"description": "Phillis Wheatley was brought to Boston in bondage and became one of the most remarkable poets of the Revolutionary era. This factual story follows her writing, her public fame, and the sharp limits the new nation placed around freedom.",
+			"folder": "phillis-wheatley-and-the-words-of-liberty"
+		},
+		{
 			"id": "benedict-arnold-and-the-price-of-treason",
 			"title": "Benedict Arnold and the Price of Treason",
 			"description": "Benedict Arnold began the Revolution as one of the American cause's boldest officers and ended it as its most famous traitor. This factual narrative follows his rise, his bitterness, and the failed plot that destroyed his name.",
 			"folder": "benedict-arnold-and-the-price-of-treason"
+		},
+		{
+			"id": "francis-marion-and-the-swamp-war",
+			"title": "Francis Marion and the Swamp War",
+			"description": "Francis Marion became famous as the \"Swamp Fox,\" but the real story is sharper than the legend. This factual narrative follows his South Carolina background, his partisan war against British control, and the limits of memory in a brutal civil war.",
+			"folder": "francis-marion-and-the-swamp-war"
+		},
+		{
+			"id": "mercy-otis-warren-and-the-pen-of-revolution",
+			"title": "Mercy Otis Warren and the Pen of Revolution",
+			"description": "Mercy Otis Warren fought the Revolution with plays, letters, arguments, and history. This factual narrative follows how one of the founding era's sharpest political writers turned private observation into public force.",
+			"folder": "mercy-otis-warren-and-the-pen-of-revolution"
+		},
+		{
+			"id": "rochambeau-and-the-allied-road-to-yorktown",
+			"title": "Rochambeau and the Allied Road to Yorktown",
+			"description": "Rochambeau did not come to America to steal the spotlight from George Washington. He came to help win a war. This factual narrative follows the French general, the alliance that changed the Revolution, and the careful march that ended at Yorktown.",
+			"folder": "rochambeau-and-the-allied-road-to-yorktown"
+		},
+		{
+			"id": "benjamin-tallmadge-and-the-culper-ring",
+			"title": "Benjamin Tallmadge and the Culper Ring",
+			"description": "Benjamin Tallmadge helped build the Continental Army's most effective spy network. This factual narrative follows the hidden war of codes, boats, couriers, and secrets around British-occupied New York.",
+			"folder": "benjamin-tallmadge-and-the-culper-ring"
 		}
 	]
 }

@@ -1,0 +1,30 @@
+{
+	"title": "Mercy Otis Warren and the Pen of Revolution",
+	"author": "Roughdraft Stories",
+	"description": "Mercy Otis Warren never commanded troops, but she fought the Revolution with satire, correspondence, and historical judgment. This factual narrative follows her from Massachusetts politics to the writing desk where she helped argue about the meaning of the new republic.",
+	"ageRange": "10-14",
+	"genre": "Narrative History",
+	"tags": ["mercy otis warren", "american revolution", "massachusetts", "political writing", "john adams", "republic"],
+	"chapters": [
+		{
+			"id": 1,
+			"title": "A Mind in a Political Family",
+			"file": "chapter-1.md"
+		},
+		{
+			"id": 2,
+			"title": "Writing Against Empire",
+			"file": "chapter-2.md"
+		},
+		{
+			"id": 3,
+			"title": "The Revolution on Paper and at Home",
+			"file": "chapter-3.md"
+		},
+		{
+			"id": 4,
+			"title": "Remembering the Republic",
+			"file": "chapter-4.md"
+		}
+	]
+}
