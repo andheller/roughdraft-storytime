@@ -1,0 +1,30 @@
+{
+  "title": "John Paul Jones and the War at Sea",
+  "author": "Roughdraft Stories",
+  "description": "John Paul Jones carried the American Revolution onto the ocean with raids, stubborn nerve, and one of the most famous naval battles in history. This factual narrative follows his rise from Scottish sailor to Continental naval hero and shows why sea power mattered to the Revolution.",
+  "ageRange": "10-14",
+  "genre": "Narrative History",
+  "tags": ["john paul jones", "american revolution", "naval history", "bonhomme richard", "serapis", "atlantic"],
+  "chapters": [
+    {
+      "id": 1,
+      "title": "From Scottish Shore to American Cause",
+      "file": "chapter-1.md"
+    },
+    {
+      "id": 2,
+      "title": "Taking the War to Sea",
+      "file": "chapter-2.md"
+    },
+    {
+      "id": 3,
+      "title": "Raid on the British Coast",
+      "file": "chapter-3.md"
+    },
+    {
+      "id": 4,
+      "title": "I Have Not Yet Begun to Fight",
+      "file": "chapter-4.md"
+    }
+  ]
+}

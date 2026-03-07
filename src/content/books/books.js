@@ -513,6 +513,37 @@ export const bookList = [
 		thickness: 64,
 		tilt: 2
 	}
+	,
+	{
+		id: 'history-close-up-abigail-adams',
+		title: 'Abigail Adams and the Revolution at Home',
+		author: 'Roughdraft Stories',
+		color: '#6D4C5A',
+		leatherColor: 'hsl(334, 18%, 36%)',
+		emoji: '✉️',
+		description:
+			'Abigail Adams watched a revolution unfold from household, farm, and letter desk, leaving one of the sharpest records of how the American founding looked from home.',
+		seriesId: 'history-close-up',
+		storyId: 'abigail-adams-and-the-revolution-at-home',
+		height: 253,
+		thickness: 58,
+		tilt: -1
+	},
+	{
+		id: 'history-close-up-john-paul-jones',
+		title: 'John Paul Jones and the War at Sea',
+		author: 'Roughdraft Stories',
+		color: '#2B4F6C',
+		leatherColor: 'hsl(205, 43%, 30%)',
+		emoji: '⛵',
+		description:
+			'John Paul Jones carried the Revolution onto the ocean with raids on the British coast and the savage fight against HMS Serapis that made him a naval legend.',
+		seriesId: 'history-close-up',
+		storyId: 'john-paul-jones-and-the-war-at-sea',
+		height: 256,
+		thickness: 60,
+		tilt: 1
+	}
 ];
 
 // Helper function to get a book by ID

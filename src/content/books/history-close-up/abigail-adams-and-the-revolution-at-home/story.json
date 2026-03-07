@@ -1,0 +1,30 @@
+{
+  "title": "Abigail Adams and the Revolution at Home",
+  "author": "Roughdraft Stories",
+  "description": "Abigail Adams did not command armies, but she watched a revolution unfold from farm, household, and letter desk. This factual narrative follows her through wartime Massachusetts, political correspondence, and the sharp intelligence that made her one of the clearest observers of the American founding.",
+  "ageRange": "10-14",
+  "genre": "Narrative History",
+  "tags": ["abigail adams", "american revolution", "john adams", "letters", "massachusetts", "founding era"],
+  "chapters": [
+    {
+      "id": 1,
+      "title": "A Farm, a Family, and a Gathering Crisis",
+      "file": "chapter-1.md"
+    },
+    {
+      "id": 2,
+      "title": "Watching War Begin",
+      "file": "chapter-2.md"
+    },
+    {
+      "id": 3,
+      "title": "Remember the Ladies",
+      "file": "chapter-3.md"
+    },
+    {
+      "id": 4,
+      "title": "The Revolution Seen from a Writing Desk",
+      "file": "chapter-4.md"
+    }
+  ]
+}

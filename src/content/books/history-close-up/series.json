@@ -49,6 +49,18 @@
 			"title": "Julius Caesar and the Fall of the Republic",
 			"description": "This factual narrative follows Caesar from Roman politics to Gaul, civil war, dictatorship, and assassination, showing why his life still shapes every story about power and republics in crisis.",
 			"folder": "julius-caesar-and-the-fall-of-the-republic"
+		},
+		{
+			"id": "abigail-adams-and-the-revolution-at-home",
+			"title": "Abigail Adams and the Revolution at Home",
+			"description": "Abigail Adams did not command armies, but she watched a revolution unfold from farm, household, and letter desk. This factual narrative follows her through wartime Massachusetts and the political intelligence preserved in her letters.",
+			"folder": "abigail-adams-and-the-revolution-at-home"
+		},
+		{
+			"id": "john-paul-jones-and-the-war-at-sea",
+			"title": "John Paul Jones and the War at Sea",
+			"description": "John Paul Jones carried the American Revolution onto the ocean with raids, stubborn nerve, and one of the most famous naval battles in history. This factual story shows why sea power mattered to the Revolution.",
+			"folder": "john-paul-jones-and-the-war-at-sea"
 		}
 	]
 }
