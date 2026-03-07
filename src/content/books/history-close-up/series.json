@@ -115,6 +115,30 @@
 			"title": "Tadeusz Kosciuszko and the River Forts",
 			"description": "Tadeusz Kosciuszko came to America with engineering skill and a serious moral vision. This factual narrative follows his work at Saratoga and West Point, where earth, timber, and geometry helped shape the Revolution.",
 			"folder": "tadeusz-kosciuszko-and-the-river-forts"
+		},
+		{
+			"id": "daniel-morgan-and-the-trap-at-cowpens",
+			"title": "Daniel Morgan and the Trap at Cowpens",
+			"description": "Daniel Morgan rose from rough frontier labor to become one of the Revolution's sharpest battlefield thinkers. This factual narrative follows his riflemen, Saratoga, and the clever plan that broke Tarleton at Cowpens.",
+			"folder": "daniel-morgan-and-the-trap-at-cowpens"
+		},
+		{
+			"id": "thomas-paine-and-the-words-that-marched",
+			"title": "Thomas Paine and the Words That Marched",
+			"description": "Thomas Paine reached America just before the Revolution and quickly became one of its loudest and clearest voices. This factual narrative follows Common Sense, the Crisis papers, and the writer who helped move a public toward independence.",
+			"folder": "thomas-paine-and-the-words-that-marched"
+		},
+		{
+			"id": "crispus-attucks-and-the-night-on-king-street",
+			"title": "Crispus Attucks and the Night on King Street",
+			"description": "Crispus Attucks died in the Boston Massacre years before independence was declared. This factual narrative follows the uncertain details of his life, the violence on King Street, and the way one death entered revolutionary memory.",
+			"folder": "crispus-attucks-and-the-night-on-king-street"
+		},
+		{
+			"id": "samuel-adams-and-the-fire-in-boston",
+			"title": "Samuel Adams and the Fire in Boston",
+			"description": "Samuel Adams did not command armies, but he helped turn Boston's anger into organized resistance. This factual narrative follows the political work that pushed protest toward independence.",
+			"folder": "samuel-adams-and-the-fire-in-boston"
 		}
 	]
 }

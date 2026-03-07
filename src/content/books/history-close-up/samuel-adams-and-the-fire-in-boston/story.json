@@ -1,0 +1,30 @@
+{
+	"title": "Samuel Adams and the Fire in Boston",
+	"author": "Roughdraft Stories",
+	"description": "Samuel Adams did not command armies, but he helped turn Boston's anger into organized resistance. This factual narrative follows the town meetings, the Tea Party, and the political work that pushed protest toward independence.",
+	"ageRange": "10-14",
+	"genre": "Narrative History",
+	"tags": ["samuel adams", "boston tea party", "american revolution", "boston", "town meeting", "continental congress"],
+	"chapters": [
+		{
+			"id": 1,
+			"title": "A Boston Radical Takes Shape",
+			"file": "chapter-1.md"
+		},
+		{
+			"id": 2,
+			"title": "Tax, Troops, and the Boston Streets",
+			"file": "chapter-2.md"
+		},
+		{
+			"id": 3,
+			"title": "Tea, Congress, and the Edge of War",
+			"file": "chapter-3.md"
+		},
+		{
+			"id": 4,
+			"title": "The Organizer Behind the Uproar",
+			"file": "chapter-4.md"
+		}
+	]
+}

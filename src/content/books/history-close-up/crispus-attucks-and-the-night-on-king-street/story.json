@@ -1,0 +1,30 @@
+{
+	"title": "Crispus Attucks and the Night on King Street",
+	"author": "Roughdraft Stories",
+	"description": "Crispus Attucks died in the Boston Massacre years before independence was declared. This factual narrative follows the uncertain details of his life, the violence on King Street, and the way one death became part of a growing revolutionary memory.",
+	"ageRange": "10-14",
+	"genre": "Narrative History",
+	"tags": ["crispus attucks", "boston massacre", "american revolution", "boston", "african american history", "king street"],
+	"chapters": [
+		{
+			"id": 1,
+			"title": "A Life Seen Mostly in Fragments",
+			"file": "chapter-1.md"
+		},
+		{
+			"id": 2,
+			"title": "March 5, 1770",
+			"file": "chapter-2.md"
+		},
+		{
+			"id": 3,
+			"title": "Trial, Funeral, and Memory",
+			"file": "chapter-3.md"
+		},
+		{
+			"id": 4,
+			"title": "Why Attucks Still Matters",
+			"file": "chapter-4.md"
+		}
+	]
+}

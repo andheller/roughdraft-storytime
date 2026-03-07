@@ -1,0 +1,30 @@
+{
+	"title": "Thomas Paine and the Words That Marched",
+	"author": "Roughdraft Stories",
+	"description": "Thomas Paine reached America just before the Revolution and quickly became one of its loudest and clearest voices. This factual narrative follows Common Sense, the Crisis papers, and the strange career of a writer who could move armies with a pamphlet.",
+	"ageRange": "10-14",
+	"genre": "Narrative History",
+	"tags": ["thomas paine", "common sense", "american crisis", "american revolution", "pamphlets", "independence"],
+	"chapters": [
+		{
+			"id": 1,
+			"title": "An Englishman Arrives in a Troubled America",
+			"file": "chapter-1.md"
+		},
+		{
+			"id": 2,
+			"title": "Common Sense and the Break with Britain",
+			"file": "chapter-2.md"
+		},
+		{
+			"id": 3,
+			"title": "The Crisis Papers and a Fading Army",
+			"file": "chapter-3.md"
+		},
+		{
+			"id": 4,
+			"title": "A Pen Too Sharp for Comfort",
+			"file": "chapter-4.md"
+		}
+	]
+}

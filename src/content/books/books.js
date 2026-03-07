@@ -678,6 +678,66 @@ export const bookList = [
 		height: 252,
 		thickness: 57,
 		tilt: -1
+	},
+	{
+		id: 'history-close-up-daniel-morgan',
+		title: 'Daniel Morgan and the Trap at Cowpens',
+		author: 'Roughdraft Stories',
+		color: '#6B543B',
+		leatherColor: 'hsl(31, 29%, 33%)',
+		emoji: '🎯',
+		description:
+			'Daniel Morgan rose from backcountry labor to become one of the Revolution\'s sharpest field commanders, using cool judgment and layered tactics to break Tarleton at Cowpens.',
+		seriesId: 'history-close-up',
+		storyId: 'daniel-morgan-and-the-trap-at-cowpens',
+		height: 255,
+		thickness: 59,
+		tilt: -1
+	},
+	{
+		id: 'history-close-up-thomas-paine',
+		title: 'Thomas Paine and the Words That Marched',
+		author: 'Roughdraft Stories',
+		color: '#4F5D75',
+		leatherColor: 'hsl(219, 20%, 38%)',
+		emoji: '📰',
+		description:
+			'Thomas Paine wrote Common Sense and the Crisis papers in a style plain enough for ordinary readers and sharp enough to help move a revolution.',
+		seriesId: 'history-close-up',
+		storyId: 'thomas-paine-and-the-words-that-marched',
+		height: 252,
+		thickness: 57,
+		tilt: 1
+	},
+	{
+		id: 'history-close-up-crispus-attucks',
+		title: 'Crispus Attucks and the Night on King Street',
+		author: 'Roughdraft Stories',
+		color: '#5B4A5A',
+		leatherColor: 'hsl(307, 10%, 32%)',
+		emoji: '🕯',
+		description:
+			'Crispus Attucks died in the Boston Massacre years before independence, and his death became part of the revolutionary memory that hardened against British rule.',
+		seriesId: 'history-close-up',
+		storyId: 'crispus-attucks-and-the-night-on-king-street',
+		height: 251,
+		thickness: 56,
+		tilt: -2
+	},
+	{
+		id: 'history-close-up-samuel-adams',
+		title: 'Samuel Adams and the Fire in Boston',
+		author: 'Roughdraft Stories',
+		color: '#7A4D37',
+		leatherColor: 'hsl(19, 37%, 35%)',
+		emoji: '🍵',
+		description:
+			'Samuel Adams turned Boston town politics into organized resistance, helping carry protest from taxes and tea toward continental revolution.',
+		seriesId: 'history-close-up',
+		storyId: 'samuel-adams-and-the-fire-in-boston',
+		height: 254,
+		thickness: 58,
+		tilt: 2
 	}
 ];
 

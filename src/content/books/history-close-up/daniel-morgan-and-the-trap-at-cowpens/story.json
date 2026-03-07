@@ -1,0 +1,30 @@
+{
+	"title": "Daniel Morgan and the Trap at Cowpens",
+	"author": "Roughdraft Stories",
+	"description": "Daniel Morgan rose from rough frontier labor to become one of the Revolutionary War's sharpest battlefield thinkers. This factual narrative follows his riflemen, Quebec, Saratoga, and the clever plan that broke Tarleton at Cowpens.",
+	"ageRange": "10-14",
+	"genre": "Narrative History",
+	"tags": ["daniel morgan", "cowpens", "american revolution", "saratoga", "riflemen", "banastre tarleton"],
+	"chapters": [
+		{
+			"id": 1,
+			"title": "A Hard Man from the Backcountry",
+			"file": "chapter-1.md"
+		},
+		{
+			"id": 2,
+			"title": "Riflemen, Quebec, and Saratoga",
+			"file": "chapter-2.md"
+		},
+		{
+			"id": 3,
+			"title": "The Battle Plan at Cowpens",
+			"file": "chapter-3.md"
+		},
+		{
+			"id": 4,
+			"title": "A Victory Larger Than One Field",
+			"file": "chapter-4.md"
+		}
+	]
+}
