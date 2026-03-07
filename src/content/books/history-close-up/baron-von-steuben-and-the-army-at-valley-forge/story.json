@@ -1,0 +1,30 @@
+{
+  "title": "Baron von Steuben and the Army at Valley Forge",
+  "author": "Roughdraft Stories",
+  "description": "Friedrich Wilhelm von Steuben arrived in America with a European military education and a talent for turning confusion into order. This factual narrative follows him from Prussia to Valley Forge, through the training of the Continental Army, and on toward Yorktown.",
+  "ageRange": "10-14",
+  "genre": "Narrative History",
+  "tags": ["baron von steuben", "valley forge", "american revolution", "continental army", "blue book", "yorktown"],
+  "chapters": [
+    {
+      "id": 1,
+      "title": "A Soldier from Prussia",
+      "file": "chapter-1.md"
+    },
+    {
+      "id": 2,
+      "title": "The Hard Winter at Valley Forge",
+      "file": "chapter-2.md"
+    },
+    {
+      "id": 3,
+      "title": "Teaching an Army to Move as One",
+      "file": "chapter-3.md"
+    },
+    {
+      "id": 4,
+      "title": "From the Blue Book to Yorktown",
+      "file": "chapter-4.md"
+    }
+  ]
+}

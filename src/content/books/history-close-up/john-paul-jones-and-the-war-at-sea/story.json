@@ -1,30 +1,30 @@
 {
-  "title": "John Paul Jones and the War at Sea",
-  "author": "Roughdraft Stories",
-  "description": "John Paul Jones carried the American Revolution onto the ocean with raids, stubborn nerve, and one of the most famous naval battles in history. This factual narrative follows his rise from Scottish sailor to Continental naval hero and shows why sea power mattered to the Revolution.",
-  "ageRange": "10-14",
-  "genre": "Narrative History",
-  "tags": ["john paul jones", "american revolution", "naval history", "bonhomme richard", "serapis", "atlantic"],
-  "chapters": [
-    {
-      "id": 1,
-      "title": "From Scottish Shore to American Cause",
-      "file": "chapter-1.md"
-    },
-    {
-      "id": 2,
-      "title": "Taking the War to Sea",
-      "file": "chapter-2.md"
-    },
-    {
-      "id": 3,
-      "title": "Raid on the British Coast",
-      "file": "chapter-3.md"
-    },
-    {
-      "id": 4,
-      "title": "I Have Not Yet Begun to Fight",
-      "file": "chapter-4.md"
-    }
-  ]
+	"title": "John Paul Jones and the War at Sea",
+	"author": "Roughdraft Stories",
+	"description": "John Paul Jones carried the American Revolution onto the ocean and straight to Britain's own shores. This factual narrative follows his restless early life, his naval command, the desperate battle with HMS Serapis, and the legend that followed.",
+	"ageRange": "10-14",
+	"genre": "Narrative History",
+	"tags": ["john paul jones", "american revolution", "naval history", "serapis", "bonhomme richard", "war at sea"],
+	"chapters": [
+		{
+			"id": 1,
+			"title": "From Scotland to a New Cause",
+			"file": "chapter-1.md"
+		},
+		{
+			"id": 2,
+			"title": "Learning to Fight on Water",
+			"file": "chapter-2.md"
+		},
+		{
+			"id": 3,
+			"title": "I Have Not Yet Begun to Fight",
+			"file": "chapter-3.md"
+		},
+		{
+			"id": 4,
+			"title": "What a Navy Needed from a Legend",
+			"file": "chapter-4.md"
+		}
+	]
 }

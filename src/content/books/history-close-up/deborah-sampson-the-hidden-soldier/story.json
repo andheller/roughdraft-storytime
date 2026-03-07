@@ -1,0 +1,30 @@
+{
+	"title": "Deborah Sampson: The Hidden Soldier",
+	"author": "Roughdraft Stories",
+	"description": "Deborah Sampson disguised herself as a man, enlisted in the Continental Army, fought under the name Robert Shurtliff, and later demanded to be remembered. This factual narrative follows her service, wounding, discovery, and long campaign for recognition.",
+	"ageRange": "10-14",
+	"genre": "Narrative History",
+	"tags": ["deborah sampson", "american revolution", "women in history", "continental army", "massachusetts", "pension"],
+	"chapters": [
+		{
+			"id": 1,
+			"title": "A Hard Childhood in Massachusetts",
+			"file": "chapter-1.md"
+		},
+		{
+			"id": 2,
+			"title": "Becoming Robert Shurtliff",
+			"file": "chapter-2.md"
+		},
+		{
+			"id": 3,
+			"title": "Wounds, Silence, and Discovery",
+			"file": "chapter-3.md"
+		},
+		{
+			"id": 4,
+			"title": "Telling the Nation Who She Was",
+			"file": "chapter-4.md"
+		}
+	]
+}

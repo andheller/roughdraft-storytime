@@ -61,6 +61,18 @@
 			"title": "John Paul Jones and the War at Sea",
 			"description": "John Paul Jones carried the American Revolution onto the ocean with raids, stubborn nerve, and one of the most famous naval battles in history. This factual story shows why sea power mattered to the Revolution.",
 			"folder": "john-paul-jones-and-the-war-at-sea"
+		},
+		{
+			"id": "baron-von-steuben-and-the-army-at-valley-forge",
+			"title": "Baron von Steuben and the Army at Valley Forge",
+			"description": "Friedrich Wilhelm von Steuben brought European military method to a hungry American army and helped turn Valley Forge into a training ground instead of a graveyard.",
+			"folder": "baron-von-steuben-and-the-army-at-valley-forge"
+		},
+		{
+			"id": "deborah-sampson-the-hidden-soldier",
+			"title": "Deborah Sampson: The Hidden Soldier",
+			"description": "Deborah Sampson enlisted as Robert Shurtliff, served in the Continental Army, and later forced the new nation to recognize what she had done.",
+			"folder": "deborah-sampson-the-hidden-soldier"
 		}
 	]
 }

@@ -543,6 +543,36 @@ export const bookList = [
 		height: 256,
 		thickness: 60,
 		tilt: 1
+	},
+	{
+		id: 'history-close-up-baron-von-steuben',
+		title: 'Baron von Steuben and the Army at Valley Forge',
+		author: 'Roughdraft Stories',
+		color: '#4C5A47',
+		leatherColor: 'hsl(100, 12%, 32%)',
+		emoji: '📘',
+		description:
+			'Von Steuben arrived at Valley Forge with European training methods and helped turn the Continental Army into a more disciplined fighting force.',
+		seriesId: 'history-close-up',
+		storyId: 'baron-von-steuben-and-the-army-at-valley-forge',
+		height: 252,
+		thickness: 58,
+		tilt: -1
+	},
+	{
+		id: 'history-close-up-deborah-sampson',
+		title: 'Deborah Sampson: The Hidden Soldier',
+		author: 'Roughdraft Stories',
+		color: '#6B5563',
+		leatherColor: 'hsl(320, 11%, 38%)',
+		emoji: '🎖',
+		description:
+			'Deborah Sampson enlisted as Robert Shurtliff, served while hiding her identity, and later fought to have her Revolutionary War service recognized.',
+		seriesId: 'history-close-up',
+		storyId: 'deborah-sampson-the-hidden-soldier',
+		height: 251,
+		thickness: 57,
+		tilt: 2
 	}
 ];
 
