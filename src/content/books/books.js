@@ -167,6 +167,66 @@ export const bookList = [
 		tilt: -1
 	},
 	{
+		id: 'silly-squirrels-super-secure-snack-safe',
+		title: 'The Super Secure Snack Safe',
+		author: 'Team Roughdraft',
+		color: '#C47A2C',
+		leatherColor: 'hsl(32, 63%, 47%)',
+		emoji: '🔐',
+		description:
+			"Papa's emergency snack stash keeps disappearing, so Nutty builds the most secure snack safe in Nutville. Soon nobody can open it, everybody gets accused, and the safe itself becomes the biggest problem in town.",
+		seriesId: 'silly-squirrels',
+		storyId: 'the-super-secure-snack-safe',
+		height: 250,
+		thickness: 59,
+		tilt: 2
+	},
+	{
+		id: 'silly-squirrels-weather-wobble-machine',
+		title: 'The Weather Wobble Machine',
+		author: 'Roughdraft Stories',
+		color: '#4FA3D9',
+		leatherColor: 'hsl(202, 65%, 47%)',
+		emoji: '🌦️',
+		description:
+			'When Nutville\'s picnic keeps getting ruined by surprise weather, Nutty builds a machine to organize the sky and accidentally gives the town seven different forecasts at once.',
+		seriesId: 'silly-squirrels',
+		storyId: 'the-silly-squirrels-weather-wobble-machine',
+		height: 251,
+		thickness: 58,
+		tilt: -1
+	},
+	{
+		id: 'silly-squirrels-pancake-parade',
+		title: 'The Pancake Parade',
+		author: 'Roughdraft Stories',
+		color: '#D48B3A',
+		leatherColor: 'hsl(32, 64%, 53%)',
+		emoji: '🥞',
+		description:
+			'Nutty builds a Harvest Hoopla float that flips pancakes, plays music, and causes exactly the amount of syrup-related parade trouble you would expect.',
+		seriesId: 'silly-squirrels',
+		storyId: 'the-silly-squirrels-pancake-parade',
+		height: 249,
+		thickness: 57,
+		tilt: 2
+	},
+	{
+		id: 'silly-squirrels-night-before-snow-day',
+		title: 'The Night Before Snow Day',
+		author: 'Roughdraft Stories',
+		color: '#7FB6D6',
+		leatherColor: 'hsl(204, 49%, 55%)',
+		emoji: '❄️',
+		description:
+			'While Nutville waits for its first big snowfall, Nutty builds the Snowstarter 3000 and creates a backyard blizzard just in time for a midnight sled rescue.',
+		seriesId: 'silly-squirrels',
+		storyId: 'the-silly-squirrels-night-before-snow-day',
+		height: 253,
+		thickness: 58,
+		tilt: -2
+	},
+	{
 		id: 'liberty-or-lunchtime',
 		title: 'Liberty or Lunchtime',
 		author: 'Claude',

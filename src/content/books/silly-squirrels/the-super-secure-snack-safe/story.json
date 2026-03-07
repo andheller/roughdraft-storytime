@@ -1,0 +1,35 @@
+{
+  "title": "The Super Secure Snack Safe",
+  "author": "Team Roughdraft",
+  "description": "Papa's emergency snack stash keeps disappearing, so Nutty builds the most secure snack safe in Nutville. Soon nobody can open it, everybody gets accused, and the safe itself becomes the biggest problem in town.",
+  "ageRange": "5-9",
+  "genre": "Comedy, Mystery",
+  "tags": ["comedy", "mystery", "snacks", "invention", "family", "security"],
+  "chapters": [
+    {
+      "id": 1,
+      "title": "The Great Snack Emergency",
+      "file": "chapter-1.md"
+    },
+    {
+      "id": 2,
+      "title": "Maximum Security, Minimum Snacking",
+      "file": "chapter-2.md"
+    },
+    {
+      "id": 3,
+      "title": "Passwords, Panic, and Pasta Lasers",
+      "file": "chapter-3.md"
+    },
+    {
+      "id": 4,
+      "title": "The Midnight Cruncher",
+      "file": "chapter-4.md"
+    },
+    {
+      "id": 5,
+      "title": "Grandma Opens Everything",
+      "file": "chapter-5.md"
+    }
+  ]
+}

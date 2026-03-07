@@ -1,0 +1,15 @@
+{
+  "title": "The Silly Squirrels and the Night Before Snow Day",
+  "author": "Roughdraft Stories",
+  "description": "When Nutville waits for the first big snowfall, Nutty decides to help winter arrive faster. Soon the sled hill is ready, the cocoa is boiling, and one homemade snow-making contraption is causing extremely local blizzards.",
+  "ageRange": "5-9",
+  "genre": "Comedy",
+  "tags": ["comedy", "winter", "snow day", "invention", "family", "sledding"],
+  "chapters": [
+    { "id": 1, "title": "Waiting for Snow", "file": "chapter-1.md" },
+    { "id": 2, "title": "The Snowstarter 3000", "file": "chapter-2.md" },
+    { "id": 3, "title": "Blizzard in the Backyard", "file": "chapter-3.md" },
+    { "id": 4, "title": "The Great Midnight Sled Rescue", "file": "chapter-4.md" },
+    { "id": 5, "title": "A Proper Snow Day at Last", "file": "chapter-5.md" }
+  ]
+}

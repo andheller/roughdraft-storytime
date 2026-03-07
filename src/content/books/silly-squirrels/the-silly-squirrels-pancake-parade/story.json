@@ -1,0 +1,15 @@
+{
+  "title": "The Silly Squirrels and the Pancake Parade",
+  "author": "Roughdraft Stories",
+  "description": "When Nutville needs a parade float for the Harvest Hoopla, Nutty decides wheels are not enough. The float should flip pancakes, play music, and maybe toss syrup in a highly respectful way. Naturally, the parade becomes unforgettable.",
+  "ageRange": "5-9",
+  "genre": "Comedy",
+  "tags": ["comedy", "parade", "pancakes", "invention", "family", "festival"],
+  "chapters": [
+    { "id": 1, "title": "Harvest Hoopla Trouble", "file": "chapter-1.md" },
+    { "id": 2, "title": "The Float with Extra Breakfast", "file": "chapter-2.md" },
+    { "id": 3, "title": "Marching Band, Meet Syrup", "file": "chapter-3.md" },
+    { "id": 4, "title": "The Great Pancake Launch", "file": "chapter-4.md" },
+    { "id": 5, "title": "A Parade Worth Remembering", "file": "chapter-5.md" }
+  ]
+}

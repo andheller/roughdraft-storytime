@@ -55,6 +55,42 @@
 			"title": "The Silly Squirrels and the Giant Moon Acorn",
 			"description": "Nutty looks up at the night sky and sees the BIGGEST ACORN EVER! (It's the moon.) Naturally, the only solution is to build TNT-powered rockets from trashcans and traffic cones to go eat it. Maximum height achieved: 10 feet. Maximum chaos achieved: UNLIMITED.",
 			"folder": "the-silly-squirrels-giant-moon-acorn"
+		},
+		{
+			"id": "the-silly-squirrels-motor-bike-bonanza",
+			"title": "The Silly Squirrels Motor-Bike Bonanza",
+			"description": "Mama, Papa, and Nutty build supa dupa speedy motor-bikes to help Nutville go whoooooosh! With acorn engines, leaf spoilers, and banana-seat silliness, will they master speed without turning the town into a blur?",
+			"folder": "the-silly-squirrels-motor-bike-bonanza"
+		},
+		{
+			"id": "the-great-motor-bike-acorn-hunt",
+			"title": "The Great Motor-Bike Acorn Hunt",
+			"description": "Nutty, Mama, and Papa build squirrel-sized motor-bikes to chase crumbs, corral rogue balloons, untangle a bossy banner, and un-misplace Nutville's Golden Acorn - all at responsible speeds and questionable snack intervals.",
+			"folder": "the-great-motor-bike-acorn-hunt"
+		},
+		{
+			"id": "the-super-secure-snack-safe",
+			"title": "The Super Secure Snack Safe",
+			"description": "Papa's emergency snack stash keeps disappearing, so Nutty builds the most secure snack safe in Nutville. Soon nobody can open it, everybody gets accused, and the safe itself becomes the biggest problem in town.",
+			"folder": "the-super-secure-snack-safe"
+		},
+		{
+			"id": "the-silly-squirrels-weather-wobble-machine",
+			"title": "The Silly Squirrels and the Weather Wobble Machine",
+			"description": "When Nutville's picnic keeps getting ruined by surprise weather, Nutty builds a machine to organize the sky. Soon the clouds are confused, the wind is bossy, and everyone is carrying emergency umbrellas for the wrong reasons.",
+			"folder": "the-silly-squirrels-weather-wobble-machine"
+		},
+		{
+			"id": "the-silly-squirrels-pancake-parade",
+			"title": "The Silly Squirrels and the Pancake Parade",
+			"description": "When Nutville needs a parade float for the Harvest Hoopla, Nutty decides wheels are not enough. The float should flip pancakes, play music, and maybe toss syrup in a highly respectful way.",
+			"folder": "the-silly-squirrels-pancake-parade"
+		},
+		{
+			"id": "the-silly-squirrels-night-before-snow-day",
+			"title": "The Silly Squirrels and the Night Before Snow Day",
+			"description": "When Nutville waits for the first big snowfall, Nutty decides to help winter arrive faster. Soon the sled hill is ready, the cocoa is boiling, and one homemade snow-making contraption is causing extremely local blizzards.",
+			"folder": "the-silly-squirrels-night-before-snow-day"
 		}
 	]
 }

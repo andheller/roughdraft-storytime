@@ -1,0 +1,15 @@
+{
+  "title": "The Silly Squirrels and the Weather Wobble Machine",
+  "author": "Roughdraft Stories",
+  "description": "When Nutville's picnic keeps getting ruined by surprise weather, Nutty builds a machine to organize the sky. Soon the clouds are confused, the wind is bossy, and everyone is carrying emergency umbrellas for the wrong reasons.",
+  "ageRange": "5-9",
+  "genre": "Comedy",
+  "tags": ["comedy", "weather", "invention", "family", "machines", "picnic"],
+  "chapters": [
+    { "id": 1, "title": "A Picnic Forecast of Trouble", "file": "chapter-1.md" },
+    { "id": 2, "title": "Buttons for Breezes", "file": "chapter-2.md" },
+    { "id": 3, "title": "Sunny Here, Snowy There", "file": "chapter-3.md" },
+    { "id": 4, "title": "The Great Umbrella Stampede", "file": "chapter-4.md" },
+    { "id": 5, "title": "Let the Sky Be Silly", "file": "chapter-5.md" }
+  ]
+}
