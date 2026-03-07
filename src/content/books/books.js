@@ -574,6 +574,22 @@ export const bookList = [
 		thickness: 57,
 		tilt: 2
 	}
+	,
+	{
+		id: 'history-close-up-benedict-arnold',
+		title: 'Benedict Arnold and the Price of Treason',
+		author: 'Roughdraft Stories',
+		color: '#5C4033',
+		leatherColor: 'hsl(22, 28%, 28%)',
+		emoji: '⚠️',
+		description:
+			'Benedict Arnold rose as one of the Revolution\'s boldest officers and then tried to sell West Point to the British, turning his name into a warning for every generation after.',
+		seriesId: 'history-close-up',
+		storyId: 'benedict-arnold-and-the-price-of-treason',
+		height: 254,
+		thickness: 59,
+		tilt: -2
+	}
 ];
 
 // Helper function to get a book by ID

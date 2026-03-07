@@ -1,0 +1,30 @@
+{
+	"title": "Benedict Arnold and the Price of Treason",
+	"author": "Roughdraft Stories",
+	"description": "Benedict Arnold began the Revolution as one of the American cause's boldest officers and ended it as its most famous traitor. This factual narrative follows his courage, his bitterness, and the disastrous bargain that ruined his name.",
+	"ageRange": "10-14",
+	"genre": "Narrative History",
+	"tags": ["benedict arnold", "american revolution", "saratoga", "west point", "john andre", "treason"],
+	"chapters": [
+		{
+			"id": 1,
+			"title": "A Bold Officer for a New War",
+			"file": "chapter-1.md"
+		},
+		{
+			"id": 2,
+			"title": "Valcour, Quebec, and Saratoga",
+			"file": "chapter-2.md"
+		},
+		{
+			"id": 3,
+			"title": "The Grievance That Grew into Treason",
+			"file": "chapter-3.md"
+		},
+		{
+			"id": 4,
+			"title": "West Point and the Name That Broke",
+			"file": "chapter-4.md"
+		}
+	]
+}
