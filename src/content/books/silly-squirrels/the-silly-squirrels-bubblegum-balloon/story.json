@@ -1,0 +1,15 @@
+{
+  "title": "The Silly Squirrels and the Bubblegum Balloon",
+  "author": "Roughdraft Stories",
+  "description": "When Nutville's kite festival needs a grand finale, Nutty decides a regular balloon is too boring. Soon the family is building a bubblegum-colored flying machine that is much better at drifting than steering.",
+  "ageRange": "5-9",
+  "genre": "Comedy",
+  "tags": ["comedy", "balloon", "festival", "invention", "family", "flying"],
+  "chapters": [
+    { "id": 1, "title": "The Festival Needs Wow", "file": "chapter-1.md" },
+    { "id": 2, "title": "A Balloon the Color of Dessert", "file": "chapter-2.md" },
+    { "id": 3, "title": "Up, Up, and Slightly Sideways", "file": "chapter-3.md" },
+    { "id": 4, "title": "The Slowest Emergency Ever", "file": "chapter-4.md" },
+    { "id": 5, "title": "Landing with Dignity-ish", "file": "chapter-5.md" }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "title": "The Silly Squirrels and the Car-Wash Waterfall",
+  "author": "Roughdraft Stories",
+  "description": "When Nutville gets muddy after a week of rain, Nutty decides every wagon, wheelbarrow, and scooter needs a deluxe wash. Soon the family has built a car wash so splashy it starts cleaning things that never asked to be cleaned.",
+  "ageRange": "5-9",
+  "genre": "Comedy",
+  "tags": ["comedy", "water", "car wash", "invention", "family", "mud"],
+  "chapters": [
+    { "id": 1, "title": "Mud Everywhere", "file": "chapter-1.md" },
+    { "id": 2, "title": "Buckets, Brushes, and Bad Ideas", "file": "chapter-2.md" },
+    { "id": 3, "title": "The Wash Begins", "file": "chapter-3.md" },
+    { "id": 4, "title": "The Soap Slide Disaster", "file": "chapter-4.md" },
+    { "id": 5, "title": "A Much Smaller Splash", "file": "chapter-5.md" }
+  ]
+}

@@ -272,6 +272,51 @@ export const bookList = [
 		tilt: 2
 	},
 	{
+		id: 'silly-squirrels-car-wash-waterfall',
+		title: 'The Car-Wash Waterfall',
+		author: 'Roughdraft Stories',
+		color: '#57A7C9',
+		leatherColor: 'hsl(196, 52%, 57%)',
+		emoji: '🚿',
+		description:
+			'After a week of mud, Nutty builds a deluxe wash for every wagon and wheelbarrow in town, then discovers the machine is happiest when it is spraying absolutely everything.',
+		seriesId: 'silly-squirrels',
+		storyId: 'the-silly-squirrels-car-wash-waterfall',
+		height: 252,
+		thickness: 58,
+		tilt: -2
+	},
+	{
+		id: 'silly-squirrels-bubblegum-balloon',
+		title: 'The Bubblegum Balloon',
+		author: 'Roughdraft Stories',
+		color: '#E882A8',
+		leatherColor: 'hsl(337, 69%, 67%)',
+		emoji: '🎈',
+		description:
+			'For Nutville\'s kite festival finale, Nutty builds a bubblegum-pink balloon that floats beautifully, drifts freely, and obeys almost none of the instructions being shouted at it.',
+		seriesId: 'silly-squirrels',
+		storyId: 'the-silly-squirrels-bubblegum-balloon',
+		height: 250,
+		thickness: 57,
+		tilt: 1
+	},
+	{
+		id: 'silly-squirrels-mailbox-mix-up-machine',
+		title: 'The Mailbox Mix-Up Machine',
+		author: 'Roughdraft Stories',
+		color: '#C85C3E',
+		leatherColor: 'hsl(12, 56%, 51%)',
+		emoji: '📬',
+		description:
+			'Tony the Delivery Fox is drowning in letters, so Nutty invents a sorting machine that moves mail faster than ever and sends half of it somewhere extremely inconvenient.',
+		seriesId: 'silly-squirrels',
+		storyId: 'the-silly-squirrels-mailbox-mix-up-machine',
+		height: 251,
+		thickness: 58,
+		tilt: -1
+	},
+	{
 		id: 'liberty-or-lunchtime',
 		title: 'Liberty or Lunchtime',
 		author: 'Claude',

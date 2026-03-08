@@ -109,6 +109,24 @@
 			"title": "The Silly Squirrels and the Library Book Rocket",
 			"description": "When overdue library books pile up all over town, Nutty invents a machine to send them back faster. Unfortunately, the machine is much better at launching books than at choosing where they should land.",
 			"folder": "the-silly-squirrels-library-book-rocket"
+		},
+		{
+			"id": "the-silly-squirrels-car-wash-waterfall",
+			"title": "The Silly Squirrels and the Car-Wash Waterfall",
+			"description": "When Nutville gets muddy after a week of rain, Nutty decides every wagon, wheelbarrow, and scooter needs a deluxe wash. Soon the family has built a car wash so splashy it starts cleaning things that never asked to be cleaned.",
+			"folder": "the-silly-squirrels-car-wash-waterfall"
+		},
+		{
+			"id": "the-silly-squirrels-bubblegum-balloon",
+			"title": "The Silly Squirrels and the Bubblegum Balloon",
+			"description": "When Nutville's kite festival needs a grand finale, Nutty decides a regular balloon is too boring. Soon the family is building a bubblegum-colored flying machine that is much better at drifting than steering.",
+			"folder": "the-silly-squirrels-bubblegum-balloon"
+		},
+		{
+			"id": "the-silly-squirrels-mailbox-mix-up-machine",
+			"title": "The Silly Squirrels and the Mailbox Mix-Up Machine",
+			"description": "When Tony the Delivery Fox gets buried in letters, Nutty invents a machine to sort the mail faster. The machine is brilliant at moving envelopes and terrible at understanding that invitations, bills, and birthday cards should not all arrive at once in the fountain.",
+			"folder": "the-silly-squirrels-mailbox-mix-up-machine"
 		}
 	]
 }
