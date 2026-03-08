@@ -139,6 +139,24 @@
 			"title": "The Silly Squirrels and the Umbrella Taxi",
 			"description": "When rain turns every road in Nutville into a chain of puddles, Nutty decides umbrellas should not just keep squirrels dry. They should give rides. Soon the town has a taxi service with excellent views and terrible steering.",
 			"folder": "the-silly-squirrels-umbrella-taxi"
+		},
+		{
+			"id": "the-silly-squirrels-marshmallow-parade-float",
+			"title": "The Silly Squirrels and the Marshmallow Parade Float",
+			"description": "When Nutville's spring parade needs one last spectacular float, Nutty decides ordinary decorations are too ordinary. Soon the family is building a giant marshmallow castle on wheels with structural problems that get worse in sunlight.",
+			"folder": "the-silly-squirrels-marshmallow-parade-float"
+		},
+		{
+			"id": "the-silly-squirrels-leaf-blower-orchestra",
+			"title": "The Silly Squirrels and the Leaf-Blower Orchestra",
+			"description": "When Nutville's summer concert is missing half its musicians, Nutty decides instruments should not depend so heavily on practice. Soon the family is testing a machine-powered orchestra with too much wind and not enough judgment.",
+			"folder": "the-silly-squirrels-leaf-blower-orchestra"
+		},
+		{
+			"id": "the-silly-squirrels-pumpkin-patch-pulley",
+			"title": "The Silly Squirrels and the Pumpkin-Patch Pulley",
+			"description": "When harvest season buries Nutville under more pumpkins than carts can carry, Nutty decides wheels are too slow. Soon the family is moving giant pumpkins through the air on a pulley line that makes everyone reconsider gravity.",
+			"folder": "the-silly-squirrels-pumpkin-patch-pulley"
 		}
 	]
 }

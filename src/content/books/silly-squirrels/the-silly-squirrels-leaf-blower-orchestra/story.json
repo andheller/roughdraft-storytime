@@ -1,0 +1,15 @@
+{
+  "title": "The Silly Squirrels and the Leaf-Blower Orchestra",
+  "author": "Roughdraft Stories",
+  "description": "When Nutville's summer concert is missing half its musicians, Nutty decides instruments should not depend so heavily on practice. Soon the family is testing a machine-powered orchestra with too much wind and not enough judgment.",
+  "ageRange": "5-9",
+  "genre": "Comedy",
+  "tags": ["comedy", "music", "concert", "machine", "wind", "family"],
+  "chapters": [
+    { "id": 1, "title": "Concert Trouble", "file": "chapter-1.md" },
+    { "id": 2, "title": "Automatic Music", "file": "chapter-2.md" },
+    { "id": 3, "title": "The First Rehearsal Gust", "file": "chapter-3.md" },
+    { "id": 4, "title": "Symphony in a Strong Breeze", "file": "chapter-4.md" },
+    { "id": 5, "title": "A Quieter Encore", "file": "chapter-5.md" }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "title": "The Silly Squirrels and the Pumpkin-Patch Pulley",
+  "author": "Roughdraft Stories",
+  "description": "When harvest season buries Nutville under more pumpkins than carts can carry, Nutty decides wheels are too slow. Soon the family is moving giant pumpkins through the air on a pulley line that makes everyone reconsider gravity.",
+  "ageRange": "5-9",
+  "genre": "Comedy",
+  "tags": ["comedy", "harvest", "pumpkin", "pulley", "invention", "family"],
+  "chapters": [
+    { "id": 1, "title": "Too Many Pumpkins", "file": "chapter-1.md" },
+    { "id": 2, "title": "A Faster Way to Haul", "file": "chapter-2.md" },
+    { "id": 3, "title": "Pumpkins in Transit", "file": "chapter-3.md" },
+    { "id": 4, "title": "The Squash Traffic Jam", "file": "chapter-4.md" },
+    { "id": 5, "title": "Ground-Level Harvest", "file": "chapter-5.md" }
+  ]
+}

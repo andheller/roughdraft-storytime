@@ -1,0 +1,15 @@
+{
+  "title": "The Silly Squirrels and the Marshmallow Parade Float",
+  "author": "Roughdraft Stories",
+  "description": "When Nutville's spring parade needs one last spectacular float, Nutty decides ordinary decorations are too ordinary. Soon the family is building a giant marshmallow castle on wheels with structural problems that get worse in sunlight.",
+  "ageRange": "5-9",
+  "genre": "Comedy",
+  "tags": ["comedy", "parade", "marshmallow", "float", "invention", "family"],
+  "chapters": [
+    { "id": 1, "title": "The Parade Needs Wow", "file": "chapter-1.md" },
+    { "id": 2, "title": "Sticky Engineering", "file": "chapter-2.md" },
+    { "id": 3, "title": "Rolling Majesty", "file": "chapter-3.md" },
+    { "id": 4, "title": "The Great Melt", "file": "chapter-4.md" },
+    { "id": 5, "title": "A Float That Floats Less", "file": "chapter-5.md" }
+  ]
+}

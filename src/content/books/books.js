@@ -347,6 +347,51 @@ export const bookList = [
 		tilt: -2
 	},
 	{
+		id: 'silly-squirrels-marshmallow-parade-float',
+		title: 'The Marshmallow Parade Float',
+		author: 'Roughdraft Stories',
+		color: '#F3E9F4',
+		leatherColor: 'hsl(296, 22%, 92%)',
+		emoji: '🍬',
+		description:
+			'Nutty builds a spring parade castle out of marshmallows and optimism, then discovers both are less reliable when the sun starts doing its job.',
+		seriesId: 'silly-squirrels',
+		storyId: 'the-silly-squirrels-marshmallow-parade-float',
+		height: 252,
+		thickness: 58,
+		tilt: 1
+	},
+	{
+		id: 'silly-squirrels-leaf-blower-orchestra',
+		title: 'The Leaf-Blower Orchestra',
+		author: 'Roughdraft Stories',
+		color: '#6A8F52',
+		leatherColor: 'hsl(96, 27%, 44%)',
+		emoji: '🎶',
+		description:
+			'When the town concert loses half its musicians, Nutty builds an automatic orchestra powered by air, pedals, and far too much confidence in what wind can do to music.',
+		seriesId: 'silly-squirrels',
+		storyId: 'the-silly-squirrels-leaf-blower-orchestra',
+		height: 253,
+		thickness: 59,
+		tilt: -1
+	},
+	{
+		id: 'silly-squirrels-pumpkin-patch-pulley',
+		title: 'The Pumpkin-Patch Pulley',
+		author: 'Roughdraft Stories',
+		color: '#D57A2A',
+		leatherColor: 'hsl(28, 67%, 50%)',
+		emoji: '🎃',
+		description:
+			'Harvest season overwhelms Nutville with giant pumpkins, so Nutty strings a pulley line over town and learns that gravity has very strong opinions about produce.',
+		seriesId: 'silly-squirrels',
+		storyId: 'the-silly-squirrels-pumpkin-patch-pulley',
+		height: 251,
+		thickness: 58,
+		tilt: 2
+	},
+	{
 		id: 'liberty-or-lunchtime',
 		title: 'Liberty or Lunchtime',
 		author: 'Claude',
