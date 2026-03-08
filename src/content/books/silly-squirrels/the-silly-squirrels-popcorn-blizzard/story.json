@@ -1,0 +1,15 @@
+{
+  "title": "The Silly Squirrels and the Popcorn Blizzard",
+  "author": "Roughdraft Stories",
+  "description": "When Nutville plans a big movie night in the park, Nutty decides the popcorn line should move faster. Soon the family is testing a popcorn machine so powerful it can season the sky.",
+  "ageRange": "5-9",
+  "genre": "Comedy",
+  "tags": ["comedy", "popcorn", "movie night", "invention", "family", "town"],
+  "chapters": [
+    { "id": 1, "title": "The Longest Snack Line in Nutville", "file": "chapter-1.md" },
+    { "id": 2, "title": "The Poppinator 5000", "file": "chapter-2.md" },
+    { "id": 3, "title": "Kernels with Ambition", "file": "chapter-3.md" },
+    { "id": 4, "title": "The Blizzard of Butter", "file": "chapter-4.md" },
+    { "id": 5, "title": "A Better Bowl", "file": "chapter-5.md" }
+  ]
+}

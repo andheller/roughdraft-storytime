@@ -317,6 +317,36 @@ export const bookList = [
 		tilt: -1
 	},
 	{
+		id: 'silly-squirrels-popcorn-blizzard',
+		title: 'The Popcorn Blizzard',
+		author: 'Roughdraft Stories',
+		color: '#E5C24A',
+		leatherColor: 'hsl(47, 75%, 59%)',
+		emoji: '🍿',
+		description:
+			'Nutty builds a movie-night popcorn machine so powerful it turns the park into a buttery weather system and teaches Nutville that snacks should stay in bowls.',
+		seriesId: 'silly-squirrels',
+		storyId: 'the-silly-squirrels-popcorn-blizzard',
+		height: 253,
+		thickness: 59,
+		tilt: 2
+	},
+	{
+		id: 'silly-squirrels-umbrella-taxi',
+		title: 'The Umbrella Taxi',
+		author: 'Roughdraft Stories',
+		color: '#5B86C5',
+		leatherColor: 'hsl(215, 48%, 56%)',
+		emoji: '☂️',
+		description:
+			'During a week of rain, Nutty invents umbrella taxis to carry riders over the puddles, but the weather quickly proves it has strong opinions about public transit.',
+		seriesId: 'silly-squirrels',
+		storyId: 'the-silly-squirrels-umbrella-taxi',
+		height: 252,
+		thickness: 58,
+		tilt: -2
+	},
+	{
 		id: 'liberty-or-lunchtime',
 		title: 'Liberty or Lunchtime',
 		author: 'Claude',

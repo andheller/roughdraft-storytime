@@ -1,0 +1,15 @@
+{
+  "title": "The Silly Squirrels and the Umbrella Taxi",
+  "author": "Roughdraft Stories",
+  "description": "When rain turns every road in Nutville into a chain of puddles, Nutty decides umbrellas should not just keep squirrels dry. They should give rides. Soon the town has a taxi service with excellent views and terrible steering.",
+  "ageRange": "5-9",
+  "genre": "Comedy",
+  "tags": ["comedy", "rain", "umbrella", "taxi", "invention", "family"],
+  "chapters": [
+    { "id": 1, "title": "Puddle Season", "file": "chapter-1.md" },
+    { "id": 2, "title": "Rides Over Puddle Street", "file": "chapter-2.md" },
+    { "id": 3, "title": "One Passenger, Slightly Airborne", "file": "chapter-3.md" },
+    { "id": 4, "title": "The Wind Has Opinions", "file": "chapter-4.md" },
+    { "id": 5, "title": "Dry Feet, Simpler Plan", "file": "chapter-5.md" }
+  ]
+}
