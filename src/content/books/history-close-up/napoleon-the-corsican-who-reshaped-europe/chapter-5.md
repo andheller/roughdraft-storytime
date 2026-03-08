@@ -1,6 +1,6 @@
 # Chapter 5: The Long Fall and the Long Shadow
 
-In 1812 Napoleon led the largest army Europe had yet seen into Russia.
+In 1812 Napoleon led one of the largest armies Europe had yet seen into Russia.
 
 The campaign began because the alliance between France and Russia had broken down. Tsar Alexander I was no longer willing to obey the Continental System in the way Napoleon demanded. For Napoleon, that kind of resistance could not be ignored. He believed pressure, movement, and one decisive victory would force Russia back into line.
 

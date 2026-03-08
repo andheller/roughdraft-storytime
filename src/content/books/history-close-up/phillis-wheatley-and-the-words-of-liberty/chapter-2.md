@@ -20,7 +20,7 @@ The document is valuable and humiliating at the same time.
 
 It is valuable because it helped her book reach publication. It is humiliating because it shows what kind of proof a Black poet needed simply to be believed. White authors were not typically summoned before a panel to establish that they possessed minds. Phillis was.
 
-Her book, *Poems on Various Subjects, Religious and Moral*, was published in London in 1773. This too matters. London, not Boston, offered the practical path to publication. The transatlantic world that enslaved Phillis also carried her words outward into print. The book made her one of the first published African-descended poets in the English-speaking world and certainly the most famous in British North America at the time.
+Her book, *Poems on Various Subjects, Religious and Moral*, was published in London in 1773. This too matters. London, not Boston, offered the practical path to publication. The transatlantic world that enslaved Phillis also carried her words outward into print. The book made her one of the earliest published poets of African descent in the English-speaking world and certainly the most famous in British North America at the time.
 
 Publication brought prestige, correspondence, and readers in both Britain and America. It also did not free her fully into a secure literary life. Phillis moved in a world where praise could be genuine and still remain limited by racism. Admirers could celebrate her talent while refusing larger changes in the system that had enslaved her. This was one of the great moral failures of the age.
 

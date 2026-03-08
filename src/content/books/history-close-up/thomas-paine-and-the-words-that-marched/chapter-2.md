@@ -14,7 +14,7 @@ Part of its power came from style. Paine wrote clearly, directly, and without mu
 
 *Common Sense* did that.
 
-Britannica notes that it sold more than 500,000 copies within a few months, an astonishing number for the time. Mount Vernon emphasizes that Paine wrote for the masses rather than only for colonial elites. Both points help explain the pamphlet's importance. A revolutionary movement needs arguments, but it also needs arguments that travel.
+Modern estimates of its circulation vary, but all serious accounts agree that it spread with astonishing speed and reached an unusually large audience for the time. Mount Vernon emphasizes that Paine wrote for the masses rather than only for colonial elites. Both points help explain the pamphlet's importance. A revolutionary movement needs arguments, but it also needs arguments that travel.
 
 Paine's did.
 

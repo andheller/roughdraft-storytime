@@ -10,7 +10,7 @@ Here the sources become important. Much of Deborah's later fame came through bio
 
 Instead, he seems to have acted with a measure of discretion.
 
-That discretion mattered enormously. Deborah was not dragged before the army in a scene of public shame. She was eventually discharged honorably in 1783 by General Henry Knox. This is one of the most striking facts in her story. The army did not answer her service with formal disgrace. Whatever embarrassment or surprise the truth produced, her discharge recognized that she had genuinely served.
+That discretion mattered enormously. Deborah was not dragged before the army in a scene of public shame. She was eventually discharged honorably at West Point in October 1783, after her identity became known while she was serving near General John Paterson. This is one of the most striking facts in her story. The army did not answer her service with formal disgrace. Whatever embarrassment or surprise the truth produced, her discharge recognized that she had genuinely served.
 
 It is difficult to overstate how unusual that was. Military institutions often defend themselves by punishment when rules are broken, especially when the breach exposes their own assumptions. Deborah had violated the formal expectations of enlistment by entering in disguise, but she had also done the army's work. That tension shaped what followed.
 

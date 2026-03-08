@@ -10,7 +10,7 @@ He had helped bring a French army safely across the Atlantic, kept it intact thr
 
 Yet Rochambeau's story is often less famous than it deserves to be.
 
-Part of the reason is national memory. Americans naturally prefer stories in which Americans appear entirely self-made. French memory, meanwhile, would soon be overtaken by the storms of the French Revolution and the rise of Napoleon. Rochambeau survived those later upheavals only narrowly. He served in revolutionary France, was arrested during the Terror, escaped execution, and later lived under Napoleon's rule.
+Part of the reason is national memory. Americans naturally prefer stories in which Americans appear entirely self-made. French memory, meanwhile, would soon be overtaken by the storms of the French Revolution and the rise of Napoleon. Rochambeau survived those later upheavals only narrowly. He served in revolutionary France, was arrested during the Reign of Terror, narrowly escaped the guillotine, and later lived under Napoleon's rule.
 
 His life therefore connects two revolutions, though in a very different way from Lafayette. Lafayette became a symbol. Rochambeau remained what he had always been: a professional soldier trying to serve the state he belonged to while navigating violent change.
 

@@ -18,7 +18,7 @@ At this point many people around the world would have expected the victorious co
 
 He had every practical opening that an ambitious man could want.
 
-The most revealing test came before the war was formally closed, during the Newburgh crisis in 1783. Officers frustrated by unpaid wages and uncertain pensions murmured about collective action against Congress. Some feared military pressure might overwhelm civilian authority. Washington intervened with one of the most famous gestures of his life. Addressing his officers, he appealed to their honor and to the cause they had fought for. When he paused to put on spectacles and remarked that he had grown gray and nearly blind in his country's service, the scene struck the room with unusual force.
+The most revealing test came before the war was formally closed, during the Newburgh crisis in 1783. Officers frustrated by unpaid wages and uncertain pensions murmured about collective action against Congress. Some feared military pressure might overwhelm civilian authority. Washington intervened with one of the most famous gestures of his life. Addressing his officers, he appealed to their honor and to the cause they had fought for. When he paused to put on spectacles and remarked that he had grown "not only gray, but almost blind" in his country's service, the scene struck the room with unusual force.
 
 The moment mattered because Washington used personal authority to stop the army from turning that authority against the republic.
 

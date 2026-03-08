@@ -26,11 +26,11 @@ After emancipation, James took Lafayette as his surname. The choice was practica
 
 These details matter because freedom is not only a legal word. It is also a matter of land, livelihood, and the ability to act in public as a person recognized by the law. James's later life was still constrained by the racism of his time and by the fragmentary record that survives. We do not know everything we would like to know. County documents were lost. Large parts of his private life remain dim.
 
-Yet enough survives to show that he did not vanish after the war. He became known in Virginia as a veteran of Yorktown and a man with a remarkable story. In 1824, when the aging Marquis de Lafayette returned to the United States for a triumphal tour, James Lafayette was there in Richmond. Reports say that Lafayette recognized him in the crowd, called to him by name, and embraced him.
+Yet enough survives to show that he did not vanish after the war. He became known in Virginia as a veteran of Yorktown and a man with a remarkable story. By the time the aging Marquis de Lafayette returned to the United States in 1824, James Lafayette's name was still remembered in Virginia, and later retellings added an emotional reunion between the two men. The memory is powerful, but the surviving record is thinner than the legend.
 
-It is tempting to treat that scene as the perfect ending. In one way, it is moving. Two old survivors of the Revolution met again after more than forty years. One had become a celebrated international hero. The other had fought for freedom first in secret and then in the legislature that had once denied him liberty. Their reunion carries real emotional force.
+It is tempting to turn that remembered reunion into the perfect ending. In one way, the image is moving. Two old survivors of the Revolution are imagined meeting again after more than forty years. One had become a celebrated international hero. The other had fought for freedom first in secret and then in the legislature that had once denied him liberty.
 
-But it is not the whole ending.
+But even that is not the whole ending.
 
 The fuller ending is that James Lafayette forces us to ask harder questions about the Revolution itself. Who counted as a patriot? Who bore risk without equal reward? Who made famous victories possible while remaining nearly invisible in later memory? And what does it mean when a war for liberty depends on the courage of people whom the victorious society still refuses to treat as fully free?
 

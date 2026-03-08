@@ -4,7 +4,7 @@ When people think of Julius Caesar, they often picture a single towering figure 
 
 He did not.
 
-He was born in 100 BC into an old patrician family, but old names in the late Roman Republic did not guarantee easy power. Rome had become a republic of vast wealth, fierce competition, and constant political struggle. Magistrates fought for office. Generals fought for glory. Senators fought to protect their rank. The Republic had conquered much of the Mediterranean world, but conquest had made its internal problems worse rather than smaller.
+He was probably born in 100 BC into an old patrician family, but old names in the late Roman Republic did not guarantee easy power. Rome had become a republic of vast wealth, fierce competition, and constant political struggle. Magistrates fought for office. Generals fought for glory. Senators fought to protect their rank. The Republic had conquered much of the Mediterranean world, but conquest had made its internal problems worse rather than smaller.
 
 That world shaped Caesar from the start.
 

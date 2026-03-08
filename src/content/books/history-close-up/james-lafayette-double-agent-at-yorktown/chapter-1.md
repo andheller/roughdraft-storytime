@@ -34,7 +34,7 @@ James entered that world while the Virginia campaign was growing hotter.
 
 Benedict Arnold, once a respected American officer, had defected to the British and now led raids in his former country. Lafayette wanted to catch him if possible, but the larger task was to keep British forces from moving freely and to preserve American strength until French and American plans could close around Cornwallis. James helped make that possible by gathering intelligence from places where military reports did not naturally go.
 
-One source describes him as working near Arnold and then moving into Cornwallis's orbit. Another preserves the words Lafayette later used about him: James was his "honest friend," a "very sensible fellow," and a correspondent from Cornwallis's own camp. Those phrases matter because they show that Lafayette saw him not as a rumor or a helpful servant at the edge of events, but as a real intelligence asset whose reports shaped decisions.
+One source describes him as working near Arnold and then moving into Cornwallis's orbit. Lafayette later testified in writing that James had rendered essential services and had carried out important commissions with diligence and fidelity. Those phrases matter because they show that Lafayette saw him not as a rumor or a helpful servant at the edge of events, but as a real intelligence asset whose reports shaped decisions.
 
 Yet none of that changed James's legal condition in 1781. He was still enslaved. He was risking his life in a war famous for its language of freedom without possessing freedom himself.
 

@@ -16,11 +16,11 @@ One of the most important was Paul Revere, who later wrote on her behalf, suppor
 
 Deborah also did something even harder: she spoke publicly.
 
-Around 1802 she began giving lectures about her wartime service, a remarkable act in its own right. Public speaking by women was far less accepted than it would later become, and Deborah's subject only sharpened the risk. She was not speaking abstractly about morality or religion. She was speaking about military experience, identity, and the war itself. In some performances she reportedly appeared in part of a soldier's uniform and demonstrated military drill before changing into women's dress. Whether every detail of the staging was identical from one performance to another, the general point is striking. Deborah was using public presentation to force the nation to look directly at the contradiction her life embodied.
+Around 1802 she began giving lectures about her wartime service, a remarkable act in its own right. Public speaking by women was far less accepted than it would later become, and Deborah's subject only sharpened the risk. She was not speaking abstractly about morality or religion. She was speaking about military experience, identity, and the war itself. In some performances she appeared in military dress and demonstrated drill before changing into women's clothing. Whether every detail of the staging stayed the same from place to place, the general point is striking. Deborah was using public presentation to force the nation to look directly at the contradiction her life embodied.
 
 She had been hidden inside the army. Now she refused to remain hidden in memory.
 
-Her pension struggle continued for years. In 1805 Massachusetts granted her a pension. Later federal pension legislation and petitions brought additional recognition. These gains did not come simply because the nation suddenly grew broad-minded. They came because Deborah persisted long enough, and because enough supporters helped move her case through the machinery of government.
+Her pension struggle continued for years. Massachusetts recognized her service with a state pension, and later federal legislation brought additional support. These gains did not come simply because the nation suddenly grew broad-minded. They came because Deborah persisted long enough, and because enough supporters helped move her case through the machinery of government.
 
 This persistence is an essential part of her story. Heroism in battle can appear sudden. Heroism in bureaucracy rarely does. It requires patience, repeated explanation, and the refusal to let officials quietly lose interest.
 
