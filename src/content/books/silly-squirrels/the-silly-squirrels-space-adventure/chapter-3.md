@@ -36,11 +36,11 @@ Mrs. Hedgehog played along, shouting back through her own "radio" (a soup can): 
 
 "6!" Nutty's paws hovered over the ignition switches for all their bottle rocket engines.
 
-"5!" 
+"5!"
 
 "4!"
 
-"3!" 
+"3!"
 
 "2!"
 

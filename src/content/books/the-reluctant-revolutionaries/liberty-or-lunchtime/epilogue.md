@@ -101,16 +101,16 @@ Want to really feel like a Revolutionary? Write your own Declaration of Independ
 
 Here's a template:
 
-> **THE UNANIMOUS DECLARATION OF [YOUR NAME]**
+> **THE UNANIMOUS DECLARATION OF _YOUR NAME_**
 >
 > When in the course of childhood events, it becomes necessary for a kid to dissolve the bedtime rules...
 >
 > We hold these truths to be self-evident: that all children are created equal, and they deserve the right to stay up late, eat more dessert, and have longer recess.
 >
-> WE THEREFORE DECLARE that bedtime should be moved to [write whatever time you want].
+> WE THEREFORE DECLARE that bedtime should be moved to _whatever time you want_.
 >
 > Signed,
-> [Your name], Age [your age], Defender of Liberty and Late-Night Snacks
+> _Your name_, Age _your age_, Defender of Liberty and Late-Night Snacks
 
 *Important note: Your parents may not recognize this document as legally binding. Results may vary.*
 

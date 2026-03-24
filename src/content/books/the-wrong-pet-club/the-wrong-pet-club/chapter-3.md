@@ -113,7 +113,7 @@ After school, we had our first official Wrong Pet Club meeting at my house.
 
 The agenda:
 1. Discuss parade strategy
-2. Practice... something? (TBD)
+2. Practice introductions
 3. Complain about our pets (ongoing)
 
 Speedy was lying on the porch, sleeping. Camo was in his tank, looking at a leaf. Duchess was in her carrier, allegedly.

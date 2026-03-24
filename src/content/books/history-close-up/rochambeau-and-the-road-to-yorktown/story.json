@@ -1,0 +1,30 @@
+{
+  "title": "Rochambeau and the Road to Yorktown",
+  "author": "Roughdraft Stories",
+  "description": "Jean-Baptiste de Rochambeau brought a French army to a struggling rebellion and helped turn alliance into victory. This factual narrative follows his Atlantic crossing, his partnership with George Washington, and the long march that ended at Yorktown.",
+  "ageRange": "10-14",
+  "genre": "Narrative History",
+  "tags": ["rochambeau", "american revolution", "yorktown", "french alliance", "george washington", "siege warfare"],
+  "chapters": [
+    {
+      "id": 1,
+      "title": "A French Officer for an American War",
+      "file": "chapter-1.md"
+    },
+    {
+      "id": 2,
+      "title": "Landing at Newport and Learning Restraint",
+      "file": "chapter-2.md"
+    },
+    {
+      "id": 3,
+      "title": "The Long March South",
+      "file": "chapter-3.md"
+    },
+    {
+      "id": 4,
+      "title": "Yorktown and the Allied Victory",
+      "file": "chapter-4.md"
+    }
+  ]
+}

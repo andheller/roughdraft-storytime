@@ -131,7 +131,7 @@ I put it in the sock with the rest.
 
 "Thank you, sir. Can I go eat pie now?"
 
-Washington laughed. An actual laugh. After four years, I finally made George Washington actually laugh.
+Washington laughed. A real laugh. After four years, I had finally made George Washington laugh.
 
 "Go home, Theo. Eat all the pie you want. You've earned it."
 

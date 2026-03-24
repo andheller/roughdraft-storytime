@@ -2,7 +2,7 @@
 
 One year later, the kingdoms of Westmarch and Easthollow were still not at peace.
 
-This might seem like a disappointing ending. You've followed Rosalind and Edmund through their investigation, their discovery, their dramatic revelation. You watched two monarchs apologize for a pudding on an ancient bridge. Surely, you might think, that should have fixed everything.
+This might seem like a disappointing ending. You've followed Rosalind and Edmund through their investigation, their discovery, their dramatic revelation. You've watched two monarchs apologize for a pudding on an ancient bridge. Surely, you might think, that should have fixed everything.
 
 But wars don't end that easily. Even ridiculous wars. Even wars that everyone agrees should never have started. There are soldiers to bring home, borders to redraw, trade routes to reestablish. There are old resentments that can't be erased by a single speech, and new grievances that arise when people who have been enemies for generations suddenly have to learn how to be neighbors.
 
@@ -52,7 +52,7 @@ And in the middle of all this, two young people kept writing letters.
 
 *Your honest history project sounds wonderful. Would you like help? I've become rather good at finding hidden documents and interpreting badly preserved sources.*
 
-*Also, I should mention: I'm coming to Westmarch. Officially. As part of a diplomatic delegation. My first official diplomatic mission, which is ironic given that my UNofficial diplomatic mission is what started all of this.*
+*Also, I should mention: I'm coming to Westmarch. Officially. As part of a diplomatic delegation. My first official diplomatic mission, which is ironic given that my unofficial diplomatic mission is what started all of this.*
 
 *We'll be there for a month, negotiating trade agreements. Very boring, but it means I can actually SEE you instead of just writing. And perhaps meet this "someone else" who helped end a war.*
 

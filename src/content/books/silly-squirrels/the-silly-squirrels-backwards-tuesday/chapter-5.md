@@ -30,7 +30,7 @@ Second, a journal DID appear in Papa's pocket, just like in Nutty's vision, exce
 
 "Dear Past-Future Family,
 
-Remember yesterday when we thought Tuesday was boring and we decided to build a Boredom-Be-Gone Machine to make everything more interesting? Well, it worked! Maybe TOO well! The machine ran so well that it created a time loop where we experienced everything backwards first before experiencing it forwards! Then it exploded! Spectacularly!
+Remember yesterday when we thought Tuesday was boring and we decided to build a Boredom-Be-Gone Machine to make everything more interesting? Well, it worked! Maybe TOO well! The machine ran so well that it created a time loop where we experienced everything backwards before experiencing it forwards! Then it exploded! Spectacularly!
 
 But here's the thing: the explosion didn't BREAK anything. It just made everything EXTRA silly forever! Or temporarily! Or backwards-temporarily which is forwards-forever!
 

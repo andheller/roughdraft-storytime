@@ -12,7 +12,7 @@ Mama went first. The Lightning took off like a whispered secret that turned into
 
 “She’s so fast she’s making the wind try to keep up,” Papa breathed.
 
-Mama hit the first suspicious bump and caught a little air. “Wheeeeee—!” Then she landed, slightly wobble, perfectly fine. “Note to self,” she called. “Suspicious bumps are indeed suspicious.”
+Mama hit the first suspicious bump and caught a little air. “Wheeeeee—!” Then she landed, slightly wobbly but perfectly fine. “Note to self,” she called. “Suspicious bumps are indeed suspicious.”
 
 Next, Papa. He settled onto the Cloud and beeped his gentle bell at the crow, who looked personally flattered.
 
@@ -59,4 +59,3 @@ The crow dropped another leaf. Mama saluted. “Tomorrow: speed trials. Today: s
 Papa produced three. They were shaped like tiny motor-bikes. “For morale,” he said.
 
 “Morale is delicious,” Nutty agreed, mouth full of bravery.
-

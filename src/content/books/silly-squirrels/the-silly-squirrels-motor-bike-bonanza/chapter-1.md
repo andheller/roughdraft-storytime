@@ -8,7 +8,7 @@ Nutty held the walnut up like an official stopwatch. “You beat your own record
 
 Papa Nutwobble clapped, then immediately sat down because clapping made him hungry. “Incredible! And now, a celebratory snack.” He produced a pocket acorn with a flourish.
 
-Just then Tony the Delivery Fox staggered up the hill pushing a squeaky scooter that looked like it had retired three times already.
+Just then, Tony the Delivery Fox staggered up the hill pushing a squeaky scooter that looked like it had retired three times already.
 
 “Emergency!” Tony wheezed. “Nutville needs SPEED!”
 
@@ -57,4 +57,3 @@ Nutty turned the chalkboard around. On it he’d already drawn three ideas:
 Nutty saluted with the walnut stopwatch. “Operation Zoomtown begins at dawn. We’re going to be speedy fast. Supa dupa fast.”
 
 Outside, a breeze curled through the mill yard, rattling the “Probably Fine Springs” box. It answered with an excited sproing, like it couldn’t wait to go fast either.
-

@@ -1,0 +1,35 @@
+{
+	"title": "Benedict Arnold: Hero Before Traitor",
+	"author": "Roughdraft Stories",
+	"description": "Before Benedict Arnold became the most famous traitor in American history, he was one of the Revolution's boldest and most effective officers. This factual narrative follows his courage, his anger, his betrayal, and the reasons his story remains so troubling.",
+	"ageRange": "10-14",
+	"genre": "Narrative History",
+	"tags": ["benedict arnold", "american revolution", "saratoga", "west point", "john andre", "treason"],
+	"chapters": [
+		{
+			"id": 1,
+			"title": "A Violent Talent",
+			"file": "chapter-1.md"
+		},
+		{
+			"id": 2,
+			"title": "Ticonderoga, Quebec, and Valcour Island",
+			"file": "chapter-2.md"
+		},
+		{
+			"id": 3,
+			"title": "Saratoga and the Wound That Became a Monument",
+			"file": "chapter-3.md"
+		},
+		{
+			"id": 4,
+			"title": "West Point and the Price of Betrayal",
+			"file": "chapter-4.md"
+		},
+		{
+			"id": 5,
+			"title": "Why His Name Still Matters",
+			"file": "chapter-5.md"
+		}
+	]
+}

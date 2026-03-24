@@ -75,7 +75,7 @@ Just what?
 
 He couldn't finish the thought.
 
-Maurice concentrated harder. He flexed his mussel memory—the strongest memory of any shellfish in the tristate area.
+Maurice concentrated harder. He flexed his mussel memory—the strongest memory of any shellfish in the tri-state area.
 
 A flash. A glimpse.
 

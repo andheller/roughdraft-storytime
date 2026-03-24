@@ -1,6 +1,6 @@
 # The Satellite Situation
 
-It was a perfectly ordinary Tuesday morning in Nutville when Nutty discovered the town's newest problem. He was up in his favorite tree branch, trying to fix his grandmother's old radio, when all he could hear was static and weird beeping sounds.
+It was a perfectly ordinary Tuesday morning in Nutville when Nutty discovered the town's newest problem. He was on his favorite tree branch, trying to fix his grandmother's old radio, when all he could hear was static and weird beeping sounds.
 
 "BEEP... BEEP... BEEP... BOOP... BZZZZT..."
 

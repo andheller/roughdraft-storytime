@@ -2,7 +2,7 @@
 
 "Alright, everyone!" Nutty announced the next morning, still picking birdbath algae out of his fur. "Today we make our first official pizza delivery!"
 
-Tony the Fox had agreed to let them try delivering one pizza - just one - to Mrs. Badger who lived on the other side of Nutville. 
+Tony the Fox had agreed to let them try delivering one pizza - just one - to Mrs. Badger, who lived on the other side of Nutville.
 
 "If you can get this pizza there hot and in one piece," Tony said, handing them a steaming pepperoni pizza, "I'll give you more deliveries."
 

@@ -24,7 +24,7 @@ Napoleon became First Consul.
 
 This was the turning point. Until now he had been a military star moving through the Revolution. From now on he would shape the state itself.
 
-He worked with astonishing energy. France needed order after years of upheaval, and Napoleon meant to supply it. He reformed administration, centralized authority, improved tax collection, and made the government more effective at actually governing. He created the Bank of France. He made peace with the Catholic Church through the Concordat of 1801 without surrendering the supremacy of the state. Most famously, he sponsored the Civil Code, later called the Napoleonic Code, which simplified laws and spread principles such as legal equality for male citizens and protection of property.
+He worked with astonishing energy. France needed order after years of upheaval, and Napoleon meant to supply it. He reformed administration, centralized authority, improved tax collection, and made the government more effective at governing. He created the Bank of France. He made peace with the Catholic Church through the Concordat of 1801 without surrendering the supremacy of the state. Most famously, he sponsored the Civil Code, later called the Napoleonic Code, which simplified laws and spread principles such as legal equality for male citizens and protection of property.
 
 These reforms mattered far beyond France. Even people who hated Napoleon sometimes preserved parts of the systems he built.
 

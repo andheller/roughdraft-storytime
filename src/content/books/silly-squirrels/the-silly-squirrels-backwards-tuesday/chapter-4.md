@@ -81,7 +81,7 @@ As if in answer, a package materialized on the floor with a label that said: "Em
 They opened it. Inside were:
 - One rubber chicken (for reasons that were unclear)
 - A jar of pickles labeled "Handle with Care - Contains Yesterday's Tomorrow"
-- A instruction manual written entirely in emoji
+- An instruction manual written entirely in emoji
 - A video tape labeled "Play Me Forwards While Watching Backwards"
 - And a note that said "Sorry, wrong universe" with a frowny face
 
@@ -172,5 +172,3 @@ Reality held its breath.
 Time grabbed some popcorn to watch.
 
 And then...
-
-Chapter 4 ends here, on the edge of the most explosive moment in Nutville's history, with everything about to happen all at once, backwards, forwards, and sideways, in the most ridiculously spectacular way imaginable.

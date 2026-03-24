@@ -1,0 +1,35 @@
+{
+	"title": "Julius Caesar and the End of the Republic",
+	"author": "Roughdraft Stories",
+	"description": "Julius Caesar rose through ambition, debt, politics, and war until he overshadowed the Roman Republic itself. This factual narrative follows his rise, the Gallic Wars, Alesia, the crossing of the Rubicon, civil war, dictatorship, and assassination.",
+	"ageRange": "10-14",
+	"genre": "Narrative History",
+	"tags": ["julius caesar", "rome", "roman republic", "gallic wars", "alesia", "rubicon"],
+	"chapters": [
+		{
+			"id": 1,
+			"title": "Ambition in a Republic Under Strain",
+			"file": "chapter-1.md"
+		},
+		{
+			"id": 2,
+			"title": "Gaul and the Making of a Legend",
+			"file": "chapter-2.md"
+		},
+		{
+			"id": 3,
+			"title": "Alesia and the Edge of Greatness",
+			"file": "chapter-3.md"
+		},
+		{
+			"id": 4,
+			"title": "Crossing the Rubicon",
+			"file": "chapter-4.md"
+		},
+		{
+			"id": 5,
+			"title": "Dictator, Reformer, Target",
+			"file": "chapter-5.md"
+		}
+	]
+}

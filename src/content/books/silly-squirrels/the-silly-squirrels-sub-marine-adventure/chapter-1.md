@@ -1,6 +1,6 @@
 # The Leafy Disaster
 
-It was a bright sunny morning when Nutty burst into the kitchen, his fluffy tail practically vibrating with excitement.
+It was a bright, sunny morning when Nutty burst into the kitchen, his fluffy tail practically vibrating with excitement.
 
 "Mama! Papa! I heard the most amazing story from old Owl yesterday!" Nutty squeaked, nearly knocking over his acorn cereal bowl.
 

@@ -12,7 +12,7 @@ But now the work was finished, and Samuel's father would go back to the farm. Sa
 
 "You sure about this?" his father asked.
 
-Samuel nodded. He was not sure. He had never been sure about anything less in his life. But he said, "Yes, sir."
+Samuel nodded. He was not sure. He had never been less sure of anything in his life. But he said, "Yes, sir."
 
 His father looked at him for a long moment. Then he held out his hand. Samuel took it. His father's grip was hard and rough from the saw, and he shook Samuel's hand the way he would shake another man's.
 

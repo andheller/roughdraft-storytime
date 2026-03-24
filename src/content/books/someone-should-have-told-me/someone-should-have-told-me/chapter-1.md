@@ -62,7 +62,7 @@ Bean thought about this. I could see him thinking. Bean thinking is dangerous, l
 
 "That's... part of a snack."
 
-"What if I open ALL the bags. And take one thing from EACH bag."
+"What if I open ALL the bags and take one thing from EACH bag?"
 
 "That would be—" I stopped. That would be one pretzel, one granola bar, one cheese stick, one apple slice, and one fish cracker. None of those were a whole snack. But all together they were MORE than a snack. But each one separately was LESS than a snack. So was it one snack or five snacks or no snacks?
 
@@ -132,7 +132,7 @@ The cat had eaten: all the granola bars (wrappers included, I think?), most of t
 
 "One bathroom," he said, which is not a unit of time.
 
-I looked at the cat. The cat looked at me. Her softball belly looked even softballer.
+I looked at the cat. The cat looked at me. Her belly looked even more like a softball.
 
 "I didn't give her those snacks," I said, mostly to myself. "She TOOK those snacks. Taking and giving are different verbs. I didn't break any rules. The CAT broke rules, and cats can't break rules, because rules are for people, so really NO rules were broken."
 

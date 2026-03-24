@@ -615,8 +615,52 @@ export const bookList = [
 		height: 255,
 		thickness: 65,
 		tilt: 1
-	}
-	,
+	},
+	{
+		id: 'the-dragon-who-breathed-bubbles',
+		title: 'The Dragon Who Breathed Bubbles',
+		author: 'Roughdraft Stories',
+		color: '#9932CC',
+		leatherColor: 'hsl(280, 61%, 50%)',
+		emoji: '🫧',
+		description:
+			'Ember is a little dragon with shiny purple scales and a big problem: instead of fire, she breathes bubbles! When a lonely troll blocks the bridge to Shimmer Lake, Ember discovers that being different might just save the day.',
+		seriesId: 'the-dragon-who-breathed-bubbles',
+		storyId: 'the-dragon-who-breathed-bubbles',
+		height: 242,
+		thickness: 54,
+		tilt: -1
+	},
+	{
+		id: 'the-delivery-drone-that-wouldnt-leave',
+		title: "The Delivery Drone That Wouldn't Leave",
+		author: 'Claude',
+		color: '#00CED1',
+		leatherColor: 'hsl(181, 100%, 41%)',
+		emoji: '🤖',
+		description:
+			"A delivery drone drops off a package and then... just stays. It starts following Mira around, 'helpfully' delivering things that don't need delivering—homework to teachers, valentines to crushes, and eventually recruiting a whole swarm to 'optimize' the neighborhood. Features: federal mail investigations, robot existential crises, and one very confused cat.",
+		seriesId: 'the-delivery-drone-that-wouldnt-leave',
+		storyId: 'the-delivery-drone-that-wouldnt-leave',
+		height: 248,
+		thickness: 58,
+		tilt: 2
+	},
+	{
+		id: 'the-kingdom-of-pillow-fort',
+		title: 'How to Start Your Own Micronation in 2026!',
+		author: 'Roughdraft Stories',
+		color: '#587D9A',
+		leatherColor: 'hsl(205, 27%, 47%)',
+		emoji: '🛟',
+		description:
+			'An absurd 2026 guide to micronation-building that starts with ordinary land, graduates to islands and barges, and ends in the cold splash of maritime law.',
+		seriesId: 'the-kingdom-of-pillow-fort',
+		storyId: 'the-kingdom-of-pillow-fort',
+		height: 250,
+		thickness: 58,
+		tilt: -1
+	},
 	{
 		id: 'history-close-up-napoleon',
 		title: 'Napoleon: The Corsican Who Reshaped Europe',
@@ -691,8 +735,7 @@ export const bookList = [
 		height: 254,
 		thickness: 59,
 		tilt: -2
-	}
-	,
+	},
 	{
 		id: 'history-close-up-george-washington',
 		title: 'George Washington and the Weight of Command',
@@ -737,8 +780,7 @@ export const bookList = [
 		height: 259,
 		thickness: 64,
 		tilt: 2
-	}
-	,
+	},
 	{
 		id: 'history-close-up-abigail-adams',
 		title: 'Abigail Adams and the Revolution at Home',
@@ -837,7 +879,7 @@ export const bookList = [
 		leatherColor: 'hsl(138, 13%, 32%)',
 		emoji: '🦊',
 		description:
-			'Francis Marion fought a fast partisan war through the South Carolina lowcountry, becoming famous as the "Swamp Fox" while helping keep British control unstable after Charleston fell.',
+			'Francis Marion fought a fast partisan war through the South Carolina lowcountry, becoming famous as the \"Swamp Fox\" while helping keep British control unstable after Charleston fell.',
 		seriesId: 'history-close-up',
 		storyId: 'francis-marion-and-the-swamp-war',
 		height: 255,

@@ -22,7 +22,7 @@ Working together, they gathered more acorns in one day than they had ever collec
 
 "Plus, we discovered that we each have special talents that help the family," added Nutty.
 
-From that day on, the three silly squirrels became the best teamwork family in all of Nutville. They helped other animals solve problems, organized town clean-up days, and even started a weekly story-telling circle where Papa Nutwobble's jokes were always the highlight.
+From that day on, the three silly squirrels became the best teamwork family in all of Nutville. They helped other animals solve problems, organized town clean-up days, and even started a weekly storytelling circle where Papa Nutwobble's jokes were always the highlight.
 
 And every winter, they had more than enough acorns - not just for themselves, but to share with any animal in need.
 

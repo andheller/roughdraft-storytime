@@ -52,7 +52,7 @@ Rosalind did not go practice embroidery. Rosalind went to the pigeon coop, becau
 
 The pigeon coop was her sanctuary. It sat at the top of the eastern tower, far from tutors and etiquette lessons and her six older sisters, who had opinions about everything and shared them constantly. The pigeons didn't have opinions. The pigeons just cooed and ate seed and occasionally delivered messages to the wrong destinations.
 
-The most reliable messenger pigeon was named Gerald, though "reliable" was perhaps not the right word. Gerald had a strong sense of direction in the way that some people have a strong sense of fashion—meaning he was confident about it but frequently wrong. He had once delivered a birthday invitation to a enemy general, a love letter to a bakery, and a declaration of truce to a confused shepherd in the mountains.
+The most reliable messenger pigeon was named Gerald, though "reliable" was perhaps not the right word. Gerald had a strong sense of direction in the way that some people have a strong sense of fashion—meaning he was confident about it but frequently wrong. He had once delivered a birthday invitation to an enemy general, a love letter to a bakery, and a declaration of truce to a confused shepherd in the mountains.
 
 But he was Rosalind's favorite, because he tried so hard.
 

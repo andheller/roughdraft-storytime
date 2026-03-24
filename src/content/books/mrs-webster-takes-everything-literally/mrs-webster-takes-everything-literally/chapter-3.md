@@ -50,7 +50,7 @@ She knew what it meant. She *knew*.
 
 "Mrs. Webster," I said, carefully. "What does 'let the cat out of the bag' mean?"
 
-She smiled. "It means to reveal a secret, Mr. Chen. It comes from a old marketplace trick where sellers would—" She stopped. Looked at me. Really looked at me, for the first time.
+She smiled. "It means to reveal a secret, Mr. Chen. It comes from an old marketplace trick where sellers would—" She stopped. Looked at me. Really looked at me, for the first time.
 
 Something flickered in her eyes. A sparkle. A gleam.
 
@@ -94,6 +94,6 @@ Destiny grinned. "Operation: Outsmart the Teacher?"
 
 "Operation: Outsmart the Teacher."
 
-The operation, it turned out, was harder than I expected.
+The operation, as it turned out, was harder than I expected.
 
 And Mrs. Webster was ready for it.

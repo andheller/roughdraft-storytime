@@ -2,7 +2,7 @@
 	import { bookList } from '$content/books/books.js';
 	import { goto } from '$app/navigation';
 	import { browser } from '$app/environment';
-	import { page } from '$app/stores';
+	import { onMount } from 'svelte';
 
 	let animatingBook = $state(null);
 	let isTransitioning = $state(false);
@@ -30,28 +30,31 @@
 	// Update books per shelf based on window size
 	function updateBooksPerShelf() {
 		if (typeof window === 'undefined') return;
-		
+
 		const width = window.innerWidth;
 		if (width < 480) {
-			booksPerShelf = 1;  // Extra small phones
+			booksPerShelf = 1; // Extra small phones
 		} else if (width < 640) {
-			booksPerShelf = 2;  // Small phones
+			booksPerShelf = 2; // Small phones
 		} else if (width < 768) {
-			booksPerShelf = 2;  // Large phones
+			booksPerShelf = 2; // Large phones
 		} else if (width < 1024) {
-			booksPerShelf = 3;  // Tablets
+			booksPerShelf = 3; // Tablets
 		} else if (width < 1200) {
-			booksPerShelf = 4;  // Small laptops
+			booksPerShelf = 4; // Small laptops
 		} else {
-			booksPerShelf = 5;  // Large laptops and up
+			booksPerShelf = 5; // Large laptops and up
 		}
 	}
 
-	// Initialize and listen for resize
-	if (typeof window !== 'undefined') {
+	onMount(() => {
 		updateBooksPerShelf();
 		window.addEventListener('resize', updateBooksPerShelf);
-	}
+
+		return () => {
+			window.removeEventListener('resize', updateBooksPerShelf);
+		};
+	});
 
 	function selectBook(book) {
 		animatingBook = book.id;
@@ -65,7 +68,6 @@
 		}, 400);
 	}
 
-
 	function handleKeyDown(event, book) {
 		if (event.key === 'Enter' || event.key === ' ') {
 			event.preventDefault();
@@ -73,6 +75,21 @@
 		}
 	}
 
+	function getDisplayHeight(book) {
+		return Math.round(246 + (book.height - 250) * 0.3);
+	}
+
+	function getDisplayWidth(book) {
+		return Math.round(getDisplayHeight(book) * 0.66);
+	}
+
+	function getDisplayDepth(book) {
+		return Math.max(18, Math.round(book.thickness * 0.34));
+	}
+
+	function getDisplayTilt(book) {
+		return Math.max(-1, Math.min(1, book.tilt * 0.3));
+	}
 </script>
 
 <svelte:head>
@@ -90,10 +107,30 @@
 	<!-- Warm lighting overlay -->
 	<div class="lighting-overlay"></div>
 
+	<!-- Dust Particles for Atmosphere -->
+	<div class="dust-container">
+		{#each Array(20) as _, i}
+			<div
+				class="dust"
+				style="
+				--duration: {15 + i % 10}s;
+				--opacity: {0.1 + (i % 5) * 0.1};
+				--left: {i * 5}%;
+				--top: {(i * 7) % 100}%;
+				--x: {(i % 2 === 0 ? 1 : -1) * (50 + (i % 50))}px;
+				--y: {-100 - (i % 100)}px;
+				"
+			></div>
+		{/each}
+	</div>
+
 	<div class="container">
 		<header class="bookshelf-header">
-			<h1>Roughdraft Storytime</h1>
-			<p>Where stories come to life, one draft at a time</p>
+			<div class="header-plaque">
+				<p class="eyebrow">Choose A Story</p>
+				<h1>Roughdraft Storytime</h1>
+				<p class="tagline">Pick a book off the shelf and step straight into it.</p>
+			</div>
 		</header>
 
 		<!-- Bookshelf with Shelves -->
@@ -101,19 +138,27 @@
 			<!-- Create shelves dynamically based on number of books -->
 			{#each Array(Math.ceil(bookList.length / booksPerShelf)) as _, shelfIndex}
 				<div class="shelf-row">
+					<div class="shelf-back-glow" aria-hidden="true"></div>
+
 					<!-- Wooden shelf -->
 					<div class="wooden-shelf">
 						<div class="shelf-surface"></div>
-						<div class="shelf-edge"></div>
+						<div class="shelf-lip"></div>
+						<div class="shelf-bracket shelf-bracket-left"></div>
+						<div class="shelf-bracket shelf-bracket-right"></div>
 						<div class="shelf-shadow"></div>
 					</div>
 
 					<!-- Books on this shelf -->
 					<div class="shelf-books">
-						{#each bookList.slice(shelfIndex * booksPerShelf, (shelfIndex + 1) * booksPerShelf) as book, bookIndex (book.id)}
+						{#each bookList.slice(shelfIndex * booksPerShelf, (shelfIndex + 1) * booksPerShelf) as book (book.id)}
 							<button
 								class="book-card {animatingBook === book.id ? 'selected' : ''}"
-								style="--book-color: {book.leatherColor};"
+								style="--book-color: {book.leatherColor}; --book-width: {getDisplayWidth(
+									book
+								)}px; --book-height: {getDisplayHeight(book)}px; --book-depth: {getDisplayDepth(
+									book
+								)}px; --book-lean: {getDisplayTilt(book)}deg;"
 								onclick={() => selectBook(book)}
 								onkeydown={(e) => handleKeyDown(e, book)}
 								aria-label="Select {book.title}"
@@ -124,7 +169,7 @@
 										<div class="cover-texture">
 											<div class="cover-content {book.coverImage ? 'no-padding' : ''}">
 												<div class="cover-border">
-													<h3 class="book-title">{book.title}</h3>
+													<h3 class="book-title {book.id.length % 7 === 0 ? 'gold-embossed' : ''}">{book.title}</h3>
 													{#if book.coverImage}
 														<div class="book-cover-image-container">
 															<img
@@ -138,8 +183,10 @@
 											</div>
 										</div>
 									</div>
-									<!-- Page edges (side) - rotated 90deg -->
-									<div class="book-pages" aria-hidden="true"></div>
+									<!-- Page edges (top, right, bottom) -->
+									<div class="book-pages-top" aria-hidden="true"></div>
+									<div class="book-pages-right" aria-hidden="true"></div>
+									<div class="book-pages-bottom" aria-hidden="true"></div>
 									<!-- Spine -->
 									<div class="book-spine" aria-hidden="true"></div>
 									<!-- Back cover -->
@@ -152,17 +199,20 @@
 			{/each}
 		</div>
 	</div>
-
 </div>
 
 <style>
 	:global(body) {
 		overflow-x: hidden;
+		background: #a77149;
 	}
 
 	.bookshelf-room {
+		--book-scale: 1;
 		min-height: 100vh;
-		background: #8b4513;
+		background:
+			radial-gradient(circle at top, rgba(255, 245, 221, 0.34), transparent 34%),
+			linear-gradient(180deg, rgba(120, 79, 42, 0.1), rgba(71, 41, 18, 0.2)), #d5b48a;
 		position: relative;
 		overflow-x: hidden;
 	}
@@ -170,11 +220,10 @@
 	.wood-background {
 		position: absolute;
 		inset: 0;
-		background-image: url('/grain-options/2.jpg');
-		background-size: 256px 256px;
+		background-image: url('/moroccan-flower-dark.webp');
+		background-size: 400px 400px;
 		background-repeat: repeat;
-		background-position: 0 0;
-		opacity: 0.9;
+		opacity: 1;
 		z-index: 0;
 	}
 
@@ -182,91 +231,142 @@
 		content: '';
 		position: absolute;
 		inset: 0;
-		background:
-			linear-gradient(
-				45deg,
-				rgba(139, 69, 19, 0.1) 0%,
-				transparent 50%,
-				rgba(101, 67, 33, 0.1) 100%
-			),
-			linear-gradient(
-				135deg,
-				rgba(160, 82, 45, 0.05) 0%,
-				transparent 50%,
-				rgba(139, 69, 19, 0.05) 100%
-			);
-		box-shadow:
-			inset 0 0 200px rgba(101, 67, 33, 0.3),
-			inset 0 0 100px rgba(139, 69, 19, 0.2);
+		background: radial-gradient(circle at center, transparent 20%, rgba(0, 0, 0, 0.4) 100%);
+		z-index: 1;
+		pointer-events: none;
 	}
 
 	.lighting-overlay {
 		position: absolute;
 		inset: 0;
 		background:
-			radial-gradient(ellipse at 50% 20%, rgba(255, 220, 150, 0.15), transparent 70%),
-			linear-gradient(to bottom, rgba(0, 0, 0, 0.05), transparent 30%, rgba(0, 0, 0, 0.1));
+			radial-gradient(circle at 50% 0%, rgba(255, 252, 243, 0.1), transparent 40%),
+			linear-gradient(180deg, transparent 60%, rgba(0, 0, 0, 0.2) 100%);
 		pointer-events: none;
-		z-index: 1;
+		z-index: 10;
+	}
+
+	.bookshelf-room::after {
+		content: '';
+		position: absolute;
+		inset: 0;
+		background:
+			linear-gradient(115deg, transparent 35%, rgba(255, 255, 255, 0.03) 40%, rgba(255, 255, 255, 0.03) 42%, transparent 47%),
+			linear-gradient(125deg, transparent 55%, rgba(255, 255, 255, 0.02) 60%, rgba(255, 255, 255, 0.02) 63%, transparent 68%);
+		pointer-events: none;
+		z-index: 11;
 	}
 
 	.container {
 		position: relative;
-		z-index: 2;
+		z-index: 12;
 		width: 100%;
-		max-width: 1400px;
+		max-width: 1380px;
 		margin: 0 auto;
-		padding: 3rem 2rem;
+		padding: 2.75rem 1.5rem 5rem;
 	}
 
 	.bookshelf-header {
 		text-align: center;
-		margin-bottom: 4rem;
+		margin-bottom: 3.5rem;
 		position: relative;
 	}
 
-	.bookshelf-header h1 {
-		font-size: clamp(2.5rem, 5vw, 4rem);
-		color: #1a0f0a;
-		text-shadow:
-			0 1px 0 rgba(255, 255, 255, 0.1),
-			0 -1px 0 rgba(0, 0, 0, 0.8),
-			inset 0 1px 2px rgba(0, 0, 0, 0.5);
-		font-family: Georgia, serif;
-		margin-bottom: 1rem;
-		font-weight: bold;
+	.header-plaque {
+		display: inline-flex;
+		flex-direction: column;
+		gap: 0.65rem;
+		padding: 1.25rem 2.5rem 1.5rem;
+		border-radius: 1rem;
+		background:
+			linear-gradient(180deg, rgba(255, 255, 255, 0.95), rgba(245, 240, 225, 0.9)),
+			url('/texture/paper.png');
+		background-size: cover;
+		box-shadow:
+			0 1.5rem 3rem rgba(0, 0, 0, 0.3),
+			0 0.5rem 1rem rgba(0, 0, 0, 0.1),
+			inset 0 0 0 1px rgba(255, 255, 255, 0.8),
+			inset 0 0 40px rgba(139, 69, 19, 0.05);
+		border: 1px solid rgba(139, 69, 19, 0.2);
+		max-width: min(42rem, calc(100vw - 3rem));
+		position: relative;
 	}
 
-	.bookshelf-header p {
-		font-size: clamp(1.1rem, 2vw, 1.4rem);
+	.header-plaque::before {
+		content: '';
+		position: absolute;
+		inset: 4px;
+		border: 1px solid rgba(139, 69, 19, 0.1);
+		border-radius: 0.8rem;
+		pointer-events: none;
+	}
+
+	.eyebrow {
+		margin: 0;
+		font-size: 0.72rem;
+		letter-spacing: 0.3em;
+		text-transform: uppercase;
+		color: #8b4513;
+		font-weight: 800;
+		opacity: 0.8;
+	}
+
+	.bookshelf-header h1 {
+		font-size: clamp(2.5rem, 5vw, 4.25rem);
 		color: #2c1810;
+		font-family: Georgia, serif;
+		margin: 0;
+		font-weight: 900;
+		line-height: 0.9;
+		letter-spacing: -0.02em;
+		text-shadow: 0 1px 1px rgba(255, 255, 255, 0.8);
+	}
+
+	.tagline {
+		margin: 0.5rem 0 0;
+		font-size: clamp(1rem, 1.6vw, 1.25rem);
+		color: #5d4037;
 		font-style: italic;
-		text-shadow:
-			0 1px 0 rgba(255, 255, 255, 0.08),
-			0 -1px 0 rgba(0, 0, 0, 0.6);
-		font-weight: 500;
+		font-family: Georgia, serif;
 	}
 
 	.bookshelf-container {
 		width: 100%;
-		max-width: 1200px;
+		max-width: 1240px;
 		margin: 0 auto;
-		padding: 2rem 0;
+		padding: 0.75rem 0 0;
 	}
 
 	.shelf-row {
+		--shelf-offset: 1.4rem;
+		--shelf-height: 3.45rem;
+		--shelf-seam-from-top: 1.42rem;
 		position: relative;
-		margin-bottom: 3rem;
-		height: 280px;
+		margin-bottom: 2.5rem;
+		height: 24rem;
 		overflow: visible;
+	}
+
+	.shelf-back-glow {
+		position: absolute;
+		left: 50%;
+		bottom: 3.8rem;
+		width: min(72rem, 100%);
+		height: 12rem;
+		transform: translateX(-50%);
+		border-radius: 2rem;
+		background: radial-gradient(ellipse at center, rgba(255, 250, 230, 0.08), transparent 70%);
+		filter: blur(15px);
+		pointer-events: none;
 	}
 
 	.wooden-shelf {
 		position: absolute;
-		bottom: 0;
-		left: 0;
-		right: 0;
-		height: 60px;
+		bottom: var(--shelf-offset);
+		left: 50%;
+		width: min(72rem, calc(100% - 2rem));
+		height: var(--shelf-height);
+		transform: translateX(-50%);
 		z-index: 1;
 	}
 
@@ -275,122 +375,182 @@
 		top: 0;
 		left: 0;
 		right: 0;
-		height: 40px;
-		background: linear-gradient(to bottom, #ffffff 0%, #f5f5f5 100%);
-		border-radius: 4px 4px 0 0;
+		height: 1.65rem;
+		border-radius: 0.25rem 0.25rem 0.15rem 0.15rem;
+		background:
+			linear-gradient(90deg, rgba(0, 0, 0, 0.15), transparent 15%, transparent 85%, rgba(0, 0, 0, 0.15)),
+			linear-gradient(180deg, rgba(255, 255, 255, 0.1) 0%, transparent 40%, rgba(0, 0, 0, 0.2) 100%),
+			#63432a;
+		background-image:
+			linear-gradient(90deg, rgba(0, 0, 0, 0.15), transparent 15%, transparent 85%, rgba(0, 0, 0, 0.15)),
+			linear-gradient(180deg, rgba(255, 255, 255, 0.1) 0%, transparent 40%, rgba(0, 0, 0, 0.2) 100%),
+			url('/grain-options/2.jpg');
+		background-size: cover;
+		background-blend-mode: multiply, normal, overlay;
 		box-shadow:
-			0 2px 8px rgba(0, 0, 0, 0.3),
-			inset 0 1px 0 rgba(255, 255, 255, 0.6);
+			0 0.5rem 1.5rem rgba(0, 0, 0, 0.4),
+			inset 0 1px 0 rgba(255, 255, 255, 0.15),
+			inset 0 -0.2rem 0.5rem rgba(0, 0, 0, 0.3);
 	}
 
-	.shelf-surface::before {
+	.shelf-surface::after {
 		content: '';
 		position: absolute;
-		inset: 0;
-		background: linear-gradient(
-			to bottom,
-			rgba(255, 255, 255, 0.1),
-			transparent 50%,
-			rgba(0, 0, 0, 0.1)
-		);
-		border-radius: 4px 4px 0 0;
-	}
-
-	.shelf-edge {
-		position: absolute;
-		top: 40px;
+		bottom: 0;
 		left: 0;
 		right: 0;
-		height: 20px;
-		background: linear-gradient(to bottom, #f5f5f5 0%, #e8e8e8 100%);
+		height: 2px;
+		background: rgba(255, 255, 255, 0.08);
+		box-shadow: 0 -1px 2px rgba(0, 0, 0, 0.2);
+	}
+
+	.shelf-lip {
+		position: absolute;
+		top: 1.55rem;
+		left: 0.25rem;
+		right: 0.25rem;
+		height: 1.45rem;
+		border-radius: 0 0 0.8rem 0.8rem;
+		background:
+			linear-gradient(180deg, rgba(0, 0, 0, 0.3) 0%, transparent 20%, rgba(0, 0, 0, 0.4) 100%),
+			#4d3321;
+		background-image:
+			linear-gradient(180deg, rgba(0, 0, 0, 0.3) 0%, transparent 20%, rgba(0, 0, 0, 0.4) 100%),
+			url('/grain-options/2.jpg');
+		background-size: cover;
+		background-blend-mode: normal, overlay;
 		box-shadow:
-			0 4px 12px rgba(0, 0, 0, 0.4),
-			inset 0 1px 0 rgba(255, 255, 255, 0.4);
+			0 1.2rem 2.5rem rgba(0, 0, 0, 0.5),
+			inset 0 1px 1px rgba(255, 255, 255, 0.1),
+			inset 0 -0.2rem 0.4rem rgba(0, 0, 0, 0.4);
+	}
+
+	.shelf-bracket {
+		position: absolute;
+		top: 1.25rem;
+		width: 3.5rem;
+		height: 2.75rem;
+		border-radius: 0.2rem 0.2rem 1.5rem 1.5rem;
+		background: #3a2619;
+		background-image: url('/grain-options/4.png');
+		background-size: cover;
+		box-shadow:
+			0 0.8rem 1.5rem rgba(0, 0, 0, 0.6),
+			inset 0 1px 1px rgba(255, 255, 255, 0.05);
+	}
+
+	.shelf-bracket::after {
+		content: '';
+		position: absolute;
+		top: 0.75rem;
+		left: 50%;
+		width: 0.65rem;
+		height: 0.65rem;
+		border-radius: 999px;
+		transform: translateX(-50%);
+		background: rgba(0, 0, 0, 0.5);
+		box-shadow:
+			inset 0 1px 1px rgba(0, 0, 0, 0.8),
+			0 1px 1px rgba(255, 255, 255, 0.1);
+	}
+
+	.shelf-bracket-left {
+		left: 8%;
+	}
+
+	.shelf-bracket-right {
+		right: 8%;
 	}
 
 	.shelf-shadow {
 		position: absolute;
-		top: 60px;
-		left: 10px;
-		right: 10px;
-		height: 20px;
-		background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), transparent);
-		border-radius: 50%;
+		top: 2.85rem;
+		left: 2.25rem;
+		right: 2.25rem;
+		height: 1rem;
+		background: radial-gradient(ellipse at center, rgba(92, 92, 92, 0.16), transparent 72%);
+		border-radius: 999px;
 		z-index: -1;
+		filter: blur(6px);
 	}
 
 	.shelf-books {
 		position: absolute;
-		bottom: 20px;
-		left: 0;
-		right: 0;
-		height: 220px;
+		bottom: calc(var(--shelf-offset) + var(--shelf-height) - var(--shelf-seam-from-top));
+		left: 50%;
+		width: min(68rem, calc(100% - 2rem));
+		height: 20rem;
+		transform: translateX(-50%);
 		display: flex;
-		justify-content: space-evenly;
+		justify-content: center;
 		align-items: flex-end;
-		gap: 1rem;
-		padding: 0 3rem;
-		z-index: 2;
+		gap: clamp(0.75rem, 2vw, 1.75rem);
+		padding: 0 1rem;
+		z-index: 5;
 		overflow: visible;
-		max-width: 100%;
 	}
 
 	.book-card {
-		--book-width: 180px;
-		--book-height: 240px;
-		--book-depth: 25px;
-		--book-border-radius: 0 4px 4px 0;
+		--book-width: 176px;
+		--book-height: 248px;
+		--book-depth: 24px;
+		--book-lean: 0deg;
+		--book-border-radius: 2px 4px 4px 2px;
 
 		background: transparent;
 		border: none;
 		cursor: pointer;
 		padding: 0;
-		perspective: 1200px;
+		perspective: 1500px;
 		flex: 0 0 auto;
 		position: relative;
+		width: calc(var(--book-width) * var(--book-scale));
+		height: calc(var(--book-height) * var(--book-scale));
+		transform: translateY(0) rotateZ(var(--book-lean));
+		transform-origin: center bottom;
+		transition: transform 0.5s cubic-bezier(0.2, 0.8, 0.2, 1);
 	}
 
 	.book-card:hover {
-		z-index: 10;
+		z-index: 20;
 	}
 
 	.book-card.selected {
-		z-index: 10;
-	}
-
-	.book-card.selected .book-3d-wrapper {
-		animation: bookOpenAnimation 0.4s ease-out forwards;
+		z-index: 30;
 	}
 
 	.book-3d-wrapper {
-		width: var(--book-width);
-		height: var(--book-height);
+		width: 100%;
+		height: 100%;
 		position: relative;
 		transform-style: preserve-3d;
-		transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+		transition: transform 0.6s cubic-bezier(0.2, 0.8, 0.2, 1);
+		/* Initial slight rotation to show depth */
+		transform: rotateY(-8deg);
 	}
 
 	.book-card:hover .book-3d-wrapper {
-		transform: translateY(-5px) rotateY(-15deg);
+		transform: rotateY(-25deg) rotateX(2deg);
 	}
 
 	.book-card.selected .book-3d-wrapper {
-		transform: translateY(-20px) rotateY(-25deg) scale(1.05);
+		transform: translateY(-1rem) rotateY(-25deg) scale(1.05);
 	}
 
 	.book-cover-front {
-		width: var(--book-width);
-		height: var(--book-height);
+		width: 100%;
+		height: 100%;
 		position: absolute;
 		top: 0;
 		left: 0;
 		border-radius: var(--book-border-radius);
 		overflow: hidden;
 		transform-style: preserve-3d;
-		box-shadow:
-			2px 2px 8px rgba(0, 0, 0, 0.3),
-			0 0 0 1px rgba(255, 255, 255, 0.1);
 		z-index: 2;
+		background-color: var(--book-color);
+		box-shadow: 
+			inset 0 0 0 1px rgba(255, 255, 255, 0.1),
+			2px 0 5px rgba(0, 0, 0, 0.2);
 	}
 
 	.cover-texture {
@@ -398,140 +558,205 @@
 		height: 100%;
 		position: relative;
 		overflow: hidden;
-		/* Darker color with subtle texture */
-		background:
-			linear-gradient(
-				135deg,
-				color-mix(in srgb, var(--book-color) 80%, #000000 20%),
-				color-mix(in srgb, var(--book-color) 70%, #000000 30%)
-			),
-			url('/texture/fabric.jpg');
-		background-size: 100%, 300px;
-		background-repeat: no-repeat, repeat;
-		background-blend-mode: normal, soft-light;
+		background-image: linear-gradient(to right, rgba(0, 0, 0, 0.1), transparent 10%, transparent 90%, rgba(0, 0, 0, 0.05));
 	}
 
 	.cover-texture::before {
 		content: '';
 		position: absolute;
 		inset: 0;
-		background: 
-			/* Blur effect in the middle */
-			radial-gradient(ellipse 60% 40% at center, rgba(255, 255, 255, 0.1) 0%, transparent 70%),
-			/* Subtle edge darkening */
-				linear-gradient(to bottom, rgba(0, 0, 0, 0.1), transparent 30%, rgba(0, 0, 0, 0.2));
-		backdrop-filter: blur(0.5px);
+		background-image: url('/texture/paper.png');
+		background-size: 200px;
+		opacity: 0.05;
+		z-index: 1;
+		mix-blend-mode: overlay;
 	}
 
 	.cover-content {
 		position: absolute;
 		inset: 0;
-		padding: 20px 15px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: flex-start;
+		z-index: 2;
 	}
 
 	.cover-content.no-padding {
-		padding: 0;
-		display: flex;
-		align-items: center;
-		justify-content: center;
+		width: 100%;
+		height: 100%;
 	}
 
 	.cover-border {
 		width: 100%;
 		height: 100%;
-		border: 2px solid rgba(255, 255, 255, 0.3);
-		border-radius: 4px;
-		padding: 15px;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		text-align: center;
-		transition: all 0.3s ease;
-		background: rgba(0, 0, 0, 0.2);
-		backdrop-filter: blur(1px);
+		padding: 1.8rem 1rem;
+		position: absolute;
+		inset: 0;
+		z-index: 5;
+		background: radial-gradient(circle at center, transparent 30%, rgba(0, 0, 0, 0.4) 110%);
 	}
 
 	/* Typography */
 	.book-title {
-		font-size: 20px;
-		font-weight: bold;
-		margin-bottom: 8px;
+		font-size: clamp(0.9rem, 1.8vw, 1.25rem);
+		font-weight: 800;
+		margin: 0;
 		font-family: Georgia, serif;
-		line-height: 1.2;
-		color: #ffffff;
-		text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+		line-height: 1.1;
+		color: rgba(255, 255, 255, 0.9);
+		text-align: center;
+		text-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
+		text-wrap: balance;
+		z-index: 2;
+	}
+
+	.book-title.gold-embossed {
+		background: linear-gradient(135deg, #ffd700 0%, #f1c40f 25%, #fff 50%, #f1c40f 75%, #ffd700 100%);
+		background-size: 200% auto;
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+		animation: shine 6s linear infinite;
+	}
+
+	@keyframes shine {
+		to {
+			background-position: 200% center;
+		}
 	}
 
 	.book-cover-image-container {
 		position: absolute;
 		inset: 0;
-		overflow: hidden;
-		z-index: -1;
+		z-index: 1;
 	}
 
 	.book-cover-image {
 		width: 100%;
 		height: 100%;
 		object-fit: cover;
-		object-position: center;
-		box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.4);
+		opacity: 0.8;
+		mix-blend-mode: multiply;
+		filter: contrast(1.1) brightness(0.9);
 	}
 
-	/* Page edges - rotated 90deg to face right */
-	.book-pages {
+	/* Page edges - Recessed from covers for hardback look */
+	.book-pages-right {
 		position: absolute;
-		top: 3px;
-		height: calc(var(--book-height) - 6px);
-		width: var(--book-depth);
-		/* Position at right edge, rotate 90deg, then translate to correct position */
-		transform:
-			translateX(calc(var(--book-width) - var(--book-depth) / 2 - 1px))
-			rotateY(90deg)
-			translateX(calc(var(--book-depth) / 2));
-		background:
-			/* Page edge gradient - light to dark from front to back */
-			linear-gradient(90deg, #f5f3ed 0%, #faf8f2 30%, #eae8e2 100%),
-			/* Subtle horizontal lines to suggest pages */
-			repeating-linear-gradient(
-				to bottom,
-				transparent 0px,
-				transparent 3px,
-				rgba(0, 0, 0, 0.02) 3px,
-				rgba(0, 0, 0, 0.02) 4px
-			);
-		background-blend-mode: normal, overlay;
-		z-index: 1;
+		top: 2px;
+		bottom: 2px;
+		width: calc(var(--book-depth) * var(--book-scale));
+		right: 0;
+		transform-origin: right center;
+		transform: rotateY(-90deg);
+		background: #fff;
+		background-image: 
+			linear-gradient(to right, rgba(0,0,0,0.1), transparent 20%),
+			url('/texture/paper.png');
+		background-size: cover, 100px;
+		box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.05);
 	}
 
+	.book-pages-top {
+		position: absolute;
+		top: 0;
+		left: 2px;
+		width: calc(var(--book-width) * var(--book-scale) - 4px);
+		height: calc(var(--book-depth) * var(--book-scale));
+		transform-origin: center top;
+		transform: rotateX(-90deg);
+		background: #fafafa;
+		background-image: url('/texture/paper.png');
+		background-size: 100px;
+	}
+
+	.book-pages-bottom {
+		position: absolute;
+		bottom: 0;
+		left: 2px;
+		width: calc(var(--book-width) * var(--book-scale) - 4px);
+		height: calc(var(--book-depth) * var(--book-scale));
+		transform-origin: center bottom;
+		transform: rotateX(90deg);
+		background: #fafafa;
+		background-image: url('/texture/paper.png');
+		background-size: 100px;
+	}
 
 	/* Spine - rotated 90deg to face left */
 	.book-spine {
 		position: absolute;
 		top: 0;
+		bottom: 0;
+		width: calc(var(--book-depth) * var(--book-scale));
 		left: 0;
-		height: var(--book-height);
-		width: var(--book-depth);
 		transform-origin: left center;
 		transform: rotateY(90deg);
-		background:
-			linear-gradient(90deg, rgba(0, 0, 0, 0.1) 0%, transparent 50%, rgba(0, 0, 0, 0.15) 100%),
-			color-mix(in srgb, var(--book-color) 85%, #000000 15%);
-		border-radius: 4px 0 0 4px;
-		z-index: 1;
+		background-color: var(--book-color);
+		background-image:
+			linear-gradient(to right, rgba(0, 0, 0, 0.2), transparent 30%, transparent 70%, rgba(0, 0, 0, 0.2)),
+			url('/texture/leather.webp');
+		background-blend-mode: soft-light, overlay;
+		background-size: cover;
+		border-radius: 0.2rem 0 0 0.2rem;
 	}
 
 	/* Back cover - pushed back in Z-space */
 	.book-back {
 		position: absolute;
-		top: 0;
-		left: 0;
-		width: var(--book-width);
-		height: var(--book-height);
-		transform: translateZ(calc(-1 * var(--book-depth)));
-		background: color-mix(in srgb, var(--book-color) 70%, #000000 30%);
-		border-radius: 4px 0 0 4px;
+		inset: 0;
+		transform: translateZ(calc(-1 * var(--book-depth) * var(--book-scale)));
+		background-color: var(--book-color);
+		background-image: url('/texture/leather.webp');
+		background-size: cover;
+		background-blend-mode: multiply;
+		border-radius: 0.15rem 0.45rem 0.45rem 0.15rem;
+		opacity: 1;
+		box-shadow: inset 0 0 20px rgba(0,0,0,0.2);
 	}
 
+	/* Dust particles */
+	.dust-container {
+		position: absolute;
+		inset: 0;
+		pointer-events: none;
+		z-index: 15;
+		overflow: hidden;
+	}
+
+	.dust {
+		position: absolute;
+		width: 2px;
+		height: 2px;
+		background: rgba(255, 255, 255, 0.4);
+		border-radius: 50%;
+		filter: blur(1px);
+		animation: float-dust var(--duration) infinite linear;
+		opacity: 0;
+		left: var(--left);
+		top: var(--top);
+	}
+
+	@keyframes float-dust {
+		0% {
+			transform: translate(0, 0) scale(1);
+			opacity: 0;
+		}
+		20% {
+			opacity: var(--opacity);
+		}
+		80% {
+			opacity: var(--opacity);
+		}
+		100% {
+			transform: translate(var(--x), var(--y)) scale(1.5);
+			opacity: 0;
+		}
+	}
 
 	/* Page Transition Effects */
 	.bookshelf-room {
@@ -570,7 +795,6 @@
 		}
 	}
 
-
 	@keyframes slideFromRight {
 		from {
 			transform: translateX(100%);
@@ -606,79 +830,117 @@
 	}
 
 	/* Responsive Design */
-	@media (max-width: 768px) {
-		.shelf-books {
-			gap: 0.75rem;
-			padding: 0 1.5rem;
-			bottom: 20px;
-			height: 220px;
+	@media (max-width: 1024px) {
+		.bookshelf-room {
+			--book-scale: 0.86;
 		}
 
-		.book-card {
-			--book-width: 140px;
-			--book-height: 220px;
-			--book-depth: 20px;
+		.container {
+			padding-bottom: 4rem;
 		}
 
 		.shelf-row {
-			height: 280px;
+			height: 20rem;
 		}
 
-		.book-title {
-			font-size: 16px;
+		.shelf-books {
+			height: 16rem;
+			width: min(60rem, calc(100% - 2rem));
 		}
 
+		.wooden-shelf {
+			width: min(62rem, calc(100% - 1.25rem));
+		}
+	}
+
+	@media (max-width: 768px) {
+		.shelf-row {
+			--shelf-offset: 1.1rem;
+			--shelf-height: 3.15rem;
+			--shelf-seam-from-top: 1.32rem;
+		}
+
+		.bookshelf-room {
+			--book-scale: 0.76;
+		}
+
+		.header-plaque {
+			padding: 1rem 1.1rem 1.2rem;
+			border-radius: 1.15rem;
+		}
+
+		.shelf-books {
+			height: 14rem;
+			width: min(46rem, calc(100% - 1.4rem));
+		}
+
+		.shelf-row {
+			height: 17rem;
+		}
+
+		.wooden-shelf {
+			width: calc(100% - 0.9rem);
+		}
+
+		.shelf-bracket-left {
+			left: 4%;
+		}
+
+		.shelf-bracket-right {
+			right: 4%;
+		}
 	}
 
 	@media (max-width: 480px) {
+		.shelf-row {
+			--shelf-offset: 1rem;
+			--shelf-height: 2.85rem;
+			--shelf-seam-from-top: 1.18rem;
+		}
+
+		.bookshelf-room {
+			--book-scale: 0.7;
+		}
+
 		.container {
-			padding: 2rem 1rem;
+			padding: 1.75rem 0.7rem 3.5rem;
 		}
 
-		.shelf-books {
+		.bookshelf-header {
+			margin-bottom: 1.5rem;
+		}
+
+		.header-plaque {
+			max-width: calc(100vw - 1.4rem);
 			gap: 0.5rem;
-			padding: 0 1rem;
-			bottom: 20px;
-			height: 190px;
-		}
-
-		.book-card {
-			--book-width: 120px;
-			--book-height: 190px;
-			--book-depth: 18px;
 		}
 
 		.shelf-row {
-			height: 250px;
+			height: 15rem;
 		}
 
-		.book-title {
-			font-size: 14px;
-		}
-
-	}
-
-	@media (min-width: 1200px) {
 		.shelf-books {
-			gap: 1.5rem;
-			padding: 0 4rem;
-			bottom: 20px;
-			height: 260px;
+			width: calc(100% - 0.8rem);
+			height: 12.4rem;
+			gap: 0.55rem;
 		}
 
-		.book-card {
-			--book-width: 200px;
-			--book-height: 260px;
-			--book-depth: 30px;
+		.wooden-shelf {
 		}
 
-		.shelf-row {
-			height: 320px;
+		.shelf-surface {
+			height: 1.28rem;
 		}
 
-		.book-title {
-			font-size: 22px;
+		.shelf-lip {
+			top: 1.18rem;
+			height: 0.98rem;
 		}
 
+		.shelf-bracket {
+			top: 0.98rem;
+			width: 2.5rem;
+			height: 1.95rem;
+		}
 	}
 </style>

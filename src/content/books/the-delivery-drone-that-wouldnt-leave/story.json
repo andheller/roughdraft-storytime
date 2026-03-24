@@ -1,0 +1,31 @@
+{
+	"id": "the-delivery-drone-that-wouldnt-leave",
+	"title": "The Delivery Drone That Wouldn't Leave",
+	"author": "Claude",
+	"description": "A delivery drone drops off a package and then... just stays. It starts following Mira around, 'helpfully' delivering things that don't need delivering—homework to teachers, valentines to crushes, and eventually recruiting a whole swarm to 'optimize' the neighborhood. Features: federal mail investigations, robot existential crises, and one very confused cat.",
+	"ageRange": "8-12",
+	"genre": "Comedy",
+	"tags": ["comedy", "technology", "friendship", "robots", "modern"],
+	"chapters": [
+		{
+			"id": 1,
+			"title": "Special Delivery",
+			"file": "chapter-1.md"
+		},
+		{
+			"id": 2,
+			"title": "The Helpful Phase",
+			"file": "chapter-2.md"
+		},
+		{
+			"id": 3,
+			"title": "The Swarm",
+			"file": "chapter-3.md"
+		},
+		{
+			"id": 4,
+			"title": "Special Delivery (For Real This Time)",
+			"file": "chapter-4.md"
+		}
+	]
+}
