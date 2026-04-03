@@ -1,0 +1,32 @@
+{
+  "title": "Gunpowder Plot",
+  "author": "Roughdraft Stories",
+  "description": "This factual account follows the 1605 conspiracy to blow up king and Parliament and the discovery that stopped it in time.",
+  "ageRange": "10-14",
+  "genre": "Narrative History",
+  "tags": [
+    "gunpowder plot",
+    "guy fawkes",
+    "robert catesby",
+    "england",
+    "parliament",
+    "1605"
+  ],
+  "chapters": [
+    {
+      "id": 1,
+      "title": "A Kingdom Full of Fear",
+      "file": "chapter-1.md"
+    },
+    {
+      "id": 2,
+      "title": "The Night in the Cellars",
+      "file": "chapter-2.md"
+    },
+    {
+      "id": 3,
+      "title": "The Plot in Memory",
+      "file": "chapter-3.md"
+    }
+  ]
+}

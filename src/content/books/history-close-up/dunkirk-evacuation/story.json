@@ -1,0 +1,32 @@
+{
+  "title": "Dunkirk Evacuation",
+  "author": "Roughdraft Stories",
+  "description": "A factual narrative of Operation Dynamo, when hundreds of thousands of Allied troops were pulled off the beaches of France under fire.",
+  "ageRange": "10-14",
+  "genre": "Narrative History",
+  "tags": [
+    "world war ii",
+    "dunkirk",
+    "operation dynamo",
+    "evacuation",
+    "britain",
+    "france"
+  ],
+  "chapters": [
+    {
+      "id": 1,
+      "title": "The Trap on the Coast",
+      "file": "chapter-1.md"
+    },
+    {
+      "id": 2,
+      "title": "The Boats Under Fire",
+      "file": "chapter-2.md"
+    },
+    {
+      "id": 3,
+      "title": "What Dunkirk Saved",
+      "file": "chapter-3.md"
+    }
+  ]
+}

@@ -1,14 +1,16 @@
-import { getAvailableStories, storyExists } from '../../../lib/content-loader.js';
+import { dev } from '$app/environment';
+import { getAvailableStories, loadStory, storyExists } from '../../../lib/content-loader.js';
 import { error } from '@sveltejs/kit';
 
 // Enable prerendering for all story pages
 export const prerender = true;
+export const csr = dev;
 
 // Generate all possible story routes for prerendering
 export async function entries() {
 	const stories = await getAvailableStories();
-	
-	return stories.map(story => ({
+
+	return stories.map((story) => ({
 		seriesId: story.seriesId,
 		storyId: story.storyId
 	}));
@@ -23,9 +25,12 @@ export async function load({ params }) {
 		throw error(404, `Story not found: ${seriesId}/${storyId}`);
 	}
 
+	const story = await loadStory(seriesId, storyId);
+
 	return {
 		seriesId,
 		storyId,
+		story,
 		theme: {
 			theme: 'white',
 			fontType: 'serif'

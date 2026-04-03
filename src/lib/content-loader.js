@@ -1,211 +1,150 @@
-/**
- * Dynamic content loader using Vite's import.meta.glob
- * This replaces the manual imports in /src/content/stories/index.js
- */
+import { contentIndex, bookshelfBooks, storyModules, storySummaries } from '$lib/generated/content-index.js';
 
-// Dynamically import all story metadata
-const storyMetadata = import.meta.glob('/src/content/books/*/*/story.json');
-const seriesMetadata = import.meta.glob('/src/content/books/*/series.json');
+const storySummaryLookup = new Map(
+	storySummaries.map((story) => [`${story.seriesId}/${story.storyId}`, story])
+);
+const seriesLookup = new Map(contentIndex.series.map((series) => [series.id, series]));
+const storyCache = new Map();
 
-// Dynamically import all chapter markdown files
-const chapterFiles = import.meta.glob('/src/content/books/*/*/*.md', { 
-  query: '?raw',
-  import: 'default'
-});
+function cloneStory(story) {
+	return {
+		...story,
+		chapters: story.chapters.map((chapter) => ({
+			...chapter,
+			content: chapter.markdown,
+			narration: chapter.narration ? { ...chapter.narration } : null
+		})),
+		narration: {
+			...story.narration,
+			chapters: story.narration.chapters.map((chapter) => ({ ...chapter }))
+		},
+		audio: story.audio
+			? {
+					...story.audio,
+					chapters: story.audio.chapters.map((chapter) => ({ ...chapter }))
+				}
+			: null,
+		assets: Array.isArray(story.assets) ? story.assets.map((asset) => ({ ...asset })) : []
+	};
+}
 
-// Note: Audio manifests are loaded dynamically via fetch since they're in static/
+async function getStoryRecord(seriesId, storyId) {
+	const storyKey = `${seriesId}/${storyId}`;
+	if (!storyCache.has(storyKey)) {
+		const loader = storyModules[storyKey];
 
-/**
- * Load all available series
- */
+		if (!loader) {
+			return null;
+		}
+
+		storyCache.set(storyKey, loader().then((module) => module.story));
+	}
+
+	return storyCache.get(storyKey);
+}
+
 export async function loadAllSeries() {
-  const series = {};
-  
-  for (const [path, loader] of Object.entries(seriesMetadata)) {
-    const seriesId = path.split('/')[4]; // Extract series ID from path
-    try {
-      const data = await loader();
-      series[seriesId] = data.default || data;
-    } catch (error) {
-      console.error(`Failed to load series ${seriesId}:`, error);
-    }
-  }
-  
-  return series;
+	return Object.fromEntries(
+		contentIndex.series.map((series) => [
+			series.id,
+			{
+				...series,
+				stories: series.stories.map((story) => ({ ...story }))
+			}
+		])
+	);
 }
 
-/**
- * Load a specific story's metadata and chapters
- */
 export async function loadStory(seriesId, storyId) {
-  const storyPath = `/src/content/books/${seriesId}/${storyId}/story.json`;
-  const storyLoader = storyMetadata[storyPath];
-  
-  if (!storyLoader) {
-    throw new Error(`Story not found: ${seriesId}/${storyId}`);
-  }
-  
-  try {
-    // Load story metadata
-    const storyData = await storyLoader();
-    const story = storyData.default || storyData;
-    
-    // Load all chapters for this story
-    const chapters = await loadChapters(seriesId, storyId, story.chapters);
-    
-    // Load audio information if available
-    const audioInfo = await loadAudioInfo(seriesId, storyId);
-    
-    return {
-      ...story,
-      chapters,
-      audio: audioInfo
-    };
-  } catch (error) {
-    console.error(`Failed to load story ${seriesId}/${storyId}:`, error);
-    throw error;
-  }
+	const story = await getStoryRecord(seriesId, storyId);
+
+	if (!story) {
+		throw new Error(`Story not found: ${seriesId}/${storyId}`);
+	}
+
+	return {
+		...cloneStory(story)
+	};
 }
 
-/**
- * Load all chapters for a specific story
- */
-export async function loadChapters(seriesId, storyId, chapterMetadata = []) {
-  const chapters = [];
-  const chapterPattern = `/src/content/books/${seriesId}/${storyId}/chapter-`;
-  
-  // Find all chapter files for this story
-  const chapterPaths = Object.keys(chapterFiles)
-    .filter(path => path.startsWith(chapterPattern))
-    .sort(); // Ensure chapters are in order
-  
-  for (const path of chapterPaths) {
-    try {
-      const content = await chapterFiles[path]();
-      const chapterNum = parseInt(path.match(/chapter-(\d+)\.md$/)?.[1] || '0');
-      
-      // Find matching metadata from story.json
-      const metadata = chapterMetadata.find(meta => meta.id === chapterNum) || {};
-      
-      chapters.push({
-        id: chapterNum,
-        number: chapterNum,
-        title: metadata.title || `Chapter ${chapterNum}`,
-        content,
-        path
-      });
-    } catch (error) {
-      console.error(`Failed to load chapter ${path}:`, error);
-    }
-  }
-  
-  return chapters;
+export async function loadChapters(seriesId, storyId) {
+	const story = await getStoryRecord(seriesId, storyId);
+
+	if (!story) {
+		throw new Error(`Story not found: ${seriesId}/${storyId}`);
+	}
+
+	return story.chapters.map((chapter) => ({
+		...chapter,
+		content: chapter.markdown,
+		narration: chapter.narration ? { ...chapter.narration } : null
+	}));
 }
 
-/**
- * Load a single chapter
- */
-export async function loadChapter(seriesId, storyId, chapterNum) {
-  const chapterPath = `/src/content/books/${seriesId}/${storyId}/chapter-${chapterNum}.md`;
-  const loader = chapterFiles[chapterPath];
-  
-  if (!loader) {
-    throw new Error(`Chapter not found: ${seriesId}/${storyId}/chapter-${chapterNum}`);
-  }
-  
-  try {
-    const content = await loader();
-    return {
-      id: `chapter-${chapterNum}`,
-      number: chapterNum,
-      content
-    };
-  } catch (error) {
-    console.error(`Failed to load chapter ${chapterPath}:`, error);
-    throw error;
-  }
+export async function loadChapter(seriesId, storyId, chapterId) {
+	const story = await getStoryRecord(seriesId, storyId);
+
+	if (!story) {
+		throw new Error(`Story not found: ${seriesId}/${storyId}`);
+	}
+
+	const chapter = story.chapters.find(
+		(entry) => entry.id === chapterId || entry.id === Number(chapterId) || entry.number === Number(chapterId)
+	);
+
+	if (!chapter) {
+		throw new Error(`Chapter not found: ${seriesId}/${storyId}/${chapterId}`);
+	}
+
+	return {
+		...chapter,
+		content: chapter.markdown,
+		narration: chapter.narration ? { ...chapter.narration } : null
+	};
 }
 
-/**
- * Get available stories (for navigation, search, etc.)
- */
 export async function getAvailableStories() {
-  const stories = [];
-  
-  for (const [path, loader] of Object.entries(storyMetadata)) {
-    const matches = path.match(/\/src\/content\/books\/([^\/]+)\/([^\/]+)\/story\.json$/);
-    if (matches) {
-      const [, seriesId, storyId] = matches;
-      try {
-        const data = await loader();
-        const story = data.default || data;
-        stories.push({
-          seriesId,
-          storyId,
-          ...story
-        });
-      } catch (error) {
-        console.error(`Failed to load story metadata ${path}:`, error);
-      }
-    }
-  }
-  
-  return stories;
+	return storySummaries.map((story) => ({
+		seriesId: story.seriesId,
+		storyId: story.storyId,
+		title: story.title,
+		description: story.description,
+		author: story.author,
+		genre: story.genre,
+		ageRange: story.ageRange,
+		tags: [...story.tags],
+		coverImage: story.coverImage,
+		chapterCount: story.chapterCount,
+		audio: story.audio,
+		hasAudio: story.hasAudio
+	}));
 }
 
-/**
- * Check if a story exists
- */
 export function storyExists(seriesId, storyId) {
-  const storyPath = `/src/content/books/${seriesId}/${storyId}/story.json`;
-  return storyPath in storyMetadata;
+	return storySummaryLookup.has(`${seriesId}/${storyId}`);
 }
 
-/**
- * Load audio information for a story
- */
+export function getSeries(seriesId) {
+	return seriesLookup.get(seriesId) || null;
+}
+
+export function getBookshelfBooks() {
+	return bookshelfBooks.map((book) => ({ ...book }));
+}
+
 export async function loadAudioInfo(seriesId, storyId) {
-  const manifestUrl = `/audio/${seriesId}/${storyId}/audio-manifest.json`;
-  
-  try {
-    const response = await fetch(manifestUrl);
-    if (!response.ok) {
-      return null; // No audio available
-    }
-    
-    const manifest = await response.json();
-    
-    return {
-      available: true,
-      voice: manifest.voice,
-      model: manifest.model,
-      generatedAt: manifest.generatedAt,
-      chapters: manifest.chapters.map(ch => ({
-        id: ch.id,
-        audioUrl: `/audio/${seriesId}/${storyId}/${ch.filename}`
-      }))
-    };
-  } catch (error) {
-    console.error(`Failed to load audio manifest for ${seriesId}/${storyId}:`, error);
-    return null;
-  }
+	const story = storySummaryLookup.get(`${seriesId}/${storyId}`);
+	return story?.audio || null;
 }
 
-/**
- * Check if audio is available for a story
- */
 export async function hasAudio(seriesId, storyId) {
-  try {
-    const response = await fetch(`/audio/${seriesId}/${storyId}/audio-manifest.json`);
-    return response.ok;
-  } catch {
-    return false;
-  }
+	try {
+		return Boolean(await loadAudioInfo(seriesId, storyId));
+	} catch {
+		return false;
+	}
 }
 
-/**
- * Get audio URL for a specific chapter
- */
 export function getChapterAudioUrl(seriesId, storyId, chapterId) {
-  return `/audio/${seriesId}/${storyId}/chapter-${chapterId}.mp3`;
+	return `/audio/${seriesId}/${storyId}/chapter-${chapterId}.mp3`;
 }

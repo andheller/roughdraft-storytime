@@ -1,0 +1,32 @@
+{
+  "title": "Lexington and Concord",
+  "author": "Roughdraft Stories",
+  "description": "This factual narrative follows the first day of open fighting in the American Revolution, from Lexington Green to the long road back to Boston.",
+  "ageRange": "10-14",
+  "genre": "Narrative History",
+  "tags": [
+    "american revolution",
+    "lexington and concord",
+    "militia",
+    "british regulars",
+    "massachusetts",
+    "1775"
+  ],
+  "chapters": [
+    {
+      "id": 1,
+      "title": "The March to Concord",
+      "file": "chapter-1.md"
+    },
+    {
+      "id": 2,
+      "title": "The Shots at Dawn",
+      "file": "chapter-2.md"
+    },
+    {
+      "id": 3,
+      "title": "The Road Back to Boston",
+      "file": "chapter-3.md"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "title": "Crossing of the Delaware and Battle of Trenton",
+  "author": "Roughdraft Stories",
+  "description": "A factual account of Washington's winter crossing and the surprise victory at Trenton that revived the American cause.",
+  "ageRange": "10-14",
+  "genre": "Narrative History",
+  "tags": [
+    "american revolution",
+    "george washington",
+    "trenton",
+    "delaware river",
+    "hessians",
+    "winter campaign"
+  ],
+  "chapters": [
+    {
+      "id": 1,
+      "title": "A Revolution Near Collapse",
+      "file": "chapter-1.md"
+    },
+    {
+      "id": 2,
+      "title": "The Crossing in the Storm",
+      "file": "chapter-2.md"
+    },
+    {
+      "id": 3,
+      "title": "Why Trenton Mattered",
+      "file": "chapter-3.md"
+    }
+  ]
+}

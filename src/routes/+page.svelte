@@ -1,12 +1,24 @@
 <script>
-	import { bookList } from '$content/books/books.js';
 	import { goto } from '$app/navigation';
 	import { browser } from '$app/environment';
 	import { onMount } from 'svelte';
+	import { getBookshelfBooks } from '$lib/content-loader.js';
+
+	const bookList = getBookshelfBooks();
+	const filterDefinitions = [
+		{ id: 'all', label: 'All Stories', description: 'Everything on the shelf' },
+		{ id: 'audio', label: 'Read + Listen', description: 'Stories with audio' },
+		{ id: 'silly', label: 'Silly', description: 'Maximum squirrel energy' },
+		{ id: 'history', label: 'History', description: 'Past worlds and real events' },
+		{ id: 'funny', label: 'Funny', description: 'Comedy and chaos' },
+		{ id: 'adventure', label: 'Adventure', description: 'Big journeys and big problems' },
+		{ id: 'standalone', label: 'Standalone', description: 'Single-book stories' }
+	];
 
 	let animatingBook = $state(null);
 	let isTransitioning = $state(false);
 	let isReturning = $state(false);
+	let activeFilter = $state('all');
 
 	// Check if we're returning from a story page
 	if (browser) {
@@ -90,6 +102,54 @@
 	function getDisplayTilt(book) {
 		return Math.max(-1, Math.min(1, book.tilt * 0.3));
 	}
+
+	function matchesBook(book, keywords) {
+		const haystack = [
+			book.title,
+			book.description,
+			book.seriesTitle,
+			book.genre,
+			...(book.tags || [])
+		]
+			.filter(Boolean)
+			.join(' ')
+			.toLowerCase();
+
+		return keywords.some((keyword) => haystack.includes(keyword));
+	}
+
+	function filterMatches(book, filterId) {
+		switch (filterId) {
+			case 'audio':
+				return book.hasAudio;
+			case 'silly':
+				return matchesBook(book, ['silly', 'squirrel', 'nutville']);
+			case 'history':
+				return (
+					book.seriesId === 'history-close-up' ||
+					matchesBook(book, ['history', 'historical', 'revolution', 'rome'])
+				);
+			case 'funny':
+				return matchesBook(book, ['comedy', 'humor', 'funny', 'silly']);
+			case 'adventure':
+				return matchesBook(book, ['adventure', 'mystery', 'fantasy', 'space']);
+			case 'standalone':
+				return book.standalone;
+			default:
+				return true;
+		}
+	}
+
+	const availableFilters = $derived(
+		filterDefinitions
+			.map((filter) => ({
+				...filter,
+				count: bookList.filter((book) => filterMatches(book, filter.id)).length
+			}))
+			.filter((filter) => filter.id === 'all' || filter.count > 0)
+	);
+
+	const filteredBookList = $derived(bookList.filter((book) => filterMatches(book, activeFilter)));
 </script>
 
 <svelte:head>
@@ -99,13 +159,10 @@
 <div
 	class="bookshelf-room {isTransitioning ? 'transitioning-out' : ''} {isReturning
 		? 'returning'
-		: ''}"
+		: ''} transition-all duration-700"
 >
-	<!-- Wood background with depth -->
-	<div class="wood-background"></div>
-
-	<!-- Warm lighting overlay -->
-	<div class="lighting-overlay"></div>
+	<!-- Wood background - Subtle on global theme bg -->
+	<div class="wood-background opacity-70 dark:opacity-10 transition-opacity duration-700"></div>
 
 	<!-- Dust Particles for Atmosphere -->
 	<div class="dust-container">
@@ -128,15 +185,29 @@
 		<header class="bookshelf-header">
 			<div class="header-plaque">
 				<p class="eyebrow">Choose A Story</p>
-				<h1>Roughdraft Storytime</h1>
 				<p class="tagline">Pick a book off the shelf and step straight into it.</p>
+			</div>
+
+			<div class="filter-panel" aria-label="Story filters">
+				{#each availableFilters as filter (filter.id)}
+					<button
+						type="button"
+						class="filter-chip {activeFilter === filter.id ? 'active' : ''}"
+						onclick={() => (activeFilter = filter.id)}
+						aria-pressed={activeFilter === filter.id}
+						title={filter.description}
+					>
+						<span>{filter.label}</span>
+						<span class="filter-count">{filter.count}</span>
+					</button>
+				{/each}
 			</div>
 		</header>
 
 		<!-- Bookshelf with Shelves -->
 		<div class="bookshelf-container">
 			<!-- Create shelves dynamically based on number of books -->
-			{#each Array(Math.ceil(bookList.length / booksPerShelf)) as _, shelfIndex}
+			{#each Array(Math.ceil(filteredBookList.length / booksPerShelf)) as _, shelfIndex}
 				<div class="shelf-row">
 					<div class="shelf-back-glow" aria-hidden="true"></div>
 
@@ -151,7 +222,7 @@
 
 					<!-- Books on this shelf -->
 					<div class="shelf-books">
-						{#each bookList.slice(shelfIndex * booksPerShelf, (shelfIndex + 1) * booksPerShelf) as book (book.id)}
+						{#each filteredBookList.slice(shelfIndex * booksPerShelf, (shelfIndex + 1) * booksPerShelf) as book (book.id)}
 							<button
 								class="book-card {animatingBook === book.id ? 'selected' : ''}"
 								style="--book-color: {book.leatherColor}; --book-width: {getDisplayWidth(
@@ -197,6 +268,12 @@
 					</div>
 				</div>
 			{/each}
+
+			{#if filteredBookList.length === 0}
+				<div class="empty-filter-state">
+					<p>No stories match that shelf yet.</p>
+				</div>
+			{/if}
 		</div>
 	</div>
 </div>
@@ -204,15 +281,12 @@
 <style>
 	:global(body) {
 		overflow-x: hidden;
-		background: #a77149;
 	}
 
 	.bookshelf-room {
 		--book-scale: 1;
 		min-height: 100vh;
-		background:
-			radial-gradient(circle at top, rgba(255, 245, 221, 0.34), transparent 34%),
-			linear-gradient(180deg, rgba(120, 79, 42, 0.1), rgba(71, 41, 18, 0.2)), #d5b48a;
+		background: transparent;
 		position: relative;
 		overflow-x: hidden;
 	}
@@ -220,41 +294,11 @@
 	.wood-background {
 		position: absolute;
 		inset: 0;
-		background-image: url('/moroccan-flower-dark.webp');
-		background-size: 400px 400px;
+		background-image: url('/texture/wallpaper-2.png');
+		background-size: 80px 160px;
 		background-repeat: repeat;
 		opacity: 1;
 		z-index: 0;
-	}
-
-	.wood-background::before {
-		content: '';
-		position: absolute;
-		inset: 0;
-		background: radial-gradient(circle at center, transparent 20%, rgba(0, 0, 0, 0.4) 100%);
-		z-index: 1;
-		pointer-events: none;
-	}
-
-	.lighting-overlay {
-		position: absolute;
-		inset: 0;
-		background:
-			radial-gradient(circle at 50% 0%, rgba(255, 252, 243, 0.1), transparent 40%),
-			linear-gradient(180deg, transparent 60%, rgba(0, 0, 0, 0.2) 100%);
-		pointer-events: none;
-		z-index: 10;
-	}
-
-	.bookshelf-room::after {
-		content: '';
-		position: absolute;
-		inset: 0;
-		background:
-			linear-gradient(115deg, transparent 35%, rgba(255, 255, 255, 0.03) 40%, rgba(255, 255, 255, 0.03) 42%, transparent 47%),
-			linear-gradient(125deg, transparent 55%, rgba(255, 255, 255, 0.02) 60%, rgba(255, 255, 255, 0.02) 63%, transparent 68%);
-		pointer-events: none;
-		z-index: 11;
 	}
 
 	.container {
@@ -263,13 +307,72 @@
 		width: 100%;
 		max-width: 1380px;
 		margin: 0 auto;
-		padding: 2.75rem 1.5rem 5rem;
+		padding: 5rem 1.5rem 5rem;
 	}
 
 	.bookshelf-header {
 		text-align: center;
 		margin-bottom: 3.5rem;
 		position: relative;
+		z-index: 10;
+	}
+
+	.filter-panel {
+		margin-top: 1.5rem;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		gap: 0.75rem;
+	}
+
+	.filter-chip {
+		display: inline-flex;
+		align-items: center;
+		gap: 0.65rem;
+		padding: 0.7rem 1rem;
+		border-radius: 999px;
+		border: 1px solid rgba(92, 55, 22, 0.18);
+		background: rgba(255, 248, 237, 0.86);
+		color: #5f3f25;
+		font-size: 0.95rem;
+		font-weight: 600;
+		box-shadow:
+			0 0.65rem 1.4rem rgba(0, 0, 0, 0.12),
+			inset 0 1px 0 rgba(255, 255, 255, 0.75);
+		transition:
+			transform 0.18s ease,
+			background 0.18s ease,
+			box-shadow 0.18s ease,
+			color 0.18s ease;
+	}
+
+	.filter-chip:hover {
+		transform: translateY(-1px);
+		background: rgba(255, 252, 245, 0.98);
+	}
+
+	.filter-chip.active {
+		background: var(--accent-color);
+		color: #fff;
+		box-shadow:
+			0 1rem 2rem rgba(0, 0, 0, 0.2),
+			inset 0 1px 0 rgba(255, 255, 255, 0.15);
+	}
+
+	.filter-count {
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		min-width: 1.65rem;
+		height: 1.65rem;
+		padding: 0 0.4rem;
+		border-radius: 999px;
+		background: rgba(0, 0, 0, 0.05);
+		font-size: 0.8rem;
+	}
+
+	.filter-chip.active .filter-count {
+		background: rgba(255, 255, 255, 0.2);
 	}
 
 	.header-plaque {
@@ -306,20 +409,9 @@
 		font-size: 0.72rem;
 		letter-spacing: 0.3em;
 		text-transform: uppercase;
-		color: #8b4513;
+		color: var(--accent-color);
 		font-weight: 800;
 		opacity: 0.8;
-	}
-
-	.bookshelf-header h1 {
-		font-size: clamp(2.5rem, 5vw, 4.25rem);
-		color: #2c1810;
-		font-family: Georgia, serif;
-		margin: 0;
-		font-weight: 900;
-		line-height: 0.9;
-		letter-spacing: -0.02em;
-		text-shadow: 0 1px 1px rgba(255, 255, 255, 0.8);
 	}
 
 	.tagline {
@@ -335,6 +427,17 @@
 		max-width: 1240px;
 		margin: 0 auto;
 		padding: 0.75rem 0 0;
+	}
+
+	.empty-filter-state {
+		margin: 2rem auto 0;
+		max-width: 26rem;
+		padding: 1rem 1.25rem;
+		border-radius: 1rem;
+		text-align: center;
+		background: rgba(255, 246, 233, 0.88);
+		color: #6b3f1b;
+		box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.14);
 	}
 
 	.shelf-row {

@@ -1,0 +1,32 @@
+{
+  "title": "Battle of Stalingrad",
+  "author": "Roughdraft Stories",
+  "description": "A factual account of the brutal battle on the Volga that trapped a German army and changed the course of the Eastern Front.",
+  "ageRange": "10-14",
+  "genre": "Narrative History",
+  "tags": [
+    "world war ii",
+    "stalingrad",
+    "eastern front",
+    "soviet union",
+    "germany",
+    "battle"
+  ],
+  "chapters": [
+    {
+      "id": 1,
+      "title": "The Road to the Volga",
+      "file": "chapter-1.md"
+    },
+    {
+      "id": 2,
+      "title": "A City Turns into a Trap",
+      "file": "chapter-2.md"
+    },
+    {
+      "id": 3,
+      "title": "Why Stalingrad Changed the War",
+      "file": "chapter-3.md"
+    }
+  ]
+}

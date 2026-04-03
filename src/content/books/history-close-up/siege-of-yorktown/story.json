@@ -1,0 +1,32 @@
+{
+  "title": "Siege of Yorktown",
+  "author": "Roughdraft Stories",
+  "description": "This factual story follows the siege that trapped Cornwallis and made clear that the American war for independence could be won.",
+  "ageRange": "10-14",
+  "genre": "Narrative History",
+  "tags": [
+    "american revolution",
+    "yorktown",
+    "washington",
+    "rochambeau",
+    "cornwallis",
+    "siege"
+  ],
+  "chapters": [
+    {
+      "id": 1,
+      "title": "The Trap in Virginia",
+      "file": "chapter-1.md"
+    },
+    {
+      "id": 2,
+      "title": "Trenches and Redoubts",
+      "file": "chapter-2.md"
+    },
+    {
+      "id": 3,
+      "title": "The Surrender That Changed the War",
+      "file": "chapter-3.md"
+    }
+  ]
+}

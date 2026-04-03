@@ -1,0 +1,32 @@
+{
+  "title": "Boston Tea Party",
+  "author": "Roughdraft Stories",
+  "description": "A factual story of the night Boston protesters destroyed East India Company tea and pushed the imperial crisis toward revolution.",
+  "ageRange": "10-14",
+  "genre": "Narrative History",
+  "tags": [
+    "american revolution",
+    "boston tea party",
+    "samuel adams",
+    "colonial america",
+    "protest",
+    "tea act"
+  ],
+  "chapters": [
+    {
+      "id": 1,
+      "title": "Tea, Tax, and Defiance",
+      "file": "chapter-1.md"
+    },
+    {
+      "id": 2,
+      "title": "A Harbor Full of Tea",
+      "file": "chapter-2.md"
+    },
+    {
+      "id": 3,
+      "title": "How Protest Became Crisis",
+      "file": "chapter-3.md"
+    }
+  ]
+}

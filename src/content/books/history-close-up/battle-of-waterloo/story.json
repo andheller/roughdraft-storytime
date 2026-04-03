@@ -1,0 +1,32 @@
+{
+  "title": "Battle of Waterloo",
+  "author": "Roughdraft Stories",
+  "description": "A factual account of Napoleon's final gamble and the battle that ended his return to power.",
+  "ageRange": "10-14",
+  "genre": "Narrative History",
+  "tags": [
+    "waterloo",
+    "napoleon",
+    "wellington",
+    "blucher",
+    "1815",
+    "european history"
+  ],
+  "chapters": [
+    {
+      "id": 1,
+      "title": "Napoleon Returns",
+      "file": "chapter-1.md"
+    },
+    {
+      "id": 2,
+      "title": "The Battle in the Mud",
+      "file": "chapter-2.md"
+    },
+    {
+      "id": 3,
+      "title": "The End of the Gamble",
+      "file": "chapter-3.md"
+    }
+  ]
+}

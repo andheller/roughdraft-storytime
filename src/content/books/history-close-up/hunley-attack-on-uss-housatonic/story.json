@@ -1,0 +1,32 @@
+{
+  "title": "Hunley Attack on USS Housatonic",
+  "author": "Roughdraft Stories",
+  "description": "A factual account of the Confederate submarine attack that sank USS Housatonic and showed how underwater war was changing.",
+  "ageRange": "10-14",
+  "genre": "Narrative History",
+  "tags": [
+    "civil war",
+    "hunley",
+    "housatonic",
+    "submarine",
+    "charleston",
+    "naval history"
+  ],
+  "chapters": [
+    {
+      "id": 1,
+      "title": "A New Weapon for the Blockade War",
+      "file": "chapter-1.md"
+    },
+    {
+      "id": 2,
+      "title": "The Night Attack",
+      "file": "chapter-2.md"
+    },
+    {
+      "id": 3,
+      "title": "A Victory Wrapped in Mystery",
+      "file": "chapter-3.md"
+    }
+  ]
+}

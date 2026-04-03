@@ -1,0 +1,662 @@
+{
+  "generatedAt": "2026-04-02T23:30:49.271Z",
+  "totalGenerated": 109,
+  "totalFailures": 0,
+  "files": [
+    {
+      "type": "story",
+      "seriesId": "downriver",
+      "storyId": "downriver",
+      "file": "exports/epub/stories/downriver/downriver.epub"
+    },
+    {
+      "type": "collection",
+      "seriesId": "downriver",
+      "storyId": null,
+      "file": "exports/epub/collections/downriver-complete-collection.epub"
+    },
+    {
+      "type": "story",
+      "seriesId": "field-day-fiasco",
+      "storyId": "field-day-fiasco",
+      "file": "exports/epub/stories/field-day-fiasco/field-day-fiasco.epub"
+    },
+    {
+      "type": "collection",
+      "seriesId": "field-day-fiasco",
+      "storyId": null,
+      "file": "exports/epub/collections/field-day-fiasco-complete-collection.epub"
+    },
+    {
+      "type": "story",
+      "seriesId": "history-close-up",
+      "storyId": "napoleon-the-corsican-who-reshaped-europe",
+      "file": "exports/epub/stories/history-close-up/napoleon-the-corsican-who-reshaped-europe.epub"
+    },
+    {
+      "type": "story",
+      "seriesId": "history-close-up",
+      "storyId": "lawrence-washington-and-the-war-before-the-revolution",
+      "file": "exports/epub/stories/history-close-up/lawrence-washington-and-the-war-before-the-revolution.epub"
+    },
+    {
+      "type": "story",
+      "seriesId": "history-close-up",
+      "storyId": "henry-knox-and-the-winter-guns",
+      "file": "exports/epub/stories/history-close-up/henry-knox-and-the-winter-guns.epub"
+    },
+    {
+      "type": "story",
+      "seriesId": "history-close-up",
+      "storyId": "lafayette-between-two-revolutions",
+      "file": "exports/epub/stories/history-close-up/lafayette-between-two-revolutions.epub"
+    },
+    {
+      "type": "story",
+      "seriesId": "history-close-up",
+      "storyId": "james-lafayette-double-agent-at-yorktown",
+      "file": "exports/epub/stories/history-close-up/james-lafayette-double-agent-at-yorktown.epub"
+    },
+    {
+      "type": "story",
+      "seriesId": "history-close-up",
+      "storyId": "george-washington-and-the-weight-of-command",
+      "file": "exports/epub/stories/history-close-up/george-washington-and-the-weight-of-command.epub"
+    },
+    {
+      "type": "story",
+      "seriesId": "history-close-up",
+      "storyId": "nathanael-greene-and-the-war-of-exhaustion",
+      "file": "exports/epub/stories/history-close-up/nathanael-greene-and-the-war-of-exhaustion.epub"
+    },
+    {
+      "type": "story",
+      "seriesId": "history-close-up",
+      "storyId": "julius-caesar-and-the-fall-of-the-republic",
+      "file": "exports/epub/stories/history-close-up/julius-caesar-and-the-fall-of-the-republic.epub"
+    },
+    {
+      "type": "story",
+      "seriesId": "history-close-up",
+      "storyId": "abigail-adams-and-the-revolution-at-home",
+      "file": "exports/epub/stories/history-close-up/abigail-adams-and-the-revolution-at-home.epub"
+    },
+    {
+      "type": "story",
+      "seriesId": "history-close-up",
+      "storyId": "john-paul-jones-and-the-war-at-sea",
+      "file": "exports/epub/stories/history-close-up/john-paul-jones-and-the-war-at-sea.epub"
+    },
+    {
+      "type": "story",
+      "seriesId": "history-close-up",
+      "storyId": "baron-von-steuben-and-the-army-at-valley-forge",
+      "file": "exports/epub/stories/history-close-up/baron-von-steuben-and-the-army-at-valley-forge.epub"
+    },
+    {
+      "type": "story",
+      "seriesId": "history-close-up",
+      "storyId": "deborah-sampson-the-hidden-soldier",
+      "file": "exports/epub/stories/history-close-up/deborah-sampson-the-hidden-soldier.epub"
+    },
+    {
+      "type": "story",
+      "seriesId": "history-close-up",
+      "storyId": "phillis-wheatley-and-the-words-of-liberty",
+      "file": "exports/epub/stories/history-close-up/phillis-wheatley-and-the-words-of-liberty.epub"
+    },
+    {
+      "type": "story",
+      "seriesId": "history-close-up",
+      "storyId": "benedict-arnold-and-the-price-of-treason",
+      "file": "exports/epub/stories/history-close-up/benedict-arnold-and-the-price-of-treason.epub"
+    },
+    {
+      "type": "story",
+      "seriesId": "history-close-up",
+      "storyId": "francis-marion-and-the-swamp-war",
+      "file": "exports/epub/stories/history-close-up/francis-marion-and-the-swamp-war.epub"
+    },
+    {
+      "type": "story",
+      "seriesId": "history-close-up",
+      "storyId": "mercy-otis-warren-and-the-pen-of-revolution",
+      "file": "exports/epub/stories/history-close-up/mercy-otis-warren-and-the-pen-of-revolution.epub"
+    },
+    {
+      "type": "story",
+      "seriesId": "history-close-up",
+      "storyId": "rochambeau-and-the-allied-road-to-yorktown",
+      "file": "exports/epub/stories/history-close-up/rochambeau-and-the-allied-road-to-yorktown.epub"
+    },
+    {
+      "type": "story",
+      "seriesId": "history-close-up",
+      "storyId": "benjamin-tallmadge-and-the-culper-ring",
+      "file": "exports/epub/stories/history-close-up/benjamin-tallmadge-and-the-culper-ring.epub"
+    },
+    {
+      "type": "story",
+      "seriesId": "history-close-up",
+      "storyId": "tadeusz-kosciuszko-and-the-river-forts",
+      "file": "exports/epub/stories/history-close-up/tadeusz-kosciuszko-and-the-river-forts.epub"
+    },
+    {
+      "type": "story",
+      "seriesId": "history-close-up",
+      "storyId": "daniel-morgan-and-the-trap-at-cowpens",
+      "file": "exports/epub/stories/history-close-up/daniel-morgan-and-the-trap-at-cowpens.epub"
+    },
+    {
+      "type": "story",
+      "seriesId": "history-close-up",
+      "storyId": "thomas-paine-and-the-words-that-marched",
+      "file": "exports/epub/stories/history-close-up/thomas-paine-and-the-words-that-marched.epub"
+    },
+    {
+      "type": "story",
+      "seriesId": "history-close-up",
+      "storyId": "crispus-attucks-and-the-night-on-king-street",
+      "file": "exports/epub/stories/history-close-up/crispus-attucks-and-the-night-on-king-street.epub"
+    },
+    {
+      "type": "story",
+      "seriesId": "history-close-up",
+      "storyId": "samuel-adams-and-the-fire-in-boston",
+      "file": "exports/epub/stories/history-close-up/samuel-adams-and-the-fire-in-boston.epub"
+    },
+    {
+      "type": "story",
+      "seriesId": "history-close-up",
+      "storyId": "battle-of-britain",
+      "file": "exports/epub/stories/history-close-up/battle-of-britain.epub"
+    },
+    {
+      "type": "story",
+      "seriesId": "history-close-up",
+      "storyId": "dunkirk-evacuation",
+      "file": "exports/epub/stories/history-close-up/dunkirk-evacuation.epub"
+    },
+    {
+      "type": "story",
+      "seriesId": "history-close-up",
+      "storyId": "d-day-landings",
+      "file": "exports/epub/stories/history-close-up/d-day-landings.epub"
+    },
+    {
+      "type": "story",
+      "seriesId": "history-close-up",
+      "storyId": "battle-of-stalingrad",
+      "file": "exports/epub/stories/history-close-up/battle-of-stalingrad.epub"
+    },
+    {
+      "type": "story",
+      "seriesId": "history-close-up",
+      "storyId": "fall-of-constantinople",
+      "file": "exports/epub/stories/history-close-up/fall-of-constantinople.epub"
+    },
+    {
+      "type": "story",
+      "seriesId": "history-close-up",
+      "storyId": "spanish-armada",
+      "file": "exports/epub/stories/history-close-up/spanish-armada.epub"
+    },
+    {
+      "type": "story",
+      "seriesId": "history-close-up",
+      "storyId": "gunpowder-plot",
+      "file": "exports/epub/stories/history-close-up/gunpowder-plot.epub"
+    },
+    {
+      "type": "story",
+      "seriesId": "history-close-up",
+      "storyId": "boston-tea-party",
+      "file": "exports/epub/stories/history-close-up/boston-tea-party.epub"
+    },
+    {
+      "type": "story",
+      "seriesId": "history-close-up",
+      "storyId": "lexington-and-concord",
+      "file": "exports/epub/stories/history-close-up/lexington-and-concord.epub"
+    },
+    {
+      "type": "story",
+      "seriesId": "history-close-up",
+      "storyId": "crossing-of-the-delaware-and-trenton",
+      "file": "exports/epub/stories/history-close-up/crossing-of-the-delaware-and-trenton.epub"
+    },
+    {
+      "type": "story",
+      "seriesId": "history-close-up",
+      "storyId": "siege-of-yorktown",
+      "file": "exports/epub/stories/history-close-up/siege-of-yorktown.epub"
+    },
+    {
+      "type": "story",
+      "seriesId": "history-close-up",
+      "storyId": "storming-of-the-bastille",
+      "file": "exports/epub/stories/history-close-up/storming-of-the-bastille.epub"
+    },
+    {
+      "type": "story",
+      "seriesId": "history-close-up",
+      "storyId": "reign-of-terror",
+      "file": "exports/epub/stories/history-close-up/reign-of-terror.epub"
+    },
+    {
+      "type": "story",
+      "seriesId": "history-close-up",
+      "storyId": "battle-of-waterloo",
+      "file": "exports/epub/stories/history-close-up/battle-of-waterloo.epub"
+    },
+    {
+      "type": "story",
+      "seriesId": "history-close-up",
+      "storyId": "charge-of-the-light-brigade",
+      "file": "exports/epub/stories/history-close-up/charge-of-the-light-brigade.epub"
+    },
+    {
+      "type": "story",
+      "seriesId": "history-close-up",
+      "storyId": "battle-of-hampton-roads",
+      "file": "exports/epub/stories/history-close-up/battle-of-hampton-roads.epub"
+    },
+    {
+      "type": "story",
+      "seriesId": "history-close-up",
+      "storyId": "sinking-of-the-uss-cairo",
+      "file": "exports/epub/stories/history-close-up/sinking-of-the-uss-cairo.epub"
+    },
+    {
+      "type": "story",
+      "seriesId": "history-close-up",
+      "storyId": "hunley-attack-on-uss-housatonic",
+      "file": "exports/epub/stories/history-close-up/hunley-attack-on-uss-housatonic.epub"
+    },
+    {
+      "type": "story",
+      "seriesId": "history-close-up",
+      "storyId": "new-york-city-draft-riots",
+      "file": "exports/epub/stories/history-close-up/new-york-city-draft-riots.epub"
+    },
+    {
+      "type": "story",
+      "seriesId": "history-close-up",
+      "storyId": "great-chicago-fire",
+      "file": "exports/epub/stories/history-close-up/great-chicago-fire.epub"
+    },
+    {
+      "type": "story",
+      "seriesId": "history-close-up",
+      "storyId": "wounded-knee-massacre",
+      "file": "exports/epub/stories/history-close-up/wounded-knee-massacre.epub"
+    },
+    {
+      "type": "story",
+      "seriesId": "history-close-up",
+      "storyId": "sinking-of-the-titanic",
+      "file": "exports/epub/stories/history-close-up/sinking-of-the-titanic.epub"
+    },
+    {
+      "type": "story",
+      "seriesId": "history-close-up",
+      "storyId": "gallipoli-campaign",
+      "file": "exports/epub/stories/history-close-up/gallipoli-campaign.epub"
+    },
+    {
+      "type": "story",
+      "seriesId": "history-close-up",
+      "storyId": "russian-october-revolution",
+      "file": "exports/epub/stories/history-close-up/russian-october-revolution.epub"
+    },
+    {
+      "type": "story",
+      "seriesId": "history-close-up",
+      "storyId": "fall-of-kabul",
+      "file": "exports/epub/stories/history-close-up/fall-of-kabul.epub"
+    },
+    {
+      "type": "story",
+      "seriesId": "history-close-up",
+      "storyId": "benedict-arnold-hero-before-traitor",
+      "file": "exports/epub/stories/history-close-up/benedict-arnold-hero-before-traitor.epub"
+    },
+    {
+      "type": "story",
+      "seriesId": "history-close-up",
+      "storyId": "julius-caesar-and-the-end-of-the-republic",
+      "file": "exports/epub/stories/history-close-up/julius-caesar-and-the-end-of-the-republic.epub"
+    },
+    {
+      "type": "story",
+      "seriesId": "history-close-up",
+      "storyId": "rochambeau-and-the-road-to-yorktown",
+      "file": "exports/epub/stories/history-close-up/rochambeau-and-the-road-to-yorktown.epub"
+    },
+    {
+      "type": "collection",
+      "seriesId": "history-close-up",
+      "storyId": null,
+      "file": "exports/epub/collections/history-close-up-complete-collection.epub"
+    },
+    {
+      "type": "story",
+      "seriesId": "mrs-webster-takes-everything-literally",
+      "storyId": "mrs-webster-takes-everything-literally",
+      "file": "exports/epub/stories/mrs-webster-takes-everything-literally/mrs-webster-takes-everything-literally.epub"
+    },
+    {
+      "type": "collection",
+      "seriesId": "mrs-webster-takes-everything-literally",
+      "storyId": null,
+      "file": "exports/epub/collections/mrs-webster-takes-everything-literally-complete-collection.epub"
+    },
+    {
+      "type": "story",
+      "seriesId": "one-wild-day-in-punsburg",
+      "storyId": "one-wild-day-in-punsburg",
+      "file": "exports/epub/stories/one-wild-day-in-punsburg/one-wild-day-in-punsburg.epub"
+    },
+    {
+      "type": "collection",
+      "seriesId": "one-wild-day-in-punsburg",
+      "storyId": null,
+      "file": "exports/epub/collections/one-wild-day-in-punsburg-complete-collection.epub"
+    },
+    {
+      "type": "story",
+      "seriesId": "silly-squirrels",
+      "storyId": "the-great-acorn-hunt",
+      "file": "exports/epub/stories/silly-squirrels/the-great-acorn-hunt.epub"
+    },
+    {
+      "type": "story",
+      "seriesId": "silly-squirrels",
+      "storyId": "the-silly-squirrels-power-up",
+      "file": "exports/epub/stories/silly-squirrels/the-silly-squirrels-power-up.epub"
+    },
+    {
+      "type": "story",
+      "seriesId": "silly-squirrels",
+      "storyId": "the-silly-squirrels-sub-marine-adventure",
+      "file": "exports/epub/stories/silly-squirrels/the-silly-squirrels-sub-marine-adventure.epub"
+    },
+    {
+      "type": "story",
+      "seriesId": "silly-squirrels",
+      "storyId": "the-silly-squirrels-space-adventure",
+      "file": "exports/epub/stories/silly-squirrels/the-silly-squirrels-space-adventure.epub"
+    },
+    {
+      "type": "story",
+      "seriesId": "silly-squirrels",
+      "storyId": "the-silly-squirrels-pizza-jetpack-delivery",
+      "file": "exports/epub/stories/silly-squirrels/the-silly-squirrels-pizza-jetpack-delivery.epub"
+    },
+    {
+      "type": "story",
+      "seriesId": "silly-squirrels",
+      "storyId": "the-silly-squirrels-backwards-tuesday",
+      "file": "exports/epub/stories/silly-squirrels/the-silly-squirrels-backwards-tuesday.epub"
+    },
+    {
+      "type": "story",
+      "seriesId": "silly-squirrels",
+      "storyId": "the-tnt-tunnel-to-grandmas",
+      "file": "exports/epub/stories/silly-squirrels/the-tnt-tunnel-to-grandmas.epub"
+    },
+    {
+      "type": "story",
+      "seriesId": "silly-squirrels",
+      "storyId": "the-silly-squirrels-boom-boom-express",
+      "file": "exports/epub/stories/silly-squirrels/the-silly-squirrels-boom-boom-express.epub"
+    },
+    {
+      "type": "story",
+      "seriesId": "silly-squirrels",
+      "storyId": "the-silly-squirrels-giant-moon-acorn",
+      "file": "exports/epub/stories/silly-squirrels/the-silly-squirrels-giant-moon-acorn.epub"
+    },
+    {
+      "type": "story",
+      "seriesId": "silly-squirrels",
+      "storyId": "the-silly-squirrels-motor-bike-bonanza",
+      "file": "exports/epub/stories/silly-squirrels/the-silly-squirrels-motor-bike-bonanza.epub"
+    },
+    {
+      "type": "story",
+      "seriesId": "silly-squirrels",
+      "storyId": "the-great-motor-bike-acorn-hunt",
+      "file": "exports/epub/stories/silly-squirrels/the-great-motor-bike-acorn-hunt.epub"
+    },
+    {
+      "type": "story",
+      "seriesId": "silly-squirrels",
+      "storyId": "the-super-secure-snack-safe",
+      "file": "exports/epub/stories/silly-squirrels/the-super-secure-snack-safe.epub"
+    },
+    {
+      "type": "story",
+      "seriesId": "silly-squirrels",
+      "storyId": "the-silly-squirrels-weather-wobble-machine",
+      "file": "exports/epub/stories/silly-squirrels/the-silly-squirrels-weather-wobble-machine.epub"
+    },
+    {
+      "type": "story",
+      "seriesId": "silly-squirrels",
+      "storyId": "the-silly-squirrels-pancake-parade",
+      "file": "exports/epub/stories/silly-squirrels/the-silly-squirrels-pancake-parade.epub"
+    },
+    {
+      "type": "story",
+      "seriesId": "silly-squirrels",
+      "storyId": "the-silly-squirrels-night-before-snow-day",
+      "file": "exports/epub/stories/silly-squirrels/the-silly-squirrels-night-before-snow-day.epub"
+    },
+    {
+      "type": "story",
+      "seriesId": "silly-squirrels",
+      "storyId": "the-silly-squirrels-bouncy-bridge",
+      "file": "exports/epub/stories/silly-squirrels/the-silly-squirrels-bouncy-bridge.epub"
+    },
+    {
+      "type": "story",
+      "seriesId": "silly-squirrels",
+      "storyId": "the-silly-squirrels-ice-cream-catapult",
+      "file": "exports/epub/stories/silly-squirrels/the-silly-squirrels-ice-cream-catapult.epub"
+    },
+    {
+      "type": "story",
+      "seriesId": "silly-squirrels",
+      "storyId": "the-silly-squirrels-library-book-rocket",
+      "file": "exports/epub/stories/silly-squirrels/the-silly-squirrels-library-book-rocket.epub"
+    },
+    {
+      "type": "story",
+      "seriesId": "silly-squirrels",
+      "storyId": "the-silly-squirrels-car-wash-waterfall",
+      "file": "exports/epub/stories/silly-squirrels/the-silly-squirrels-car-wash-waterfall.epub"
+    },
+    {
+      "type": "story",
+      "seriesId": "silly-squirrels",
+      "storyId": "the-silly-squirrels-bubblegum-balloon",
+      "file": "exports/epub/stories/silly-squirrels/the-silly-squirrels-bubblegum-balloon.epub"
+    },
+    {
+      "type": "story",
+      "seriesId": "silly-squirrels",
+      "storyId": "the-silly-squirrels-mailbox-mix-up-machine",
+      "file": "exports/epub/stories/silly-squirrels/the-silly-squirrels-mailbox-mix-up-machine.epub"
+    },
+    {
+      "type": "story",
+      "seriesId": "silly-squirrels",
+      "storyId": "the-silly-squirrels-popcorn-blizzard",
+      "file": "exports/epub/stories/silly-squirrels/the-silly-squirrels-popcorn-blizzard.epub"
+    },
+    {
+      "type": "story",
+      "seriesId": "silly-squirrels",
+      "storyId": "the-silly-squirrels-umbrella-taxi",
+      "file": "exports/epub/stories/silly-squirrels/the-silly-squirrels-umbrella-taxi.epub"
+    },
+    {
+      "type": "story",
+      "seriesId": "silly-squirrels",
+      "storyId": "the-silly-squirrels-marshmallow-parade-float",
+      "file": "exports/epub/stories/silly-squirrels/the-silly-squirrels-marshmallow-parade-float.epub"
+    },
+    {
+      "type": "story",
+      "seriesId": "silly-squirrels",
+      "storyId": "the-silly-squirrels-leaf-blower-orchestra",
+      "file": "exports/epub/stories/silly-squirrels/the-silly-squirrels-leaf-blower-orchestra.epub"
+    },
+    {
+      "type": "story",
+      "seriesId": "silly-squirrels",
+      "storyId": "the-silly-squirrels-pumpkin-patch-pulley",
+      "file": "exports/epub/stories/silly-squirrels/the-silly-squirrels-pumpkin-patch-pulley.epub"
+    },
+    {
+      "type": "collection",
+      "seriesId": "silly-squirrels",
+      "storyId": null,
+      "file": "exports/epub/collections/silly-squirrels-complete-collection.epub"
+    },
+    {
+      "type": "story",
+      "seriesId": "someone-should-have-told-me",
+      "storyId": "someone-should-have-told-me",
+      "file": "exports/epub/stories/someone-should-have-told-me/someone-should-have-told-me.epub"
+    },
+    {
+      "type": "collection",
+      "seriesId": "someone-should-have-told-me",
+      "storyId": null,
+      "file": "exports/epub/collections/someone-should-have-told-me-complete-collection.epub"
+    },
+    {
+      "type": "story",
+      "seriesId": "the-dragon-who-breathed-bubbles",
+      "storyId": "the-dragon-who-breathed-bubbles",
+      "file": "exports/epub/stories/the-dragon-who-breathed-bubbles/the-dragon-who-breathed-bubbles.epub"
+    },
+    {
+      "type": "collection",
+      "seriesId": "the-dragon-who-breathed-bubbles",
+      "storyId": null,
+      "file": "exports/epub/collections/the-dragon-who-breathed-bubbles-complete-collection.epub"
+    },
+    {
+      "type": "story",
+      "seriesId": "the-eastern-valleys",
+      "storyId": "the-eastern-valleys",
+      "file": "exports/epub/stories/the-eastern-valleys/the-eastern-valleys.epub"
+    },
+    {
+      "type": "collection",
+      "seriesId": "the-eastern-valleys",
+      "storyId": null,
+      "file": "exports/epub/collections/the-eastern-valleys-complete-collection.epub"
+    },
+    {
+      "type": "story",
+      "seriesId": "the-friend-in-the-frame",
+      "storyId": "the-friend-in-the-frame",
+      "file": "exports/epub/stories/the-friend-in-the-frame/the-friend-in-the-frame.epub"
+    },
+    {
+      "type": "collection",
+      "seriesId": "the-friend-in-the-frame",
+      "storyId": null,
+      "file": "exports/epub/collections/the-friend-in-the-frame-complete-collection.epub"
+    },
+    {
+      "type": "story",
+      "seriesId": "the-girl-who-was-accidentally-betrothed-to-a-dragon",
+      "storyId": "the-girl-who-was-accidentally-betrothed-to-a-dragon",
+      "file": "exports/epub/stories/the-girl-who-was-accidentally-betrothed-to-a-dragon/the-girl-who-was-accidentally-betrothed-to-a-dragon.epub"
+    },
+    {
+      "type": "collection",
+      "seriesId": "the-girl-who-was-accidentally-betrothed-to-a-dragon",
+      "storyId": null,
+      "file": "exports/epub/collections/the-girl-who-was-accidentally-betrothed-to-a-dragon-complete-collection.epub"
+    },
+    {
+      "type": "story",
+      "seriesId": "the-kingdom-of-pillow-fort",
+      "storyId": "the-kingdom-of-pillow-fort",
+      "file": "exports/epub/stories/the-kingdom-of-pillow-fort/the-kingdom-of-pillow-fort.epub"
+    },
+    {
+      "type": "collection",
+      "seriesId": "the-kingdom-of-pillow-fort",
+      "storyId": null,
+      "file": "exports/epub/collections/the-kingdom-of-pillow-fort-complete-collection.epub"
+    },
+    {
+      "type": "story",
+      "seriesId": "the-professional-younger-sibling",
+      "storyId": "the-professional-younger-sibling",
+      "file": "exports/epub/stories/the-professional-younger-sibling/the-professional-younger-sibling.epub"
+    },
+    {
+      "type": "collection",
+      "seriesId": "the-professional-younger-sibling",
+      "storyId": null,
+      "file": "exports/epub/collections/the-professional-younger-sibling-complete-collection.epub"
+    },
+    {
+      "type": "story",
+      "seriesId": "the-reluctant-revolutionaries",
+      "storyId": "liberty-or-lunchtime",
+      "file": "exports/epub/stories/the-reluctant-revolutionaries/liberty-or-lunchtime.epub"
+    },
+    {
+      "type": "story",
+      "seriesId": "the-reluctant-revolutionaries",
+      "storyId": "the-midnight-ride-i-actually-finished",
+      "file": "exports/epub/stories/the-reluctant-revolutionaries/the-midnight-ride-i-actually-finished.epub"
+    },
+    {
+      "type": "story",
+      "seriesId": "the-reluctant-revolutionaries",
+      "storyId": "cannonballs-pirates-cabin-boy",
+      "file": "exports/epub/stories/the-reluctant-revolutionaries/cannonballs-pirates-cabin-boy.epub"
+    },
+    {
+      "type": "collection",
+      "seriesId": "the-reluctant-revolutionaries",
+      "storyId": null,
+      "file": "exports/epub/collections/the-reluctant-revolutionaries-complete-collection.epub"
+    },
+    {
+      "type": "story",
+      "seriesId": "the-somewhat-reliable-narrator",
+      "storyId": "the-somewhat-reliable-narrator",
+      "file": "exports/epub/stories/the-somewhat-reliable-narrator/the-somewhat-reliable-narrator.epub"
+    },
+    {
+      "type": "collection",
+      "seriesId": "the-somewhat-reliable-narrator",
+      "storyId": null,
+      "file": "exports/epub/collections/the-somewhat-reliable-narrator-complete-collection.epub"
+    },
+    {
+      "type": "story",
+      "seriesId": "the-wrong-pet-club",
+      "storyId": "the-wrong-pet-club",
+      "file": "exports/epub/stories/the-wrong-pet-club/the-wrong-pet-club.epub"
+    },
+    {
+      "type": "collection",
+      "seriesId": "the-wrong-pet-club",
+      "storyId": null,
+      "file": "exports/epub/collections/the-wrong-pet-club-complete-collection.epub"
+    }
+  ],
+  "failures": []
+}

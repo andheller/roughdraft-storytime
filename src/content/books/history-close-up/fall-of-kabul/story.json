@@ -1,0 +1,32 @@
+{
+  "title": "Fall of Kabul",
+  "author": "Roughdraft Stories",
+  "description": "This factual account follows the collapse of the Afghan government in August 2021 and the desperate rush toward evacuation.",
+  "ageRange": "10-14",
+  "genre": "Narrative History",
+  "tags": [
+    "afghanistan",
+    "kabul",
+    "taliban",
+    "evacuation",
+    "2021",
+    "modern history"
+  ],
+  "chapters": [
+    {
+      "id": 1,
+      "title": "A State Comes Apart",
+      "file": "chapter-1.md"
+    },
+    {
+      "id": 2,
+      "title": "The Day Kabul Fell",
+      "file": "chapter-2.md"
+    },
+    {
+      "id": 3,
+      "title": "What the Collapse Left Behind",
+      "file": "chapter-3.md"
+    }
+  ]
+}

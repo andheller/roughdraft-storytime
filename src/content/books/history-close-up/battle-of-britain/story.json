@@ -1,0 +1,32 @@
+{
+  "title": "Battle of Britain",
+  "author": "Roughdraft Stories",
+  "description": "A fact-based account of the air campaign that decided whether Britain could resist invasion in 1940.",
+  "ageRange": "10-14",
+  "genre": "Narrative History",
+  "tags": [
+    "world war ii",
+    "battle of britain",
+    "raf",
+    "luftwaffe",
+    "air war",
+    "britain"
+  ],
+  "chapters": [
+    {
+      "id": 1,
+      "title": "A Sky Britain Could Not Lose",
+      "file": "chapter-1.md"
+    },
+    {
+      "id": 2,
+      "title": "The Day the Raids Peaked",
+      "file": "chapter-2.md"
+    },
+    {
+      "id": 3,
+      "title": "Why the RAF Held",
+      "file": "chapter-3.md"
+    }
+  ]
+}

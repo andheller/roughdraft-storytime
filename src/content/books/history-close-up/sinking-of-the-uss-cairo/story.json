@@ -1,0 +1,32 @@
+{
+  "title": "Sinking of the USS Cairo",
+  "author": "Roughdraft Stories",
+  "description": "This factual story follows the loss of a Union ironclad on the Yazoo River and the growing danger of mines in Civil War river warfare.",
+  "ageRange": "10-14",
+  "genre": "Narrative History",
+  "tags": [
+    "civil war",
+    "uss cairo",
+    "vicksburg",
+    "yazoo river",
+    "ironclad",
+    "mine warfare"
+  ],
+  "chapters": [
+    {
+      "id": 1,
+      "title": "War on the Western Rivers",
+      "file": "chapter-1.md"
+    },
+    {
+      "id": 2,
+      "title": "The Blast on the Yazoo",
+      "file": "chapter-2.md"
+    },
+    {
+      "id": 3,
+      "title": "What the Sinking Revealed",
+      "file": "chapter-3.md"
+    }
+  ]
+}

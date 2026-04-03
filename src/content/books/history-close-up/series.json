@@ -139,6 +139,156 @@
 			"title": "Samuel Adams and the Fire in Boston",
 			"description": "Samuel Adams did not command armies, but he helped turn Boston's anger into organized resistance. This factual narrative follows the political work that pushed protest toward independence.",
 			"folder": "samuel-adams-and-the-fire-in-boston"
+		},
+		{
+			"id": "battle-of-britain",
+			"title": "Battle of Britain",
+			"description": "A fact-based account of the air campaign that decided whether Britain could resist invasion in 1940.",
+			"folder": "battle-of-britain"
+		},
+		{
+			"id": "dunkirk-evacuation",
+			"title": "Dunkirk Evacuation",
+			"description": "A factual narrative of Operation Dynamo, when hundreds of thousands of Allied troops were pulled off the beaches of France under fire.",
+			"folder": "dunkirk-evacuation"
+		},
+		{
+			"id": "d-day-landings",
+			"title": "D-Day Landings",
+			"description": "This factual story follows the opening day of the Normandy invasion, from airborne drops before dawn to the hard fight for the beaches.",
+			"folder": "d-day-landings"
+		},
+		{
+			"id": "battle-of-stalingrad",
+			"title": "Battle of Stalingrad",
+			"description": "A factual account of the brutal battle on the Volga that trapped a German army and changed the course of the Eastern Front.",
+			"folder": "battle-of-stalingrad"
+		},
+		{
+			"id": "fall-of-constantinople",
+			"title": "Fall of Constantinople",
+			"description": "This factual narrative follows the 1453 siege that ended the Byzantine Empire and remade the balance of power in the eastern Mediterranean.",
+			"folder": "fall-of-constantinople"
+		},
+		{
+			"id": "spanish-armada",
+			"title": "Spanish Armada",
+			"description": "A factual retelling of the 1588 campaign in which England faced Spain's great invasion fleet in the Channel and beyond.",
+			"folder": "spanish-armada"
+		},
+		{
+			"id": "gunpowder-plot",
+			"title": "Gunpowder Plot",
+			"description": "This factual account follows the 1605 conspiracy to blow up king and Parliament and the discovery that stopped it in time.",
+			"folder": "gunpowder-plot"
+		},
+		{
+			"id": "boston-tea-party",
+			"title": "Boston Tea Party",
+			"description": "A factual story of the night Boston protesters destroyed East India Company tea and pushed the imperial crisis toward revolution.",
+			"folder": "boston-tea-party"
+		},
+		{
+			"id": "lexington-and-concord",
+			"title": "Lexington and Concord",
+			"description": "This factual narrative follows the first day of open fighting in the American Revolution, from Lexington Green to the long road back to Boston.",
+			"folder": "lexington-and-concord"
+		},
+		{
+			"id": "crossing-of-the-delaware-and-trenton",
+			"title": "Crossing of the Delaware and Battle of Trenton",
+			"description": "A factual account of Washington's winter crossing and the surprise victory at Trenton that revived the American cause.",
+			"folder": "crossing-of-the-delaware-and-trenton"
+		},
+		{
+			"id": "siege-of-yorktown",
+			"title": "Siege of Yorktown",
+			"description": "This factual story follows the siege that trapped Cornwallis and made clear that the American war for independence could be won.",
+			"folder": "siege-of-yorktown"
+		},
+		{
+			"id": "storming-of-the-bastille",
+			"title": "Storming of the Bastille",
+			"description": "A factual retelling of the day Paris crowds seized the Bastille and turned a political crisis into a revolution in the streets.",
+			"folder": "storming-of-the-bastille"
+		},
+		{
+			"id": "reign-of-terror",
+			"title": "Reign of Terror",
+			"description": "This factual narrative explores the period when revolutionary France turned to emergency rule, fear, and execution in the name of saving the republic.",
+			"folder": "reign-of-terror"
+		},
+		{
+			"id": "battle-of-waterloo",
+			"title": "Battle of Waterloo",
+			"description": "A factual account of Napoleon's final gamble and the battle that ended his return to power.",
+			"folder": "battle-of-waterloo"
+		},
+		{
+			"id": "charge-of-the-light-brigade",
+			"title": "Charge of the Light Brigade",
+			"description": "This factual story follows the Crimean War cavalry charge that became famous for courage, confusion, and disastrous command.",
+			"folder": "charge-of-the-light-brigade"
+		},
+		{
+			"id": "battle-of-hampton-roads",
+			"title": "Battle of Hampton Roads",
+			"description": "A factual account of the ironclad clash between USS Monitor and CSS Virginia that changed naval war forever.",
+			"folder": "battle-of-hampton-roads"
+		},
+		{
+			"id": "sinking-of-the-uss-cairo",
+			"title": "Sinking of the USS Cairo",
+			"description": "This factual story follows the loss of a Union ironclad on the Yazoo River and the growing danger of mines in Civil War river warfare.",
+			"folder": "sinking-of-the-uss-cairo"
+		},
+		{
+			"id": "hunley-attack-on-uss-housatonic",
+			"title": "Hunley Attack on USS Housatonic",
+			"description": "A factual account of the Confederate submarine attack that sank USS Housatonic and showed how underwater war was changing.",
+			"folder": "hunley-attack-on-uss-housatonic"
+		},
+		{
+			"id": "new-york-city-draft-riots",
+			"title": "New York City Draft Riots",
+			"description": "This factual narrative examines the 1863 riots that exposed class anger, political tension, and racist violence in wartime New York.",
+			"folder": "new-york-city-draft-riots"
+		},
+		{
+			"id": "great-chicago-fire",
+			"title": "Great Chicago Fire",
+			"description": "A factual account of the fire that tore through Chicago in 1871 and forced the city to rebuild after catastrophe.",
+			"folder": "great-chicago-fire"
+		},
+		{
+			"id": "wounded-knee-massacre",
+			"title": "Wounded Knee Massacre",
+			"description": "This factual story follows the killing at Wounded Knee and the violent end of U.S. conquest policy on the Plains.",
+			"folder": "wounded-knee-massacre"
+		},
+		{
+			"id": "sinking-of-the-titanic",
+			"title": "Sinking of the Titanic",
+			"description": "A factual narrative of the Titanic disaster, from ice warnings and collision to lifeboats, rescue, and lasting questions about safety.",
+			"folder": "sinking-of-the-titanic"
+		},
+		{
+			"id": "gallipoli-campaign",
+			"title": "Gallipoli Campaign",
+			"description": "This factual account follows the failed Allied attempt to force the Dardanelles and the hard campaign that followed on the Gallipoli Peninsula.",
+			"folder": "gallipoli-campaign"
+		},
+		{
+			"id": "russian-october-revolution",
+			"title": "Russian October Revolution",
+			"description": "A factual story of the Bolshevik seizure of power in Petrograd and the collapse of the Provisional Government in 1917.",
+			"folder": "russian-october-revolution"
+		},
+		{
+			"id": "fall-of-kabul",
+			"title": "Fall of Kabul",
+			"description": "This factual account follows the collapse of the Afghan government in August 2021 and the desperate rush toward evacuation.",
+			"folder": "fall-of-kabul"
 		}
 	]
 }

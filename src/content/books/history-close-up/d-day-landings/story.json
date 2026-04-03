@@ -1,0 +1,32 @@
+{
+  "title": "D-Day Landings",
+  "author": "Roughdraft Stories",
+  "description": "This factual story follows the opening day of the Normandy invasion, from airborne drops before dawn to the hard fight for the beaches.",
+  "ageRange": "10-14",
+  "genre": "Narrative History",
+  "tags": [
+    "world war ii",
+    "d-day",
+    "normandy",
+    "allied invasion",
+    "omaha beach",
+    "history"
+  ],
+  "chapters": [
+    {
+      "id": 1,
+      "title": "The Plan to Return to France",
+      "file": "chapter-1.md"
+    },
+    {
+      "id": 2,
+      "title": "The Longest Day",
+      "file": "chapter-2.md"
+    },
+    {
+      "id": 3,
+      "title": "The Beachheads and Beyond",
+      "file": "chapter-3.md"
+    }
+  ]
+}

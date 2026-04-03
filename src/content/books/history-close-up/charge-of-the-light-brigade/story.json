@@ -1,0 +1,32 @@
+{
+  "title": "Charge of the Light Brigade",
+  "author": "Roughdraft Stories",
+  "description": "This factual story follows the Crimean War cavalry charge that became famous for courage, confusion, and disastrous command.",
+  "ageRange": "10-14",
+  "genre": "Narrative History",
+  "tags": [
+    "charge of the light brigade",
+    "crimean war",
+    "balaclava",
+    "british army",
+    "cavalry",
+    "1854"
+  ],
+  "chapters": [
+    {
+      "id": 1,
+      "title": "Orders and Misunderstanding",
+      "file": "chapter-1.md"
+    },
+    {
+      "id": 2,
+      "title": "Into the Valley",
+      "file": "chapter-2.md"
+    },
+    {
+      "id": 3,
+      "title": "Why the Charge Endured",
+      "file": "chapter-3.md"
+    }
+  ]
+}

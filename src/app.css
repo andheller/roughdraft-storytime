@@ -1,2 +1,55 @@
 @import 'tailwindcss';
 @plugin '@tailwindcss/typography';
+@custom-variant dark (&:where(.dark, .dark *));
+
+:root {
+	--accent-color: #2563eb;
+	--font-family: Georgia, serif;
+}
+
+:root {
+	color-scheme: light;
+}
+
+:root.dark {
+	color-scheme: dark;
+}
+
+body {
+	font-family: var(--font-family);
+	background-color: #faf9f6;
+	color: #1c1917;
+	transition:
+		background-color 0.3s ease,
+		color 0.3s ease;
+}
+
+:root.dark body {
+	background-color: #121212;
+	color: #f5f5f4;
+}
+
+/* Theme Backgrounds - Solid colors, no mixing or overlays */
+.theme-bg {
+	@apply fixed inset-0 -z-10 transition-colors duration-500;
+}
+
+/* Light mode - Simple paper bg */
+:root:not(.dark) .theme-bg {
+	background-color: #faf9f6;
+}
+
+/* Dark mode - Solid deep bg */
+:root.dark .theme-bg {
+	background-color: #121212;
+}
+
+/* Accessibility */
+@media (prefers-reduced-motion: reduce) {
+	* {
+		animation-duration: 0.01ms !important;
+		animation-iteration-count: 1 !important;
+		transition-duration: 0.01ms !important;
+		scroll-behavior: auto !important;
+	}
+}

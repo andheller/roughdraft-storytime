@@ -1,0 +1,32 @@
+{
+  "title": "Spanish Armada",
+  "author": "Roughdraft Stories",
+  "description": "A factual retelling of the 1588 campaign in which England faced Spain's great invasion fleet in the Channel and beyond.",
+  "ageRange": "10-14",
+  "genre": "Narrative History",
+  "tags": [
+    "spanish armada",
+    "elizabeth i",
+    "naval history",
+    "england",
+    "spain",
+    "1588"
+  ],
+  "chapters": [
+    {
+      "id": 1,
+      "title": "Spain Builds an Invasion Fleet",
+      "file": "chapter-1.md"
+    },
+    {
+      "id": 2,
+      "title": "Fire in the Channel",
+      "file": "chapter-2.md"
+    },
+    {
+      "id": 3,
+      "title": "Why the Armada Failed",
+      "file": "chapter-3.md"
+    }
+  ]
+}

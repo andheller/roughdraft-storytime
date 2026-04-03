@@ -1,0 +1,32 @@
+{
+  "title": "Wounded Knee Massacre",
+  "author": "Roughdraft Stories",
+  "description": "This factual story follows the killing at Wounded Knee and the violent end of U.S. conquest policy on the Plains.",
+  "ageRange": "10-14",
+  "genre": "Narrative History",
+  "tags": [
+    "wounded knee",
+    "lakota",
+    "u.s. army",
+    "ghost dance",
+    "massacre",
+    "native american history"
+  ],
+  "chapters": [
+    {
+      "id": 1,
+      "title": "Fear on the Plains",
+      "file": "chapter-1.md"
+    },
+    {
+      "id": 2,
+      "title": "The Killing at Wounded Knee",
+      "file": "chapter-2.md"
+    },
+    {
+      "id": 3,
+      "title": "What the Massacre Meant",
+      "file": "chapter-3.md"
+    }
+  ]
+}

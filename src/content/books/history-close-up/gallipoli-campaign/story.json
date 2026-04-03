@@ -1,0 +1,32 @@
+{
+  "title": "Gallipoli Campaign",
+  "author": "Roughdraft Stories",
+  "description": "This factual account follows the failed Allied attempt to force the Dardanelles and the hard campaign that followed on the Gallipoli Peninsula.",
+  "ageRange": "10-14",
+  "genre": "Narrative History",
+  "tags": [
+    "gallipoli",
+    "world war i",
+    "ottoman empire",
+    "anzac",
+    "dardanelles",
+    "1915"
+  ],
+  "chapters": [
+    {
+      "id": 1,
+      "title": "The Straits and the Plan",
+      "file": "chapter-1.md"
+    },
+    {
+      "id": 2,
+      "title": "The Landings Under Fire",
+      "file": "chapter-2.md"
+    },
+    {
+      "id": 3,
+      "title": "The Campaign That Failed",
+      "file": "chapter-3.md"
+    }
+  ]
+}

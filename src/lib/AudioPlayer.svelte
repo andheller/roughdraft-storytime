@@ -102,7 +102,7 @@ $effect(() => {
 </script>
 
 {#if audioUrl}
-  <div class="bg-white/80 backdrop-blur-sm border border-gray-200 rounded-lg p-4 shadow-sm {className}">
+  <div class="bg-white/80 dark:bg-stone-900/80 backdrop-blur-md border border-stone-200 dark:border-white/10 rounded-2xl p-4 shadow-lg {className}">
     <audio
       bind:this={audioElement}
       src={audioUrl}
@@ -114,12 +114,13 @@ $effect(() => {
       onended={handleEnded}
     ></audio>
     
-    <div class="flex items-center gap-3">
+    <div class="flex items-center gap-4">
       <!-- Play/Pause Button -->
       <button 
         onclick={togglePlay}
         disabled={!isLoaded}
-        class="flex items-center justify-center w-10 h-10 bg-blue-600 hover:bg-blue-700 disabled:bg-gray-300 disabled:cursor-not-allowed text-white rounded-full transition-colors"
+        class="flex items-center justify-center w-12 h-12 shadow-md hover:scale-105 active:scale-95 disabled:bg-stone-300 dark:disabled:bg-stone-800 disabled:cursor-not-allowed text-white rounded-full transition-all duration-200"
+        style="background-color: var(--accent-color)"
         aria-label={isPlaying ? 'Pause' : 'Play'}
       >
         {#if isPlaying}
@@ -134,9 +135,13 @@ $effect(() => {
       </button>
       
       <!-- Progress Bar -->
-      <div class="flex-1 flex items-center gap-2">
+      <div class="flex-1 flex flex-col gap-1.5">
+        <div class="flex justify-between items-center text-[10px] font-bold uppercase tracking-wider text-stone-400 dark:text-stone-500">
+           <span>{formatTime(currentTime)}</span>
+           <span>{formatTime(duration)}</span>
+        </div>
         <div
-          class="flex-1 h-2 bg-gray-200 rounded-full cursor-pointer hover:bg-gray-300 transition-colors focus:outline-none focus:ring-2 focus:ring-blue-500"
+          class="flex-1 h-3 bg-stone-200 dark:bg-stone-800 rounded-full cursor-pointer overflow-hidden group focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-stone-400"
           onclick={seek}
           onkeydown={handleSliderKeydown}
           role="slider"
@@ -147,15 +152,9 @@ $effect(() => {
           aria-valuenow={currentTime}
         >
           <div 
-            class="h-full bg-blue-600 rounded-full transition-all duration-200"
-            style="width: {duration ? (currentTime / duration) * 100 : 0}%"
+            class="h-full transition-all duration-200 ease-out"
+            style="width: {duration ? (currentTime / duration) * 100 : 0}%; background-color: var(--accent-color)"
           ></div>
-        </div>
-        
-        <!-- Time Display -->
-        <div class="flex items-center gap-1 text-sm text-gray-600 font-mono">
-          <span class="text-gray-800">{formatTime(currentTime)}</span>
-          <span class="text-gray-500">{formatTime(duration)}</span>
         </div>
       </div>
       
@@ -163,7 +162,7 @@ $effect(() => {
       <div class="flex items-center">
         <button 
           onclick={() => setPlaybackRate(playbackRate === 1 ? 1.5 : playbackRate === 1.5 ? 0.75 : 1)}
-          class="px-2 py-1 text-sm bg-gray-100 hover:bg-gray-200 rounded border text-gray-700 transition-colors"
+          class="h-10 px-3 text-sm font-bold bg-stone-100 dark:bg-stone-800 hover:bg-stone-200 dark:hover:bg-stone-700 rounded-xl border border-stone-200 dark:border-white/5 text-stone-600 dark:text-stone-300 transition-colors"
           aria-label="Playback speed"
         >
           {playbackRate}x
@@ -172,29 +171,29 @@ $effect(() => {
     </div>
     
     {#if title}
-      <div class="mt-2 text-sm text-gray-600 font-medium">{title}</div>
+      <div class="mt-3 text-sm text-stone-600 dark:text-stone-400 font-medium px-1">{title}</div>
     {/if}
     
     <!-- Chapter Navigation -->
     {#if story}
-      <div class="flex justify-between items-center mt-4 pt-4 border-t border-gray-200">
+      <div class="flex justify-between items-center mt-4 pt-4 border-t border-stone-200 dark:border-white/10">
         <button
           onclick={goToPreviousChapter}
           disabled={currentChapter === 1}
-          class="flex items-center gap-2 px-3 py-2 bg-gray-100 hover:bg-gray-200 disabled:opacity-50 disabled:cursor-not-allowed rounded-lg transition-colors text-sm"
+          class="flex items-center gap-2 px-4 py-2 bg-stone-100 dark:bg-stone-800 hover:bg-stone-200 dark:hover:bg-stone-700 disabled:opacity-30 disabled:cursor-not-allowed rounded-xl transition-all text-sm font-semibold text-stone-600 dark:text-stone-300"
         >
           <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/>
           </svg>
-          Previous
+          Prev
         </button>
-        <span class="text-sm text-gray-600">
-          Chapter {currentChapter} of {story.chapters.length}
+        <span class="text-xs font-bold uppercase tracking-widest text-stone-400 dark:text-stone-500">
+          {currentChapter} / {story.chapters.length}
         </span>
         <button
           onclick={goToNextChapter}
           disabled={currentChapter === story.chapters.length}
-          class="flex items-center gap-2 px-3 py-2 bg-gray-100 hover:bg-gray-200 disabled:opacity-50 disabled:cursor-not-allowed rounded-lg transition-colors text-sm"
+          class="flex items-center gap-2 px-4 py-2 bg-stone-100 dark:bg-stone-800 hover:bg-stone-200 dark:hover:bg-stone-700 disabled:opacity-30 disabled:cursor-not-allowed rounded-xl transition-all text-sm font-semibold text-stone-600 dark:text-stone-300"
         >
           Next
           <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">

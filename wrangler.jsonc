@@ -1,7 +1,5 @@
 {
 	"name": "rough-draft-storytime",
 	"compatibility_date": "2025-07-07",
-	"assets": {
-		"directory": ".svelte-kit/cloudflare"
-	}
+	"pages_build_output_dir": "build"
 }

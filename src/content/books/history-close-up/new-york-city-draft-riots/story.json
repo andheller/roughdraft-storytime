@@ -1,0 +1,32 @@
+{
+  "title": "New York City Draft Riots",
+  "author": "Roughdraft Stories",
+  "description": "This factual narrative examines the 1863 riots that exposed class anger, political tension, and racist violence in wartime New York.",
+  "ageRange": "10-14",
+  "genre": "Narrative History",
+  "tags": [
+    "civil war",
+    "new york city draft riots",
+    "racism",
+    "mob violence",
+    "draft",
+    "1863"
+  ],
+  "chapters": [
+    {
+      "id": 1,
+      "title": "A City Ready to Explode",
+      "file": "chapter-1.md"
+    },
+    {
+      "id": 2,
+      "title": "Violence in the Streets",
+      "file": "chapter-2.md"
+    },
+    {
+      "id": 3,
+      "title": "What the Riots Exposed",
+      "file": "chapter-3.md"
+    }
+  ]
+}

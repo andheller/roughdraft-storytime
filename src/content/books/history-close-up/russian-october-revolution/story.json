@@ -1,0 +1,32 @@
+{
+  "title": "Russian October Revolution",
+  "author": "Roughdraft Stories",
+  "description": "A factual story of the Bolshevik seizure of power in Petrograd and the collapse of the Provisional Government in 1917.",
+  "ageRange": "10-14",
+  "genre": "Narrative History",
+  "tags": [
+    "russian revolution",
+    "october revolution",
+    "lenin",
+    "trotsky",
+    "petrograd",
+    "1917"
+  ],
+  "chapters": [
+    {
+      "id": 1,
+      "title": "Russia on the Edge",
+      "file": "chapter-1.md"
+    },
+    {
+      "id": 2,
+      "title": "The Seizure of Petrograd",
+      "file": "chapter-2.md"
+    },
+    {
+      "id": 3,
+      "title": "How October Changed the Century",
+      "file": "chapter-3.md"
+    }
+  ]
+}

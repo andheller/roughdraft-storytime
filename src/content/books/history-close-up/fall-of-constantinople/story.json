@@ -1,0 +1,32 @@
+{
+  "title": "Fall of Constantinople",
+  "author": "Roughdraft Stories",
+  "description": "This factual narrative follows the 1453 siege that ended the Byzantine Empire and remade the balance of power in the eastern Mediterranean.",
+  "ageRange": "10-14",
+  "genre": "Narrative History",
+  "tags": [
+    "constantinople",
+    "ottoman empire",
+    "byzantine empire",
+    "1453",
+    "siege",
+    "medieval history"
+  ],
+  "chapters": [
+    {
+      "id": 1,
+      "title": "The Last Capital of Byzantium",
+      "file": "chapter-1.md"
+    },
+    {
+      "id": 2,
+      "title": "The Walls Under Assault",
+      "file": "chapter-2.md"
+    },
+    {
+      "id": 3,
+      "title": "The City That Changed Hands",
+      "file": "chapter-3.md"
+    }
+  ]
+}

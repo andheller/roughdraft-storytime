@@ -1,0 +1,32 @@
+{
+  "title": "Storming of the Bastille",
+  "author": "Roughdraft Stories",
+  "description": "A factual retelling of the day Paris crowds seized the Bastille and turned a political crisis into a revolution in the streets.",
+  "ageRange": "10-14",
+  "genre": "Narrative History",
+  "tags": [
+    "french revolution",
+    "bastille",
+    "paris",
+    "revolution",
+    "1789",
+    "france"
+  ],
+  "chapters": [
+    {
+      "id": 1,
+      "title": "Paris Before the Storm",
+      "file": "chapter-1.md"
+    },
+    {
+      "id": 2,
+      "title": "The Fortress Falls",
+      "file": "chapter-2.md"
+    },
+    {
+      "id": 3,
+      "title": "Why the Bastille Mattered",
+      "file": "chapter-3.md"
+    }
+  ]
+}

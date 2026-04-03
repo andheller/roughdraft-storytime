@@ -1,0 +1,32 @@
+{
+  "title": "Battle of Hampton Roads",
+  "author": "Roughdraft Stories",
+  "description": "A factual account of the ironclad clash between USS Monitor and CSS Virginia that changed naval war forever.",
+  "ageRange": "10-14",
+  "genre": "Narrative History",
+  "tags": [
+    "civil war",
+    "hampton roads",
+    "monitor",
+    "virginia",
+    "ironclads",
+    "naval history"
+  ],
+  "chapters": [
+    {
+      "id": 1,
+      "title": "Wooden Fleets Meet Iron",
+      "file": "chapter-1.md"
+    },
+    {
+      "id": 2,
+      "title": "Monitor Against Virginia",
+      "file": "chapter-2.md"
+    },
+    {
+      "id": 3,
+      "title": "A New Age at Sea",
+      "file": "chapter-3.md"
+    }
+  ]
+}

@@ -1,38 +1,43 @@
-# sv
+# Roughdraft Storytime
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+Static SvelteKit story library with build-time content generation.
 
-## Creating a project
-
-If you're seeing this, you've probably already done this step. Congrats!
+## Commands
 
 ```bash
-# create a new project in the current directory
-npx sv create
-
-# create a new project in my-app
-npx sv create my-app
+pnpm dev
+pnpm build
+pnpm preview
+pnpm content:generate
 ```
 
-## Developing
+## Content Model
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+All authored content lives under `src/content/books`.
 
-```bash
-npm run dev
+- `series.json` defines a series
+- `story.json` defines story metadata and chapter order
+- chapter markdown files hold story content
+- optional `narration/*.txt` files add narration text
+- optional `/static/audio/.../audio-manifest.json` files add audio metadata
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+The app generates:
 
-## Building
+- a lightweight content index for the homepage and route discovery
+- per-story modules for full chapter content
+- bookshelf metadata derived from the content tree
 
-To create a production version of your app:
+## Deployment
 
-```bash
-npm run build
-```
+The site now builds as a fully static output with `@sveltejs/adapter-static`.
 
-You can preview the production build with `npm run preview`.
+GitHub Actions workflow:
 
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+- `.github/workflows/deploy-static.yml`
+
+It builds the site and deploys `build/` to Cloudflare Pages using:
+
+- `CLOUDFLARE_API_TOKEN`
+- `CLOUDFLARE_ACCOUNT_ID`
+
+The Cloudflare Pages project name is `rough-draft-storytime`.

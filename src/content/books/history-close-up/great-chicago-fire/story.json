@@ -1,0 +1,32 @@
+{
+  "title": "Great Chicago Fire",
+  "author": "Roughdraft Stories",
+  "description": "A factual account of the fire that tore through Chicago in 1871 and forced the city to rebuild after catastrophe.",
+  "ageRange": "10-14",
+  "genre": "Narrative History",
+  "tags": [
+    "great chicago fire",
+    "chicago",
+    "urban history",
+    "fire",
+    "1871",
+    "disaster"
+  ],
+  "chapters": [
+    {
+      "id": 1,
+      "title": "A City Built to Burn",
+      "file": "chapter-1.md"
+    },
+    {
+      "id": 2,
+      "title": "The Fire Runs Wild",
+      "file": "chapter-2.md"
+    },
+    {
+      "id": 3,
+      "title": "How Chicago Rebuilt",
+      "file": "chapter-3.md"
+    }
+  ]
+}

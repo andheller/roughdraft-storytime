@@ -1,64 +1,46 @@
 <script>
 	import StoryReader from '$lib/StoryReader.svelte';
-	import DesignPicker from '$lib/DesignPicker.svelte';
 	import { browser } from '$app/environment';
 	import { goto } from '$app/navigation';
 	import { page } from '$app/stores';
 
 	let { data } = $props();
 
-	let storyId = data.storyId;
 	let seriesId = data.seriesId;
-	
-	// Start with server-side theme data (defaults for prerendered pages)
-	let currentDesign = $state(data.theme);
+	let story = data.story;
+
+	const seoTitle = `${story.title} | ${story.author} | Roughdraft Storytime`;
+	const seoKeywords = [
+		story.title,
+		seriesId.replaceAll('-', ' '),
+		story.genre,
+		story.ageRange,
+		story.author,
+		...(story.tags || []),
+		'kids story',
+		"children's book",
+		'read aloud',
+		'storytime'
+	].join(', ');
+	const canonicalPath = $derived($page.url.pathname);
+
 	let isTransitioningBack = $state(false);
-	
-	// Load actual theme from cookies after hydration
-	if (browser) {
-		const savedTheme = document.cookie
-			.split('; ')
-			.find(row => row.startsWith('story-theme='))
-			?.split('=')[1];
-		
-		const savedFont = document.cookie
-			.split('; ')
-			.find(row => row.startsWith('story-font='))
-			?.split('=')[1];
-		
-		if (savedTheme || savedFont) {
-			currentDesign = {
-				theme: savedTheme || 'white',
-				fontType: savedFont || 'serif'
-			};
-		}
-		
-		// Apply theme class to document for CSS custom properties
-		updateThemeClass();
-	}
-	
-	function updateThemeClass() {
-		if (browser) {
-			// Remove existing theme classes
-			document.documentElement.classList.remove('theme-white', 'theme-dark', 'theme-sepia');
-			// Add current theme class
-			document.documentElement.classList.add(`theme-${currentDesign.theme}`);
-		}
-	}
 
 	// Only show slide-in animation if navigating from bookshelf
 	let shouldSlideIn = $state(false);
-	
+
 	// Check if we came from the bookshelf page
 	if (browser) {
 		// Check navigation state first (most reliable)
 		const fromBookshelf = window.history.state?.from === 'bookshelf';
-		
+
 		// Fallback to referrer check
 		const referrer = document.referrer;
-		const isFromBookshelfReferrer = referrer && referrer.includes(window.location.origin) && 
-									  (referrer.endsWith('/') || referrer.includes('/#'));
-		
+		const isFromBookshelfReferrer =
+			referrer &&
+			referrer.includes(window.location.origin) &&
+			(referrer.endsWith('/') || referrer.includes('/#'));
+
 		if (fromBookshelf || isFromBookshelfReferrer) {
 			shouldSlideIn = true;
 		}
@@ -71,133 +53,108 @@
 		}, 250);
 	}
 
-	const themes = {
-		white: {
-			bgColor: 'bg-white',
-			textColor: 'text-gray-900',
-			mutedColor: 'text-gray-600'
-		},
-		dark: {
-			bgColor: 'bg-gray-900',
-			textColor: 'text-white',
-			mutedColor: 'text-gray-300'
-		},
-		sepia: {
-			bgColor: 'bg-orange-50',
-			textColor: 'text-orange-900',
-			mutedColor: 'text-orange-700'
-		}
-	};
+	function handleBackClick(event) {
+		if (!browser) return;
 
-	function handleDesignChange(design) {
-		currentDesign = design;
-		
-		// Save to cookies
-		if (browser) {
-			document.cookie = `story-theme=${design.theme}; path=/; max-age=${60 * 60 * 24 * 365}`; // 1 year
-			document.cookie = `story-font=${design.fontType}; path=/; max-age=${60 * 60 * 24 * 365}`; // 1 year
-			// Update theme class for immediate visual feedback
-			updateThemeClass();
-		}
+		event.preventDefault();
+		handleBackNavigation();
 	}
-
-	const currentTheme = $derived(themes[currentDesign.theme]);
 </script>
 
 <svelte:head>
-	<title>{storyId} - Kids Story Collection</title>
-	<meta name="description" content="Children's story" />
-	<meta
-		name="keywords"
-		content="kids story, children's book, {storyId.toLowerCase()}, children's literature"
-	/>
-	<meta property="og:title" content={storyId} />
-	<meta property="og:description" content="Children's story" />
+	<title>{seoTitle}</title>
+	<meta name="description" content={story.description} />
+	<meta name="keywords" content={seoKeywords} />
+	<meta name="author" content={story.author} />
+	<meta name="robots" content="index,follow,max-image-preview:large" />
+	<link rel="canonical" href={canonicalPath} />
+	<meta property="og:title" content={seoTitle} />
+	<meta property="og:description" content={story.description} />
 	<meta property="og:type" content="book" />
+	<meta property="og:url" content={canonicalPath} />
+	<meta property="og:site_name" content="Roughdraft Storytime" />
+	<meta property="book:author" content={story.author} />
+	<meta property="book:tag" content={(story.tags || []).join(', ')} />
+	<meta name="twitter:card" content="summary" />
+	<meta name="twitter:title" content={seoTitle} />
+	<meta name="twitter:description" content={story.description} />
 </svelte:head>
 
-<div class="min-h-screen {currentTheme.bgColor} story-page {shouldSlideIn ? 'slide-in' : ''} {isTransitioningBack ? 'transitioning-back' : ''}">
+<div
+	class="story-page min-h-screen {shouldSlideIn ? 'slide-in' : ''} {isTransitioningBack
+		? 'transitioning-back'
+		: ''}"
+>
 	<div class="container mx-auto px-4 py-6">
-		<div class="flex items-center justify-between mb-8">
-			<button onclick={handleBackNavigation} class="inline-flex items-center gap-2 px-4 py-2 {currentTheme.mutedColor} hover:{currentTheme.textColor} transition-colors">
+		<div class="mb-8 flex items-center justify-between">
+			<a
+				href="/"
+				onclick={handleBackClick}
+				class="inline-flex items-center gap-2 px-4 py-2 text-stone-600 opacity-80 transition-opacity hover:opacity-100 dark:text-stone-200"
+			>
 				<svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-					<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
+					<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"
+					></path>
 				</svg>
 				<span class="font-medium">Back to Stories</span>
-			</button>
-			
-			<DesignPicker onDesignChange={handleDesignChange} />
+			</a>
 		</div>
 
-		<StoryReader {seriesId} {storyId} {currentDesign} {currentTheme} />
+		<StoryReader {story} />
 	</div>
 </div>
 
 <style>
 	@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;1,400&family=Merriweather:ital,wght@0,400;0,700;1,400&family=Lora:ital,wght@0,400;0,600;1,400&family=Inter:wght@400;500;600&display=swap');
-	
-	/* CSS Custom Properties for Theme Switching */
-	:root {
-		--theme-bg: white;
-		--theme-text: #111827;
-		--theme-muted: #6b7280;
-	}
-	
-	/* Theme variations */
-	:global(.theme-dark) {
-		--theme-bg: #111827;
-		--theme-text: white;
-		--theme-muted: #d1d5db;
-	}
-	
-	:global(.theme-sepia) {
-		--theme-bg: #fef7ed;
-		--theme-text: #9a3412;
-		--theme-muted: #c2410c;
-	}
-	
+
 	/* Page Transition - Slide from Right (only when navigating from bookshelf) */
 	.story-page {
 		/* Default: no transition, page loads normally */
 		transform: translateX(0);
-		opacity: 1;
+		color: #1c1917;
+	}
+
+	:global(.dark) .story-page {
+		color: #f5f5f4;
 	}
 
 	.story-page.slide-in {
 		/* Initial state when navigating from bookshelf */
 		transform: translateX(100%);
-		opacity: 0;
 		animation: slideInFromRight 0.5s cubic-bezier(0.4, 0, 0.2, 1) forwards;
 	}
 
 	/* Back Navigation - Slide to Right */
 	.story-page.transitioning-back {
 		transform: translateX(100%);
-		opacity: 0;
-		transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.3s ease;
+		transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
 	}
 
 	@keyframes slideInFromRight {
-		from { transform: translateX(100%); opacity: 0; }
-		to { transform: translateX(0); opacity: 1; }
+		from {
+			transform: translateX(100%);
+		}
+		to {
+			transform: translateX(0);
+		}
 	}
-	
+
 	:global(.font-crimson) {
 		font-family: 'Crimson Text', serif;
 	}
-	
+
 	:global(.font-merriweather) {
 		font-family: 'Merriweather', serif;
 	}
-	
+
 	:global(.font-lora) {
 		font-family: 'Lora', serif;
 	}
-	
+
 	:global(.font-inter) {
 		font-family: 'Inter', sans-serif;
 	}
-	
+
 	:global(.font-georgia) {
 		font-family: 'Georgia', serif;
 	}

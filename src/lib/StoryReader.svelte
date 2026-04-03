@@ -1,47 +1,30 @@
 <script>
+	import { browser } from '$app/environment';
 	import { parseMarkdown } from './markdown.js';
-	import { loadStory, getChapterAudioUrl } from './content-loader.js';
 	import AudioPlayer from './AudioPlayer.svelte';
+	import { themeState } from './theme.svelte.js';
 
-	let { seriesId, storyId, currentDesign, currentTheme } = $props();
+	let { story } = $props();
 
-	let story = $state(null);
-	let chaptersWithContent = $state([]);
 	let currentChapter = $state(1);
-	let currentAudioUrl = $state(null);
-
-	$effect(() => {
-		async function loadStoryData() {
-			try {
-				const storyData = await loadStory(seriesId, storyId);
-				story = storyData;
-				
-				// Parse all chapters at once for SEO and continuous reading
-				chaptersWithContent = storyData.chapters.map((chapter) => ({
+	const chaptersWithContent = $derived(
+		story
+			? story.chapters.map((chapter) => ({
 					...chapter,
 					html: parseMarkdown(chapter.content)
-				}));
-				
-				// Set initial audio URL if available
-				if (storyData.audio?.available) {
-					currentAudioUrl = getChapterAudioUrl(seriesId, storyId, currentChapter);
-				}
-			} catch (error) {
-				console.error('Failed to load story:', error);
-			}
-		}
-		
-		loadStoryData();
-	});
+				}))
+			: []
+	);
 
-	// Update audio URL when chapter changes
-	$effect(() => {
-		if (story?.audio?.available) {
-			// Check if current chapter has audio
-			const chapterAudio = story.audio.chapters.find(ch => ch.id === currentChapter);
-			currentAudioUrl = chapterAudio ? chapterAudio.audioUrl : null;
-		}
-	});
+	const currentAudioUrl = $derived(
+		story?.audio?.available
+			? story.audio.chapters.find((ch) => ch.id === currentChapter)?.audioUrl || null
+			: null
+	);
+
+	const currentAudioTitle = $derived(
+		story ? story.chapters.find((chapter) => chapter.id === currentChapter)?.title || '' : ''
+	);
 
 	function scrollToChapter(chapterNumber) {
 		const element = document.getElementById(`chapter-${chapterNumber}`);
@@ -65,51 +48,68 @@
 		}
 	}
 
-	const fontClass = $derived(currentDesign.fontType === 'serif' ? 'font-serif' : 'font-sans');
+	const fontClass = $derived(themeState.font === 'serif' ? 'font-serif' : 'font-sans');
 </script>
 
 {#if story && chaptersWithContent.length > 0}
-	<div class="story-container mx-auto max-w-4xl">
+	<div class="story-container mx-auto max-w-5xl px-5 py-3 sm:px-8 lg:px-12">
 		<!-- Story Header -->
-		<header class="mb-16 py-8">
-			<h1 class="mb-6 {fontClass} text-5xl font-bold {currentTheme.textColor} leading-tight">
+		<header class="mb-8 py-6">
+			<h1
+				class="mb-6 {fontClass} text-5xl leading-tight font-bold text-stone-950 dark:text-stone-100"
+			>
 				{story.title}
 			</h1>
-			
-			<p class="mb-8 text-xl {currentTheme.mutedColor} leading-relaxed max-w-3xl">
+
+			<p class="mb-8 max-w-3xl text-xl leading-relaxed text-stone-700 dark:text-stone-400">
 				{story.description}
 			</p>
-			
-			<div class="flex flex-wrap gap-6 mb-12 {currentTheme.mutedColor}">
+
+			<div class="mb-8 flex flex-wrap gap-6 text-stone-600 dark:text-stone-400">
 				<div class="flex items-center gap-2">
-					<svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.746 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/>
+					<svg class="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+						<path
+							stroke-linecap="round"
+							stroke-linejoin="round"
+							stroke-width="2"
+							d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.746 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"
+						/>
 					</svg>
 					<span class="font-medium">{story.chapters.length} Chapters</span>
 				</div>
 				<div class="flex items-center gap-2">
-					<svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
+					<svg class="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+						<path
+							stroke-linecap="round"
+							stroke-linejoin="round"
+							stroke-width="2"
+							d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
+						/>
 					</svg>
 					<span class="font-medium">~{Math.ceil(story.chapters.length * 3)} min read</span>
 				</div>
 				{#if story.audio?.available}
 					<div class="flex items-center gap-2">
-						<svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M9 12a3 3 0 106 0 3 3 0 00-6 0z"/>
+						<svg class="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+							<path
+								stroke-linecap="round"
+								stroke-linejoin="round"
+								stroke-width="2"
+								d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M9 12a3 3 0 106 0 3 3 0 00-6 0z"
+							/>
 						</svg>
 						<span class="font-medium">Audio Available ({story.audio.voice})</span>
 					</div>
 				{/if}
 			</div>
-			
+
 			<!-- Audio Player -->
 			{#if story.audio?.available}
 				<div class="mb-8">
-					{#if currentAudioUrl}
-						<AudioPlayer 
-							bind:audioUrl={currentAudioUrl}
-							title="Chapter {currentChapter}"
+					{#if browser && currentAudioUrl}
+						<AudioPlayer
+							audioUrl={currentAudioUrl}
+							title={`Chapter ${currentChapter}: ${currentAudioTitle}`}
 							onEnded={goToNextChapter}
 							className="max-w-2xl"
 							{currentChapter}
@@ -117,45 +117,79 @@
 							{goToNextChapter}
 							{goToPreviousChapter}
 						/>
-					{:else}
-						<div class="max-w-2xl bg-gray-100 border border-gray-200 rounded-lg p-4">
-							<div class="flex items-center gap-2 text-gray-600">
-								<svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-									<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M9 12a3 3 0 106 0 3 3 0 00-6 0z"/>
+					{:else if browser}
+						<div
+							class="max-w-2xl rounded-lg border border-stone-200 bg-stone-100 p-4 dark:border-white/10 dark:bg-white/5"
+						>
+							<div class="flex items-center gap-2 text-stone-600 dark:text-stone-400">
+								<svg class="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+									<path
+										stroke-linecap="round"
+										stroke-linejoin="round"
+										stroke-width="2"
+										d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M9 12a3 3 0 106 0 3 3 0 00-6 0z"
+									/>
 								</svg>
 								<span>Audio not available for Chapter {currentChapter}</span>
+							</div>
+						</div>
+					{:else}
+						<div
+							class="max-w-2xl rounded-2xl border border-stone-200 bg-white/75 p-5 shadow-sm dark:border-white/10 dark:bg-white/5"
+						>
+							<h3
+								class="mb-3 text-sm font-semibold tracking-widest text-stone-700 uppercase dark:text-stone-300"
+							>
+								Chapter Audio
+							</h3>
+							<div class="space-y-4">
+								{#each story.audio.chapters as audioChapter (audioChapter.id)}
+									<div class="rounded-xl bg-stone-50 p-3 dark:bg-stone-900/60">
+										<div class="mb-2 text-sm font-medium text-stone-800 dark:text-stone-200">
+											Chapter {audioChapter.id}:
+											{story.chapters.find((chapter) => chapter.id === audioChapter.id)?.title ||
+												`Chapter ${audioChapter.id}`}
+										</div>
+										<audio class="w-full" controls preload="none" src={audioChapter.audioUrl}>
+											<a href={audioChapter.audioUrl}>Listen to chapter {audioChapter.id}</a>
+										</audio>
+									</div>
+								{/each}
 							</div>
 						</div>
 					{/if}
 				</div>
 			{/if}
-			
+
 			<!-- Table of Contents -->
-			<div class="mb-8">
-				<h2 class="mb-6 {fontClass} text-2xl font-semibold {currentTheme.textColor}">Table of Contents</h2>
-				<div class="grid gap-2 md:grid-cols-2 lg:grid-cols-3">
-					{#each story.chapters as chapter, index (chapter.number)}
-						<button
-							onclick={() => scrollToChapter(chapter.number)}
-							class="group flex items-center gap-3 p-3 text-left transition-all hover:opacity-80 rounded-lg"
+			<div class="no-lift mb-6">
+				<h2
+					class="mb-4 {fontClass} text-lg font-semibold tracking-widest text-stone-700 uppercase opacity-70 dark:text-stone-200 dark:opacity-80"
+				>
+					Contents
+				</h2>
+				<div class="grid gap-0.5 sm:grid-cols-2">
+					{#each story.chapters as chapter (chapter.number)}
+						<a
+							href="#chapter-{chapter.number}"
+							class="flex items-baseline gap-3 rounded-lg px-2 py-2 text-left transition-colors hover:bg-stone-100/90 dark:hover:bg-white/5"
 							title="Jump to {chapter.title}"
 						>
-							<div class="flex h-6 w-6 items-center justify-center text-sm font-bold {currentTheme.mutedColor}">
-								{chapter.number}
-							</div>
-							<div class="flex-1">
-								<div class="font-medium {currentTheme.textColor}">{chapter.title}</div>
-							</div>
-						</button>
+							<span
+								class="w-5 shrink-0 text-right text-xs text-stone-500 tabular-nums dark:text-stone-100 dark:opacity-40"
+								>{chapter.number}</span
+							>
+							<span class="font-medium text-stone-900 dark:text-stone-100">{chapter.title}</span>
+						</a>
 					{/each}
 				</div>
 			</div>
 		</header>
 
-
-
 		<!-- All Chapters -->
-		<main class="prose prose-lg max-w-none {fontClass} story-content {currentTheme.textColor}">
+		<main
+			class="prose prose-lg prose-stone dark:prose-invert max-w-none text-stone-900 {fontClass} story-content dark:text-stone-100"
+		>
 			{#each chaptersWithContent as chapter (chapter.number)}
 				<section id="chapter-{chapter.number}" class="mb-4 scroll-mt-24">
 					<div class="chapter-content py-8">
@@ -165,14 +199,16 @@
 				</section>
 			{/each}
 		</main>
-		
+
 		<!-- Story End -->
 		<div class="not-prose mt-20 py-12 text-center">
-			<div class="mb-6 text-4xl font-bold {currentTheme.textColor}">🎉 The End! 🎉</div>
-			<p class="mb-8 {fontClass} text-xl {currentTheme.mutedColor}">Thanks for reading "{story.title}"!</p>
+			<div class="mb-6 text-4xl font-bold text-stone-900 dark:text-stone-100">🎉 The End! 🎉</div>
+			<p class="mb-8 {fontClass} text-xl text-stone-600 dark:text-stone-400">
+				Thanks for reading "{story.title}"!
+			</p>
 			<a
 				href="/"
-				class="inline-block px-8 py-3 font-medium {currentTheme.mutedColor} hover:{currentTheme.textColor} transition-colors underline underline-offset-4"
+				class="inline-block px-8 py-3 font-medium text-stone-600 underline underline-offset-4 transition-colors hover:text-stone-900 dark:text-stone-400 dark:hover:text-stone-100"
 			>
 				Read More Stories
 			</a>
@@ -198,15 +234,22 @@
 		margin-bottom: 1rem;
 	}
 
-	/* Make continue buttons more prominent */
+	:global(.story-container a),
 	:global(.story-container button) {
 		font-weight: 500;
-		transition: all 0.3s ease;
+		transition: all 0.2s ease;
 	}
 
-	:global(.story-container button:hover) {
-		transform: translateY(-2px);
-		box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+	:global(.story-container a:not(.no-lift *):hover),
+	:global(.story-container button:not(.no-lift *):hover) {
+		transform: translateY(-1px);
+		box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+	}
+
+	:global(.story-container .no-lift a:hover),
+	:global(.story-container .no-lift button:hover) {
+		transform: none;
+		box-shadow: none;
 	}
 
 	/* Ensure all story content inherits the text color */
@@ -237,9 +280,6 @@
 
 	:global(.story-container .prose p:first-of-type) {
 		text-indent: 0;
-		font-size: 1.3em;
-		font-weight: 600;
-		opacity: 0.9;
 	}
 
 	:global(.story-container .prose em) {
