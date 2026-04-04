@@ -145,9 +145,6 @@
 		}
 	];
 
-	let animatingBook = $state(null);
-	let isTransitioning = $state(false);
-	let isReturning = $state(false);
 	let activeFilter = $state('all');
 	let searchQuery = $state('');
 	let displayMode = $state('spines');
@@ -157,22 +154,6 @@
 	const backgroundColor = '#0f1a12';
 	const backgroundForegroundOpacity = 0.40;
 	const selectedBackgroundPattern = 'hexagons';
-
-	// Check if we're returning from a story page
-	if (browser) {
-		// Check for navigation state from back button
-		const fromStory = window.history.state?.from === 'story';
-		const referrer = document.referrer;
-		const isStoryReferrer =
-			referrer &&
-			referrer.includes(window.location.origin) &&
-			!referrer.endsWith('/') &&
-			!referrer.includes('/#');
-
-		if (fromStory || isStoryReferrer) {
-			isReturning = true;
-		}
-	}
 
 	// Calculate books per shelf based on screen size
 	let booksPerShelf = $state(5);
@@ -243,15 +224,7 @@
 	});
 
 	function selectBook(book) {
-		animatingBook = book.id;
-		// Start page transition immediately with book animation
-		setTimeout(() => {
-			isTransitioning = true;
-		}, 100);
-		// Navigate after book animation completes
-		setTimeout(() => {
-			goto(`/${book.seriesId}/${book.storyId}`, { state: { from: 'bookshelf' } });
-		}, 400);
+		goto(`/${book.seriesId}/${book.storyId}`);
 	}
 
 	function handleKeyDown(event, book) {
@@ -493,11 +466,7 @@
 	<title>Bookshelf - Kids Story Collection</title>
 </svelte:head>
 
-<div
-	class="bookshelf-room {isTransitioning ? 'transitioning-out' : ''} {isReturning
-		? 'returning'
-		: ''} transition-all duration-700"
->
+<div class="bookshelf-room">
 	<!-- Subtle Background Pattern -->
 	<div class="wallpaper-background" style={wallpaperStyle}></div>
 
@@ -550,9 +519,7 @@
 							{#each featuredShelf as book (book.id)}
 								<div class="book-item">
 									<button
-										class="book-card featured-book-card {animatingBook === book.id
-											? 'selected'
-											: ''} covers"
+										class="book-card featured-book-card covers"
 										style="--book-color: {book.leatherColor}; --book-width: {getDisplayWidth(
 											book
 										)}px; --book-height: {getDisplayHeight(book)}px; --book-depth: {getDisplayDepth(
@@ -658,7 +625,7 @@
 								{/if}
 
 								<button
-									class="book-card {animatingBook === book.id ? 'selected' : ''} {displayMode}"
+									class="book-card {displayMode}"
 									style="--book-color: {book.leatherColor}; --book-width: {displayMode === 'spines'
 										? getSpineWidth(book)
 										: getDisplayWidth(book)}px; --book-height: {getDisplayHeight(
@@ -1710,32 +1677,6 @@
 			transform: translate(var(--x), var(--y)) scale(1.5);
 			opacity: 0;
 		}
-	}
-
-	/* Page Transition Effects */
-	.bookshelf-room {
-		transition:
-			transform 0.5s cubic-bezier(0.4, 0, 0.2, 1),
-			opacity 0.3s ease;
-	}
-
-	.bookshelf-room.transitioning-out {
-		transform: translateX(-100%);
-		opacity: 0.8;
-	}
-
-	/* Return from Story - Slide from Left */
-	.bookshelf-room.returning {
-		transform: translateX(-100%);
-		opacity: 0;
-		animation: slideFromLeft 0.5s cubic-bezier(0.4, 0, 0.2, 1) forwards;
-	}
-
-	/* Ensure normal page loads don't have transition */
-	.bookshelf-room:not(.returning):not(.transitioning-out) {
-		transform: translateX(0);
-		opacity: 1;
-		transition: none;
 	}
 
 	/* Animations */
