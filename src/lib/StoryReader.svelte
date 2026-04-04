@@ -52,7 +52,7 @@
 </script>
 
 {#if story && chaptersWithContent.length > 0}
-	<div class="story-container mx-auto max-w-5xl px-5 py-3 sm:px-8 lg:px-12">
+	<div class="story-container mx-auto max-w-[700px] px-5 py-3 sm:px-8">
 		<!-- Story Header -->
 		<header class="mb-8 py-6">
 			<h1
@@ -273,7 +273,7 @@
 
 	:global(.story-container .prose p) {
 		margin-bottom: 1.75rem;
-		text-indent: 2em;
+		text-indent: 1em;
 		font-size: 1.35rem;
 		line-height: 1.8;
 	}

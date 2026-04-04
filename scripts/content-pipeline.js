@@ -10,18 +10,133 @@ const INDEX_OUTPUT_FILE = path.join(GENERATED_ROOT, 'content-index.js');
 const AUDIO_ROOT = path.join(STATIC_ROOT, 'audio');
 
 const COVER_EXTENSIONS = ['.jpg', '.jpeg', '.png', '.webp', '.svg'];
-const BOOK_PALETTES = [
-	{ color: '#8B4513', leatherColor: 'hsl(25, 70%, 35%)' },
-	{ color: '#2E8B57', leatherColor: 'hsl(146, 50%, 36%)' },
-	{ color: '#4682B4', leatherColor: 'hsl(207, 44%, 49%)' },
-	{ color: '#C47A2C', leatherColor: 'hsl(32, 63%, 47%)' },
-	{ color: '#7A6A4F', leatherColor: 'hsl(39, 21%, 40%)' },
-	{ color: '#7FB6D6', leatherColor: 'hsl(204, 49%, 55%)' },
-	{ color: '#D48B3A', leatherColor: 'hsl(32, 64%, 53%)' },
-	{ color: '#4FA3D9', leatherColor: 'hsl(202, 65%, 47%)' },
-	{ color: '#F28C8C', leatherColor: 'hsl(0, 76%, 75%)' },
-	{ color: '#6B7280', leatherColor: 'hsl(220, 9%, 46%)' }
-];
+
+// Content-aware color palettes — grouped by series/genre/theme
+const THEMED_PALETTES = {
+	// American Revolution — dignified coordinated set
+	'am-rev': [
+		'hsl(215, 52%, 24%)',  // navy
+		'hsl(0, 40%, 30%)',    // burgundy
+		'hsl(140, 34%, 28%)',  // forest
+		'hsl(225, 30%, 30%)',  // slate blue
+	],
+	// French Revolution / Napoleonic
+	'french-rev': [
+		'hsl(225, 45%, 26%)',  // deep royal blue
+		'hsl(0, 38%, 28%)',    // dark crimson
+		'hsl(32, 45%, 26%)',   // dark bronze
+	],
+	// Naval / Civil War
+	'naval': [
+		'hsl(210, 48%, 22%)',  // deep navy
+		'hsl(195, 40%, 22%)',  // dark steel blue
+		'hsl(180, 38%, 20%)',  // deep teal
+	],
+	// World History — broader palette
+	'world-history': [
+		'hsl(90, 28%, 23%)',   // dark olive
+		'hsl(18, 43%, 29%)',   // terracotta
+		'hsl(330, 28%, 22%)',  // dark mauve
+		'hsl(225, 25%, 28%)',  // dark slate
+		'hsl(32, 40%, 25%)',   // dark bronze
+	],
+	// Silly Squirrels — warm and playful
+	'silly-squirrels': [
+		'hsl(32, 55%, 32%)',   // warm amber
+		'hsl(140, 28%, 32%)', // sage green
+		'hsl(18, 50%, 30%)',   // russet
+		'hsl(28, 48%, 28%)',   // warm leather
+		'hsl(80, 22%, 30%)',   // olive-green
+	],
+	// Humor / Comedy
+	'humor': [
+		'hsl(300, 28%, 28%)',  // plum
+		'hsl(32, 50%, 30%)',   // amber
+		'hsl(18, 40%, 32%)',   // warm terracotta
+		'hsl(160, 28%, 28%)', // muted teal
+	],
+	// Fantasy
+	'fantasy': [
+		'hsl(270, 32%, 26%)',  // deep purple
+		'hsl(180, 38%, 22%)',  // dark teal
+		'hsl(300, 30%, 24%)',  // dark plum
+	],
+	// Adventure / Sci-fi
+	'adventure': [
+		'hsl(210, 38%, 28%)',  // steel blue
+		'hsl(180, 32%, 26%)', // teal
+		'hsl(225, 28%, 30%)',  // slate
+	],
+	// Historical fiction
+	'historical-fiction': [
+		'hsl(28, 50%, 25%)',   // dark leather
+		'hsl(0, 38%, 28%)',    // burgundy
+		'hsl(32, 42%, 28%)',   // warm brown
+	],
+	// Realistic / Drama
+	'drama': [
+		'hsl(330, 25%, 25%)',  // muted wine
+		'hsl(210, 25%, 28%)', // quiet blue
+		'hsl(150, 22%, 26%)', // muted sage
+	],
+};
+
+// Determine which themed palette fits a story
+function getThemedPalette(story) {
+	const seriesId = story.seriesId;
+	const tags = (story.tags || []).join(' ').toLowerCase();
+	const genre = (story.genre || '').toLowerCase();
+
+	if (seriesId === 'silly-squirrels') return THEMED_PALETTES['silly-squirrels'];
+
+	if (seriesId === 'history-close-up') {
+		if (tags.includes('american revolution')) return THEMED_PALETTES['am-rev'];
+		if (tags.includes('french revolution') || tags.includes('napoleon')) return THEMED_PALETTES['french-rev'];
+		if (tags.includes('uss') || tags.includes('naval') || tags.includes('hampton roads')
+			|| tags.includes('civil war') || tags.includes('hunley')) return THEMED_PALETTES['naval'];
+		return THEMED_PALETTES['world-history'];
+	}
+
+	if (seriesId === 'the-reluctant-revolutionaries' || seriesId === 'downriver') {
+		return THEMED_PALETTES['historical-fiction'];
+	}
+
+	if (genre.includes('fantasy')) return THEMED_PALETTES['fantasy'];
+	if (genre.includes('science fiction') || genre.includes('adventure')) return THEMED_PALETTES['adventure'];
+	if (genre.includes('realistic') || genre.includes('magical realism')) return THEMED_PALETTES['drama'];
+	if (genre.includes('humor') || genre.includes('comedy') || genre.includes('humorous')) {
+		return THEMED_PALETTES['humor'];
+	}
+	if (genre.includes('historical')) return THEMED_PALETTES['historical-fiction'];
+
+	return THEMED_PALETTES['humor']; // fallback
+}
+
+// Determine accent band metal — warm books get gold, cool books get silver
+function deriveAccentMetal(leatherColor, hash) {
+	// ~18% of books get no accent bands
+	if (hash % 11 < 2) return 'none';
+	const hueMatch = leatherColor.match(/hsl\((\d+)/);
+	const hue = hueMatch ? parseInt(hueMatch[1]) : 0;
+	// ~10% get copper (warm hues only)
+	if (hash % 9 === 0 && (hue <= 60 || hue >= 300)) return 'copper';
+	// Warm hues → gold, cool hues → silver
+	if ((hue >= 0 && hue <= 60) || (hue >= 300 && hue <= 360)) return 'gold';
+	return 'silver';
+}
+
+// Determine band visual style
+function deriveBandStyle(hash) {
+	const pick = hash % 7;
+	if (pick < 3) return 'double';       // ~43% — classic two bands
+	if (pick < 5) return 'single-top';   // ~29% — one band near top
+	return 'triple';                      // ~28% — three thin stripes
+}
+
+// Band position offset — varies from 8% to 14% from edge
+function deriveBandOffset(hash) {
+	return 8 + (hash % 7); // 8–14
+}
 
 function hashString(value) {
 	let hash = 0;
@@ -124,7 +239,9 @@ async function resolveCoverImage(seriesId, storyId, storyData) {
 
 function deriveBookshelfData(story, position) {
 	const hash = hashString(`${story.seriesId}/${story.storyId}`);
-	const palette = BOOK_PALETTES[hash % BOOK_PALETTES.length];
+	const palette = getThemedPalette(story);
+	const leatherColor = palette[hash % palette.length];
+	const accentHash = hashString(story.title + 'accent');
 
 	return {
 		id: `${story.seriesId}--${story.storyId}`,
@@ -138,8 +255,10 @@ function deriveBookshelfData(story, position) {
 		tags: story.tags,
 		hasAudio: Boolean(story.audio?.available),
 		standalone: story.standalone,
-		color: palette.color,
-		leatherColor: palette.leatherColor,
+		leatherColor,
+		accentMetal: deriveAccentMetal(leatherColor, accentHash),
+		bandStyle: deriveBandStyle(accentHash),
+		bandOffset: deriveBandOffset(accentHash),
 		emoji: deriveEmoji(story),
 		coverImage: story.coverImage,
 		height: 236 + (hash % 28),

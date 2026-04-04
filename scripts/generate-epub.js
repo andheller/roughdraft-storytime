@@ -198,7 +198,7 @@ async function discoverSeries() {
 	return seriesRecords.sort((left, right) => left.seriesId.localeCompare(right.seriesId));
 }
 
-function renderStoryMarkdown(story) {
+function renderStoryMarkdown(story, options = {}) {
 	const parts = [
 		buildFrontmatter({
 			title: story.title,
@@ -208,7 +208,7 @@ function renderStoryMarkdown(story) {
 		})
 	];
 
-	if (story.description) {
+	if (options.includeDescription && story.description) {
 		parts.push('## Description');
 		parts.push('');
 		parts.push(story.description.trim());
@@ -223,7 +223,7 @@ function renderStoryMarkdown(story) {
 	return parts.join('\n').trim() + '\n';
 }
 
-function renderSeriesCollectionMarkdown(series) {
+function renderSeriesCollectionMarkdown(series, options = {}) {
 	const collectionTitle = `${series.seriesTitle}: Complete Collection`;
 	const parts = [
 		buildFrontmatter({
@@ -234,7 +234,7 @@ function renderSeriesCollectionMarkdown(series) {
 		})
 	];
 
-	if (series.seriesDescription) {
+	if (options.includeDescription && series.seriesDescription) {
 		parts.push('## Description');
 		parts.push('');
 		parts.push(series.seriesDescription.trim());
@@ -266,8 +266,13 @@ function ensurePandocInstalled() {
 	}
 }
 
-function runPandoc(markdownPath, epubPath) {
-	const result = spawnSync('pandoc', [markdownPath, '-o', epubPath, '--toc', '--split-level=1'], {
+function runPandoc(markdownPath, epubPath, options = {}) {
+	const pandocArgs = [markdownPath, '-o', epubPath, '--split-level=1'];
+	if (options.includeToc) {
+		pandocArgs.push('--toc');
+	}
+
+	const result = spawnSync('pandoc', pandocArgs, {
 		encoding: 'utf8'
 	});
 
@@ -276,12 +281,12 @@ function runPandoc(markdownPath, epubPath) {
 	}
 }
 
-async function writeEpub(markdown, epubPath, tempRoot) {
+async function writeEpub(markdown, epubPath, tempRoot, options = {}) {
 	await fs.mkdir(path.dirname(epubPath), { recursive: true });
 	await fs.mkdir(tempRoot, { recursive: true });
 	const tempMarkdownPath = path.join(tempRoot, `${slugify(path.basename(epubPath, '.epub'))}.md`);
 	await fs.writeFile(tempMarkdownPath, markdown, 'utf8');
-	runPandoc(tempMarkdownPath, epubPath);
+	runPandoc(tempMarkdownPath, epubPath, options);
 }
 
 function selectSeries(seriesRecords, options) {
@@ -306,11 +311,11 @@ async function generate(options) {
 	for (const series of seriesRecords) {
 		if (!options.collectionOnly) {
 			for (const story of series.stories) {
-				const storyMarkdown = renderStoryMarkdown(story);
+				const storyMarkdown = renderStoryMarkdown(story, options);
 				const storyFileName = `${slugify(story.storyId)}.epub`;
 				const storyEpubPath = path.join(outputRoot, 'stories', series.seriesId, storyFileName);
 				try {
-					await writeEpub(storyMarkdown, storyEpubPath, tempRoot);
+					await writeEpub(storyMarkdown, storyEpubPath, tempRoot, options);
 					generated.push({
 						type: 'story',
 						seriesId: series.seriesId,
@@ -326,11 +331,11 @@ async function generate(options) {
 		}
 
 		if (options.withCollections) {
-			const collectionMarkdown = renderSeriesCollectionMarkdown(series);
+			const collectionMarkdown = renderSeriesCollectionMarkdown(series, options);
 			const collectionFileName = `${slugify(series.seriesId)}-complete-collection.epub`;
 			const collectionEpubPath = path.join(outputRoot, 'collections', collectionFileName);
 			try {
-				await writeEpub(collectionMarkdown, collectionEpubPath, tempRoot);
+				await writeEpub(collectionMarkdown, collectionEpubPath, tempRoot, options);
 				generated.push({
 					type: 'collection',
 					seriesId: series.seriesId,
@@ -409,6 +414,16 @@ async function main() {
 						type: 'boolean',
 						default: false,
 						describe: 'Generate only series collections (skip per-story EPUBs)'
+					})
+					.option('include-description', {
+						type: 'boolean',
+						default: false,
+						describe: 'Include visible description pages in generated EPUB content'
+					})
+					.option('include-toc', {
+						type: 'boolean',
+						default: false,
+						describe: 'Include a generated table of contents page in the EPUB body'
 					}),
 			(args) => generate(args)
 		)

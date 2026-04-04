@@ -1,5 +1,6 @@
 <script>
 	import StoryReader from '$lib/StoryReader.svelte';
+	import ThemeSwitcher from '$lib/ThemeSwitcher.svelte';
 	import { browser } from '$app/environment';
 	import { goto } from '$app/navigation';
 	import { page } from '$app/stores';
@@ -98,6 +99,10 @@
 				</svg>
 				<span class="font-medium">Back to Stories</span>
 			</a>
+
+			<div class="shrink-0">
+				<ThemeSwitcher />
+			</div>
 		</div>
 
 		<StoryReader {story} />

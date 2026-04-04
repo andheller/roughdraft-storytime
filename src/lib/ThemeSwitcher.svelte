@@ -1,119 +1,119 @@
 <script>
-	import { themeState } from './theme.svelte.js';
+	import { themeState, PALETTES } from './theme.svelte.js';
 
-	function toggleAppearance(val) {
-		themeState.setAppearance(val);
+	let isOpen = $state(false);
+
+	function toggleMenu() {
+		isOpen = !isOpen;
 	}
 
-	function toggleFont(val) {
-		themeState.setFont(val);
+	function closeMenu() {
+		isOpen = false;
 	}
-
-	const pillClass =
-		'inline-flex items-center gap-0.5 rounded-full border border-stone-300/90 bg-white/92 p-1 text-stone-700 shadow-[0_10px_30px_rgba(15,23,42,0.12)] ring-1 ring-white/80 backdrop-blur-md dark:border-white/10 dark:bg-white/6 dark:text-stone-200 dark:ring-white/5';
-	const buttonClass =
-		'inline-flex h-8 w-8 items-center justify-center rounded-full transition-all duration-200';
-	const activeClass =
-		'bg-stone-950 text-white shadow-sm dark:bg-white dark:text-stone-950';
-	const inactiveClass =
-		'text-stone-500 hover:bg-stone-100 hover:text-stone-800 dark:text-white/45 dark:hover:bg-white/8 dark:hover:text-white/80';
-	const fontButtonClass =
-		'inline-flex h-8 items-center justify-center rounded-full px-3 text-sm font-medium transition-all duration-200';
 </script>
 
-<div class="flex items-center gap-2 sm:gap-3">
-	<!-- Appearance Toggle -->
-	<div class={pillClass}>
-		<!-- System -->
-		<button
-			type="button"
-			onclick={() => toggleAppearance('system')}
-			class="{buttonClass} {themeState.appearance === 'system' ? activeClass : inactiveClass}"
-			aria-label="System theme"
-		>
-			<svg
-				class="h-4 w-4"
-				viewBox="0 0 24 24"
-				fill="none"
-				stroke="currentColor"
-				stroke-width="2"
-				stroke-linecap="round"
-				stroke-linejoin="round"
-			>
-				<rect x="2" y="3" width="20" height="14" rx="2" ry="2" />
-				<line x1="8" y1="21" x2="16" y2="21" />
-				<line x1="12" y1="17" x2="12" y2="21" />
-			</svg>
-		</button>
-		<!-- Light -->
-		<button
-			type="button"
-			onclick={() => toggleAppearance('light')}
-			class="{buttonClass} {themeState.appearance === 'light' ? activeClass : inactiveClass}"
-			aria-label="Light theme"
-		>
-			<svg
-				class="h-4 w-4"
-				viewBox="0 0 24 24"
-				fill="none"
-				stroke="currentColor"
-				stroke-width="2"
-				stroke-linecap="round"
-				stroke-linejoin="round"
-			>
-				<circle cx="12" cy="12" r="5" />
-				<line x1="12" y1="1" x2="12" y2="3" />
-				<line x1="12" y1="21" x2="12" y2="23" />
-				<line x1="4.22" y1="4.22" x2="5.64" y2="5.64" />
-				<line x1="18.36" y1="18.36" x2="19.78" y2="19.78" />
-				<line x1="1" y1="12" x2="3" y2="12" />
-				<line x1="21" y1="12" x2="23" y2="12" />
-				<line x1="4.22" y1="19.78" x2="5.64" y2="18.36" />
-				<line x1="18.36" y1="5.64" x2="19.78" y2="4.22" />
-			</svg>
-		</button>
-		<!-- Dark -->
-		<button
-			type="button"
-			onclick={() => toggleAppearance('dark')}
-			class="{buttonClass} {themeState.appearance === 'dark' ? activeClass : inactiveClass}"
-			aria-label="Dark theme"
-		>
-			<svg
-				class="h-4 w-4"
-				viewBox="0 0 24 24"
-				fill="none"
-				stroke="currentColor"
-				stroke-width="2"
-				stroke-linecap="round"
-				stroke-linejoin="round"
-			>
-				<path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" />
-			</svg>
-		</button>
-	</div>
+<svelte:window
+	onclick={(event) => {
+		if (!event.target.closest('[data-theme-switcher]')) {
+			closeMenu();
+		}
+	}}
+	onkeydown={(event) => {
+		if (event.key === 'Escape') {
+			closeMenu();
+		}
+	}}
+/>
 
-	<!-- Font Toggle -->
-	<div class={pillClass}>
-		<button
-			type="button"
-			onclick={() => toggleFont('serif')}
-			class="{fontButtonClass} {themeState.font === 'serif'
-				? activeClass
-				: inactiveClass}"
-			style="font-family: Georgia, serif;"
+<div class="relative" data-theme-switcher>
+	<button
+		type="button"
+		class="inline-flex h-10 w-10 items-center justify-center rounded-full border border-stone-300/70 bg-white/82 text-stone-600 shadow-[0_12px_28px_rgba(15,23,42,0.08)] ring-1 ring-white/75 backdrop-blur-md transition-all duration-200 hover:bg-white hover:text-stone-900 dark:border-white/10 dark:bg-white/6 dark:text-stone-300 dark:ring-white/5 dark:hover:bg-white/10 dark:hover:text-stone-100"
+		aria-label="Reader appearance settings"
+		aria-expanded={isOpen}
+		aria-haspopup="true"
+		onclick={toggleMenu}
+	>
+		<svg
+			class="h-5 w-5"
+			viewBox="0 0 24 24"
+			fill="none"
+			stroke="currentColor"
+			stroke-width="2"
+			stroke-linecap="round"
+			stroke-linejoin="round"
 		>
-			Aa
-		</button>
-		<button
-			type="button"
-			onclick={() => toggleFont('sans')}
-			class="{fontButtonClass} {themeState.font === 'sans'
-				? activeClass
-				: inactiveClass}"
-			style="font-family: system-ui, sans-serif;"
+			<circle cx="5" cy="12" r="1.5" />
+			<circle cx="12" cy="12" r="1.5" />
+			<circle cx="19" cy="12" r="1.5" />
+		</svg>
+	</button>
+
+	{#if isOpen}
+		<div
+			class="absolute right-0 top-full z-20 mt-2 rounded-2xl border border-stone-200/80 bg-white/95 p-3 shadow-[0_22px_50px_rgba(15,23,42,0.18)] ring-1 ring-white/70 backdrop-blur-xl dark:border-white/10 dark:bg-stone-950/90 dark:ring-white/5"
+			role="menu"
+			aria-label="Reader appearance settings"
 		>
-			Aa
-		</button>
-	</div>
+			<!-- Palette swatches -->
+			<div class="flex items-center gap-2.5 px-1">
+				{#each Object.values(PALETTES) as palette (palette.id)}
+					<button
+						type="button"
+						onclick={() => {
+							themeState.setPalette(palette.id);
+							closeMenu();
+						}}
+						class="relative h-5 w-5 shrink-0 rounded-full transition-transform duration-150 hover:scale-110 focus:outline-none"
+						style="background: {palette.swatch};"
+						aria-label={palette.label}
+						aria-pressed={themeState.palette === palette.id}
+					>
+						{#if themeState.palette === palette.id}
+							<span
+								class="pointer-events-none absolute -inset-[3px] rounded-full ring-2 ring-stone-500 dark:ring-stone-300"
+							></span>
+						{/if}
+					</button>
+				{/each}
+			</div>
+
+			<!-- Divider -->
+			<div class="my-2.5 border-t border-stone-200/70 dark:border-white/8"></div>
+
+			<!-- Font toggle -->
+			<div class="flex items-center gap-1">
+				<button
+					type="button"
+					onclick={() => {
+						themeState.setFont('serif');
+						closeMenu();
+					}}
+					class="flex-1 rounded-xl py-1.5 text-sm font-medium transition-all duration-200 {themeState.font ===
+					'serif'
+						? 'bg-stone-950 text-white dark:bg-white dark:text-stone-950'
+						: 'text-stone-500 hover:bg-stone-100 hover:text-stone-800 dark:text-white/45 dark:hover:bg-white/8 dark:hover:text-white/80'}"
+					style="font-family: Lora, Georgia, serif"
+					aria-pressed={themeState.font === 'serif'}
+				>
+					Aa
+				</button>
+				<button
+					type="button"
+					onclick={() => {
+						themeState.setFont('sans');
+						closeMenu();
+					}}
+					class="flex-1 rounded-xl py-1.5 text-sm font-medium transition-all duration-200 {themeState.font ===
+					'sans'
+						? 'bg-stone-950 text-white dark:bg-white dark:text-stone-950'
+						: 'text-stone-500 hover:bg-stone-100 hover:text-stone-800 dark:text-white/45 dark:hover:bg-white/8 dark:hover:text-white/80'}"
+					style="font-family: Inter, system-ui, sans-serif"
+					aria-pressed={themeState.font === 'sans'}
+				>
+					Aa
+				</button>
+			</div>
+		</div>
+	{/if}
 </div>

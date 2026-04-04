@@ -8,30 +8,28 @@
 			// Prevent theme flash by bootstrapping the same theme settings used by themeState.
 			(function () {
 				const root = document.documentElement;
-				const defaults = {
-					appearance: 'system',
-					font: 'serif'
-				};
-				const validAppearance = new Set(['system', 'light', 'dark']);
+				const darkPalettes = new Set(['night', 'midnight']);
+				const validPalettes = new Set(['paper', 'daylight', 'dusk', 'night', 'midnight']);
 				const validFont = new Set(['serif', 'sans']);
 
 				try {
 					const saved = localStorage.getItem('theme-settings');
 					const parsed = saved ? JSON.parse(saved) : {};
-					const settings = {
-						appearance: validAppearance.has(parsed.appearance)
-							? parsed.appearance
-							: defaults.appearance,
-						font: validFont.has(parsed.font) ? parsed.font : defaults.font
-					};
-					const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-					const isDark =
-						settings.appearance === 'dark' || (settings.appearance === 'system' && prefersDark);
 
-					root.classList.toggle('dark', isDark);
-					root.classList.toggle('font-serif', settings.font === 'serif');
-					root.classList.toggle('font-sans', settings.font === 'sans');
+					// Migrate old appearance setting
+					let palette = parsed.palette;
+					if (!palette && parsed.appearance) {
+						palette = parsed.appearance === 'dark' ? 'midnight' : 'daylight';
+					}
+					palette = validPalettes.has(palette) ? palette : 'daylight';
+					const font = validFont.has(parsed.font) ? parsed.font : 'serif';
+
+					root.classList.toggle('dark', darkPalettes.has(palette));
+					root.setAttribute('data-palette', palette);
+					root.classList.toggle('font-serif', font === 'serif');
+					root.classList.toggle('font-sans', font === 'sans');
 				} catch (_) {
+					root.setAttribute('data-palette', 'daylight');
 					root.classList.add('font-serif');
 				}
 			})();

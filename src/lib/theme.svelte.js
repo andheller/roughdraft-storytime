@@ -1,15 +1,46 @@
 import { browser } from '$app/environment';
 
-// Default values
-const DEFAULT_APPEARANCE = 'system';
+const DEFAULT_PALETTE = 'daylight';
 const DEFAULT_FONT = 'serif';
-const ACCENT_COLOR = '#2563eb';
 
-const APPEARANCE_OPTIONS = new Set(['system', 'light', 'dark']);
+export const PALETTES = {
+	paper: {
+		id: 'paper',
+		label: 'Paper',
+		dark: false,
+		swatch: '#d9c9a8'
+	},
+	daylight: {
+		id: 'daylight',
+		label: 'Daylight',
+		dark: false,
+		swatch: '#c4c0b8'
+	},
+	dusk: {
+		id: 'dusk',
+		label: 'Dusk',
+		dark: false,
+		swatch: '#e0a83c'
+	},
+	night: {
+		id: 'night',
+		label: 'Night',
+		dark: true,
+		swatch: '#2d4a6e'
+	},
+	midnight: {
+		id: 'midnight',
+		label: 'Midnight',
+		dark: true,
+		swatch: '#2a2a2c'
+	}
+};
+
+const PALETTE_KEYS = new Set(Object.keys(PALETTES));
 const FONT_OPTIONS = new Set(['serif', 'sans']);
 
-function sanitizeAppearance(value) {
-	return APPEARANCE_OPTIONS.has(value) ? value : DEFAULT_APPEARANCE;
+function sanitizePalette(value) {
+	return PALETTE_KEYS.has(value) ? value : DEFAULT_PALETTE;
 }
 
 function sanitizeFont(value) {
@@ -17,19 +48,12 @@ function sanitizeFont(value) {
 }
 
 class ThemeState {
-	appearance = $state(DEFAULT_APPEARANCE);
+	palette = $state(DEFAULT_PALETTE);
 	font = $state(DEFAULT_FONT);
 
 	constructor() {
 		if (browser) {
 			this.load();
-
-			// Listen for system theme changes
-			window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => {
-				if (this.appearance === 'system') {
-					this.apply();
-				}
-			});
 		}
 	}
 
@@ -38,7 +62,12 @@ class ThemeState {
 		if (saved) {
 			try {
 				const settings = JSON.parse(saved);
-				this.appearance = sanitizeAppearance(settings.appearance);
+				// Migrate from old appearance system
+				let palette = settings.palette;
+				if (!palette && settings.appearance) {
+					palette = settings.appearance === 'dark' ? 'midnight' : DEFAULT_PALETTE;
+				}
+				this.palette = sanitizePalette(palette);
 				this.font = sanitizeFont(settings.font);
 			} catch (e) {
 				console.error('Failed to parse theme settings', e);
@@ -51,17 +80,14 @@ class ThemeState {
 		if (browser) {
 			localStorage.setItem(
 				'theme-settings',
-				JSON.stringify({
-					appearance: this.appearance,
-					font: this.font
-				})
+				JSON.stringify({ palette: this.palette, font: this.font })
 			);
 			this.apply();
 		}
 	}
 
-	setAppearance(val) {
-		this.appearance = sanitizeAppearance(val);
+	setPalette(val) {
+		this.palette = sanitizePalette(val);
 		this.save();
 	}
 
@@ -72,29 +98,26 @@ class ThemeState {
 
 	apply() {
 		if (!browser) return;
-
 		const root = document.documentElement;
+		const paletteConfig = PALETTES[this.palette];
 
-		// Handle appearance (light/dark/system)
-		const isDark =
-			this.appearance === 'dark' ||
-			(this.appearance === 'system' && window.matchMedia('(prefers-color-scheme: dark)').matches);
-
-		if (isDark) {
+		// Set dark class for Tailwind dark: variants
+		if (paletteConfig.dark) {
 			root.classList.add('dark');
 		} else {
 			root.classList.remove('dark');
 		}
 
-		// Accent is fixed to blue across the app.
-		root.style.setProperty('--accent-color', ACCENT_COLOR);
+		// Set data attribute for palette-specific CSS
+		root.setAttribute('data-palette', this.palette);
 
+		// Font
 		if (this.font === 'serif') {
-			root.style.setProperty('--font-family', 'Georgia, serif');
+			root.style.setProperty('--font-family', '"Lora", Georgia, serif');
 			root.classList.add('font-serif');
 			root.classList.remove('font-sans');
 		} else {
-			root.style.setProperty('--font-family', 'system-ui, sans-serif');
+			root.style.setProperty('--font-family', '"Inter", system-ui, sans-serif');
 			root.classList.add('font-sans');
 			root.classList.remove('font-serif');
 		}

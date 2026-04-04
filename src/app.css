@@ -3,8 +3,7 @@
 @custom-variant dark (&:where(.dark, .dark *));
 
 :root {
-	--accent-color: #2563eb;
-	--font-family: Georgia, serif;
+	--font-family: 'Lora', Georgia, serif;
 }
 
 :root {
@@ -17,31 +16,44 @@
 
 body {
 	font-family: var(--font-family);
-	background-color: #faf9f6;
+	background-color: #f8f8f6;
 	color: #1c1917;
 	transition:
-		background-color 0.3s ease,
+		background-color 0.4s ease,
 		color 0.3s ease;
 }
 
-:root.dark body {
-	background-color: #121212;
-	color: #f5f5f4;
+/* Palette backgrounds */
+:root[data-palette='paper'] body,
+:root[data-palette='paper'] .theme-bg {
+	background-color: #faf6f0;
 }
 
-/* Theme Backgrounds - Solid colors, no mixing or overlays */
+:root[data-palette='daylight'] body,
+:root[data-palette='daylight'] .theme-bg {
+	background-color: #f8f8f6;
+}
+
+:root[data-palette='dusk'] body,
+:root[data-palette='dusk'] .theme-bg {
+	background-color: #fdf4e3;
+}
+
+:root[data-palette='night'] body,
+:root[data-palette='night'] .theme-bg {
+	background-color: #192132;
+	color: #c0c8d8;
+}
+
+:root[data-palette='midnight'] body,
+:root[data-palette='midnight'] .theme-bg {
+	background-color: #111113;
+	color: #d0ccc4;
+}
+
+/* Theme Backgrounds */
 .theme-bg {
 	@apply fixed inset-0 -z-10 transition-colors duration-500;
-}
-
-/* Light mode - Simple paper bg */
-:root:not(.dark) .theme-bg {
-	background-color: #faf9f6;
-}
-
-/* Dark mode - Solid deep bg */
-:root.dark .theme-bg {
-	background-color: #121212;
 }
 
 /* Accessibility */
