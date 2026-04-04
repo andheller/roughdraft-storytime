@@ -3,6 +3,14 @@
 	import { browser } from '$app/environment';
 	import { onMount } from 'svelte';
 	import { getBookshelfBooks } from '$lib/content-loader.js';
+	import {
+		absoluteUrl,
+		DEFAULT_OG_IMAGE,
+		HOME_DESCRIPTION,
+		HOME_TITLE,
+		SITE_NAME,
+		SITE_URL
+	} from '$lib/site.js';
 
 	const bookList = getBookshelfBooks();
 	const filterDefinitions = [
@@ -144,6 +152,42 @@
 			`
 		}
 	];
+	const HOME_LOGO = {
+		src: '/optimized/logo-sign-480.webp',
+		srcset:
+			'/optimized/logo-sign-320.webp 320w, /optimized/logo-sign-480.webp 480w, /optimized/logo-sign-640.webp 640w',
+		sizes: '(max-width: 480px) 88vw, (max-width: 1024px) 480px, 640px',
+		width: 480,
+		height: 320
+	};
+	const homeCanonicalUrl = absoluteUrl('/');
+	const homeStructuredData = JSON.stringify({
+		'@context': 'https://schema.org',
+		'@type': 'CollectionPage',
+		name: HOME_TITLE,
+		description: HOME_DESCRIPTION,
+		url: homeCanonicalUrl,
+		isPartOf: {
+			'@type': 'WebSite',
+			name: SITE_NAME,
+			url: SITE_URL
+		},
+		about: [
+			'Kids stories',
+			'Read aloud stories',
+			'Funny stories for kids',
+			'Historical stories for kids'
+		]
+	});
+	const COVER_IMAGE_VARIANTS = {
+		'/covers/silly-squirrels.jpg': {
+			src: '/optimized/silly-squirrels-160.webp',
+			srcset: '/optimized/silly-squirrels-160.webp 160w, /optimized/silly-squirrels-320.webp 320w',
+			sizes: '(max-width: 480px) 120px, (max-width: 768px) 136px, 160px',
+			width: 160,
+			height: 213
+		}
+	};
 
 	let activeFilter = $state('all');
 	let searchQuery = $state('');
@@ -152,7 +196,7 @@
 	// Wallpaper: study green + hexagons
 	const backgroundForegroundColor = '#1a3020';
 	const backgroundColor = '#0f1a12';
-	const backgroundForegroundOpacity = 0.40;
+	const backgroundForegroundOpacity = 0.4;
 	const selectedBackgroundPattern = 'hexagons';
 
 	// Calculate books per shelf based on screen size
@@ -240,7 +284,6 @@
 		return Math.round(210 + (book.height - 230) * 1.8);
 	}
 
-
 	function getDisplayWidth(book) {
 		// Maintain ~2/3 aspect ratio
 		return Math.round(getDisplayHeight(book) * 0.67);
@@ -248,6 +291,10 @@
 
 	function getDisplayDepth(book) {
 		return Math.max(16, Math.round(book.thickness * 0.32));
+	}
+
+	function getCoverImageProps(book) {
+		return COVER_IMAGE_VARIANTS[book.coverImage] ?? null;
 	}
 
 	function getSpineWidth(book) {
@@ -463,7 +510,28 @@
 </script>
 
 <svelte:head>
-	<title>Bookshelf - Kids Story Collection</title>
+	<title>{HOME_TITLE}</title>
+	<meta name="description" content={HOME_DESCRIPTION} />
+	<meta name="robots" content="index,follow,max-image-preview:large" />
+	<link rel="canonical" href={homeCanonicalUrl} />
+	<link
+		rel="preload"
+		as="image"
+		href={HOME_LOGO.src}
+		imagesrcset={HOME_LOGO.srcset}
+		imagesizes={HOME_LOGO.sizes}
+	/>
+	<meta property="og:title" content={HOME_TITLE} />
+	<meta property="og:description" content={HOME_DESCRIPTION} />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content={homeCanonicalUrl} />
+	<meta property="og:site_name" content={SITE_NAME} />
+	<meta property="og:image" content={DEFAULT_OG_IMAGE} />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:title" content={HOME_TITLE} />
+	<meta name="twitter:description" content={HOME_DESCRIPTION} />
+	<meta name="twitter:image" content={DEFAULT_OG_IMAGE} />
+	{@html `<script type="application/ld+json">${homeStructuredData}</script>`}
 </svelte:head>
 
 <div class="bookshelf-room">
@@ -493,7 +561,25 @@
 	<div class="container">
 		<header class="bookshelf-header">
 			<div class="logo-container">
-				<img src="/logo-sign.webp" alt="Roughdraft Storytime" class="logo" />
+				<img
+					src={HOME_LOGO.src}
+					srcset={HOME_LOGO.srcset}
+					sizes={HOME_LOGO.sizes}
+					width={HOME_LOGO.width}
+					height={HOME_LOGO.height}
+					alt="Roughdraft Storytime"
+					class="logo"
+					fetchpriority="high"
+					loading="eager"
+					decoding="async"
+				/>
+			</div>
+			<div class="hero-copy">
+				<h1>{SITE_NAME}</h1>
+				<p>
+					Online kids stories for read-aloud time, bedtime, and independent readers, from silly
+					adventures to narrative history.
+				</p>
 			</div>
 		</header>
 
@@ -540,11 +626,18 @@
 																{book.title}
 															</h3>
 															{#if book.coverImage}
+																{@const coverImageProps = getCoverImageProps(book)}
 																<div class="book-cover-image-container">
 																	<img
-																		src={book.coverImage}
+																		src={coverImageProps?.src ?? book.coverImage}
+																		srcset={coverImageProps?.srcset}
+																		sizes={coverImageProps?.sizes}
 																		alt={book.title}
 																		class="book-cover-image"
+																		width={coverImageProps?.width}
+																		height={coverImageProps?.height}
+																		loading="lazy"
+																		decoding="async"
 																	/>
 																</div>
 															{/if}
@@ -656,11 +749,18 @@
 																{book.title}
 															</h3>
 															{#if book.coverImage}
+																{@const coverImageProps = getCoverImageProps(book)}
 																<div class="book-cover-image-container">
 																	<img
-																		src={book.coverImage}
+																		src={coverImageProps?.src ?? book.coverImage}
+																		srcset={coverImageProps?.srcset}
+																		sizes={coverImageProps?.sizes}
 																		alt={book.title}
 																		class="book-cover-image"
+																		width={coverImageProps?.width}
+																		height={coverImageProps?.height}
+																		loading="lazy"
+																		decoding="async"
 																	/>
 																</div>
 															{/if}
@@ -807,7 +907,29 @@
 		width: 100%;
 		height: auto;
 		display: block;
+		aspect-ratio: 3 / 2;
 		filter: drop-shadow(0 10px 30px rgba(0, 0, 0, 0.3));
+	}
+
+	.hero-copy {
+		max-width: 44rem;
+		text-align: center;
+	}
+
+	.hero-copy h1 {
+		margin: 0 0 0.65rem;
+		font-size: clamp(1.9rem, 4vw, 3.1rem);
+		line-height: 0.95;
+		font-weight: 800;
+		letter-spacing: -0.04em;
+		color: #fff8ef;
+	}
+
+	.hero-copy p {
+		margin: 0;
+		font-size: clamp(1rem, 1.4vw, 1.12rem);
+		line-height: 1.6;
+		color: rgba(255, 248, 237, 0.82);
 	}
 
 	.featured-shelf-section {
@@ -914,6 +1036,11 @@
 		padding: 0.75rem 0 0;
 	}
 
+	.bookshelf-container > .shelf-row {
+		content-visibility: auto;
+		contain-intrinsic-size: 24rem;
+	}
+
 	.empty-filter-state {
 		margin: 2rem auto 0;
 		max-width: 26rem;
@@ -1012,7 +1139,7 @@
 				transparent 40%,
 				rgba(0, 0, 0, 0.2) 100%
 			),
-			url('/grain-options/2.jpg');
+			url('/optimized/shelf-wood-texture.webp');
 		background-size: cover;
 		background-blend-mode: multiply, normal, overlay;
 		box-shadow:
@@ -1044,7 +1171,7 @@
 			#4d3321;
 		background-image:
 			linear-gradient(180deg, rgba(0, 0, 0, 0.3) 0%, transparent 20%, rgba(0, 0, 0, 0.4) 100%),
-			url('/grain-options/2.jpg');
+			url('/optimized/shelf-wood-texture.webp');
 		background-size: cover;
 		background-blend-mode: normal, overlay;
 		box-shadow:
@@ -1060,8 +1187,12 @@
 		height: 2.75rem;
 		border-radius: 0.2rem 0.2rem 1.5rem 1.5rem;
 		background: #3a2619;
-		background-image: url('/grain-options/4.png');
-		background-size: cover;
+		background-image:
+			linear-gradient(180deg, rgba(255, 255, 255, 0.08), rgba(0, 0, 0, 0.28)),
+			url('/optimized/shelf-bracket-texture.webp');
+		background-size:
+			cover,
+			96px 96px;
 		box-shadow:
 			0 0.8rem 1.5rem rgba(0, 0, 0, 0.6),
 			inset 0 1px 1px rgba(255, 255, 255, 0.05);
@@ -1339,8 +1470,8 @@
 		content: '';
 		position: absolute;
 		inset: 0;
-		background-image: url('/texture/paper.png');
-		background-size: 200px;
+		background-image: url('/optimized/paper-texture.webp');
+		background-size: 160px;
 		opacity: 0.05;
 		z-index: 1;
 		mix-blend-mode: overlay;
@@ -1435,8 +1566,9 @@
 		transform: rotateY(-90deg);
 		background: #fff;
 		background-image:
-			linear-gradient(to right, rgba(0, 0, 0, 0.1), transparent 20%), url('/texture/paper.png');
-		background-size: cover, 100px;
+			linear-gradient(to right, rgba(0, 0, 0, 0.1), transparent 20%),
+			url('/optimized/paper-texture.webp');
+		background-size: cover, 160px;
 		box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.05);
 	}
 
@@ -1449,8 +1581,8 @@
 		transform-origin: center top;
 		transform: rotateX(-90deg);
 		background: #fafafa;
-		background-image: url('/texture/paper.png');
-		background-size: 100px;
+		background-image: url('/optimized/paper-texture.webp');
+		background-size: 160px;
 	}
 
 	.book-pages-bottom {
@@ -1463,8 +1595,9 @@
 		transform: rotateX(90deg);
 		background: #fafafa;
 		background-image:
-			linear-gradient(to bottom, rgba(0, 0, 0, 0.1), transparent 20%), url('/texture/paper.png');
-		background-size: cover, 100px;
+			linear-gradient(to bottom, rgba(0, 0, 0, 0.1), transparent 20%),
+			url('/optimized/paper-texture.webp');
+		background-size: cover, 160px;
 	}
 
 	/* Spine - rotated 90deg to face left */
@@ -1485,7 +1618,7 @@
 				transparent 70%,
 				rgba(0, 0, 0, 0.2)
 			),
-			url('/texture/leather.webp');
+			url('/optimized/leather-texture.webp');
 		background-blend-mode: soft-light, overlay;
 		background-size: cover;
 		border-radius: 0.2rem 0 0 0.2rem;
@@ -1497,7 +1630,7 @@
 		inset: 0;
 		transform: translateZ(calc(-1 * var(--book-depth) * var(--book-scale)));
 		background-color: var(--book-color);
-		background-image: url('/texture/leather.webp');
+		background-image: url('/optimized/leather-texture.webp');
 		background-size: cover;
 		background-blend-mode: multiply;
 		border-radius: 0.15rem 0.45rem 0.45rem 0.15rem;

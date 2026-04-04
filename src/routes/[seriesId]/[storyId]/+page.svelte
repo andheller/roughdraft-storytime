@@ -2,13 +2,14 @@
 	import StoryReader from '$lib/StoryReader.svelte';
 	import ThemeSwitcher from '$lib/ThemeSwitcher.svelte';
 	import { page } from '$app/stores';
+	import { absoluteUrl, DEFAULT_OG_IMAGE, SITE_NAME } from '$lib/site.js';
 
 	let { data } = $props();
 
 	let seriesId = data.seriesId;
 	let story = data.story;
 
-	const seoTitle = `${story.title} | ${story.author} | Roughdraft Storytime`;
+	const seoTitle = `${story.title} | Read Online | ${SITE_NAME}`;
 	const seoKeywords = [
 		story.title,
 		seriesId.replaceAll('-', ' '),
@@ -21,8 +22,26 @@
 		'read aloud',
 		'storytime'
 	].join(', ');
-	const canonicalPath = $derived($page.url.pathname);
-
+	const canonicalUrl = $derived(absoluteUrl($page.url.pathname));
+	const socialImage = story.coverImage ? absoluteUrl(story.coverImage) : DEFAULT_OG_IMAGE;
+	const storyStructuredData = $derived(
+		JSON.stringify({
+			'@context': 'https://schema.org',
+			'@type': 'Book',
+			name: story.title,
+			description: story.description,
+			author: {
+				'@type': 'Person',
+				name: story.author
+			},
+			url: absoluteUrl($page.url.pathname),
+			image: socialImage,
+			isAccessibleForFree: true,
+			genre: story.genre,
+			typicalAgeRange: story.ageRange,
+			keywords: story.tags
+		})
+	);
 </script>
 
 <svelte:head>
@@ -31,17 +50,20 @@
 	<meta name="keywords" content={seoKeywords} />
 	<meta name="author" content={story.author} />
 	<meta name="robots" content="index,follow,max-image-preview:large" />
-	<link rel="canonical" href={canonicalPath} />
+	<link rel="canonical" href={canonicalUrl} />
 	<meta property="og:title" content={seoTitle} />
 	<meta property="og:description" content={story.description} />
 	<meta property="og:type" content="book" />
-	<meta property="og:url" content={canonicalPath} />
-	<meta property="og:site_name" content="Roughdraft Storytime" />
+	<meta property="og:url" content={canonicalUrl} />
+	<meta property="og:site_name" content={SITE_NAME} />
+	<meta property="og:image" content={socialImage} />
 	<meta property="book:author" content={story.author} />
 	<meta property="book:tag" content={(story.tags || []).join(', ')} />
-	<meta name="twitter:card" content="summary" />
+	<meta name="twitter:card" content="summary_large_image" />
 	<meta name="twitter:title" content={seoTitle} />
 	<meta name="twitter:description" content={story.description} />
+	<meta name="twitter:image" content={socialImage} />
+	{@html `<script type="application/ld+json">${storyStructuredData}</script>`}
 </svelte:head>
 
 <div class="story-page min-h-screen">
