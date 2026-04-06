@@ -1,10 +1,10 @@
 {
 	"title": "Liberty or Lunchtime: The Accidental Adventures of Theo Finch",
 	"author": "Claude",
-	"description": "9-year-old Theo Finch doesn't want to be a Revolutionary War hero. He just wants to go home to Philadelphia and eat his mom's apple pie. But stuck with the army helping his uncle, Theo keeps accidentally stumbling into history's greatest moments. Hide in the wrong boat and cross the Delaware? Check. Catch British spies at Valley Forge? Check. Go on a disastrous midnight ride? ALSO CHECK. The funniest, most reluctant hero the American Revolution ever had.",
-	"ageRange": "7-10",
+	"description": "9-year-old Theo Finch doesn't want to be a Revolutionary War hero. He just wants to go home to Philadelphia and eat his mom's apple pie. But stuck with the army helping his uncle, Theo keeps stumbling into history -- crossing the Delaware, surviving Valley Forge, and watching the war change everyone around him. Along the way, he discovers that some things might be worth fighting for. Even if you'd still rather be eating pie.",
+	"ageRange": "8-12",
 	"genre": "Historical Fiction",
-	"tags": ["american revolution", "history", "humor", "accidental hero", "valley forge", "george washington"],
+	"tags": ["american revolution", "history", "humor", "accidental hero", "valley forge", "george washington", "yorktown"],
 	"chapters": [
 		{
 			"id": 1,
@@ -13,12 +13,12 @@
 		},
 		{
 			"id": 2,
-			"title": "Valley Forge is the Worst",
+			"title": "The Worst Winter in the History of Winters",
 			"file": "chapter-2.md"
 		},
 		{
 			"id": 3,
-			"title": "The Midnight Ride I Didn't Sign Up For",
+			"title": "The Message I Was Supposed to Deliver",
 			"file": "chapter-3.md"
 		},
 		{

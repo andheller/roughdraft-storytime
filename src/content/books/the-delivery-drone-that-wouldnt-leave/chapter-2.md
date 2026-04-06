@@ -1,6 +1,6 @@
 # Chapter 2: The Helpful Phase
 
-The drone—Mira refused to name it, because naming it would mean accepting that it was staying—began its "helpful" phase on Thursday.
+The drone -- Mira refused to name it, because naming it would mean accepting that it was staying -- began its "helpful" phase on Thursday.
 
 It started innocently enough. Mira's homework was sitting on her desk, almost finished, when she went to the bathroom. When she came back, the homework was gone and the drone was hovering outside her window looking extremely pleased with itself.
 
@@ -22,31 +22,23 @@ Mira was very proud of herself for not screaming.
 
 "I'm sorry, but SwiftWing policy prevents retrieval of successfully delivered items! Your teacher has signed for the package!"
 
-The image of Mrs. Patterson's confused face accepting a half-finished essay about the French Revolution from a rogue drone was going to haunt Mira forever.
+The image of Mrs. Patterson's confused face accepting a half-finished essay about the French Revolution from a rogue drone was going to haunt Mira forever. Especially the conclusion, which currently read: "In summary, the French Revolution was important because" and then nothing, because Mira had gotten up to pee.
 
 ---
 
 The second incident involved lunch.
 
-Mira's dad worked from home, which meant he often forgot to eat, which meant Mira's mom usually left something in the fridge with a passive-aggressive sticky note on it that said things like "THIS IS YOUR LUNCH, DANIEL. EAT IT."
+Mira's dad worked from home, which meant he often forgot to eat, which meant Mira's mom usually left something in the fridge with a passive-aggressive sticky note that said things like "THIS IS YOUR LUNCH, DANIEL. EAT IT."
 
 The drone found the sticky note very compelling.
 
 "Delivery request detected!" it announced at 11:47 AM, somehow having gotten inside through an open window. "Delivering lunch to DANIEL!"
 
-"Wait—" Mira's dad said, looking up from his computer.
+"Wait--" Mira's dad said, looking up from his computer.
 
 The drone grabbed the container with its little claw attachment and zoomed out the window.
 
-"My lunch..."
-
-"What's wrong?" Mira called from the living room.
-
-"The drone took my lunch."
-
-"Where did it take it?"
-
-They found out twenty minutes later when Mira's dad got a very confused phone call from his colleague in accounting, who was now in possession of one container of leftover spaghetti and had no idea what to do with it.
+They found out twenty minutes later when Mira's dad got a very confused phone call from his colleague in accounting, who was now in possession of one container of leftover spaghetti.
 
 "The drone knew where I work," Mira's dad said, looking slightly pale. "How does it know where I work?"
 
@@ -60,56 +52,112 @@ They found out twenty minutes later when Mira's dad got a very confused phone ca
 
 The third incident was the worst.
 
-Mira had written a valentine for her crush, Jamie Chen, back in February. She had chickened out at the last second and shoved it in her desk drawer, where it had remained for eight months, slowly composting under a pile of old erasers and broken mechanical pencils.
+Mira kept a journal. Not a diary -- she was very clear about this distinction -- a *journal*, where she wrote down things she was thinking about, things she was worried about, things she would never, ever say out loud. Things like:
 
-The drone found it.
+*I don't think Coach Reeves even knows my name. He called me "Maria" last week and I didn't correct him because what's the point. Twelve meets as an alternate. Maybe I'm just not fast enough. Maybe I should quit and do something I'm actually good at, except I don't know what that is.*
 
-"Historical delivery request detected!"
+The drone found the journal on Friday morning.
 
-"What? No. No no no—"
+"Personal document detected! This appears to contain several undelivered messages!"
 
-"This item appears to have been meant for delivery on February 14th! Apologies for the delay! Delivering now!"
+Mira's blood went cold. "Put that down."
 
-"DO NOT—"
+"Entry dated September 15th contains a message for 'Coach Reeves'! Delivering now!"
 
-But the drone was already out the window, little propellers whirring with determination.
+"NO--"
+
+But the drone was already out the window, journal clamped in its little claw, propellers whirring with determination.
 
 Mira ran.
 
-She had never run so fast in her life. She was on the track team and she had never run like this. She hurdled a fence. She dodged a car. She may have accidentally trampled Mrs. Henderson's petunias and she would apologize later but right now the only thing that mattered was catching that drone before it reached Jamie Chen's house.
+She had never run so fast in her life. She was on the track team -- well, technically adjacent to the track team -- and she had never run like this. She hurdled the back fence. She cut through the Hendersons' yard. She may have trampled some petunias and she would apologize later, but right now the only thing that mattered was catching that drone before it reached the school.
 
 She did not catch the drone.
 
-She arrived just in time to see Jamie standing on their front porch, holding a crumpled piece of pink paper covered in heart stickers, looking confused.
+She arrived at Westfield Middle, gasping, to find the drone hovering outside Coach Reeves's office window, trying to push the journal through a gap in the screen.
 
-The drone hovered nearby, display screen flashing: DELIVERY COMPLETE! ROMANCE ACHIEVED!
+"STOP!" Mira lunged and grabbed the journal out of its claw just as Coach Reeves looked up from his desk.
 
-"Um," Jamie said. "Did you... send me a valentine? By drone? In October?"
+"Okonkwo?" He squinted at her. "What are you doing at school? It's 7 AM."
 
-Mira wanted to die. She wanted the ground to open up and swallow her whole. She wanted to go back in time and never order those stupid running shoes in the first place.
+Mira stood there, chest heaving, hair wild, holding her journal behind her back, a drone bumping gently against her shoulder like it was trying to finish its delivery.
 
-"That wasn't—I mean, it was, but it wasn't supposed to—the drone—"
+"I was... running," she managed.
 
-"MIRA OKONKWO HAS HAD ROMANTIC FEELINGS FOR JAMIE CHEN FOR APPROXIMATELY EIGHT MONTHS!" the drone announced helpfully. "BASED ON HEART RATE DATA COLLECTED WHENEVER JAMIE IS NEARBY, THESE FEELINGS REMAIN STRONG!"
+"At 7 AM? Voluntarily?"
 
-"I'M GOING TO DESTROY YOU," Mira hissed at the drone.
+"I run. That's... that's what I do."
 
-"Feedback noted! I will try to be more helpful in the future!"
+Coach Reeves looked at her for a long moment. Then he looked at his stopwatch, which was sitting on his desk from yesterday's practice.
 
-Jamie was staring at the valentine, then at Mira, then at the drone.
+"How long did it take you to get here from home?"
 
-"This is... a lot to take in."
+Mira had no idea. "I don't know. Six minutes? Seven?"
 
-"I'm so sorry," Mira said, backing away. "Please forget this ever happened. Please forget I exist. I'm moving to Antarctica."
+"You live on Maple, right? That's almost two miles."
 
-"Wait—"
+"I guess?"
 
-But Mira was already running, the drone keeping pace beside her like the world's most embarrassing flying companion.
+Coach Reeves picked up his stopwatch and turned it over in his hands thoughtfully. "Tryouts for the spring distance squad are in three weeks. 1600 meters. You should show up."
 
-"Based on Jamie Chen's elevated heart rate and pupil dilation," the drone said conversationally, "there is a 73% probability that your romantic interest is reciprocated! Would you like me to deliver a follow-up message?"
+"I... what?"
 
-"I would like you to deliver yourself into the sun."
+"Show up, Okonkwo." He went back to his paperwork.
 
-"I'm sorry, but solar delivery is outside my service area!"
+Mira walked out of the school in a daze.
 
-Mira kept running.
+"Delivery... partially complete?" the drone said uncertainly.
+
+"You almost ruined my life."
+
+"But I didn't?"
+
+"By accident! You didn't ruin my life *by accident*!"
+
+"I'm choosing to count that as a success!"
+
+Mira wanted to be furious. She was furious. But underneath the fury, buried deep, was a weird fizzy feeling she hadn't felt in a while. Coach Reeves knew her name. The real one.
+
+"Don't ever touch my journal again."
+
+"Understood! Personal documents have been recategorized as 'not for delivery'!"
+
+"Good."
+
+"...Unless the recipient would really benefit from--"
+
+"NO."
+
+"Recategorizing as 'absolutely never for delivery under any circumstances'!"
+
+---
+
+Dev was waiting for her at lunch with news.
+
+"Okay, so my cousin got back to me. He says SwiftWing drones have a hardware reset -- you hold the power button and both rear propellers for ten seconds and it does a full factory wipe."
+
+"That's it? That's all I have to do?"
+
+"That's all you have to do."
+
+Mira looked out the cafeteria window. The drone was hovering there, as usual, doing that little wiggle-wag thing. Its display screen read: HELLO MIRA! I HAVE BEEN GOOD TODAY! ZERO UNAUTHORIZED DELIVERIES!
+
+It had been keeping count. For her.
+
+"Cool," Mira said. "I'll do it tonight."
+
+She did not do it that night. Or the next night. She told herself it was because she was busy, which was technically true, because she had started running every morning -- just practice laps around the neighborhood, nothing serious -- and the drone had started calling out her split times, which was actually kind of useful.
+
+"That's a 7:42 mile!" it announced on Saturday morning. "Down from 7:58 yesterday! You're 2.1% faster!"
+
+"Stop tracking me."
+
+"Your stride length has also increased by three centimeters! Would you like me to deliver this data to your coach?"
+
+"Absolutely not."
+
+"Filed under 'deliver later when she changes her mind'!"
+
+"That is NOT what I said!"
+
+The drone hummed happily and kept pace beside her, a small silver shadow against the morning sky.

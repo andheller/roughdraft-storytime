@@ -3,70 +3,10 @@
 	"description": "A collection of fun tales about squirrel families and their adventures",
 	"stories": [
 		{
-			"id": "the-great-acorn-hunt",
-			"title": "The Great Acorn Hunt",
-			"description": "A fun tale about a squirrel family - Mama, Papa, and Nutty - who discover the magic of teamwork.",
-			"folder": "the-great-acorn-hunt"
-		},
-		{
-			"id": "the-silly-squirrels-power-up",
-			"title": "The Silly Squirrels Power Up!",
-			"description": "Join Mama, Papa, and Nutty as they discover the amazing power of steam engines and learn how rockets and submarines work! A fun adventure full of science and silly jokes.",
-			"folder": "the-silly-squirrels-power-up"
-		},
-		{
-			"id": "the-silly-squirrels-sub-marine-adventure",
-			"title": "The Silly Squirrels Sub-Marine Adventure",
-			"description": "Join Mama, Papa, and Nutty as they build submarine after submarine, each one better than the last, on their quest to find the legendary golden acorn hidden deep in the river!",
-			"folder": "the-silly-squirrels-sub-marine-adventure"
-		},
-		{
-			"id": "the-silly-squirrels-space-adventure",
-			"title": "The Silly Squirrels Space Adventure",
-			"description": "Join Nutty, Mama, and Papa as they build a 4-stage rocket to solve Nutville's satellite problem and blast off on the most epic space adventure ever! But will their crash landing bring them back down to earth?",
-			"folder": "the-silly-squirrels-space-adventure"
-		},
-		{
-			"id": "the-silly-squirrels-pizza-jetpack-delivery",
-			"title": "The Silly Squirrels Pizza Jetpack Delivery Service",
-			"description": "When the town needs faster pizza delivery, Nutkin and friends build jetpacks from soda bottles and don goofy hats as helmets! Join their hilarious adventure as they learn to fly and deliver pizzas with water gun wake-up calls and plenty of crashes along the way!",
-			"folder": "the-silly-squirrels-pizza-jetpack-delivery"
-		},
-		{
-			"id": "the-silly-squirrels-backwards-tuesday",
-			"title": "The Silly Squirrels and the Backwards Tuesday Machine",
-			"description": "When Nutty, Mama, and Papa wake up to find thank-you notes for things they haven't done, they realize time is running backwards! Join them as they build the most ridiculous machine ever—complete with disco balls, jellybeans, fizzy cola, and an explosion that makes everything wonderfully silly!",
-			"folder": "the-silly-squirrels-backwards-tuesday"
-		},
-		{
-			"id": "the-tnt-tunnel-to-grandmas",
-			"title": "The Silly Squirrels and the TNT Tunnel to Grandma's",
-			"description": "When a giant fallen oak blocks the path to Grandma Nutwobble's tree, Nutty has a brilliant idea: dig a tunnel! But digging is slow... until Papa discovers some 'vintage excavation supplies' (dusty crates of TNT). What could possibly go wrong? EVERYTHING. Featuring: explosions, more explosions, a grumpy mole, ancient cave paintings, and a surprise ending that's dynamite!",
-			"folder": "the-tnt-tunnel-to-grandmas"
-		},
-		{
-			"id": "the-silly-squirrels-boom-boom-express",
-			"title": "The Silly Squirrels and the Boom-Boom Express",
-			"description": "When Nutville needs faster deliveries, Papa builds a TNT-powered train! Every package arrives with a BOOM, a CRASH, and usually in the wrong town. But what's in that mysterious 'FRAGILE' box they've been protecting all day? Spoiler: it's from Grandma. And Grandma has PLANS.",
-			"folder": "the-silly-squirrels-boom-boom-express"
-		},
-		{
-			"id": "the-silly-squirrels-giant-moon-acorn",
-			"title": "The Silly Squirrels and the Giant Moon Acorn",
-			"description": "Nutty looks up at the night sky and sees the BIGGEST ACORN EVER! (It's the moon.) Naturally, the only solution is to build TNT-powered rockets from trashcans and traffic cones to go eat it. Maximum height achieved: 10 feet. Maximum chaos achieved: UNLIMITED.",
-			"folder": "the-silly-squirrels-giant-moon-acorn"
-		},
-		{
-			"id": "the-silly-squirrels-motor-bike-bonanza",
-			"title": "The Silly Squirrels Motor-Bike Bonanza",
-			"description": "Mama, Papa, and Nutty build supa dupa speedy motor-bikes to help Nutville go whoooooosh! With acorn engines, leaf spoilers, and banana-seat silliness, will they master speed without turning the town into a blur?",
-			"folder": "the-silly-squirrels-motor-bike-bonanza"
-		},
-		{
-			"id": "the-great-motor-bike-acorn-hunt",
-			"title": "The Great Motor-Bike Acorn Hunt",
-			"description": "Nutty, Mama, and Papa build squirrel-sized motor-bikes to chase crumbs, corral rogue balloons, untangle a bossy banner, and un-misplace Nutville's Golden Acorn - all at responsible speeds and questionable snack intervals.",
-			"folder": "the-great-motor-bike-acorn-hunt"
+			"id": "the-silly-squirrels-pancake-parade",
+			"title": "The Silly Squirrels and the Pancake Parade",
+			"description": "When Nutville needs a parade float for the Harvest Hoopla, Nutty decides wheels are not enough. The float should flip pancakes, play music, and maybe toss syrup in a highly respectful way.",
+			"folder": "the-silly-squirrels-pancake-parade"
 		},
 		{
 			"id": "the-super-secure-snack-safe",
@@ -81,18 +21,6 @@
 			"folder": "the-silly-squirrels-weather-wobble-machine"
 		},
 		{
-			"id": "the-silly-squirrels-pancake-parade",
-			"title": "The Silly Squirrels and the Pancake Parade",
-			"description": "When Nutville needs a parade float for the Harvest Hoopla, Nutty decides wheels are not enough. The float should flip pancakes, play music, and maybe toss syrup in a highly respectful way.",
-			"folder": "the-silly-squirrels-pancake-parade"
-		},
-		{
-			"id": "the-silly-squirrels-night-before-snow-day",
-			"title": "The Silly Squirrels and the Night Before Snow Day",
-			"description": "When Nutville waits for the first big snowfall, Nutty decides to help winter arrive faster. Soon the sled hill is ready, the cocoa is boiling, and one homemade snow-making contraption is causing extremely local blizzards.",
-			"folder": "the-silly-squirrels-night-before-snow-day"
-		},
-		{
 			"id": "the-silly-squirrels-bouncy-bridge",
 			"title": "The Silly Squirrels and the Bouncy Bridge",
 			"description": "When Nutville's old creek bridge starts wobbling, Nutty decides to improve it with springs. Soon the bridge is safer in exactly zero ordinary ways and much more exciting in several extremely foolish ones.",
@@ -105,40 +33,10 @@
 			"folder": "the-silly-squirrels-ice-cream-catapult"
 		},
 		{
-			"id": "the-silly-squirrels-library-book-rocket",
-			"title": "The Silly Squirrels and the Library Book Rocket",
-			"description": "When overdue library books pile up all over town, Nutty invents a machine to send them back faster. Unfortunately, the machine is much better at launching books than at choosing where they should land.",
-			"folder": "the-silly-squirrels-library-book-rocket"
-		},
-		{
-			"id": "the-silly-squirrels-car-wash-waterfall",
-			"title": "The Silly Squirrels and the Car-Wash Waterfall",
-			"description": "When Nutville gets muddy after a week of rain, Nutty decides every wagon, wheelbarrow, and scooter needs a deluxe wash. Soon the family has built a car wash so splashy it starts cleaning things that never asked to be cleaned.",
-			"folder": "the-silly-squirrels-car-wash-waterfall"
-		},
-		{
-			"id": "the-silly-squirrels-bubblegum-balloon",
-			"title": "The Silly Squirrels and the Bubblegum Balloon",
-			"description": "When Nutville's kite festival needs a grand finale, Nutty decides a regular balloon is too boring. Soon the family is building a bubblegum-colored flying machine that is much better at drifting than steering.",
-			"folder": "the-silly-squirrels-bubblegum-balloon"
-		},
-		{
-			"id": "the-silly-squirrels-mailbox-mix-up-machine",
-			"title": "The Silly Squirrels and the Mailbox Mix-Up Machine",
-			"description": "When Tony the Delivery Fox gets buried in letters, Nutty invents a machine to sort the mail faster. The machine is brilliant at moving envelopes and terrible at understanding that invitations, bills, and birthday cards should not all arrive at once in the fountain.",
-			"folder": "the-silly-squirrels-mailbox-mix-up-machine"
-		},
-		{
-			"id": "the-silly-squirrels-popcorn-blizzard",
-			"title": "The Silly Squirrels and the Popcorn Blizzard",
-			"description": "When Nutville plans a big movie night in the park, Nutty decides the popcorn line should move faster. Soon the family is testing a popcorn machine so powerful it can season the sky.",
-			"folder": "the-silly-squirrels-popcorn-blizzard"
-		},
-		{
-			"id": "the-silly-squirrels-umbrella-taxi",
-			"title": "The Silly Squirrels and the Umbrella Taxi",
-			"description": "When rain turns every road in Nutville into a chain of puddles, Nutty decides umbrellas should not just keep squirrels dry. They should give rides. Soon the town has a taxi service with excellent views and terrible steering.",
-			"folder": "the-silly-squirrels-umbrella-taxi"
+			"id": "the-silly-squirrels-leaf-blower-orchestra",
+			"title": "The Silly Squirrels and the Leaf-Blower Orchestra",
+			"description": "When Nutville's summer concert is missing half its musicians, Nutty decides instruments should not depend so heavily on practice. Soon the family is testing a machine-powered orchestra with too much wind and not enough judgment.",
+			"folder": "the-silly-squirrels-leaf-blower-orchestra"
 		},
 		{
 			"id": "the-silly-squirrels-marshmallow-parade-float",
@@ -147,16 +45,88 @@
 			"folder": "the-silly-squirrels-marshmallow-parade-float"
 		},
 		{
-			"id": "the-silly-squirrels-leaf-blower-orchestra",
-			"title": "The Silly Squirrels and the Leaf-Blower Orchestra",
-			"description": "When Nutville's summer concert is missing half its musicians, Nutty decides instruments should not depend so heavily on practice. Soon the family is testing a machine-powered orchestra with too much wind and not enough judgment.",
-			"folder": "the-silly-squirrels-leaf-blower-orchestra"
+			"id": "the-tnt-tunnel-to-grandmas",
+			"title": "The Silly Squirrels and the TNT Tunnel to Grandma's",
+			"description": "When a giant fallen oak blocks the path to Grandma Nutwobble's tree, Nutty has a brilliant idea: dig a tunnel! But digging is slow... until Papa discovers some 'vintage excavation supplies' (dusty crates of TNT). What could possibly go wrong? EVERYTHING.",
+			"folder": "the-tnt-tunnel-to-grandmas"
+		},
+		{
+			"id": "the-silly-squirrels-pizza-jetpack-delivery",
+			"title": "The Silly Squirrels Pizza Jetpack Delivery Service",
+			"description": "When the town needs faster pizza delivery, Nutkin and friends build jetpacks from soda bottles and don goofy hats as helmets! Join their hilarious adventure as they learn to fly and deliver pizzas with water gun wake-up calls and plenty of crashes along the way!",
+			"folder": "the-silly-squirrels-pizza-jetpack-delivery"
+		},
+		{
+			"id": "the-silly-squirrels-bubblegum-balloon",
+			"title": "The Silly Squirrels and the Bubblegum Balloon",
+			"description": "When Nutville's kite festival needs a grand finale, Nutty decides a regular balloon is too boring. Soon the family is building a bubblegum-colored flying machine that is much better at drifting than steering.",
+			"folder": "the-silly-squirrels-bubblegum-balloon"
+		},
+		{
+			"id": "the-silly-squirrels-car-wash-waterfall",
+			"title": "The Silly Squirrels and the Car-Wash Waterfall",
+			"description": "When Nutville gets muddy after a week of rain, Nutty decides every wagon, wheelbarrow, and scooter needs a deluxe wash. Soon the family has built a car wash so splashy it starts cleaning things that never asked to be cleaned.",
+			"folder": "the-silly-squirrels-car-wash-waterfall"
+		},
+		{
+			"id": "the-silly-squirrels-library-book-rocket",
+			"title": "The Silly Squirrels and the Library Book Rocket",
+			"description": "When overdue library books pile up all over town, Nutty invents a machine to send them back faster. Unfortunately, the machine is much better at launching books than at choosing where they should land.",
+			"folder": "the-silly-squirrels-library-book-rocket"
+		},
+		{
+			"id": "the-silly-squirrels-night-before-snow-day",
+			"title": "The Silly Squirrels and the Night Before Snow Day",
+			"description": "When Nutville waits for the first big snowfall, Nutty decides to help winter arrive faster. Soon the sled hill is ready, the cocoa is boiling, and one homemade snow-making contraption is causing extremely local blizzards.",
+			"folder": "the-silly-squirrels-night-before-snow-day"
+		},
+		{
+			"id": "the-silly-squirrels-popcorn-blizzard",
+			"title": "The Silly Squirrels and the Popcorn Blizzard",
+			"description": "When Nutville plans a big movie night in the park, Nutty decides the popcorn line should move faster. Soon the family is testing a popcorn machine so powerful it can season the sky.",
+			"folder": "the-silly-squirrels-popcorn-blizzard"
 		},
 		{
 			"id": "the-silly-squirrels-pumpkin-patch-pulley",
 			"title": "The Silly Squirrels and the Pumpkin-Patch Pulley",
 			"description": "When harvest season buries Nutville under more pumpkins than carts can carry, Nutty decides wheels are too slow. Soon the family is moving giant pumpkins through the air on a pulley line that makes everyone reconsider gravity.",
 			"folder": "the-silly-squirrels-pumpkin-patch-pulley"
+		},
+		{
+			"id": "the-silly-squirrels-umbrella-taxi",
+			"title": "The Silly Squirrels and the Umbrella Taxi",
+			"description": "When rain turns every road in Nutville into a chain of puddles, Nutty decides umbrellas should not just keep squirrels dry. They should give rides. Soon the town has a taxi service with excellent views and terrible steering.",
+			"folder": "the-silly-squirrels-umbrella-taxi"
+		},
+		{
+			"id": "the-silly-squirrels-power-up",
+			"title": "The Silly Squirrels Power Up!",
+			"description": "Join Mama, Papa, and Nutty as they discover the amazing power of steam engines and learn how rockets and submarines work! A fun adventure full of science and silly jokes.",
+			"folder": "the-silly-squirrels-power-up"
+		},
+		{
+			"id": "the-silly-squirrels-sub-marine-adventure",
+			"title": "The Silly Squirrels Sub-Marine Adventure",
+			"description": "Join Mama, Papa, and Nutty as they build submarine after submarine, each one better than the last, on their quest to find the legendary golden acorn hidden deep in the river!",
+			"folder": "the-silly-squirrels-sub-marine-adventure"
+		},
+		{
+			"id": "the-silly-squirrels-motor-bike-bonanza",
+			"title": "The Silly Squirrels Motor-Bike Bonanza",
+			"description": "Mama, Papa, and Nutty build supa dupa speedy motor-bikes to help Nutville go whoooooosh! With acorn engines, leaf spoilers, and banana-seat silliness, will they master speed without turning the town into a blur?",
+			"folder": "the-silly-squirrels-motor-bike-bonanza"
+		},
+		{
+			"id": "the-great-motor-bike-acorn-hunt",
+			"title": "The Great Motor-Bike Acorn Hunt",
+			"description": "Nutty, Mama, and Papa build squirrel-sized motor-bikes to chase crumbs, corral rogue balloons, untangle a bossy banner, and un-misplace Nutville's Golden Acorn - all at responsible speeds and questionable snack intervals.",
+			"folder": "the-great-motor-bike-acorn-hunt"
+		},
+		{
+			"id": "the-silly-squirrels-mailbox-mix-up-machine",
+			"title": "The Silly Squirrels and the Mailbox Mix-Up Machine",
+			"description": "When Tony the Delivery Fox gets buried in letters, Nutty invents a machine to sort the mail faster. The machine is brilliant at moving envelopes and terrible at understanding that invitations, bills, and birthday cards should not all arrive at once in the fountain.",
+			"folder": "the-silly-squirrels-mailbox-mix-up-machine"
 		}
 	]
 }

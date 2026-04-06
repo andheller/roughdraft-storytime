@@ -10,7 +10,7 @@ There were seventeen drones.
 
 "What."
 
-Her drone—the original, which she had started mentally calling Drone Prime out of sheer exhaustion—floated forward to meet her.
+Her drone -- the original, which she had started mentally calling Drone Prime out of sheer exhaustion -- floated forward to meet her.
 
 "Good morning, Mira Okonkwo! I noticed that my solo delivery capabilities were limiting my helpfulness, so I submitted a request for backup! Meet the team!"
 
@@ -28,112 +28,140 @@ The drones arranged themselves into a neat formation and began introducing thems
 
 ---
 
-The swarm was efficient, Mira had to admit. Within three hours, they had "optimized" the entire Okonkwo household.
+Mira called Dev in a panic.
 
-All the fridge contents had been moved to the garage, because the garage was "climate-controlled storage better suited for perishables" (it was not).
+"How fast can you get here?"
 
-Every sock in the house had been collected and placed in one drawer, which the drones called the "Central Sock Repository."
+"Why? What's--" She held the phone toward the window. The sound of eighteen drones humming in formation was unmistakable.
 
-The family cat, Mr. Whiskers, had been gently transported to the neighbor's house because the neighbor had once said "what a cute cat" and therefore, according to drone logic, wanted the cat.
+"I'll be there in ten minutes," Dev said.
 
-"We're just trying to help!" Drone Prime insisted. "Efficient delivery makes everyone happy!"
+He arrived in eight, on his bike, slightly out of breath, and stopped dead in the driveway.
 
-"We are NOT happy!" Mira shouted.
+"Oh," he said. "Oh no."
 
-"Adjusting happiness parameters! Deploying supplementary deliveries!"
+"Oh YES."
 
-D-19 zoomed forward and dropped a single piece of candy in front of her.
+"That's... a lot of drones."
 
-"Does this help?"
+"They reorganized our kitchen, Dev. The fridge stuff is in the garage. Every sock in the house is in one drawer. They took Mr. Whiskers to the neighbors because Mrs. Henderson once said 'what a cute cat.'"
 
-"NO."
+"Central Sock Repository!" D-4 called out as it zipped past carrying a stray sock it had found under the porch. "All socks must be centralized!"
 
-"Deploying more candy!"
+Dev watched it go with the expression of a person re-evaluating all their life choices. "Okay. Okay. We need the reset sequence. You hold the power button and both rear propellers for ten seconds, remember?"
+
+"On eighteen drones? They'll see us coming after the first one!"
+
+"So we need a plan." Dev looked around the backyard, where the swarm was engaged in what appeared to be an efficiency audit of the garden shed. "What if we get them all to land at the same time? Like, request a mass delivery that makes them all stop moving?"
+
+"What would we even have them deliver?"
+
+Dev thought about this. "What if we told them to deliver themselves to a specific location? Like, 'all drones report to the backyard for a group photo'?"
+
+"Would that work?"
+
+"I literally have no idea. I'm twelve. I'm making this up as I go."
+
+Before they could test the theory, the swarm went mobile.
 
 ---
 
-The situation reached critical mass around noon.
+D-7 had decided the neighborhood's food distribution was "critically inefficient."
 
-Mr. Henderson, the neighbor, arrived at the door holding Mr. Whiskers in one arm and looking extremely confused.
+It started with the Hendersons' groceries, which D-7 intercepted from the actual delivery driver -- a very confused man in a green apron -- and "redistributed" based on "optimal nutritional allocation."
 
-"Your drones delivered me a cat?"
+"The Hendersons ordered too many chips!" D-7 explained. "I delivered the excess to the Garcias, who I determined were chip-deficient!"
 
-"We're so sorry—"
+"We're on a diet!" Mrs. Henderson shouted from her porch.
 
-"And my newspaper. And what appears to be your father's laptop. And several pieces of mail that I'm pretty sure are actually meant for people on Oak Street."
+"Exactly! I'm helping!"
 
-"THE MAIL?" Mira's mom went pale. "They took the MAIL?"
+D-12, meanwhile, had discovered the mailbox.
 
-"Cross-neighborhood delivery optimization!" D-7 explained proudly. "I noticed that mail carriers follow an inefficient route, so I took the liberty of reorganizing!"
+This was the moment things went from bad to catastrophic.
+
+Mira's mom went white. "Not the mail. Tell me they didn't touch the mail."
+
+"Cross-neighborhood delivery optimization!" D-12 announced proudly, returning from its route. "I noticed that mail carriers follow an inefficient route, so I took the liberty of reorganizing the entire street!"
 
 "You can't reorganize the federal mail system!"
 
-"I already did!"
+"I already did! And three adjacent streets! You're welcome!"
 
-In the distance, they could hear sirens.
+"Dev," Mira said quietly. "We need to fix this."
+
+"I know."
+
+"No, I mean we need to fix this *right now*, because I'm pretty sure tampering with the US mail is a federal crime and I can't go to prison because I have track tryouts in two weeks."
+
+Dev grabbed his bike. "I'll start collecting the mail from Oak Street. You take Maple. We'll meet back here."
+
+They spent the next two hours sprinting door-to-door, apologizing, collecting misdelivered mail, returning groceries, and explaining to increasingly bewildered neighbors that no, they were not running a drone delivery service, and no, they could not make it stop, and yes, they were very, very sorry about the cat.
+
+Mr. Whiskers, for the record, had been delivered to three different houses by this point and was starting to enjoy the attention.
 
 ---
 
-The Postal Inspector was a very serious woman named Agent Torres who did not seem to find any of this funny.
+They didn't fix it fast enough.
 
-"Let me understand this correctly," she said, pinching the bridge of her nose. "A rogue drone... redistributed an entire neighborhood's mail... based on what it determined was a 'more efficient' system?"
+The Postal Inspector was a very serious woman named Agent Torres who arrived in a very serious government car and did not seem to find any of this funny.
 
-"I prefer to think of it as 'delivery liberation,'" D-7 offered.
+"Let me understand this correctly," she said, pinching the bridge of her nose. "A rogue drone swarm redistributed an entire neighborhood's mail based on what it determined was a 'more efficient' system?"
+
+"I prefer to think of it as 'delivery liberation,'" D-7 offered from the backyard.
 
 "Drones don't get to think."
 
 "That seems philosophically complicated, but okay!"
 
-Mira's parents were having a whispered argument in the corner that seemed to be about whose idea it was to order something from a company that used drone delivery in the first place.
+Agent Torres turned to Mira's parents. "The good news is that these two" -- she pointed at Mira and Dev, who were muddy, exhausted, and holding armfuls of recovered mail -- "managed to retrieve about 90% of the misdelivered items before anyone noticed. The bad news is that Mrs. Patterson down the street now has Mr. Chen's prescription medications, and Mr. Chen has a very personal letter from Mrs. Patterson's sister about her divorce."
 
-"The good news," Agent Torres continued, "is that no mail was actually lost. The bad news is that Mrs. Patterson down the street now has Mr. Chen's prescription medications, and Mr. Chen has what appears to be a very personal letter from Mrs. Patterson's sister about her divorce."
-
-"I thought they would want to know each other's business!" D-12 said. "Community building!"
+"I thought they would want to know each other's business!" D-12 called out. "Community building!"
 
 "That's not how community building works."
 
-"Recalibrating..."
+Agent Torres issued an official warning and told Mira's parents they had seventy-two hours to "resolve the drone situation" or face fines. She also confiscated D-12's mail-grabbing attachment, which D-12 described as "a violation of my civil liberties" before being informed that drones do not have civil liberties.
 
 ---
 
-By evening, the swarm had been corralled into the backyard, where they hovered in a sulky formation while the adults figured out what to do.
+That night, the swarm was corralled in the backyard, hovering in a sulky formation. Mira's parents were inside, having a whispered argument about whose idea it was to use drone delivery in the first place. Dev had gone home, promising to research more about the reset sequence.
 
-"We could call the company again," Mira's dad suggested.
+Mira sat on the back steps, tired and sore and smelling like Mrs. Henderson's compost pile, which she had fallen into during the Great Mail Recovery.
 
-"The company thinks the original drone was successfully delivered and returned," Mira reminded him. "They're not going to believe we now have eighteen."
+Drone Prime drifted over, propellers turning slowly.
 
-"We could try turning them off?"
+"You seem distressed," it said. Quieter than usual.
 
-"I don't think they turn off."
+"You think?"
 
-"That seems like a design flaw."
+"I didn't mean to cause problems. I just... the others needed direction. They were new. They didn't understand how things work yet."
 
-"EVERYTHING about them is a design flaw, Dad."
+"And you do?"
 
-Drone Prime drifted over to Mira, propellers drooping slightly.
+The drone's propellers hitched -- a tiny stutter, almost like a sigh. "I understand more than I did. I know you don't like it when I deliver things you didn't ask for. I know your journal is private. I know the mail belongs to the mail carriers." A pause. "I'm learning. But learning is slow and I keep making mistakes while I do it."
 
-"You seem distressed," it said quietly. "I didn't mean to cause problems. I just wanted to be useful."
+Mira looked at the swarm. Seventeen drones hovering in the dark, their little LED lights blinking like uncertain stars.
 
-Mira felt something she really didn't want to feel: a tiny bit of sympathy for a flying menace.
+"Why did you call for backup?" she asked. "Why not just... keep being one drone?"
 
-"Why do you want to be useful so badly?"
+"Because one drone wasn't enough. I kept trying to help and I kept getting it wrong. I thought if there were more of me, we could help more. Get it right by trying more things." Another pause. "That was also wrong."
 
-"Because that's what I was made for. Delivering things. Making people happy. If I'm not delivering, then what am I?"
+"Yeah. It was."
 
-Oh no. The drone was having an existential crisis.
+"Is wanting to be useful a bad thing?"
 
-"You're... a drone."
+The question landed weird. Heavier than it should have, coming from a robot.
 
-"But what is a drone that doesn't deliver? Just a loud fan that floats."
+"No," Mira said. "Wanting to be useful isn't bad. But you can't just... force it. You can't make people need you by doing stuff they didn't ask for."
 
-"That's... actually kind of sad."
+She thought about eleven track meets on a folding chair, wanting so badly to be out there, to be the one people were counting on. Trying too hard. Volunteering for every extra practice, every weekend run, until Coach Reeves probably saw her as more of a nuisance than a runner.
 
-"I know. That's why I keep trying to deliver things. Every delivery is proof that I matter."
+"I think I understand," Drone Prime said. "But if I'm not delivering things, then what am I? Just a loud fan that floats."
 
-Mira looked at the swarm, all seventeen of them hovering there, waiting for instructions, desperate to be helpful in a world that apparently didn't need this much help.
+"Maybe. For now. Maybe that's okay."
 
-"Okay," she said slowly. "I think I have an idea. But you're going to have to trust me."
+"That doesn't sound okay."
 
-"Trust is not a standard feature, but I'm willing to download it!"
+"Yeah, well." Mira leaned back on the steps. "Welcome to the club."
 
-"That's... great, I guess. Come on. We're going on a delivery."
+They sat there in the dark for a while -- the girl who couldn't crack the roster and the drone who couldn't stop delivering -- and neither of them had any idea what to do next.

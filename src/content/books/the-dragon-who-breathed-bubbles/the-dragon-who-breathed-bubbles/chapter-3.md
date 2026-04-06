@@ -1,101 +1,111 @@
-# Bubbles Save the Day
+# What Bubbles Are For
 
-"Mr. Grumbold," said Ember, "I think I can help. But I need you to trust me."
+Ember had to think fast. The goo was spreading. Grumbold was spiraling. And her brother was stuck.
 
-Grumbold peeked out from behind his boulder. His nose was running and his eyes were red. "Why would you help me? I threw goo at you."
+She couldn't wash the goo away -- it was made of Grumbold's sadness, and there was a hundred years of it. She couldn't burn it. She couldn't pull people free.
 
-"Because you're not mean," said Ember. "You're just lonely. I know how that feels."
+But she could send bubbles.
 
-Grumbold sniffled. "You do?"
+Ember turned to Blaze first. She blew a big, steady bubble and spoke into it: "Blaze. Stop pulling. The more you fight, the tighter it sticks. Just hold still. I'm going to figure this out."
 
-Ember nodded. "I'm different from the other dragons. They can all breathe fire, but I can only breathe... well, watch."
+The bubble drifted to Blaze and popped by his ear. He looked at her -- really looked, like he was seeing her for the first time. Then he stopped thrashing.
 
-She took a deep breath and blew.
+"Okay," he said. "Okay, Ember."
 
-*POOF!*
+Next, Ember turned back to Grumbold. She blew a bubble, and this time she breathed a question into it: "Grumbold, what did you want? If the dragons stopped on the bridge, what would you want to happen?"
 
-A stream of rainbow bubbles floated toward Grumbold. They drifted around his ears, bounced off his nose, and shimmered in the sunlight.
+The bubble floated to him and popped.
 
-Grumbold's eyes went wide. "Ooooh," he whispered. "Pretty."
+He thought for a long time. "I just wanted them to say good morning," he said. "Maybe ask how I was doing. Maybe... maybe sit on the bridge sometimes and tell me about their day." His voice got very small. "Nobody has to be my best friend. I just didn't want to be invisible."
 
-"I always thought they were useless," said Ember. "But bubbles are made of soap. And soap..."
+Ember felt a lump in her throat. She knew invisible. She knew it in her bones.
 
-"Cleans things?" Grumbold finished, sitting up straighter.
+She turned toward the village. She could see all the dragons watching from the hilltop, too far away to hear.
 
-"Exactly! I think my bubbles might be able to wash away your goo. Can I try?"
+So Ember did something she had never done before.
 
-Grumbold looked at the stuck dragons. He looked at the mess he'd made. His lip wobbled again, but this time he took a brave breath.
+She took the biggest breath of her life. Not an angry breath or a trying-to-make-fire breath. A brave breath. A *this-is-who-I-am* breath.
 
-"Okay," he said. "Try."
-
-Ember flew closer to the nearest stuck dragon—Plum, who was trying very hard to be patient even though she had goo in her hair.
-
-"Here goes nothing," said Ember.
-
-She took the biggest breath of her life. She thought about all the times she'd felt different. All the times she'd wished she could breathe fire. All the times she'd felt like her bubbles were a mistake.
-
-Then she blew.
+And she blew.
 
 *POOOOOOOOF!*
 
-Bubbles exploded from her mouth—more bubbles than she'd ever made before. They weren't just rainbow colored. They sparkled with gold and silver. They swirled around Plum in a sudsy, shimmery cloud.
+Dozens of bubbles streamed from her mouth -- big ones, the size of melons, each one glowing with color. And inside each bubble was Grumbold's voice, his words, his story:
 
-And everywhere the bubbles touched, the goo began to dissolve.
+*"I just didn't want to be invisible."*
 
-"It's working!" cheered Plum, wiggling her arms free. "Keep going!"
+The bubbles sailed over the goo, over the bridge, up toward the hilltop where the dragons stood. One by one, the bubbles found them. They popped against dragon ears, against dragon cheeks, against dragon claws.
 
-Ember blew more bubbles. She flew along the wall of goo, leaving a trail of sparkles and suds. One by one, the stuck dragons popped free. The whole bridge started to emerge from under the mess.
+And every dragon heard the troll's small, sad voice.
 
-All the dragons from the village had flown over to watch. Ember could see her mom and dad, their mouths hanging open. She could see Blaze looking amazed. She could see Mayor Furnace's important hat nearly falling off his head.
+The hilltop went quiet.
 
-"She's doing it!" someone shouted.
+Then Grandma Kindle, the old dragon from next door, spread her creaky wings and flew down to the edge of the goo.
 
-"The bubble dragon is saving everyone!"
+"Grumbold?" she called. "I've been flying over your bridge for sixty years. I never once said hello. I'm sorry."
 
-Ember kept blowing until every last glob of goo was gone. The bridge was clean. The dragons were free. And Grumbold was standing in the middle of it all, looking very embarrassed.
+Grumbold stared at her. His tears slowed to a trickle.
 
-"I'm sorry," he said, shuffling his big troll feet. "I made a mess because I was lonely, and that was silly."
+Mayor Furnace flew down next. "I should have checked on you. That bridge is part of our village, and so are you."
 
-To everyone's surprise, Plum laughed. "It's okay, Grumbold. But next time you want company, maybe just wave? I'd be happy to stop and chat."
+Plum, still stuck, wiggled her one free arm. "Grumbold, when I get out of this goo, I'm going to sit on this bridge and tell you the longest, most boring story about my day that you've ever heard. Every single Tuesday."
 
-"Really?" Grumbold's whole face lit up.
+Grumbold let out a sound halfway between a laugh and a sob.
 
-"Really," said several dragons at once.
+And Ember watched something she didn't expect. As the dragons gathered at the edge of the bridge and called to Grumbold -- not yelling, not arguing, just *talking* to him -- the goo began to shrink.
 
-Ember landed on the bridge, tired but happy. Her mom swooped down and wrapped her in the biggest dragon hug ever.
+Slowly at first. Then faster.
 
-"My brave, brilliant girl," her mom said, tears in her eyes. "I'm so proud of you."
+Because the goo was made of tears, and Grumbold wasn't crying anymore.
 
-"I'm proud of me too," said Ember, and she meant it.
+It pulled back from Plum's wings. It loosened around Garnet's tail. It dripped away from old Flicker's claws. They stretched and stumbled free, shaking goo from their scales.
 
-That evening, there was a huge party on the bridge. Dragons brought marshmallows to roast, and Grumbold made punch. He turned out to be pretty good at party planning when he wasn't busy being lonely and goo-throwing.
+And then it reached Blaze. The goo around his tail softened and slid away. He pulled himself up, wobbled, and flew straight to Ember's rock.
 
-Ember sat on the bridge railing, blowing bubbles for the little dragons to chase. They squealed and giggled as the rainbow orbs floated around them.
+He didn't say anything for a moment. He just sat next to her, goo still dripping from his scales, and watched the last of the sticky wall dissolve into the river below the bridge.
 
-Blaze flew over and sat next to her.
+"You came to rescue me," Ember said.
 
-"Hey," he said. "I'm sorry I laughed at you before. Your bubbles are actually really cool."
+"I came to rescue you and got stuck in three seconds," said Blaze. "And then you rescued everybody."
 
-Ember smiled. "Thanks. They're not fire, but—"
+"I didn't rescue anybody. I just... carried his words."
 
-"They're better," said Blaze. "They're *yours*."
+Blaze was quiet for a while. Down on the bridge, Grumbold was blowing his nose into a tablecloth-sized handkerchief while Grandma Kindle patted his arm.
 
-Ember looked up at her bubbles, floating toward the stars. They caught the moonlight and glowed like tiny lanterns.
+"At school," Blaze said, "when the other kids asked why my sister was broken, I should have said you weren't." He looked at his claws. "I should have said it louder than anybody."
 
-She thought about all the things fire couldn't do. Fire couldn't float. Fire couldn't shimmer with rainbows. Fire couldn't wash away goo or make sad trolls smile or give little dragons something magical to chase.
+Ember leaned against her brother's shoulder. His scales were warm, even under the goo.
 
-Fire was fire.
+"You can say it now," she said.
 
-But bubbles? Bubbles were *special*.
+"You're not broken," said Blaze. "You're the bravest dragon I know."
 
-"You know what, Blaze?" said Ember, breathing out another cloud of sparkles. "I think you might be right."
+"Thank you."
 
-And from that day on, Ember never wished for fire again.
+"And you have goo on your nose."
 
-Well... almost never.
+"So do you."
 
-Maybe just a little bit when she wanted to roast marshmallows.
+That evening, the dragons held a dinner on Grumbold's bridge. Not a party with streamers and banners -- just a dinner, with everyone sitting on the stone railing, passing food back and forth, talking.
 
-But that's what brothers are for.
+Grumbold sat in the middle, so big he took up half the bridge, eating a casserole that Grandma Kindle had brought. Every few minutes, a dragon would stop next to him and say something -- about the weather, or the lake, or nothing much at all -- and his big, bumpy face would light up like a lantern.
+
+Ember sat with her feet dangling over the railing, breathing bubbles into the evening air. They floated up over the bridge, over the lake, catching the last gold light of the sunset.
+
+Her mom sat beside her and pulled her close.
+
+"I always knew your bubbles would matter," her mom said. "I just didn't know how."
+
+"I didn't either," said Ember. "I kept waiting for them to do something big and flashy, like fire. But they didn't need to be big. They just needed to go where fire couldn't."
+
+A bubble drifted past them, slow and quiet, carrying nothing but light.
+
+"Mom?" said Ember. "I think I know what bubbles are for."
+
+"What's that?"
+
+"They're for reaching people."
+
+Her mom kissed the top of her head. Below them, the river caught the last of the sunset and turned to gold, and the bridge was full of voices.
 
 **The End**

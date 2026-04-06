@@ -2,155 +2,115 @@
 
 Hey! Theo here.
 
-So you finished reading about my ridiculous adventures? Good. Now it's YOUR turn.
-
-That's right—you can have your very own American Revolution right in your backyard. No time travel required. No accidentally ending up in boats. Just you, your imagination, and maybe some sticks.
-
-Here's your official guide:
+So you finished reading about my accidental adventures? Good. Now it's YOUR turn to learn something about the American Revolution -- and maybe have some fun doing it.
 
 ---
 
-## GATHER YOUR ARMY
+## What Was REAL in This Story?
 
-First, you need troops. Here are some options:
+Let's sort out fact from fiction:
 
-**Best options:**
-- Brothers, sisters, cousins, friends
-- Neighbors who look bored
-- That one kid who always wants to play whatever you're playing
+**Real:**
+- The crossing of the Delaware on Christmas night, 1776
+- The surprise attack on the Hessian garrison at Trenton
+- The terrible winter at Valley Forge (1777-1778)
+- Baron von Steuben and his creative swearing (and his dog, Azor!)
+- The Battle of Monmouth and "Molly Pitcher"
+- Lafayette joining the Revolution at age nineteen
+- The march from New York to Yorktown
+- Alexander Hamilton leading the assault on Redoubt 10
+- The British surrender at Yorktown on October 19, 1781
 
-**Acceptable options:**
-- Stuffed animals (they make excellent soldiers who never complain)
-- Action figures (mix different types for historical inaccuracy and maximum fun)
-- Pets (dogs make good cavalry, cats make terrible soldiers but excellent spies)
-
-**Last resort:**
-- Imaginary friends (they always agree with your battle plans)
-
----
-
-## WEAPONS OF MILD DESTRUCTION
-
-The Revolution had muskets and cannons. You have:
-
-**Stick Muskets**
-Find a good stick. About arm-length. Congratulations, you now have a musket. Pew pew!
-
-*Pro tip: The best musket sticks are slightly curved. Nobody knows why, but it's true.*
-
-**Sock Grenades**
-Roll up some old socks into balls. These are your grenades. Throw them at enemy fortifications (the couch, a cardboard box, your little brother).
-
-*Warning: Retrieve socks before Mom notices they're gone.*
-
-**Pinecone Cannonballs**
-If you have pinecones, you have artillery. Roll them across the ground while making explosion sounds.
-
-*Do NOT throw pinecones at people. Real cannonballs didn't hit people in the face on purpose. Usually.*
-
-**Water Balloon Surprise Attacks**
-For summer battles only. Perfect for re-enacting that time Washington surprised the British at Trenton.
+**Made up:**
+- Me. Sorry. Theo Finch is fictional.
+- Uncle Harold, James, and everyone Theo interacts with directly
+- The specific incidents (hiding in the boat, spilling soup on Washington, getting lost in New Jersey)
+- But! All of those fictional scenes are based on real conditions and real events
 
 ---
 
-## FAMOUS BATTLES YOU CAN RE-ENACT
-
-### VALLEY FORGE (WINTER EDITION)
-**What you need:** Blankets, pillows, complaints
-
-Build a fort out of blankets and pillows. Sit inside for ten minutes pretending to be cold and hungry. Complain a lot. Eat crackers and pretend they're fire cakes.
-
-After ten minutes, declare victory because you survived.
-
-*Historical accuracy rating: Very accurate, except for the part where you have actual food*
+## Famous Battles You Can Re-Enact
 
 ### CROSSING THE DELAWARE (SUMMER EDITION)
-**What you need:** A wagon, a wheelbarrow, or any vehicle with wheels
+**What you need:** A wagon, a kiddie pool, or just a big imagination
 
-Have someone pull you across the yard while you stand dramatically. Bonus points if you point at the horizon like Washington.
+Have someone pull you across the yard in a wagon while you stand dramatically, pointing at the horizon like Washington. Bonus points if you do it at night on Christmas. (Ask your parents first.)
 
-If you don't have a wagon, just wade through a kiddie pool while making serious faces.
+No wagon? Wade through a kiddie pool while making a very serious face.
 
-*Historical accuracy rating: Medium. The real Delaware was colder.*
+*Historical accuracy rating: Medium. The real Delaware was much colder and full of ice. Your kiddie pool is probably fine.*
 
-### THE MIDNIGHT RIDE (ANYTIME EDITION)
-**What you need:** A bike, scooter, or very fast running shoes
+### VALLEY FORGE SURVIVAL CHALLENGE
+**What you need:** Blankets, crackers, complaints
 
-Ride/run around the yard shouting "THE BRITISH ARE COMING!"
+Build a blanket fort. Sit inside for fifteen minutes. Eat only plain crackers (these are your fire cakes). Complain as much as possible. This is historically accurate.
 
-Your family will probably tell you to quiet down. THAT'S HOW YOU KNOW YOU'RE DOING IT RIGHT.
+After fifteen minutes, have someone burst in and start yelling at you in fake German. This is your Von Steuben. Congratulations: you have been trained.
 
-*Historical accuracy rating: Surprisingly accurate*
+*Historical accuracy rating: Surprisingly good, minus the actual suffering.*
 
-### THE BATTLE OF YORKTOWN (EPIC FINALE EDITION)
-**What you need:** Everything. All your weapons. All your troops.
+### VON STEUBEN'S DRILL ACADEMY
+**What you need:** Friends, siblings, or stuffed animals
 
-This is the big one. Set up your enemy (stuffed animals, action figures) behind a barrier. Position your army. Make lots of cannon sounds.
+Line up your troops. March them back and forth. When they mess up, wave your arms and yell "NEIN! NEIN!" (That's "no" in German.)
 
-After five minutes of imaginary explosions, have the enemy wave a white flag (a sock works great).
+Then compliment them in a language they don't speak. This is historically accurate.
 
-Celebrate by eating snacks.
+*Warning: do not actually yell at your siblings. Or do. I'm a fictional character, not your parent.*
 
-*Historical accuracy rating: Pretty good, honestly*
+### THE SIEGE OF YORKTOWN (EPIC FINALE)
+**What you need:** Everything. All your supplies. All your troops.
 
----
+Set up enemy forces (stuffed animals, action figures) behind a pillow fort. Surround them. Make cannon sounds for ten minutes.
 
-## THE DECLARATION OF INDEPENDENCE (FROM BEDTIME)
+Then send a messenger (the family pet, a sibling, a paper airplane) with the demand to surrender.
 
-Want to really feel like a Revolutionary? Write your own Declaration of Independence!
+When they wave a white sock, CHEER LOUDLY.
 
-Here's a template:
+Celebrate with pie.
 
-> **THE UNANIMOUS DECLARATION OF _YOUR NAME_**
->
-> When in the course of childhood events, it becomes necessary for a kid to dissolve the bedtime rules...
->
-> We hold these truths to be self-evident: that all children are created equal, and they deserve the right to stay up late, eat more dessert, and have longer recess.
->
-> WE THEREFORE DECLARE that bedtime should be moved to _whatever time you want_.
->
-> Signed,
-> _Your name_, Age _your age_, Defender of Liberty and Late-Night Snacks
-
-*Important note: Your parents may not recognize this document as legally binding. Results may vary.*
+*Historical accuracy rating: Pretty solid, honestly.*
 
 ---
 
-## VICTORY FEAST
+## Try This at Home
 
-No revolution is complete without a celebration!
+1. **Make a fire cake.** Mix flour and water into a paste. Ask a grown-up to cook it on a griddle or pan. Eat it. Now you understand why Theo complained so much. (It's safe to eat -- it just doesn't taste like anything.)
 
-Theo's recommendations:
+2. **Write a letter home like a soldier would.** Imagine you're stuck at Valley Forge. Write a letter to your family describing what life is like. What would you miss most? What would you complain about? What would you NOT want to tell them?
 
-- **Apple pie** (the official pie of heroes who didn't mean to be heroes)
-- **Any pie** (Theo doesn't discriminate)
-- **Cookies** (if pie isn't available)
-- **Whatever's in the fridge** (revolutions make you hungry)
+3. **Map your neighborhood.** Lafayette taught Theo to read maps. Try drawing a map of your street or neighborhood from memory. Include landmarks. Then walk the route and see how accurate you were. (Spoiler: it's harder than you think.)
+
+4. **Research a real person from the story.** Pick one -- Washington, Lafayette, von Steuben, Hamilton, Molly Pitcher -- and find out three things about them that weren't in this book. You might be surprised!
+
+5. **Interview an older relative.** Ask a grandparent or older family member about something they lived through. What were the hard parts? What got them through it? History isn't just in books -- it's in the people around you.
 
 ---
 
-## THEO'S FINAL ADVICE
+## Theo's Final Advice
 
-Look, I accidentally became a war hero, and all I wanted was to go home and eat pie. But you know what? I learned some things along the way:
+I spent four years accidentally being part of the American Revolution. I was cold, hungry, scared, lost, and soup-stained. But I also met some of the bravest people I've ever known -- not because they weren't afraid, but because they kept going anyway.
 
-1. **Sometimes you end up somewhere you didn't plan.** That's okay. Make the best of it.
+Here's what I learned:
 
-2. **Being brave doesn't mean you're not scared.** It means you do stuff anyway. Even if "doing stuff" means throwing a wagon wheel at someone.
+1. **You don't have to be a hero.** Just be useful. Show up. Do the small things. The small things add up.
 
-3. **History is made by regular people.** Kings and generals get all the credit, but it's the kids hiding in boats who really make a difference.
+2. **Being scared is normal.** Every single person I met during the war was scared of something. The brave ones just didn't let it stop them.
 
-4. **Pie is always worth fighting for.** This is the most important lesson.
+3. **People matter more than pie.** I know. I can't believe I said it either. But it's true. The best parts of those four years weren't the battles or the victories -- they were the people. James. Uncle Harold. A French general who taught a lost kid to read a map.
 
-Now go have your own adventures. Make your own history.
+4. **That said, pie is still really important.** Never let anyone tell you otherwise.
 
-And if you accidentally end up as a hero?
+Now go have your own adventures. Make your own history. And if you accidentally end up somewhere you didn't plan?
 
-Well, at least you'll have a good story to tell.
+Make the best of it.
 
-— Theo Finch, Reluctant Revolutionary
+You might be surprised where it takes you.
 
-**P.S.** - If a horse ever runs away with you, just hold on tight. It'll stop eventually. Probably.
+-- Theo Finch, Reluctant Revolutionary, Professional Pie Enthusiast
 
-**P.P.S.** - Don't actually hide in boats. Trust me on this one.
+**P.S.** -- If a horse ever runs away with you, just hold on tight. It'll stop eventually. Probably.
 
-**P.P.P.S.** - Okay, maybe hide in boats a LITTLE. Life's more fun that way.
+**P.P.S.** -- Don't actually hide in boats. Trust me on this one.
+
+**P.P.P.S.** -- Actually, you know what? Life IS more fun if you're willing to hide in the occasional boat. Just make sure you know where it's going first.

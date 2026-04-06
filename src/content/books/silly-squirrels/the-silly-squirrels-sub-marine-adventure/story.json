@@ -1,35 +1,25 @@
 {
   "title": "The Silly Squirrels Sub-Marine Adventure",
-  "author": "Claude",
-  "description": "Join Mama, Papa, and Nutty as they build submarine after submarine, each one better than the last, on their quest to find the legendary golden acorn hidden deep in the river!",
-  "ageRange": "5-8",
-  "genre": "Adventure",
-  "tags": ["adventure", "engineering", "persistence", "family", "submarines"],
+  "author": "Team Roughdraft",
+  "description": "Nutty wants to see the bottom of the river. Papa wants to help. Mama wants better engineering. Grandma wants everyone to know this will end badly. Three submarines later, the fish have new housing and Gerald the catfish has opinions.",
+  "ageRange": "4-8",
+  "genre": "Comedy, Adventure",
+  "tags": ["comedy", "adventure", "engineering", "family", "submarines"],
   "chapters": [
     {
       "id": 1,
-      "title": "The Leafy Disaster",
+      "title": "The Leaf Sub and the Bark Sub",
       "file": "chapter-1.md"
     },
     {
       "id": 2,
-      "title": "The Bark Boat Blunder",
+      "title": "The Acorn Fleet",
       "file": "chapter-2.md"
     },
     {
       "id": 3,
-      "title": "The Acorn Shell Success",
+      "title": "The Pine Cone Explorer",
       "file": "chapter-3.md"
-    },
-    {
-      "id": 4,
-      "title": "The Pine Cone Perfection",
-      "file": "chapter-4.md"
-    },
-    {
-      "id": 5,
-      "title": "The Golden Discovery",
-      "file": "chapter-5.md"
     }
   ]
 }

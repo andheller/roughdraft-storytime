@@ -1,107 +1,127 @@
-# The Bark Boat Blunder
+# The Acorn Fleet
 
-The next morning, Nutty woke up with his thinking cap on - which was actually just his regular cap, but he wore it extra thoughtfully.
+Papa's giant acorn shells were each the size of a soup bowl, with thick walls and a smooth curve that looked almost like it had been designed for underwater travel.
 
-"I've got it!" he announced at breakfast, waving a piece of toast shaped like a submarine. "Our problem yesterday was we used materials that soak up water. So today, we use something that **repels** water!"
+"Nature's submarines," Nutty said, holding one up.
 
-"What did you have in mind, sweetie?" Mama asked, though she had a suspicion she knew where this was going.
+"Nature's acorns," Grandma corrected.
 
-"Tree bark! It protects trees from rain, so it must be waterproof, right?"
+"Same thing."
 
-Papa nodded approvingly. "Now that's scientific thinking! Bark it is!"
+"Profoundly not the same thing."
 
----
+But even Grandma had to admit the shells were impressive. They were dense, watertight, and when Nutty tapped one with his knuckle, it made a solid, serious sound.
 
-After breakfast, the family spent the morning carefully peeling bark from fallen branches (they were very careful not to hurt any living trees, of course). They found beautiful pieces - some smooth birch bark that looked almost like paper, some rough oak bark with interesting ridges, and some bouncy pine bark that smelled like Christmas.
+Mama ran her paw along the inside. "No seams to leak. No joints to separate. This is one solid piece."
 
-"This time," Mama declared, holding up a piece of birch bark, "we'll make a proper plan first!"
+"Individual submarines," Nutty said, lining up the three shells on the workbench. "One for each of us. We go down together as a fleet."
 
-Nutty sketched their design on a flat piece of bark with a charcoal stick: "See? We make a canoe shape, but then we cover the top with more bark to make it fully enclosed! And we'll use tree sap as glue instead of just tying things together!"
+Papa was already drilling a hole for a periscope. "The Acorn Navy."
 
-"Brilliant!" Papa exclaimed. "And look - this bark naturally curves. It's like nature designed it for boat building!"
+"Please don't call it that," Mama said.
 
----
+"Admiral Papa reporting for duty," Papa said.
 
-Several hours later, they stood admiring their handiwork. Their bark submarine looked significantly more submarine-like than the leaf disaster. It had a proper hull, a sealed top, and even a small bark periscope that Nutty had cleverly carved himself.
+"I asked you not to call it that."
 
-"Now this," Papa said proudly, "looks like it could actually go underwater!"
+Nutty designed hollow-reed periscopes, moss padding for the seats, and tiny paddle wheels made from twigs that they could spin with their paws. Mama engineered the ballast system: pebbles on strings that could be lowered for sinking and pulled up for surfacing.
 
-"It's even got that satisfying submarine smell," Mama added, sniffing the piney aroma.
+Grandma watched from a stool in the corner of the workshop, eating peanuts.
 
-At the riverbank, they carefully lowered their bark creation into the water. Unlike yesterday's immediate sinking, this one actually floated! Not only that, it looked almost... professional.
+"You're not going to tell us this won't work?" Nutty asked.
 
-"Success!" Nutty cheered. "Quick, let's get in before it changes its mind!"
-
----
-
-The three squirrels squeezed into their bark submarine through a small opening in the top. It was cozy - very cozy. Actually, it was more like sardines-in-a-can cozy.
-
-"Everyone ready for underwater exploration?" Papa asked, though his voice was muffled because his face was pressed against a piece of bark.
-
-"Ready!" came two equally muffled replies.
-
-Papa reached for their diving mechanism: a collection of small rocks they'd brought as ballast. "Dive! Dive! Dive!"
-
-The submarine began to sink as planned. Down they went, and down, and down...
-
-"This is amazing!" Nutty squeaked. "I can see fish through the bark cracks! There's a turtle! There's a... oh."
-
-"Oh?" Mama asked.
-
-"Oh no," Nutty corrected.
-
-The submarine was indeed going down, but it wasn't stopping. Worse, it was taking on water through tiny gaps between the bark pieces. Not quickly, but steadily.
-
-"Uh, Papa?" Nutty said, watching water trickle in around his feet. "I think our submarine is becoming more of a... submarine-and-swimming-pool combination."
-
-Papa tried to reach the emergency ballast release (more rocks to drop), but he was wedged between Mama and a curved piece of oak bark. "I can't... quite... reach..."
-
-*Glub glub.*
-
-More water seeped in.
-
-"Well," Mama said with forced cheer as water reached their ankles, "at least this time we're sinking slowly enough to appreciate the experience!"
+"You didn't listen the last two times," Grandma said. "I am conserving energy."
 
 ---
 
-Ten minutes later, three very wet and very bark-covered squirrels sat on the riverbank, watching their second submarine attempt bob half-submerged nearby.
+At the river, three acorn submarines bobbed in the shallows. They looked surprisingly good. Like tiny, serious vessels with reed periscopes and paddle wheels, ready for business.
 
-Gerald's grumpy face surfaced next to the half-sunk bark boat. He examined it with the weary expression of a landlord discovering his tenants have been throwing furniture out the window.
+Gerald was already there. He said he was conducting a routine river census and that his presence had nothing to do with the squirrels.
 
-"Another one?" he asked flatly.
+"I count fish," he said. "It's important municipal work."
 
-"We almost made it work this time!" Nutty said defensively.
+"You've been staring at the bank since sunrise," said a passing minnow.
 
-"Uh-huh." Gerald swam a slow circle around the bark boat. "You know your leaf pile from yesterday? A family of minnows has already moved in. They're calling it 'The Leaf Loft.' They put up curtains."
+"The census includes the bank," Gerald said.
 
-"Really?" Mama asked, surprised.
+Grandma had come along this time. She sat on a rock with a thermos of tea and a book, which she opened but did not read because she was watching.
 
-"Little seaweed curtains. Very tasteful." Gerald sighed. "I give it three days before your bark contraption here becomes 'The Bark Bed & Breakfast.' The local fish are already forming a waiting list for Nutwobble-brand disaster housing."
+"Test dive," Nutty called, climbing into his shell. It fit perfectly. Snug but not cramped. Room to breathe, room to paddle, room to see through the periscope.
 
-"We're not trying to build fish houses!" Nutty protested.
+"Communication check," Papa said into his reed. His voice carried clearly. "Admiral Papa to Nutty, do you copy?"
 
-"And yet," Gerald said dryly, "you're so good at it."
+"I copy. Mama?"
 
-"The good news," Papa said, picking bark chips out of his whiskers, "is that we made it underwater!"
+"Ready," Mama said. "And nobody is an admiral."
 
-"The bad news," Mama added, wringing water from her tail, "is that we also made it back to the surface rather urgently."
+They lowered the pebble ballast. Down they went.
 
-Nutty stared at their bark boat, which was now more of a bark bath. "It was **so close** to working! We just need to figure out how to make it completely watertight."
+This time, everything worked.
 
-Gerald's head was still poking above the surface. "You could always stop. Just throwing that out there. As an option. That exists."
+The shells did not leak. The paddle wheels turned smoothly. The periscopes gave a clear, wobbly view of the underwater world. They could steer, they could stop, they could hover in place by adjusting the pebble lines.
 
-"Never!" Nutty declared.
+"I can see the river bottom," Nutty said. "There's a whole field of water plants. And the minnows are waving from the Leaf Loft."
 
-"Didn't think so." Gerald sank back down, muttering something about "stubborn mammals" and "property values."
+"The Leaf Loft has a mailbox now," Mama reported from her submarine.
 
-"And maybe a bit roomier," Papa suggested, still feeling cramped.
+"Of course it does," said Gerald, who was swimming alongside them and pretending not to be. "Property values are up twelve percent since you started dumping construction materials in the river."
 
-"And with a better emergency exit plan," Mama noted.
+They explored for twenty minutes. They saw water beetles, a crayfish who waved with both claws, and a school of bluegills who scattered and then came back because the acorn submarines were interesting and also very small.
 
-As they walked home, leaving another failed submarine bobbing in the river, Nutty was already deep in thought about Submarine Number Three.
+But the river got deeper, and eventually the pebble-ballast system ran out of string.
 
-"You know what, family?" he said, his optimism returning. "We're getting better at this! Yesterday we lasted about ten seconds underwater. Today we lasted almost ten minutes!"
+"We can't go any further down," Mama said. "Not enough line."
 
-"That's the spirit!" Papa laughed. "At this rate, by Submarine Number Five, we'll be ready for the Golden Acorn!"
+Nutty peered through his periscope at the dark water below. The river kept going. Way down there, it narrowed into what looked like a rocky trench, deep and shadowy and completely unexplored.
 
-"Tomorrow," Nutty declared, "we think bigger!"
+"What's down there?" Nutty asked.
+
+Gerald, who had been swimming alongside them for the entire dive and was no longer pretending otherwise, went quiet for a moment.
+
+"Nobody knows," he said. "Too deep for fish. Too dark to see. I've lived in this river forty-seven years and never been down that far."
+
+"Never?"
+
+"Never had a reason." Gerald paused. "Still don't."
+
+But he was looking at the trench the way someone looks at a locked door they have walked past every day of their life.
+
+---
+
+Back on shore, the acorn submarines sat in a proud little row on the bank. Nobody had needed rescuing. Nothing had sunk. No emergency exits had been required.
+
+Grandma closed her book. She had not turned a single page.
+
+"Well?" Nutty asked.
+
+"You went underwater and came back," Grandma said. "That is a significant improvement over the salad."
+
+From Grandma, this was a standing ovation.
+
+"But the acorns are too small to go deep," Nutty said. "We need something bigger. Something that fits all of us. Something with a real ballast system and a real air supply and room to actually explore."
+
+Gerald surfaced near the bank. "So you're coming back."
+
+"Tomorrow."
+
+"I won't be here," Gerald said. "Busy day. Census work."
+
+"There is no census," said the minnow, who was eavesdropping from the Leaf Loft mailbox.
+
+"The census," Gerald said firmly, "is ongoing and confidential."
+
+Grandma poured the last of her tea into the river, which was her way of saying the outing was over. "What are you building next?"
+
+Nutty held up a pine cone. It was enormous. The size of a melon, with thick, overlapping scales that locked together so tightly not a drop of water could get between them.
+
+"Where did you find that?" Papa asked.
+
+"The old pine tree by the waterfall. It fell last night in the wind."
+
+Mama took it and turned it over. Solid. Dense. Naturally streamlined. Already shaped like a hull.
+
+"That could work," she said.
+
+Grandma looked at the pine cone. She looked at Nutty. She looked at the river.
+
+"I'll pack a lunch tomorrow," she said. "This one might take a while."

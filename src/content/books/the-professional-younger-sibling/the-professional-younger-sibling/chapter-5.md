@@ -1,83 +1,105 @@
-# Chapter 5: Professional Development Day
+# Chapter 5: The Professional Family Member
 
-Today I decided that if I was going to keep my job as the youngest human in the family, I needed to help someone else learn the skills. Like training a replacement, except not really a replacement, more like an apprentice.
+A week after the Jordan advice thing, Mom asked me to help her plan a surprise birthday party for Dad.
 
-The perfect opportunity came when my cousin Jamie came over for the day. Jamie is five, which makes her very qualified to learn about younger sibling tactics, even though she's an only child.
+"Why me?" I asked. "Shouldn't Alex plan it? Alex plans everything."
 
-"Jamie," I said, "how would you like to learn some professional skills?"
+"Alex is good at organizing," Mom said. "But I don't need an organizer. I need someone who knows what Dad actually wants."
 
-"What kind of professional skills?" Jamie asked.
+I thought about this. Alex would plan a party with a schedule and a checklist and probably name tags. Sam would plan something small and quiet. Jordan would plan something involving fireworks and a trampoline and possibly live animals. None of those were right for Dad.
 
-"Younger sibling skills. How to get extra dessert, how to avoid chores, how to get the older kids in trouble instead of you—all the important stuff."
+Dad is the kind of person who doesn't like big loud parties, but he loves it when the family does things together. He likes his favorite foods and board games that get competitive but not too competitive. He likes it when we're all in the same room and nobody's fighting.
 
-Jamie looked very interested. "Can you really teach me that?"
+"I'll do it," I said.
 
-"I'm an expert," I said. "I've been doing this for seven years."
+I called a family meeting, which felt strange because usually Alex calls the family meetings. Everyone sat in the living room and looked at me like I'd grown a second head.
 
-First, I taught Jamie the art of looking innocent. "The key," I explained, "is to make your eyes very wide and keep your hands where people can see them. Also, if someone asks if you did something, you say, 'I don't think so,' instead of 'no,' because 'I don't think so' isn't technically lying if you're not sure."
+"We're planning Dad's birthday party," I said. "And we're going to do it Dad's way, not our way."
 
-"I don't think so," Jamie practiced.
+"What's Dad's way?" Jordan asked.
 
-"Perfect! Now let's practice the sad face for when you want something."
+"Quiet. Together. His favorite food. Board games."
 
-I demonstrated my best sad face, the one that usually gets me extra story time. Jamie tried to copy it, but she just looked like she needed to use the bathroom.
+"That sounds boring," Jordan said.
 
-"No, no," I said. "You have to think of something actually sad. Like... like when your favorite TV show ends, or when you drop your ice cream."
+"It sounds like Dad," I said. "And it's Dad's birthday, not yours."
 
-Jamie tried again. This time she looked genuinely sad, which was actually kind of concerning.
+Jordan opened his mouth, then closed it. "Okay, fair."
 
-"Are you okay?" I asked.
+"Alex, can you find the recipe for Dad's spaghetti and meat sauce? The one Grandma used to make?"
 
-"I'm thinking about my goldfish that died last month," Jamie said.
+Alex's eyes lit up. A recipe to follow. A mission. "On it."
 
-"That's too sad! Think of something just a little bit sad. Like when you have to go to bed but you're not tired yet."
+"Sam, can you figure out which board games have all their pieces? Last time we played Clue, three suspects were missing and we had to use gummy bears."
 
-"Oh!" Jamie tried again, and this time it was perfect.
+Sam almost smiled. A quiet task she could do alone. "Sure."
 
-"Excellent! Now let's practice on Alex."
+"Jordan, can you make a card? You're the best artist in the family."
 
-We found Alex in the living room reading a book. "Alex," I said, "Jamie wants to ask you something."
+Jordan practically vibrated. A creative project with no rules. "I'm going to draw all of us! And Biscuit! And maybe a dragon!"
 
-Jamie walked up to Alex with her practiced sad face and said, "I don't think so, can I have a cookie?"
+"Maybe skip the dragon," I said. "But otherwise, yes."
 
-Alex looked confused. "You don't think so about what?"
+For the next week, I coordinated everything. This was harder than it sounds because Jordan kept almost spoiling the surprise by saying things like "I SURE DO LOVE BIRTHDAYS" every time Dad walked into a room. And Alex kept trying to make the dinner more complicated.
 
-"I don't know," Jamie said, still using the sad face. "Riley said to say that."
+"Alex," I said on Wednesday, "we don't need a five-course meal. Dad just wants Grandma's spaghetti."
 
-Alex looked at me. "Riley, what are you teaching her?"
+"But I found this amazing recipe for homemade garlic bread with three kinds of cheese --"
 
-"Professional development," I said. "Jamie is learning important life skills."
+"Is that what Dad would pick, or what you would pick?"
 
-"Those aren't life skills, those are manipulation tactics."
+Alex paused. "What I would pick."
 
-"What's manipulation?" Jamie asked.
+"So let's do regular garlic bread. Dad likes regular garlic bread."
 
-"It's when you try to trick people into doing what you want," Alex explained.
+"You're right," Alex said, and I could tell it cost him something to say it because Alex likes being the one who's right.
 
-"Oh," Jamie said. "I don't want to trick anyone. I just want a cookie."
+On Friday night, we surprised Dad. He walked in and saw the table set with his favorite dinner, the board games stacked and ready, and Jordan's card propped up against his plate. The card had a drawing of our whole family sitting around the table, including Biscuit under it begging for food, which was extremely accurate.
 
-Alex gave Jamie a cookie, but not because of the sad face—just because Jamie asked nicely and said please.
+"What's all this?" Dad said.
 
-I tried to continue the training session, but everything kept going wrong. When I taught Jamie how to blame something on an older sibling, Jamie said, "But I don't have an older sibling, and anyway, that seems mean."
+"Happy birthday," we all said. Not in unison -- Jordan shouted it, Sam said it normally, Alex said it formally, and I said it last because I was watching Dad's face.
 
-When I taught Jamie how to get out of helping with chores by acting helpless, Jamie said, "But I like helping. My mom says helping makes me feel important."
+He looked so happy. Not party-happy, where you put on a big smile for guests. Real happy, where your eyes get soft and you don't say anything for a second because you're feeling too much.
 
-When I taught Jamie how to disappear when trouble was happening, Jamie said, "Wouldn't it be better to help fix the trouble?"
+We cooked together. Alex ran the recipe and gave everyone jobs. Sam measured ingredients carefully and quietly. Jordan stirred the sauce with great enthusiasm and only tried to add extra garlic once, and when I gave him a look, he put the garlic powder down. I moved between everyone, grabbing things people needed before they asked, keeping the kitchen from turning into a disaster zone.
 
-By the end of the day, I realized that all of my professional younger sibling skills seemed kind of... not great when I was trying to teach them to someone else.
+Dinner was perfect. Not fancy-restaurant perfect. Family perfect. The garlic bread was a little burned on one side, and Jordan put too much parmesan on his spaghetti, and Sam ate hers while reading a book (which is technically against the rules, but it was a special occasion). Dad ate two helpings and said it tasted exactly like Grandma's.
 
-"Jamie," I said, "do you think I'm a good teacher?"
+We played three rounds of board games. Dad won two and came in second in the third, which made him very competitive-happy, which is Dad's favorite kind of happy.
 
-"You're a very good teacher," Jamie said. "But I think maybe you're teaching the wrong things."
+When we were cleaning up, Dad found me in the kitchen rinsing dishes.
 
-"What do you mean?"
+"Mom told me you planned this," he said.
 
-"I think maybe being the youngest isn't about getting away with stuff. I think it's about getting to learn from everyone older than you."
+"Everyone helped."
 
-That night, after Jamie went home, I thought about what she said. Maybe Jamie was right. Maybe I'd been thinking about being the youngest all wrong.
+"But you figured out what I'd actually want."
 
-Maybe instead of trying to get away with things, I should be trying to learn things.
+"It wasn't that hard," I said. "I just paid attention."
 
-But what things? And how?
+Dad hugged me for a long time. Not a quick hug. A real one.
 
-I guess that's what I need to figure out next.
+"You know," he said, "you're pretty good at taking care of people."
+
+"I'm the youngest," I said. "It's not supposed to be my job."
+
+"Maybe it's not a youngest thing or an oldest thing," Dad said. "Maybe it's just your thing."
+
+Later that night, I sat in my room and thought about my career. A month ago, I was a professional younger sibling. My whole job was getting away with things: extra dessert, fewer chores, someone else taking the blame.
+
+I was still the youngest. That hadn't changed. But somewhere along the way, I'd gotten a promotion I hadn't applied for. I'd gone from working the system to actually being part of the family, and the weird thing was, I liked the new job better. Watching my siblings and understanding what they needed wasn't just a tactic anymore. It was the thing I was best at.
+
+I still get extra dessert sometimes. I still make the sad eyes when I want an extra story at bedtime. I'm not a totally reformed professional younger sibling.
+
+But now when I watch my family -- Alex organizing everything so it doesn't fall apart, Sam noticing things nobody else notices, Jordan turning everything into something bigger and louder and more colorful -- I don't just see opportunities. I see people. My people.
+
+And if I'm being honest, which I'm trying to do more often these days, helping them is better than any amount of extra dessert.
+
+Don't tell them I said that, though. I still have a reputation to maintain.
+
+---
+
+*Author's Note: This story was written by Riley Thompson with some help from grown-ups who know how to spell big words. Riley is still the youngest member of her family and does not plan to give up that position anytime soon.*
+
+*Also, Jordan says to tell you that the banana song is still stuck in his head and it's been two months now. Riley feels a little bit sorry about this but not sorry enough to stop humming it sometimes.*

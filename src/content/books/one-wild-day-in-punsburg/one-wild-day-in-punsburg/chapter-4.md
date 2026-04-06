@@ -1,105 +1,101 @@
-# The Tail of Two Kitties
+# Breaking Moos
 
-Whiskers lived on Oak Street.
+"Good afternoon, Punsburg. I'm Patty Holstein."
 
-Biscuit lived on Elm Street.
+"And I'm Chuck Angus."
 
-They were twins—orange and fluffy, born in the same cardboard box behind the grocery store. But when they were adopted, they went to different families on different blocks.
+"And THIS is Channel 5 Cow News---MOO Trust."
 
-They should have lost touch. Most cats would have.
+The cameras were rolling. The teleprompters were scrolling. Patty and Chuck sat behind the news desk, looking as professional as two Holstein cows could look in matching blazers.
 
-But Whiskers and Biscuit had invented something special: Tail Language.
+It was 3:00 PM, and they had a LOT to report.
 
-From Whiskers' windowsill on Oak Street, she could see Biscuit's windowsill on Elm Street. Just barely. If she squinted. And if Biscuit waved his tail in exactly the right pattern, she could read his messages.
+"Chuck, it's been a strange day in Punsburg."
 
-Three swishes left: "Good morning."
-Two swishes right: "How's the food?"
-One big poof: "URGENT NEWS."
+"It certainly has, Patty. Let's start with the clocks."
 
-They'd been doing this for three years. Their humans had no idea.
+Patty shuffled her papers. (She didn't have hands, so this involved a lot of nose-nudging.) "At approximately 8:00 AM this morning, every clock in Punsburg jumped forward to noon. Then slowly corrected itself over the next several hours."
 
-Today was Saturday. 11:00 AM. Time for the morning check-in.
+"Experts are baffled," Chuck added. "I spoke with the clockmaker on Fifth Street, and he said, and I quote, 'This is the weirdest thing I've ever seen, and I once saw a clock run backwards for an hour.'"
 
-Whiskers hopped onto her windowsill and looked toward Elm Street.
+"Any explanation?"
 
-Nothing.
+"None yet. But witnesses report seeing three unusual flies near the Miller residence on Maple Street. Could be related. Could be coincidence. Could be..." Chuck paused for effect. "...time flies."
 
-Biscuit's window was blocked. Something huge and colorful was moving slowly down the street between them.
+Patty stared at him.
 
-A parade.
+"Moving on," she said firmly. "The clock incident triggered an early start to the Founders' Day Parade, which led to our next story: Cereal-geddon."
 
-"Oh, no," Whiskers meowed.
+Footage appeared on screen: the parade in chaos. Marching band members dodging floats. And then---an alpaca on a flatbed truck, suitcase sailing through the air, the cereal delivery truck swerving into a fire hydrant.
 
-It was the Punsburg Founders' Day Parade. She'd forgotten. (Cats don't keep calendars.) The whole street was full of floats, marching bands, and people throwing candy.
+"An alpaca---identified only as Alejandro---stormed the parade around 10:00 AM, dragging a suitcase and shouting about llamas. His suitcase struck the Punsburg Grocery cereal delivery truck, causing it to overturn. Three blocks of downtown were covered in breakfast cereal."
 
-One float went by with a glowing man in armor standing on it, waving stiffly. *Weird*, thought Whiskers. Another had the high school band playing tubas. A third was covered in—were those actual cows? No, that was just a news van.
+"A real cereal disaster," Chuck said.
 
-But none of that mattered. What mattered was that she couldn't see Biscuit.
+"Chuck."
 
-And today, of all days, she NEEDED to see Biscuit.
+"Frosted Flakes everywhere, Patty."
 
-Because she had a message. An urgent one. Her human had said something important at breakfast—something about the island in the pond. The one all the birds were always chirping about. Something was happening there today. At sunset. Something big.
+"CHUCK."
 
-Whiskers had to tell Biscuit. They had to investigate TOGETHER.
+"Sorry."
 
 ---
 
-Biscuit was having the same problem on his end.
+"But here's where it gets interesting," Patty continued. "All of these events---the clocks, the parade, the cereal truck---may be connected to something much bigger."
 
-He sat at his window, tail twitching with frustration. The parade was ruining everything. He could see the Oak Street rooftops, but not Whiskers' window.
+A graphic appeared: a crude drawing of the pond with the tiny island in the middle. The words "MYSTERIOUS CONVERGENCE?" floated above it.
 
-And HE had news too. His human had been on the phone, talking about "the anniversary" and "the island" and "everyone's going to be there."
+"We've been receiving reports all day about the island in Punsburg Pond. Strange feelings. People remembering appointments they didn't know they had. A sense that something important is supposed to happen there."
 
-Going to be WHERE? What anniversary?
+"So we went to the source," Chuck said. "We visited Maurice."
 
-He had to tell Whiskers.
+New footage: the Punsburg Aquarium. Maurice the Mussel in his tank. The sign above him read **MAURICE THE MAGNIFICENT: The Mussel Who Remembers Everything.**
 
-Biscuit made a decision. If he couldn't signal through the window, he'd go to her.
+"Maurice is 127 years old," Patty narrated. "He's the town's living history book. He remembers the exact water temperature on the day the aquarium opened. The name of every fish who ever lived in Tank 7. The time a kid dropped a corn dog into the shark pool."
 
-He squeezed out through the cat door, darted across the yard, and scrambled up a drainpipe onto the roof.
+"We asked Maurice what's special about today's date," Chuck said.
 
-From up here, the view was different. He could see over the parade. He could see—
+On screen, Maurice's shell clicked rapidly. Doris the aquarium guide translated, looking puzzled.
 
-Whiskers. On HER roof. Same idea.
+"He says... he almost remembers. Something about the island. Something about today. A celebration. Lanterns. People gathered. But the memory keeps slipping away."
 
-Their eyes met across the gap.
+"If MAURICE can't quite remember it," Patty said gravely, "it must be very, very old."
 
-Biscuit's tail went crazy. *Big news! The island! Tonight!*
+"What we DO know," Chuck said, leaning forward, "is that today is August 12th. And whatever Maurice is trying to remember, it's connected to this date, and to that island."
 
-Whiskers' tail answered. *I know! We have to go! Together!*
+"Maurice told us one more thing," Patty added. "He said: if he could SEE the island at sunset, he thinks the memory would come back. He just needs to be there."
 
-*How do we get down?*
+The cows looked at each other.
 
-*I don't know! The parade is blocking everything!*
+"So here's what we're proposing, Punsburg," Patty said, turning to face the camera directly. "Come to the pond. Tonight. At sunset. Let's find out together what Maurice has been trying to remember for 127 years."
 
-Between them, a float drifted by. On it, an alpaca was walking in circles, dragging a suitcase and looking very annoyed. The alpaca appeared to be giving a speech to no one in particular.
+"Bring blankets," Chuck added. "Bring snacks. Bring your neighbors."
 
-"That's IT! I've had it! This parade is the final straw!" the alpaca was shouting. "Alpaca my bags for REAL this time!"
-
-Whiskers and Biscuit exchanged glances.
-
-Punsburg was such a weird town.
+"Let's give this island a crowd. And let's give Maurice a chance to remember."
 
 ---
 
-The parade lasted another hour. Whiskers and Biscuit waited on their rooftops, tails twitching with impatience.
+"This has been a Channel 5 Cow News Special Report."
 
-Finally, finally, the last float rolled past. The streets cleared. The cats scrambled down their drainpipes and met in the alley between Oak and Elm.
+"Moo Trust."
 
-"The island," said Whiskers (in cat).
+"We're Patty and Chuck."
 
-"Sunset," said Biscuit.
+"And we'll see you at the pond."
 
-"My human said everyone's going."
+The cameras clicked off. Patty and Chuck removed their blazers (with some difficulty) and headed for the door.
 
-"Mine too. Something about a secret anniversary."
+"You really think people will come?" Chuck asked.
 
-They looked at each other, fluffy faces serious.
+"Chuck, I've been in news for fifteen years. I've covered the Great Pond Freeze of 2010. I've reported on the time every fire hydrant in town turned into a fountain. But I've never seen a day like today. The clocks. The parade. The cereal truck. The alpaca. They're all connected somehow---like dominoes. One thing knocked into the next." She looked toward the pond. "That island is the last domino."
 
-"We're going too," they said together.
+Chuck nodded solemnly.
 
-And then, because they were cats, they spent the next twenty minutes chasing a leaf.
+"Then let's go be there when it falls."
 
-But they'd make it to the island. Eventually.
+They walked toward the pond, two professional news cows ready for the story of the century.
 
-Cats always did things on their own schedule.
+Behind them, their newsroom intern---a nervous young calf named Timothy---grabbed a camera and ran after them.
+
+Someone had to film this.

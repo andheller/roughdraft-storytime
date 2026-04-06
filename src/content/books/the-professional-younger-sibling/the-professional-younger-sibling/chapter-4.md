@@ -1,87 +1,77 @@
-# Chapter 4: The Substitute Youngest
+# Chapter 4: Consulting for the Opposition
 
-Today something terrible happened. Our dog, Biscuit, started acting like the youngest member of the family.
+Something very weird happened today. Jordan asked me for advice.
 
-I should have seen this coming. Biscuit is technically younger than me—he's only three in dog years, which I think makes him like twenty-one in human years, but he acts like a baby. And everyone thinks it's cute.
+Not advice about something easy, like what color crayon to use or whether his sandwich needed more peanut butter. Real advice. About sibling stuff.
 
-It started at breakfast when Biscuit sat next to Mom's chair and gave her the sad eyes. You know the look—the one where his eyes get all big and pitiful and he tilts his head just a little bit. Mom immediately gave Biscuit a piece of her toast.
+It started when Jordan found me in my room reading and said, "Riley, can I ask you something?"
 
-"That's my move," I said. "Sad eyes at breakfast is my thing."
+"Sure," I said, "but if this is about the banana song, I already said I was sorry."
 
-"Dogs invented sad eyes," Jordan said. "You probably learned it from watching Biscuit."
+"It's not about the banana song. Although that is still stuck in my head and it's been a week."
 
-This was ridiculous. I've been perfecting my sad eyes since I was two years old. Biscuit just has natural sad eyes because he's a golden retriever and that's how his face is shaped.
+"Sorry," I said again.
 
-But it got worse. When Alex was doing homework at the kitchen table, Biscuit came over and put his head on Alex's lap. Alex immediately started petting him and saying, "Aw, does someone want attention?"
+"I need help with Alex and Sam," Jordan said, sitting down on my bed. "You're really good at understanding people and figuring out what they want. And I'm really bad at that."
 
-When I tried the same thing—putting my head on Alex's other leg—Alex said, "Riley, what are you doing? I'm trying to concentrate."
+"You are pretty bad at that," I agreed. "Remember when you thought Alex wanted you to reorganize the hall closet and you put everything in alphabetical order?"
 
-"Biscuit got attention for doing that," I pointed out.
+"Alex specifically said 'organized!'"
 
-"Biscuit is a dog."
+"Alex meant by category, Jordan. Not alphabetized. Nobody alphabetizes shoes."
 
-"So?"
+"See, this is what I mean," Jordan said. "You would have known that. I never know that."
 
-"So you're not."
+I felt something unfamiliar. Not pride exactly -- I feel proud all the time, usually about things I've gotten away with. This was different. Jordan wasn't saying I was cute or funny or good at getting extra dessert. Jordan was saying I was good at something real.
 
-This seemed like discrimination against non-dogs, but I wasn't sure how to argue that point.
+"So what's the problem?" I asked.
 
-The final straw came at dinner when Biscuit sat under the table and somehow managed to get food from everyone. Jordan dropped a piece of chicken "accidentally." Sam "accidentally" dropped a green bean. Even Alex gave Biscuit a bite of mashed potatoes when Mom wasn't looking.
+"Alex and Sam are always annoyed with me, and I don't know why. Yesterday I tried to help Sam with her math homework and she got mad and said I was being too loud. But I wasn't being loud, I was just being enthusiastic about fractions."
 
-I tried sitting under the table too, but Mom just said, "Riley, get back in your chair and eat your dinner like a human being."
+"You were very enthusiastic about fractions," I agreed. "You kept shouting, 'FRACTIONS ARE JUST DIVISION IN DISGUISE!'"
 
-"But Biscuit gets to eat under the table!"
+"Because they ARE! It's exciting!"
 
-"Biscuit IS NOT a human being."
+"Jordan," I said, "Sam doesn't want excitement when she's doing homework. Sam wants quiet. You know how you get all fired up and want to DO stuff? Sam is the opposite. She gets her energy from being still. When you shout about fractions, it's like someone turning on a leaf blower in her library."
 
-"Neither is Jordan most of the time," I muttered, but apparently I didn't mutter quietly enough because Jordan flicked a pea at me.
+Jordan looked like he'd never considered this before. Which he probably hadn't.
 
-After dinner, I had a serious talk with Biscuit in my room.
+"What about Alex?" he asked.
 
-"Look," I said, "I know you don't understand most of what I'm saying, but you're taking my job."
+"What happened with Alex?"
 
-Biscuit wagged his tail and licked my face.
+"Last week I offered to help with dinner and Alex said I was 'getting in the way.' I was just trying to add some garlic to the spaghetti sauce."
 
-"See, that's exactly what I mean. You're being cute without even trying, and it's making me look bad."
+"Alex follows recipes exactly," I said. "It's how Alex's brain works. Everything in order, everything measured, everything controlled. When you jump in and start adding stuff, it's like someone scribbling in Alex's planner. You're messing up his system."
 
-Biscuit tilted his head to the side, which was annoyingly adorable.
+"So how am I supposed to help?"
 
-"Fine," I said. "If you're going to act like the youngest, then I'll act like... like... a middle child!"
+"You ask Alex what he needs you to do. Specifically. Like, 'What job can I do?' And then you do that job and only that job. Alex likes assigning tasks. It makes him feel like things are under control."
 
-This turned out to be harder than I thought. Sam is very good at being a middle child because Sam has perfected the art of being invisible when it's convenient and noticeable when she wants something. But when I tried to be invisible during chore time, Mom found me immediately.
+"How do you know all this?" Jordan asked.
 
-"Riley, why are you hiding behind the couch?"
+I opened my mouth to say something about professional younger sibling skills, but then I stopped. Because the truth was, I didn't know all this from being strategic or working angles. I knew it because I'd been watching my siblings my whole life. Not to manipulate them -- well, okay, sometimes to manipulate them -- but mostly just because I loved them and they were interesting.
 
-"I'm being a middle child."
+"I pay attention," I said. "That's all."
 
-"That's not how being a middle child works."
+We spent the next hour talking about Alex and Sam. Not in a scheming way. In a trying-to-understand way. I told Jordan that when Sam says she wants to be alone, she really means it, and it's not because she doesn't like you. And I told him that Alex takes on too much responsibility and sometimes needs someone to say, "Hey, I'll handle this one," instead of asking to help.
 
-"How would you know? You're not a middle child."
+That night at dinner, I watched Jordan try out my advice. When Alex was making salad, Jordan asked, "What specific thing can I do to help?" instead of just jumping in. Alex looked surprised but said, "You could set the table." And Jordan set the table without rearranging anything or adding decorations or turning it into a project.
 
-"I was a middle child, actually."
+And when Sam was reading after dinner, Jordan just sat nearby and drew in his sketchbook without saying a word. After about twenty minutes, Sam actually looked up and said, "What are you drawing?" And they had a conversation. A quiet one. But a real one.
 
-This was news to me. "Really?"
+After dinner, Alex came to my room. "Did you give Jordan advice about how to deal with us?"
 
-"Really. And middle children don't hide behind couches. They just develop very good negotiation skills."
+"Maybe," I said.
 
-"What kind of negotiation skills?"
+"It was really good advice." Alex paused. "You know, you understand this family better than anyone."
 
-"Well," Mom said, sitting down next to me behind the couch, "middle children are very good at finding compromises. Like, maybe Biscuit can be the baby of the family sometimes, and you can be the baby of the family sometimes, and sometimes you can both just be yourselves."
+"I'm the youngest," I said. "I've had the most time to watch."
 
-"But I like being the youngest," I said. "It's my job."
+"Maybe that's not just a youngest thing," Alex said. "Maybe that's a you thing."
 
-"Maybe your job is changing," Mom said. "Maybe now your job is being Riley, who happens to be the youngest human in the family."
+After Alex left, I lay on my bed and stared at the ceiling. My whole life, I'd thought my job was being the youngest -- that everything I was good at came from my position in the family, like a title on a business card. Professional Younger Sibling.
 
-"What's the difference?"
+But maybe the things I was good at -- watching people, understanding what they needed, figuring out how to make things work -- maybe those were just mine. Not because I was the youngest. Just because I was Riley.
 
-"Well, being the youngest was about what you could get away with. Being Riley is about what you can do."
-
-I thought about this while Mom went to start the dishwasher. Maybe she was right. Maybe I didn't have to compete with Biscuit for the youngest position. Maybe I could have my own position.
-
-Later that night, I shared my dinner roll with Biscuit and taught him how to shake hands. He already knew how, but I pretended like I was training him so I could feel useful.
-
-"You can be the youngest dog," I told him. "And I'll be the youngest human. We can both have important jobs."
-
-Biscuit wagged his tail, which I decided meant he agreed with this plan.
-
-Though I'm still working on what exactly my new job description is going to be.
+That was a bigger thought than I was used to having. I decided to sleep on it.

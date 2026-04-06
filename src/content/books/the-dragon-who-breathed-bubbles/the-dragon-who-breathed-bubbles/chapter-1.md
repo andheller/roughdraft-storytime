@@ -22,11 +22,11 @@ Ember took a deep breath. She scrunched up her snout. She thought very fiery tho
 
 More bubbles. These ones were extra sparkly.
 
-Her brother Blaze tried not to laugh, but a little snort escaped. "Maybe you should enter a bubble-blowing contest instead of dragon school!"
+Her brother Blaze shook his head. "You'll never be a real dragon like that," he said. Then he breathed a perfect little flame and lit the candle on the dinner table, just to show he could.
 
-"Blaze!" said their dad sternly. "That's not kind." He turned to Ember with a gentle smile. "Your fire will come, little one. Every dragon is different."
+"Blaze," said their dad. "That's enough."
 
-But Ember wasn't so sure.
+But Ember saw the look on her brother's face. Not mean, exactly. More like he couldn't understand how she could be so different and still be his sister.
 
 The next day at dragon school, all the young dragons practiced their fire-breathing.
 
@@ -38,24 +38,34 @@ Smoke made sparks that crackled and popped like fireworks.
 
 Then it was Ember's turn.
 
-All the little dragons watched.
-
-Ember took the deepest breath she had ever taken. She thought about being brave. She thought about being strong. She thought about being the most fiery dragon ever.
+She took the deepest breath she had ever taken. She thought about being brave. She thought about being strong. She thought about being the most fiery dragon in the whole entire world.
 
 *POOF!*
 
-Bubbles. So many bubbles that they filled the whole practice cave. They bounced off dragon snouts and floated through dragon wings.
+Bubbles. So many bubbles that they filled the whole practice cave. They bounced off dragon snouts and floated through dragon wings and one landed right on the teacher's nose with a wet little *pop*.
 
 Some of the dragons giggled.
 
 Ember felt her cheeks get hot. Not fire hot. Just embarrassed hot.
 
-She flew home as fast as her little wings could carry her and hid in her room.
+She flew home as fast as her little wings could carry her and curled up in her room with her stuffed dragon, Sir Burnsworth.
 
-"Why can't I be like everyone else?" she whispered to her stuffed dragon toy, Sir Burnsworth. "What good is a dragon who only makes bubbles?"
+"What good is a dragon who only makes bubbles?" she whispered.
 
-That night, Ember watched her bubbles float out her window and up toward the moon. They really were very pretty, all shimmery and round.
+Sir Burnsworth did not answer, because he was a stuffed dragon. But he was very soft, and that helped a little.
 
-But pretty wasn't the same as useful.
+Later, Ember heard Blaze talking to their parents through the cave wall. She pressed her ear close.
 
-Or was it?
+"The other kids at school asked me why my sister is broken," Blaze said. "I didn't know what to tell them."
+
+There was a long, quiet pause.
+
+"She isn't broken," said their mom, in the kind of voice that ended conversations.
+
+But Ember pulled her blanket over her head and held Sir Burnsworth tighter. Because even though her mom was sure, Ember wasn't sure at all.
+
+That night, she breathed bubbles out her window just to watch them go. They drifted up toward the moon, all silver and shimmering, and she thought they looked like little glass worlds floating away with no one inside them.
+
+Pretty. But empty.
+
+Just like her.

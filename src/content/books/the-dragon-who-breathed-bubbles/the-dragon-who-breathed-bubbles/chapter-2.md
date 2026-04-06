@@ -1,87 +1,129 @@
-# The Grumpy Troll
+# The Troll Under the Bridge
 
-The next morning, Ember woke up to shouting.
+The next morning, Ember woke to shouting in the village square.
 
-"EVERYONE STAY INSIDE!" boomed a voice from the village square.
+"NOBODY CROSS THE BRIDGE!" boomed Mayor Furnace, a big orange dragon with a very important-looking hat. "Grumbold the troll has blocked the way to Shimmer Lake!"
 
-Ember flew to her window. Down below, all the dragons were gathered around Mayor Furnace, a big orange dragon with a very important-looking hat.
+This was terrible news. Shimmer Lake was where all the dragons got their drinking water.
 
-"What's happening?" Ember called down to her neighbor, an old dragon named Grandma Kindle.
+Ember flew down to listen. The whole village was there, talking over each other in worried dragon voices.
 
-"It's Grumbold the troll!" said Grandma Kindle, wringing her claws. "He's blocked the bridge to Shimmer Lake!"
+"Grumbold's covered the bridge in sticky goo," the mayor explained. "Three dragons tried to get through. They're stuck to it right now."
 
-This was very bad news. Shimmer Lake was where all the dragons got their drinking water. Without the bridge, no one could reach it.
+"We'll burn it down!" roared Blaze, puffing smoke from his nostrils.
 
-Ember flew down to hear more.
+"Already tried," said the mayor. "Fire makes the goo stickier. And hotter. And smellier. Much, much smellier."
 
-"Grumbold says he's tired of dragons flying over his bridge," Mayor Furnace explained. "So he's built a huge wall of sticky goo across it. Any dragon who gets too close gets stuck!"
+The dragons argued. They argued about goo-melting. They argued about flying over (the goo shot up in sticky towers if you tried). They argued about digging a tunnel.
 
-"We'll burn it down!" roared Blaze, puffing out his chest.
+But Ember wasn't listening to the arguing. She was looking at the bridge.
 
-"We tried," said Mayor Furnace sadly. "The goo isn't flammable. Fire just makes it stickier and smellier. Three dragons are stuck to it right now. We had to leave them there with snacks until we figure this out."
+From here, she could see Grumbold -- a big lumpy shape hunched behind a wall of greenish goo. His shoulders were shaking.
 
-All the dragons murmured worriedly.
+He was crying.
 
-"And there's another problem," continued the mayor. "Poor Grumbold is crying so hard that no one can even talk to him. He's made himself a mud puddle of tears and he won't stop!"
+*That's not a mean troll,* Ember thought. *That's a sad troll.*
 
-"Why is he crying?" asked Ember.
+Nobody noticed when she spread her little wings and flew toward the bridge. Nobody except Blaze.
 
-"Nobody knows! Every time a dragon tries to ask, he just cries harder and throws more goo!"
+"Ember, STOP!" he yelled. "You'll get stuck! You can't even--"
 
-Ember thought about this. A troll who was grumpy AND crying. That didn't sound like a mean troll. That sounded like a sad troll.
+He didn't finish the sentence. He didn't have to.
 
-"What if someone tried being nice to him?" Ember suggested quietly.
+*You can't even breathe fire.*
 
-But no one heard her. They were all too busy arguing about goo-melting techniques and alternate routes to the lake.
+Ember kept flying.
 
-Ember looked toward the bridge. She could see Grumbold from here—a big lumpy shape hunched under a blanket of sticky goo, his shoulders shaking with sobs.
+The bridge was a mess. Goo hung from the railings in long drippy curtains. The three stuck dragons -- Plum, Garnet, and old Flicker -- were glued to it at odd angles, looking tired and annoyed.
 
-*I can't breathe fire anyway,* she thought. *So I can't make the goo stickier. And nobody will miss me if I go...*
+"Don't come closer!" called Plum. "You'll get stuck too!"
 
-Before she could change her mind, Ember spread her little wings and flew toward the bridge.
+Ember landed on a clean rock at the edge of the goo. From here, she could see Grumbold clearly. He was enormous -- as tall as a house, with mossy green skin and big, round eyes that were pouring out tears like faucets.
 
-"Ember, NO!" she heard her mother call.
+And every tear that hit the ground turned into more goo.
 
-But Ember kept flying.
+*The goo is made of his tears,* Ember realized. *The more he cries, the more goo there is.*
 
-The closer she got, the louder the crying became. Great big troll tears splashed down like rain. Globs of goo were everywhere—on the bridge, on the rocks, on the three stuck dragons who waved at her with their unstuck arms.
+"Mr. Grumbold?" she called softly.
 
-"Don't come any closer!" warned one of the stuck dragons, a friendly purple dragon named Plum. "You'll get stuck too!"
+"GO AWAY!" he wailed, and a fresh wave of tears splashed down. The goo crept two inches closer to Ember's rock.
 
-Ember landed on a clean rock, just out of reach of the goo.
+"I just want to talk," said Ember.
 
-"Mr. Grumbold?" she called softly. "Are you okay?"
+"NOBODY WANTS TO TALK TO ME! THAT'S THE WHOLE PROBLEM!"
 
-The crying paused. Two big watery eyes peered out from behind a goo-covered boulder.
+And he cried harder. The goo bubbled and spread.
 
-"GO AWAY!" Grumbold wailed, and threw a glob of goo in her direction.
+*Oh no,* thought Ember. *Talking is making it worse. He's so upset he can't even hear me.*
 
-Ember ducked just in time.
+She sat on her rock and thought. She needed to reach him somehow. Not with fire. Not with strength. Not by yelling over the crying.
 
-"Why are you so sad?" she asked.
+She needed to send him something gentle. Something that could float right to him without getting stuck.
 
-"I'M NOT SAD! I'M GRUMPY!" Another glob of goo flew past her ear.
+Ember looked down at her own claws, still shimmery from her morning bubbles.
 
-"You look sad," said Ember. "You're crying."
+She had an idea. A small, silly, probably-won't-work idea.
 
-Grumbold sniffled. His big bottom lip wobbled.
+She took a breath and blew, very softly, a single bubble. But this time, as the bubble formed, she hummed into it -- the little lullaby her mom always sang at bedtime.
 
-"Nobody ever wants to play with me," he said in a very small voice for such a big troll. "The dragons just fly over my bridge like I'm not even here. Nobody waves. Nobody says hello. I'm all alone."
+The bubble drifted away from her mouth, and inside it, Ember could hear the tiny hum of the song, caught like a firefly in a jar.
 
-Ember's heart squeezed.
+She blew the bubble toward Grumbold.
 
-"That does sound lonely," she said.
+It floated over the goo. It floated past the stuck dragons, who stared at it. It floated right up to Grumbold's big, tear-streaked face.
 
-Grumbold nodded, and more tears rolled down his bumpy cheeks. "So I made a wall so they HAVE to stop. But now they're stuck and mad and I don't know how to un-stick them and everything is WORSE!"
+*Pop.*
 
-He burst into fresh sobs, and the goo bubbled and grew.
+The little lullaby came out, soft and warm in the air around him.
 
-Ember needed to think. She needed to help. But how could a little dragon who couldn't even breathe fire possibly fix this mess?
+Grumbold stopped crying. Just for a second. His big watery eyes blinked.
 
-She looked at the sticky goo.
+"What... what was that?" he whispered.
 
-She looked at the crying troll.
+Ember's heart was hammering. It worked. The bubble carried her voice to him.
 
-She looked at her own claws, still shimmery from the bubbles she'd breathed that morning.
+She blew another bubble, and this time she spoke into it: "My name is Ember. I'm a dragon who can't breathe fire."
 
-And suddenly, Ember had an idea.
+The bubble floated to Grumbold and popped against his ear.
+
+He stared at her. "A dragon who can't breathe fire?"
+
+"I breathe bubbles instead," she said, blowing two more and letting them drift to him, shimmering. "Everyone thinks I'm broken."
+
+Grumbold caught one of the bubbles in his huge palm, very gently. It sat there, wobbling with rainbow light.
+
+"I know about broken," he said. His voice was quieter now. The tears were slowing. "I've been under this bridge for a hundred years. Dragons fly over every single day. But nobody ever stops. Nobody ever says hello. Nobody even looks down."
+
+He sniffled. One tear rolled down his cheek and hit the ground. One small glob of goo.
+
+"So I made a wall. So they'd HAVE to stop. But now they're stuck and scared and mad, and I made everything worse, and I don't know how to FIX it--"
+
+His voice cracked, and the tears started again.
+
+"Wait, wait, wait!" Ember blew a quick bubble with her voice inside: "I'm still here. I stopped. I'm looking right at you."
+
+It popped by his ear.
+
+Grumbold looked at her. Really looked. A small, purple dragon sitting on a rock at the edge of his mess, blowing bubbles.
+
+"You did stop," he said, almost to himself. "You're the only one who stopped."
+
+Behind her, Ember heard wingbeats. She turned.
+
+Blaze was flying toward the bridge, fast, his face tight with worry.
+
+"EMBER! Get away from there! I'm coming to get you!"
+
+"Blaze, no! Don't fly over the--"
+
+Too late. A tower of goo shot up and caught Blaze by the tail. He yelped and flapped hard, but the goo pulled him down. In three seconds, he was stuck to the bridge railing, wings pinned, tail glued tight.
+
+"OW! It's in my SCALES!" Blaze thrashed and the goo only gripped tighter.
+
+Grumbold flinched. "I'm sorry, I'm sorry, I can't control it when I'm--" More tears. More goo.
+
+Ember looked at her brother, stuck and scared. She looked at Grumbold, guilty and crying. She looked at the goo, growing and growing.
+
+Fire couldn't fix this. Strength couldn't fix this.
+
+But maybe she could.

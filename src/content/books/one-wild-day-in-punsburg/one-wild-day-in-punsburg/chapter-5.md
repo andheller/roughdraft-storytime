@@ -1,113 +1,173 @@
-# Alpaca My Bags
+# Isle Be There
 
-This was the day. Alejandro had had ENOUGH.
+Sunset. The pond.
 
-The rooster crowed too early. The hay was too dry. The llamas—don't even get him STARTED on the llamas. They thought they were so special just because they were taller. They weren't. They were just stretched.
+Something was happening at the island.
 
-"That's it," Alejandro announced to the barn at 7:00 AM. "Alpaca my bags. I'm leaving."
-
-The other animals ignored him. He said this every day.
-
-"I mean it this time!" he insisted.
-
-The goat yawned.
-
-"I have a SUITCASE," Alejandro declared, kicking a battered old suitcase that had been sitting in the corner of the barn for three years. "I am PACKING IT. With my THINGS."
-
-The rooster clucked skeptically.
-
-"You'll see," muttered Alejandro. "You'll ALL see."
+Patty and Chuck had told everyone to come, and Punsburg had listened. Half the town was gathered around the water, sitting on blankets and benches, eating snacks and talking about the weirdest Saturday anyone could remember.
 
 ---
 
-By 8:00 AM, Alejandro was on Maple Street, suitcase rolling behind him, looking for the highway out of town.
+Emma Miller arrived first, three flies circling her head like tiny helicopters.
 
-He passed a house with a kid watching TV inside. The kid waved. Alejandro did not wave back. He was too dramatic for waving.
+"I don't know why I'm here," she told her mom. "I just felt like I should be."
 
-By 9:00 AM, he was downtown, stuck at a crosswalk.
+"I saw it on the cow news," her mom said, spreading out a picnic blanket. "They said something about a big mystery."
 
-A man in glowing armor walked past him.
+Emma looked at her flies. "You guys started all of this, you know. You messed up the clocks. Which messed up the parade. Which messed up the cereal truck."
 
-"Nice glow," said Alejandro.
-
-"Thank you," said the knight. "Nice... wool."
-
-"It's called fleece," Alejandro corrected. "And it's magnificent."
-
-They parted ways. Alejandro continued his journey.
-
-By 10:00 AM, he'd passed the aquarium. Through the window, he saw a mussel in a tank. The mussel seemed distressed about something. Alejandro understood. Life was distressing. That's why he was leaving.
-
-He paused to look in the window.
-
-"Don't worry, little mussel," he said. "One day you'll escape too."
-
-The mussel clicked its shell. Alejandro took this as encouragement.
-
-By 11:00 AM, Alejandro was stuck.
-
-A parade. A PARADE. Blocking the entire street.
-
-"UNBELIEVABLE," he shouted.
-
-He tried to cross between floats. He got tangled in streamers. Someone put a sash on him that said "GRAND LLAMA" and he was so offended he couldn't even speak.
-
-"I am NOT a LLAMA!" he finally managed. "I am an ALPACA! There is a DIFFERENCE!"
-
-No one was listening. Someone took a photo of him. A child tried to pet him. Alejandro's eye twitched.
-
-He spotted a float he could climb onto—anything to get across the street. He dragged his suitcase up a ramp and found himself standing in the middle of the parade, surrounded by confused marching band members.
-
-Two cats on nearby rooftops were staring at him.
-
-"WHAT?" he yelled at them. "Haven't you ever seen an alpaca storm a parade before?"
-
-The cats exchanged glances and went back to whatever cat business they were conducting.
+The flies buzzed in a way that might have been guilt, or might have been pride.
 
 ---
 
-By noon, Alejandro had escaped the parade. He was on the outskirts of town now, almost to the city limits. The farm was behind him. A new life was ahead.
+Alejandro the Alpaca arrived with his suitcase, looking annoyed.
 
-He stopped at the WELCOME TO PUNSBURG sign, which faced travelers coming INTO town. From this side, it just said ___GRUBSNUP OT EMOCLEW.
+"I'm not STAYING," he announced to everyone. "I'm just passing through. I'm leaving tomorrow. Probably. Definitely by next week."
 
-"Goodbye, Punsburg," Alejandro said softly.
+A kid pointed at him. "Hey, you're the alpaca from the parade! The one who knocked over the cereal truck!"
 
-And then he didn't move.
+"That was NOT my fault," Alejandro said. "The truck was in the WAY."
 
-The truth was... he'd never actually LEFT before. He'd complained about leaving. He'd threatened to leave. He'd packed and repacked that suitcase dozens of times.
+"You threw your suitcase at it!"
 
-But he'd never walked past that sign.
+"It SLIPPED."
 
-Beyond it, the road stretched into the unknown. Other towns. Other farms. Other llamas who would probably ALSO think they were better than him.
+---
 
-Alejandro stood there for a long time.
+Sofia Martinez arrived with her grandma and Buster the dog. She spotted Alejandro immediately.
 
-A fly buzzed past—weirdly still, like it was frozen—and then zoomed away.
+"YOU," she said. "You're the reason I had bran flakes for breakfast."
 
-The sun moved overhead.
+"I don't know what you're talking about," said Alejandro.
 
-And slowly, slowly, Alejandro turned around.
+"Your suitcase destroyed the cereal truck! The cow news said so!"
 
-Not because he WANTED to go back. Obviously. He just... realized he'd forgotten something. At the farm. Something important. He'd go get it and THEN leave.
+"The cow news is biased."
 
-He'd definitely leave.
+Sofia glared at him. Alejandro glared back. It was a standoff between a ten-year-old cereal detective and a very dramatic alpaca.
 
-Eventually.
+Grandma stepped between them. "Cookie?" she offered.
 
-As he walked back toward town, suitcase bumping behind him, he noticed people heading toward the pond. Quite a lot of people. They seemed excited about something.
+Alejandro sniffed. "...What kind?"
 
-"What's happening?" he asked a passing squirrel.
+"Chocolate chip."
 
-The squirrel chattered something about an island and a sunset.
+"...Fine." He took one. The standoff ended.
 
-Alejandro sniffed. He didn't care about islands. He was a sophisticated traveler. A worldly alpaca. He had places to be.
+---
 
-But...
+Patty and Chuck arrived with Timothy the intern and his camera.
 
-The pond WAS on the way back to the farm. And it had been a long day. And maybe he'd just... stop by. For a minute. To see what all the fuss was about.
+"We're rolling," Timothy said.
 
-"I'm not STAYING," he told the squirrel. "I'm just visiting."
+"Good," said Patty, looking at the crowd. "I can't believe they all came."
 
-The squirrel was already gone.
+"You told them to," Chuck pointed out.
 
-Alejandro rolled his suitcase toward the pond.
+"I know. I just didn't think it would work. I'm a cow."
+
+The crowd was bigger than any of them had expected. Word had spread fast. Everyone wanted to know what Maurice remembered.
+
+---
+
+Doris the aquarium guide carried Maurice's portable tank through the crowd and set it on a bench at the water's edge. Maurice pressed against the glass, staring at the island.
+
+His memory was ALMOST there. ALMOST---
+
+The sun touched the horizon. The light turned gold, then orange, then pink.
+
+And then something happened that nobody had planned.
+
+A man in glowing armor walked to the edge of the pond. Sir Lumen---the nightlight repairman from Third Street---had come too. He'd seen the broadcast. He'd felt the pull.
+
+"LET THERE BE LIGHT!" he announced, raising his arms.
+
+And his glow---soft and warm, like the world's most dedicated nightlight---reflected off the water. It hit the island. The tree lit up like it was covered in lanterns.
+
+Just like it had 177 years ago.
+
+And Maurice REMEMBERED.
+
+---
+
+His shell clicked frantically. Doris translated, shouting over the crowd:
+
+"HE REMEMBERS! Maurice remembers!"
+
+Everyone went quiet.
+
+"Today is August 12th," Doris read. "On this day, 177 years ago, a group of settlers gathered on that island. They lit lanterns. They made speeches. And they founded... Punsburg."
+
+The crowd murmured.
+
+"That island is where the town began. Every year, on this date, the founders celebrated the anniversary with lanterns and music and stories. But over time, people forgot. The tradition faded. The island became just... an island."
+
+Maurice clicked again.
+
+"He says he was there. At the very first celebration. He was just a baby mussel then, in a settler's bucket of drinking water. He watched the whole thing. And when Sir Lumen's light hit the island just now, it looked exactly like those original lanterns. That's what brought the memory back."
+
+Silence.
+
+Then someone in the crowd said: "So today is Punsburg's birthday?"
+
+"That's right," said Doris. "And Maurice is the only one who remembered---even though he forgot he remembered."
+
+---
+
+For a moment, nobody moved.
+
+Then Emma's mom pulled out a bag of chips. "Well, I brought snacks."
+
+Someone else had a radio. Music started playing.
+
+Grandma Martinez sat down on a bench. "I brought cookies. Who wants cookies?"
+
+Sir Lumen raised his arm higher, and his glow intensified. The island lit up like a stage.
+
+And just like that---without anyone planning it---the party started.
+
+---
+
+The sun set. The stars came out. The island glowed.
+
+Emma let her flies loose, and they buzzed around the pond, flickering in playful patterns---not stopping time, just adding to the show. Punsburg had already had enough time trouble for one day.
+
+Maurice floated contentedly in his tank, clicking softly. He'd finally remembered. The weight of 177 years lifted off his tiny mussel shoulders.
+
+Alejandro the Alpaca was eating grass near the pond and pretending he wasn't enjoying himself. His suitcase sat unopened beside him.
+
+Sofia shared her grandma's cookies with everyone---even Alejandro. Buster got extra pets from strangers. The bran flakes were forgiven. Mostly.
+
+Patty and Chuck reported live from the scene. Timothy filmed everything.
+
+"One chaotic Saturday," Patty said into the camera. "A girl and her time flies accidentally skip the town to noon. The early parade traps a runaway alpaca, whose suitcase takes out the cereal truck. A cereal detective follows the trail to our broadcast. We tell the town about Maurice. And Maurice---with a little help from the glowing knight---remembers where Punsburg began."
+
+She paused.
+
+"Five weird stories. One chain of dominoes. All leading to the same island at sunset."
+
+"Happy birthday, Punsburg," Chuck added.
+
+---
+
+The party went late. By the time people started heading home, the moon was high and the island was quiet again.
+
+Maurice was the last to leave. Doris carried his tank slowly, letting him take one final look.
+
+*I won't forget this time*, he thought. *I'll remember this for another 177 years.*
+
+Across the pond, Alejandro picked up his suitcase.
+
+"I'm leaving tomorrow," he said. But he was smiling now.
+
+Maybe next year, he'd be back.
+
+Maybe they all would.
+
+---
+
+**THE END**
+
+*(For now.)*
+
+*(See you next August 12th.)*

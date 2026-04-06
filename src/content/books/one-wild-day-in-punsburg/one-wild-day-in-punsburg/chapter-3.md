@@ -1,100 +1,133 @@
-# Mussel Memory
+# Cereal Killer
 
-The Punsburg Aquarium was having a confusing morning.
+The crime scene was devastating.
 
-First, all the clocks had gone haywire. They'd jumped straight to noon, then slowly crept back to something more reasonable. The staff was baffled. The fish didn't care.
+Sofia Martinez stood in front of the open pantry, staring at the evidence. Three empty cereal boxes. Cocoa Puffs: gone. Frosted Flakes: gone. Lucky Charms: nothing but dust and a single dried-out marshmallow.
 
-But Maurice cared.
+All that remained was bran flakes.
 
-Maurice was a mussel. Not just any mussel—the *famous* mussel. The star of the Punsburg Aquarium's "Memory Reef" exhibit. The sign above his tank read:
+BRAN. FLAKES.
 
-**MAURICE THE MAGNIFICENT**
-*The Mussel Who Remembers Everything*
+"This is an outrage," Sofia declared.
 
-And it was true. Maurice remembered everything. The exact water temperature on the day the aquarium opened in 1987. The name of every fish who had ever lived in Tank 7. The time a kid dropped a corn dog into the shark pool (March 14th, 2019, 2:47 PM).
+It was 1:00 PM on Saturday, and Sofia had just woken up. (She was on summer vacation. Don't judge.) She'd been dreaming about a big bowl of sugary cereal, and instead she'd found... this.
 
-Maurice was the town's living history book. Schools came from all over to ask him questions. He answered by opening and closing his shell in a special code that only the aquarium staff could translate.
+Someone in this house was a cereal killer.
 
-Today, a class of third-graders stood in front of his tank, notebooks ready.
-
-"Ask me anything," said Doris, the aquarium guide, translating for Maurice. "Maurice remembers all."
-
-A girl in the front raised her hand. "When was Punsburg founded?"
-
-*Click-click-click* went Maurice's shell. Doris nodded.
-
-"Maurice says: August 12th, 1847."
-
-"What was the first building?" asked a boy.
-
-*Click-click-click-click.*
-
-"The general store," Doris translated. "On the corner of Main and Maple."
-
-The questions kept coming. Maurice answered them all. What year did the library open? 1902. Who was the first mayor? Harold Pemberton. How many ducks were in the pond on July 4th, 1976? Exactly forty-seven.
-
-Then a small kid in the back asked: "What's special about today?"
-
-Maurice froze.
-
-His shell stopped clicking. The water in his tank went very still.
-
-*Click... click... click?*
-
-Doris frowned. "Maurice says... he doesn't know."
-
-The kids gasped. The famous Maurice, who remembered everything, had forgotten something?
-
-"But there IS something special about today?" the kid pressed.
-
-*Click-click-click-click-click.*
-
-"He says yes," Doris translated slowly. "Something very important. About the town. About... the island? The island in the pond. But he can't remember what."
-
-Maurice sank lower in his tank, embarrassed. A fly buzzed against the glass outside—frozen there, weirdly still—but Maurice was too distressed to notice.
-
-Through the big aquarium windows, a glowing man in armor walked past on the sidewalk. Maurice didn't notice that either.
-
-He was too busy trying to remember.
+And Sofia was going to find out who.
 
 ---
 
-The school group left. Maurice sat alone in his tank, thinking.
+**SUSPECT #1: Dad**
 
-The island. The pond. Something about today. Why couldn't he remember?
+Sofia found her father in the living room, watching golf.
 
-He'd lived in Punsburg his whole life—all 127 years of it. Mussels live a long time when they're taken care of. And Maurice had been taken care of very well.
+"Dad," she said. "Did you eat all the good cereal?"
 
-He remembered his first day in this tank. He remembered the old aquarium director, and the one before that, and the one before *that*. He remembered storms and sunny days and the one time a penguin escaped.
+"What? No." He patted his stomach. "I'm on a diet. Ask your mother."
 
-But there was a gap. A blank spot. Like something had been erased.
+"Mom's at yoga."
 
-*The island*, he thought. *I know something about that island. I was there. At the very beginning. When Punsburg was just...*
+"Then ask your brother."
 
-Just what?
+Sofia narrowed her eyes. Dad SAID he was on a diet, but she'd seen him sneak cookies before. She made a mental note: *Possible liar. Needs more investigation.*
 
-He couldn't finish the thought.
+---
 
-Maurice concentrated harder. He flexed his mussel memory—the strongest memory of any shellfish in the tri-state area.
+**SUSPECT #2: Marcus (brother, age 14, very suspicious)**
 
-A flash. A glimpse.
+Marcus was in his room, playing video games.
 
-Lanterns. People gathered. Someone making a speech. The island lit up like—
+"Did you eat all the cereal?" Sofia demanded.
 
-Gone. The memory slipped away like a minnow.
+"What? No. I had eggs."
 
-Maurice clicked his shell in frustration.
+"EGGS?"
 
-*Whatever I forgot*, he thought, *I need to remember it today. Before sunset. I know that much. Something is supposed to happen at the island today, and I'm supposed to know what.*
+"Yeah. I'm trying to get protein for football."
 
-Through the glass, he could see the pond in the distance. The little island sat there, innocent and ordinary.
+Sofia stared at him. This was new. Since when did Marcus eat eggs? Since when did Marcus care about protein?
 
-But Maurice knew it wasn't ordinary. He just couldn't remember why.
+"You're too obvious," she said.
 
-*Maybe if I go there*, he thought. *Maybe if I see it, I'll remember.*
+"What does that mean?"
 
-He started planning. Mussels weren't known for their mobility, but Maurice had connections. Friends. A hermit crab who owed him a favor. A very cooperative eel.
+"If you WERE the cereal killer, you'd act exactly like this. All innocent."
 
-He was going to that island.
+"I'm not the---Sofia, go away."
 
-Even if he had to hitch a ride in someone's portable tank.
+She left, but she wasn't convinced. *Too defensive. Classic guilty behavior.*
+
+---
+
+**SUSPECT #3: Buster (the dog)**
+
+Buster was a golden retriever. He was also asleep in a sunbeam.
+
+Sofia examined him for evidence. No chocolate residue on his snout. No frosted crumbs in his fur. And crucially: no thumbs.
+
+"You're clear," she told him.
+
+Buster wagged his tail without waking up.
+
+---
+
+**SUSPECT #4: Grandma**
+
+This was the wild card. Grandma had arrived last night for a "surprise visit." She was currently in the kitchen, drinking tea and watching the small TV on the counter.
+
+"Grandma," Sofia said carefully. "Did you... have breakfast this morning?"
+
+"I did! Three bowls of that chocolate cereal. Delicious. I don't know why your mother never buys it."
+
+Sofia's jaw dropped.
+
+"Three bowls?!"
+
+"I was hungry from the drive." Grandma smiled. "Is that a problem?"
+
+"Grandma. You ate ALL the Cocoa Puffs. But what about the Frosted Flakes? And the Lucky Charms?"
+
+Grandma waved a hand. "Oh, I only ate the chocolate one. The other boxes were already empty when I looked."
+
+Sofia frowned. That didn't add up. Dad and Marcus both denied it. Buster lacked thumbs. So who ate the rest?
+
+Then she noticed the TV. A cow in a blazer was reading the news.
+
+"---and in a bizarre scene downtown, a cereal delivery truck overturned during the parade this morning after being struck by a flying suitcase. Witnesses say the suitcase belonged to an alpaca. Boxes of Frosted Flakes and Lucky Charms were scattered across three blocks. Cleanup is ongoing, and several stores report they are now completely out of cereal---"
+
+Sofia grabbed the remote and turned up the volume.
+
+"---the truck was en route to Punsburg Grocery on Elm Street, which means any families expecting a cereal restock today will be disappointed. In related news, the alpaca has been seen heading toward the city limits with a dented suitcase---"
+
+Sofia turned to Grandma. "The grocery store was supposed to get MORE cereal today. But an ALPACA knocked over the truck."
+
+"An alpaca?" said Grandma.
+
+"With a SUITCASE."
+
+Sofia slumped at the kitchen table, staring at her bowl of bran flakes. She'd added so much sugar it was basically soup. It still tasted like cardboard. The case was solved---Grandma got the Cocoa Puffs, and an alpaca destroyed the town's entire cereal supply---but there was no satisfaction in it.
+
+Then the cow on TV said something that made her sit up straight.
+
+"And now, the big story. We've received reports all day about something happening at the island in Punsburg Pond. Our sources---including Maurice, the famous memory mussel at the Punsburg Aquarium---say something significant is supposed to happen there today. At sunset. Channel 5 Cow News will be broadcasting live from the pond, and we encourage all of Punsburg to come see for themselves."
+
+The cow paused dramatically.
+
+"Don't miss it, Punsburg. This could be the story of the century."
+
+Sofia looked at Grandma. Grandma looked at Sofia.
+
+"Well," said Grandma, gathering her things. "That sounds more interesting than bran flakes."
+
+"EVERYTHING is more interesting than bran flakes, Grandma."
+
+"I'm bringing cookies."
+
+"I'm bringing Buster."
+
+Buster was already by the door, tail wagging.
+
+Sofia left the bran flakes on the table. Some crimes didn't have happy endings.
+
+But maybe the island would make up for it.

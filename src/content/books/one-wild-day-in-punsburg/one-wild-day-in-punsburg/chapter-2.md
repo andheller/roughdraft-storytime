@@ -1,97 +1,97 @@
-# Knight Light
+# Alpaca My Bags
 
-Sir Lumen had a problem.
+This was the day. Alejandro had had ENOUGH.
 
-It was Saturday morning—9:00 AM by the sun—but every clock in downtown Punsburg said it was noon. The bank clock. The diner clock. The clock tower. All of them: noon.
+The rooster crowed too early. The hay was too dry. The llamas---don't even get him STARTED on the llamas. They thought they were so special just because they were taller. They weren't. They were just stretched.
 
-"Something strange is afoot," said Sir Lumen, stroking his chin.
+"That's it," Alejandro announced to the barn at 7:00 AM. "Alpaca my bags. I'm leaving."
 
-A woman walking past stopped and stared at him. This happened often. Sir Lumen was a knight. A real one, with armor and everything. He also glowed. Softly, like a nightlight. It was very useful in dark places, but a bit unusual in broad daylight.
+The other animals ignored him. He said this every day.
 
-"Nice costume," said the woman.
+"I mean it this time!" he insisted.
 
-"'Tis not a costume," Sir Lumen replied with dignity. "I am a Knight of the Realm. I run the nightlight repair shop on Third Street."
+The goat yawned.
 
-The woman walked away quickly.
+"I have a SUITCASE," Alejandro declared, kicking a battered old suitcase that had been sitting in the corner of the barn for three years. "I am PACKING IT. With my THINGS."
 
-Sir Lumen sighed. Nobody appreciated a good knight anymore.
+The rooster clucked skeptically.
 
-He trudged back to his shop: SIR LUMEN'S NIGHTLIGHT REPAIR AND RESTORATION. The sign glowed faintly, just like him. He'd been in business for twelve years. If your nightlight flickered, buzzed, or went dark entirely, Sir Lumen was your man. Your knight.
-
-He'd just settled behind the counter when the door burst open.
-
-"Sir Lumen!" cried a small boy. "It's an emergency!"
-
-Sir Lumen leaped to his feet. "A darkness has fallen? A child cannot sleep? A monster lurks in the shadows of a closet?"
-
-"My nightlight broke," said the boy. "Mom says we can't get a new one until next week."
-
-"Unacceptable," declared Sir Lumen. "Let me see it."
-
-The boy handed over a small plastic nightlight shaped like a rocket ship. Sir Lumen examined it carefully. He sniffed it. He held it up to his ear.
-
-"Ah," he said gravely. "The bulb has perished."
-
-"Can you fix it?"
-
-"Indeed. I need only to procure a replacement bulb." Sir Lumen checked his supply cabinet. Empty. "Alas! I am out of stock. I must quest to the hardware store."
-
-"Is that far?"
-
-"Three blocks," said Sir Lumen. "Fraught with peril."
-
-"It's just Third Street."
-
-"FRAUGHT," repeated Sir Lumen, "WITH PERIL."
+"You'll see," muttered Alejandro. "You'll ALL see."
 
 ---
 
-The quest began.
+By 8:00 AM, Alejandro was on Maple Street, suitcase rolling behind him, looking for the highway out of town.
 
-Sir Lumen marched down Third Street in full armor, his glow gentle in the morning sun. People stared. A dog barked at him. A Channel 5 News van drove past—the side read "COW NEWS: MOO TRUST"—and Sir Lumen could have sworn the driver was an actual cow.
+He passed a house with a kid watching TV inside. The kid waved. Alejandro did not wave back. He was too dramatic for waving.
 
-"Strange town," he muttered.
+By 9:00 AM, he was downtown, and something strange was happening. He'd been walking for an hour, but every clock he passed said noon. The bank clock. The diner clock. The clock tower. All of them: noon.
 
-At the corner of Third and Oak, a cat sat in a window, watching him pass. It was orange and very fluffy. Sir Lumen bowed to it. The cat blinked slowly in response.
+"This town can't even get TIME right," he muttered. "Further proof that I should leave."
 
-"A noble creature," Sir Lumen declared.
+Then he turned the corner onto Main Street and walked straight into chaos.
 
-The hardware store was just ahead. Sir Lumen could see the sign: PUNSBURG HARDWARE. He quickened his pace—
+The Founders' Day Parade---which was definitely not supposed to happen yet---was lurching to life in the middle of the street. Half-dressed marching band members were scrambling into formation. Floats were bumping into each other. And a cereal delivery truck was trying to back out of the whole mess, its horn blaring.
 
-And then he walked past the pond.
+"UNBELIEVABLE," Alejandro shouted. "A PARADE. Blocking my ESCAPE."
 
-The town pond sat in the middle of Punsburg Commons, a small park with benches and ducks. In the middle of the pond was a tiny island. Just a bump of grass and a single tree. Most people ignored it.
+He tried to go around. He couldn't. He tried to go through. He got tangled in streamers. Someone put a sash on him that said "GRAND LLAMA" and he was so offended he couldn't even speak for ten full seconds.
 
-But today, Sir Lumen's glow reflected off the water and hit the island. For just a moment, the tree lit up like it was covered in Christmas lights.
+"I am NOT a LLAMA!" he finally managed. "I am an ALPACA! There is a DIFFERENCE!"
 
-"Curious," said Sir Lumen.
+No one was listening. Someone took a photo. A child tried to pet him. Alejandro's eye twitched.
 
-He stared at the island. The island did not stare back. It was an island.
+He spotted a float he could climb onto---anything to get across the street. He dragged his suitcase up a ramp and found himself standing on a flatbed truck decorated with paper flowers.
 
-But something about it felt... important. Like he should remember something. Like there was an old story about that island that everyone had forgotten.
+The problem was that the float was moving. And Alejandro, who was not known for his balance, stumbled sideways---right into the railing.
 
-Sir Lumen shook his head. He had a quest to complete. A child needed a nightlight. There was no time for mysterious islands.
+His suitcase flew off the float.
 
-He marched into the hardware store, glow illuminating the aisles.
+It sailed through the air in a perfect arc and landed on the hood of the cereal delivery truck, which was still trying to back up.
 
-"One nightlight bulb," he announced. "For a rocket ship of the highest quality."
+The driver swerved. The truck hit a fire hydrant. And the back doors burst open.
 
-The teenager at the register didn't even look up from his phone. "Aisle six."
+Boxes of cereal exploded into the street. Cocoa Puffs. Frosted Flakes. Lucky Charms. Bran flakes. They bounced off the marching band, rolled under floats, and scattered across three blocks of downtown Punsburg.
 
-Sir Lumen found the bulb, paid exactly $2.47, and marched back to his shop. The boy was waiting.
+Alejandro watched from the float, one eye twitching harder.
 
-"Your rocket ship shall fly again," said Sir Lumen, installing the new bulb with ceremonial precision.
+"That," he said quietly, "was not my fault."
 
-The nightlight glowed to life. The boy's face lit up.
+It was absolutely his fault.
 
-"Thanks, Sir Lumen!"
+---
 
-"Go forth," said the knight. "Sleep well. Fear no darkness."
+By noon, the parade had dissolved into a cleanup operation. Alejandro had retrieved his suitcase (dented but intact) and was on the outskirts of town, almost to the city limits.
 
-The boy ran out. Sir Lumen sat back down behind his counter, satisfied.
+He stopped at the WELCOME TO PUNSBURG sign, which faced travelers coming INTO town. From this side, it just said ___GRUBSNUP OT EMOCLEW.
 
-Through the window, he could see the clock tower. It still said noon.
+"Goodbye, Punsburg," Alejandro said softly.
 
-"Something strange is definitely afoot," he said again.
+And then he didn't move.
 
-But that was a mystery for another day. Or possibly later today. Punsburg had a way of getting weird by dinnertime.
+The truth was... he'd never actually LEFT before. He'd complained about leaving. He'd threatened to leave. He'd packed and repacked that suitcase dozens of times.
+
+But he'd never walked past that sign.
+
+Beyond it, the road stretched into the unknown. Other towns. Other farms. Other llamas who would probably ALSO think they were better than him.
+
+Alejandro stood there for a long time.
+
+A fly buzzed past---weirdly still, like it was frozen---and then zoomed away.
+
+The sun moved overhead.
+
+And slowly, slowly, Alejandro turned around.
+
+Not because he WANTED to go back. Obviously. He just... realized he'd forgotten something. At the farm. Something important. He'd go get it and THEN leave.
+
+He'd definitely leave.
+
+Eventually.
+
+As he walked back toward town, suitcase bumping behind him, he noticed people heading toward the pond. Quite a lot of people. They seemed excited about something. One person was carrying a portable TV tuned to Channel 5, and Alejandro could hear a cow's voice saying something about "the island" and "sunset" and "don't miss it."
+
+"I'm not STAYING," he told a passing squirrel. "I'm just passing through."
+
+The squirrel was already gone.
+
+Alejandro rolled his suitcase toward the pond.

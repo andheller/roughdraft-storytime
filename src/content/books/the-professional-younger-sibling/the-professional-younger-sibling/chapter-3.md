@@ -1,79 +1,81 @@
-# Chapter 3: Field Research
+# Chapter 3: The Worst Day of My Career
 
-Today I decided to conduct field research on other younger siblings to see if they had any advanced techniques I could use. I figured if I was going to get my professional status back, I needed to learn from the experts.
+Today I decided to prove that this family cannot function without a professional younger sibling. If my siblings wanted to treat me like a regular person, I would show them how much they needed me to be the youngest.
 
-First, I studied my friend Maya, who is the youngest of three. At lunch, I watched her ask her older brother to open her juice box. He just did it, no questions asked. When I asked her what her secret was, she said, "I don't know, I just ask nicely."
+My plan was simple: I would be so helpful and so impressive that everyone would realize I was indispensable.
 
-Just ask nicely? That seemed too simple. There had to be more to it.
+Step one: help Alex cook dinner.
 
-So I tested this theory when I got home. I found Alex in the kitchen and said, very nicely, "Alex, could you please make me a snack?"
+Alex was making spaghetti, which is Alex's specialty because Alex follows recipes the way other people follow laws -- exactly, carefully, and with no exceptions. I came into the kitchen and said, "I'm here to help."
 
-Alex looked at me suspiciously. "Why are you talking like that?"
+Alex looked nervous. "Help how?"
 
-"Like what?"
+"I'll stir the sauce."
 
-"Like you're trying to sell me something."
+"Okay," Alex said slowly. "Just stir. Don't add anything."
 
-Apparently, asking nicely only works if you're naturally nice, not if you're trying to be strategically nice. I made a mental note: Natural niceness beats fake niceness.
+I stirred the sauce for about thirty seconds before I decided it needed more garlic. Alex had his back turned, measuring pasta, so I grabbed the garlic powder and dumped some in.
 
-Next, I observed Tommy from my class, who is the youngest of five kids. At recess, he told me his strategy was to be so annoying that his siblings would do things for him just to make him stop.
+"RILEY. Did you add something to my sauce?"
 
-"Like what?" I asked.
+"I improved it."
 
-"Like this," he said, and then started singing "Twinkle, Twinkle, Little Star" but replacing all the words with "banana." It was very annoying.
+"You don't improve someone else's sauce! That's -- that's sauce sabotage!"
 
-I tried this technique on Jordan while he was doing homework. I sat next to him and started singing "Banana, banana, little banana, how I banana what you banana."
+Alex made me leave the kitchen. Step one: failure.
 
-Jordan lasted exactly thirty-seven seconds before saying, "STOP. What do you want?"
+Step two: help Sam with her homework.
 
-"Can you help me with my math homework?"
+Sam was doing math at the dining table. Sam does homework like she does everything -- quietly, efficiently, and with zero interest in company. I sat down next to her.
 
-"Fine, just STOP SINGING."
+"Need any help?"
 
-This technique worked, but I felt like it might damage my professional reputation. Also, Sam came over and said if I didn't stop the banana song, she was going to hide all my books, which seemed like a threat I should take seriously since Sam knows where I keep everything.
+"No."
 
-My third research subject was Lucy, who lives next door and is the youngest of twins. She said her strategy was to be the "good twin" while her brother was the "trouble twin."
+"Are you sure? I'm very good at math."
 
-"But what if you want to cause trouble sometimes?" I asked.
+"You're in second grade. I'm doing algebra."
 
-"Then I blame it on him," she said. "No one ever suspects the good twin."
+"I could keep you company."
 
-This seemed promising until I realized I don't have a twin to blame things on. Jordan is already the trouble sibling in our family, but he's three years older than me, so blaming him for something I did would be pretty obvious.
+"I don't want company."
 
-Finally, I talked to Mrs. Peterson next door, who said when she was little and the youngest of six, her strategy was to be so helpful that her parents couldn't imagine life without her.
+"Everyone wants company."
 
-"I volunteered for everything," she said. "Dishes, laundry, babysitting the chickens—"
+Sam looked up from her homework. Sam has this way of looking at you that makes you feel like she's read your diary and found it boring. "Riley. I want to be alone. That's not mean. It's just how I work best."
 
-"You had chickens?"
+"Oh," I said. "Okay."
 
-"Different times, sweetie. The point is, I made myself indispensable."
+Step two: failure.
 
-That night at dinner, I announced that I wanted to be more helpful around the house.
+Step three: help Jordan with his art project.
 
-Everyone stopped eating and stared at me.
+This should have been easy because Jordan loves company and Jordan's art projects always involve a mess, and I am very good at messes. Jordan was building a model volcano for science class on the back porch.
 
-"What's the catch?" Sam asked.
+"Can I help?" I asked.
 
-"No catch," I said. "I just want to be a good family member."
+"YES!" Jordan said, because Jordan always says yes to everything. "You can help me mix the papier-mache!"
 
-"Are you feeling okay?" Mom asked, putting her hand on my forehead. "You don't have a fever..."
+This was going great until I accidentally knocked over the bucket of paste, which spilled across the porch and onto Biscuit, our dog, who had been sleeping nearby. Biscuit stood up, completely covered in white paste, and looked so confused and sad that Jordan started laughing so hard he knocked over his volcano frame.
 
-"I'm fine! I just want to help!"
+Then Biscuit shook himself, spraying paste everywhere, including on the sliding glass door, the porch furniture, and my face.
 
-"Okay," Alex said slowly. "You can help me with the dishes after dinner."
+Mom came outside, saw the porch, and used everyone's full names. "Jordan. Riley. What happened?"
 
-"Great!" I said. "How hard could dishes be?"
+"Riley was helping," Jordan said, which was technically true but felt like a betrayal.
 
-Famous last words. Dishes are very hard. First, I dropped a plate, which didn't break but made a very loud noise. Then I used too much soap and bubbles got everywhere. Then I accidentally sprayed Alex with the sink sprayer thing.
+"Maybe Riley could help somewhere else," Mom said in her quiet voice, which is the voice she uses when she's choosing her words very carefully so she doesn't say something she'll regret.
 
-"Are you sure you want to be helpful?" Alex asked, wiping soap bubbles out of his hair.
+Step three: spectacular failure.
 
-"I'm still learning," I said. "Tomorrow I'll be much better at this."
+I sat on my bed that night with paste still in my hair and thought about something uncomfortable. Every time I'd tried to help today, I'd made things worse. Not because I was trying to make things worse, but because I hadn't actually thought about what each person needed. I'd just barged in and done whatever I wanted.
 
-Alex looked doubtful, but he let me finish the dishes. Well, they finished the dishes while I dried them and only dropped two more things.
+Alex needed someone who would follow instructions. Sam needed someone who would respect her space. Jordan needed someone who would be careful, because Jordan was already chaotic enough for two people.
 
-Later, when I was going to bed, I realized something important: all the other younger siblings I talked to had developed their strategies naturally, over time. I was trying to copy their methods instead of figuring out what worked for me.
+I'd spent seven years watching my siblings, figuring out how to get things from them. I knew Alex was a rule-follower. I knew Sam needed quiet. I knew Jordan was enthusiastic but messy. I knew all of that. I'd just never used it to actually help them before. Only to get out of chores and score extra dessert.
 
-Maybe tomorrow I should stop researching other people and start figuring out what kind of professional younger sibling I actually want to be.
+For the first time, I wondered if maybe my professional skills weren't as impressive as I thought they were.
 
-But first, I should probably apologize to Jordan for the banana song. They're still humming it, and it's been four hours.
+That was a hard thought to think, so I stopped thinking it and went to wash the paste out of my hair instead.
+
+But it came back later, when I was lying in the dark trying to sleep. The thought, I mean. Not the paste.

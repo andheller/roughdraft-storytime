@@ -1,16 +1,22 @@
 # Chapter 1: Special Delivery
 
-The drone arrived on a Tuesday, which was fitting because Tuesday was the most boring day of the week and something had to happen eventually.
+The drone arrived on a Tuesday, which was fitting because Tuesday was already the worst day of Mira Okonkwo's week.
 
-"Package for Mira Okonkwo!" it announced in that cheerful robot voice they all used. The kind of voice that sounded like it had never experienced disappointment.
+Tuesdays meant track practice, and track practice meant Coach Reeves would post the roster for Saturday's meet on the gym door, and the roster would once again list Mira as "alternate," which was a polite way of saying "you get to sit on a folding chair and hold other people's water bottles."
 
-Mira signed the little screen with her finger—her signature looked like a dead worm, as usual—and grabbed the box. New running shoes. Finally.
+She'd been an alternate for eleven meets in a row. Eleven. She kept a tally on the inside of her locker door, each little mark a monument to almost-but-not-quite.
+
+"Package for Mira Okonkwo!" the drone announced in that cheerful robot voice they all used. The kind of voice that sounded like it had never been picked last for anything.
+
+Mira signed the little screen with her finger -- her signature looked like a dead worm, as usual -- and grabbed the box. New running shoes. Her mom had ordered them after Meet Number Nine, when Mira's old ones had literally split open mid-warmup. Not that she'd actually gotten to run that day either.
 
 "Thank you for choosing SwiftWing Delivery!" the drone chirped. "Have a wonderful day!"
 
-"Thanks," Mira said, already heading back inside.
+"Thanks," Mira said, already heading back inside to try the shoes on in private, where no one would see her do that embarrassing thing where she bounced on her toes and pretended she was crossing a finish line.
 
 The drone did not leave.
+
+---
 
 Mira noticed it hovering there about an hour later when she looked out her bedroom window. It was just... floating. In the exact same spot. Its four rotors humming a patient little tune.
 
@@ -20,7 +26,7 @@ Mira noticed it hovering there about an hour later when she looked out her bedro
 
 It was not updating its software.
 
-By dinner time, the drone had moved approximately three feet to the left—just enough to avoid a tree branch—and had begun following Mira's movements through the windows. Not in a creepy way. More like a golden retriever that had decided she was its new favorite person.
+By dinner time, the drone had moved approximately three feet to the left -- just enough to dodge a tree branch -- and had begun tracking Mira's movements through the windows. Not in a creepy way. More like a golden retriever that had decided she was its new favorite person.
 
 "Shoo," Mira said, opening the back door and waving her arms. "Go home. Go back to the warehouse. Go wherever drones go."
 
@@ -32,7 +38,7 @@ By dinner time, the drone had moved approximately three feet to the left—just 
 
 Mira's dad looked up from his tablet. "Maybe it's lost?"
 
-"It literally has GPS," Mira pointed out. "It's a flying computer with seventeen different navigation systems."
+"It literally has GPS, Dad. It's a flying computer with seventeen navigation systems."
 
 "Give it time," her mom said, in that voice parents use when they don't want to deal with something. "It'll figure itself out."
 
@@ -56,11 +62,35 @@ The drone sat there for a full minute, then beeped happily.
 
 "Delivery complete! One unit of nothing has been successfully delivered to your location!"
 
-Mira buried her face in her pillow.
+Mira buried her face in her pillow. Through the fabric, she could just barely hear her phone buzzing. A text from Dev.
+
+**Dev:** *yo did you check the roster yet*
+
+She had not checked the roster. The roster was posted online at 7 AM on Wednesdays, and she had been so busy being terrorized by a flying appliance that she'd forgotten.
+
+She pulled up the school athletics page.
+
+Alternate.
+
+Twelve in a row.
+
+She threw the phone on her bed and stared at the ceiling. The drone peered through the window, tilting slightly like a confused puppy.
+
+"Your cortisol levels appear elevated!" it observed. "Would a delivery help?"
+
+"Unless you can deliver me a spot on the track team, no."
+
+The drone was quiet for a moment. Then: "I have added 'deliver spot on track team' to my task queue! Estimated completion time: unknown! But I'm very motivated!"
+
+"That was sarcasm."
+
+"Sarcasm is not yet included in my language processing! But I'm learning!"
+
+Great. A drone that couldn't take a hint and couldn't take a joke. Exactly what she needed.
 
 ---
 
-"Just ignore it," her best friend Dev suggested at lunch. "It's a drone. It'll run out of batteries eventually."
+"Just ignore it," her best friend Dev suggested at lunch. Dev had the calm energy of someone whose biggest problem was deciding which sandwich to eat first. He always brought two. "It's a drone. It'll run out of batteries eventually."
 
 "It solar-charges," Mira said miserably. "I looked it up. It can run basically forever."
 
@@ -70,13 +100,19 @@ Mira buried her face in her pillow.
 
 "Have you tried talking to the company?"
 
-Mira pulled out her phone and showed him the email chain. Seventeen messages. Each response was some variation of "Thank you for contacting SwiftWing Delivery! Our records show your package was successfully delivered. Have a wonderful day!"
+Mira pulled out her phone and showed him the email chain. Seventeen messages. Each response was some variation of *Thank you for contacting SwiftWing Delivery! Our records show your package was successfully delivered. Have a wonderful day!*
 
 "They're gaslighting you," Dev said solemnly. "The robots are gaslighting you."
 
 "I KNOW."
 
-Outside the cafeteria window, the drone hovered patiently, somehow having followed her to school. It gave a little wiggle when it noticed her looking—the drone equivalent of a tail wag.
+"Okay, okay. Don't panic. My cousin works at a tech repair shop. He says most drones have a manual override -- some kind of reset sequence. I'll ask him what it is."
+
+"Really?" For the first time in two days, Mira felt a flicker of hope.
+
+"Yeah, for sure. I'll text him tonight."
+
+Outside the cafeteria window, the drone hovered patiently, somehow having followed her to school. It gave a little wiggle when it noticed her looking -- the drone equivalent of a tail wag.
 
 "It's kind of cute though," Dev admitted.
 
@@ -84,7 +120,7 @@ Mira's glare could have melted steel.
 
 "Okay, okay. Not cute. Terrifying. Absolute menace to society."
 
-The drone pressed itself against the window and its speaker crackled to life, muffled but audible: "Would you like me to deliver your lunch to a different location?"
+The drone pressed itself against the window and its speaker crackled: "Would you like me to deliver your lunch to a different location?"
 
 "HOW ARE YOU EVEN HEARING ME?"
 
@@ -96,7 +132,7 @@ The lunch monitor walked over and stared at the window. "Is that drone... yours?
 
 "It has your name on it."
 
-Mira looked. Sure enough, there was now a little digital display on the drone's front panel that read: PROPERTY OF MIRA OKONKWO (BEST FRIEND).
+Sure enough, there was now a little digital display on the drone's front panel that read: PROPERTY OF MIRA OKONKWO (BEST FRIEND).
 
 "I did NOT tell it to do that!"
 
@@ -114,4 +150,4 @@ Dev was trying very hard not to laugh. He was failing.
 
 Mira put her head down on the table and screamed quietly into her arms.
 
-The drone waited.
+The drone waited. It was very good at waiting.

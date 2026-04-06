@@ -1,10 +1,10 @@
 {
   "title": "The Dragon Who Breathed Bubbles",
-  "description": "Ember is a little dragon with a big problem: instead of fire, she breathes bubbles! Can she find a way to save the day when her village needs her most?",
+  "description": "Ember is a little dragon who breathes bubbles instead of fire. When a lonely troll's tears block the only bridge to Shimmer Lake, Ember discovers that her bubbles can carry something more powerful than flames.",
   "author": "Roughdraft Stories",
   "ageRange": "4-8",
   "genre": "Fantasy",
-  "tags": ["dragons", "friendship", "being different", "bravery"],
+  "tags": ["dragons", "friendship", "being different", "loneliness", "bravery", "empathy"],
   "chapters": [
     {
       "id": 1,
@@ -13,12 +13,12 @@
     },
     {
       "id": 2,
-      "title": "The Grumpy Troll",
+      "title": "The Troll Under the Bridge",
       "file": "chapter-2.md"
     },
     {
       "id": 3,
-      "title": "Bubbles Save the Day",
+      "title": "What Bubbles Are For",
       "file": "chapter-3.md"
     }
   ]
