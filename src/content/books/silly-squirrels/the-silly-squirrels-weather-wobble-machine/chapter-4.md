@@ -1,5 +1,14 @@
 # Chapter 4: The Great Umbrella Stampede
 
+<div class="story-illustration-wrap">
+  <img
+    src="/story-art/silly-squirrels/the-silly-squirrels-weather-wobble-machine/chapter-4.png"
+    alt="A stampede of open umbrellas rolls through town while Nutty climbs to shut down the weather machine."
+    class="story-illustration"
+    loading="lazy"
+  />
+</div>
+
 The runaway umbrellas bounced down Walnut Lane like a herd of very dramatic mushrooms.
 
 "After them!" cried Mama, charging ahead with her personal rain cloud still following her.

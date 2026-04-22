@@ -1,5 +1,14 @@
 # Chapter 5: A Bridge That Behaves
 
+<div class="story-illustration-wrap">
+  <img
+    src="/story-art/silly-squirrels/the-silly-squirrels-bouncy-bridge/chapter-5.png"
+    alt="The Nutwobble family enjoys the newly repaired bridge at sunset with just one gentle bounce left."
+    class="story-illustration"
+    loading="lazy"
+  />
+</div>
+
 The next day, the bridge behaved.
 
 Not perfectly.

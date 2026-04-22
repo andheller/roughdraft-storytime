@@ -1,5 +1,14 @@
 # Chapter 1: The Longest Ice Cream Line in Nutville
 
+<div class="story-illustration-wrap">
+  <img
+    src="/story-art/silly-squirrels/the-silly-squirrels-ice-cream-catapult/opening.webp"
+    alt="A long line at Chilly Milly's cart while Nutty unveils a wild ice-cream catapult idea in the summer park."
+    class="story-illustration"
+    loading="lazy"
+  />
+</div>
+
 It was the hottest afternoon of the summer, and everybody in Nutville wanted ice cream.
 
 The line at Chilly Milly's cart stretched past the fountain, past the bench, past the flower boxes, and around the statue of General Nutbert, who looked deeply concerned to be wearing three accidentally dropped napkins.

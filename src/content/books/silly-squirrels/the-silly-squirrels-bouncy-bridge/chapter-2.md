@@ -1,5 +1,14 @@
 # Chapter 2: More Bounce, More Better?
 
+<div class="story-illustration-wrap">
+  <img
+    src="/story-art/silly-squirrels/the-silly-squirrels-bouncy-bridge/chapter-2.png"
+    alt="Mama bouncing high from the springy bridge while Grandma steadies the mayor and Tony's cart jolts nearby."
+    class="story-illustration"
+    loading="lazy"
+  />
+</div>
+
 The first test of the Bouncy Bridge happened at sunset.
 
 Nutty had installed four shining springs underneath the center planks.

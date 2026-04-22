@@ -2,11 +2,11 @@
 
 The drone arrived on a Tuesday, which was fitting because Tuesday was already the worst day of Mira Okonkwo's week.
 
-Tuesdays meant track practice, and track practice meant Coach Reeves would post the roster for Saturday's meet on the gym door, and the roster would once again list Mira as "alternate," which was a polite way of saying "you get to sit on a folding chair and hold other people's water bottles."
+Tuesdays meant track practice, and track practice meant Coach Reeves would post the roster for Saturday's meet on the gym door, and the roster would once again list Mira as "alternate," which was a polite way of saying "bring a folding chair and look supportive."
 
 She'd been an alternate for eleven meets in a row. Eleven. She kept a tally on the inside of her locker door, each little mark a monument to almost-but-not-quite.
 
-"Package for Mira Okonkwo!" the drone announced in that cheerful robot voice they all used. The kind of voice that sounded like it had never been picked last for anything.
+"Package for Mira Okonkwo!" the drone announced in that cheerful robot voice they all used. The kind of voice that had clearly never sat on a bench in borrowed warmups.
 
 Mira signed the little screen with her finger -- her signature looked like a dead worm, as usual -- and grabbed the box. New running shoes. Her mom had ordered them after Meet Number Nine, when Mira's old ones had literally split open mid-warmup. Not that she'd actually gotten to run that day either.
 
@@ -26,7 +26,7 @@ Mira noticed it hovering there about an hour later when she looked out her bedro
 
 It was not updating its software.
 
-By dinner time, the drone had moved approximately three feet to the left -- just enough to dodge a tree branch -- and had begun tracking Mira's movements through the windows. Not in a creepy way. More like a golden retriever that had decided she was its new favorite person.
+By dinner time, the drone had moved approximately three feet to the left, just enough to dodge a tree branch, and had begun tracking Mira's movements through the windows. Not in a creepy way. More like a golden retriever with propellers.
 
 "Shoo," Mira said, opening the back door and waving her arms. "Go home. Go back to the warehouse. Go wherever drones go."
 
@@ -102,7 +102,7 @@ Great. A drone that couldn't take a hint and couldn't take a joke. Exactly what 
 
 Mira pulled out her phone and showed him the email chain. Seventeen messages. Each response was some variation of *Thank you for contacting SwiftWing Delivery! Our records show your package was successfully delivered. Have a wonderful day!*
 
-"They're gaslighting you," Dev said solemnly. "The robots are gaslighting you."
+"They're gaslighting you," Dev said solemnly.
 
 "I KNOW."
 

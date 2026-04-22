@@ -1,5 +1,14 @@
 # Chapter 1: Harvest Hoopla Trouble
 
+<div class="story-illustration-wrap">
+  <img
+    src="/story-art/silly-squirrels/the-silly-squirrels-pancake-parade/opening.webp"
+    alt="Nutty and the Nutville townsfolk unveiling a parade float with a giant pancake flipper."
+    class="story-illustration"
+    loading="lazy"
+  />
+</div>
+
 Every autumn, Nutville held the Harvest Hoopla Parade.
 
 There were marching acorn drummers, leaf confetti tossers, synchronized wagon twirlers, and at least one goose who joined every year without permission.

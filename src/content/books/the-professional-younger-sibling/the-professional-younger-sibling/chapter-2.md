@@ -2,9 +2,9 @@
 
 I take back everything I said about nothing ever changing. Today was the worst day in my professional career, and it's all because my older siblings apparently had some kind of secret meeting without me.
 
-It started at breakfast when I asked Alex to pass the cereal and Alex said, "Get it yourself, you have arms." Which was weird because Alex usually passes things automatically. Alex is very into being in charge of breakfast -- he arranges the cereal boxes by height and makes sure everyone has a napkin. It's a whole system.
+It started at breakfast when I asked Alex to pass the cereal and Alex said, "Get it yourself, you have arms." This was weird because Alex usually passes things automatically. Alex treats breakfast like an air traffic controller treats a runway.
 
-Then Sam, who never talks at breakfast because Sam is not a morning person, actually looked up from her book and said, "Yeah, Riley, you can reach it." Sam talking before nine in the morning was like seeing a solar eclipse. You know it can happen, but it still shocks you.
+Then Sam, who never talks at breakfast because Sam is not a morning person, looked up from her book and said, "Yeah, Riley, you can reach it." Sam talking before nine in the morning is a bad sign, like birds going quiet.
 
 And Jordan, who usually steals my cereal and turns breakfast into a loud negotiation, actually pushed the box toward me calmly. Jordan doing something calmly was the most suspicious part of all.
 
@@ -14,7 +14,7 @@ So I went upstairs to ask Alex about having a friend over, and Alex said, "Sure,
 
 "That's not fair," I said. "I never have to clean Jordan's room."
 
-"New rules," Sam said, appearing in the doorway. Sam appears in doorways the way cats appear on tables -- silently and when you least expect it. "We decided that if you want privileges, you have to earn them."
+"New rules," Sam said, appearing in the doorway the way she always does, silently and somehow already annoyed. "We decided that if you want privileges, you have to earn them."
 
 "Since when do you three agree on anything?" I asked.
 
@@ -24,7 +24,7 @@ A MEETING. Without me. About me.
 
 I tried my usual tactics. First, I went to Mom with a very sad face and said my siblings were being mean to me. But Mom said it sounded like they were trying to teach me responsibility, which is something I've been avoiding learning for seven years.
 
-Then I tried being extra cute with Dad, but Dad said maybe it would be good for me to help out more around the house. Apparently, Alex had organized a whole presentation about this. A presentation! With examples! There was apparently a pie chart involved.
+Then I tried being extra cute with Dad, but Dad said maybe it would be good for me to help out more around the house. Apparently Alex had organized a whole presentation about this. With examples. And a pie chart.
 
 That's when I got desperate. I sat next to Jordan while he was doing homework and started singing "Twinkle, Twinkle, Little Star" but replacing all the words with "banana." "Banana, banana, little banana, how I banana what you banana..."
 
@@ -54,4 +54,6 @@ By dinner, I had cleaned two rooms, organized a bookshelf (twice, because Sam sa
 
 After dinner, I went to my room to think. Clearly, my usual tactics weren't working against a united front. The sad eyes, the cute act, even the banana song -- nothing worked.
 
-For the first time in my professional career, I didn't have a strategy. And I didn't like the feeling one bit.
+For the first time in my professional career, I didn't have a strategy.
+
+I hated that.

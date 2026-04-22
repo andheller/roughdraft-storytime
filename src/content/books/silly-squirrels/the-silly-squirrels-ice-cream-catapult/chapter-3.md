@@ -1,5 +1,14 @@
 # Chapter 3: Chocolate Incoming
 
+<div class="story-illustration-wrap">
+  <img
+    src="/story-art/silly-squirrels/the-silly-squirrels-ice-cream-catapult/chapter-3.png"
+    alt="Wind sends flying cones off course through Nutville Park while Tony and Nutty react to the dessert chaos."
+    class="story-illustration"
+    loading="lazy"
+  />
+</div>
+
 Soon the whole park was ordering by distance.
 
 "One lemon swirl by the oak!"

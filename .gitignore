@@ -24,3 +24,6 @@ vite.config.ts.timestamp-*
 
 # Context
 context/
+
+# Local writing tone workspace
+story-time/writing-tone/

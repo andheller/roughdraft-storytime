@@ -53,53 +53,36 @@
 
 {#if story && chaptersWithContent.length > 0}
 	<div class="story-container mx-auto max-w-[700px] px-5 py-3 sm:px-8">
-		<!-- Story Header -->
-		<header class="mb-8 py-6">
-			<h1
-				class="mb-6 {fontClass} text-5xl leading-tight font-bold text-stone-950 dark:text-stone-100"
-			>
-				{story.title}
-			</h1>
+		<header class="mb-8 pt-8 pb-6">
+			<div class="mb-8">
+				<h1
+					class="mb-4 {fontClass} text-6xl font-semibold tracking-tight text-pretty text-stone-950 dark:text-stone-50"
+				>
+					{story.title}
+				</h1>
+				<p class="max-w-[42ch] text-lg leading-8 text-pretty text-stone-600 dark:text-stone-400">
+					{story.description}
+				</p>
+			</div>
 
-			<p class="mb-8 max-w-3xl text-xl leading-relaxed text-stone-700 dark:text-stone-400">
-				{story.description}
-			</p>
-
-			<div class="mb-8 flex flex-wrap gap-6 text-stone-600 dark:text-stone-400">
-				<div class="flex items-center gap-2">
-					<svg class="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-						<path
-							stroke-linecap="round"
-							stroke-linejoin="round"
-							stroke-width="2"
-							d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.746 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"
-						/>
-					</svg>
-					<span class="font-medium">{story.chapters.length} Chapters</span>
-				</div>
-				<div class="flex items-center gap-2">
-					<svg class="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-						<path
-							stroke-linecap="round"
-							stroke-linejoin="round"
-							stroke-width="2"
-							d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
-						/>
-					</svg>
-					<span class="font-medium">~{Math.ceil(story.chapters.length * 3)} min read</span>
-				</div>
+			<!-- Metadata pills -->
+			<div class="mb-8 flex flex-wrap gap-2">
+				<span
+					class="rounded-full border border-stone-200 px-3 py-1.5 text-sm font-medium text-stone-600 tabular-nums dark:border-stone-700 dark:text-stone-400"
+				>
+					{story.chapters.length} chapters
+				</span>
+				<span
+					class="rounded-full border border-stone-200 px-3 py-1.5 text-sm font-medium text-stone-600 tabular-nums dark:border-stone-700 dark:text-stone-400"
+				>
+					~{Math.ceil(story.chapters.length * 3)} min read
+				</span>
 				{#if story.audio?.available}
-					<div class="flex items-center gap-2">
-						<svg class="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-							<path
-								stroke-linecap="round"
-								stroke-linejoin="round"
-								stroke-width="2"
-								d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M9 12a3 3 0 106 0 3 3 0 00-6 0z"
-							/>
-						</svg>
-						<span class="font-medium">Audio Available ({story.audio.voice})</span>
-					</div>
+					<span
+						class="rounded-full border border-stone-200 px-3 py-1.5 text-sm font-medium text-stone-600 dark:border-stone-700 dark:text-stone-400"
+					>
+						🎧 Audio
+					</span>
 				{/if}
 			</div>
 
@@ -118,38 +101,21 @@
 							{goToPreviousChapter}
 						/>
 					{:else if browser}
-						<div
-							class="max-w-2xl rounded-lg border border-stone-200 bg-stone-100 p-4 dark:border-white/10 dark:bg-white/5"
-						>
-							<div class="flex items-center gap-2 text-stone-600 dark:text-stone-400">
-								<svg class="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-									<path
-										stroke-linecap="round"
-										stroke-linejoin="round"
-										stroke-width="2"
-										d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M9 12a3 3 0 106 0 3 3 0 00-6 0z"
-									/>
-								</svg>
-								<span>Audio not available for Chapter {currentChapter}</span>
-							</div>
+						<div class="max-w-2xl rounded border border-stone-200 p-4 dark:border-white/10">
+							<p class="text-sm text-stone-500">Audio not available for Chapter {currentChapter}</p>
 						</div>
 					{:else}
-						<div
-							class="max-w-2xl rounded-2xl border border-stone-200 bg-white/75 p-5 shadow-sm dark:border-white/10 dark:bg-white/5"
-						>
-							<h3
-								class="mb-3 text-sm font-semibold tracking-widest text-stone-700 uppercase dark:text-stone-300"
-							>
-								Chapter Audio
-							</h3>
-							<div class="space-y-4">
+						<div class="max-w-2xl rounded border border-stone-200 p-5 dark:border-white/10">
+							<p class="mb-3 text-sm font-medium text-stone-500 dark:text-stone-400">
+								Chapter audio
+							</p>
+							<div class="space-y-3">
 								{#each story.audio.chapters as audioChapter (audioChapter.id)}
-									<div class="rounded-xl bg-stone-50 p-3 dark:bg-stone-900/60">
-										<div class="mb-2 text-sm font-medium text-stone-800 dark:text-stone-200">
-											Chapter {audioChapter.id}:
-											{story.chapters.find((chapter) => chapter.id === audioChapter.id)?.title ||
+									<div>
+										<p class="mb-1 text-sm font-medium text-stone-700 dark:text-stone-300">
+											{story.chapters.find((ch) => ch.id === audioChapter.id)?.title ||
 												`Chapter ${audioChapter.id}`}
-										</div>
+										</p>
 										<audio class="w-full" controls preload="none" src={audioChapter.audioUrl}>
 											<a href={audioChapter.audioUrl}>Listen to chapter {audioChapter.id}</a>
 										</audio>
@@ -162,25 +128,26 @@
 			{/if}
 
 			<!-- Table of Contents -->
-			<div class="no-lift mb-6">
-				<h2
-					class="mb-4 {fontClass} text-lg font-semibold tracking-widest text-stone-700 uppercase opacity-70 dark:text-stone-200 dark:opacity-80"
-				>
-					Contents
-				</h2>
-				<div class="grid gap-0.5 sm:grid-cols-2">
+			<div class="no-lift">
+				<p class="mb-4 text-sm font-medium text-stone-500 dark:text-stone-400">Contents</p>
+				<div role="list" class="divide-y divide-stone-950/8 dark:divide-white/8">
 					{#each story.chapters as chapter (chapter.number)}
-						<a
-							href="#chapter-{chapter.number}"
-							class="flex items-baseline gap-3 rounded-lg px-2 py-2 text-left transition-colors hover:bg-stone-100/90 dark:hover:bg-white/5"
-							title="Jump to {chapter.title}"
-						>
-							<span
-								class="w-5 shrink-0 text-right text-xs text-stone-500 tabular-nums dark:text-stone-100 dark:opacity-40"
-								>{chapter.number}</span
+						<div role="listitem">
+							<a
+								href="#chapter-{chapter.number}"
+								class="group flex items-baseline justify-between py-2.5"
+								title="Jump to {chapter.title}"
 							>
-							<span class="font-medium text-stone-900 dark:text-stone-100">{chapter.title}</span>
-						</a>
+								<span
+									class="text-sm font-medium text-stone-800 transition-colors group-hover:text-stone-950 dark:text-stone-300 dark:group-hover:text-stone-50"
+								>
+									{chapter.title}
+								</span>
+								<span class="ml-4 shrink-0 text-sm text-stone-400 tabular-nums dark:text-stone-600">
+									{chapter.number}
+								</span>
+							</a>
+						</div>
 					{/each}
 				</div>
 			</div>
@@ -202,7 +169,9 @@
 
 		<!-- Story End -->
 		<div class="not-prose mt-20 py-12 text-center">
-			<div class="mb-6 text-4xl font-bold text-stone-900 dark:text-stone-100">🎉 The End! 🎉</div>
+			<div class="mb-6 text-4xl font-semibold tracking-tight text-stone-900 dark:text-stone-100">
+				🎉 The End! 🎉
+			</div>
 			<p class="mb-8 {fontClass} text-xl text-stone-600 dark:text-stone-400">
 				Thanks for reading "{story.title}"!
 			</p>
@@ -263,12 +232,14 @@
 		margin-bottom: 1.5rem;
 		line-height: 1.3;
 		font-size: 2.5rem;
+		text-wrap: pretty;
 	}
 
 	:global(.story-container .prose h2) {
 		font-weight: 600;
 		margin-bottom: 1rem;
 		font-size: 2rem;
+		text-wrap: pretty;
 	}
 
 	:global(.story-container .prose p) {
@@ -289,6 +260,27 @@
 	:global(.story-container .prose strong) {
 		font-weight: 600;
 		opacity: 0.9;
+	}
+
+	:global(.story-container .prose .story-illustration-wrap) {
+		margin: 0 0 2rem;
+	}
+
+	:global(.story-container .prose .story-illustration) {
+		display: block;
+		width: 100%;
+		height: auto;
+		border-radius: 1.25rem;
+		box-shadow:
+			0 18px 40px rgba(0, 0, 0, 0.14),
+			0 2px 10px rgba(0, 0, 0, 0.08);
+		border: 1px solid rgba(0, 0, 0, 0.08);
+		background: rgba(255, 255, 255, 0.55);
+	}
+
+	:global(.dark .story-container .prose .story-illustration) {
+		border-color: rgba(255, 255, 255, 0.1);
+		background: rgba(255, 255, 255, 0.03);
 	}
 
 	/* Drop caps for chapter beginnings */

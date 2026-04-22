@@ -1,5 +1,14 @@
 # Chapter 5: Let the Sky Be Silly
 
+<div class="story-illustration-wrap">
+  <img
+    src="/story-art/silly-squirrels/the-silly-squirrels-weather-wobble-machine/chapter-5.png"
+    alt="The town enjoys a calm evening picnic after the weather machine is shut down."
+    class="story-illustration"
+    loading="lazy"
+  />
+</div>
+
 The Big Breezy Picnic finally happened that evening.
 
 Not in perfect weather.

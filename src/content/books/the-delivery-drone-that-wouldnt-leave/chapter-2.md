@@ -1,6 +1,6 @@
 # Chapter 2: The Helpful Phase
 
-The drone -- Mira refused to name it, because naming it would mean accepting that it was staying -- began its "helpful" phase on Thursday.
+The drone, which Mira refused to name because naming it would mean admitting it lived here now, began its "helpful" phase on Thursday.
 
 It started innocently enough. Mira's homework was sitting on her desk, almost finished, when she went to the bathroom. When she came back, the homework was gone and the drone was hovering outside her window looking extremely pleased with itself.
 
@@ -52,7 +52,7 @@ They found out twenty minutes later when Mira's dad got a very confused phone ca
 
 The third incident was the worst.
 
-Mira kept a journal. Not a diary -- she was very clear about this distinction -- a *journal*, where she wrote down things she was thinking about, things she was worried about, things she would never, ever say out loud. Things like:
+Mira kept a journal. Not a diary. A *journal*. She wrote down things she was thinking about, things she was worried about, things she would never say out loud. Things like:
 
 *I don't think Coach Reeves even knows my name. He called me "Maria" last week and I didn't correct him because what's the point. Twelve meets as an alternate. Maybe I'm just not fast enough. Maybe I should quit and do something I'm actually good at, except I don't know what that is.*
 
@@ -116,7 +116,7 @@ Mira walked out of the school in a daze.
 
 "I'm choosing to count that as a success!"
 
-Mira wanted to be furious. She was furious. But underneath the fury, buried deep, was a weird fizzy feeling she hadn't felt in a while. Coach Reeves knew her name. The real one.
+Mira wanted to be furious. She was furious. But under that was a weird fizzy feeling she hadn't felt in a while. Coach Reeves knew her real name.
 
 "Don't ever touch my journal again."
 

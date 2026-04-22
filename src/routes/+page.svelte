@@ -2,6 +2,7 @@
 	import { goto } from '$app/navigation';
 	import { browser } from '$app/environment';
 	import { onMount } from 'svelte';
+	import { tick } from 'svelte';
 	import { getBookshelfBooks } from '$lib/content-loader.js';
 	import {
 		absoluteUrl,
@@ -191,16 +192,15 @@
 
 	let activeFilter = $state('all');
 	let searchQuery = $state('');
-	let displayMode = $state('spines');
+	let displayMode = $state('table');
 	let hoveredBook = $state(null);
+	let hoveredBookPopupPlacement = $state('above');
 	// Wallpaper: study green + hexagons
 	const backgroundForegroundColor = '#1a3020';
 	const backgroundColor = '#0f1a12';
 	const backgroundForegroundOpacity = 0.4;
 	const selectedBackgroundPattern = 'hexagons';
 
-	// Calculate books per shelf based on screen size
-	let booksPerShelf = $state(5);
 	let featuredBooksPerShelf = $state(5);
 	let viewportWidth = $state(1440);
 
@@ -210,35 +210,24 @@
 
 		const width = window.innerWidth;
 		viewportWidth = width;
-		const isSpines = displayMode === 'spines';
 
-		if (width < 480) {
-			booksPerShelf = isSpines ? 8 : 2;
-			featuredBooksPerShelf = 2;
-		} else if (width < 640) {
-			booksPerShelf = isSpines ? 12 : 3;
+		if (width < 640) {
 			featuredBooksPerShelf = 2;
 		} else if (width < 768) {
-			booksPerShelf = isSpines ? 15 : 3;
 			featuredBooksPerShelf = 3;
 		} else if (width < 1024) {
-			booksPerShelf = isSpines ? 20 : 4;
 			featuredBooksPerShelf = 4;
 		} else if (width < 1440) {
-			booksPerShelf = isSpines ? 25 : 5;
 			featuredBooksPerShelf = 5;
 		} else {
-			booksPerShelf = isSpines ? 30 : 6;
 			featuredBooksPerShelf = 6;
 		}
 	}
 
 	onMount(() => {
-		// Set initial mode based on device
-		if (window.innerWidth < 768) {
-			displayMode = 'covers';
-		} else {
-			displayMode = 'spines';
+		const storedDisplayMode = window.localStorage.getItem('roughdraft-home-view');
+		if (storedDisplayMode === 'table' || storedDisplayMode === 'spines') {
+			displayMode = storedDisplayMode;
 		}
 
 		updateBooksPerShelf();
@@ -256,15 +245,8 @@
 	});
 
 	$effect(() => {
-		if (typeof window === 'undefined') return;
-
-		const hasSearch = searchQuery.trim().length > 0;
-		if (hasSearch) {
-			displayMode = 'covers';
-			return;
-		}
-
-		displayMode = window.innerWidth < 768 ? 'covers' : 'spines';
+		if (!browser) return;
+		window.localStorage.setItem('roughdraft-home-view', displayMode);
 	});
 
 	function selectBook(book) {
@@ -276,6 +258,33 @@
 			event.preventDefault();
 			selectBook(book);
 		}
+	}
+
+	async function updateHoveredBook(book, event) {
+		hoveredBook = book.id;
+		hoveredBookPopupPlacement = 'above';
+
+		if (!browser) return;
+
+		await tick();
+
+		const buttonRect = event.currentTarget?.getBoundingClientRect?.();
+		const popup = event.currentTarget?.parentElement?.querySelector?.('.book-info-popup');
+		const popupRect = popup?.getBoundingClientRect?.();
+		if (!buttonRect || !popupRect) return;
+
+		const gap = 18;
+		const spaceAbove = buttonRect.top;
+		const spaceBelow = window.innerHeight - buttonRect.bottom;
+
+		if (spaceAbove < popupRect.height + gap && spaceBelow > spaceAbove) {
+			hoveredBookPopupPlacement = 'below';
+		}
+	}
+
+	function clearHoveredBook() {
+		hoveredBook = null;
+		hoveredBookPopupPlacement = 'above';
 	}
 
 	function getDisplayHeight(book) {
@@ -291,6 +300,10 @@
 
 	function getDisplayDepth(book) {
 		return Math.max(16, Math.round(book.thickness * 0.32));
+	}
+
+	function setDisplayMode(mode) {
+		displayMode = mode;
 	}
 
 	function getCoverImageProps(book) {
@@ -356,6 +369,10 @@
 		return Math.max(-1, Math.min(1, book.tilt * 0.3));
 	}
 
+	function getSpineTilt(book) {
+		return Math.max(-0.15, Math.min(0.15, book.tilt * 0.06));
+	}
+
 	function matchesBook(book, keywords) {
 		const haystack = [
 			book.title,
@@ -373,6 +390,25 @@
 
 	function getBookKey(book) {
 		return `${book.seriesId}/${book.storyId}`;
+	}
+
+	function getTableDescription(book) {
+		if (!book.description) return '';
+		if (book.description.length <= 120) return book.description;
+		return `${book.description.slice(0, 117).trimEnd()}...`;
+	}
+
+	function getTagPreview(book) {
+		return (book.tags || []).slice(0, 3);
+	}
+
+	function getCoverFallbackLabel(book) {
+		return book.title
+			.split(/\s+/)
+			.slice(0, 2)
+			.map((word) => word[0])
+			.join('')
+			.toUpperCase();
 	}
 
 	function getBackgroundPattern(patternId) {
@@ -580,6 +616,9 @@
 					Online kids stories for read-aloud time, bedtime, and independent readers, from silly
 					adventures to narrative history.
 				</p>
+				<div class="hero-links">
+					<a href="/characters" class="hero-link">Character Lab</a>
+				</div>
 			</div>
 		</header>
 
@@ -674,112 +713,194 @@
 
 			<div class="control-group control-group-search">
 				<label class="control-label" for="story-search">Search</label>
-				<input
-					id="story-search"
-					class="control-input"
-					type="search"
-					bind:value={searchQuery}
-					placeholder="Search titles, genres, tags, and descriptions"
-					autocomplete="off"
-				/>
+				<div class="control-search-row">
+					<input
+						id="story-search"
+						class="control-input"
+						type="search"
+						bind:value={searchQuery}
+						placeholder="Search titles, genres, tags, and descriptions"
+						autocomplete="off"
+					/>
+					<div class="view-toggle" role="tablist" aria-label="Choose story view">
+						<button
+							type="button"
+							class:active={displayMode === 'table'}
+							class="view-toggle-button"
+							role="tab"
+							aria-selected={displayMode === 'table'}
+							aria-controls="story-table-view"
+							onclick={() => setDisplayMode('table')}
+						>
+							Table
+						</button>
+						<button
+							type="button"
+							class:active={displayMode === 'spines'}
+							class="view-toggle-button"
+							role="tab"
+							aria-selected={displayMode === 'spines'}
+							aria-controls="story-spine-view"
+							onclick={() => setDisplayMode('spines')}
+						>
+							Spines
+						</button>
+					</div>
+				</div>
 			</div>
 		</section>
 
-		<!-- Bookshelf with Shelves -->
-		<div class="bookshelf-container">
-			{#each mainBookShelves as shelfBooks, shelfIndex}
-				<div class="shelf-row">
-					<div class="shelf-back-glow" aria-hidden="true"></div>
-
-					<!-- Wooden shelf -->
-					<div class="wooden-shelf">
-						<div class="shelf-surface"></div>
-						<div class="shelf-lip"></div>
-						<div class="shelf-bracket shelf-bracket-left"></div>
-						<div class="shelf-bracket shelf-bracket-right"></div>
-						<div class="shelf-shadow"></div>
+		{#if displayMode === 'table'}
+			<section class="story-table-shell" id="story-table-view" aria-label="Story table view">
+				<div class="story-table-header">
+					<div>
+						<h2>Browse the catalog</h2>
+						<p>{filteredBookList.length} stories ready to open.</p>
 					</div>
+				</div>
 
-					<!-- Books on this shelf -->
-					<div class="shelf-books {displayMode === 'spines' ? 'spines-mode' : 'covers-mode'}">
-						{#each shelfBooks as book (book.id)}
-							<div class="book-item">
-								{#if displayMode === 'spines' && hoveredBook === book.id}
-									<div class="book-info-popup">
-										<div class="popup-content">
-											<h4>{book.title}</h4>
-											<p class="popup-description">{book.description?.slice(0, 100)}...</p>
-											{#if book.hasAudio}
-												<span class="popup-tag">🎧 Audio</span>
-											{/if}
-										</div>
-										<div class="popup-arrow"></div>
-									</div>
-								{/if}
-
-								<button
-									class="book-card {displayMode}"
-									style="--book-color: {book.leatherColor}; --book-width: {displayMode === 'spines'
-										? getSpineWidth(book)
-										: getDisplayWidth(book)}px; --book-height: {getDisplayHeight(
-										book
-									)}px; --book-depth: {displayMode === 'spines'
-										? getDisplayWidth(book)
-										: getDisplayDepth(book)}px; --book-lean: {getDisplayTilt(
-										book
-									)}deg; --spine-font-size: {getSpineFontSize(
-										book
-									)}rem; --spine-letter-spacing: {getSpineLetterSpacing(book)}px;"
-									onclick={() => selectBook(book)}
-									onkeydown={(e) => handleKeyDown(e, book)}
-									onmouseenter={() => (hoveredBook = book.id)}
-									onmouseleave={() => (hoveredBook = null)}
-									aria-label="Select {book.title}"
-								>
-									<div class="book-3d-wrapper">
-										{#if displayMode === 'covers'}
-											<!-- Front cover (Covers Mode) -->
-											<div class="book-cover-front">
-												<div class="cover-texture">
-													<div class="cover-content {book.coverImage ? 'no-padding' : ''}">
-														<div class="cover-border">
-															<h3
-																class="book-title {book.id.length % 7 === 0 ? 'gold-embossed' : ''}"
-															>
-																{book.title}
-															</h3>
-															{#if book.coverImage}
-																{@const coverImageProps = getCoverImageProps(book)}
-																<div class="book-cover-image-container">
+				<div class="story-table-scroll">
+					<table class="story-table">
+						<thead>
+							<tr>
+								<th scope="col">Story</th>
+								<th scope="col">Series</th>
+								<th scope="col">Genre</th>
+								<th scope="col">Tags</th>
+								<th scope="col" class="table-action-heading">Open</th>
+							</tr>
+						</thead>
+						<tbody>
+							{#each filteredBookList as book (book.id)}
+								<tr>
+									<td>
+										<div class="story-cell">
+											<div
+												class="story-cover-preview"
+												style={`--cover-color: ${book.leatherColor};`}
+											>
+												<div class="story-mini-book">
+													<div class="story-mini-cover">
+														<div class="story-mini-cover-texture">
+															<div class="story-mini-cover-border">
+																{#if book.coverImage}
+																	{@const coverImageProps = getCoverImageProps(book)}
 																	<img
 																		src={coverImageProps?.src ?? book.coverImage}
 																		srcset={coverImageProps?.srcset}
-																		sizes={coverImageProps?.sizes}
-																		alt={book.title}
-																		class="book-cover-image"
-																		width={coverImageProps?.width}
-																		height={coverImageProps?.height}
+																		sizes="44px"
+																		alt=""
+																		class="story-cover-image"
+																		width="44"
+																		height="58"
 																		loading="lazy"
 																		decoding="async"
 																	/>
+																{:else}
+																	<div class="story-cover-fallback">
+																		<span>{getCoverFallbackLabel(book)}</span>
+																	</div>
+																{/if}
+																<div class="story-mini-title">
+																	{getSpineTitle(book)}
 																</div>
-															{/if}
+															</div>
 														</div>
 													</div>
+													<div class="story-mini-pages" aria-hidden="true"></div>
+													<div class="story-mini-spine" aria-hidden="true"></div>
 												</div>
-												<div class="cover-edge-right"></div>
-												<div class="cover-edge-bottom"></div>
 											</div>
-											<!-- Page edges -->
-											<div class="book-pages-top" aria-hidden="true"></div>
-											<div class="book-pages-right" aria-hidden="true"></div>
-											<div class="book-pages-bottom" aria-hidden="true"></div>
-											<!-- Spine -->
-											<div class="book-spine" aria-hidden="true"></div>
-											<!-- Back cover -->
-											<div class="book-back" aria-hidden="true"></div>
-										{:else}
-											<!-- Spine (Spines Mode) - Front facing -->
+											<div class="story-meta">
+												<div class="story-title-line">{book.title}</div>
+												<div class="story-subline">{getTableDescription(book)}</div>
+											</div>
+										</div>
+									</td>
+									<td>
+										<div class="series-chip">{book.seriesTitle}</div>
+									</td>
+									<td>
+										<div class="genre-copy">{book.genre}</div>
+									</td>
+									<td>
+										<div class="tag-list" aria-label={`Tags for ${book.title}`}>
+											{#each getTagPreview(book) as tag}
+												<span class="tag-pill">{tag}</span>
+											{/each}
+										</div>
+									</td>
+									<td class="table-action-cell">
+										<button type="button" class="read-book-button" onclick={() => selectBook(book)}>
+											Read book
+										</button>
+									</td>
+								</tr>
+							{/each}
+						</tbody>
+					</table>
+				</div>
+
+				{#if filteredBookList.length === 0}
+					<div class="empty-filter-state table-empty-state">
+						<p>No stories match that shelf yet.</p>
+					</div>
+				{/if}
+			</section>
+		{:else}
+			<!-- Bookshelf with Shelves -->
+			<div class="bookshelf-container" id="story-spine-view">
+				{#each mainBookShelves as shelfBooks, shelfIndex}
+					<div class="shelf-row">
+						<div class="shelf-back-glow" aria-hidden="true"></div>
+
+						<!-- Wooden shelf -->
+						<div class="wooden-shelf">
+							<div class="shelf-surface"></div>
+							<div class="shelf-lip"></div>
+							<div class="shelf-bracket shelf-bracket-left"></div>
+							<div class="shelf-bracket shelf-bracket-right"></div>
+							<div class="shelf-shadow"></div>
+						</div>
+
+						<!-- Books on this shelf -->
+						<div class="shelf-books spines-mode">
+							{#each shelfBooks as book (book.id)}
+								<div class="book-item">
+									{#if hoveredBook === book.id}
+										<div
+											class:below={hoveredBookPopupPlacement === 'below'}
+											class="book-info-popup"
+										>
+											<div class="popup-content">
+												<h4>{book.title}</h4>
+												<p class="popup-description">{book.description?.slice(0, 100)}...</p>
+												{#if book.hasAudio}
+													<span class="popup-tag">🎧 Audio</span>
+												{/if}
+											</div>
+											<div class="popup-arrow"></div>
+										</div>
+									{/if}
+
+									<button
+										class="book-card spines"
+										style="--book-color: {book.leatherColor}; --book-width: {getSpineWidth(
+											book
+										)}px; --book-height: {getDisplayHeight(book)}px; --book-depth: {getDisplayWidth(
+											book
+										)}px; --book-lean: {getSpineTilt(
+											book
+										)}deg; --spine-font-size: {getSpineFontSize(
+											book
+										)}rem; --spine-letter-spacing: {getSpineLetterSpacing(book)}px;"
+										onclick={() => selectBook(book)}
+										onkeydown={(e) => handleKeyDown(e, book)}
+										onmouseenter={(event) => updateHoveredBook(book, event)}
+										onmouseleave={clearHoveredBook}
+										aria-label="Select {book.title}"
+									>
+										<div class="book-3d-wrapper">
 											<div
 												class="spine-front-view"
 												style="background-color: var(--book-color); --band-offset: {book.bandOffset}%;"
@@ -800,30 +921,27 @@
 													{/if}
 												{/if}
 											</div>
-											<!-- Front cover (now on the right side) -->
 											<div class="book-cover-side-view">
 												<div class="cover-texture"></div>
 											</div>
-											<!-- Page edges (top and bottom) -->
 											<div class="book-pages-top" aria-hidden="true"></div>
 											<div class="book-pages-bottom" aria-hidden="true"></div>
-											<!-- The rest of the book pages are on the right -->
 											<div class="book-pages-right-view" aria-hidden="true"></div>
-										{/if}
-									</div>
-								</button>
-							</div>
-						{/each}
+										</div>
+									</button>
+								</div>
+							{/each}
+						</div>
 					</div>
-				</div>
-			{/each}
+				{/each}
 
-			{#if filteredBookList.length === 0}
-				<div class="empty-filter-state">
-					<p>No stories match that shelf yet.</p>
-				</div>
-			{/if}
-		</div>
+				{#if filteredBookList.length === 0}
+					<div class="empty-filter-state">
+						<p>No stories match that shelf yet.</p>
+					</div>
+				{/if}
+			</div>
+		{/if}
 	</div>
 </div>
 
@@ -912,24 +1030,60 @@
 	}
 
 	.hero-copy {
-		max-width: 44rem;
+		max-width: 42rem;
 		text-align: center;
 	}
 
 	.hero-copy h1 {
-		margin: 0 0 0.65rem;
-		font-size: clamp(1.9rem, 4vw, 3.1rem);
-		line-height: 0.95;
-		font-weight: 800;
-		letter-spacing: -0.04em;
+		margin: 0 0 0.8rem;
+		font-size: clamp(2.1rem, 4vw, 3.25rem);
+		line-height: 1.02;
+		font-weight: 700;
+		letter-spacing: -0.035em;
 		color: #fff8ef;
+		text-wrap: balance;
 	}
 
 	.hero-copy p {
 		margin: 0;
-		font-size: clamp(1rem, 1.4vw, 1.12rem);
-		line-height: 1.6;
-		color: rgba(255, 248, 237, 0.82);
+		max-width: 38rem;
+		font-size: clamp(1.02rem, 1.45vw, 1.14rem);
+		line-height: 1.68;
+		color: rgba(255, 248, 237, 0.78);
+		text-wrap: pretty;
+	}
+
+	.hero-links {
+		margin-top: 1.25rem;
+		display: flex;
+		justify-content: center;
+	}
+
+	.hero-link {
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		padding: 0.8rem 1.15rem;
+		border-radius: 999px;
+		border: 1px solid rgba(255, 248, 237, 0.16);
+		background: rgba(255, 248, 237, 0.08);
+		color: #fff8ef;
+		font-size: 0.78rem;
+		font-weight: 700;
+		letter-spacing: 0.18em;
+		text-transform: uppercase;
+		text-decoration: none;
+		backdrop-filter: blur(8px);
+		transition:
+			transform 0.2s ease,
+			background-color 0.2s ease,
+			border-color 0.2s ease;
+	}
+
+	.hero-link:hover {
+		transform: translateY(-1px);
+		background: rgba(255, 248, 237, 0.14);
+		border-color: rgba(255, 248, 237, 0.28);
 	}
 
 	.featured-shelf-section {
@@ -938,7 +1092,7 @@
 	}
 
 	.featured-copy {
-		margin-bottom: 0.75rem;
+		margin-bottom: 0.95rem;
 		padding: 0 0.75rem;
 		text-align: left;
 	}
@@ -954,20 +1108,22 @@
 
 	.featured-copy h2 {
 		margin: 0;
-		font-size: clamp(1.25rem, 2.3vw, 2rem);
-		font-weight: 700;
-		line-height: 1.05;
+		font-size: clamp(1.3rem, 2.2vw, 1.9rem);
+		font-weight: 650;
+		line-height: 1.08;
+		letter-spacing: -0.02em;
 		color: #fff8ef;
+		text-wrap: balance;
 	}
 
 	.bookshelf-controls {
 		display: grid;
 		grid-template-columns: minmax(12rem, 18rem) minmax(0, 1fr);
-		gap: 1rem;
+		gap: 1.1rem;
 		align-items: end;
 		width: 100%;
 		max-width: 1240px;
-		margin: 0 auto 2rem;
+		margin: 0 auto 2.25rem;
 		padding: 0 0.75rem;
 	}
 
@@ -981,25 +1137,31 @@
 		min-width: 0;
 	}
 
+	.control-search-row {
+		display: grid;
+		grid-template-columns: minmax(0, 1fr) auto;
+		gap: 0.9rem;
+		align-items: center;
+	}
+
 	.control-label {
-		font-size: 0.76rem;
-		font-weight: 700;
-		letter-spacing: 0.15em;
-		text-transform: uppercase;
+		font-size: 0.82rem;
+		font-weight: 600;
+		letter-spacing: 0.01em;
 		color: rgba(255, 241, 214, 0.72);
 	}
 
 	.control-select,
 	.control-input {
 		width: 100%;
-		height: 3.2rem;
+		height: 3.1rem;
 		padding: 0.85rem 1rem;
 		border-radius: 1rem;
-		border: 1px solid rgba(255, 248, 237, 0.14);
-		background: rgba(255, 248, 237, 0.08);
+		border: 1px solid rgba(255, 248, 237, 0.12);
+		background: rgba(255, 248, 237, 0.07);
 		color: #fff8ef;
-		font-size: 0.98rem;
-		font-weight: 600;
+		font-size: 1rem;
+		font-weight: 500;
 		backdrop-filter: blur(10px);
 		box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.04);
 		transition:
@@ -1029,16 +1191,372 @@
 		box-shadow: 0 0 0 4px rgba(255, 248, 237, 0.08);
 	}
 
+	.view-toggle {
+		display: inline-grid;
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+		padding: 0.22rem;
+		border: 1px solid rgba(255, 248, 237, 0.14);
+		border-radius: 1rem;
+		background: rgba(9, 18, 14, 0.42);
+		backdrop-filter: blur(14px);
+		box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.04);
+	}
+
+	.view-toggle-button {
+		min-width: 6rem;
+		height: 2.6rem;
+		padding: 0 1rem;
+		border: none;
+		border-radius: 0.8rem;
+		background: transparent;
+		color: rgba(255, 248, 237, 0.72);
+		font-size: 0.92rem;
+		font-weight: 600;
+		letter-spacing: 0.01em;
+		cursor: pointer;
+		transition:
+			background 0.2s ease,
+			color 0.2s ease,
+			transform 0.2s ease,
+			box-shadow 0.2s ease;
+	}
+
+	.view-toggle-button:hover {
+		color: #fff8ef;
+	}
+
+	.view-toggle-button.active {
+		background:
+			linear-gradient(180deg, rgba(161, 116, 54, 0.92), rgba(117, 72, 29, 0.96)),
+			rgba(117, 72, 29, 0.96);
+		color: #fff8ef;
+		box-shadow:
+			inset 0 1px 0 rgba(255, 240, 209, 0.35),
+			0 0.45rem 1rem rgba(46, 24, 8, 0.32);
+	}
+
+	.story-table-shell {
+		width: 100%;
+		max-width: 1240px;
+		margin: 0 auto;
+		padding: 0.35rem 0 0;
+	}
+
+	.story-table-header {
+		display: flex;
+		align-items: end;
+		justify-content: space-between;
+		gap: 1rem;
+		padding: 0 0.75rem 1.15rem;
+	}
+
+	.story-table-header h2 {
+		margin: 0;
+		font-size: clamp(1.2rem, 1.8vw, 1.55rem);
+		font-weight: 650;
+		letter-spacing: -0.02em;
+		color: #fff8ef;
+	}
+
+	.story-table-header p {
+		margin: 0.4rem 0 0;
+		color: rgba(255, 244, 224, 0.68);
+		font-size: 0.96rem;
+		line-height: 1.55;
+	}
+
+	.story-table-scroll {
+		overflow-x: auto;
+		padding: 0 0.75rem;
+	}
+
+	.story-table {
+		width: 100%;
+		min-width: 900px;
+		border-collapse: separate;
+		border-spacing: 0;
+		background: transparent;
+	}
+
+	.story-table thead th {
+		padding: 0.85rem 1.1rem 0.95rem;
+		text-align: left;
+		font-size: 0.84rem;
+		font-weight: 600;
+		letter-spacing: 0.01em;
+		white-space: nowrap;
+		color: rgba(255, 244, 224, 0.64);
+		border-bottom: 1px solid rgba(255, 248, 237, 0.12);
+	}
+
+	.story-table tbody tr {
+		transition:
+			background 0.2s ease,
+			transform 0.2s ease;
+	}
+
+	.story-table tbody tr:hover {
+		background: rgba(255, 248, 237, 0.035);
+	}
+
+	.story-table tbody td {
+		padding: 1rem 1.1rem 1.05rem;
+		vertical-align: middle;
+		border-bottom: 1px solid rgba(255, 248, 237, 0.08);
+	}
+
+	.story-table tbody tr:last-child td {
+		border-bottom: none;
+	}
+
+	.story-cell {
+		display: grid;
+		grid-template-columns: 2.75rem minmax(0, 1fr);
+		gap: 0.95rem;
+		align-items: start;
+	}
+
+	.story-cover-preview {
+		width: 2.75rem;
+		height: 3.65rem;
+		perspective: 800px;
+	}
+
+	.story-mini-book {
+		position: relative;
+		width: 100%;
+		height: 100%;
+		transform-style: preserve-3d;
+		transform: rotateY(-16deg) rotateX(6deg);
+		filter: drop-shadow(0 0.65rem 1rem rgba(0, 0, 0, 0.24));
+	}
+
+	.story-mini-cover {
+		position: absolute;
+		inset: 0;
+		border-radius: 0.38rem 0.5rem 0.5rem 0.38rem;
+		background: var(--cover-color);
+		transform: translateZ(2px);
+		overflow: hidden;
+		box-shadow:
+			inset 0 0 0 1px rgba(255, 255, 255, 0.08),
+			2px 0 5px rgba(0, 0, 0, 0.22);
+	}
+
+	.story-mini-cover-texture {
+		position: absolute;
+		inset: 0;
+		background-image: linear-gradient(
+			to right,
+			rgba(0, 0, 0, 0.12),
+			transparent 12%,
+			transparent 88%,
+			rgba(0, 0, 0, 0.08)
+		);
+	}
+
+	.story-mini-cover-border {
+		position: absolute;
+		inset: 0;
+		overflow: hidden;
+		background: radial-gradient(circle at center, transparent 32%, rgba(0, 0, 0, 0.34) 112%);
+	}
+
+	.story-mini-title {
+		position: absolute;
+		left: 0.32rem;
+		right: 0.32rem;
+		top: 0.36rem;
+		color: rgba(255, 248, 237, 0.94);
+		font-size: 0.4rem;
+		font-weight: 800;
+		line-height: 1.1;
+		text-align: center;
+		text-shadow: 0 1px 2px rgba(0, 0, 0, 0.8);
+		text-wrap: balance;
+		z-index: 2;
+	}
+
+	.story-mini-pages {
+		position: absolute;
+		top: 2px;
+		bottom: 2px;
+		right: -4px;
+		width: 0.38rem;
+		background:
+			linear-gradient(to right, rgba(0, 0, 0, 0.08), transparent 40%),
+			url('/optimized/paper-texture.webp');
+		background-size: cover;
+		transform: rotateY(-90deg);
+		transform-origin: right center;
+		border-radius: 0 0.16rem 0.16rem 0;
+	}
+
+	.story-mini-spine {
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		width: 0.32rem;
+		background:
+			linear-gradient(
+				to right,
+				rgba(0, 0, 0, 0.18),
+				transparent 30%,
+				transparent 70%,
+				rgba(0, 0, 0, 0.2)
+			),
+			url('/optimized/leather-texture.webp'), var(--cover-color);
+		background-size: cover;
+		transform: rotateY(90deg);
+		transform-origin: left center;
+	}
+
+	.story-cover-image,
+	.story-cover-fallback {
+		width: 100%;
+		height: 100%;
+		display: block;
+	}
+
+	.story-cover-image {
+		object-fit: cover;
+		opacity: 0.82;
+		mix-blend-mode: multiply;
+		filter: contrast(1.08) saturate(0.92) brightness(0.9);
+	}
+
+	.story-cover-fallback {
+		position: relative;
+		background:
+			linear-gradient(
+				90deg,
+				rgba(0, 0, 0, 0.22),
+				transparent 18%,
+				transparent 82%,
+				rgba(0, 0, 0, 0.18)
+			),
+			url('/optimized/leather-texture.webp');
+		background-size: cover;
+	}
+
+	.story-cover-fallback::before {
+		content: '';
+		position: absolute;
+		inset: 0;
+		background: linear-gradient(180deg, rgba(255, 255, 255, 0.08), rgba(0, 0, 0, 0.2));
+	}
+
+	.story-cover-fallback span {
+		position: absolute;
+		inset: 0;
+		display: grid;
+		place-items: center;
+		color: rgba(255, 248, 237, 0.88);
+		font-size: 0.64rem;
+		font-weight: 800;
+		letter-spacing: 0.08em;
+		text-transform: uppercase;
+		z-index: 1;
+	}
+
+	.story-meta {
+		min-width: 0;
+	}
+
+	.story-title-line {
+		color: #fff8ef;
+		font-size: 1rem;
+		font-weight: 650;
+		line-height: 1.3;
+		letter-spacing: -0.01em;
+	}
+
+	.story-subline {
+		margin-top: 0.3rem;
+		max-width: 48ch;
+		color: rgba(255, 244, 224, 0.62);
+		font-size: 0.92rem;
+		line-height: 1.52;
+	}
+
+	.series-chip,
+	.tag-pill {
+		display: inline-flex;
+		align-items: center;
+		border-radius: 999px;
+	}
+
+	.series-chip {
+		padding: 0.42rem 0.78rem;
+		background: rgba(31, 58, 41, 0.68);
+		border: 1px solid rgba(129, 168, 143, 0.16);
+		color: #ddefdf;
+		font-size: 0.85rem;
+		font-weight: 600;
+	}
+
+	.genre-copy {
+		color: rgba(255, 248, 237, 0.86);
+		font-size: 0.94rem;
+		font-weight: 500;
+	}
+
+	.tag-list {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0.45rem;
+	}
+
+	.tag-pill {
+		padding: 0.34rem 0.62rem;
+		background: rgba(255, 248, 237, 0.06);
+		border: 1px solid rgba(255, 248, 237, 0.08);
+		color: rgba(255, 244, 224, 0.82);
+		font-size: 0.8rem;
+		font-weight: 500;
+	}
+
+	.table-action-heading,
+	.table-action-cell {
+		text-align: right;
+	}
+
+	.read-book-button {
+		height: 2.55rem;
+		padding: 0 0.95rem;
+		border: 1px solid rgba(255, 231, 177, 0.18);
+		border-radius: 0.85rem;
+		background:
+			linear-gradient(180deg, rgba(156, 112, 53, 0.94), rgba(117, 72, 29, 0.98)),
+			rgba(117, 72, 29, 0.98);
+		color: #fff8ef;
+		font-size: 0.88rem;
+		font-weight: 600;
+		white-space: nowrap;
+		cursor: pointer;
+		box-shadow:
+			inset 0 1px 0 rgba(255, 240, 209, 0.3),
+			0 0.7rem 1.2rem rgba(45, 26, 10, 0.22);
+		transition:
+			transform 0.2s ease,
+			box-shadow 0.2s ease,
+			filter 0.2s ease;
+	}
+
+	.read-book-button:hover {
+		transform: translateY(-1px);
+		filter: brightness(1.05);
+		box-shadow:
+			inset 0 1px 0 rgba(255, 240, 209, 0.34),
+			0 0.9rem 1.5rem rgba(45, 26, 10, 0.28);
+	}
+
 	.bookshelf-container {
 		width: 100%;
 		max-width: 1240px;
 		margin: 0 auto;
 		padding: 0.75rem 0 0;
-	}
-
-	.bookshelf-container > .shelf-row {
-		content-visibility: auto;
-		contain-intrinsic-size: 24rem;
 	}
 
 	.empty-filter-state {
@@ -1050,6 +1568,10 @@
 		background: rgba(255, 246, 233, 0.88);
 		color: #6b3f1b;
 		box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.14);
+	}
+
+	.table-empty-state {
+		margin-top: 1rem;
 	}
 
 	.shelf-row {
@@ -1260,6 +1782,7 @@
 		left: 50%;
 		transform: translateX(-50%) translateY(-20px);
 		width: 240px;
+		max-width: min(240px, calc(100vw - 24px));
 		background: rgba(255, 255, 255, 0.95);
 		backdrop-filter: blur(10px);
 		border-radius: 12px;
@@ -1270,6 +1793,12 @@
 		z-index: 2000;
 		pointer-events: none;
 		animation: popupFadeIn 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+	}
+
+	.book-info-popup.below {
+		bottom: auto;
+		top: 100%;
+		transform: translateX(-50%) translateY(16px);
 	}
 
 	:global(.dark) .book-info-popup {
@@ -1291,8 +1820,9 @@
 
 	.popup-content h4 {
 		margin: 0 0 8px 0;
-		font-size: 1.1rem;
-		font-weight: 700;
+		font-size: 1.05rem;
+		font-weight: 650;
+		line-height: 1.2;
 		color: #1a1a1a;
 	}
 
@@ -1302,8 +1832,8 @@
 
 	.popup-description {
 		margin: 0;
-		font-size: 0.85rem;
-		line-height: 1.4;
+		font-size: 0.92rem;
+		line-height: 1.5;
 		color: #4b5563;
 		opacity: 0.9;
 	}
@@ -1315,9 +1845,8 @@
 	.popup-tag {
 		display: inline-block;
 		margin-top: 10px;
-		font-size: 0.75rem;
-		font-weight: bold;
-		text-transform: uppercase;
+		font-size: 0.8rem;
+		font-weight: 600;
 		color: #2563eb;
 	}
 
@@ -1333,8 +1862,19 @@
 		border-top: 10px solid rgba(255, 255, 255, 0.95);
 	}
 
+	.book-info-popup.below .popup-arrow {
+		top: auto;
+		bottom: 100%;
+		border-top: none;
+		border-bottom: 10px solid rgba(255, 255, 255, 0.95);
+	}
+
 	:global(.dark) .popup-arrow {
 		border-top-color: rgba(30, 41, 59, 0.9);
+	}
+
+	:global(.dark) .book-info-popup.below .popup-arrow {
+		border-bottom-color: rgba(30, 41, 59, 0.9);
 	}
 
 	.covers-mode {
@@ -1347,6 +1887,10 @@
 
 	.book-card.spines .book-3d-wrapper {
 		transform: rotateY(0deg) rotateX(0deg);
+	}
+
+	.book-card.spines {
+		transform: translateY(0) rotateZ(var(--book-lean));
 	}
 
 	/* Hide white page edges in spine mode — they peek through as white lines */
@@ -1387,10 +1931,6 @@
 		z-index: 20;
 	}
 
-	.book-card.selected {
-		z-index: 30;
-	}
-
 	.book-3d-wrapper {
 		width: 100%;
 		height: 100%;
@@ -1404,10 +1944,6 @@
 	.book-card:hover .book-3d-wrapper {
 		/* 'Grabbed' look: scaled up, lifted, and rotated to show more side/bottom */
 		transform: translateY(-20px) scale(1.12) rotateY(-28deg) rotateX(10deg);
-	}
-
-	.book-card.selected .book-3d-wrapper {
-		transform: translateY(-2rem) rotateY(-25deg) scale(1.1);
 	}
 
 	.book-cover-front {
@@ -1910,6 +2446,26 @@
 			padding: 0 0.35rem;
 		}
 
+		.control-search-row {
+			grid-template-columns: 1fr;
+		}
+
+		.view-toggle {
+			width: 100%;
+		}
+
+		.view-toggle-button {
+			min-width: 0;
+		}
+
+		.story-table-header {
+			padding: 0 0.35rem 0.9rem;
+		}
+
+		.story-table-scroll {
+			padding: 0 0.35rem;
+		}
+
 		.shelf-books {
 			height: 14rem;
 			width: min(46rem, calc(100% - 1.4rem));
@@ -1969,6 +2525,28 @@
 		.bookshelf-controls {
 			margin-bottom: 1.5rem;
 			padding: 0;
+		}
+
+		.story-table thead th,
+		.story-table tbody td {
+			padding: 0.85rem 0.8rem;
+		}
+
+		.story-cell {
+			grid-template-columns: 2.35rem minmax(0, 1fr);
+			gap: 0.7rem;
+		}
+
+		.story-cover-preview {
+			width: 2.35rem;
+			height: 3.1rem;
+		}
+
+		.story-mini-title {
+			left: 0.24rem;
+			right: 0.24rem;
+			top: 0.28rem;
+			font-size: 0.34rem;
 		}
 
 		.shelf-row {

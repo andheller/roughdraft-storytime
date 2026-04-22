@@ -1,5 +1,14 @@
 # Chapter 4: The Sundae Emergency
 
+<div class="story-illustration-wrap">
+  <img
+    src="/story-art/silly-squirrels/the-silly-squirrels-ice-cream-catapult/chapter-4.png"
+    alt="A falling cone drops into the birthday pudding while Hazel Rabbit cheers and everyone realizes the mistake is delicious."
+    class="story-illustration"
+    loading="lazy"
+  />
+</div>
+
 All across Nutville Park, chaos developed in dessert form.
 
 Mama sprinted toward the birthday table.

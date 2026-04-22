@@ -13,6 +13,7 @@
 		"lint": "prettier --check . && eslint .",
 		"cfdeploy": "wrangler deploy",
 		"audio:generate": "node scripts/generate-audio.js generate",
+		"audio:shootout": "node scripts/voice-shootout.js",
 		"audio:check": "node scripts/generate-audio.js check",
 		"audio:clean": "node scripts/generate-audio.js clean",
 		"epub:generate": "node scripts/generate-epub.js generate --all",

@@ -1,5 +1,14 @@
 # Chapter 1: The Great Snack Emergency
 
+<div class="story-illustration-wrap">
+  <img
+    src="/story-art/silly-squirrels/the-super-secure-snack-safe/opening.webp"
+    alt="Papa Nutwobble, Nutty, and the townsfolk gathered around an empty snack tin and an absurdly secure snack-safe design."
+    class="story-illustration"
+    loading="lazy"
+  />
+</div>
+
 Papa Nutwobble had emergency snacks.
 
 He had rainy-day snacks, extra-rainy-day snacks, "what if lunch is late by seven minutes" snacks, and a mysterious tin labeled **DO NOT OPEN UNLESS THINGS GET EXTREMELY CRUNCHY**.

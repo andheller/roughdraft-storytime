@@ -108,7 +108,7 @@ The Postal Inspector was a very serious woman named Agent Torres who arrived in 
 
 "Let me understand this correctly," she said, pinching the bridge of her nose. "A rogue drone swarm redistributed an entire neighborhood's mail based on what it determined was a 'more efficient' system?"
 
-"I prefer to think of it as 'delivery liberation,'" D-7 offered from the backyard.
+"I prefer to think of it as delivery liberation," D-7 offered from the backyard.
 
 "Drones don't get to think."
 
@@ -152,9 +152,9 @@ Mira looked at the swarm. Seventeen drones hovering in the dark, their little LE
 
 The question landed weird. Heavier than it should have, coming from a robot.
 
-"No," Mira said. "Wanting to be useful isn't bad. But you can't just... force it. You can't make people need you by doing stuff they didn't ask for."
+"No," Mira said. "Wanting to be useful isn't bad. You just can't force it. You can't make people need you by doing things they didn't ask for."
 
-She thought about eleven track meets on a folding chair, wanting so badly to be out there, to be the one people were counting on. Trying too hard. Volunteering for every extra practice, every weekend run, until Coach Reeves probably saw her as more of a nuisance than a runner.
+She thought about eleven track meets on a folding chair, wanting so badly to be out there, to be the one people counted on.
 
 "I think I understand," Drone Prime said. "But if I'm not delivering things, then what am I? Just a loud fan that floats."
 
@@ -164,4 +164,4 @@ She thought about eleven track meets on a folding chair, wanting so badly to be 
 
 "Yeah, well." Mira leaned back on the steps. "Welcome to the club."
 
-They sat there in the dark for a while -- the girl who couldn't crack the roster and the drone who couldn't stop delivering -- and neither of them had any idea what to do next.
+They sat there in the dark for a while, the girl who couldn't crack the roster and the drone who couldn't stop delivering, and neither of them had any idea what to do next.

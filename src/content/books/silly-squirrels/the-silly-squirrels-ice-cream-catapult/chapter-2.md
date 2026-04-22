@@ -1,5 +1,14 @@
 # Chapter 2: Scoops at High Speed
 
+<div class="story-illustration-wrap">
+  <img
+    src="/story-art/silly-squirrels/the-silly-squirrels-ice-cream-catapult/chapter-2.png"
+    alt="Nutty and Mama launch the first ice cream cone through the park while Chilly Milly and the waiting customers cheer."
+    class="story-illustration"
+    loading="lazy"
+  />
+</div>
+
 The Ice Cream Catapult was built beside the bandstand in under an hour, which was exactly as reassuring as it sounds.
 
 Nutty used:

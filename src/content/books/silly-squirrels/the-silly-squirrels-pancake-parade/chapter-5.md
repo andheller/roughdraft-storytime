@@ -1,5 +1,14 @@
 # Chapter 5: A Parade Worth Remembering
 
+<div class="story-illustration-wrap">
+  <img
+    src="/story-art/silly-squirrels/the-silly-squirrels-pancake-parade/chapter-5.png"
+    alt="Nutville celebrates around the pancake float after the parade in the golden evening light."
+    class="story-illustration"
+    loading="lazy"
+  />
+</div>
+
 At the end of the parade, the judges gathered beneath the town clock to hand out ribbons.
 
 There was a ribbon for Best Music.

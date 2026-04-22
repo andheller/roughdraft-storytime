@@ -1,5 +1,14 @@
 # Chapter 4: The Midnight Cruncher
 
+<div class="story-illustration-wrap">
+  <img
+    src="/story-art/silly-squirrels/the-super-secure-snack-safe/chapter-4.png"
+    alt="Sleeping Papa receives a secret stream of crackers and cookies from the snack safe's conveyor belt."
+    class="story-illustration"
+    loading="lazy"
+  />
+</div>
+
 Nobody had known there was a snack conveyor inside the safe.
 
 Including Nutty.

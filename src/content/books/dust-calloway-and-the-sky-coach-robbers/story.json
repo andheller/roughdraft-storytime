@@ -1,0 +1,36 @@
+{
+  "id": "dust-calloway-and-the-sky-coach-robbers",
+  "title": "Dust Calloway and the Sky Coach Robbers",
+  "author": "Roughdraft Stories",
+  "description": "When a floating stagecoach starts raining stolen gold over Cinder Flats, Marshal Juniper \"Dust\" Calloway has to outwit a flying outlaw, stop a dynamite escape, and ride straight into a green storm.",
+  "ageRange": "8-12",
+  "genre": "Adventure",
+  "tags": ["wild west", "adventure", "outlaws", "storm", "flying machine", "marshal"],
+  "chapters": [
+    {
+      "id": 1,
+      "title": "The Woman Who Rode Into Trouble",
+      "file": "chapter-1.md"
+    },
+    {
+      "id": 2,
+      "title": "Gold From the Sky",
+      "file": "chapter-2.md"
+    },
+    {
+      "id": 3,
+      "title": "Blackjack Varn's Trick",
+      "file": "chapter-3.md"
+    },
+    {
+      "id": 4,
+      "title": "The Green Storm",
+      "file": "chapter-4.md"
+    },
+    {
+      "id": 5,
+      "title": "The Map on the Cactus",
+      "file": "chapter-5.md"
+    }
+  ]
+}

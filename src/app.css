@@ -2,6 +2,11 @@
 @plugin '@tailwindcss/typography';
 @custom-variant dark (&:where(.dark, .dark *));
 
+@theme {
+	--font-sans: "InterVariable", system-ui, sans-serif;
+	--font-sans--font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+}
+
 :root {
 	--font-family: 'Lora', Georgia, serif;
 }

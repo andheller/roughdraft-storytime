@@ -1,5 +1,14 @@
 # Chapter 3: Sunny Here, Snowy There
 
+<div class="story-illustration-wrap">
+  <img
+    src="/story-art/silly-squirrels/the-silly-squirrels-weather-wobble-machine/chapter-3.png"
+    alt="Mama races through the mixed weather zones while a tiny rain cloud follows her across the picnic field."
+    class="story-illustration"
+    loading="lazy"
+  />
+</div>
+
 By afternoon, Nutville was divided into seven weather zones.
 
 The pie table had become tropical.

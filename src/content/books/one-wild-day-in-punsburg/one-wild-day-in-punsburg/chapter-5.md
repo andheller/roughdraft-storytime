@@ -72,27 +72,27 @@ The crowd was bigger than any of them had expected. Word had spread fast. Everyo
 
 Doris the aquarium guide carried Maurice's portable tank through the crowd and set it on a bench at the water's edge. Maurice pressed against the glass, staring at the island.
 
-His memory was ALMOST there. ALMOST---
+His memory was almost there. Almost.
 
 The sun touched the horizon. The light turned gold, then orange, then pink.
 
-And then something happened that nobody had planned.
+Then something happened that nobody had planned.
 
-A man in glowing armor walked to the edge of the pond. Sir Lumen---the nightlight repairman from Third Street---had come too. He'd seen the broadcast. He'd felt the pull.
+A man in glowing armor walked to the edge of the pond. Sir Lumen, the nightlight repairman from Third Street, had come too. He had seen the broadcast and followed the crowd.
 
 "LET THERE BE LIGHT!" he announced, raising his arms.
 
-And his glow---soft and warm, like the world's most dedicated nightlight---reflected off the water. It hit the island. The tree lit up like it was covered in lanterns.
+His glow, soft and warm like a determined nightlight, reflected off the water. It struck the island. The tree lit up as if lanterns had been hung in every branch.
 
 Just like it had 177 years ago.
 
-And Maurice REMEMBERED.
+And Maurice remembered.
 
 ---
 
 His shell clicked frantically. Doris translated, shouting over the crowd:
 
-"HE REMEMBERS! Maurice remembers!"
+"He remembers! Maurice remembers!"
 
 Everyone went quiet.
 
@@ -100,17 +100,17 @@ Everyone went quiet.
 
 The crowd murmured.
 
-"That island is where the town began. Every year, on this date, the founders celebrated the anniversary with lanterns and music and stories. But over time, people forgot. The tradition faded. The island became just... an island."
+"That island is where the town began. Every year, on this date, the founders celebrated with lanterns and music and stories. Over time, people forgot. The island became just an island again."
 
 Maurice clicked again.
 
-"He says he was there. At the very first celebration. He was just a baby mussel then, in a settler's bucket of drinking water. He watched the whole thing. And when Sir Lumen's light hit the island just now, it looked exactly like those original lanterns. That's what brought the memory back."
+"He says he was there. At the very first celebration. He was just a baby mussel then, in a settler's bucket of drinking water. When Sir Lumen's light hit the island, it looked exactly like those original lanterns. That's what brought the memory back."
 
 Silence.
 
 Then someone in the crowd said: "So today is Punsburg's birthday?"
 
-"That's right," said Doris. "And Maurice is the only one who remembered---even though he forgot he remembered."
+"That's right," said Doris. "And Maurice is the only one who remembered, even though he forgot for a while."
 
 ---
 
@@ -124,27 +124,23 @@ Grandma Martinez sat down on a bench. "I brought cookies. Who wants cookies?"
 
 Sir Lumen raised his arm higher, and his glow intensified. The island lit up like a stage.
 
-And just like that---without anyone planning it---the party started.
+And just like that, without anyone planning it, the party started.
 
 ---
 
 The sun set. The stars came out. The island glowed.
 
-Emma let her flies loose, and they buzzed around the pond, flickering in playful patterns---not stopping time, just adding to the show. Punsburg had already had enough time trouble for one day.
+Emma let her flies loose, and they buzzed around the pond in playful patterns, not stopping time, just adding to the show. Punsburg had already had enough time trouble for one day.
 
 Maurice floated contentedly in his tank, clicking softly. He'd finally remembered. The weight of 177 years lifted off his tiny mussel shoulders.
 
 Alejandro the Alpaca was eating grass near the pond and pretending he wasn't enjoying himself. His suitcase sat unopened beside him.
 
-Sofia shared her grandma's cookies with everyone---even Alejandro. Buster got extra pets from strangers. The bran flakes were forgiven. Mostly.
+Sofia shared her grandma's cookies with everyone, even Alejandro. Buster got extra pets from strangers. The bran flakes were forgiven. Mostly.
 
 Patty and Chuck reported live from the scene. Timothy filmed everything.
 
-"One chaotic Saturday," Patty said into the camera. "A girl and her time flies accidentally skip the town to noon. The early parade traps a runaway alpaca, whose suitcase takes out the cereal truck. A cereal detective follows the trail to our broadcast. We tell the town about Maurice. And Maurice---with a little help from the glowing knight---remembers where Punsburg began."
-
-She paused.
-
-"Five weird stories. One chain of dominoes. All leading to the same island at sunset."
+"One chaotic Saturday," Patty said into the camera. "A girl and her time flies skip the town to noon. The early parade traps a runaway alpaca, whose suitcase takes out the cereal truck. A cereal detective follows the trail to our broadcast. We tell the town about Maurice. And Maurice, with a little help from a glowing knight, remembers where Punsburg began."
 
 "Happy birthday, Punsburg," Chuck added.
 
@@ -154,15 +150,13 @@ The party went late. By the time people started heading home, the moon was high 
 
 Maurice was the last to leave. Doris carried his tank slowly, letting him take one final look.
 
-*I won't forget this time*, he thought. *I'll remember this for another 177 years.*
+*I won't forget this time*, he thought.
 
 Across the pond, Alejandro picked up his suitcase.
 
 "I'm leaving tomorrow," he said. But he was smiling now.
 
-Maybe next year, he'd be back.
-
-Maybe they all would.
+Maybe next year he'd be back.
 
 ---
 

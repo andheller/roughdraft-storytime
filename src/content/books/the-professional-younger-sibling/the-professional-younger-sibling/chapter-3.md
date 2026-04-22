@@ -6,7 +6,7 @@ My plan was simple: I would be so helpful and so impressive that everyone would 
 
 Step one: help Alex cook dinner.
 
-Alex was making spaghetti, which is Alex's specialty because Alex follows recipes the way other people follow laws -- exactly, carefully, and with no exceptions. I came into the kitchen and said, "I'm here to help."
+Alex was making spaghetti, which is Alex's specialty because Alex follows recipes the way some people follow laws, exactly and with no exceptions. I came into the kitchen and said, "I'm here to help."
 
 Alex looked nervous. "Help how?"
 
@@ -20,13 +20,13 @@ I stirred the sauce for about thirty seconds before I decided it needed more gar
 
 "I improved it."
 
-"You don't improve someone else's sauce! That's -- that's sauce sabotage!"
+"You don't improve someone else's sauce! That's sauce sabotage!"
 
 Alex made me leave the kitchen. Step one: failure.
 
 Step two: help Sam with her homework.
 
-Sam was doing math at the dining table. Sam does homework like she does everything -- quietly, efficiently, and with zero interest in company. I sat down next to her.
+Sam was doing math at the dining table. She does homework the same way she does everything else, quietly, efficiently, and with zero interest in company. I sat down next to her.
 
 "Need any help?"
 
@@ -68,14 +68,14 @@ Mom came outside, saw the porch, and used everyone's full names. "Jordan. Riley.
 
 Step three: spectacular failure.
 
-I sat on my bed that night with paste still in my hair and thought about something uncomfortable. Every time I'd tried to help today, I'd made things worse. Not because I was trying to make things worse, but because I hadn't actually thought about what each person needed. I'd just barged in and done whatever I wanted.
+I sat on my bed that night with paste still in my hair and thought about something uncomfortable. Every time I'd tried to help, I'd made things worse. Not on purpose. I just hadn't stopped to think about what anybody needed.
 
 Alex needed someone who would follow instructions. Sam needed someone who would respect her space. Jordan needed someone who would be careful, because Jordan was already chaotic enough for two people.
 
-I'd spent seven years watching my siblings, figuring out how to get things from them. I knew Alex was a rule-follower. I knew Sam needed quiet. I knew Jordan was enthusiastic but messy. I knew all of that. I'd just never used it to actually help them before. Only to get out of chores and score extra dessert.
+I'd spent seven years watching my siblings and learning how to get things from them. I knew Alex liked rules. I knew Sam needed quiet. I knew Jordan was enthusiastic enough for three people. I just hadn't used any of that to help.
 
 For the first time, I wondered if maybe my professional skills weren't as impressive as I thought they were.
 
-That was a hard thought to think, so I stopped thinking it and went to wash the paste out of my hair instead.
+It was an unpleasant thought, so I tried to stop having it and went to wash paste out of my hair.
 
-But it came back later, when I was lying in the dark trying to sleep. The thought, I mean. Not the paste.
+It came back anyway.

@@ -1,5 +1,14 @@
 # Chapter 5: Cones for Everyone, Carefully
 
+<div class="story-illustration-wrap">
+  <img
+    src="/story-art/silly-squirrels/the-silly-squirrels-ice-cream-catapult/chapter-5.png"
+    alt="The improved ice cream catapult sends one final careful cone across the park in the warm evening light."
+    class="story-illustration"
+    loading="lazy"
+  />
+</div>
+
 By evening the line at Chilly Milly's cart was gone.
 
 In its place stood a cheerful semicircle of customers, a shaded waiting area, three official catchers, and one slightly sticky machine that had learned some manners.

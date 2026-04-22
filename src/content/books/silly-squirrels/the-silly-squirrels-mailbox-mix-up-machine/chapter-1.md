@@ -1,41 +1,44 @@
 # Chapter 1: Too Much Mail
 
-Tony the Delivery Fox had a problem with letters.
+Tony the Delivery Fox had too much mail.
 
-Too many letters.
-Too many packages.
-Too many postcards from Aunties at the beach saying things like **WE SAW A VERY ROUND SEASHELL AND THOUGHT OF YOU**.
+Not a little too much. Not "oh, I'll make two trips" too much. The kind of too much where your cart is stacked so high with envelopes that you have to peek around them sideways just to see if the road is still there.
 
-By Tuesday morning, his cart was stacked so high with envelopes that he had to peek around them sideways to see where the road went.
+Which it was. Tony checked.
+
+Letters. Packages. Postcards from aunties at the beach saying things like **WE SAW A VERY ROUND SEASHELL AND THOUGHT OF YOU**, which is the kind of thing aunties say when they have stamps and nothing to do.
+
+By Tuesday morning, Tony had been delivering since sunrise and the pile was somehow bigger than when he started.
 
 "I am ninety percent correspondence," Tony moaned.
 
-Nutty watched him wobble past the oak tree and felt his notebook twitch in his pocket.
-A town problem. A moving cart. Paper everywhere. This had machine potential.
+Nutty watched him wobble past the oak tree. He felt his notebook twitch in his pocket, which is a thing that happens when Nutty sees a problem shaped like a machine.
 
-At the post office, the sorting room was even worse.
-Piles of letters covered the tables.
-Bundles of magazines leaned against the wall.
-One package labeled **FRAGILE BELL PARTS** was somehow sitting under a melon.
+Most problems are not shaped like machines. But Nutty hasn't figured that out yet.
 
-Tony dropped his bag on the counter. "I need help. Or eight arms."
+The sorting room at the post office was even worse. Letters covered every table. Bundles of magazines leaned against the wall like tired relatives. A package labeled **FRAGILE BELL PARTS** was somehow under a melon. Nobody knew whose melon it was. Nobody asked.
 
-Nutty opened the notebook.
-"You need a sorting machine."
+Tony dropped his bag on the counter. "I need help. Or eight arms. Or just — more paws."
+
+Nutty opened his notebook. "You need a sorting machine."
+
+Tony had said "help." Nutty heard "machine." These are not the same thing, but Nutty's notebook was already open.
 
 Tony stared at him. "Would the machine know where everyone lives?"
 
-Nutty paused.
+Nutty paused. This was the kind of pause that means the answer is not going to be great.
+
 "Eventually."
 
-Grandma Nutwobble, who had come to mail a gardening catalog and leave quietly, turned around at once. "That answer is already bad."
+Grandma Nutwobble, who had come in to mail a gardening catalog and leave quietly, turned around at once.
 
-But Tony was desperate. The town fair was coming. Invitations were piling up. Bills were hiding under postcards. Birthday cards were late enough to become apology cards.
+"That answer is already bad."
 
-A machine that could sort faster sounded wonderful.
-Even if it sounded a little terrible too.
+But Tony was desperate. The town fair was coming. Invitations were piling up. Bills were hiding under postcards. Birthday cards were sitting around getting old enough to feel hurt about it.
 
-By noon, Nutty had drafted plans for a towering series of rollers, slots, chutes, and flipping paddles that would send mail into labeled baskets by neighborhood.
+A machine that sorted faster sounded wonderful. Even if it also sounded a little dangerous. Those two things go together more often than you'd think.
+
+By noon, Nutty had drafted plans for a tower of rollers, slots, chutes, and flippy paddles that would send mail into baskets by neighborhood.
 
 Papa looked over his shoulder. "Why does one tube say MAYBE IMPORTANT?"
 
@@ -45,7 +48,8 @@ Papa looked over his shoulder. "Why does one tube say MAYBE IMPORTANT?"
 
 Mama grinned. "Can it go fast?"
 
-"It can go extremely mail-fast," said Nutty.
+"Extremely mail-fast," said Nutty.
 
-Nobody knew exactly what that meant.
-They were all about to find out.
+Nobody knew what that meant. Nutty probably didn't either, but he said it with his chin up, which is how you make things sound official.
+
+They found out the next morning.

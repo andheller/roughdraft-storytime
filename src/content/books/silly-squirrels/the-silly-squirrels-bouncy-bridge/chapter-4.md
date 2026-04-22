@@ -1,5 +1,14 @@
 # Chapter 4: The Great Basket Rescue
 
+<div class="story-illustration-wrap">
+  <img
+    src="/story-art/silly-squirrels/the-silly-squirrels-bouncy-bridge/chapter-4.png"
+    alt="Mama and Tony try the counter-bounce plan across the bridge while Papa balances in the middle and Grandma controls the rescue rope."
+    class="story-illustration"
+    loading="lazy"
+  />
+</div>
+
 The basket emergency reached its worst point at noon.
 
 A delivery line had formed on one side of the creek.

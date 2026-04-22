@@ -1,5 +1,14 @@
 # Chapter 2: Maximum Security, Minimum Snacking
 
+<div class="story-illustration-wrap">
+  <img
+    src="/story-art/silly-squirrels/the-super-secure-snack-safe/chapter-2.png"
+    alt="The Super Secure Snack Safe fills the workshop with locks, bells, flashing lights, and spaghetti lasers."
+    class="story-illustration"
+    loading="lazy"
+  />
+</div>
+
 By the next afternoon, the Super Secure Snack Safe had stopped looking like a sturdy metal box and started looking like a nervous octopus made of locks.
 
 Wires stuck out of the sides.

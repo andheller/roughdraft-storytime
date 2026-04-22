@@ -1,0 +1,39 @@
+{
+  "label": "library-book-rocket-snippet",
+  "generatedAt": "2026-04-22T00:30:26.185Z",
+  "model": "eleven_multilingual_v2",
+  "output_format": "mp3_44100_128",
+  "voice_settings": {
+    "stability": 0.5,
+    "similarity_boost": 0.75,
+    "style": 0,
+    "use_speaker_boost": true
+  },
+  "text": "The Nutville Library had a problem with returns.\nNot ordinary returns.\nNot one-book-under-the-couch returns.\nAn avalanche of overdue books.\nMiss Maple, the librarian, had sent reminder notes to the whole town.\nSome books were under beds.\nSome were in wagons.\nOne cookbook had somehow been borrowed by the goose.",
+  "voices": [
+    {
+      "name": "Amelia",
+      "voice_id": "3CDfug1pbx1pBSfHIkPR",
+      "notes": "Warm, clear British narrative voice",
+      "filename": "amelia.mp3"
+    },
+    {
+      "name": "Emma Taylor",
+      "voice_id": "S9EGwlCtMF7VXtENq79v",
+      "notes": "Gentle, softer British storyteller",
+      "filename": "emma-taylor.mp3"
+    },
+    {
+      "name": "Johnny Kid",
+      "voice_id": "8JVbfL6oEdmuxKn5DK2C",
+      "notes": "Calm young British male narrator",
+      "filename": "johnny-kid.mp3"
+    },
+    {
+      "name": "Nathaniel",
+      "voice_id": "eIYyt1GDV2CYz5Ccyam2",
+      "notes": "Measured deeper British male narrator",
+      "filename": "nathaniel.mp3"
+    }
+  ]
+}

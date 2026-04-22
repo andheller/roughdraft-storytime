@@ -1,5 +1,14 @@
 # Chapter 3: Crossing with Extra Boing
 
+<div class="story-illustration-wrap">
+  <img
+    src="/story-art/silly-squirrels/the-silly-squirrels-bouncy-bridge/chapter-3.png"
+    alt="Tony's loaded cart hits the bouncy bridge and baskets and jam fly into the air while Nutville scrambles to catch them."
+    class="story-illustration"
+    loading="lazy"
+  />
+</div>
+
 Market morning in Nutville involved many baskets.
 
 Berry baskets.

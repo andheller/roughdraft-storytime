@@ -1,5 +1,14 @@
 # Chapter 5: Grandma Opens Everything
 
+<div class="story-illustration-wrap">
+  <img
+    src="/story-art/silly-squirrels/the-super-secure-snack-safe/chapter-5.png"
+    alt="The family inspects the snack safe and evidence table in the town square after the overnight snack disaster."
+    class="story-illustration"
+    loading="lazy"
+  />
+</div>
+
 The next morning, Nutville looked like a party hosted by crackers.
 
 The town square had pretzels in the fountain.

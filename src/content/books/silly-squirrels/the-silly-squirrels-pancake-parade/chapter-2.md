@@ -1,5 +1,14 @@
 # Chapter 2: The Float with Extra Breakfast
 
+<div class="story-illustration-wrap">
+  <img
+    src="/story-art/silly-squirrels/the-silly-squirrels-pancake-parade/chapter-2.png"
+    alt="Nutty and the townsfolk build the giant pancake parade float amid tools, decorations, and breakfast parts."
+    class="story-illustration"
+    loading="lazy"
+  />
+</div>
+
 Building the Pancake Parade Float took two full days and one partial apology to the bakery.
 
 Mama handled the wheels because she trusted anything that moved fast.

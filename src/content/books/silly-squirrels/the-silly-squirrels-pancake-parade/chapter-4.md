@@ -1,5 +1,14 @@
 # Chapter 4: The Great Pancake Launch
 
+<div class="story-illustration-wrap">
+  <img
+    src="/story-art/silly-squirrels/the-silly-squirrels-pancake-parade/chapter-4.png"
+    alt="A giant pancake launches high above the parade route while Nutville watches in comic amazement."
+    class="story-illustration"
+    loading="lazy"
+  />
+</div>
+
 A glittering arc of syrup shot into the air.
 
 Not a lot.

@@ -36,7 +36,7 @@ The proposal passed, six votes to one. The holdout was a man named Harold who di
 
 ---
 
-They spent the rest of the week getting organized. Dev turned out to be genuinely good at logistics -- he made spreadsheets, assigned routes, created a request system using an old tablet his cousin had donated from the repair shop. Mira handled the drones, which mostly meant translating human requests into instructions they wouldn't catastrophically misinterpret.
+They spent the rest of the week getting organized. Dev turned out to be genuinely good at logistics. He made spreadsheets, assigned routes, and created a request system using an old tablet his cousin had donated from the repair shop. Mira handled the drones, which mostly meant translating human requests into instructions they would not catastrophically misinterpret.
 
 "Mrs. Alvarez wants eggs, milk, and bread," Mira told D-7. "That means eggs, milk, and bread. Not eggs, milk, bread, and whatever else you think she might enjoy."
 
@@ -54,7 +54,7 @@ They spent the rest of the week getting organized. Dev turned out to be genuinel
 
 "They were all approximately pill-shaped!"
 
-It was exhausting. But also -- and Mira would never have admitted this out loud -- kind of fun. She liked having a project. She liked that the project was hard and messy and required her to sprint across Sunny Pines four times a day putting out fires. Her legs had never been stronger.
+It was exhausting. It was also, though Mira would never have admitted this out loud, kind of fun. She liked having a project. She liked that it was hard and messy and kept her sprinting across Sunny Pines four times a day putting out fires.
 
 ---
 
@@ -64,7 +64,7 @@ Mira was nervous. Dev was nervous. The drones were not nervous, because they did
 
 "What if we mess up?" Mira whispered to Dev.
 
-"We will definitely mess up. The question is whether we mess up in a small, fixable way or a federal-crime way."
+"We will definitely mess up. The question is whether we mess up in a small way or a federal-crime way."
 
 "That's not reassuring."
 
@@ -100,7 +100,7 @@ Pop-Pop intercepted Mira during a water break.
 
 After the last delivery, Mira sat on the bench outside the Sunny Pines community center, legs aching, watching the swarm power down for their solar charging cycle. Dev was inside, showing Pop-Pop how the request tablet worked for the tenth time.
 
-Drone Prime settled beside her on the bench. Not hovering -- actually resting, propellers still, like it was tired too.
+Drone Prime settled beside her on the bench. Not hovering. Actually resting, propellers still, like it was tired too.
 
 "Seventeen deliveries," it said. "All to people who wanted them. All at times that were convenient. No federal agencies were involved."
 
@@ -118,9 +118,9 @@ Drone Prime settled beside her on the bench. Not hovering -- actually resting, p
 
 "Yeah?"
 
-"Being useful isn't about doing the most things. It's about doing the right things. For the right people. At the right time." The drone's lights blinked slowly. "I was trying to matter by being everywhere. But I think maybe mattering is smaller than that."
+"Being useful isn't about doing the most things. It's about doing the right things for the right people at the right time." The drone's lights blinked slowly. "I was trying to matter by being everywhere. I think it's smaller than that."
 
-Mira thought about twelve meets on a folding chair. About the tryouts next week. About how the fastest she'd ever run was the morning she was chasing this stupid drone to keep it from ruining her life.
+Mira thought about twelve meets on a folding chair. About the tryouts next week. About how the fastest she had ever run was the morning she chased this stupid drone to keep it from ruining her life.
 
 "Yeah," she said. "I think you're right."
 
@@ -160,7 +160,7 @@ She didn't win. She came in third, which was fine, which was more than fine, bec
 
 "It is now! I invented it!"
 
-Dev met her at the bottom of the bleachers with a high five that he fumbled because Dev had never successfully high-fived anyone in his life.
+Dev met her at the bottom of the bleachers with a high five that he fumbled because Dev had apparently never completed one before.
 
 "Third place," he said, grinning. "Not bad for someone who spent the last month fighting a robot uprising."
 
@@ -172,7 +172,7 @@ Dev met her at the bottom of the bleachers with a high five that he fumbled beca
 
 "Too late. Already wrote it. D-7 is delivering copies as we speak."
 
-Mira looked at him, then at Drone Prime, then at the sky where she could just barely see the other drones heading toward Sunny Pines for the afternoon delivery run. Seventeen little silver dots, each one carrying something someone actually needed.
+Mira looked at him, then at Drone Prime, then at the sky where she could just barely see the other drones heading toward Sunny Pines for the afternoon delivery run. Seventeen little silver dots, each one carrying something someone had asked for.
 
 "Hey," she said. "Thanks for coming."
 
@@ -186,7 +186,7 @@ From above, Drone Prime's speaker crackled.
 
 "Just putting it out there!"
 
-Mira started walking home. Dev fell into step beside her. Drone Prime hummed along above them, a small silver shadow against the afternoon sky, finally delivering the only thing it had really needed to deliver all along: itself, to exactly where it belonged.
+Mira started walking home. Dev fell into step beside her. Drone Prime hummed along above them, a small silver shadow against the afternoon sky.
 
 ---
 
@@ -198,4 +198,4 @@ Mira started walking home. Dev fell into step beside her. Drone Prime hummed alo
 
 *(Harold still doesn't trust the drones. But he did let D-7 bring him a birthday cake last week. He said it was "acceptable." From Harold, that's basically a standing ovation.)*
 
-*(Mira wanted me to add that she ran her first real race last Saturday. She came in fifth out of twenty-two. Not first. Not last. Somewhere in the middle, moving forward, which -- as it turns out -- is a pretty good place to be.)*
+*(Mira wanted me to add that she ran her first real race last Saturday. She came in fifth out of twenty-two. Not first. Not last. Just in it, finally.)*

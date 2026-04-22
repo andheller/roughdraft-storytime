@@ -1,5 +1,14 @@
 # Chapter 1: The Wobble Over Walnut Creek
 
+<div class="story-illustration-wrap">
+  <img
+    src="/story-art/silly-squirrels/the-silly-squirrels-bouncy-bridge/opening.webp"
+    alt="The Nutville bridge over Walnut Creek bouncing on springs while Nutty pitches his redesign to the town."
+    class="story-illustration"
+    loading="lazy"
+  />
+</div>
+
 Nutville had a bridge problem.
 
 The little wooden bridge over Walnut Creek had always creaked.

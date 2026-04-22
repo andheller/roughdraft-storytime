@@ -117,7 +117,7 @@ class ThemeState {
 			root.classList.add('font-serif');
 			root.classList.remove('font-sans');
 		} else {
-			root.style.setProperty('--font-family', '"Inter", system-ui, sans-serif');
+			root.style.setProperty('--font-family', '"InterVariable", system-ui, sans-serif');
 			root.classList.add('font-sans');
 			root.classList.remove('font-serif');
 		}

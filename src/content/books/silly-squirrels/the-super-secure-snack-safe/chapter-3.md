@@ -1,5 +1,14 @@
 # Chapter 3: Passwords, Panic, and Pasta Lasers
 
+<div class="story-illustration-wrap">
+  <img
+    src="/story-art/silly-squirrels/the-super-secure-snack-safe/chapter-3.png"
+    alt="Papa tries to get one cracker while the snack safe's flour cannon and spaghetti security system cause fresh trouble."
+    class="story-illustration"
+    loading="lazy"
+  />
+</div>
+
 The next morning, Papa wanted one cracker.
 
 Just one.

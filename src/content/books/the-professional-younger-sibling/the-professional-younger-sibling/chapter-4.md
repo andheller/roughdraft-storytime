@@ -22,7 +22,7 @@ It started when Jordan found me in my room reading and said, "Riley, can I ask y
 
 "See, this is what I mean," Jordan said. "You would have known that. I never know that."
 
-I felt something unfamiliar. Not pride exactly -- I feel proud all the time, usually about things I've gotten away with. This was different. Jordan wasn't saying I was cute or funny or good at getting extra dessert. Jordan was saying I was good at something real.
+I felt something unfamiliar. It wasn't my usual kind of pride, the kind that comes from getting away with something. Jordan was saying I was good at something real.
 
 "So what's the problem?" I asked.
 
@@ -50,7 +50,7 @@ Jordan looked like he'd never considered this before. Which he probably hadn't.
 
 "How do you know all this?" Jordan asked.
 
-I opened my mouth to say something about professional younger sibling skills, but then I stopped. Because the truth was, I didn't know all this from being strategic or working angles. I knew it because I'd been watching my siblings my whole life. Not to manipulate them -- well, okay, sometimes to manipulate them -- but mostly just because I loved them and they were interesting.
+I opened my mouth to say something about professional younger sibling skills, but stopped. The truth was, I knew all this because I'd been watching my siblings my whole life. Sometimes to manipulate them, yes. But mostly because I loved them and they were interesting.
 
 "I pay attention," I said. "That's all."
 
@@ -70,8 +70,10 @@ After dinner, Alex came to my room. "Did you give Jordan advice about how to dea
 
 "Maybe that's not just a youngest thing," Alex said. "Maybe that's a you thing."
 
-After Alex left, I lay on my bed and stared at the ceiling. My whole life, I'd thought my job was being the youngest -- that everything I was good at came from my position in the family, like a title on a business card. Professional Younger Sibling.
+After Alex left, I lay on my bed and stared at the ceiling. My whole life, I'd thought my job was being the youngest, like everything I was good at came from that title.
 
-But maybe the things I was good at -- watching people, understanding what they needed, figuring out how to make things work -- maybe those were just mine. Not because I was the youngest. Just because I was Riley.
+Maybe it didn't.
+
+Maybe paying attention belonged to me.
 
 That was a bigger thought than I was used to having. I decided to sleep on it.

@@ -10,7 +10,7 @@ It was sitting on top of the TV, watching the screen just like she was. When the
 
 "Weird," Emma muttered.
 
-She reached for the remote to turn up the volume---and the fly buzzed once, sharply.
+She reached for the remote to turn up the volume, and the fly buzzed once, sharply.
 
 Everything stopped.
 
@@ -22,7 +22,7 @@ Then the fly buzzed twice, and everything started again.
 
 "WHAT," said Emma.
 
-She looked at the fly. The fly looked at her. It had two friends now---three flies total, sitting in a row on top of the television.
+She looked at the fly. The fly looked at her. It had two friends now, three flies total, sitting in a row on top of the television.
 
 Emma reached for the remote again. Very slowly. She pressed the volume button.
 
@@ -40,7 +40,7 @@ The flies didn't answer. They were flies. But one of them did a little loop-de-l
 
 "If you can pause time..." she said slowly, "can you rewind it?"
 
-The middle fly---the biggest one---buzzed three times.
+The middle fly, the biggest one, buzzed three times.
 
 The cartoon started playing backwards. The soggy cereal un-sogged. The milk rose up from the bowl and poured itself back into the carton.
 
@@ -56,11 +56,11 @@ Two buzzes: play.
 
 One buzz: pause.
 
-But there was a fourth option. When all three flies buzzed together---one long, continuous sound---time went *fast*.
+But there was a fourth option. When all three flies buzzed together in one long, continuous sound, time went *fast*.
 
 The cartoon episodes flipped by like pages in a book. The sun tracked across the sky in seconds. The clock hands spun.
 
-Emma laughed and laughed. She could watch the same cartoon forever! She could make boring things zoom past! She could---
+Emma laughed and laughed. She could watch the same cartoon forever. She could make boring things zoom past. She could...
 
 Wait.
 
@@ -72,9 +72,9 @@ She'd fast-forwarded the whole neighborhood to noon.
 
 "Oops," said Emma.
 
-Through the window, she could see all sorts of chaos. People looking at their watches. The mail carrier checking the sun, then his phone, then the sun again. And on the corner of Maple Street, the Founders' Day Parade---which wasn't supposed to start until 2:00 PM---was scrambling into formation four hours early. Marching band members were running down the street in half-buttoned uniforms. Someone was trying to inflate a balloon float with a bicycle pump.
+Through the window, she could see all sorts of chaos. People looking at their watches. The mail carrier checking the sun, then his phone, then the sun again. And on the corner of Maple Street, the Founders' Day Parade, which wasn't supposed to start until 2:00 PM, was scrambling into formation four hours early. Marching band members were running down the street in half-buttoned uniforms. Someone was trying to inflate a balloon float with a bicycle pump.
 
-But the strangest thing of all: there was an alpaca walking down the sidewalk. With a suitcase. The alpaca was heading *toward* the parade, and he looked grumpy.
+Strangest of all, there was an alpaca walking down the sidewalk with a suitcase. He was heading *toward* the parade, and he looked grumpy.
 
 *That's weird*, Emma thought. *Who owns an alpaca in Punsburg?*
 

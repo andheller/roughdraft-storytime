@@ -1,5 +1,14 @@
 # Chapter 3: Marching Band, Meet Syrup
 
+<div class="story-illustration-wrap">
+  <img
+    src="/story-art/silly-squirrels/the-silly-squirrels-pancake-parade/chapter-3.png"
+    alt="The pancake float rolls through the parade as syrup splashes toward the marching band and the crowd gasps."
+    class="story-illustration"
+    loading="lazy"
+  />
+</div>
+
 Parade morning dawned bright, cool, and full of panic.
 
 The marching band had lost one tuba.

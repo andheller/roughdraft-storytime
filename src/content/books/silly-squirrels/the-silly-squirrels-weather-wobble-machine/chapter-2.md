@@ -1,5 +1,14 @@
 # Chapter 2: Buttons for Breezes
 
+<div class="story-illustration-wrap">
+  <img
+    src="/story-art/silly-squirrels/the-silly-squirrels-weather-wobble-machine/chapter-2.png"
+    alt="The Weather Wobble Machine creates sunshine, rain, and snow in different parts of the picnic field at once."
+    class="story-illustration"
+    loading="lazy"
+  />
+</div>
+
 The next morning, Nutty unveiled the Weather Wobble Machine.
 
 It was taller than Papa.

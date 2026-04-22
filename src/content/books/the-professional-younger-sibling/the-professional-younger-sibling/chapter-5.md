@@ -58,7 +58,7 @@ On Friday night, we surprised Dad. He walked in and saw the table set with his f
 
 "What's all this?" Dad said.
 
-"Happy birthday," we all said. Not in unison -- Jordan shouted it, Sam said it normally, Alex said it formally, and I said it last because I was watching Dad's face.
+"Happy birthday," we all said. Not in unison. Jordan shouted it, Sam said it normally, Alex said it like he was presenting an award, and I said it last because I was watching Dad's face.
 
 He looked so happy. Not party-happy, where you put on a big smile for guests. Real happy, where your eyes get soft and you don't say anything for a second because you're feeling too much.
 
@@ -86,13 +86,13 @@ Dad hugged me for a long time. Not a quick hug. A real one.
 
 "Maybe it's not a youngest thing or an oldest thing," Dad said. "Maybe it's just your thing."
 
-Later that night, I sat in my room and thought about my career. A month ago, I was a professional younger sibling. My whole job was getting away with things: extra dessert, fewer chores, someone else taking the blame.
+Later that night, I sat in my room and thought about my career. A month ago, my whole job was getting away with things: extra dessert, fewer chores, someone else taking the blame.
 
-I was still the youngest. That hadn't changed. But somewhere along the way, I'd gotten a promotion I hadn't applied for. I'd gone from working the system to actually being part of the family, and the weird thing was, I liked the new job better. Watching my siblings and understanding what they needed wasn't just a tactic anymore. It was the thing I was best at.
+I was still the youngest. That hadn't changed. But somewhere along the way, watching my siblings and understanding what they needed had stopped being a trick. It had become the thing I was best at.
 
 I still get extra dessert sometimes. I still make the sad eyes when I want an extra story at bedtime. I'm not a totally reformed professional younger sibling.
 
-But now when I watch my family -- Alex organizing everything so it doesn't fall apart, Sam noticing things nobody else notices, Jordan turning everything into something bigger and louder and more colorful -- I don't just see opportunities. I see people. My people.
+Now when I watch my family, Alex organizing everything so it doesn't fall apart, Sam noticing what everybody else misses, Jordan turning every ordinary thing into a louder, brighter version of itself, I don't just see opportunities. I see my people.
 
 And if I'm being honest, which I'm trying to do more often these days, helping them is better than any amount of extra dessert.
 
@@ -100,6 +100,6 @@ Don't tell them I said that, though. I still have a reputation to maintain.
 
 ---
 
-*Author's Note: This story was written by Riley Thompson with some help from grown-ups who know how to spell big words. Riley is still the youngest member of her family and does not plan to give up that position anytime soon.*
+*Jordan says the banana song is still stuck in his head two months later.*
 
-*Also, Jordan says to tell you that the banana song is still stuck in his head and it's been two months now. Riley feels a little bit sorry about this but not sorry enough to stop humming it sometimes.*
+*I feel a little sorry about this. Not very sorry, though.*

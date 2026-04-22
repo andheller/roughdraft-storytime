@@ -1,5 +1,14 @@
 # Chapter 1: A Picnic Forecast of Trouble
 
+<div class="story-illustration-wrap">
+  <img
+    src="/story-art/silly-squirrels/the-silly-squirrels-weather-wobble-machine/opening.webp"
+    alt="Nutty showing off the Weather Wobble Machine while picnic supplies and mixed weather swirl around the workshop."
+    class="story-illustration"
+    loading="lazy"
+  />
+</div>
+
 Nutville had been trying to have its Big Breezy Picnic for six days.
 
 On Monday, it rained on the sandwiches.
