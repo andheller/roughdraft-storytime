@@ -1,43 +1,88 @@
 # Building Bottle Jetpacks
 
-The next morning, Nutty woke up with fizzy soda bottles dancing in his head. He'd spent all night dreaming about jetpacks and had the perfect plan!
+By breakfast, Nutty had already drawn seven jetpack plans on napkins, one on a leaf, and one on Papa's tail by mistake.
 
-He scampered to the town recycling center, where mountains of empty soda bottles sparkled in the morning sun. "Perfect!" he squeaked, stuffing his cheeks with as many bottles as they could hold.
+"This one has wings," he explained.
 
-By the time Mama and Papa Nutwobble arrived at their workshop (which was really just a clearing behind the oak tree), Nutty had already sorted the bottles by size and color.
+Papa turned his tail around to look. "Why does it say EXTRA ZOOM next to my spine?"
 
-"Okay, here's the plan," Nutty announced, wearing a colander on his head like a helmet. "We strap these big bottles to our backs, fill them with... um..." He paused. "What makes jetpacks work again?"
+"Because that is where the extra zoom goes."
 
-"Rocket fuel?" Papa suggested.
+Mama took away the marker.
 
-"We don't have rocket fuel," Mama pointed out.
+Their first stop was the Nutville Recycling Center, where empty soda bottles glittered in the morning sun.
 
-"Baking soda and vinegar!" Nutty exclaimed. "My cousin tried it in a science experiment once. Made a huge mess!"
+"We need bottles with strong walls," Mama said. "Good corks. Tight straps. No mystery liquids."
 
-Within an hour, they had the most ridiculous-looking jetpacks ever created. Papa's was made from bright orange soda bottles held together with jump ropes. Mama's was a collection of green bottles that rattled when she moved. Nutty's was the most ambitious - a cluster of different colored bottles that looked like a rainbow explosion.
+"And style," Papa said, holding up a purple bottle shaped like a trumpet.
 
-But the best part was their helmets. Since regular helmets were boring, they'd raided the town's lost-and-found box. Papa wore a bright yellow rain hat with a plastic duck on top. Mama had found a fuzzy winter hat with enormous ear flaps that made her look like a flying sheep. Nutty's colander was decorated with dangling bottle caps that clinked together when he moved.
+"Style is not a structural material."
 
-"We look absolutely ridiculous," Mama said, catching her reflection in a puddle.
+"It could be if people believed hard enough."
 
-"Mission accomplished!" Nutty grinned.
+By lunch, the workshop clearing looked as if a science fair had crashed into a picnic. Bottles were sorted by size. Corks sat in neat rows. Straps hung from branches. A chalkboard listed important engineering words:
 
-They spent the morning mixing baking soda and vinegar in their bottle chambers, which resulted in lots of fizzing, several small explosions, and Papa getting completely soaked when his safety cork popped out.
+**PRESSURE**  
+**BALANCE**  
+**DIRECTION**  
+**DO NOT POINT AT FACE**
 
-"Maybe we need less vinegar?" Papa suggested, wringing out his tail.
+Papa's jetpack used two orange soda bottles and a harness made from jump ropes. Mama's used three green bottles, carefully braced with popsicle sticks. Nutty's used five bottles in different colors because, according to Nutty, "rainbow power is probably a real thing."
 
-"Or more baking soda!" Nutty added more powder to his bottles, which immediately started bubbling over.
+Then came helmets.
 
-After three hours of tinkering, adjustments, and one incident where Mama's ear flaps got tangled in her jetpack straps, they were finally ready for the first test flight.
+Mama found three proper bike helmets in the lost-and-found box.
 
-"Who goes first?" Papa asked nervously.
+Nutty found a colander, a bright yellow rain hat with a plastic duck on top, and a fuzzy winter hat with enormous ear flaps.
 
-"I will!" Nutty declared, striking a superhero pose. "For pizza!"
+"We should wear the bike helmets," Mama said.
 
-He pressed the big red button he'd made from a bottle cap. His jetpack sputtered, wheezed, made a sound like a deflating balloon, and then...
+"Obviously," Nutty said.
 
-*WHOOOOSH!*
+So they put on the bike helmets.
 
-Nutty shot three feet into the air, spun in a circle, and landed bottom-first in Mrs. Owl's birdbath with a tremendous splash.
+Then Nutty put the colander over his bike helmet.
 
-"IT WORKS!" he shouted triumphantly, water dripping from his colander. "Sort of!"
+Papa put the duck hat over his bike helmet.
+
+Mama sighed for a full five seconds, then put the fuzzy ear-flap hat over her bike helmet too.
+
+"It is important for customers to recognize us from far away," Papa said.
+
+"Customers will recognize you from the moon," Mama said.
+
+The fuel was simple: baking soda, vinegar, and confidence. The confidence did not fizz, but Nutty added plenty anyway.
+
+Their first test was supposed to be a tiny hop.
+
+"Tiny," Mama reminded him.
+
+"Responsible," Papa added.
+
+"Pizza-adjacent," Nutty said.
+
+He pressed the red launch button made from a bottle cap.
+
+His jetpack burped.
+
+Then it sneezed.
+
+Then it made a long squealing noise like a kettle learning opera.
+
+_WHOOOOSH!_
+
+Nutty shot three feet into the air, spun exactly one and a half circles, clipped a laundry basket, and landed bottom-first in Mrs. Owl's birdbath.
+
+"My begonias!" Mrs. Owl cried from her porch.
+
+"Sorry!" Nutty called, dripping from his colander. "Also good news!"
+
+Mama hurried over with a towel. "The good news had better not be that my son is waterproof."
+
+"The good news," Nutty said, beaming, "is that it works."
+
+Papa looked at the birdbath. Then at the smoking bottles. Then at Mrs. Owl, who was now rescuing a very confused garden snail.
+
+"It works," he said carefully, "in the way a sneeze works."
+
+"Exactly," Nutty said. "Now we just need to teach the sneeze where to go."

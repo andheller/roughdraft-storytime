@@ -1,5 +1,14 @@
 # Time Flies
 
+<div class="story-illustration-wrap">
+  <img
+    src="/story-art/one-wild-day-in-punsburg/one-wild-day-in-punsburg/opening.png"
+    alt="Emma watches three time-controlling flies on the TV while cereal and cartoons freeze mid-motion."
+    class="story-illustration"
+    loading="lazy"
+  />
+</div>
+
 Saturday morning. 8:00 AM. The best time of the whole week.
 
 Emma Miller sat two inches from the television, watching cartoons in her pajamas. Her cereal was getting soggy. She didn't care. This was the life.

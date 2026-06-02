@@ -1,5 +1,14 @@
 # A Note About Sources
 
+<div class="story-illustration-wrap">
+  <img
+    src="/story-art/the-somewhat-reliable-narrator/the-somewhat-reliable-narrator/opening.png"
+    alt="An illuminated manuscript spread shows contradictory histories, rival castles, and a confused messenger bird."
+    class="story-illustration"
+    loading="lazy"
+  />
+</div>
+
 Before we begin, I should be honest with you.
 
 I wasn't there when any of this happened. Not in the castle, not at the border, not in the pigeon coop. I'm piecing this story together from a variety of sources: three official histories (which disagree on almost everything), seventeen personal letters (most of which are water-damaged), one diary entry that may or may not be a forgery, and a tavern song that rhymes "war" with "more" and "door" approximately seventy-four times.

@@ -24,12 +24,12 @@
 		{ id: 'standalone', label: 'Standalone', description: 'Single-book stories' }
 	];
 	const FEATURED_BOOK_KEYS = [
-		'the-wrong-pet-club/the-wrong-pet-club',
-		'the-eastern-valleys/the-eastern-valleys',
-		'the-kingdom-of-pillow-fort/the-kingdom-of-pillow-fort',
-		'one-wild-day-in-punsburg/one-wild-day-in-punsburg',
-		'downriver/downriver',
-		'history-close-up/daniel-morgan-and-the-trap-at-cowpens'
+		'dust-calloway-and-the-sky-coach-robbers/dust-calloway-and-the-sky-coach-robbers',
+		'the-delivery-drone-that-wouldnt-leave/the-delivery-drone-that-wouldnt-leave',
+		'the-dragon-who-breathed-bubbles/the-dragon-who-breathed-bubbles',
+		'silly-squirrels/the-silly-squirrels-pizza-jetpack-delivery',
+		'silly-squirrels/the-silly-squirrels-pancake-parade',
+		'silly-squirrels/the-super-secure-snack-safe'
 	];
 	const BACKGROUND_PATTERNS = [
 		{
@@ -226,7 +226,11 @@
 
 	onMount(() => {
 		const storedDisplayMode = window.localStorage.getItem('roughdraft-home-view');
-		if (storedDisplayMode === 'table' || storedDisplayMode === 'spines') {
+		if (
+			storedDisplayMode === 'table' ||
+			storedDisplayMode === 'covers' ||
+			storedDisplayMode === 'spines'
+		) {
 			displayMode = storedDisplayMode;
 		}
 
@@ -250,7 +254,7 @@
 	});
 
 	function selectBook(book) {
-		goto(`/${book.seriesId}/${book.storyId}`);
+		goto(getBookHref(book));
 	}
 
 	function handleKeyDown(event, book) {
@@ -304,6 +308,10 @@
 
 	function setDisplayMode(mode) {
 		displayMode = mode;
+	}
+
+	function getBookHref(book) {
+		return `/${book.seriesId}/${book.storyId}`;
 	}
 
 	function getCoverImageProps(book) {
@@ -617,7 +625,7 @@
 					adventures to narrative history.
 				</p>
 				<div class="hero-links">
-					<a href="/characters" class="hero-link">Character Lab</a>
+					<a href="/image-review" class="hero-link">Image Review</a>
 				</div>
 			</div>
 		</header>
@@ -625,7 +633,7 @@
 		{#if featuredBooks.length > 0}
 			<section class="featured-shelf-section" aria-labelledby="featured-shelf-heading">
 				<div class="featured-copy">
-					<h2 id="featured-shelf-heading">Featured Books</h2>
+					<h2 id="featured-shelf-heading">Featured Favorites</h2>
 				</div>
 
 				{#each featuredBookShelves as featuredShelf, shelfIndex}
@@ -643,14 +651,14 @@
 						<div class="shelf-books covers-mode featured-shelf-books">
 							{#each featuredShelf as book (book.id)}
 								<div class="book-item">
-									<button
+									<a
+										href={getBookHref(book)}
 										class="book-card featured-book-card covers"
 										style="--book-color: {book.leatherColor}; --book-width: {getDisplayWidth(
 											book
 										)}px; --book-height: {getDisplayHeight(book)}px; --book-depth: {getDisplayDepth(
 											book
 										)}px; --book-lean: {getDisplayTilt(book)}deg;"
-										onclick={() => selectBook(book)}
 										onkeydown={(e) => handleKeyDown(e, book)}
 										aria-label="Select featured book {book.title}"
 									>
@@ -692,7 +700,7 @@
 											<div class="book-spine" aria-hidden="true"></div>
 											<div class="book-back" aria-hidden="true"></div>
 										</div>
-									</button>
+									</a>
 								</div>
 							{/each}
 						</div>
@@ -736,6 +744,17 @@
 						</button>
 						<button
 							type="button"
+							class:active={displayMode === 'covers'}
+							class="view-toggle-button"
+							role="tab"
+							aria-selected={displayMode === 'covers'}
+							aria-controls="story-cover-view"
+							onclick={() => setDisplayMode('covers')}
+						>
+							Covers
+						</button>
+						<button
+							type="button"
 							class:active={displayMode === 'spines'}
 							class="view-toggle-button"
 							role="tab"
@@ -764,9 +783,7 @@
 						<thead>
 							<tr>
 								<th scope="col">Story</th>
-								<th scope="col">Series</th>
-								<th scope="col">Genre</th>
-								<th scope="col">Tags</th>
+								<th scope="col">Shelf</th>
 								<th scope="col" class="table-action-heading">Open</th>
 							</tr>
 						</thead>
@@ -818,22 +835,18 @@
 										</div>
 									</td>
 									<td>
-										<div class="series-chip">{book.seriesTitle}</div>
-									</td>
-									<td>
-										<div class="genre-copy">{book.genre}</div>
-									</td>
-									<td>
-										<div class="tag-list" aria-label={`Tags for ${book.title}`}>
-											{#each getTagPreview(book) as tag}
-												<span class="tag-pill">{tag}</span>
-											{/each}
+										<div class="table-book-details">
+											<div class="series-chip">{book.seriesTitle}</div>
+											<div class="genre-copy">{book.genre}</div>
+											<div class="tag-list" aria-label={`Tags for ${book.title}`}>
+												{#each getTagPreview(book) as tag}
+													<span class="tag-pill">{tag}</span>
+												{/each}
+											</div>
 										</div>
 									</td>
 									<td class="table-action-cell">
-										<button type="button" class="read-book-button" onclick={() => selectBook(book)}>
-											Read book
-										</button>
+										<a class="read-book-button" href={getBookHref(book)}> Read book </a>
 									</td>
 								</tr>
 							{/each}
@@ -843,6 +856,85 @@
 
 				{#if filteredBookList.length === 0}
 					<div class="empty-filter-state table-empty-state">
+						<p>No stories match that shelf yet.</p>
+					</div>
+				{/if}
+			</section>
+		{:else if displayMode === 'covers'}
+			<section class="bookshelf-container" id="story-cover-view" aria-label="Story cover view">
+				{#each mainBookShelves as shelfBooks, shelfIndex}
+					<div class="shelf-row">
+						<div class="shelf-back-glow" aria-hidden="true"></div>
+
+						<div class="wooden-shelf">
+							<div class="shelf-surface"></div>
+							<div class="shelf-lip"></div>
+							<div class="shelf-bracket shelf-bracket-left"></div>
+							<div class="shelf-bracket shelf-bracket-right"></div>
+							<div class="shelf-shadow"></div>
+						</div>
+
+						<div class="shelf-books covers-mode">
+							{#each shelfBooks as book (book.id)}
+								<div class="book-item">
+									<a
+										href={getBookHref(book)}
+										class="book-card covers"
+										style="--book-color: {book.leatherColor}; --book-width: {getDisplayWidth(
+											book
+										)}px; --book-height: {getDisplayHeight(book)}px; --book-depth: {getDisplayDepth(
+											book
+										)}px; --book-lean: {getDisplayTilt(book)}deg;"
+										onkeydown={(e) => handleKeyDown(e, book)}
+										aria-label="Read {book.title}"
+									>
+										<div class="book-3d-wrapper">
+											<div class="book-cover-front">
+												<div class="cover-texture">
+													<div class="cover-content {book.coverImage ? 'no-padding' : ''}">
+														<div class="cover-border">
+															<h3
+																class="book-title {book.id.length % 7 === 0 ? 'gold-embossed' : ''}"
+															>
+																{book.title}
+															</h3>
+															{#if book.coverImage}
+																{@const coverImageProps = getCoverImageProps(book)}
+																<div class="book-cover-image-container">
+																	<img
+																		src={coverImageProps?.src ?? book.coverImage}
+																		srcset={coverImageProps?.srcset}
+																		sizes={coverImageProps?.sizes}
+																		alt={book.title}
+																		class="book-cover-image"
+																		width={coverImageProps?.width}
+																		height={coverImageProps?.height}
+																		loading="lazy"
+																		decoding="async"
+																	/>
+																</div>
+															{/if}
+														</div>
+													</div>
+												</div>
+												<div class="cover-edge-right"></div>
+												<div class="cover-edge-bottom"></div>
+											</div>
+											<div class="book-pages-top" aria-hidden="true"></div>
+											<div class="book-pages-right" aria-hidden="true"></div>
+											<div class="book-pages-bottom" aria-hidden="true"></div>
+											<div class="book-spine" aria-hidden="true"></div>
+											<div class="book-back" aria-hidden="true"></div>
+										</div>
+									</a>
+								</div>
+							{/each}
+						</div>
+					</div>
+				{/each}
+
+				{#if filteredBookList.length === 0}
+					<div class="empty-filter-state">
 						<p>No stories match that shelf yet.</p>
 					</div>
 				{/if}
@@ -883,7 +975,8 @@
 										</div>
 									{/if}
 
-									<button
+									<a
+										href={getBookHref(book)}
 										class="book-card spines"
 										style="--book-color: {book.leatherColor}; --book-width: {getSpineWidth(
 											book
@@ -894,7 +987,6 @@
 										)}deg; --spine-font-size: {getSpineFontSize(
 											book
 										)}rem; --spine-letter-spacing: {getSpineLetterSpacing(book)}px;"
-										onclick={() => selectBook(book)}
 										onkeydown={(e) => handleKeyDown(e, book)}
 										onmouseenter={(event) => updateHoveredBook(book, event)}
 										onmouseleave={clearHoveredBook}
@@ -928,7 +1020,7 @@
 											<div class="book-pages-bottom" aria-hidden="true"></div>
 											<div class="book-pages-right-view" aria-hidden="true"></div>
 										</div>
-									</button>
+									</a>
 								</div>
 							{/each}
 						</div>
@@ -1018,7 +1110,7 @@
 		position: relative;
 		width: min(700px, 95vw);
 		margin: 0 auto;
-		overflow: visible; /* Fix clipping */
+		overflow: visible;
 	}
 
 	.logo {
@@ -1039,7 +1131,6 @@
 		font-size: clamp(2.1rem, 4vw, 3.25rem);
 		line-height: 1.02;
 		font-weight: 700;
-		letter-spacing: -0.035em;
 		color: #fff8ef;
 		text-wrap: balance;
 	}
@@ -1056,21 +1147,24 @@
 	.hero-links {
 		margin-top: 1.25rem;
 		display: flex;
+		flex-wrap: wrap;
 		justify-content: center;
+		gap: 0.75rem;
 	}
 
 	.hero-link {
 		display: inline-flex;
 		align-items: center;
 		justify-content: center;
-		padding: 0.8rem 1.15rem;
+		min-height: 2.75rem;
+		padding: 0.78rem 1.05rem;
 		border-radius: 999px;
 		border: 1px solid rgba(255, 248, 237, 0.16);
 		background: rgba(255, 248, 237, 0.08);
 		color: #fff8ef;
 		font-size: 0.78rem;
 		font-weight: 700;
-		letter-spacing: 0.18em;
+		letter-spacing: 0.12em;
 		text-transform: uppercase;
 		text-decoration: none;
 		backdrop-filter: blur(8px);
@@ -1193,7 +1287,7 @@
 
 	.view-toggle {
 		display: inline-grid;
-		grid-template-columns: repeat(2, minmax(0, 1fr));
+		grid-template-columns: repeat(3, minmax(0, 1fr));
 		padding: 0.22rem;
 		border: 1px solid rgba(255, 248, 237, 0.14);
 		border-radius: 1rem;
@@ -1272,7 +1366,7 @@
 
 	.story-table {
 		width: 100%;
-		min-width: 900px;
+		min-width: 680px;
 		border-collapse: separate;
 		border-spacing: 0;
 		background: transparent;
@@ -1517,12 +1611,23 @@
 		font-weight: 500;
 	}
 
+	.table-book-details {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		gap: 0.55rem;
+		max-width: 34rem;
+	}
+
 	.table-action-heading,
 	.table-action-cell {
 		text-align: right;
 	}
 
 	.read-book-button {
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
 		height: 2.55rem;
 		padding: 0 0.95rem;
 		border: 1px solid rgba(255, 231, 177, 0.18);
@@ -1533,6 +1638,7 @@
 		color: #fff8ef;
 		font-size: 0.88rem;
 		font-weight: 600;
+		text-decoration: none;
 		white-space: nowrap;
 		cursor: pointer;
 		box-shadow:
@@ -1916,6 +2022,7 @@
 		background: transparent;
 		border: none;
 		cursor: pointer;
+		display: block;
 		padding: 0;
 		perspective: 1500px;
 		flex: 0 0 auto;
@@ -1925,6 +2032,7 @@
 		transform: translateY(0) rotateZ(var(--book-lean));
 		transform-origin: center bottom;
 		transition: transform 0.5s cubic-bezier(0.2, 0.8, 0.2, 1);
+		text-decoration: none;
 	}
 
 	.book-card:hover {

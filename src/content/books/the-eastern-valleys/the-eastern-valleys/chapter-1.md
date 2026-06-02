@@ -1,5 +1,14 @@
 # Forty Hectares
 
+<div class="story-illustration-wrap">
+  <img
+    src="/story-art/the-eastern-valleys/the-eastern-valleys/opening.png"
+    alt="Oliver's family studies survey images of their new eastern valleys homestead on a glowing kitchen screen."
+    class="story-illustration"
+    loading="lazy"
+  />
+</div>
+
 The letter came on a Tuesday.
 
 Papa held it up for Mama to see, and Mama put her hand over her mouth the way she did when something was too big for words. Oliver knew what it meant before anyone told him. Three years they had waited. Three years of Papa checking the network every morning, hoping their name would come up on the settlement list.

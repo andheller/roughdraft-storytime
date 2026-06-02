@@ -1,49 +1,81 @@
 # Water Gun Wake-Up Calls
 
-By the end of the week, the Silly Squirrels Pizza Jetpack Delivery Service had become famous throughout Nutville - mostly for their spectacular crashes. But they were getting orders!
+By Friday, Nutville had learned two important facts.
 
-The biggest problem was that flying made them incredibly sleepy. All the swooshing and zooming and crash-landing was exhausting.
+First, flying pizza could arrive hot.
 
-"We need a better system," Nutty yawned, nearly dozing off while strapped into his jetpack. "Yesterday I fell asleep mid-flight and woke up hanging upside down in the town clock tower."
+Second, flying pizza sometimes arrived with a squirrel stuck in a shrub nearby.
 
-"I fell asleep and crashed into the fire station," Papa added. "The fire chief was not amused."
+Orders kept coming anyway.
 
-"At least you didn't fall asleep and somehow deliver pizza to yourself," Mama grumbled. "I woke up in my own tree with a mushroom pizza I don't even remember ordering."
+The problem was not heat anymore. It was tiredness.
 
-That's when Nutty spotted them in the toy store window: three bright purple water guns, complete with shoulder straps and extra-large water tanks.
+"I fell asleep over Maple Street," Papa admitted, leaning against the workbench. "I woke up in the fire station bell."
 
-"THAT'S IT!" he shouted, pressing his face against the glass. "Emergency wake-up equipment!"
+"I delivered a pizza to myself," Mama said. "I signed for it and everything."
 
-Soon, each squirrel had a water gun strapped to their chest. The plan was simple: if someone looked sleepy during flight, the others would give them a refreshing wake-up splash.
+Nutty yawned so wide his colander slid down over his eyes. "We need emergency wake-up equipment."
 
-Their first test came during a delivery to the lighthouse keeper on the far side of town. Halfway there, Papa started yawning and his flying became wobbly.
+That was how the Silly Squirrels ended up outside the toy store, staring at three purple water blasters with shoulder straps and extra-large tanks.
 
-"Papa's getting drowsy!" Mama called out. "Initiating wake-up protocol!"
+"Absolutely not," Mama said.
 
-*SQUIRT!*
+"For safety," Nutty said.
 
-She fired a stream of cold water right at Papa's face. He jerked awake instantly, but the surprise made him accidentally trigger his jetpack at full blast.
+"For science," Papa said.
 
-"WHOA!" Papa rocketed forward like a furry missile, pizza boxes trailing behind him.
+"For soaking your father in public," Mama said.
 
-"Get him!" Nutty shouted, giving chase. But flying at top speed while carrying water guns and wearing a colander helmet was trickier than expected.
+Ten minutes later, each squirrel wore a water blaster across the chest.
 
-What followed was the most ridiculous high-speed chase Nutville had ever seen. Papa zoomed between buildings with his duck hat flapping wildly. Nutty and Mama pursued him, squirting water guns and shouting helpful suggestions like "TURN LEFT!" and "WATCH OUT FOR THAT PIGEON!"
+"For safety," Mama repeated, in the voice grown-ups use when they are losing an argument to themselves.
 
-They finally caught up to Papa when he ran out of jetpack fuel and glided into the town fountain with a tremendous splash.
+Their first test came during a delivery to the lighthouse keeper. Halfway there, Papa's duck hat drooped. His eyelids drooped. His jetpack drooped.
 
-"Well," said the lighthouse keeper, who had witnessed the entire chase from his tower, "that was certainly entertaining. Is my pizza okay?"
+"Drowsy pilot!" Nutty shouted. "Wake-up protocol!"
 
-They checked the boxes. Somehow, miraculously, all three pizzas were perfectly fine, though slightly damp.
+_SQUIRT!_
 
-"You know what?" the lighthouse keeper chuckled, "I think I'll order from you again tomorrow. But maybe include a towel with the delivery?"
+Mama hit Papa directly in the cheek with cold water.
 
-That night, as they cleaned their water guns and hung up their ridiculous helmets, the three family members couldn't stop grinning.
+Papa woke up very thoroughly.
 
-"Tomorrow," Nutty declared, "we're going to be the best pizza delivery squirrels in the history of pizza delivery squirrels!"
+"I HAVE NEVER BEEN MORE AWAKE!" he cried, accidentally squeezing his launch button.
 
-"Even if we're also the wettest," Papa added, wringing water out of his tail.
+He shot forward like a furry bottle rocket.
 
-"And the most ridiculous," Mama finished, adjusting her sheep-ear hat.
+"Follow Papa!" Nutty shouted.
 
-"Especially the most ridiculous," they all agreed.
+What followed was the fastest, wettest delivery Nutville had ever seen. Papa zigzagged between chimneys with pizza boxes trailing behind him. Nutty chased Papa. Mama chased Nutty. All three accidentally sprayed Mr. Rabbit's laundry, Mayor Buttersworth's hat, and a cloud that probably deserved it.
+
+"Turn left!" Mama called.
+
+"Which left?" Papa called back.
+
+"The dry one!"
+
+Papa finally ran out of fizz above the town fountain and drifted down with a grand splash.
+
+The lighthouse keeper, watching from his porch, applauded politely.
+
+"My pizza?" he asked.
+
+Nutty opened the boxes.
+
+Three pizzas. Hot. Flat. Damp around the edges, but mostly from fountain mist.
+
+"Next time," the lighthouse keeper said, "could I get extra napkins?"
+
+That night, the Nutwobbles hung the water blasters on hooks beside the jetpacks.
+
+"The wake-up system works," Papa said.
+
+"Too well," Mama said.
+
+Nutty wrote on the chalkboard:
+
+**NEW RULE: ONLY SQUIRT PILOTS BEFORE THEY BECOME MISSILES**
+
+Then he added:
+
+**ALSO PACK NAPKINS**

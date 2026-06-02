@@ -39,7 +39,19 @@
 			isAccessibleForFree: true,
 			genre: story.genre,
 			typicalAgeRange: story.ageRange,
-			keywords: story.tags
+			keywords: story.tags,
+			...(story.audio?.available
+				? {
+						hasPart: story.audio.chapters.map((audioChapter) => ({
+							'@type': 'AudioObject',
+							name:
+								story.chapters.find((chapter) => chapter.id === audioChapter.id)?.title ||
+								`Chapter ${audioChapter.id}`,
+							contentUrl: absoluteUrl(audioChapter.audioUrl),
+							encodingFormat: 'audio/mpeg'
+						}))
+					}
+				: {})
 		})
 	);
 </script>

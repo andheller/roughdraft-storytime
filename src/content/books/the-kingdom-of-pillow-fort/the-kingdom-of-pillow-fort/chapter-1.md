@@ -1,5 +1,14 @@
 # Chapter 1: Before You Crown Yourself
 
+<div class="story-illustration-wrap">
+  <img
+    src="/story-art/the-kingdom-of-pillow-fort/the-kingdom-of-pillow-fort/opening.png"
+    alt="A kid in a soup pot crown declares a pillow-fort micronation surrounded by maps, islands, and paperwork."
+    class="story-illustration"
+    loading="lazy"
+  />
+</div>
+
 Welcome to the 2026 edition of **How to Start Your Own Micronation**, a guide for dreamers, schemers, map-drawers, flag-wavers, and people who have looked at an island on a satellite map and whispered, "Mine."
 
 Before you place a soup pot on your head and declare yourself Supreme Admiral-Emperor of Whatever Bay, there is one terribly important thing to know:

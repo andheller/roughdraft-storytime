@@ -1,5 +1,14 @@
 # My Best Friend Fig
 
+<div class="story-illustration-wrap">
+  <img
+    src="/story-art/the-friend-in-the-frame/the-friend-in-the-frame/opening.png"
+    alt="Benjamin sits on the porch with Fig, whose edges blur like a figure in an old family photograph."
+    class="story-illustration"
+    loading="lazy"
+  />
+</div>
+
 I met Fig when I was five years old.
 
 It was the summer we moved to the new house, the one with the big backyard and the creaky stairs. Mom and Dad were busy unpacking boxes, and I was sitting on the porch, watching ants carry crumbs across the wood.

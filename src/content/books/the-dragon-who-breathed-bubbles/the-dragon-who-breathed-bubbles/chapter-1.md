@@ -1,69 +1,174 @@
 # The Bubble Problem
 
-Ember was a little dragon with purple scales, small golden wings, and a cave on Snapdragon Mountain full of ordinary dragon things: warm rocks, smoky soup, and a big brother who could light candles from across the room.
+<div class="story-illustration-wrap">
+  <img
+    src="/story-art/the-dragon-who-breathed-bubbles/the-dragon-who-breathed-bubbles/opening.png"
+    alt="Ember, a small purple dragon, blowing a glowing bubble beside a tiny stone lamp in her cave classroom."
+    class="story-illustration"
+    loading="lazy"
+  />
+</div>
 
-Every other dragon on the mountain breathed fire. Big dragons made great roaring sheets of it. Little dragons managed sparks and puffs. Even the babies could cough out a little smoke when they were upset.
+On Snapdragon Mountain, every young dragon received a tinderbox on the first day of school.
 
-Ember could not.
+The tinderbox was not for lighting fires. Dragons could do that themselves. It was for proving you could make one neat flame, aim it carefully, and stop when the teacher said stop.
 
-When Ember tried to breathe fire, something very strange happened.
+Ember carried hers in both claws.
 
-*POOF!*
+It was small and brass and polished so bright she could see her worried purple face in the lid. Her name had been scratched on the side in tiny letters:
 
-Out came bubbles.
+**EMBER**
 
-Not one or two. Hundreds. Big bubbles. Small bubbles. Rainbow bubbles that floated up through the cave and bumped softly against the ceiling.
+"You will do fine," said Mama, smoothing the scales between Ember's horns.
 
-"Try again, sweetie," said her mom.
+"Probably," said Ember.
 
-Ember took a deep breath. She scrunched up her snout. She thought about campfires, peppers, lava, lightning.
+"Definitely," said Papa.
 
-*POOF!*
+Her older brother Blaze leaned against the cave wall and flicked one perfect flame from his nose to the breakfast candle. The wick caught at once.
 
-More bubbles. These were extra sparkly.
+"Just think hot thoughts," he said.
 
-Blaze shook his head. "You'll never be a real dragon like that," he said. Then he lit the candle on the table with one neat little flame, just to prove his point.
+Ember had tried hot thoughts.
 
-"Blaze," said their dad. "Enough."
+Campfires.
 
-Blaze was not trying to be cruel. That almost made it worse. He looked honestly confused, as if Ember had failed a test every dragon was supposed to pass without thinking.
+Pepper soup.
 
-The next day at dragon school, all the young dragons practiced fire-breathing.
+Lava puddles.
 
-Cinder made a perfect ring of flame.
+The feeling of stepping on a sun-warmed rock after swimming in Shimmer Lake.
 
-Ash shot fire ten feet in the air.
+None of them helped.
 
-Smoke made sparks that crackled and popped like fireworks.
+At school, the practice cave smelled of smoke, chalk dust, and nervous tails. Ms. Kindle, who was old enough that her horns had gone silver at the tips, lined the students beside a row of tiny stone lamps.
 
-Then it was Ember's turn.
+"Small flames," she reminded them. "Kind flames. A dragon who cannot stop a fire should not start one."
 
-She took the deepest breath she had ever taken. She thought about being brave. She thought about being strong. She thought about not messing this up in front of everyone.
+Cinder lit her lamp with a tidy orange puff.
 
-*POOF!*
+Ash made sparks that crackled like popcorn.
 
-Bubbles. So many bubbles they filled the practice cave. They bounced off snouts and wings, and one landed right on the teacher's nose with a wet little *pop*.
+Blaze, who was there as a helper because he loved being impressive near younger dragons, lit three lamps in a row and pretended not to notice everyone watching.
 
-Some of the dragons laughed into their claws. One didn't even bother hiding it.
+Then Ms. Kindle nodded to Ember.
 
-Ember felt heat climb into her face, the wrong kind.
+Ember stepped forward.
 
-She flew home as fast as her little wings could carry her and curled up in her room with her stuffed dragon, Sir Burnsworth.
+Her wings felt too small. Her tinderbox felt too heavy. Every dragon in the cave seemed to be holding their breath, which was not fair, because Ember needed all the breath she could get.
 
-"What good is a dragon who only makes bubbles?" she whispered.
+She opened the little brass box.
 
-Sir Burnsworth did not answer, because he was a stuffed dragon. But he was soft, and that helped a little.
+She lowered her snout.
 
-Later, through the cave wall, she heard Blaze talking to their parents. Ember held still under her blanket and listened.
+She thought the hottest thought she had.
 
-"The other kids asked me why my sister is broken," Blaze said. "I didn't know what to tell them."
+_POOF._
 
-There was a long silence.
+A bubble floated out.
 
-"She isn't broken," said their mom, in the voice that ended conversations.
+Not a flame-shaped bubble. Not a bubble with fire inside it. Just a round, shining, soap-bright bubble that drifted down and settled gently over the stone lamp.
 
-But Ember pulled the blanket over her head anyway. Her mom sounded certain. Ember did not.
+It made the lamp look as if it were wearing a glass hat.
 
-That night she breathed bubbles out the window and watched them drift toward the moon. Up there they looked silver instead of rainbow, and for a minute the whole sky seemed full of them.
+For one second, nobody moved.
 
-Pretty things could still make you lonely.
+Then the bubble popped.
+
+The lamp remained unlit.
+
+Someone snorted. Someone else laughed into a claw. Blaze stared at the ceiling like he had discovered something urgent up there.
+
+Ember tried again quickly.
+
+_POOF. POOF. POOF._
+
+Three more bubbles floated out. One bumped Ms. Kindle on the nose and popped with a tiny wet sound.
+
+The laughter grew.
+
+Ember's face went hot, which felt especially unfair because the heat was everywhere except where she needed it.
+
+"Enough," said Ms. Kindle.
+
+The cave went quiet.
+
+Ms. Kindle picked up the brass tinderbox, wiped a bubble smear from the lid, and handed it back to Ember.
+
+"A flame is not the only useful thing a breath can carry," she said.
+
+The others did not laugh at Ms. Kindle. Nobody laughed at Ms. Kindle unless they had written a very thoughtful apology first.
+
+But Ember knew what they were thinking.
+
+At recess, she sat behind the warm-rock wall and blew bubbles into a shady corner where nobody could see. The bubbles gathered under a fern, trembling with rainbow colors.
+
+Inside one, Ember could hear the tiniest echo of her own sigh.
+
+She leaned closer.
+
+"Hello?" she whispered.
+
+The bubble quivered.
+
+When it popped, her whisper came out again.
+
+_"Hello?"_
+
+Ember blinked.
+
+She blew another bubble and whispered into it.
+
+"I wish I could be normal."
+
+The bubble floated up, bumped a fern leaf, and popped.
+
+_"I wish I could be normal."_
+
+Ember stared at the empty air.
+
+That was new.
+
+By the time she got home, she had learned three things.
+
+Bubbles could carry whispers.
+
+Bubbles could carry humming.
+
+Bubbles could carry a secret all the way across the practice yard, as long as nobody poked them with a claw.
+
+She wanted to tell someone. She almost told Blaze at dinner.
+
+Then he said, "The little dragons asked why my sister breathes bathwater."
+
+Papa set down his spoon.
+
+"Blaze."
+
+"I didn't say it," Blaze protested. "They did."
+
+"And what did you say back?" Mama asked.
+
+Blaze looked uncomfortable. "I said she was still learning."
+
+Still learning.
+
+It was not the worst answer. That almost made it worse.
+
+Ember slid from the table and went to the cave mouth. Below Snapdragon Mountain, Shimmer Lake caught the evening light. The old bridge stretched across the river like a gray ribbon, and beyond it stood a lonely stone shape under the arch.
+
+Grumbold, the bridge-keeper, was there as always.
+
+Every dragon flew over his bridge.
+
+Nobody stopped.
+
+Ember blew one bubble into the twilight and whispered into it.
+
+"Maybe I am still learning."
+
+The bubble drifted toward the moon.
+
+When it popped, the whisper came back silver and small.
+
+_"Maybe I am still learning."_

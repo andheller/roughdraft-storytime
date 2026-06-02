@@ -216,6 +216,13 @@ function deriveEmoji(story) {
 }
 
 async function resolveCoverImage(seriesId, storyId, storyData) {
+	for (const extension of COVER_EXTENSIONS) {
+		const nestedCoverPath = path.join(STATIC_ROOT, 'covers', seriesId, `${storyId}${extension}`);
+		if (await pathExists(nestedCoverPath)) {
+			return `/covers/${seriesId}/${storyId}${extension}`;
+		}
+	}
+
 	if (storyData.coverImage) {
 		const coverPath = storyData.coverImage.startsWith('/')
 			? path.join(STATIC_ROOT, storyData.coverImage.slice(1))

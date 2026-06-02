@@ -1,5 +1,14 @@
 # Chapter 4: The Great Quiet Retrieval
 
+<div class="story-illustration-wrap">
+  <img
+    src="/story-art/silly-squirrels/the-silly-squirrels-library-book-rocket/chapter-4.png"
+    alt="The Nutwobbles tiptoe through the library gathering scattered books as Miss Maple watches for quiet."
+    class="story-illustration"
+    loading="lazy"
+  />
+</div>
+
 Libraries are supposed to be quiet.
 
 The book rocket made this extremely hard.

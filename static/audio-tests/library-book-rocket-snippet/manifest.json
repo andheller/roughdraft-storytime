@@ -1,15 +1,15 @@
 {
   "label": "library-book-rocket-snippet",
-  "generatedAt": "2026-04-22T00:30:26.185Z",
+  "generatedAt": "2026-04-24T19:25:06.411Z",
   "model": "eleven_multilingual_v2",
-  "output_format": "mp3_44100_128",
+  "output_format": "mp3_44100_192",
   "voice_settings": {
-    "stability": 0.5,
-    "similarity_boost": 0.75,
-    "style": 0,
+    "stability": 0.68,
+    "similarity_boost": 0.88,
+    "style": 0.08,
     "use_speaker_boost": true
   },
-  "text": "The Nutville Library had a problem with returns.\nNot ordinary returns.\nNot one-book-under-the-couch returns.\nAn avalanche of overdue books.\nMiss Maple, the librarian, had sent reminder notes to the whole town.\nSome books were under beds.\nSome were in wagons.\nOne cookbook had somehow been borrowed by the goose.",
+  "text": "The Nutville Library had a problem with returns. Not ordinary returns. Not one-book-under-the-couch returns. An avalanche of overdue books.\n\nMiss Maple, the librarian, had sent reminder notes to the whole town. Some books were under beds. Some were in wagons. One cookbook had somehow been borrowed by the goose.",
   "voices": [
     {
       "name": "Amelia",

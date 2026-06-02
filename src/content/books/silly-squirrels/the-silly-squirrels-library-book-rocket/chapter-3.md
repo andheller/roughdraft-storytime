@@ -1,5 +1,14 @@
 # Chapter 3: Chapter Books in the Sky
 
+<div class="story-illustration-wrap">
+  <img
+    src="/story-art/silly-squirrels/the-silly-squirrels-library-book-rocket/chapter-3.png"
+    alt="Books arc over Nutville rooftops while the Nutwobbles try to catch them with nets and cushions."
+    class="story-illustration"
+    loading="lazy"
+  />
+</div>
+
 Mayor Buttersworth stacked the three novels in the launcher cradle.
 
 One was a detective story.

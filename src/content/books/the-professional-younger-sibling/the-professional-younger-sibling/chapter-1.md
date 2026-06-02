@@ -1,5 +1,14 @@
 # Chapter 1: My Professional Qualifications
 
+<div class="story-illustration-wrap">
+  <img
+    src="/story-art/the-professional-younger-sibling/the-professional-younger-sibling/opening.png"
+    alt="Riley looks innocent over cereal while older siblings investigate a sugar and salt kitchen disaster."
+    class="story-illustration"
+    loading="lazy"
+  />
+</div>
+
 My name is Riley and I have the best job in the world. I am a professional younger sibling, which means I get paid in extra dessert and staying up late sometimes. Not actual money, obviously. The economy of younger siblings is more dessert-based.
 
 I have been doing this job for seven years now, which is my whole life, so I think I'm pretty much an expert. My older siblings are Alex, who is fifteen and runs the house like it's a small country that he's president of; Sam, who is twelve and so quiet you can forget she's in the room until she says one sentence that makes everyone feel dumb; and Jordan, who is ten and has never once in his life done something the normal way when a loud, messy, exciting way was available.

@@ -1,25 +1,26 @@
 {
-  "title": "The Dragon Who Breathed Bubbles",
-  "description": "Ember is a little dragon who breathes bubbles instead of fire. When a lonely troll's tears block the only bridge to Shimmer Lake, Ember discovers that her bubbles can carry something more powerful than flames.",
-  "author": "Roughdraft Stories",
-  "ageRange": "4-8",
-  "genre": "Fantasy",
-  "tags": ["dragons", "friendship", "being different", "loneliness", "bravery", "empathy"],
-  "chapters": [
-    {
-      "id": 1,
-      "title": "The Bubble Problem",
-      "file": "chapter-1.md"
-    },
-    {
-      "id": 2,
-      "title": "The Troll Under the Bridge",
-      "file": "chapter-2.md"
-    },
-    {
-      "id": 3,
-      "title": "What Bubbles Are For",
-      "file": "chapter-3.md"
-    }
-  ]
+	"title": "The Dragon Who Breathed Bubbles",
+	"description": "Ember is the only young dragon on Snapdragon Mountain whose breath makes bubbles instead of fire. When Grumbold's lonely tears seal the bridge to Shimmer Lake, Ember learns that a bubble can carry the one thing fire cannot: a voice that needs to be heard.",
+	"author": "Roughdraft Stories",
+	"coverImage": "/story-art/the-dragon-who-breathed-bubbles/the-dragon-who-breathed-bubbles/opening.png",
+	"ageRange": "4-8",
+	"genre": "Fantasy",
+	"tags": ["dragons", "friendship", "being different", "loneliness", "bravery", "empathy"],
+	"chapters": [
+		{
+			"id": 1,
+			"title": "The Bubble Problem",
+			"file": "chapter-1.md"
+		},
+		{
+			"id": 2,
+			"title": "The Troll Under the Bridge",
+			"file": "chapter-2.md"
+		},
+		{
+			"id": 3,
+			"title": "What Bubbles Are For",
+			"file": "chapter-3.md"
+		}
+	]
 }

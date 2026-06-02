@@ -1,5 +1,14 @@
 # The Last Pine
 
+<div class="story-illustration-wrap">
+  <img
+    src="/story-art/downriver/downriver/opening.png"
+    alt="Samuel stands with his parents near a logging camp as men assemble a huge timber raft on the thawing river."
+    class="story-illustration"
+    loading="lazy"
+  />
+</div>
+
 The last pine came down on a Tuesday morning in April. Samuel watched it fall. The tree was taller than any building he had ever seen, and when it hit the frozen ground the impact shook through his boots and up into his chest.
 
 "That's the end of it," his father said. "Camp's done."

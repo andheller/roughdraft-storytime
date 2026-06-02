@@ -1,5 +1,14 @@
 # The Invitation List
 
+<div class="story-illustration-wrap">
+  <img
+    src="/story-art/the-girl-who-was-accidentally-betrothed-to-a-dragon/the-girl-who-was-accidentally-betrothed-to-a-dragon/opening.png"
+    alt="Lady Wren reads an invitation list while her parents react to a framed portrait of a scholarly dragon."
+    class="story-illustration"
+    loading="lazy"
+  />
+</div>
+
 The year that Lady Wren Fitzgerald turned seventeen, she was the fourteenth most eligible young woman in the kingdom of Briarwell. This was a significant improvement from the previous year, when she had ranked twenty-third, largely due to her unfortunate habit of correcting adults about beetles.
 
 "That's not a ladybug," she had told the Duchess of Pemberton at last year's Spring Ball. "That's a *Harmonia axyridis*, the Asian lady beetle. You can tell by the M-shaped marking on the pronotum. Ladybugs have spots that are more—"

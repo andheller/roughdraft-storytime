@@ -1,5 +1,14 @@
 # Chapter 1: Special Delivery
 
+<div class="story-illustration-wrap">
+  <img
+    src="/story-art/the-delivery-drone-that-wouldnt-leave/opening.png"
+    alt="Mira holding a box of new running shoes while a small delivery drone hovers outside her bedroom window."
+    class="story-illustration"
+    loading="lazy"
+  />
+</div>
+
 The drone arrived on a Tuesday, which was fitting because Tuesday was already the worst day of Mira Okonkwo's week.
 
 Tuesdays meant track practice, and track practice meant Coach Reeves would post the roster for Saturday's meet on the gym door, and the roster would once again list Mira as "alternate," which was a polite way of saying "bring a folding chair and look supportive."
@@ -64,7 +73,7 @@ The drone sat there for a full minute, then beeped happily.
 
 Mira buried her face in her pillow. Through the fabric, she could just barely hear her phone buzzing. A text from Dev.
 
-**Dev:** *yo did you check the roster yet*
+**Dev:** _yo did you check the roster yet_
 
 She had not checked the roster. The roster was posted online at 7 AM on Wednesdays, and she had been so busy being terrorized by a flying appliance that she'd forgotten.
 
@@ -100,7 +109,7 @@ Great. A drone that couldn't take a hint and couldn't take a joke. Exactly what 
 
 "Have you tried talking to the company?"
 
-Mira pulled out her phone and showed him the email chain. Seventeen messages. Each response was some variation of *Thank you for contacting SwiftWing Delivery! Our records show your package was successfully delivered. Have a wonderful day!*
+Mira pulled out her phone and showed him the email chain. Seventeen messages. Each response was some variation of _Thank you for contacting SwiftWing Delivery! Our records show your package was successfully delivered. Have a wonderful day!_
 
 "They're gaslighting you," Dev said solemnly.
 

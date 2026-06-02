@@ -1,5 +1,14 @@
 # Chapter 1: A Child Taken Across the Atlantic
 
+<div class="story-illustration-wrap">
+  <img
+    src="/story-art/history-close-up/phillis-wheatley-and-the-words-of-liberty/opening.png"
+    alt="Phillis Wheatley sits at a writing desk in colonial Boston, looking toward harbor light with a quill in hand."
+    class="story-illustration"
+    loading="lazy"
+  />
+</div>
+
 Phillis Wheatley entered recorded history through violence.
 
 She was born in West Africa, probably in the region that is now Senegal or Gambia, around 1753. The exact details of her family, language, and early childhood are not fully known. That loss is not accidental. The Atlantic slave trade broke families, erased names, and turned children into cargo. What later generations know about Phillis begins only after she had already been taken from her home.

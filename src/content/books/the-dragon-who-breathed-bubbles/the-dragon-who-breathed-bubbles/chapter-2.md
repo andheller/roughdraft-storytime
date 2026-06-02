@@ -1,121 +1,189 @@
-# The Troll Under the Bridge
+# The Bridge That Wouldn't Let Go
 
-The next morning, Ember woke to shouting in the village square.
+The next morning, the village bell rang before breakfast.
 
-"NOBODY CROSS THE BRIDGE!" boomed Mayor Furnace, a big orange dragon with a hat that looked important enough to make its own announcements. "Grumbold the troll has blocked the way to Shimmer Lake!"
+Not the little bell for market day.
 
-That was bad news. Shimmer Lake was where the whole village got its water.
+Not the medium bell for "somebody has dropped jam in the library again."
 
-Ember flew down to listen. The square was packed with dragons talking over each other in worried voices.
+The big bell.
 
-"Grumbold's covered the bridge in sticky goo," the mayor explained. "Three dragons tried to get through. They're stuck to it right now."
+The one that meant trouble.
 
-"We'll burn it down!" roared Blaze, puffing smoke from his nostrils.
+Ember flew to the square with Mama, Papa, and Blaze. Dragons crowded around Mayor Furnace, who wore his important hat crooked, which meant the trouble had arrived faster than his dignity.
 
-"Already tried," said the mayor. "Fire makes it stickier. And hotter. And much smellier."
+"Nobody cross the bridge!" the mayor boomed. "The way to Shimmer Lake is blocked."
 
-The dragons argued about melting the goo, flying over it, tunneling under it, and several other plans that sounded brave from a distance.
+A rumble passed through the crowd.
 
-Ember stopped listening. She was watching the bridge.
+Shimmer Lake was where the village filled its water barrels. It was where hatchlings learned to swim. It was where Ms. Kindle cooled her tea by dangling the kettle from a fishing pole, which everyone agreed was strange but effective.
 
-From there she could see Grumbold behind the wall of green goo. He was huge, hunched, and shaking.
+"What happened?" Mama asked.
+
+"Grumbold," said Mayor Furnace.
+
+Everyone looked toward the river.
+
+The old bridge was no longer a gray ribbon. It was a lump of greenish goo.
+
+Goo hung from the railings. Goo dripped between the stones. Goo stretched from one side of the path to the other in shining sticky ropes.
+
+Three dragons were stuck in it.
+
+Plum had one wing glued to a post. Garnet was attached tail-first to the left railing. Old Flicker hung sideways with the offended patience of someone who had seen worse but did not appreciate seeing this.
+
+Behind the goo, under the arch, Grumbold covered his face with both huge hands.
 
 He was crying.
 
-*That's not anger,* Ember thought. *That's misery.*
+Each tear hit the stones with a splat and spread into more goo.
 
-Nobody noticed when she spread her wings and flew toward the bridge.
+"We'll burn through it," Blaze said at once.
 
-Nobody except Blaze.
+"Tried that," Mayor Furnace said. "Fire makes it stickier."
 
-"Ember, STOP!" he yelled. "You'll get stuck! You can't even..."
+"Then we'll pull them out."
 
-He didn't finish. He didn't have to.
+"Tried that too. The pulling dragon is now also stuck."
 
-Ember kept flying.
+"We'll fly over."
 
-The bridge was a mess. Goo hung from the railings in long drips. The three stuck dragons, Plum, Garnet, and old Flicker, were glued to it at odd angles, tired and annoyed.
+"That is how Garnet got tail-first."
 
-"Don't come closer!" called Plum. "You'll get stuck too!"
+The village began arguing in worried circles.
 
-Ember landed on a clean rock at the edge of the goo. Up close, Grumbold was as tall as a cottage, with mossy skin and huge round eyes spilling tears faster than he could wipe them away.
+Ember listened for a moment, then stopped. The adults were talking about goo, but nobody was talking about Grumbold.
 
-"Mr. Grumbold?" she called softly.
+He shook under the bridge, enormous and mossy and miserable.
 
-"GO AWAY!" he wailed, and a fresh wash of tears hit the ground. The goo crept closer to Ember's rock.
+Ember thought of her whisper bubble from the night before.
 
-*The goo is his tears,* Ember realized. *The more he cries, the worse it gets.*
+A flame is not the only useful thing a breath can carry.
 
-"I just want to talk," she said.
+She slipped away from the crowd.
 
-"NOBODY WANTS TO TALK TO ME! THAT'S THE WHOLE PROBLEM!"
+Blaze noticed first.
 
-He cried harder. The goo bubbled and spread.
+"Ember, wait. You can't go down there."
 
-Ember sat on her rock and thought. Fire would only harden it. Yelling would only make him cry harder.
+"I'm not going on the bridge."
 
-She needed to send him something gentle.
+"You're going toward the bridge. That counts."
 
-She looked at her claws, still shimmery from her morning bubbles, and had a small idea. The kind of idea you tried only when bigger ones had already failed.
+She kept flying.
 
-She took a breath and blew one bubble. As it formed, she hummed into it, the little lullaby her mom always sang at bedtime.
+The air near the river smelled sour and damp. Ember landed on a clean boulder just beyond the edge of the goo. Plum saw her and waved her free claw.
 
-The bubble drifted away from her mouth, carrying the sound with it.
+"Stay back! This stuff has opinions."
 
-She sent it toward Grumbold.
+"Mr. Grumbold?" Ember called.
 
-It crossed the goo, slid past the stuck dragons, and came to rest by his face.
+Grumbold groaned. "Go away."
 
-*Pop.*
+His voice was so low it made the boulder hum.
 
-The lullaby spilled out, soft and warm.
+"I can't. Everyone needs the bridge."
 
-Grumbold stopped crying for one surprised second.
+"Then tell them to fly over."
+
+"They tried."
+
+Grumbold peeked through his fingers. One eye was red from crying. "Oh."
+
+Another tear fell.
+
+The goo crept toward Ember's boulder.
+
+She took one careful step back.
+
+"Why is this happening?" she asked.
+
+"Because I am terrible," Grumbold said.
+
+That was not an answer. It was a feeling wearing an answer's coat.
+
+Ember took a breath and made one bubble. She hummed into it, the bedtime tune Mama used when storms walked around the mountain.
+
+The bubble floated across the goo. It bobbed past Plum, slipped under Garnet's trapped tail, and touched Grumbold's shoulder.
+
+_Pop._
+
+The tune came out soft and warm.
+
+Grumbold stopped crying.
+
+Only for a second.
+
+But a second was something.
 
 "What was that?" he whispered.
 
-It worked.
+"A bubble," Ember said.
 
-She blew another bubble and spoke into it. "My name is Ember. I'm a dragon who can't breathe fire."
+"Bubbles don't sing."
 
-The bubble floated to him and popped by his ear.
+"Mine do sometimes."
 
-He stared at her. "A dragon who can't breathe fire?"
+He lowered his hands a little more.
 
-"I breathe bubbles instead," Ember said, sending two more after the first. "Everyone thinks I'm broken."
+Ember blew another bubble and spoke into it.
 
-Grumbold cupped one bubble gently in his palm. It trembled there, full of rainbow light.
+"I'm Ember. I can't breathe fire."
 
-"I know about that," he said. His voice had gone quiet. "I've been under this bridge for a hundred years. Dragons fly over every day. Nobody stops. Nobody says hello. Nobody even looks down."
+The bubble crossed the sticky bridge and popped by his ear.
 
-He sniffed. One tear dropped. One little blob of goo followed it.
+Grumbold stared. "A dragon who cannot breathe fire?"
 
-"So I made a wall. I thought if they had to stop, maybe they'd finally talk to me. Now they're stuck and scared and furious, and I made everything worse."
+"I breathe bubbles."
 
-His mouth twisted, and another tear started.
+"Is that allowed?"
 
-"Wait," Ember said, blowing a quick bubble after it. "I'm still here. I stopped. I'm looking right at you."
+"Nobody has stopped me yet."
 
-The bubble popped by his ear.
+That made Plum snort, which made the goo wobble around her wing.
 
-He looked at her then, really looked, at the small purple dragon sitting at the edge of all the trouble he had made.
+Grumbold almost smiled. Then his face folded again.
 
-"You did stop," he said. "You're the only one who did."
+"I didn't mean to trap anyone," he said. "I only wanted the dragons to stop."
 
-Behind Ember, wings beat hard through the air.
+"Stop for what?"
 
-Blaze was flying toward the bridge, fast and worried.
+"For me."
 
-"EMBER! I'm coming to get you!"
+His voice cracked on the last word, and fresh tears gathered in his eyes.
 
-"Blaze, no. Don't fly over..."
+Ember quickly blew three bubbles and sent them bobbing around his face. They reflected him back in tiny rainbow pieces: his mossy nose, his worried mouth, his enormous sad eyes.
 
-Too late. A tower of goo snapped up around Blaze's tail. He yelped, flapped hard, and got stuck to the bridge railing anyway.
+"I have kept this bridge for one hundred years," Grumbold said. "I sweep it after storms. I mend the stones. I push fallen branches out of the river. Dragons cross every day. They fly over my head and say, 'Good bridge,' but never 'Good morning, Grumbold.'"
 
-"OW! It's in my scales!"
+He swallowed.
 
-Grumbold flinched. "I'm sorry. I can't control it when I'm upset." More tears slid down. More goo followed.
+"Yesterday Mayor Furnace said the bridge was useful. The bridge. Not me. So I cried. Then the tears hardened. Then everyone got angry. Then I cried more."
 
-Ember looked at her brother, stuck and scared. She looked at Grumbold, sick with guilt. Fire would not fix this. Muscle would not fix it.
+The goo shivered and spread.
 
-Her bubbles might.
+From the hilltop, Blaze shouted, "Ember! I'm coming!"
+
+"Don't!" Ember called.
+
+Too late.
+
+Blaze swooped low, fast and bright, trying to look brave enough for everyone. A rope of goo snapped upward and caught his back claws.
+
+He yelped, flapped, spun, and stuck to the railing beside Plum.
+
+"I meant to do that," he said weakly.
+
+Plum looked at him. "No, you didn't."
+
+Grumbold covered his face again. "I made it worse."
+
+The goo rose around the stones.
+
+Ember looked at the stuck dragons. She looked at the worried village. She looked at Grumbold, who had wanted to be seen and had accidentally become impossible to ignore.
+
+Fire could not fix this.
+
+Pulling could not fix this.
+
+But maybe a voice could travel where dragons had not.

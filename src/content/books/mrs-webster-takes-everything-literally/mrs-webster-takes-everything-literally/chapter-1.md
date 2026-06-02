@@ -1,5 +1,14 @@
 # The Warnings
 
+<div class="story-illustration-wrap">
+  <img
+    src="/story-art/mrs-webster-takes-everything-literally/mrs-webster-takes-everything-literally/opening.png"
+    alt="Marcus receives worried classroom warnings while Mrs. Webster smiles beside literal idiom props."
+    class="story-illustration"
+    loading="lazy"
+  />
+</div>
+
 On my first day at Brookdale Elementary, three different kids warned me about Mrs. Webster. I should have listened.
 
 The first warning came from a girl named Destiny at the lockers. She had braids with little purple beads that clicked when she moved her head, and she looked at me like I was walking into a burning building.

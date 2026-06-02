@@ -1,5 +1,14 @@
 # A Cat Is Not a Friend
 
+<div class="story-illustration-wrap">
+  <img
+    src="/story-art/someone-should-have-told-me/someone-should-have-told-me/opening.png"
+    alt="Frankie documents the rules while Bean studies one fish cracker and an orange cat waits on the porch."
+    class="story-illustration"
+    loading="lazy"
+  />
+</div>
+
 I have to tell you about my week, but first you need to understand about the rules, because the rules are important. The rules are the whole point. If you don't understand the rules, you won't understand why none of this was my fault.
 
 Mom put the rules on the refrigerator on Monday morning, before she left for her new important job meetings. She used the magnet from the dentist, the one shaped like a tooth. I don't like that magnet. The tooth is smiling, and teeth don't smile. Teeth are just there, doing their job, not being happy about it.

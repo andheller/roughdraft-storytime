@@ -1,5 +1,14 @@
 # The Worst Best Day
 
+<div class="story-illustration-wrap">
+  <img
+    src="/story-art/the-wrong-pet-club/the-wrong-pet-club/opening.png"
+    alt="Maya compares her perfect dog checklist with Speedy, a calm three-legged shelter dog."
+    class="story-illustration"
+    loading="lazy"
+  />
+</div>
+
 I had a plan.
 
 The plan was called "Maya's Perfect Dog Plan" and it lived in a spreadsheet on Mom's computer. I'd been adding to it for seven months. There were columns for breed, size, speed, trainability, and "likelihood to go running with me every single morning." I had researched. I had prepared. I had ranked seventeen different dogs from best to worst based on data.

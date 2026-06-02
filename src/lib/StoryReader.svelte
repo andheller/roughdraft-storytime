@@ -34,6 +34,12 @@
 		currentChapter = chapterNumber;
 	}
 
+	function handleChapterLinkClick(event, chapterNumber) {
+		event.preventDefault();
+		scrollToChapter(chapterNumber);
+		history.replaceState(null, '', `#chapter-${chapterNumber}`);
+	}
+
 	function goToNextChapter() {
 		if (currentChapter < story.chapters.length) {
 			currentChapter += 1;
@@ -53,7 +59,7 @@
 
 {#if story && chaptersWithContent.length > 0}
 	<div class="story-container mx-auto max-w-[700px] px-5 py-3 sm:px-8">
-		<header class="mb-8 pt-8 pb-6">
+		<header class="story-masthead mb-8 pt-8 pb-6">
 			<div class="mb-8">
 				<h1
 					class="mb-4 {fontClass} text-6xl font-semibold tracking-tight text-pretty text-stone-950 dark:text-stone-50"
@@ -66,7 +72,7 @@
 			</div>
 
 			<!-- Metadata pills -->
-			<div class="mb-8 flex flex-wrap gap-2">
+			<div class="story-metadata mb-8 flex flex-wrap gap-2">
 				<span
 					class="rounded-full border border-stone-200 px-3 py-1.5 text-sm font-medium text-stone-600 tabular-nums dark:border-stone-700 dark:text-stone-400"
 				>
@@ -128,22 +134,27 @@
 			{/if}
 
 			<!-- Table of Contents -->
-			<div class="no-lift">
+			<div class="no-lift story-contents">
 				<p class="mb-4 text-sm font-medium text-stone-500 dark:text-stone-400">Contents</p>
-				<div role="list" class="divide-y divide-stone-950/8 dark:divide-white/8">
+				<div role="list" class="chapter-trail">
 					{#each story.chapters as chapter (chapter.number)}
 						<div role="listitem">
 							<a
 								href="#chapter-{chapter.number}"
+								class:active={currentChapter === chapter.number}
 								class="group flex items-baseline justify-between py-2.5"
 								title="Jump to {chapter.title}"
+								onclick={(event) => handleChapterLinkClick(event, chapter.number)}
 							>
+								<span aria-hidden="true" class="chapter-dot"></span>
 								<span
-									class="text-sm font-medium text-stone-800 transition-colors group-hover:text-stone-950 dark:text-stone-300 dark:group-hover:text-stone-50"
+									class="chapter-link-title text-sm font-medium text-stone-800 transition-colors group-hover:text-stone-950 dark:text-stone-300 dark:group-hover:text-stone-50"
 								>
 									{chapter.title}
 								</span>
-								<span class="ml-4 shrink-0 text-sm text-stone-400 tabular-nums dark:text-stone-600">
+								<span
+									class="chapter-number ml-4 shrink-0 text-sm text-stone-400 tabular-nums dark:text-stone-600"
+								>
 									{chapter.number}
 								</span>
 							</a>
@@ -158,7 +169,11 @@
 			class="prose prose-lg prose-stone dark:prose-invert max-w-none text-stone-900 {fontClass} story-content dark:text-stone-100"
 		>
 			{#each chaptersWithContent as chapter (chapter.number)}
-				<section id="chapter-{chapter.number}" class="mb-4 scroll-mt-24">
+				<section
+					id="chapter-{chapter.number}"
+					class="story-chapter mb-4 scroll-mt-24"
+					style="--chapter-number: '{chapter.number}'"
+				>
 					<div class="chapter-content py-8">
 						<!-- eslint-disable-next-line svelte/no-at-html-tags -->
 						{@html chapter.html}
@@ -168,7 +183,7 @@
 		</main>
 
 		<!-- Story End -->
-		<div class="not-prose mt-20 py-12 text-center">
+		<div class="not-prose story-end mt-20 py-12 text-center">
 			<div class="mb-6 text-4xl font-semibold tracking-tight text-stone-900 dark:text-stone-100">
 				🎉 The End! 🎉
 			</div>
@@ -196,6 +211,130 @@
 	/* Smooth scrolling for the whole page */
 	:global(html) {
 		scroll-behavior: smooth;
+	}
+
+	:global(.story-container) {
+		--story-accent: #2688dd;
+		--story-accent-soft: rgba(38, 136, 221, 0.16);
+		--story-paper: rgba(255, 255, 255, 0.62);
+		--story-ink-soft: rgba(41, 37, 36, 0.5);
+	}
+
+	:global(.dark .story-container) {
+		--story-accent: #7cc7ff;
+		--story-accent-soft: rgba(124, 199, 255, 0.16);
+		--story-paper: rgba(255, 255, 255, 0.04);
+		--story-ink-soft: rgba(245, 245, 244, 0.38);
+	}
+
+	.story-masthead {
+		position: relative;
+	}
+
+	.story-masthead::before {
+		content: '';
+		position: absolute;
+		top: 0.75rem;
+		right: 0;
+		width: min(8rem, 28vw);
+		height: 0.5rem;
+		border-block: 1px solid color-mix(in srgb, currentColor 10%, transparent);
+		opacity: 0.7;
+		background-image: repeating-linear-gradient(
+			90deg,
+			var(--story-accent) 0 0.5rem,
+			transparent 0.5rem 0.9rem
+		);
+		background-size: 1.8rem 100%;
+	}
+
+	:global(.story-metadata > span) {
+		background:
+			linear-gradient(180deg, rgba(255, 255, 255, 0.46), rgba(255, 255, 255, 0)), var(--story-paper);
+		box-shadow:
+			inset 0 1px 0 rgba(255, 255, 255, 0.6),
+			0 1px 2px rgba(0, 0, 0, 0.04);
+	}
+
+	:global(.dark .story-metadata > span) {
+		background: var(--story-paper);
+		box-shadow:
+			inset 0 1px 0 rgba(255, 255, 255, 0.08),
+			0 1px 2px rgba(0, 0, 0, 0.18);
+	}
+
+	.story-contents {
+		position: relative;
+		border-radius: 0.875rem;
+		padding: 1rem;
+		background: linear-gradient(180deg, var(--story-paper), rgba(255, 255, 255, 0));
+		box-shadow:
+			inset 0 0 0 1px rgba(120, 113, 108, 0.12),
+			inset 0 1px 0 rgba(255, 255, 255, 0.55);
+	}
+
+	:global(.dark .story-contents) {
+		background: var(--story-paper);
+		box-shadow:
+			inset 0 0 0 1px rgba(255, 255, 255, 0.08),
+			inset 0 1px 0 rgba(255, 255, 255, 0.06);
+	}
+
+	.chapter-trail {
+		position: relative;
+	}
+
+	.chapter-trail::before {
+		content: '';
+		position: absolute;
+		top: 1.25rem;
+		bottom: 1.25rem;
+		left: 0.375rem;
+		width: 1px;
+		background: linear-gradient(180deg, transparent, rgba(120, 113, 108, 0.28), transparent);
+	}
+
+	:global(.story-contents a) {
+		position: relative;
+		gap: 0.75rem;
+		border-radius: 0.5rem;
+		padding-inline: 0.25rem 0.375rem;
+	}
+
+	:global(.story-contents a:hover),
+	:global(.story-contents a.active) {
+		background: var(--story-accent-soft);
+	}
+
+	.chapter-dot {
+		position: relative;
+		z-index: 1;
+		display: inline-grid;
+		width: 0.8rem;
+		height: 0.8rem;
+		flex: 0 0 auto;
+		align-self: center;
+		place-items: center;
+		border-radius: 999px;
+		border: 2px solid rgba(120, 113, 108, 0.18);
+		background: color-mix(in srgb, var(--story-paper) 80%, white);
+		box-shadow: 0 0 0 3px color-mix(in srgb, var(--story-paper) 80%, transparent);
+	}
+
+	:global(.story-contents a:hover .chapter-dot),
+	:global(.story-contents a.active .chapter-dot) {
+		border-color: color-mix(in srgb, var(--story-accent) 60%, white);
+		background: var(--story-accent);
+	}
+
+	.chapter-link-title {
+		flex: 1;
+	}
+
+	.chapter-number {
+		border-radius: 999px;
+		padding: 0.1rem 0.45rem;
+		background: rgba(120, 113, 108, 0.08);
 	}
 
 	/* Better spacing between chapters */
@@ -228,11 +367,40 @@
 
 	/* Typography styles that adapt to current design */
 	:global(.story-container .prose h1) {
+		position: relative;
 		font-weight: 700;
-		margin-bottom: 1.5rem;
+		margin: 0 0 1.5rem;
+		padding-top: 1.65rem;
 		line-height: 1.3;
 		font-size: 2.5rem;
 		text-wrap: pretty;
+	}
+
+	:global(.story-container .prose h1::before) {
+		content: 'Chapter ' counter(story-chapter);
+		display: inline-flex;
+		width: fit-content;
+		margin-bottom: 0.65rem;
+		border: 1px solid rgba(120, 113, 108, 0.2);
+		border-radius: 999px;
+		padding: 0.18rem 0.65rem;
+		background: var(--story-paper);
+		box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5);
+		color: var(--story-ink-soft) !important;
+		font-family:
+			ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New',
+			monospace;
+		font-size: 0.75rem;
+		font-weight: 500;
+		line-height: 1.25;
+	}
+
+	.story-chapter {
+		counter-increment: story-chapter;
+	}
+
+	:global(.story-content) {
+		counter-reset: story-chapter;
 	}
 
 	:global(.story-container .prose h2) {
@@ -263,19 +431,51 @@
 	}
 
 	:global(.story-container .prose .story-illustration-wrap) {
-		margin: 0 0 2rem;
+		position: relative;
+		margin: 0.25rem 0 2.75rem;
+		border-radius: 0.95rem;
+		padding: 0.45rem;
+		background:
+			linear-gradient(180deg, rgba(255, 255, 255, 0.76), rgba(255, 255, 255, 0.36)),
+			color-mix(in srgb, var(--story-accent) 9%, #f5f5f2);
+		box-shadow:
+			inset 0 0 0 1px rgba(255, 255, 255, 0.8),
+			inset 0 2px 0 rgba(255, 255, 255, 0.65),
+			0 0 0 1px rgba(120, 113, 108, 0.14),
+			0 16px 34px rgba(41, 37, 36, 0.12);
+	}
+
+	:global(.story-container .prose .story-illustration-wrap::after) {
+		content: '';
+		position: absolute;
+		inset: 0.25rem;
+		pointer-events: none;
+		border-radius: 0.75rem;
+		border: 1px solid rgba(255, 255, 255, 0.58);
+		box-shadow: inset 0 0 0 1px rgba(41, 37, 36, 0.08);
 	}
 
 	:global(.story-container .prose .story-illustration) {
 		display: block;
 		width: 100%;
 		height: auto;
-		border-radius: 1.25rem;
+		border-radius: 0.65rem;
 		box-shadow:
-			0 18px 40px rgba(0, 0, 0, 0.14),
-			0 2px 10px rgba(0, 0, 0, 0.08);
-		border: 1px solid rgba(0, 0, 0, 0.08);
+			inset 0 1px 0 rgba(255, 255, 255, 0.4),
+			0 1px 2px rgba(0, 0, 0, 0.16);
+		border: 1px solid rgba(41, 37, 36, 0.14);
 		background: rgba(255, 255, 255, 0.55);
+	}
+
+	:global(.dark .story-container .prose .story-illustration-wrap) {
+		background:
+			linear-gradient(180deg, rgba(255, 255, 255, 0.09), rgba(255, 255, 255, 0.03)),
+			color-mix(in srgb, var(--story-accent) 12%, #111827);
+		box-shadow:
+			inset 0 0 0 1px rgba(255, 255, 255, 0.1),
+			inset 0 2px 0 rgba(255, 255, 255, 0.07),
+			0 0 0 1px rgba(255, 255, 255, 0.06),
+			0 16px 34px rgba(0, 0, 0, 0.34);
 	}
 
 	:global(.dark .story-container .prose .story-illustration) {
@@ -303,5 +503,31 @@
 		border-radius: 0 0.5rem 0.5rem 0;
 		font-style: italic;
 		opacity: 0.9;
+	}
+
+	.story-end {
+		position: relative;
+		border-radius: 1rem;
+		background:
+			linear-gradient(180deg, var(--story-paper), rgba(255, 255, 255, 0)),
+			repeating-linear-gradient(
+				90deg,
+				transparent 0 0.85rem,
+				color-mix(in srgb, var(--story-accent) 18%, transparent) 0.85rem 0.9rem
+			);
+		box-shadow:
+			inset 0 0 0 1px rgba(120, 113, 108, 0.12),
+			inset 0 1px 0 rgba(255, 255, 255, 0.5);
+	}
+
+	@media (max-width: 640px) {
+		:global(.story-container .prose h1) {
+			font-size: 2.1rem;
+		}
+
+		.story-contents {
+			margin-inline: -0.25rem;
+			padding: 0.75rem;
+		}
 	}
 </style>

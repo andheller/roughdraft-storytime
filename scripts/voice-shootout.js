@@ -16,11 +16,11 @@ const ELEVENLABS_API_BASE = 'https://api.elevenlabs.io/v1';
 
 const DEFAULT_CONFIG = {
 	model_id: 'eleven_multilingual_v2',
-	output_format: 'mp3_44100_128',
+	output_format: 'mp3_44100_192',
 	voice_settings: {
-		stability: 0.5,
-		similarity_boost: 0.75,
-		style: 0.0,
+		stability: 0.68,
+		similarity_boost: 0.88,
+		style: 0.08,
 		use_speaker_boost: true
 	}
 };
@@ -49,15 +49,9 @@ const SHOOTOUT_VOICES = [
 ];
 
 const DEFAULT_SNIPPET = [
-	'The Nutville Library had a problem with returns.',
-	'Not ordinary returns.',
-	'Not one-book-under-the-couch returns.',
-	'An avalanche of overdue books.',
-	'Miss Maple, the librarian, had sent reminder notes to the whole town.',
-	'Some books were under beds.',
-	'Some were in wagons.',
-	'One cookbook had somehow been borrowed by the goose.'
-].join('\n');
+	'The Nutville Library had a problem with returns. Not ordinary returns. Not one-book-under-the-couch returns. An avalanche of overdue books.',
+	'Miss Maple, the librarian, had sent reminder notes to the whole town. Some books were under beds. Some were in wagons. One cookbook had somehow been borrowed by the goose.'
+].join('\n\n');
 
 function getApiKey() {
 	if (process.env.ELEVENLABS_API_KEY) {
@@ -76,6 +70,15 @@ function slugify(value) {
 		.toLowerCase()
 		.replace(/[^a-z0-9]+/g, '-')
 		.replace(/^-+|-+$/g, '');
+}
+
+function normalizeNarrationText(text) {
+	return text
+		.replace(/\r\n/g, '\n')
+		.split(/\n{2,}/)
+		.map((paragraph) => paragraph.replace(/\s*\n\s*/g, ' ').replace(/\s+/g, ' ').trim())
+		.filter(Boolean)
+		.join('\n\n');
 }
 
 async function synthesizeSnippet({ voice, text, outputPath, config, apiKey }) {
@@ -103,6 +106,71 @@ async function synthesizeSnippet({ voice, text, outputPath, config, apiKey }) {
 	writeFileSync(outputPath, audioBuffer);
 }
 
+async function listAvailableVoices(apiKey) {
+	const response = await fetch(`${ELEVENLABS_API_BASE}/voices`, {
+		headers: {
+			'xi-api-key': apiKey,
+			Accept: 'application/json'
+		}
+	});
+
+	if (!response.ok) {
+		const errorText = await response.text();
+		throw new Error(`${response.status} ${errorText}`);
+	}
+
+	const data = await response.json();
+	return data.voices || [];
+}
+
+function loadVoicesFromFile(filePath) {
+	const voices = JSON.parse(readFileSync(resolve(projectRoot, filePath), 'utf8'));
+
+	if (!Array.isArray(voices)) {
+		throw new Error('Voice file must contain an array of voices');
+	}
+
+	return voices.map((voice) => ({
+		name: voice.name,
+		voice_id: voice.voice_id || voice.voiceId,
+		notes: voice.notes || voice.description || ''
+	}));
+}
+
+function getSelectedVoices(argv) {
+	let voices = argv.voiceFile ? loadVoicesFromFile(argv.voiceFile) : SHOOTOUT_VOICES;
+
+	if (argv.voiceId) {
+		voices = [
+			{
+				name: argv.voiceName || 'Custom Voice',
+				voice_id: argv.voiceId,
+				notes: argv.voiceNotes || 'Custom voice supplied by CLI'
+			}
+		];
+	}
+
+	const selectedVoiceNames = argv.voices
+		? new Set(
+				argv.voices
+					.split(',')
+					.map((value) => value.trim().toLowerCase())
+					.filter(Boolean)
+			)
+		: null;
+
+	return selectedVoiceNames
+		? voices.filter((voice) => selectedVoiceNames.has(voice.name.toLowerCase()))
+		: voices;
+}
+
+function getConfig(argv) {
+	return {
+		...DEFAULT_CONFIG,
+		model_id: argv.model || DEFAULT_CONFIG.model_id
+	};
+}
+
 async function main() {
 	const argv = yargs(hideBin(process.argv))
 		.option('file', {
@@ -114,6 +182,11 @@ async function main() {
 			default: 'library-book-rocket-snippet',
 			describe: 'Output folder label'
 		})
+		.option('model', {
+			type: 'string',
+			default: DEFAULT_CONFIG.model_id,
+			describe: 'ElevenLabs model ID'
+		})
 		.option('outdir', {
 			type: 'string',
 			default: 'exports/audio-tests',
@@ -122,6 +195,26 @@ async function main() {
 		.option('voices', {
 			type: 'string',
 			describe: 'Comma-separated subset of voices to render'
+		})
+		.option('voice-id', {
+			type: 'string',
+			describe: 'Render a single custom ElevenLabs voice ID'
+		})
+		.option('voice-name', {
+			type: 'string',
+			describe: 'Display name for --voice-id output'
+		})
+		.option('voice-notes', {
+			type: 'string',
+			describe: 'Notes for --voice-id manifest entry'
+		})
+		.option('voice-file', {
+			type: 'string',
+			describe: 'JSON array of voices with name, voice_id, and optional notes'
+		})
+		.option('list', {
+			type: 'boolean',
+			describe: 'List voices available to the configured ElevenLabs account'
 		})
 		.help()
 		.parse();
@@ -132,22 +225,27 @@ async function main() {
 		process.exit(1);
 	}
 
-	const text = argv.file
+	if (argv.list) {
+		const voices = await listAvailableVoices(apiKey);
+		for (const voice of voices) {
+			const labels = [
+				voice.category,
+				voice.labels?.accent,
+				voice.labels?.age,
+				voice.labels?.gender,
+				voice.labels?.use_case
+			].filter(Boolean);
+			console.log(`${voice.name}\t${voice.voice_id}\t${labels.join(', ')}`);
+		}
+		return;
+	}
+
+	const sourceText = argv.file
 		? readFileSync(resolve(projectRoot, argv.file), 'utf8').trim()
 		: DEFAULT_SNIPPET;
+	const text = normalizeNarrationText(sourceText);
 
-	const selectedVoiceNames = argv.voices
-		? new Set(
-				argv.voices
-					.split(',')
-					.map((value) => value.trim().toLowerCase())
-					.filter(Boolean)
-			)
-		: null;
-
-	const selectedVoices = selectedVoiceNames
-		? SHOOTOUT_VOICES.filter((voice) => selectedVoiceNames.has(voice.name.toLowerCase()))
-		: SHOOTOUT_VOICES;
+	const selectedVoices = getSelectedVoices(argv);
 
 	if (selectedVoices.length === 0) {
 		console.error('❌ No voices selected');
@@ -156,6 +254,7 @@ async function main() {
 
 	const outputDir = resolve(projectRoot, argv.outdir, argv.label);
 	mkdirSync(outputDir, { recursive: true });
+	const config = getConfig(argv);
 
 	console.log(`\nRendering shootout to ${outputDir}\n`);
 
@@ -170,7 +269,7 @@ async function main() {
 				voice,
 				text,
 				outputPath,
-				config: DEFAULT_CONFIG,
+				config,
 				apiKey
 			});
 
@@ -194,9 +293,9 @@ async function main() {
 			{
 				label: argv.label,
 				generatedAt: new Date().toISOString(),
-				model: DEFAULT_CONFIG.model_id,
-				output_format: DEFAULT_CONFIG.output_format,
-				voice_settings: DEFAULT_CONFIG.voice_settings,
+				model: config.model_id,
+				output_format: config.output_format,
+				voice_settings: config.voice_settings,
 				text,
 				voices: results
 			},

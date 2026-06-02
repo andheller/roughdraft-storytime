@@ -1,5 +1,14 @@
 # Chapter 1: The Woman Who Rode Into Trouble
 
+<div class="story-illustration-wrap">
+  <img
+    src="/story-art/dust-calloway-and-the-sky-coach-robbers/opening.png"
+    alt="Marshal Dust Calloway and Bishop the mule watching a gold stagecoach float above Cinder Flats."
+    class="story-illustration"
+    loading="lazy"
+  />
+</div>
+
 Marshal Juniper "Dust" Calloway rode into trouble the way other folks rode into town.
 
 She came along the red road at noon with the sun behind her hat brim and the dust of half the territory on her boots. Her coat was the color of dry mesquite bark. Her revolver sat low on her hip in a silver-trimmed holster, and the mule plodding beside her looked like he had personally judged every bad decision in the West.

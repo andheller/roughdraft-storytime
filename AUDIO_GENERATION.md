@@ -55,6 +55,37 @@ pnpm run audio:clean silly-squirrels/the-great-acorn-hunt
 pnpm run audio:clean
 ```
 
+### Try New Voices
+
+The shootout command renders short comparison clips into `exports/audio-tests/` and copies them
+to `static/audio-tests/` for the `/audio-tests` page.
+
+```bash
+# List voices available to the configured ElevenLabs account
+pnpm run audio:shootout -- --list
+
+# Render the built-in narration candidates
+pnpm run audio:shootout
+
+# Render one new voice by ID
+pnpm run audio:shootout -- --voice-id VOICE_ID --voice-name "Voice Name" --label new-voice-test
+
+# Render a curated JSON batch
+pnpm run audio:shootout -- --voice-file voices.json --label new-voice-test
+```
+
+`voices.json` should be an array:
+
+```json
+[
+	{
+		"name": "Voice Name",
+		"voice_id": "VOICE_ID",
+		"notes": "Warm, lively narration candidate"
+	}
+]
+```
+
 ## Configuration
 
 Edit `audio.config.json` to customize:
@@ -143,6 +174,30 @@ DEBUG=true pnpm run audio:generate story-id
 3. **Monitor API usage** to avoid unexpected charges
 4. **Keep audio manifests** in version control for deployment
 5. **Consider voice consistency** across series/characters
+
+## Making The Voice Sound Better
+
+If the narration sounds stiff, choppy, or synthetic, the biggest quality wins are usually:
+
+1. **Use narration-friendly text**
+   - Avoid one sentence per line unless you want dramatic pauses.
+   - Prefer normal paragraphs with clean punctuation.
+   - Use `narration/chapter-X.txt` overrides for audio-specific wording when needed.
+
+2. **Generate final listening tests at higher bitrate**
+   - Shootouts now default to `mp3_44100_192` so voice comparisons are less colored by compression artifacts.
+
+3. **Use calmer voice settings for story reading**
+   - Very low stability can sound twitchy.
+   - Very high style can sound overly performative.
+   - A moderate stability and low style setting usually works better for children's narration.
+
+4. **Pick voices for long-form narration, not just novelty**
+   - A voice that sounds impressive for one sentence can become tiring over five chapters.
+   - Judge voices on warmth, clarity, and how natural they feel over paragraph transitions.
+
+5. **Create audio-specific overrides for tricky names or pacing**
+   - If a chapter has unusual names, lists, or dialogue that reads awkwardly, add a narration override instead of forcing the raw markdown through TTS unchanged.
 
 ## Deployment
 

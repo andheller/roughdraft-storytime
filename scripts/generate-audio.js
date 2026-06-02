@@ -35,7 +35,8 @@ const VOICE_IDS = {
 	Rachel: 'EXAVITQu4vr4xnSDxMaL',
 	Josh: 'TxGEqnHWrfWFTfGW9XjX',
 	Bella: 'EXAVITQu4vr4xnSDxMaL',
-	Antoni: 'ErXwobaYiN019PkySvjV'
+	Antoni: 'ErXwobaYiN019PkySvjV',
+	Matilda: 'XrExE9yKIg1WjnnlVkGX'
 };
 
 function getApiKey() {
@@ -177,8 +178,12 @@ function cleanMarkdownForAudio(content) {
 			.replace(/\*(.*?)\*/g, '$1')
 			// Remove markdown links
 			.replace(/\[([^\]]+)\]\([^\)]+\)/g, '$1')
-			// Clean up extra whitespace
-			.replace(/\n\s*\n/g, '\n\n')
+			// Turn hard-wrapped lines into spoken paragraphs while keeping paragraph breaks.
+			.replace(/\r\n/g, '\n')
+			.split(/\n{2,}/)
+			.map((paragraph) => paragraph.replace(/\s*\n\s*/g, ' ').replace(/\s+/g, ' ').trim())
+			.filter(Boolean)
+			.join('\n\n')
 			.trim()
 	);
 }
@@ -244,6 +249,7 @@ async function generateStoryAudio(seriesId, storyId, options = {}) {
 		// Skip if file exists and not forcing regeneration
 		if (existsSync(outputPath) && !options.force) {
 			console.log(`⏭ Skipping existing: chapter-${chapter.id}.mp3`);
+			results.push({ chapter: chapter.id, success: true, skipped: true });
 			continue;
 		}
 

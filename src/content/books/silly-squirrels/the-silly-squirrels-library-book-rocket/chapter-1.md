@@ -1,5 +1,14 @@
 # Chapter 1: The Overdue Book Problem
 
+<div class="story-illustration-wrap">
+  <img
+    src="/story-art/silly-squirrels/the-silly-squirrels-library-book-rocket/opening.png"
+    alt="Nutty pitches a book rocket at the Nutville Library desk while overdue books tower around Miss Maple."
+    class="story-illustration"
+    loading="lazy"
+  />
+</div>
+
 The Nutville Library had a problem with returns.
 
 Not ordinary returns.

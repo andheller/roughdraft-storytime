@@ -1,5 +1,14 @@
 # Chapter 5: A Better Return System
 
+<div class="story-illustration-wrap">
+  <img
+    src="/story-art/silly-squirrels/the-silly-squirrels-library-book-rocket/chapter-5.png"
+    alt="Nutty presents a gentle padded book return chute outside the library while neighbors return books safely."
+    class="story-illustration"
+    loading="lazy"
+  />
+</div>
+
 By sunset, Nutville had returned almost every overdue book.
 
 Not by blasting them across the sky.

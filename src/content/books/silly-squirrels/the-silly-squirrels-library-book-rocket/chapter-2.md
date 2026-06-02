@@ -1,5 +1,14 @@
 # Chapter 2: Reading at High Velocity
 
+<div class="story-illustration-wrap">
+  <img
+    src="/story-art/silly-squirrels/the-silly-squirrels-library-book-rocket/chapter-2.png"
+    alt="Nutty launches overdue books from a homemade machine toward the Nutville Library basket."
+    class="story-illustration"
+    loading="lazy"
+  />
+</div>
+
 The Library Book Rocket was built from a drainpipe, two wagon springs, a padded book cradle, and a great deal of unreasonable confidence.
 
 Nutty set it up in the town square.

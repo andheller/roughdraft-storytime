@@ -1,16 +1,16 @@
 # Chapter 1: The Long Way Around
 
-It was a beautiful Tuesday morning in Nutville, and Nutty Nutwobble was counting acorns when Tony the Fox came running up to their tree.
+Nutty Nutwobble was counting birthday acorns when Tony the Fox skidded to a stop under the family tree.
 
-"TERRIBLE NEWS!" Tony shouted, nearly tripping over his own tail. "The Great Oak on Walnut Way fell down last night! The whole main path is blocked!"
+"Terrible news!" Tony shouted. "The Great Oak on Walnut Way fell down last night. The whole path to Grandma's is blocked."
 
-Mama Nutwobble dropped down from the ceiling, where she'd been dusting at super-speed. "The main path? But that's how we get to Grandma's house!"
+Mama Nutwobble dropped from the ceiling beam, where she had been dusting at super-speed. "The main path? But Grandma's birthday party is Saturday."
 
 "How long until it's cleared?" Papa asked, nervously munching an acorn.
 
 Tony shook his head. "At least two weeks. Maybe three. That oak was HUGE."
 
-Nutty's whiskers drooped. "But Grandma's birthday party is THIS SATURDAY! We can't miss it!"
+Nutty's whiskers drooped so far they nearly touched the floor. "We can't miss Grandma's party. She made invitation cookies."
 
 "There's always the detour," Tony said slowly. "Through Muddy Meadow, past Grumpy Badger's den, over Wobbly Bridge..."
 
@@ -18,7 +18,9 @@ The whole family shuddered.
 
 ---
 
-Two hours later, the Nutwobbles finally arrived at Grandma's tree. They were covered in mud. Mama had leaves stuck in her tail from running too fast through the brambles. Papa had lost one of his shoes in the bog. And Nutty had been chased by Grumpy Badger for accidentally stepping on his welcome mat.
+Two hours later, the Nutwobbles finally reached Grandma's tree.
+
+They were covered in mud. Mama had leaves stuck in her tail from racing through brambles. Papa had lost one shoe in the bog and kept apologizing to the other shoe for making it work alone. Nutty had been chased by Grumpy Badger for stepping on his welcome mat, which was apparently for looking at only.
 
 "There you are!" Grandma Nutwobble beamed from her porch. "I made fresh acorn cookies! They're still—"
 
@@ -26,15 +28,15 @@ She paused, looking at the sorry state of her family.
 
 "They WERE still warm," she corrected. "That was two hours ago. What happened?"
 
-"Detour," Papa groaned, collapsing into a chair.
+"Detour," Papa groaned, collapsing into a chair. His one shoe made a sad little squeak.
 
 Nutty bit into a cold cookie, thinking hard. His whiskers twitched. That twitch usually meant he was having an idea.
 
-"What if," he said slowly, "we didn't go AROUND the blocked path?"
+"What if," he said slowly, "we did not go around the blocked path?"
 
 "We can't go through it, dear," Mama said. "The tree is enormous."
 
-"I wasn't thinking through," Nutty said, his eyes lighting up. "I was thinking UNDER."
+"I wasn't thinking through," Nutty said. "I was thinking under."
 
 Papa stopped munching. "Under?"
 

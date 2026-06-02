@@ -1,7 +1,11 @@
 import { marked } from 'marked';
 
+export function stripAudioDirectives(content) {
+	return content.replace(/<tts\s+[^>]*\/?>/gi, '');
+}
+
 export function parseMarkdown(content) {
-	return marked(content);
+	return marked(stripAudioDirectives(content));
 }
 
 export async function loadMarkdown(path) {
