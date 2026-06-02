@@ -585,23 +585,6 @@
 	<!-- Vignette overlay -->
 	<div class="room-vignette"></div>
 
-	<!-- Dust Particles for Atmosphere -->
-	<div class="dust-container">
-		{#each Array(20) as _, i}
-			<div
-				class="dust"
-				style="
-				--duration: {15 + (i % 10)}s;
-				--opacity: {0.1 + (i % 5) * 0.1};
-				--left: {i * 5}%;
-				--top: {(i * 7) % 100}%;
-				--x: {(i % 2 === 0 ? 1 : -1) * (50 + (i % 50))}px;
-				--y: {-100 - (i % 100)}px;
-				"
-			></div>
-		{/each}
-	</div>
-
 	<div class="container">
 		<header class="bookshelf-header">
 			<div class="logo-container">
@@ -624,9 +607,6 @@
 					Online kids stories for read-aloud time, bedtime, and independent readers, from silly
 					adventures to narrative history.
 				</p>
-				<div class="hero-links">
-					<a href="/image-review" class="hero-link">Image Review</a>
-				</div>
 			</div>
 		</header>
 
@@ -2415,45 +2395,6 @@
 			rgba(0, 0, 0, 0.05) 2px,
 			rgba(0, 0, 0, 0.05) 3px
 		);
-	}
-
-	/* Dust particles */
-	.dust-container {
-		position: absolute;
-		inset: 0;
-		pointer-events: none;
-		z-index: 15;
-		overflow: hidden;
-	}
-
-	.dust {
-		position: absolute;
-		width: 2px;
-		height: 2px;
-		background: rgba(255, 255, 255, 0.4);
-		border-radius: 50%;
-		filter: blur(1px);
-		animation: float-dust var(--duration) infinite linear;
-		opacity: 0;
-		left: var(--left);
-		top: var(--top);
-	}
-
-	@keyframes float-dust {
-		0% {
-			transform: translate(0, 0) scale(1);
-			opacity: 0;
-		}
-		20% {
-			opacity: var(--opacity);
-		}
-		80% {
-			opacity: var(--opacity);
-		}
-		100% {
-			transform: translate(var(--x), var(--y)) scale(1.5);
-			opacity: 0;
-		}
 	}
 
 	/* Animations */
