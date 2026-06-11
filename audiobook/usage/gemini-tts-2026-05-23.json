@@ -1,0 +1,88 @@
+{
+	"path": "/Users/andrew/dev/more/roughdraft/audiobook/usage/gemini-tts-2026-05-23.json",
+	"date": "2026-05-23",
+	"requests": 10,
+	"estimatedOutputTokens": 44366,
+	"items": [
+		{
+			"at": "2026-05-23T16:03:37.876Z",
+			"story": "silly-squirrels/the-silly-squirrels-bouncy-bridge",
+			"chapter": 1,
+			"chunk": 1,
+			"durationSeconds": 241.92,
+			"estimatedOutputTokens": 6048
+		},
+		{
+			"at": "2026-05-23T16:05:54.621Z",
+			"story": "silly-squirrels/the-silly-squirrels-bouncy-bridge",
+			"chapter": 2,
+			"chunk": 1,
+			"durationSeconds": 204.28,
+			"estimatedOutputTokens": 5107
+		},
+		{
+			"at": "2026-05-23T16:08:02.579Z",
+			"story": "silly-squirrels/the-silly-squirrels-bouncy-bridge",
+			"chapter": 3,
+			"chunk": 1,
+			"durationSeconds": 194.6,
+			"estimatedOutputTokens": 4865
+		},
+		{
+			"at": "2026-05-23T16:10:39.221Z",
+			"story": "silly-squirrels/the-silly-squirrels-bouncy-bridge",
+			"chapter": 4,
+			"chunk": 1,
+			"durationSeconds": 216.56,
+			"estimatedOutputTokens": 5414
+		},
+		{
+			"at": "2026-05-23T16:12:17.219Z",
+			"story": "silly-squirrels/the-silly-squirrels-bouncy-bridge",
+			"chapter": 5,
+			"chunk": 1,
+			"durationSeconds": 123.6,
+			"estimatedOutputTokens": 3090
+		},
+		{
+			"at": "2026-05-23T16:13:30.380Z",
+			"story": "silly-squirrels/the-silly-squirrels-car-wash-waterfall",
+			"chapter": 1,
+			"chunk": 1,
+			"durationSeconds": 156.92,
+			"estimatedOutputTokens": 3923
+		},
+		{
+			"at": "2026-05-23T16:15:16.922Z",
+			"story": "silly-squirrels/the-silly-squirrels-car-wash-waterfall",
+			"chapter": 2,
+			"chunk": 1,
+			"durationSeconds": 168.8,
+			"estimatedOutputTokens": 4220
+		},
+		{
+			"at": "2026-05-23T16:16:59.791Z",
+			"story": "silly-squirrels/the-silly-squirrels-car-wash-waterfall",
+			"chapter": 3,
+			"chunk": 1,
+			"durationSeconds": 155.56,
+			"estimatedOutputTokens": 3889
+		},
+		{
+			"at": "2026-05-23T16:18:43.133Z",
+			"story": "silly-squirrels/the-silly-squirrels-car-wash-waterfall",
+			"chapter": 4,
+			"chunk": 1,
+			"durationSeconds": 171.68,
+			"estimatedOutputTokens": 4292
+		},
+		{
+			"at": "2026-05-23T16:20:30.825Z",
+			"story": "silly-squirrels/the-silly-squirrels-car-wash-waterfall",
+			"chapter": 5,
+			"chunk": 1,
+			"durationSeconds": 140.72,
+			"estimatedOutputTokens": 3518
+		}
+	]
+}

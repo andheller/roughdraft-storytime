@@ -1,0 +1,43 @@
+{
+  "seriesId": "silly-squirrels",
+  "storyId": "the-silly-squirrels-bubblegum-balloon",
+  "title": "The Silly Squirrels and the Bubblegum Balloon",
+  "provider": "google-gemini",
+  "model": "gemini-3.1-flash-tts-preview",
+  "voice": "Zephyr",
+  "format": "wav",
+  "sampleRate": 24000,
+  "generatedAt": "2026-05-22T20:51:58.712Z",
+  "chapters": [
+    {
+      "id": 1,
+      "title": "The Festival Needs Wow",
+      "filename": "chapter-1.wav",
+      "durationSeconds": 131.64
+    },
+    {
+      "id": 2,
+      "title": "A Balloon the Color of Dessert",
+      "filename": "chapter-2.wav",
+      "durationSeconds": 129.92
+    },
+    {
+      "id": 3,
+      "title": "Up, Up, and Slightly Sideways",
+      "filename": "chapter-3.wav",
+      "durationSeconds": 129.04
+    },
+    {
+      "id": 4,
+      "title": "The Slowest Emergency Ever",
+      "filename": "chapter-4.wav",
+      "durationSeconds": 143.28
+    },
+    {
+      "id": 5,
+      "title": "Landing with Dignity-ish",
+      "filename": "chapter-5.wav",
+      "durationSeconds": 98.36
+    }
+  ]
+}

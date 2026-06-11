@@ -1,0 +1,43 @@
+{
+  "seriesId": "silly-squirrels",
+  "storyId": "the-silly-squirrels-pancake-parade",
+  "title": "The Silly Squirrels and the Pancake Parade",
+  "provider": "google-gemini",
+  "model": "gemini-3.1-flash-tts-preview",
+  "voice": "Zephyr",
+  "format": "wav",
+  "sampleRate": 24000,
+  "generatedAt": "2026-05-19T22:17:01.658Z",
+  "chapters": [
+    {
+      "id": 1,
+      "title": "Harvest Hoopla Trouble",
+      "filename": "chapter-1.wav",
+      "durationSeconds": 171.48
+    },
+    {
+      "id": 2,
+      "title": "The Float with Extra Breakfast",
+      "filename": "chapter-2.wav",
+      "durationSeconds": 146.84
+    },
+    {
+      "id": 3,
+      "title": "Marching Band, Meet Syrup",
+      "filename": "chapter-3.wav",
+      "durationSeconds": 153.72
+    },
+    {
+      "id": 4,
+      "title": "The Great Pancake Launch",
+      "filename": "chapter-4.wav",
+      "durationSeconds": 154.24
+    },
+    {
+      "id": 5,
+      "title": "A Parade Worth Remembering",
+      "filename": "chapter-5.wav",
+      "durationSeconds": 122.12
+    }
+  ]
+}

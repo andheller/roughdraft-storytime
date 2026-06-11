@@ -1,0 +1,31 @@
+{
+  "seriesId": "field-day-fiasco",
+  "storyId": "field-day-fiasco",
+  "title": "Field Day Fiasco",
+  "generatedAt": "2026-04-30T03:42:50.673Z",
+  "voice": "Rachel",
+  "voice_id": "EXAVITQu4vr4xnSDxMaL",
+  "model": "eleven_multilingual_v2",
+  "chapters": [
+    {
+      "id": 1,
+      "filename": "chapter-1.mp3"
+    },
+    {
+      "id": 2,
+      "filename": "chapter-2.mp3"
+    },
+    {
+      "id": 3,
+      "filename": "chapter-3.mp3"
+    },
+    {
+      "id": 4,
+      "filename": "chapter-4.mp3"
+    },
+    {
+      "id": 5,
+      "filename": "chapter-5.mp3"
+    }
+  ]
+}

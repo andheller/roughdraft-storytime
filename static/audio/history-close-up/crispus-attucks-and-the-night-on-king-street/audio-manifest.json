@@ -1,0 +1,37 @@
+{
+  "seriesId": "history-close-up",
+  "storyId": "crispus-attucks-and-the-night-on-king-street",
+  "title": "Crispus Attucks and the Night on King Street",
+  "provider": "google-gemini",
+  "model": "gemini-3.1-flash-tts-preview",
+  "voice": "Zephyr",
+  "format": "wav",
+  "sampleRate": 24000,
+  "generatedAt": "2026-06-03T00:59:49.229Z",
+  "chapters": [
+    {
+      "id": 1,
+      "title": "A Life Seen Mostly in Fragments",
+      "filename": "chapter-1.wav",
+      "durationSeconds": 159.88
+    },
+    {
+      "id": 2,
+      "title": "March 5, 1770",
+      "filename": "chapter-2.wav",
+      "durationSeconds": 146.04
+    },
+    {
+      "id": 3,
+      "title": "Trial, Funeral, and Memory",
+      "filename": "chapter-3.wav",
+      "durationSeconds": 153.2
+    },
+    {
+      "id": 4,
+      "title": "Why Attucks Still Matters",
+      "filename": "chapter-4.wav",
+      "durationSeconds": 137.92
+    }
+  ]
+}

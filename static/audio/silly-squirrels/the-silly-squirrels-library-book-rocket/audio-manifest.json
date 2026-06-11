@@ -1,0 +1,43 @@
+{
+  "seriesId": "silly-squirrels",
+  "storyId": "the-silly-squirrels-library-book-rocket",
+  "title": "The Silly Squirrels and the Library Book Rocket",
+  "provider": "google-gemini",
+  "model": "gemini-3.1-flash-tts-preview",
+  "voice": "Zephyr",
+  "format": "wav",
+  "sampleRate": 24000,
+  "generatedAt": "2026-05-19T21:59:46.762Z",
+  "chapters": [
+    {
+      "id": 1,
+      "title": "The Overdue Book Problem",
+      "filename": "chapter-1.wav",
+      "durationSeconds": 150.28
+    },
+    {
+      "id": 2,
+      "title": "Reading at High Velocity",
+      "filename": "chapter-2.wav",
+      "durationSeconds": 125.32
+    },
+    {
+      "id": 3,
+      "title": "Chapter Books in the Sky",
+      "filename": "chapter-3.wav",
+      "durationSeconds": 162.4
+    },
+    {
+      "id": 4,
+      "title": "The Great Quiet Retrieval",
+      "filename": "chapter-4.wav",
+      "durationSeconds": 160.2
+    },
+    {
+      "id": 5,
+      "title": "A Better Return System",
+      "filename": "chapter-5.wav",
+      "durationSeconds": 117.24
+    }
+  ]
+}

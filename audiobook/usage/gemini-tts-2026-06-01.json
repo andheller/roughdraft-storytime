@@ -1,0 +1,73 @@
+{
+  "path": "/Users/andrew/dev/more/roughdraft/audiobook/usage/gemini-tts-2026-06-01.json",
+  "date": "2026-06-01",
+  "requests": 10,
+  "estimatedOutputTokens": 27220,
+  "note": "Gemini reported the 10-request free-tier daily quota exhausted after successful chunks plus retry/timeout attempts.",
+  "items": [
+    {
+      "at": "2026-06-01T15:47:27.340Z",
+      "story": "silly-squirrels/the-silly-squirrels-leaf-blower-orchestra",
+      "chapter": 4,
+      "chunk": 1,
+      "durationSeconds": 137.64,
+      "estimatedOutputTokens": 3441
+    },
+    {
+      "at": "2026-06-01T15:48:50.610Z",
+      "story": "silly-squirrels/the-silly-squirrels-leaf-blower-orchestra",
+      "chapter": 4,
+      "chunk": 2,
+      "durationSeconds": 124.28,
+      "estimatedOutputTokens": 3107
+    },
+    {
+      "at": "2026-06-01T15:50:10.644Z",
+      "story": "silly-squirrels/the-silly-squirrels-leaf-blower-orchestra",
+      "chapter": 5,
+      "chunk": 1,
+      "durationSeconds": 129.64,
+      "estimatedOutputTokens": 3241
+    },
+    {
+      "at": "2026-06-01T15:51:26.019Z",
+      "story": "silly-squirrels/the-silly-squirrels-leaf-blower-orchestra",
+      "chapter": 5,
+      "chunk": 2,
+      "durationSeconds": 88.32,
+      "estimatedOutputTokens": 2208
+    },
+    {
+      "at": "2026-06-01T15:52:58.827Z",
+      "story": "history-close-up/samuel-adams-and-the-fire-in-boston",
+      "chapter": 1,
+      "chunk": 1,
+      "durationSeconds": 147.52,
+      "estimatedOutputTokens": 3689
+    },
+    {
+      "at": "2026-06-01T15:57:25.267Z",
+      "story": "history-close-up/samuel-adams-and-the-fire-in-boston",
+      "chapter": 2,
+      "chunk": 1,
+      "durationSeconds": 176.12,
+      "estimatedOutputTokens": 4403
+    },
+    {
+      "at": "2026-06-01T15:59:12.259Z",
+      "story": "history-close-up/samuel-adams-and-the-fire-in-boston",
+      "chapter": 3,
+      "chunk": 1,
+      "durationSeconds": 157.6,
+      "estimatedOutputTokens": 3940
+    },
+    {
+      "at": "2026-06-01T16:05:50.342Z",
+      "story": "history-close-up/samuel-adams-and-the-fire-in-boston",
+      "chapter": 4,
+      "chunk": 1,
+      "durationSeconds": 127.64,
+      "estimatedOutputTokens": 3191
+    }
+  ]
+}

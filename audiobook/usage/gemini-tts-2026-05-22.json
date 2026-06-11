@@ -1,0 +1,88 @@
+{
+	"path": "/Users/andrew/dev/more/roughdraft/audiobook/usage/gemini-tts-2026-05-22.json",
+	"date": "2026-05-22",
+	"requests": 10,
+	"estimatedOutputTokens": 34370,
+	"items": [
+		{
+			"at": "2026-05-22T20:37:52.018Z",
+			"story": "silly-squirrels/the-silly-squirrels-ice-cream-catapult",
+			"chapter": 1,
+			"chunk": 1,
+			"durationSeconds": 165.24,
+			"estimatedOutputTokens": 4131
+		},
+		{
+			"at": "2026-05-22T20:39:33.399Z",
+			"story": "silly-squirrels/the-silly-squirrels-ice-cream-catapult",
+			"chapter": 2,
+			"chunk": 1,
+			"durationSeconds": 153.4,
+			"estimatedOutputTokens": 3835
+		},
+		{
+			"at": "2026-05-22T20:41:21.824Z",
+			"story": "silly-squirrels/the-silly-squirrels-ice-cream-catapult",
+			"chapter": 3,
+			"chunk": 1,
+			"durationSeconds": 153.08,
+			"estimatedOutputTokens": 3828
+		},
+		{
+			"at": "2026-05-22T20:42:59.217Z",
+			"story": "silly-squirrels/the-silly-squirrels-ice-cream-catapult",
+			"chapter": 4,
+			"chunk": 1,
+			"durationSeconds": 149.56,
+			"estimatedOutputTokens": 3739
+		},
+		{
+			"at": "2026-05-22T20:44:38.243Z",
+			"story": "silly-squirrels/the-silly-squirrels-ice-cream-catapult",
+			"chapter": 5,
+			"chunk": 1,
+			"durationSeconds": 121.24,
+			"estimatedOutputTokens": 3031
+		},
+		{
+			"at": "2026-05-22T20:45:51.706Z",
+			"story": "silly-squirrels/the-silly-squirrels-bubblegum-balloon",
+			"chapter": 1,
+			"chunk": 1,
+			"durationSeconds": 131.64,
+			"estimatedOutputTokens": 3291
+		},
+		{
+			"at": "2026-05-22T20:47:22.460Z",
+			"story": "silly-squirrels/the-silly-squirrels-bubblegum-balloon",
+			"chapter": 2,
+			"chunk": 1,
+			"durationSeconds": 129.92,
+			"estimatedOutputTokens": 3248
+		},
+		{
+			"at": "2026-05-22T20:48:54.168Z",
+			"story": "silly-squirrels/the-silly-squirrels-bubblegum-balloon",
+			"chapter": 3,
+			"chunk": 1,
+			"durationSeconds": 129.04,
+			"estimatedOutputTokens": 3226
+		},
+		{
+			"at": "2026-05-22T20:50:47.429Z",
+			"story": "silly-squirrels/the-silly-squirrels-bubblegum-balloon",
+			"chapter": 4,
+			"chunk": 1,
+			"durationSeconds": 143.28,
+			"estimatedOutputTokens": 3582
+		},
+		{
+			"at": "2026-05-22T20:51:58.709Z",
+			"story": "silly-squirrels/the-silly-squirrels-bubblegum-balloon",
+			"chapter": 5,
+			"chunk": 1,
+			"durationSeconds": 98.36,
+			"estimatedOutputTokens": 2459
+		}
+	]
+}

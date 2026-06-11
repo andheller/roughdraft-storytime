@@ -1,0 +1,32 @@
+[
+	{
+		"name": "Brian",
+		"voice_id": "nPczCjzI2devNBz1zQrb",
+		"notes": "Reddit mention: imperfect, less polished voice; also used for ads/news"
+	},
+	{
+		"name": "Bill",
+		"voice_id": "pqHfZKP75CvOlQylNhV4",
+		"notes": "Reddit mention: legacy/default favorite, natural sounding"
+	},
+	{
+		"name": "Pro Narrator",
+		"voice_id": "KoQQbl9zjAdLgKZjm8Ol",
+		"notes": "Reddit quick-reference favorite for narration"
+	},
+	{
+		"name": "Booker Story Man",
+		"voice_id": "ZB6Q1KAIKj9o7p9iJEWQ",
+		"notes": "Reddit quick-reference favorite for books/storytelling"
+	},
+	{
+		"name": "Spector",
+		"voice_id": "fhEKxEVaYaowRzjwfh6b",
+		"notes": "Reddit mention: dynamic and unusual"
+	},
+	{
+		"name": "Miles",
+		"voice_id": "UcwvL8X5wjNaI6sPavxe",
+		"notes": "Reddit favorite voice mention"
+	}
+]

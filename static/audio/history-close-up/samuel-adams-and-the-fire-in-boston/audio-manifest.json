@@ -1,0 +1,34 @@
+{
+  "seriesId": "history-close-up",
+  "storyId": "samuel-adams-and-the-fire-in-boston",
+  "title": "Samuel Adams and the Fire in Boston",
+  "provider": "google-gemini",
+  "model": "gemini-3.1-flash-tts-preview",
+  "voice": "Zephyr",
+  "format": "wav",
+  "sampleRate": 24000,
+  "generatedAt": "2026-06-01T16:07:58.944Z",
+  "chapters": [
+    {
+      "id": 1,
+      "title": "A Boston Radical Takes Shape",
+      "filename": "chapter-1.wav"
+    },
+    {
+      "id": 2,
+      "title": "Tax, Troops, and the Boston Streets",
+      "filename": "chapter-2.wav"
+    },
+    {
+      "id": 3,
+      "title": "Tea, Congress, and the Edge of War",
+      "filename": "chapter-3.wav"
+    },
+    {
+      "id": 4,
+      "title": "The Organizer Behind the Uproar",
+      "filename": "chapter-4.wav",
+      "durationSeconds": 127.64
+    }
+  ]
+}

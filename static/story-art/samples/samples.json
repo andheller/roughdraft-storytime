@@ -1,0 +1,36 @@
+{
+  "generatedAt": "2026-04-23",
+  "notes": "Rough generated samples for art direction review. Only the pizza jetpack opener is currently wired into story markdown.",
+  "samples": [
+    {
+      "story": "silly-squirrels/the-silly-squirrels-pizza-jetpack-delivery",
+      "path": "/story-art/samples/silly-squirrels-pizza-jetpack-sample.png",
+      "status": "used-in-chapter",
+      "promptSummary": "Nutty, Mama, and Papa testing soda-bottle jetpacks for pizza delivery in a cozy tree-town workshop."
+    },
+    {
+      "story": "dust-calloway-and-the-sky-coach-robbers",
+      "path": "/story-art/samples/dust-calloway-sky-coach-sample.png",
+      "status": "used-in-chapter",
+      "promptSummary": "Dust Calloway and Bishop watching a gold stagecoach float above Cinder Flats."
+    },
+    {
+      "story": "the-lost-things-rescue-service",
+      "path": "/story-art/samples/lost-things-rescue-service-sample.png",
+      "status": "sample-only",
+      "promptSummary": "Nell at a Lost Things Rescue Service table in the Marigold Apartments lobby."
+    },
+    {
+      "story": "the-dragon-who-breathed-bubbles/the-dragon-who-breathed-bubbles",
+      "path": "/story-art/samples/dragon-breathed-bubbles-sample.png",
+      "status": "used-in-chapter",
+      "promptSummary": "Ember discovering that her bubbles can carry whispered words in a cave classroom."
+    },
+    {
+      "story": "the-delivery-drone-that-wouldnt-leave",
+      "path": "/story-art/samples/delivery-drone-wouldnt-leave-sample.png",
+      "status": "used-in-chapter",
+      "promptSummary": "Mira discovering that a delivery drone will not leave after dropping off her running shoes."
+    }
+  ]
+}

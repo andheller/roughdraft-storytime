@@ -1,0 +1,88 @@
+{
+  "path": "/Users/andrew/dev/more/roughdraft/audiobook/usage/gemini-tts-2026-06-03.json",
+  "date": "2026-06-03",
+  "requests": 10,
+  "estimatedOutputTokens": 40656,
+  "items": [
+    {
+      "at": "2026-06-03T00:54:48.632Z",
+      "story": "history-close-up/crispus-attucks-and-the-night-on-king-street",
+      "chapter": 1,
+      "chunk": 1,
+      "durationSeconds": 159.88,
+      "estimatedOutputTokens": 3997
+    },
+    {
+      "at": "2026-06-03T00:56:42.390Z",
+      "story": "history-close-up/crispus-attucks-and-the-night-on-king-street",
+      "chapter": 2,
+      "chunk": 1,
+      "durationSeconds": 146.04,
+      "estimatedOutputTokens": 3651
+    },
+    {
+      "at": "2026-06-03T00:58:22.317Z",
+      "story": "history-close-up/crispus-attucks-and-the-night-on-king-street",
+      "chapter": 3,
+      "chunk": 1,
+      "durationSeconds": 153.2,
+      "estimatedOutputTokens": 3830
+    },
+    {
+      "at": "2026-06-03T00:59:49.227Z",
+      "story": "history-close-up/crispus-attucks-and-the-night-on-king-street",
+      "chapter": 4,
+      "chunk": 1,
+      "durationSeconds": 137.92,
+      "estimatedOutputTokens": 3448
+    },
+    {
+      "at": "2026-06-03T01:01:29.214Z",
+      "story": "history-close-up/thomas-paine-and-the-words-that-marched",
+      "chapter": 1,
+      "chunk": 1,
+      "durationSeconds": 173.16,
+      "estimatedOutputTokens": 4329
+    },
+    {
+      "at": "2026-06-03T01:03:23.936Z",
+      "story": "history-close-up/thomas-paine-and-the-words-that-marched",
+      "chapter": 2,
+      "chunk": 1,
+      "durationSeconds": 179.24,
+      "estimatedOutputTokens": 4481
+    },
+    {
+      "at": "2026-06-03T01:05:08.930Z",
+      "story": "history-close-up/thomas-paine-and-the-words-that-marched",
+      "chapter": 3,
+      "chunk": 1,
+      "durationSeconds": 165.08,
+      "estimatedOutputTokens": 4127
+    },
+    {
+      "at": "2026-06-03T01:06:52.852Z",
+      "story": "history-close-up/thomas-paine-and-the-words-that-marched",
+      "chapter": 4,
+      "chunk": 1,
+      "durationSeconds": 147.28,
+      "estimatedOutputTokens": 3682
+    },
+    {
+      "at": "2026-06-03T01:09:27.147Z",
+      "story": "history-close-up/abigail-adams-and-the-revolution-at-home",
+      "chapter": 1,
+      "chunk": 1,
+      "durationSeconds": 250.92,
+      "estimatedOutputTokens": 6273
+    },
+    {
+      "at": "2026-06-03T01:10:59.266Z",
+      "story": "history-close-up/abigail-adams-and-the-revolution-at-home",
+      "chapter": 1,
+      "chunk": 2,
+      "durationSeconds": 113.52,
+      "estimatedOutputTokens": 2838
+    }
+  ]
+}

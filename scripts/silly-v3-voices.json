@@ -1,0 +1,52 @@
+[
+	{
+		"name": "Lolo",
+		"voice_id": "vTJTqNHBdjAKhdigDXCC",
+		"notes": "Voice Library: laughing cartoon character, joyful and playful"
+	},
+	{
+		"name": "Bob",
+		"voice_id": "fmR785nA5jqTzoTNg3Jk",
+		"notes": "Voice Library: silly, playful, exaggerated narrator"
+	},
+	{
+		"name": "Gus",
+		"voice_id": "wGkprrTXgBM5EC3Znt6U",
+		"notes": "Voice Library: natural goofy best friend"
+	},
+	{
+		"name": "Gappu",
+		"voice_id": "psk8YLODv4ETdKheNwwz",
+		"notes": "Voice Library: loud, funny kids cartoon character"
+	},
+	{
+		"name": "Dr. Quibble",
+		"voice_id": "RDSy0QN68yhrjuOgqzQ4",
+		"notes": "Voice Library: nerdy cartoon scientist"
+	},
+	{
+		"name": "Freddie Flip",
+		"voice_id": "U0W3edavfdI8ibPeeteQ",
+		"notes": "Voice Library: sweet, friendly excited frog"
+	},
+	{
+		"name": "Sparkles",
+		"voice_id": "tapn1QwocNXk3viVSowa",
+		"notes": "Voice Library: enthusiastic, warm, silly kids content voice"
+	},
+	{
+		"name": "Kate",
+		"voice_id": "U9tZtg3uJtVgXPkvosWR",
+		"notes": "Voice Library: playful, expressive, warm kids storyteller"
+	},
+	{
+		"name": "Lumi",
+		"voice_id": "zndmYEEoWWxRYyEL2ZZY",
+		"notes": "Voice Library: playful cartoon character, bright and mischievous"
+	},
+	{
+		"name": "Daisy",
+		"voice_id": "j45mXgB0BR0mIJbdyK09",
+		"notes": "Voice Library: playful Southern narrator"
+	}
+]

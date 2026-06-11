@@ -1,0 +1,56 @@
+{
+  "path": "/Users/andrew/dev/more/roughdraft/audiobook/usage/gemini-tts-2026-05-30.json",
+  "date": "2026-05-30",
+  "requests": 6,
+  "estimatedOutputTokens": 27422,
+  "items": [
+    {
+      "at": "2026-05-30T20:20:38.043Z",
+      "story": "silly-squirrels/the-silly-squirrels-weather-wobble-machine",
+      "chapter": 1,
+      "chunk": 1,
+      "durationSeconds": 254.28,
+      "estimatedOutputTokens": 6357
+    },
+    {
+      "at": "2026-05-30T20:21:20.726Z",
+      "story": "silly-squirrels/the-silly-squirrels-weather-wobble-machine",
+      "chapter": 1,
+      "chunk": 2,
+      "durationSeconds": 43.4,
+      "estimatedOutputTokens": 1085
+    },
+    {
+      "at": "2026-05-30T20:24:00.007Z",
+      "story": "silly-squirrels/the-silly-squirrels-weather-wobble-machine",
+      "chapter": 2,
+      "chunk": 1,
+      "durationSeconds": 244.36,
+      "estimatedOutputTokens": 6109
+    },
+    {
+      "at": "2026-05-30T20:25:44.272Z",
+      "story": "silly-squirrels/the-silly-squirrels-weather-wobble-machine",
+      "chapter": 3,
+      "chunk": 1,
+      "durationSeconds": 191.28,
+      "estimatedOutputTokens": 4782
+    },
+    {
+      "at": "2026-05-30T20:27:59.436Z",
+      "story": "silly-squirrels/the-silly-squirrels-weather-wobble-machine",
+      "chapter": 4,
+      "chunk": 1,
+      "durationSeconds": 200.56,
+      "estimatedOutputTokens": 5014
+    },
+    {
+      "at": "2026-05-30T20:29:44.234Z",
+      "story": "silly-squirrels/the-silly-squirrels-weather-wobble-machine",
+      "chapter": 5,
+      "chunk": 1,
+      "durationSeconds": 163,
+      "estimatedOutputTokens": 4075
+    }
+  ]
+}

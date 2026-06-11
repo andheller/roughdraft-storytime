@@ -1,0 +1,43 @@
+{
+  "seriesId": "silly-squirrels",
+  "storyId": "the-silly-squirrels-leaf-blower-orchestra",
+  "title": "The Silly Squirrels and the Leaf-Blower Orchestra",
+  "provider": "google-gemini",
+  "model": "gemini-3.1-flash-tts-preview",
+  "voice": "Zephyr",
+  "format": "wav",
+  "sampleRate": 24000,
+  "generatedAt": "2026-06-01T15:51:40.050Z",
+  "chapters": [
+    {
+      "id": 1,
+      "title": "Concert Trouble",
+      "filename": "chapter-1.wav",
+      "durationSeconds": 270.88
+    },
+    {
+      "id": 2,
+      "title": "Automatic Music",
+      "filename": "chapter-2.wav",
+      "durationSeconds": 248.32
+    },
+    {
+      "id": 3,
+      "title": "The First Rehearsal Gust",
+      "filename": "chapter-3.wav",
+      "durationSeconds": 234.76
+    },
+    {
+      "id": 4,
+      "title": "Symphony in a Strong Breeze",
+      "filename": "chapter-4.wav",
+      "durationSeconds": 261.92
+    },
+    {
+      "id": 5,
+      "title": "A Quieter Encore",
+      "filename": "chapter-5.wav",
+      "durationSeconds": 217.96
+    }
+  ]
+}

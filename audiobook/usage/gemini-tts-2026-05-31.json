@@ -1,0 +1,49 @@
+{
+  "path": "/Users/andrew/dev/more/roughdraft/audiobook/usage/gemini-tts-2026-05-31.json",
+  "date": "2026-05-31",
+  "requests": 10,
+  "estimatedOutputTokens": 18849,
+  "note": "Gemini reported the 10-request free-tier daily quota exhausted after successful chunks plus timed-out/503 retry attempts.",
+  "items": [
+    {
+      "at": "2026-05-31T14:05:06.157Z",
+      "story": "silly-squirrels/the-silly-squirrels-leaf-blower-orchestra",
+      "chapter": 1,
+      "chunk": 1,
+      "durationSeconds": 255.48,
+      "estimatedOutputTokens": 6387
+    },
+    {
+      "at": "2026-05-31T14:05:38.235Z",
+      "story": "silly-squirrels/the-silly-squirrels-leaf-blower-orchestra",
+      "chapter": 1,
+      "chunk": 2,
+      "durationSeconds": 15.4,
+      "estimatedOutputTokens": 385
+    },
+    {
+      "at": "2026-05-31T14:08:05.996Z",
+      "story": "silly-squirrels/the-silly-squirrels-leaf-blower-orchestra",
+      "chapter": 2,
+      "chunk": 1,
+      "durationSeconds": 248.32,
+      "estimatedOutputTokens": 6208
+    },
+    {
+      "at": "2026-05-31T14:20:30.571Z",
+      "story": "silly-squirrels/the-silly-squirrels-leaf-blower-orchestra",
+      "chapter": 3,
+      "chunk": 1,
+      "durationSeconds": 121.96,
+      "estimatedOutputTokens": 3049
+    },
+    {
+      "at": "2026-05-31T14:22:42.397Z",
+      "story": "silly-squirrels/the-silly-squirrels-leaf-blower-orchestra",
+      "chapter": 3,
+      "chunk": 2,
+      "durationSeconds": 112.8,
+      "estimatedOutputTokens": 2820
+    }
+  ]
+}

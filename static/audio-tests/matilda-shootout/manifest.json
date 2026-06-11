@@ -1,0 +1,33 @@
+{
+  "label": "matilda-shootout",
+  "generatedAt": "2026-04-24T19:45:37.486Z",
+  "model": "eleven_v3",
+  "output_format": "mp3_44100_192",
+  "voice_settings": {
+    "stability": 0.68,
+    "similarity_boost": 0.88,
+    "style": 0.08,
+    "use_speaker_boost": true
+  },
+  "text": "[excited] The Nutville Library had a problem with returns. Not ordinary returns. Not one-book-under-the-couch returns. An avalanche of overdue books!\n\nMiss Maple pushed up her glasses. [whispers] \"This is not a library problem anymore. This is a book emergency.\"\n\nThen the cookbook sneezed flour, the atlas unfolded itself across the floor, and one very small poetry book shouted, [laughs] \"I demand a wagon!\"",
+  "voices": [
+    {
+      "name": "Matilda Premade",
+      "voice_id": "XrExE9yKIg1WjnnlVkGX",
+      "notes": "Account/premade: knowledgeable, professional",
+      "filename": "matilda-premade.mp3"
+    },
+    {
+      "name": "Matilda Audiobook",
+      "voice_id": "vXdn3dxpDdZHARskOYfz",
+      "notes": "Voice Library: professional audiobook/education voice",
+      "filename": "matilda-audiobook.mp3"
+    },
+    {
+      "name": "Matilda Storytelling",
+      "voice_id": "NihRgaLj2HWAjvZ5XNxl",
+      "notes": "Voice Library: sweet Australian storytelling voice",
+      "filename": "matilda-storytelling.mp3"
+    }
+  ]
+}

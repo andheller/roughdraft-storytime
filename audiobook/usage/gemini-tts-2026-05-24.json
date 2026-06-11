@@ -1,0 +1,88 @@
+{
+	"path": "/Users/andrew/dev/more/roughdraft/audiobook/usage/gemini-tts-2026-05-24.json",
+	"date": "2026-05-24",
+	"requests": 10,
+	"estimatedOutputTokens": 46408,
+	"items": [
+		{
+			"at": "2026-05-24T18:34:26.600Z",
+			"story": "silly-squirrels/the-silly-squirrels-pizza-jetpack-delivery",
+			"chapter": 1,
+			"chunk": 1,
+			"durationSeconds": 242.24,
+			"estimatedOutputTokens": 6056
+		},
+		{
+			"at": "2026-05-24T18:36:47.051Z",
+			"story": "silly-squirrels/the-silly-squirrels-pizza-jetpack-delivery",
+			"chapter": 2,
+			"chunk": 1,
+			"durationSeconds": 232.24,
+			"estimatedOutputTokens": 5806
+		},
+		{
+			"at": "2026-05-24T18:39:06.060Z",
+			"story": "silly-squirrels/the-silly-squirrels-pizza-jetpack-delivery",
+			"chapter": 3,
+			"chunk": 1,
+			"durationSeconds": 222.56,
+			"estimatedOutputTokens": 5564
+		},
+		{
+			"at": "2026-05-24T18:41:07.231Z",
+			"story": "silly-squirrels/the-silly-squirrels-pizza-jetpack-delivery",
+			"chapter": 4,
+			"chunk": 1,
+			"durationSeconds": 198.88,
+			"estimatedOutputTokens": 4972
+		},
+		{
+			"at": "2026-05-24T18:43:20.736Z",
+			"story": "silly-squirrels/the-silly-squirrels-pizza-jetpack-delivery",
+			"chapter": 5,
+			"chunk": 1,
+			"durationSeconds": 190.32,
+			"estimatedOutputTokens": 4758
+		},
+		{
+			"at": "2026-05-24T18:44:44.157Z",
+			"story": "silly-squirrels/the-silly-squirrels-night-before-snow-day",
+			"chapter": 1,
+			"chunk": 1,
+			"durationSeconds": 167.44,
+			"estimatedOutputTokens": 4186
+		},
+		{
+			"at": "2026-05-24T18:46:30.234Z",
+			"story": "silly-squirrels/the-silly-squirrels-night-before-snow-day",
+			"chapter": 2,
+			"chunk": 1,
+			"durationSeconds": 134.4,
+			"estimatedOutputTokens": 3360
+		},
+		{
+			"at": "2026-05-24T18:48:05.346Z",
+			"story": "silly-squirrels/the-silly-squirrels-night-before-snow-day",
+			"chapter": 3,
+			"chunk": 1,
+			"durationSeconds": 139.84,
+			"estimatedOutputTokens": 3496
+		},
+		{
+			"at": "2026-05-24T18:49:44.478Z",
+			"story": "silly-squirrels/the-silly-squirrels-night-before-snow-day",
+			"chapter": 4,
+			"chunk": 1,
+			"durationSeconds": 171.8,
+			"estimatedOutputTokens": 4295
+		},
+		{
+			"at": "2026-05-24T18:51:13.980Z",
+			"story": "silly-squirrels/the-silly-squirrels-night-before-snow-day",
+			"chapter": 5,
+			"chunk": 1,
+			"durationSeconds": 156.6,
+			"estimatedOutputTokens": 3915
+		}
+	]
+}

@@ -1,0 +1,43 @@
+{
+  "seriesId": "silly-squirrels",
+  "storyId": "the-silly-squirrels-car-wash-waterfall",
+  "title": "The Silly Squirrels and the Car-Wash Waterfall",
+  "provider": "google-gemini",
+  "model": "gemini-3.1-flash-tts-preview",
+  "voice": "Zephyr",
+  "format": "wav",
+  "sampleRate": 24000,
+  "generatedAt": "2026-05-23T16:20:30.830Z",
+  "chapters": [
+    {
+      "id": 1,
+      "title": "Mud Everywhere",
+      "filename": "chapter-1.wav",
+      "durationSeconds": 156.92
+    },
+    {
+      "id": 2,
+      "title": "Buckets, Brushes, and Bad Ideas",
+      "filename": "chapter-2.wav",
+      "durationSeconds": 168.8
+    },
+    {
+      "id": 3,
+      "title": "The Wash Begins",
+      "filename": "chapter-3.wav",
+      "durationSeconds": 155.56
+    },
+    {
+      "id": 4,
+      "title": "The Soap Slide Disaster",
+      "filename": "chapter-4.wav",
+      "durationSeconds": 171.68
+    },
+    {
+      "id": 5,
+      "title": "A Much Smaller Splash",
+      "filename": "chapter-5.wav",
+      "durationSeconds": 140.72
+    }
+  ]
+}

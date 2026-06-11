@@ -1,0 +1,43 @@
+{
+  "seriesId": "silly-squirrels",
+  "storyId": "the-silly-squirrels-ice-cream-catapult",
+  "title": "The Silly Squirrels and the Ice Cream Catapult",
+  "provider": "google-gemini",
+  "model": "gemini-3.1-flash-tts-preview",
+  "voice": "Zephyr",
+  "format": "wav",
+  "sampleRate": 24000,
+  "generatedAt": "2026-05-22T20:44:38.247Z",
+  "chapters": [
+    {
+      "id": 1,
+      "title": "The Longest Ice Cream Line in Nutville",
+      "filename": "chapter-1.wav",
+      "durationSeconds": 165.24
+    },
+    {
+      "id": 2,
+      "title": "Scoops at High Speed",
+      "filename": "chapter-2.wav",
+      "durationSeconds": 153.4
+    },
+    {
+      "id": 3,
+      "title": "Chocolate Incoming",
+      "filename": "chapter-3.wav",
+      "durationSeconds": 153.08
+    },
+    {
+      "id": 4,
+      "title": "The Sundae Emergency",
+      "filename": "chapter-4.wav",
+      "durationSeconds": 149.56
+    },
+    {
+      "id": 5,
+      "title": "Cones for Everyone, Carefully",
+      "filename": "chapter-5.wav",
+      "durationSeconds": 121.24
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "seriesId": "downriver",
+  "storyId": "downriver",
+  "title": "Downriver",
+  "generatedAt": "2026-04-30T03:38:43.121Z",
+  "voice": "Rachel",
+  "voice_id": "EXAVITQu4vr4xnSDxMaL",
+  "model": "eleven_multilingual_v2",
+  "chapters": [
+    {
+      "id": 1,
+      "filename": "chapter-1.mp3"
+    },
+    {
+      "id": 2,
+      "filename": "chapter-2.mp3"
+    },
+    {
+      "id": 3,
+      "filename": "chapter-3.mp3"
+    },
+    {
+      "id": 4,
+      "filename": "chapter-4.mp3"
+    },
+    {
+      "id": 5,
+      "filename": "chapter-5.mp3"
+    },
+    {
+      "id": 6,
+      "filename": "chapter-6.mp3"
+    },
+    {
+      "id": 7,
+      "filename": "chapter-7.mp3"
+    },
+    {
+      "id": 8,
+      "filename": "chapter-8.mp3"
+    },
+    {
+      "id": 9,
+      "filename": "chapter-9.mp3"
+    }
+  ]
+}

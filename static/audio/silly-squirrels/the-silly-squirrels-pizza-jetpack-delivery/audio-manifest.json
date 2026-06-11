@@ -1,0 +1,43 @@
+{
+  "seriesId": "silly-squirrels",
+  "storyId": "the-silly-squirrels-pizza-jetpack-delivery",
+  "title": "The Silly Squirrels and the Pizza Jetpack Delivery",
+  "provider": "google-gemini",
+  "model": "gemini-3.1-flash-tts-preview",
+  "voice": "Zephyr",
+  "format": "wav",
+  "sampleRate": 24000,
+  "generatedAt": "2026-05-24T18:43:20.738Z",
+  "chapters": [
+    {
+      "id": 1,
+      "title": "The Pizza Problem",
+      "filename": "chapter-1.wav",
+      "durationSeconds": 242.24
+    },
+    {
+      "id": 2,
+      "title": "Building Bottle Jetpacks",
+      "filename": "chapter-2.wav",
+      "durationSeconds": 232.24
+    },
+    {
+      "id": 3,
+      "title": "Crash Landing Chronicles",
+      "filename": "chapter-3.wav",
+      "durationSeconds": 222.56
+    },
+    {
+      "id": 4,
+      "title": "Water Gun Wake-Up Calls",
+      "filename": "chapter-4.wav",
+      "durationSeconds": 198.88
+    },
+    {
+      "id": 5,
+      "title": "Pizza Heroes Take Flight",
+      "filename": "chapter-5.wav",
+      "durationSeconds": 190.32
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+	"path": "/Users/andrew/dev/more/roughdraft/audiobook/usage/gemini-tts-2026-05-19.json",
+	"date": "2026-05-19",
+	"requests": 10,
+	"estimatedOutputTokens": 36596,
+	"items": [
+		{
+			"at": "2026-05-19T21:47:02.190Z",
+			"story": "silly-squirrels/the-silly-squirrels-library-book-rocket",
+			"chapter": 1,
+			"chunk": 1,
+			"durationSeconds": 150.28,
+			"estimatedOutputTokens": 3757
+		},
+		{
+			"at": "2026-05-19T21:48:30.043Z",
+			"story": "silly-squirrels/the-silly-squirrels-library-book-rocket",
+			"chapter": 2,
+			"chunk": 1,
+			"durationSeconds": 125.32,
+			"estimatedOutputTokens": 3133
+		},
+		{
+			"at": "2026-05-19T21:57:12.808Z",
+			"story": "silly-squirrels/the-silly-squirrels-library-book-rocket",
+			"chapter": 3,
+			"chunk": 1,
+			"durationSeconds": 162.4,
+			"estimatedOutputTokens": 4060
+		},
+		{
+			"at": "2026-05-19T21:58:40.735Z",
+			"story": "silly-squirrels/the-silly-squirrels-library-book-rocket",
+			"chapter": 4,
+			"chunk": 1,
+			"durationSeconds": 160.2,
+			"estimatedOutputTokens": 4005
+		},
+		{
+			"at": "2026-05-19T21:59:46.760Z",
+			"story": "silly-squirrels/the-silly-squirrels-library-book-rocket",
+			"chapter": 5,
+			"chunk": 1,
+			"durationSeconds": 117.24,
+			"estimatedOutputTokens": 2931
+		},
+		{
+			"at": "2026-05-19T22:09:45.795Z",
+			"story": "silly-squirrels/the-silly-squirrels-pancake-parade",
+			"chapter": 1,
+			"chunk": 1,
+			"durationSeconds": 171.48,
+			"estimatedOutputTokens": 4287
+		},
+		{
+			"at": "2026-05-19T22:11:33.960Z",
+			"story": "silly-squirrels/the-silly-squirrels-pancake-parade",
+			"chapter": 2,
+			"chunk": 1,
+			"durationSeconds": 146.84,
+			"estimatedOutputTokens": 3671
+		},
+		{
+			"at": "2026-05-19T22:13:53.529Z",
+			"story": "silly-squirrels/the-silly-squirrels-pancake-parade",
+			"chapter": 3,
+			"chunk": 1,
+			"durationSeconds": 153.72,
+			"estimatedOutputTokens": 3843
+		},
+		{
+			"at": "2026-05-19T22:15:39.417Z",
+			"story": "silly-squirrels/the-silly-squirrels-pancake-parade",
+			"chapter": 4,
+			"chunk": 1,
+			"durationSeconds": 154.24,
+			"estimatedOutputTokens": 3856
+		},
+		{
+			"at": "2026-05-19T22:17:01.656Z",
+			"story": "silly-squirrels/the-silly-squirrels-pancake-parade",
+			"chapter": 5,
+			"chunk": 1,
+			"durationSeconds": 122.12,
+			"estimatedOutputTokens": 3053
+		}
+	]
+}

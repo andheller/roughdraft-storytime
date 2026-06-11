@@ -1,0 +1,43 @@
+{
+  "seriesId": "silly-squirrels",
+  "storyId": "the-silly-squirrels-weather-wobble-machine",
+  "title": "The Silly Squirrels and the Weather Wobble Machine",
+  "provider": "google-gemini",
+  "model": "gemini-3.1-flash-tts-preview",
+  "voice": "Zephyr",
+  "format": "wav",
+  "sampleRate": 24000,
+  "generatedAt": "2026-05-30T20:29:44.239Z",
+  "chapters": [
+    {
+      "id": 1,
+      "title": "A Picnic Forecast of Trouble",
+      "filename": "chapter-1.wav",
+      "durationSeconds": 297.68
+    },
+    {
+      "id": 2,
+      "title": "Buttons for Breezes",
+      "filename": "chapter-2.wav",
+      "durationSeconds": 244.36
+    },
+    {
+      "id": 3,
+      "title": "Sunny Here, Snowy There",
+      "filename": "chapter-3.wav",
+      "durationSeconds": 191.28
+    },
+    {
+      "id": 4,
+      "title": "The Great Umbrella Stampede",
+      "filename": "chapter-4.wav",
+      "durationSeconds": 200.56
+    },
+    {
+      "id": 5,
+      "title": "Let the Sky Be Silly",
+      "filename": "chapter-5.wav",
+      "durationSeconds": 163
+    }
+  ]
+}

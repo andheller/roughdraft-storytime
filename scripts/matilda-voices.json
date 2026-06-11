@@ -1,0 +1,17 @@
+[
+	{
+		"name": "Matilda Premade",
+		"voice_id": "XrExE9yKIg1WjnnlVkGX",
+		"notes": "Account/premade: knowledgeable, professional"
+	},
+	{
+		"name": "Matilda Audiobook",
+		"voice_id": "vXdn3dxpDdZHARskOYfz",
+		"notes": "Voice Library: professional audiobook/education voice"
+	},
+	{
+		"name": "Matilda Storytelling",
+		"voice_id": "NihRgaLj2HWAjvZ5XNxl",
+		"notes": "Voice Library: sweet Australian storytelling voice"
+	}
+]

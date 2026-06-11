@@ -1,0 +1,19 @@
+{
+  "seriesId": "history-close-up",
+  "storyId": "abigail-adams-and-the-revolution-at-home",
+  "title": "Abigail Adams and the Revolution at Home",
+  "provider": "google-gemini",
+  "model": "gemini-3.1-flash-tts-preview",
+  "voice": "Zephyr",
+  "format": "wav",
+  "sampleRate": 24000,
+  "generatedAt": "2026-06-03T01:10:59.277Z",
+  "chapters": [
+    {
+      "id": 1,
+      "title": "A Farm, a Family, and a Gathering Crisis",
+      "filename": "chapter-1.wav",
+      "durationSeconds": 364.44
+    }
+  ]
+}
