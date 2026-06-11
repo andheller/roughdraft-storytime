@@ -85,9 +85,23 @@
 				</span>
 				{#if story.audio?.available}
 					<span
-						class="rounded-full border border-stone-200 px-3 py-1.5 text-sm font-medium text-stone-600 dark:border-stone-700 dark:text-stone-400"
+						class="inline-flex items-center gap-1.5 rounded-full border border-stone-200 px-3 py-1.5 text-sm font-medium text-stone-600 dark:border-stone-700 dark:text-stone-400"
 					>
-						🎧 Audio
+						<svg
+							class="h-4 w-4"
+							viewBox="0 0 24 24"
+							fill="none"
+							stroke="currentColor"
+							stroke-width="2"
+							stroke-linecap="round"
+							stroke-linejoin="round"
+							aria-hidden="true"
+						>
+							<path d="M3 18v-6a9 9 0 0 1 18 0v6" />
+							<path d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3v5Z" />
+							<path d="M3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3v5Z" />
+						</svg>
+						Audio
 					</span>
 				{/if}
 			</div>
@@ -369,8 +383,8 @@
 	:global(.story-container .prose h1) {
 		position: relative;
 		font-weight: 700;
-		margin: 0 0 1.5rem;
-		padding-top: 1.65rem;
+		margin: 0 0 2rem;
+		padding-top: 1.4rem;
 		line-height: 1.3;
 		font-size: 2.5rem;
 		text-wrap: pretty;
@@ -378,8 +392,8 @@
 
 	:global(.story-container .prose h1::before) {
 		content: 'Chapter ' counter(story-chapter);
-		display: inline-flex;
-		width: fit-content;
+		display: flex;
+		width: max-content;
 		margin-bottom: 0.65rem;
 		border: 1px solid rgba(120, 113, 108, 0.2);
 		border-radius: 999px;
@@ -432,55 +446,29 @@
 
 	:global(.story-container .prose .story-illustration-wrap) {
 		position: relative;
-		margin: 0.25rem 0 2.75rem;
-		border-radius: 0.95rem;
-		padding: 0.45rem;
-		background:
-			linear-gradient(180deg, rgba(255, 255, 255, 0.76), rgba(255, 255, 255, 0.36)),
-			color-mix(in srgb, var(--story-accent) 9%, #f5f5f2);
+		margin: 0.75rem 0 2.75rem;
+		border-radius: 0.85rem;
+		overflow: hidden;
+		background: color-mix(in srgb, var(--story-accent) 5%, #f8fafc);
 		box-shadow:
-			inset 0 0 0 1px rgba(255, 255, 255, 0.8),
-			inset 0 2px 0 rgba(255, 255, 255, 0.65),
-			0 0 0 1px rgba(120, 113, 108, 0.14),
-			0 16px 34px rgba(41, 37, 36, 0.12);
-	}
-
-	:global(.story-container .prose .story-illustration-wrap::after) {
-		content: '';
-		position: absolute;
-		inset: 0.25rem;
-		pointer-events: none;
-		border-radius: 0.75rem;
-		border: 1px solid rgba(255, 255, 255, 0.58);
-		box-shadow: inset 0 0 0 1px rgba(41, 37, 36, 0.08);
+			0 1px 2px rgba(41, 37, 36, 0.08),
+			0 18px 36px rgba(41, 37, 36, 0.1);
+		line-height: 0;
 	}
 
 	:global(.story-container .prose .story-illustration) {
 		display: block;
 		width: 100%;
 		height: auto;
-		border-radius: 0.65rem;
-		box-shadow:
-			inset 0 1px 0 rgba(255, 255, 255, 0.4),
-			0 1px 2px rgba(0, 0, 0, 0.16);
-		border: 1px solid rgba(41, 37, 36, 0.14);
-		background: rgba(255, 255, 255, 0.55);
+		border-radius: inherit;
+		background: transparent;
 	}
 
 	:global(.dark .story-container .prose .story-illustration-wrap) {
-		background:
-			linear-gradient(180deg, rgba(255, 255, 255, 0.09), rgba(255, 255, 255, 0.03)),
-			color-mix(in srgb, var(--story-accent) 12%, #111827);
+		background: color-mix(in srgb, var(--story-accent) 10%, #111827);
 		box-shadow:
-			inset 0 0 0 1px rgba(255, 255, 255, 0.1),
-			inset 0 2px 0 rgba(255, 255, 255, 0.07),
-			0 0 0 1px rgba(255, 255, 255, 0.06),
-			0 16px 34px rgba(0, 0, 0, 0.34);
-	}
-
-	:global(.dark .story-container .prose .story-illustration) {
-		border-color: rgba(255, 255, 255, 0.1);
-		background: rgba(255, 255, 255, 0.03);
+			0 1px 2px rgba(0, 0, 0, 0.28),
+			0 18px 36px rgba(0, 0, 0, 0.34);
 	}
 
 	/* Drop caps for chapter beginnings */

@@ -15,70 +15,70 @@ const COVER_EXTENSIONS = ['.jpg', '.jpeg', '.png', '.webp', '.svg'];
 const THEMED_PALETTES = {
 	// American Revolution — dignified coordinated set
 	'am-rev': [
-		'hsl(215, 52%, 24%)',  // navy
-		'hsl(0, 40%, 30%)',    // burgundy
-		'hsl(140, 34%, 28%)',  // forest
-		'hsl(225, 30%, 30%)',  // slate blue
+		'hsl(215, 52%, 24%)', // navy
+		'hsl(0, 40%, 30%)', // burgundy
+		'hsl(140, 34%, 28%)', // forest
+		'hsl(225, 30%, 30%)' // slate blue
 	],
 	// French Revolution / Napoleonic
 	'french-rev': [
-		'hsl(225, 45%, 26%)',  // deep royal blue
-		'hsl(0, 38%, 28%)',    // dark crimson
-		'hsl(32, 45%, 26%)',   // dark bronze
+		'hsl(225, 45%, 26%)', // deep royal blue
+		'hsl(0, 38%, 28%)', // dark crimson
+		'hsl(32, 45%, 26%)' // dark bronze
 	],
 	// Naval / Civil War
-	'naval': [
-		'hsl(210, 48%, 22%)',  // deep navy
-		'hsl(195, 40%, 22%)',  // dark steel blue
-		'hsl(180, 38%, 20%)',  // deep teal
+	naval: [
+		'hsl(210, 48%, 22%)', // deep navy
+		'hsl(195, 40%, 22%)', // dark steel blue
+		'hsl(180, 38%, 20%)' // deep teal
 	],
 	// World History — broader palette
 	'world-history': [
-		'hsl(90, 28%, 23%)',   // dark olive
-		'hsl(18, 43%, 29%)',   // terracotta
-		'hsl(330, 28%, 22%)',  // dark mauve
-		'hsl(225, 25%, 28%)',  // dark slate
-		'hsl(32, 40%, 25%)',   // dark bronze
+		'hsl(90, 28%, 23%)', // dark olive
+		'hsl(18, 43%, 29%)', // terracotta
+		'hsl(330, 28%, 22%)', // dark mauve
+		'hsl(225, 25%, 28%)', // dark slate
+		'hsl(32, 40%, 25%)' // dark bronze
 	],
 	// Silly Squirrels — warm and playful
 	'silly-squirrels': [
-		'hsl(32, 55%, 32%)',   // warm amber
+		'hsl(32, 55%, 32%)', // warm amber
 		'hsl(140, 28%, 32%)', // sage green
-		'hsl(18, 50%, 30%)',   // russet
-		'hsl(28, 48%, 28%)',   // warm leather
-		'hsl(80, 22%, 30%)',   // olive-green
+		'hsl(18, 50%, 30%)', // russet
+		'hsl(28, 48%, 28%)', // warm leather
+		'hsl(80, 22%, 30%)' // olive-green
 	],
 	// Humor / Comedy
-	'humor': [
-		'hsl(300, 28%, 28%)',  // plum
-		'hsl(32, 50%, 30%)',   // amber
-		'hsl(18, 40%, 32%)',   // warm terracotta
-		'hsl(160, 28%, 28%)', // muted teal
+	humor: [
+		'hsl(300, 28%, 28%)', // plum
+		'hsl(32, 50%, 30%)', // amber
+		'hsl(18, 40%, 32%)', // warm terracotta
+		'hsl(160, 28%, 28%)' // muted teal
 	],
 	// Fantasy
-	'fantasy': [
-		'hsl(270, 32%, 26%)',  // deep purple
-		'hsl(180, 38%, 22%)',  // dark teal
-		'hsl(300, 30%, 24%)',  // dark plum
+	fantasy: [
+		'hsl(270, 32%, 26%)', // deep purple
+		'hsl(180, 38%, 22%)', // dark teal
+		'hsl(300, 30%, 24%)' // dark plum
 	],
 	// Adventure / Sci-fi
-	'adventure': [
-		'hsl(210, 38%, 28%)',  // steel blue
+	adventure: [
+		'hsl(210, 38%, 28%)', // steel blue
 		'hsl(180, 32%, 26%)', // teal
-		'hsl(225, 28%, 30%)',  // slate
+		'hsl(225, 28%, 30%)' // slate
 	],
 	// Historical fiction
 	'historical-fiction': [
-		'hsl(28, 50%, 25%)',   // dark leather
-		'hsl(0, 38%, 28%)',    // burgundy
-		'hsl(32, 42%, 28%)',   // warm brown
+		'hsl(28, 50%, 25%)', // dark leather
+		'hsl(0, 38%, 28%)', // burgundy
+		'hsl(32, 42%, 28%)' // warm brown
 	],
 	// Realistic / Drama
-	'drama': [
-		'hsl(330, 25%, 25%)',  // muted wine
+	drama: [
+		'hsl(330, 25%, 25%)', // muted wine
 		'hsl(210, 25%, 28%)', // quiet blue
-		'hsl(150, 22%, 26%)', // muted sage
-	],
+		'hsl(150, 22%, 26%)' // muted sage
+	]
 };
 
 // Determine which themed palette fits a story
@@ -91,9 +91,16 @@ function getThemedPalette(story) {
 
 	if (seriesId === 'history-close-up') {
 		if (tags.includes('american revolution')) return THEMED_PALETTES['am-rev'];
-		if (tags.includes('french revolution') || tags.includes('napoleon')) return THEMED_PALETTES['french-rev'];
-		if (tags.includes('uss') || tags.includes('naval') || tags.includes('hampton roads')
-			|| tags.includes('civil war') || tags.includes('hunley')) return THEMED_PALETTES['naval'];
+		if (tags.includes('french revolution') || tags.includes('napoleon'))
+			return THEMED_PALETTES['french-rev'];
+		if (
+			tags.includes('uss') ||
+			tags.includes('naval') ||
+			tags.includes('hampton roads') ||
+			tags.includes('civil war') ||
+			tags.includes('hunley')
+		)
+			return THEMED_PALETTES['naval'];
 		return THEMED_PALETTES['world-history'];
 	}
 
@@ -102,8 +109,10 @@ function getThemedPalette(story) {
 	}
 
 	if (genre.includes('fantasy')) return THEMED_PALETTES['fantasy'];
-	if (genre.includes('science fiction') || genre.includes('adventure')) return THEMED_PALETTES['adventure'];
-	if (genre.includes('realistic') || genre.includes('magical realism')) return THEMED_PALETTES['drama'];
+	if (genre.includes('science fiction') || genre.includes('adventure'))
+		return THEMED_PALETTES['adventure'];
+	if (genre.includes('realistic') || genre.includes('magical realism'))
+		return THEMED_PALETTES['drama'];
 	if (genre.includes('humor') || genre.includes('comedy') || genre.includes('humorous')) {
 		return THEMED_PALETTES['humor'];
 	}
@@ -128,9 +137,9 @@ function deriveAccentMetal(leatherColor, hash) {
 // Determine band visual style
 function deriveBandStyle(hash) {
 	const pick = hash % 7;
-	if (pick < 3) return 'double';       // ~43% — classic two bands
-	if (pick < 5) return 'single-top';   // ~29% — one band near top
-	return 'triple';                      // ~28% — three thin stripes
+	if (pick < 3) return 'double'; // ~43% — classic two bands
+	if (pick < 5) return 'single-top'; // ~29% — one band near top
+	return 'triple'; // ~28% — three thin stripes
 }
 
 // Band position offset — varies from 8% to 14% from edge
@@ -175,6 +184,171 @@ async function readJson(filePath) {
 	return JSON.parse(await fs.readFile(filePath, 'utf8'));
 }
 
+const imageDimensionCache = new Map();
+
+function readUInt24LE(buffer, offset) {
+	return buffer[offset] + (buffer[offset + 1] << 8) + (buffer[offset + 2] << 16);
+}
+
+function readPngDimensions(buffer) {
+	if (buffer.length < 24 || buffer.toString('ascii', 1, 4) !== 'PNG') {
+		return null;
+	}
+
+	return {
+		width: buffer.readUInt32BE(16),
+		height: buffer.readUInt32BE(20)
+	};
+}
+
+function readJpegDimensions(buffer) {
+	if (buffer.length < 4 || buffer[0] !== 0xff || buffer[1] !== 0xd8) {
+		return null;
+	}
+
+	let offset = 2;
+	while (offset < buffer.length) {
+		if (buffer[offset] !== 0xff) {
+			offset += 1;
+			continue;
+		}
+
+		const marker = buffer[offset + 1];
+		const length = buffer.readUInt16BE(offset + 2);
+		const isStartOfFrame =
+			(marker >= 0xc0 && marker <= 0xc3) ||
+			(marker >= 0xc5 && marker <= 0xc7) ||
+			(marker >= 0xc9 && marker <= 0xcb) ||
+			(marker >= 0xcd && marker <= 0xcf);
+
+		if (isStartOfFrame && offset + 8 < buffer.length) {
+			return {
+				height: buffer.readUInt16BE(offset + 5),
+				width: buffer.readUInt16BE(offset + 7)
+			};
+		}
+
+		offset += 2 + length;
+	}
+
+	return null;
+}
+
+function readWebpDimensions(buffer) {
+	if (
+		buffer.length < 30 ||
+		buffer.toString('ascii', 0, 4) !== 'RIFF' ||
+		buffer.toString('ascii', 8, 12) !== 'WEBP'
+	) {
+		return null;
+	}
+
+	const chunkType = buffer.toString('ascii', 12, 16);
+
+	if (chunkType === 'VP8X') {
+		return {
+			width: readUInt24LE(buffer, 24) + 1,
+			height: readUInt24LE(buffer, 27) + 1
+		};
+	}
+
+	if (chunkType === 'VP8 ' && buffer.length >= 30) {
+		return {
+			width: buffer.readUInt16LE(26) & 0x3fff,
+			height: buffer.readUInt16LE(28) & 0x3fff
+		};
+	}
+
+	if (chunkType === 'VP8L' && buffer.length >= 25 && buffer[20] === 0x2f) {
+		const b1 = buffer[21];
+		const b2 = buffer[22];
+		const b3 = buffer[23];
+		const b4 = buffer[24];
+
+		return {
+			width: 1 + (((b2 & 0x3f) << 8) | b1),
+			height: 1 + (((b4 & 0x0f) << 10) | (b3 << 2) | ((b2 & 0xc0) >> 6))
+		};
+	}
+
+	return null;
+}
+
+async function getStaticImageDimensions(source) {
+	const [pathname] = source.split(/[?#]/);
+	if (!pathname?.startsWith('/')) {
+		return null;
+	}
+
+	const imagePath = path.resolve(STATIC_ROOT, decodeURIComponent(pathname.slice(1)));
+	if (!imagePath.startsWith(`${STATIC_ROOT}${path.sep}`) || !(await pathExists(imagePath))) {
+		return null;
+	}
+
+	if (!imageDimensionCache.has(imagePath)) {
+		imageDimensionCache.set(
+			imagePath,
+			fs.readFile(imagePath).then((buffer) => {
+				const extension = path.extname(imagePath).toLowerCase();
+				if (extension === '.png') return readPngDimensions(buffer);
+				if (extension === '.jpg' || extension === '.jpeg') return readJpegDimensions(buffer);
+				if (extension === '.webp') return readWebpDimensions(buffer);
+				return null;
+			})
+		);
+	}
+
+	return imageDimensionCache.get(imagePath);
+}
+
+function getHtmlAttribute(tag, attributeName) {
+	const match = tag.match(new RegExp(`\\s${attributeName}\\s*=\\s*(['"])(.*?)\\1`, 'i'));
+	return match?.[2] || null;
+}
+
+function hasHtmlAttribute(tag, attributeName) {
+	return new RegExp(`\\s${attributeName}(?:\\s*=|\\s|/?>)`, 'i').test(tag);
+}
+
+function addHtmlAttribute(tag, attributeName, value) {
+	if (hasHtmlAttribute(tag, attributeName)) {
+		return tag;
+	}
+
+	return tag.replace(/\s*\/?>$/, (ending) => ` ${attributeName}="${value}"${ending}`);
+}
+
+async function enhanceMarkdownImages(markdown) {
+	const imageTags = Array.from(markdown.matchAll(/<img\b[^>]*>/gi));
+	if (imageTags.length === 0) {
+		return markdown;
+	}
+
+	let enhancedMarkdown = '';
+	let lastIndex = 0;
+
+	for (const match of imageTags) {
+		const tag = match[0];
+		const index = match.index ?? 0;
+		const source = getHtmlAttribute(tag, 'src');
+		const dimensions = source ? await getStaticImageDimensions(source) : null;
+		let enhancedTag = tag;
+
+		if (dimensions) {
+			enhancedTag = addHtmlAttribute(enhancedTag, 'width', dimensions.width);
+			enhancedTag = addHtmlAttribute(enhancedTag, 'height', dimensions.height);
+		}
+
+		enhancedTag = addHtmlAttribute(enhancedTag, 'loading', 'lazy');
+		enhancedTag = addHtmlAttribute(enhancedTag, 'decoding', 'async');
+
+		enhancedMarkdown += markdown.slice(lastIndex, index) + enhancedTag;
+		lastIndex = index + tag.length;
+	}
+
+	return enhancedMarkdown + markdown.slice(lastIndex);
+}
+
 async function walk(directoryPath) {
 	const entries = await fs.readdir(directoryPath, { withFileTypes: true });
 	const files = await Promise.all(
@@ -200,7 +374,8 @@ async function listFiles(directoryPath, predicate) {
 }
 
 function deriveEmoji(story) {
-	const haystack = `${story.genre || ''} ${(story.tags || []).join(' ')} ${story.title || ''}`.toLowerCase();
+	const haystack =
+		`${story.genre || ''} ${(story.tags || []).join(' ')} ${story.title || ''}`.toLowerCase();
 
 	if (haystack.includes('dragon')) return '🐉';
 	if (haystack.includes('space') || haystack.includes('rocket')) return '🚀';
@@ -390,7 +565,7 @@ async function loadChapters(storyDirectory, chapterDefinitions = []) {
 			chapterDefinitions.map(async (chapterDefinition, index) => {
 				const chapterFile = chapterDefinition.file;
 				const chapterPath = path.join(storyDirectory, chapterFile);
-				const markdown = await fs.readFile(chapterPath, 'utf8');
+				const markdown = await enhanceMarkdownImages(await fs.readFile(chapterPath, 'utf8'));
 				const chapterId = chapterDefinition.id ?? index + 1;
 
 				return {
@@ -413,7 +588,7 @@ async function loadChapters(storyDirectory, chapterDefinitions = []) {
 	return Promise.all(
 		markdownFiles.map(async (chapterPath, index) => {
 			const chapterFile = path.basename(chapterPath);
-			const markdown = await fs.readFile(chapterPath, 'utf8');
+			const markdown = await enhanceMarkdownImages(await fs.readFile(chapterPath, 'utf8'));
 			const match = chapterFile.match(/chapter-(\d+)/i);
 			const chapterId = match ? Number.parseInt(match[1], 10) : index + 1;
 
@@ -430,8 +605,14 @@ async function loadChapters(storyDirectory, chapterDefinitions = []) {
 }
 
 async function buildContentGraph() {
-	const storyFiles = await listFiles(CONTENT_ROOT, (filePath) => path.basename(filePath) === 'story.json');
-	const seriesFiles = await listFiles(CONTENT_ROOT, (filePath) => path.basename(filePath) === 'series.json');
+	const storyFiles = await listFiles(
+		CONTENT_ROOT,
+		(filePath) => path.basename(filePath) === 'story.json'
+	);
+	const seriesFiles = await listFiles(
+		CONTENT_ROOT,
+		(filePath) => path.basename(filePath) === 'series.json'
+	);
 	const audioManifestMap = await loadAudioManifestMap();
 
 	const seriesMetadata = new Map(
@@ -460,11 +641,13 @@ async function buildContentGraph() {
 		const storyDirectory = path.dirname(storyFile);
 		const seriesData = seriesMetadata.get(seriesId);
 		const seriesStoryData = seriesData?.stories?.find(
-			(entry) => entry.id === storyData.id || entry.id === storyFolder || entry.folder === storyFolder
+			(entry) =>
+				entry.id === storyData.id || entry.id === storyFolder || entry.folder === storyFolder
 		);
 		const storyId = storyData.id || seriesStoryData?.id || storyFolder;
 		const title = storyData.title || seriesStoryData?.title || toTitleCase(storyId);
-		const description = storyData.description || seriesStoryData?.description || seriesData?.description || '';
+		const description =
+			storyData.description || seriesStoryData?.description || seriesData?.description || '';
 		const chapters = await loadChapters(storyDirectory, storyData.chapters || []);
 		const assets = await loadAssets(storyDirectory);
 		const audio = audioManifestMap.get(`${seriesId}/${storyId}`) || null;
@@ -508,9 +691,13 @@ async function buildContentGraph() {
 		const leftSeries = seriesMetadata.get(left.seriesId);
 		const rightSeries = seriesMetadata.get(right.seriesId);
 		const leftIndex =
-			leftSeries?.stories?.findIndex((entry) => entry.id === left.storyId || entry.folder === left.storyId) ?? -1;
+			leftSeries?.stories?.findIndex(
+				(entry) => entry.id === left.storyId || entry.folder === left.storyId
+			) ?? -1;
 		const rightIndex =
-			rightSeries?.stories?.findIndex((entry) => entry.id === right.storyId || entry.folder === right.storyId) ?? -1;
+			rightSeries?.stories?.findIndex(
+				(entry) => entry.id === right.storyId || entry.folder === right.storyId
+			) ?? -1;
 
 		if (leftIndex !== rightIndex && leftIndex !== -1 && rightIndex !== -1) {
 			return leftIndex - rightIndex;
@@ -520,34 +707,38 @@ async function buildContentGraph() {
 	});
 
 	const series = Array.from(
-		stories.reduce((accumulator, story) => {
-			if (!accumulator.has(story.seriesId)) {
-				accumulator.set(story.seriesId, {
-					id: story.seriesId,
-					title: story.seriesTitle,
-					description: story.seriesDescription,
-					stories: []
+		stories
+			.reduce((accumulator, story) => {
+				if (!accumulator.has(story.seriesId)) {
+					accumulator.set(story.seriesId, {
+						id: story.seriesId,
+						title: story.seriesTitle,
+						description: story.seriesDescription,
+						stories: []
+					});
+				}
+
+				accumulator.get(story.seriesId).stories.push({
+					storyId: story.storyId,
+					title: story.title,
+					description: story.description,
+					author: story.author,
+					coverImage: story.coverImage,
+					chapterCount: story.chapterCount,
+					tags: story.tags
 				});
-			}
 
-			accumulator.get(story.seriesId).stories.push({
-				storyId: story.storyId,
-				title: story.title,
-				description: story.description,
-				author: story.author,
-				coverImage: story.coverImage,
-				chapterCount: story.chapterCount,
-				tags: story.tags
-			});
-
-			return accumulator;
-		}, new Map()).values()
+				return accumulator;
+			}, new Map())
+			.values()
 	).map((seriesEntry) => ({
 		...seriesEntry,
 		storyCount: seriesEntry.stories.length
 	}));
 
-	const books = stories.map((story, index) => deriveBookshelfData(story, index)).sort((a, b) => compareNatural(a.sortKey, b.sortKey));
+	const books = stories
+		.map((story, index) => deriveBookshelfData(story, index))
+		.sort((a, b) => compareNatural(a.sortKey, b.sortKey));
 
 	const routes = stories.map((story) => ({
 		seriesId: story.seriesId,
@@ -635,9 +826,11 @@ export function contentPipelinePlugin() {
 			}
 
 			const regenerate = async (changedPath) => {
-				if (!changedPath.includes(`${path.sep}src${path.sep}content${path.sep}books${path.sep}`) &&
+				if (
+					!changedPath.includes(`${path.sep}src${path.sep}content${path.sep}books${path.sep}`) &&
 					!changedPath.includes(`${path.sep}static${path.sep}covers${path.sep}`) &&
-					!changedPath.includes(`${path.sep}static${path.sep}audio${path.sep}`)) {
+					!changedPath.includes(`${path.sep}static${path.sep}audio${path.sep}`)
+				) {
 					return;
 				}
 
