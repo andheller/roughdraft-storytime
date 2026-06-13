@@ -1,7 +1,9 @@
 {
 	"name": "rough-draft-storytime",
+	"account_id": "261e1ddbc5f9cbf983e0fd6f51378e72",
 	"compatibility_date": "2026-04-04",
 	"assets": {
-		"directory": "./build"
+		"directory": "./build",
+		"not_found_handling": "404-page"
 	}
 }

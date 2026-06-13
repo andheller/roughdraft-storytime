@@ -33,36 +33,22 @@
 	];
 	const FILTER_EMOJI = {
 		all: '📚',
-		audio: '🎧',
+		audio: '♪',
 		silly: '🐿️',
 		history: '🏛️',
 		funny: '😄',
 		adventure: '🗺️',
 		standalone: '📖'
 	};
-	const HERO_SPARKS = [
-		{ left: '14%', top: '12%', size: '1.05rem', delay: '0s' },
-		{ left: '7%', top: '52%', size: '0.8rem', delay: '1.4s' },
-		{ left: '88%', top: '18%', size: '0.95rem', delay: '0.7s' },
-		{ left: '93%', top: '58%', size: '0.7rem', delay: '2.1s' },
-		{ left: '22%', top: '86%', size: '0.75rem', delay: '2.8s' },
-		{ left: '79%', top: '88%', size: '1rem', delay: '1.9s' }
-	];
-	const FIREFLIES = [
-		{ left: '8%', bottom: '34%', duration: '11s', delay: '0s' },
-		{ left: '24%', bottom: '20%', duration: '14s', delay: '2.5s' },
-		{ left: '47%', bottom: '42%', duration: '12s', delay: '5s' },
-		{ left: '68%', bottom: '16%', duration: '15s', delay: '1.2s' },
-		{ left: '86%', bottom: '38%', duration: '13s', delay: '3.8s' },
-		{ left: '37%', bottom: '60%', duration: '16s', delay: '6.4s' }
-	];
+	const INITIAL_VISIBLE_STORIES = 24;
+	const STORIES_PER_LOAD = 18;
 	const HOME_LOGO = {
-		src: '/optimized/logo-sign-480.webp',
+		src: '/logo-sign.webp',
 		srcset:
-			'/optimized/logo-sign-320.webp 320w, /optimized/logo-sign-480.webp 480w, /optimized/logo-sign-640.webp 640w',
-		sizes: '(max-width: 480px) 88vw, (max-width: 1024px) 480px, 640px',
-		width: 480,
-		height: 320
+			'/optimized/logo-sign-320.webp 320w, /optimized/logo-sign-480.webp 480w, /optimized/logo-sign-640.webp 640w, /logo-sign.webp 1536w',
+		sizes: '(max-width: 480px) 92vw, 520px',
+		width: 1536,
+		height: 1024
 	};
 	const homeCanonicalUrl = absoluteUrl('/');
 	const homeStructuredData = JSON.stringify({
@@ -95,9 +81,11 @@
 
 	let activeFilter = $state('all');
 	let searchQuery = $state('');
-	let displayMode = $state('table');
+	let displayMode = $state('covers');
 	let hoveredBook = $state(null);
 	let hoveredBookPopupPlacement = $state('above');
+	let visibleStoryCount = $state(INITIAL_VISIBLE_STORIES);
+	let previousResultKey = $state('');
 
 	let featuredBooksPerShelf = $state(5);
 	let viewportWidth = $state(1440);
@@ -151,6 +139,14 @@
 		window.localStorage.setItem('roughdraft-home-view', displayMode);
 	});
 
+	$effect(() => {
+		const resultKey = `${activeFilter}|${searchQuery.trim().toLowerCase()}|${displayMode}`;
+		if (resultKey === previousResultKey) return;
+
+		previousResultKey = resultKey;
+		visibleStoryCount = INITIAL_VISIBLE_STORIES;
+	});
+
 	function selectBook(book) {
 		goto(getBookHref(book));
 	}
@@ -190,9 +186,11 @@
 	}
 
 	function getDisplayHeight(book) {
-		// Minimum ~220, Maximum ~270. book.height ranges 237-259
-		// Height already has hash-based jitter from the content pipeline
-		return Math.round(210 + (book.height - 230) * 1.8);
+		if (displayMode === 'spines') {
+			return Math.round(222 + (book.height - 230) * 0.95);
+		}
+
+		return 238;
 	}
 
 	function getDisplayWidth(book) {
@@ -206,6 +204,10 @@
 
 	function setDisplayMode(mode) {
 		displayMode = mode;
+	}
+
+	function showMoreStories() {
+		visibleStoryCount = Math.min(filteredBookList.length, visibleStoryCount + STORIES_PER_LOAD);
 	}
 
 	function getBookHref(book) {
@@ -412,7 +414,9 @@
 		bookList.filter((book) => filterMatches(book, activeFilter) && searchMatches(book, searchQuery))
 	);
 
-	const mainBookShelves = $derived.by(() => packBooksIntoShelves(filteredBookList));
+	const visibleBookList = $derived(filteredBookList.slice(0, visibleStoryCount));
+	const hiddenBookCount = $derived(Math.max(0, filteredBookList.length - visibleBookList.length));
+	const mainBookShelves = $derived.by(() => packBooksIntoShelves(visibleBookList));
 </script>
 
 <svelte:head>
@@ -441,10 +445,6 @@
 </svelte:head>
 
 <div class="bookshelf-room">
-	<div class="star-layer" aria-hidden="true"></div>
-	<div class="star-layer late" aria-hidden="true"></div>
-	<div class="room-vignette" aria-hidden="true"></div>
-
 	{#snippet coverBook(book, variant)}
 		<div class="book-item">
 			<a
@@ -488,12 +488,7 @@
 								</div>
 							{/if}
 							<div class="cover-gloss" aria-hidden="true"></div>
-							{#if book.hasAudio}
-								<span class="cover-audio-badge" title="Read + Listen">🎧</span>
-							{/if}
 						</div>
-						<div class="cover-edge-right"></div>
-						<div class="cover-edge-bottom"></div>
 					</div>
 					<div class="book-pages-top" aria-hidden="true"></div>
 					<div class="book-pages-right" aria-hidden="true"></div>
@@ -506,12 +501,14 @@
 	{/snippet}
 
 	{#snippet woodenShelf()}
-		<div class="wooden-shelf">
+		<div class="wooden-shelf shelf-back-rail">
 			<div class="shelf-surface"></div>
-			<div class="shelf-lip"></div>
 			<div class="shelf-bracket shelf-bracket-left"></div>
 			<div class="shelf-bracket shelf-bracket-right"></div>
 			<div class="shelf-shadow"></div>
+		</div>
+		<div class="wooden-shelf shelf-front-rail">
+			<div class="shelf-lip"></div>
 		</div>
 	{/snippet}
 
@@ -525,11 +522,26 @@
 				onclick={() => {
 					activeFilter = 'all';
 					searchQuery = '';
+					visibleStoryCount = INITIAL_VISIBLE_STORIES;
 				}}
 			>
 				Show every story
 			</button>
 		</div>
+	{/snippet}
+
+	{#snippet loadMoreControl()}
+		{#if filteredBookList.length > 0 && hiddenBookCount > 0}
+			<div class="catalog-load-more">
+				<p>
+					Showing {visibleBookList.length} of {filteredBookList.length}
+					{filteredBookList.length === 1 ? 'story' : 'stories'}.
+				</p>
+				<button type="button" class="read-book-button load-more-button" onclick={showMoreStories}>
+					Show more stories
+				</button>
+			</div>
+		{/if}
 	{/snippet}
 
 	<div class="container">
@@ -548,14 +560,6 @@
 					loading="eager"
 					decoding="async"
 				/>
-				{#each HERO_SPARKS as spark (spark.left + spark.top)}
-					<span
-						class="hero-spark"
-						aria-hidden="true"
-						style="left: {spark.left}; top: {spark.top}; font-size: {spark.size}; animation-delay: {spark.delay};"
-						>✦</span
-					>
-				{/each}
 			</div>
 			<div class="hero-copy">
 				<h1 class="sr-only">{SITE_NAME}</h1>
@@ -584,13 +588,6 @@
 				{#each featuredBookShelves as featuredShelf, shelfIndex (shelfIndex)}
 					<div class="shelf-row featured-shelf-row">
 						<div class="shelf-back-glow" aria-hidden="true"></div>
-						{#each FIREFLIES as fly (fly.left)}
-							<span
-								class="firefly"
-								aria-hidden="true"
-								style="left: {fly.left}; bottom: {fly.bottom}; animation-duration: {fly.duration}; animation-delay: {fly.delay};"
-							></span>
-						{/each}
 
 						{@render woodenShelf()}
 
@@ -720,8 +717,8 @@
 						<div>
 							<h2>Browse the catalog</h2>
 							<p>
-								{filteredBookList.length}
-								{filteredBookList.length === 1 ? 'story' : 'stories'} ready to open.
+								Showing {visibleBookList.length} of {filteredBookList.length}
+								{filteredBookList.length === 1 ? 'story' : 'stories'}.
 							</p>
 						</div>
 						<div class="catalog-stamp" aria-hidden="true">
@@ -740,7 +737,7 @@
 								</tr>
 							</thead>
 							<tbody>
-								{#each filteredBookList as book (book.id)}
+								{#each visibleBookList as book (book.id)}
 									<tr>
 										<td>
 											<div class="story-cell">
@@ -776,9 +773,6 @@
 												<div class="story-meta">
 													<div class="story-title-line">
 														{book.title}
-														{#if book.hasAudio}
-															<span class="audio-note" title="Read + Listen">🎧</span>
-														{/if}
 													</div>
 													<div class="story-subline">{getTableDescription(book)}</div>
 												</div>
@@ -863,9 +857,6 @@
 											<div class="popup-content">
 												<h4>{book.title}</h4>
 												<p class="popup-description">{book.description?.slice(0, 100)}...</p>
-												{#if book.hasAudio}
-													<span class="popup-tag">🎧 Read + Listen</span>
-												{/if}
 											</div>
 											<div class="popup-arrow"></div>
 										</div>
@@ -930,6 +921,8 @@
 			</div>
 		{/if}
 
+		{@render loadMoreControl()}
+
 		<footer class="the-end">
 			<div class="end-ornament" aria-hidden="true">
 				<span class="end-rule"></span>
@@ -951,78 +944,45 @@
 		--font-round: 'Baloo 2', 'Trebuchet MS', system-ui, sans-serif;
 		--font-book: 'Lora', Georgia, serif;
 
-		--cream: #fdf3dd;
-		--cream-soft: rgba(253, 243, 221, 0.78);
-		--cream-faint: rgba(253, 243, 221, 0.52);
+		--cream: #fff8ea;
+		--cream-soft: rgba(70, 58, 41, 0.74);
+		--cream-faint: rgba(70, 58, 41, 0.48);
 		--honey-100: #ffe9bd;
 		--honey-300: #ffd98c;
 		--honey-400: #f7ad45;
 		--honey-600: #b87a1c;
 		--honey-ink: #5b3408;
-		--paper: #faf0d7;
-		--ink: #3b2a16;
-		--ink-soft: #6f5a3e;
-		--ink-faint: rgba(111, 90, 62, 0.6);
-		--rule: rgba(141, 110, 68, 0.42);
+		--paper: #fffaf0;
+		--ink: #352b1f;
+		--ink-soft: #6c5a43;
+		--ink-faint: rgba(85, 69, 48, 0.56);
+		--rule: rgba(116, 97, 68, 0.26);
 		--margin-red: rgba(208, 100, 84, 0.55);
 
 		font-family: var(--font-round);
 		--book-scale: 1;
 		min-height: 100vh;
 		background:
-			radial-gradient(58rem 30rem at 50% -8rem, rgba(255, 192, 105, 0.13), transparent 62%),
-			radial-gradient(95rem 55rem at 50% 22rem, rgba(94, 148, 96, 0.1), transparent 65%),
-			linear-gradient(180deg, #12251a 0%, #0d1c12 36%, #07120b 100%) #0a160e;
+			linear-gradient(rgba(84, 72, 52, 0.055) 1px, transparent 1px),
+			linear-gradient(90deg, rgba(84, 72, 52, 0.055) 1px, transparent 1px),
+			url('/optimized/paper-texture.webp'),
+			linear-gradient(180deg, #fdfbf5 0%, #f6f0e4 58%, #efe5d6 100%) #f7f1e7;
+		background-size:
+			1.35rem 4.2rem,
+			1.35rem 4.2rem,
+			360px 360px,
+			auto;
+		background-attachment: local;
 		position: relative;
 		overflow-x: hidden;
 		transition: filter 0.3s ease-out;
 	}
 
 	:global(.light) .bookshelf-room {
-		filter: brightness(1.1) contrast(0.95);
+		filter: none;
 	}
 
-	/* ============ Night-time library backdrop ============ */
-
-	.star-layer {
-		position: fixed;
-		inset: 0;
-		z-index: 2;
-		pointer-events: none;
-		background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='260' height='260' viewBox='0 0 260 260'%3E%3Cg fill='%23ffeac1'%3E%3Cpath opacity='.55' d='M30 34 Q30 41 37 41 Q30 41 30 48 Q30 41 23 41 Q30 41 30 34 Z'/%3E%3Cpath opacity='.4' d='M140 21 Q140 25 144 25 Q140 25 140 29 Q140 25 136 25 Q140 25 140 21 Z'/%3E%3Cpath opacity='.5' d='M224 62 Q224 70 232 70 Q224 70 224 78 Q224 70 216 70 Q224 70 224 62 Z'/%3E%3Cpath opacity='.35' d='M75 117.5 Q75 122 79.5 122 Q75 122 75 126.5 Q75 122 70.5 122 Q75 122 75 117.5 Z'/%3E%3Cpath opacity='.45' d='M181 146.5 Q181 152 186.5 152 Q181 152 181 157.5 Q181 152 175.5 152 Q181 152 181 146.5 Z'/%3E%3Cpath opacity='.4' d='M26 201 Q26 206 31 206 Q26 206 26 211 Q26 206 21 206 Q26 206 26 201 Z'/%3E%3Cpath opacity='.5' d='M122 231 Q122 237 128 237 Q122 237 122 243 Q122 237 116 237 Q122 237 122 231 Z'/%3E%3Cpath opacity='.35' d='M237 208 Q237 212 241 212 Q237 212 237 216 Q237 212 233 212 Q237 212 237 208 Z'/%3E%3Cpath opacity='.3' d='M95 67.5 Q95 70 97.5 70 Q95 70 95 72.5 Q95 70 92.5 70 Q95 70 95 67.5 Z'/%3E%3Cpath opacity='.3' d='M200 107 Q200 110 203 110 Q200 110 200 113 Q200 110 197 110 Q200 110 200 107 Z'/%3E%3Ccircle cx='60' cy='14' r='1.1' opacity='.35'/%3E%3Ccircle cx='110' cy='95' r='1.1' opacity='.3'/%3E%3Ccircle cx='15' cy='150' r='1.1' opacity='.3'/%3E%3Ccircle cx='160' cy='200' r='1.1' opacity='.35'/%3E%3Ccircle cx='250' cy='150' r='1.1' opacity='.25'/%3E%3Ccircle cx='45' cy='252' r='1.1' opacity='.3'/%3E%3Ccircle cx='205' cy='15' r='1.1' opacity='.3'/%3E%3C/g%3E%3C/svg%3E");
-		background-size: 270px 270px;
-		opacity: 0.55;
-		animation: starTwinkle 9s ease-in-out infinite alternate;
-	}
-
-	.star-layer.late {
-		background-position: 135px 110px;
-		background-size: 385px 385px;
-		opacity: 0.3;
-		animation-duration: 13s;
-		animation-delay: -5s;
-	}
-
-	@keyframes starTwinkle {
-		from {
-			opacity: 0.2;
-		}
-		to {
-			opacity: 0.6;
-		}
-	}
-
-	.room-vignette {
-		position: fixed;
-		inset: 0;
-		background: radial-gradient(circle at center, transparent 30%, rgba(2, 7, 4, 0.34) 100%);
-		pointer-events: none;
-		z-index: 3;
-	}
-
-	:global(.dark) .room-vignette {
-		background: radial-gradient(circle at center, transparent 22%, rgba(0, 0, 0, 0.45) 100%);
-	}
+	/* ============ Story room ============ */
 
 	.container {
 		position: relative;
@@ -1030,25 +990,25 @@
 		width: 100%;
 		max-width: 1380px;
 		margin: 0 auto;
-		padding: 4.25rem 1.5rem 4rem;
+		padding: 1.6rem 1.5rem 4rem;
 	}
 
 	/* ============ Hero ============ */
 
 	.bookshelf-header {
 		text-align: center;
-		margin-bottom: 3.5rem;
+		margin-bottom: 2.15rem;
 		position: relative;
 		z-index: 10;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		gap: 1.9rem;
+		gap: 1.05rem;
 	}
 
 	.logo-container {
 		position: relative;
-		width: min(700px, 95vw);
+		width: min(520px, 92vw);
 		margin: 0 auto;
 		overflow: visible;
 	}
@@ -1059,11 +1019,11 @@
 		border-radius: 50%;
 		background: radial-gradient(
 			ellipse at center,
-			rgba(255, 196, 110, 0.3),
-			rgba(255, 170, 70, 0.12) 48%,
+			rgba(255, 196, 110, 0.24),
+			rgba(255, 170, 70, 0.1) 48%,
 			transparent 72%
 		);
-		filter: blur(30px);
+		filter: blur(24px);
 		animation: glowBreathe 7s ease-in-out infinite;
 		pointer-events: none;
 	}
@@ -1087,28 +1047,7 @@
 		height: auto;
 		display: block;
 		aspect-ratio: 3 / 2;
-		filter: drop-shadow(0 10px 30px rgba(0, 0, 0, 0.3));
-	}
-
-	.hero-spark {
-		position: absolute;
-		z-index: 2;
-		color: #ffe2a0;
-		text-shadow: 0 0 12px rgba(255, 205, 110, 0.9);
-		animation: sparkTwinkle 3.8s ease-in-out infinite;
-		pointer-events: none;
-	}
-
-	@keyframes sparkTwinkle {
-		0%,
-		100% {
-			opacity: 0.08;
-			transform: scale(0.7) rotate(-8deg);
-		}
-		50% {
-			opacity: 0.9;
-			transform: scale(1.15) rotate(10deg);
-		}
+		filter: drop-shadow(0 16px 24px rgba(82, 57, 25, 0.18));
 	}
 
 	.hero-copy {
@@ -1123,7 +1062,7 @@
 		font-style: italic;
 		font-size: clamp(1.08rem, 1.6vw, 1.32rem);
 		line-height: 1.75;
-		color: var(--cream-soft);
+		color: var(--ink-soft);
 		text-wrap: pretty;
 	}
 
@@ -1132,7 +1071,7 @@
 		content: '✦';
 		font-style: normal;
 		font-size: 0.72em;
-		color: rgba(247, 173, 69, 0.85);
+		color: rgba(178, 120, 36, 0.65);
 		vertical-align: 0.18em;
 	}
 
@@ -1167,56 +1106,17 @@
 		font-size: clamp(1.6rem, 2.7vw, 2.2rem);
 		line-height: 1.08;
 		letter-spacing: 0.01em;
-		color: var(--cream);
-		text-shadow:
-			0 2px 0 rgba(56, 28, 5, 0.45),
-			0 8px 20px rgba(0, 0, 0, 0.35);
+		color: var(--ink);
+		text-shadow: 0 1px 0 rgba(255, 255, 255, 0.75);
 		text-wrap: balance;
 	}
 
 	.head-doodle {
 		width: 8.75rem;
 		height: 0.8rem;
-		color: #f0a83c;
-		opacity: 0.9;
+		color: rgba(184, 122, 28, 0.68);
+		opacity: 1;
 		margin-left: 0.15rem;
-	}
-
-	.firefly {
-		position: absolute;
-		z-index: 4;
-		width: 5px;
-		height: 5px;
-		border-radius: 50%;
-		background: #ffd98a;
-		box-shadow: 0 0 9px 3px rgba(255, 205, 110, 0.45);
-		opacity: 0;
-		animation: fireflyDrift 12s ease-in-out infinite;
-		pointer-events: none;
-	}
-
-	@keyframes fireflyDrift {
-		0% {
-			transform: translate(0, 0);
-			opacity: 0;
-		}
-		12% {
-			opacity: 0.75;
-		}
-		38% {
-			opacity: 0.25;
-		}
-		55% {
-			transform: translate(42px, -48px);
-			opacity: 0.7;
-		}
-		78% {
-			opacity: 0.2;
-		}
-		100% {
-			transform: translate(-16px, -88px);
-			opacity: 0;
-		}
 	}
 
 	/* ============ Controls: chips, search, view toggle ============ */
@@ -1244,14 +1144,17 @@
 		height: 2.55rem;
 		padding: 0 0.95rem 0 0.78rem;
 		border-radius: 999px;
-		border: 1.5px solid rgba(253, 243, 221, 0.2);
-		background: rgba(253, 243, 221, 0.07);
-		color: var(--cream-soft);
+		border: 1.5px solid rgba(84, 72, 52, 0.12);
+		background: rgba(255, 255, 255, 0.66);
+		color: var(--ink-soft);
 		font-family: var(--font-round);
 		font-size: 0.92rem;
 		font-weight: 700;
 		cursor: pointer;
 		backdrop-filter: blur(8px);
+		box-shadow:
+			inset 0 1px 0 rgba(255, 255, 255, 0.78),
+			0 0.7rem 1.4rem rgba(75, 59, 34, 0.08);
 		transition:
 			transform 0.18s ease,
 			background 0.18s ease,
@@ -1261,19 +1164,19 @@
 	}
 
 	.filter-chip:hover {
-		color: var(--cream);
-		border-color: rgba(253, 243, 221, 0.45);
+		color: var(--ink);
+		border-color: rgba(156, 118, 56, 0.35);
 		transform: translateY(-1px);
 	}
 
 	.filter-chip.active {
-		background: linear-gradient(180deg, var(--honey-300), var(--honey-400));
-		border-color: rgba(184, 122, 28, 0.9);
+		background: linear-gradient(180deg, #ffe2a3, #ffc45f);
+		border-color: rgba(184, 122, 28, 0.5);
 		color: var(--honey-ink);
 		box-shadow:
 			inset 0 1px 0 rgba(255, 255, 255, 0.5),
-			0 3px 0 #9c6418,
-			0 0.5rem 1rem rgba(0, 0, 0, 0.28);
+			0 2px 0 rgba(156, 100, 24, 0.42),
+			0 0.6rem 1rem rgba(131, 83, 20, 0.15);
 		transform: translateY(-1px);
 	}
 
@@ -1288,7 +1191,7 @@
 		line-height: 1;
 		padding: 0.22rem 0.45rem;
 		border-radius: 999px;
-		background: rgba(253, 243, 221, 0.14);
+		background: rgba(116, 97, 68, 0.09);
 	}
 
 	.filter-chip.active .chip-count {
@@ -1314,7 +1217,7 @@
 		transform: translateY(-50%);
 		width: 1.05rem;
 		height: 1.05rem;
-		color: var(--cream-faint);
+		color: var(--ink-faint);
 		pointer-events: none;
 	}
 
@@ -1323,14 +1226,16 @@
 		height: 3.05rem;
 		padding: 0.8rem 1.1rem 0.8rem 2.8rem;
 		border-radius: 999px;
-		border: 1.5px solid rgba(253, 243, 221, 0.18);
-		background: rgba(253, 243, 221, 0.07);
-		color: var(--cream);
+		border: 1.5px solid rgba(84, 72, 52, 0.12);
+		background: rgba(255, 255, 255, 0.68);
+		color: var(--ink);
 		font-family: var(--font-round);
 		font-size: 1rem;
 		font-weight: 600;
 		backdrop-filter: blur(10px);
-		box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.04);
+		box-shadow:
+			inset 0 1px 0 rgba(255, 255, 255, 0.82),
+			0 0.8rem 1.8rem rgba(75, 59, 34, 0.08);
 		transition:
 			border-color 0.2s ease,
 			background 0.2s ease,
@@ -1338,15 +1243,15 @@
 	}
 
 	.control-input::placeholder {
-		color: var(--cream-faint);
+		color: var(--ink-faint);
 		font-weight: 500;
 	}
 
 	.control-input:focus {
 		outline: none;
-		border-color: rgba(247, 173, 69, 0.75);
-		background: rgba(253, 243, 221, 0.11);
-		box-shadow: 0 0 0 4px rgba(247, 173, 69, 0.18);
+		border-color: rgba(184, 122, 28, 0.55);
+		background: rgba(255, 255, 255, 0.86);
+		box-shadow: 0 0 0 4px rgba(247, 173, 69, 0.16);
 	}
 
 	.view-toggle {
@@ -1354,11 +1259,13 @@
 		grid-template-columns: repeat(3, minmax(0, 1fr));
 		gap: 0.18rem;
 		padding: 0.26rem;
-		border: 1.5px solid rgba(253, 243, 221, 0.16);
+		border: 1.5px solid rgba(84, 72, 52, 0.12);
 		border-radius: 999px;
-		background: rgba(6, 14, 9, 0.5);
+		background: rgba(255, 255, 255, 0.62);
 		backdrop-filter: blur(14px);
-		box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.04);
+		box-shadow:
+			inset 0 1px 0 rgba(255, 255, 255, 0.82),
+			0 0.8rem 1.8rem rgba(75, 59, 34, 0.08);
 	}
 
 	.view-toggle-button {
@@ -1372,7 +1279,7 @@
 		border: none;
 		border-radius: 999px;
 		background: transparent;
-		color: var(--cream-soft);
+		color: var(--ink-soft);
 		font-family: var(--font-round);
 		font-size: 0.92rem;
 		font-weight: 700;
@@ -1389,16 +1296,16 @@
 	}
 
 	.view-toggle-button:hover {
-		color: var(--cream);
+		color: var(--ink);
 	}
 
 	.view-toggle-button.active {
-		background: linear-gradient(180deg, var(--honey-300), var(--honey-400));
+		background: linear-gradient(180deg, #ffe2a3, #ffc45f);
 		color: var(--honey-ink);
 		box-shadow:
 			inset 0 1px 0 rgba(255, 255, 255, 0.5),
-			0 2px 0 #9c6418,
-			0 0.4rem 0.9rem rgba(0, 0, 0, 0.3);
+			0 2px 0 rgba(156, 100, 24, 0.42),
+			0 0.4rem 0.9rem rgba(131, 83, 20, 0.15);
 	}
 
 	/* ============ Catalog ledger (table view) ============ */
@@ -1412,15 +1319,22 @@
 
 	.ledger-paper {
 		position: relative;
-		border-radius: 1.1rem 1.4rem 1.2rem 1rem / 1.4rem 1.1rem 1rem 1.3rem;
-		border: 1px solid rgba(105, 78, 38, 0.55);
+		border-radius: 0.9rem;
+		border: 1px solid rgba(84, 72, 52, 0.14);
 		background:
-			radial-gradient(120% 55% at 50% 0%, rgba(255, 255, 255, 0.5), transparent 60%),
-			linear-gradient(180deg, #fbf2dc, #f4e7c6);
+			linear-gradient(rgba(116, 97, 68, 0.055) 1px, transparent 1px),
+			linear-gradient(90deg, rgba(116, 97, 68, 0.04) 1px, transparent 1px),
+			radial-gradient(120% 55% at 50% 0%, rgba(255, 255, 255, 0.72), transparent 60%),
+			linear-gradient(180deg, rgba(255, 255, 255, 0.86), rgba(255, 250, 240, 0.78));
+		background-size:
+			2.8rem 2.8rem,
+			2.8rem 2.8rem,
+			auto,
+			auto;
 		box-shadow:
-			inset 0 1px 0 rgba(255, 255, 255, 0.65),
-			0 0.5rem 1.2rem rgba(3, 9, 5, 0.35),
-			0 2.4rem 4rem rgba(3, 9, 5, 0.5);
+			inset 0 1px 0 rgba(255, 255, 255, 0.88),
+			0 0.5rem 1.2rem rgba(75, 59, 34, 0.08),
+			0 2rem 3.2rem rgba(75, 59, 34, 0.1);
 		padding: 1.9rem 0 1.1rem;
 		overflow: hidden;
 	}
@@ -1432,7 +1346,7 @@
 		border-radius: inherit;
 		background: url('/optimized/paper-texture.webp');
 		background-size: 300px;
-		opacity: 0.35;
+		opacity: 0.16;
 		mix-blend-mode: multiply;
 		pointer-events: none;
 	}
@@ -1444,8 +1358,8 @@
 		bottom: 1.1rem;
 		left: 4.4rem;
 		width: 2px;
-		background: var(--margin-red);
-		opacity: 0.55;
+		background: rgba(208, 100, 84, 0.28);
+		opacity: 0.68;
 		pointer-events: none;
 	}
 
@@ -1542,7 +1456,7 @@
 	}
 
 	.story-table tbody tr:hover {
-		background: rgba(141, 110, 68, 0.09);
+		background: rgba(255, 255, 255, 0.5);
 	}
 
 	.story-table tbody td {
@@ -1675,13 +1589,6 @@
 		line-height: 1.25;
 	}
 
-	.audio-note {
-		display: inline-block;
-		margin-left: 0.3rem;
-		font-size: 0.82rem;
-		vertical-align: 0.05em;
-	}
-
 	.story-subline {
 		margin-top: 0.28rem;
 		max-width: 48ch;
@@ -1706,7 +1613,7 @@
 		border-radius: 0.65rem;
 		background: var(--chip-color, #4a5d4e);
 		border: 1px solid rgba(255, 255, 255, 0.22);
-		color: var(--cream);
+		color: #fffaf0;
 		font-size: 0.82rem;
 		font-weight: 700;
 		transform: rotate(-1.6deg);
@@ -1736,8 +1643,8 @@
 		align-items: center;
 		border-radius: 999px;
 		padding: 0.28rem 0.62rem;
-		background: rgba(255, 255, 255, 0.32);
-		border: 1.5px dashed rgba(141, 110, 68, 0.5);
+		background: rgba(255, 255, 255, 0.58);
+		border: 1.5px dashed rgba(141, 110, 68, 0.34);
 		color: #7a5b32;
 		font-size: 0.78rem;
 		font-weight: 600;
@@ -1795,6 +1702,30 @@
 			0 0.3rem 0.5rem rgba(58, 32, 6, 0.25);
 	}
 
+	.catalog-load-more {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		justify-content: center;
+		gap: 0.85rem;
+		max-width: 1240px;
+		margin: 0.4rem auto 0;
+		padding: 0 0.75rem;
+		text-align: center;
+	}
+
+	.catalog-load-more p {
+		margin: 0;
+		color: var(--ink-soft);
+		font-family: var(--font-book);
+		font-size: 0.98rem;
+		line-height: 1.45;
+	}
+
+	.load-more-button {
+		min-width: 11rem;
+	}
+
 	.button-arrow {
 		width: 0.85rem;
 		height: 0.85rem;
@@ -1818,11 +1749,11 @@
 		margin: 2rem auto 0;
 		max-width: 27rem;
 		padding: 1.6rem 1.5rem 1.7rem;
-		border-radius: 1.2rem 1.4rem 1.1rem 1.3rem / 1.3rem 1.1rem 1.4rem 1.2rem;
+		border-radius: 0.9rem;
 		text-align: center;
-		background: linear-gradient(180deg, #fbf2dc, #f4e7c6);
-		border: 1px solid rgba(105, 78, 38, 0.5);
-		box-shadow: 0 1.4rem 2.6rem rgba(0, 0, 0, 0.35);
+		background: rgba(255, 255, 255, 0.74);
+		border: 1px solid rgba(84, 72, 52, 0.14);
+		box-shadow: 0 1.4rem 2.6rem rgba(75, 59, 34, 0.12);
 	}
 
 	.empty-title {
@@ -1851,38 +1782,42 @@
 	/* ============ Shelf rows & wood ============ */
 
 	.shelf-row {
-		--shelf-offset: 1.4rem;
-		--shelf-height: 3.45rem;
-		--shelf-seam-from-top: 1.42rem;
+		--shelf-offset: 1.35rem;
+		--shelf-height: 4.2rem;
+		--shelf-seam-from-top: 2.54rem;
 		position: relative;
 		margin-bottom: 2.5rem;
-		height: 24rem;
+		height: 22.8rem;
 		overflow: visible;
 	}
 
 	.featured-shelf-row {
 		--book-scale: 0.9;
-		margin-bottom: 3.5rem;
-		height: 22.5rem;
+		margin-bottom: 3.2rem;
+		height: 21.4rem;
 	}
 
 	.featured-shelf-books {
-		width: min(74rem, calc(100% - 1rem));
+		width: min(48rem, calc(100% - 1rem));
 		height: 18.75rem;
 		justify-content: center;
 		gap: clamp(0.75rem, 2vw, 1.5rem);
 	}
 
+	.featured-shelf-row .wooden-shelf {
+		width: min(51rem, calc(100% + 2rem), calc(100vw - 0.3rem));
+	}
+
 	.shelf-back-glow {
 		position: absolute;
 		left: 50%;
-		bottom: 3.8rem;
+		bottom: 3.4rem;
 		width: min(72rem, 100%);
-		height: 12rem;
+		height: 10rem;
 		transform: translateX(-50%);
 		border-radius: 2rem;
-		background: radial-gradient(ellipse at center, rgba(255, 214, 150, 0.1), transparent 70%);
-		filter: blur(15px);
+		background: radial-gradient(ellipse at center, rgba(255, 214, 150, 0.16), transparent 70%);
+		filter: blur(12px);
 		pointer-events: none;
 		transition: opacity 0.3s ease;
 	}
@@ -1895,105 +1830,95 @@
 		position: absolute;
 		bottom: var(--shelf-offset);
 		left: 50%;
-		width: min(72rem, calc(100% - 2rem));
+		width: min(76rem, calc(100% + 2.5rem), calc(100vw - 0.3rem));
 		height: var(--shelf-height);
 		transform: translateX(-50%);
-		z-index: 1;
+		pointer-events: none;
+	}
+
+	.shelf-back-rail {
+		z-index: 5;
+	}
+
+	.shelf-front-rail {
+		z-index: 8;
 	}
 
 	.shelf-surface {
 		position: absolute;
-		top: 0;
-		left: 0;
-		right: 0;
-		height: 1.65rem;
-		border-radius: 0.25rem 0.25rem 0.15rem 0.15rem;
+		top: 0.32rem;
+		left: 0.2rem;
+		right: 0.2rem;
+		height: 2.55rem;
+		border: 1px solid rgba(108, 71, 36, 0.32);
+		border-radius: 0.6rem;
 		background:
 			linear-gradient(
 				90deg,
-				rgba(0, 0, 0, 0.15),
-				transparent 15%,
-				transparent 85%,
-				rgba(0, 0, 0, 0.15)
+				rgba(255, 247, 226, 0.26),
+				transparent 18%,
+				transparent 82%,
+				rgba(74, 42, 15, 0.12)
 			),
 			linear-gradient(
 				180deg,
-				rgba(255, 255, 255, 0.1) 0%,
-				transparent 40%,
-				rgba(0, 0, 0, 0.2) 100%
-			),
-			#63432a;
-		background-image:
-			linear-gradient(
-				90deg,
-				rgba(0, 0, 0, 0.15),
-				transparent 15%,
-				transparent 85%,
-				rgba(0, 0, 0, 0.15)
-			),
-			linear-gradient(
-				180deg,
-				rgba(255, 255, 255, 0.1) 0%,
-				transparent 40%,
-				rgba(0, 0, 0, 0.2) 100%
+				rgba(255, 238, 193, 0.38) 0%,
+				rgba(184, 126, 66, 0.18) 46%,
+				rgba(82, 48, 19, 0.25) 100%
 			),
 			url('/optimized/shelf-wood-texture.webp');
-		background-size: cover;
-		background-blend-mode: multiply, normal, overlay;
+		background-size:
+			100% 100%,
+			100% 100%,
+			380px 150px;
+		background-position: center;
+		background-blend-mode: soft-light, multiply, normal;
 		box-shadow:
-			0 0.5rem 1.5rem rgba(0, 0, 0, 0.4),
-			inset 0 1px 0 rgba(255, 255, 255, 0.15),
-			inset 0 -0.2rem 0.5rem rgba(0, 0, 0, 0.3);
+			0 0.45rem 1.1rem rgba(84, 54, 24, 0.1),
+			inset 0 1px 0 rgba(255, 243, 214, 0.5),
+			inset 0 -2px 0 rgba(74, 43, 18, 0.28);
 	}
 
 	.shelf-surface::after {
 		content: '';
 		position: absolute;
-		bottom: 0;
-		left: 0;
-		right: 0;
-		height: 2px;
-		background: rgba(255, 255, 255, 0.08);
-		box-shadow: 0 -1px 2px rgba(0, 0, 0, 0.2);
+		bottom: 0.34rem;
+		left: 1.2rem;
+		right: 1.2rem;
+		height: 1px;
+		background: rgba(73, 42, 18, 0.18);
+		box-shadow: 0 -1px 1px rgba(255, 237, 201, 0.35);
 	}
 
 	.shelf-lip {
 		position: absolute;
-		top: 1.55rem;
-		left: 0.25rem;
-		right: 0.25rem;
-		height: 1.45rem;
-		border-radius: 0 0 0.8rem 0.8rem;
+		top: 2.54rem;
+		left: 0.75rem;
+		right: 0.75rem;
+		height: 1.08rem;
+		border-radius: 0.18rem 0.18rem 0.55rem 0.55rem;
 		background:
-			linear-gradient(180deg, rgba(0, 0, 0, 0.3) 0%, transparent 20%, rgba(0, 0, 0, 0.4) 100%),
-			#4d3321;
-		background-image:
-			linear-gradient(180deg, rgba(0, 0, 0, 0.3) 0%, transparent 20%, rgba(0, 0, 0, 0.4) 100%),
+			linear-gradient(
+				180deg,
+				rgba(255, 231, 183, 0.22),
+				rgba(111, 66, 27, 0.2) 38%,
+				rgba(64, 35, 14, 0.38)
+			),
 			url('/optimized/shelf-wood-texture.webp');
-		background-size: cover;
-		background-blend-mode: normal, overlay;
+		background-size:
+			100% 100%,
+			360px 130px;
+		background-position: center 60%;
+		background-blend-mode: multiply, normal;
+		border: 1px solid rgba(83, 49, 21, 0.28);
 		box-shadow:
-			0 1.2rem 2.5rem rgba(0, 0, 0, 0.5),
-			inset 0 1px 1px rgba(255, 255, 255, 0.1),
-			inset 0 -0.2rem 0.4rem rgba(0, 0, 0, 0.4);
+			inset 0 1px 0 rgba(255, 238, 205, 0.34),
+			0 0.9rem 1.5rem rgba(84, 54, 24, 0.16),
+			inset 0 -1px 0 rgba(49, 25, 8, 0.22);
 	}
 
 	.shelf-bracket {
-		position: absolute;
-		top: 1.25rem;
-		width: 3.5rem;
-		height: 2.75rem;
-		border-radius: 0.2rem 0.2rem 1.5rem 1.5rem;
-		background: #3a2619;
-		background-image:
-			linear-gradient(180deg, rgba(255, 255, 255, 0.08), rgba(0, 0, 0, 0.28)),
-			url('/optimized/shelf-bracket-texture.webp');
-		background-size:
-			cover,
-			96px 96px;
-		box-shadow:
-			0 0.8rem 1.5rem rgba(0, 0, 0, 0.6),
-			inset 0 1px 1px rgba(255, 255, 255, 0.05);
+		display: none;
 	}
 
 	.shelf-bracket::after {
@@ -2021,11 +1946,11 @@
 
 	.shelf-shadow {
 		position: absolute;
-		top: 2.85rem;
+		top: 3.15rem;
 		left: 2.25rem;
 		right: 2.25rem;
 		height: 1rem;
-		background: radial-gradient(ellipse at center, rgba(92, 92, 92, 0.16), transparent 72%);
+		background: radial-gradient(ellipse at center, rgba(107, 88, 58, 0.15), transparent 72%);
 		border-radius: 999px;
 		z-index: -1;
 		filter: blur(6px);
@@ -2035,14 +1960,14 @@
 		position: absolute;
 		bottom: calc(var(--shelf-offset) + var(--shelf-height) - var(--shelf-seam-from-top));
 		left: 50%;
-		width: min(68rem, calc(100% - 2rem));
-		height: 20rem;
+		width: min(68rem, calc(100% - 1rem));
+		height: 18.8rem;
 		transform: translateX(-50%);
 		display: flex;
 		justify-content: center;
 		align-items: flex-end;
 		padding: 0 1rem;
-		z-index: 5;
+		z-index: 7;
 		overflow: visible;
 	}
 
@@ -2050,6 +1975,12 @@
 		position: relative;
 		display: flex;
 		align-items: flex-end;
+		z-index: 1;
+	}
+
+	.book-item:has(.book-card:hover),
+	.book-item:has(.book-card:focus-visible) {
+		z-index: 4;
 	}
 
 	/* ============ Spine-hover popup ============ */
@@ -2107,14 +2038,6 @@
 		color: var(--ink-soft);
 	}
 
-	.popup-tag {
-		display: inline-block;
-		margin-top: 9px;
-		font-size: 0.78rem;
-		font-weight: 800;
-		color: #a8632c;
-	}
-
 	.popup-arrow {
 		position: absolute;
 		top: 100%;
@@ -2167,8 +2090,14 @@
 		text-decoration: none;
 	}
 
-	.book-card:hover {
+	.book-card:hover,
+	.book-card:focus-visible {
+		transform: translateY(-14px) rotateZ(var(--book-lean));
 		z-index: 20;
+	}
+
+	.book-card:focus-visible {
+		outline: none;
 	}
 
 	.book-contact-shadow {
@@ -2179,15 +2108,17 @@
 		height: 18px;
 		border-radius: 50%;
 		background: radial-gradient(ellipse at center, rgba(2, 7, 4, 0.55), transparent 68%);
-		filter: blur(5px);
+		filter: blur(6px);
+		opacity: 0.32;
 		transition:
 			transform 0.5s cubic-bezier(0.2, 0.8, 0.2, 1),
 			opacity 0.5s ease;
 	}
 
-	.book-card:hover .book-contact-shadow {
-		transform: translateY(8px) scale(1.06, 1.5);
-		opacity: 0.8;
+	.book-card:hover .book-contact-shadow,
+	.book-card:focus-visible .book-contact-shadow {
+		transform: translateY(12px) scale(0.9, 1.16);
+		opacity: 0.36;
 	}
 
 	.book-3d-wrapper {
@@ -2195,12 +2126,21 @@
 		height: 100%;
 		position: relative;
 		transform-style: preserve-3d;
-		transition: transform 0.6s cubic-bezier(0.34, 1.56, 0.64, 1);
-		transform: rotateY(-12deg) rotateX(4deg);
+		transition: transform 0.42s cubic-bezier(0.2, 0.8, 0.2, 1);
+		transform: rotateY(-9deg) rotateX(3deg);
 	}
 
-	.book-card:hover .book-3d-wrapper {
-		transform: translateY(-20px) scale(1.1) rotateY(-26deg) rotateX(8deg);
+	.book-card.covers:hover .book-3d-wrapper,
+	.book-card.covers:focus-visible .book-3d-wrapper {
+		transform: rotateY(-11deg) rotateX(3deg);
+	}
+
+	.book-card:focus-visible .book-cover-front {
+		box-shadow:
+			0 0 0 4px rgba(247, 173, 69, 0.28),
+			inset 0 0 0 1px rgba(255, 255, 255, 0.16),
+			0 0.75rem 1.2rem rgba(72, 49, 28, 0.14),
+			2px 0 5px rgba(0, 0, 0, 0.18);
 	}
 
 	.book-cover-front {
@@ -2210,38 +2150,16 @@
 		top: 0;
 		left: 0;
 		border-radius: var(--book-border-radius);
-		overflow: visible;
+		overflow: hidden;
 		transform-style: preserve-3d;
+		backface-visibility: hidden;
 		z-index: 2;
 		background-color: var(--book-color);
 		transform: translateZ(3px);
 		box-shadow:
-			inset 0 0 0 1px rgba(255, 255, 255, 0.1),
-			2px 0 5px rgba(0, 0, 0, 0.2);
-	}
-
-	.cover-edge-right {
-		position: absolute;
-		top: 0;
-		right: 0;
-		bottom: 0;
-		width: 3px;
-		background: var(--book-color);
-		transform: rotateY(90deg);
-		transform-origin: right;
-		filter: brightness(0.8);
-	}
-
-	.cover-edge-bottom {
-		position: absolute;
-		left: 0;
-		right: 0;
-		bottom: 0;
-		height: 3px;
-		background: var(--book-color);
-		transform: rotateX(-90deg);
-		transform-origin: bottom;
-		filter: brightness(0.7);
+			inset 0 0 0 1px rgba(255, 255, 255, 0.16),
+			0 0.75rem 1.2rem rgba(72, 49, 28, 0.14),
+			2px 0 5px rgba(0, 0, 0, 0.18);
 	}
 
 	.cover-texture {
@@ -2272,15 +2190,15 @@
 		width: 100%;
 		height: 100%;
 		object-fit: cover;
-		filter: saturate(1.05) contrast(1.03);
+		filter: saturate(1.04) contrast(1.02);
 	}
 
 	.cover-scrim {
 		position: absolute;
 		inset: 0;
 		background:
-			linear-gradient(180deg, rgba(26, 15, 5, 0.66) 0%, rgba(26, 15, 5, 0.3) 26%, transparent 46%),
-			linear-gradient(0deg, rgba(26, 15, 5, 0.3), transparent 26%);
+			linear-gradient(180deg, rgba(26, 15, 5, 0.55) 0%, rgba(26, 15, 5, 0.22) 27%, transparent 47%),
+			linear-gradient(0deg, rgba(26, 15, 5, 0.25), transparent 25%);
 	}
 
 	.book-title {
@@ -2419,34 +2337,19 @@
 			linear-gradient(180deg, rgba(255, 255, 255, 0.14), transparent 4.5%);
 	}
 
-	.cover-audio-badge {
-		position: absolute;
-		right: 7px;
-		bottom: 7px;
-		z-index: 7;
-		width: 1.95rem;
-		height: 1.95rem;
-		border-radius: 50%;
-		display: grid;
-		place-items: center;
-		font-size: 0.95rem;
-		background: linear-gradient(180deg, var(--honey-300), var(--honey-400));
-		border: 1px solid rgba(255, 243, 214, 0.7);
-		box-shadow:
-			0 2px 0 rgba(122, 73, 9, 0.85),
-			0 4px 10px rgba(0, 0, 0, 0.35);
-	}
-
 	/* --- page block --- */
 
 	.book-pages-right {
 		position: absolute;
-		top: 2px;
-		bottom: 2px;
+		top: 5px;
+		bottom: 5px;
 		width: calc(var(--book-depth) * var(--book-scale));
-		right: 1px;
+		right: 0;
 		transform-origin: right center;
 		transform: rotateY(-90deg);
+		border-radius: 0 7px 7px 0;
+		overflow: hidden;
+		backface-visibility: hidden;
 		background:
 			linear-gradient(to right, rgba(0, 0, 0, 0.14), transparent 24%),
 			repeating-linear-gradient(
@@ -2462,12 +2365,15 @@
 
 	.book-pages-top {
 		position: absolute;
-		top: 1px;
-		left: 2px;
-		width: calc(var(--book-width) * var(--book-scale) - 4px);
+		top: 3px;
+		left: 5px;
+		width: calc(var(--book-width) * var(--book-scale) - 10px);
 		height: calc(var(--book-depth) * var(--book-scale));
 		transform-origin: center top;
 		transform: rotateX(-90deg);
+		border-radius: 0 6px 0 0;
+		overflow: hidden;
+		backface-visibility: hidden;
 		background:
 			repeating-linear-gradient(
 				to bottom,
@@ -2481,12 +2387,15 @@
 
 	.book-pages-bottom {
 		position: absolute;
-		bottom: 1px;
-		left: 2px;
-		width: calc(var(--book-width) * var(--book-scale) - 4px);
+		bottom: 3px;
+		left: 5px;
+		width: calc(var(--book-width) * var(--book-scale) - 10px);
 		height: calc(var(--book-depth) * var(--book-scale));
 		transform-origin: center bottom;
 		transform: rotateX(90deg);
+		border-radius: 0 0 6px 0;
+		overflow: hidden;
+		backface-visibility: hidden;
 		background:
 			linear-gradient(to bottom, rgba(0, 0, 0, 0.12), transparent 24%),
 			repeating-linear-gradient(
@@ -2520,11 +2429,12 @@
 		background-blend-mode: soft-light, overlay;
 		background-size: cover;
 		border-radius: 0.2rem 0 0 0.2rem;
+		backface-visibility: hidden;
 	}
 
 	.book-back {
 		position: absolute;
-		inset: 0;
+		inset: 1px 1px 1px 0;
 		transform: translateZ(calc(-1 * var(--book-depth) * var(--book-scale)));
 		background-color: var(--book-color);
 		background-image: url('/optimized/leather-texture.webp');
@@ -2533,6 +2443,7 @@
 		border-radius: 0.15rem 0.45rem 0.45rem 0.15rem;
 		opacity: 1;
 		box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.2);
+		backface-visibility: hidden;
 	}
 
 	/* ============ Spines mode ============ */
@@ -2703,9 +2614,12 @@
 	/* ============ Sign-off ============ */
 
 	.the-end {
-		margin: 3.75rem auto 0;
+		position: relative;
+		max-width: 1240px;
+		margin: 3.25rem auto 0;
+		padding: 0 1.5rem 2.2rem;
 		text-align: center;
-		color: var(--cream-faint);
+		color: var(--ink-faint);
 	}
 
 	.end-ornament {
@@ -2720,7 +2634,7 @@
 		width: 5.5rem;
 		height: 2px;
 		border-radius: 999px;
-		background: linear-gradient(90deg, transparent, rgba(253, 243, 221, 0.35));
+		background: linear-gradient(90deg, transparent, rgba(93, 76, 52, 0.26));
 	}
 
 	.end-rule:last-child {
@@ -2729,7 +2643,7 @@
 
 	.end-moon {
 		font-size: 1.15rem;
-		filter: drop-shadow(0 0 8px rgba(255, 220, 140, 0.4));
+		filter: drop-shadow(0 0 8px rgba(255, 220, 140, 0.25));
 		animation: moonBob 5.5s ease-in-out infinite;
 	}
 
@@ -2771,24 +2685,24 @@
 
 		.shelf-books {
 			height: 16rem;
-			width: min(60rem, calc(100% - 2rem));
+			width: min(60rem, calc(100% - 1rem));
 		}
 
 		.featured-shelf-books {
 			height: 16rem;
-			width: min(60rem, calc(100% - 0.8rem));
+			width: min(44rem, calc(100% - 0.4rem));
 		}
 
 		.wooden-shelf {
-			width: min(62rem, calc(100% - 1.25rem));
+			width: min(65rem, calc(100% + 1.8rem), calc(100vw - 0.3rem));
 		}
 	}
 
 	@media (max-width: 768px) {
 		.shelf-row {
 			--shelf-offset: 1.1rem;
-			--shelf-height: 3.15rem;
-			--shelf-seam-from-top: 1.32rem;
+			--shelf-height: 3.7rem;
+			--shelf-seam-from-top: 2.54rem;
 		}
 
 		.bookshelf-room {
@@ -2838,7 +2752,7 @@
 
 		.shelf-books {
 			height: 14rem;
-			width: min(46rem, calc(100% - 1.4rem));
+			width: min(46rem, calc(100% - 0.8rem));
 		}
 
 		.shelf-row {
@@ -2852,12 +2766,12 @@
 
 		.featured-shelf-books {
 			height: 13.25rem;
-			width: calc(100% - 0.4rem);
+			width: calc(100% - 0.2rem);
 			gap: 0.75rem;
 		}
 
 		.wooden-shelf {
-			width: calc(100% - 0.9rem);
+			width: min(calc(100% + 1rem), calc(100vw - 0.3rem));
 		}
 
 		.shelf-bracket-left {
@@ -2872,8 +2786,8 @@
 	@media (max-width: 480px) {
 		.shelf-row {
 			--shelf-offset: 1rem;
-			--shelf-height: 2.85rem;
-			--shelf-seam-from-top: 1.18rem;
+			--shelf-height: 3.35rem;
+			--shelf-seam-from-top: 2.05rem;
 		}
 
 		.bookshelf-room {
@@ -2933,7 +2847,7 @@
 		}
 
 		.shelf-books {
-			width: calc(100% - 0.8rem);
+			width: calc(100% - 0.4rem);
 			height: 12.4rem;
 			gap: 0.55rem;
 		}
@@ -2945,12 +2859,15 @@
 		}
 
 		.shelf-surface {
-			height: 1.28rem;
+			top: 0.28rem;
+			height: 2.05rem;
+			border-radius: 0.7rem;
 		}
 
 		.shelf-lip {
-			top: 1.18rem;
-			height: 0.98rem;
+			top: 2.05rem;
+			height: 0.9rem;
+			border-radius: 0 0 0.62rem 0.62rem;
 		}
 
 		.shelf-bracket {
