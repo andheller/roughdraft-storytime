@@ -27,9 +27,7 @@
 		'dust-calloway-and-the-sky-coach-robbers/dust-calloway-and-the-sky-coach-robbers',
 		'the-delivery-drone-that-wouldnt-leave/the-delivery-drone-that-wouldnt-leave',
 		'the-dragon-who-breathed-bubbles/the-dragon-who-breathed-bubbles',
-		'silly-squirrels/the-silly-squirrels-pizza-jetpack-delivery',
-		'silly-squirrels/the-silly-squirrels-pancake-parade',
-		'silly-squirrels/the-super-secure-snack-safe'
+		'silly-squirrels/the-silly-squirrels-pizza-jetpack-delivery'
 	];
 	const FILTER_EMOJI = {
 		all: '📚',
