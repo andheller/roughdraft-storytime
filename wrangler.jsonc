@@ -2,6 +2,14 @@
 	"name": "rough-draft-storytime",
 	"account_id": "261e1ddbc5f9cbf983e0fd6f51378e72",
 	"compatibility_date": "2026-04-04",
+	"workers_dev": true,
+	"preview_urls": true,
+	"routes": [
+		{
+			"pattern": "roughdraftstorytime.com",
+			"custom_domain": true
+		}
+	],
 	"assets": {
 		"directory": "./build",
 		"not_found_handling": "404-page"
