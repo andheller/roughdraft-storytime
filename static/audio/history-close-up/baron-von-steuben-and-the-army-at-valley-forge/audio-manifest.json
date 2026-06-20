@@ -1,0 +1,33 @@
+{
+  "seriesId": "history-close-up",
+  "storyId": "baron-von-steuben-and-the-army-at-valley-forge",
+  "title": "Baron von Steuben and the Army at Valley Forge",
+  "provider": "google-gemini",
+  "model": "gemini-3.1-flash-tts-preview",
+  "voice": "Zephyr",
+  "format": "wav",
+  "sampleRate": 24000,
+  "generatedAt": "2026-06-19T23:44:03.075Z",
+  "chapters": [
+    {
+      "id": 1,
+      "title": "A Soldier from Prussia",
+      "filename": "chapter-1.wav",
+      "durationSeconds": 396.08,
+      "transcriptFile": "chapter-1.transcript.json",
+      "captionsFile": "chapter-1.srt",
+      "levelsFile": "chapter-1.levels.json",
+      "levelBinSizeSeconds": 0.1
+    },
+    {
+      "id": 2,
+      "title": "The Hard Winter at Valley Forge",
+      "filename": "chapter-2.wav",
+      "durationSeconds": 380.36,
+      "transcriptFile": "chapter-2.transcript.json",
+      "captionsFile": "chapter-2.srt",
+      "levelsFile": "chapter-2.levels.json",
+      "levelBinSizeSeconds": 0.1
+    }
+  ]
+}

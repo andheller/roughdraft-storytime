@@ -24,6 +24,7 @@
 	].join(', ');
 	const canonicalUrl = $derived(absoluteUrl($page.url.pathname));
 	const socialImage = story.coverImage ? absoluteUrl(story.coverImage) : DEFAULT_OG_IMAGE;
+	const jsonLdTag = 'script';
 	const storyStructuredData = $derived(
 		JSON.stringify({
 			'@context': 'https://schema.org',
@@ -48,7 +49,7 @@
 								story.chapters.find((chapter) => chapter.id === audioChapter.id)?.title ||
 								`Chapter ${audioChapter.id}`,
 							contentUrl: absoluteUrl(audioChapter.audioUrl),
-							encodingFormat: 'audio/mpeg'
+							encodingFormat: audioChapter.audioUrl.endsWith('.wav') ? 'audio/wav' : 'audio/mpeg'
 						}))
 					}
 				: {})
@@ -75,21 +76,23 @@
 	<meta name="twitter:title" content={seoTitle} />
 	<meta name="twitter:description" content={story.description} />
 	<meta name="twitter:image" content={socialImage} />
-	{@html `<script type="application/ld+json">${storyStructuredData}</script>`}
+	<svelte:element this={jsonLdTag} type="application/ld+json">
+		{storyStructuredData}
+	</svelte:element>
 </svelte:head>
 
 <div class="story-page min-h-screen">
-	<div class="container mx-auto px-4 py-6">
-		<div class="mb-8 flex items-center justify-between">
+	<div class="mx-auto max-w-[860px] px-4 py-4 sm:px-6 sm:py-6">
+		<div class="mb-5 flex items-center justify-between sm:mb-6">
 			<a
 				href="/"
-				class="inline-flex items-center gap-2 px-4 py-2 text-stone-600 opacity-80 transition-opacity hover:opacity-100 dark:text-stone-200"
+				class="inline-flex items-center gap-2 rounded-full px-2 py-2 text-sm font-medium text-stone-600 transition-colors hover:bg-stone-950/5 hover:text-stone-950 dark:text-stone-300 dark:hover:bg-white/8 dark:hover:text-stone-50"
 			>
 				<svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 					<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"
 					></path>
 				</svg>
-				<span class="font-medium">Back to Stories</span>
+				<span>Back to Stories</span>
 			</a>
 
 			<div class="shrink-0">

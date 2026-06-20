@@ -1,0 +1,8556 @@
+{
+  "schemaVersion": 1,
+  "provider": "whisperkit",
+  "model": "small.en",
+  "generatedAt": "2026-06-19T23:46:48.310Z",
+  "audioFile": "chapter-4.wav",
+  "durationSeconds": 274.64,
+  "language": "en",
+  "text": "Chapter 4 The Revolution Seen from a Writing Desk By the time the American Revolution ended, Abigail Adams had become far more than the wife of a prominent statesman. She had become one of the era's sharpest witnesses. Her letters chart the movement from imperial crisis to independence, from wartime anxiety to the difficult work of building a republic. They preserve not only the famous public moments, but the texture around them. Inflation, shortages, family illness, military fear, loneliness, frustration, and determination. Historians value these letters because they keep national history from floating away into speeches alone. Abigail understood public character with unusual precision. She watched how men behaved under praise, stress, and authority. She could admire principle while noticing vanity. She could see when public language outran private conduct. This habit remained valuable after the war, when the new United States still had to prove that self-government could work. Her life also widened beyond wartime Massachusetts. John Adams served as diplomat in Europe and later as vice president and president. Abigail traveled, observed foreign courts and governments, and compared them to the American experiment. These experiences made her even more valuable as an interpreter of the early republic. She was not provincial in mind, even when rooted in domestic responsibility. When she lived abroad in places such as Paris and London, Abigail saw monarchy, ceremony, and hierarchy close at hand. She could compare them to the rougher, less settled American model. She did not always enjoy court life, but she learned from it. She became even more aware that republics are fragile because they lack the easy symbols and inherited structures monarchies rely on. A republic has to persuade people to behave as citizens, not merely subjects. That lesson mattered when John Adams became the second president of the United States in 1797. Abigail, now First Lady, was deeply informed and fully capable of political judgment. She read widely, followed debate closely, and remained a trusted advisor to her husband. Critics sometimes smeared at her influence, but their smears reveal as much about gender expectations as they do about Abigail. Men were often comfortable receiving help from intelligent women in private while resisting any public acknowledgment that such help mattered. Her life also forces an honest view of the founding generation's limits. Abigail criticized slavery, but she lived in a society built around unfree labor and did not stand wholly outside its assumptions. She demanded full regard for women, but the legal and political order around her changed slowly. She valued Republican principle, but she could also be severe in judgment and partisan in conflict. Like the nation she helped observe into being, she was impressive and incomplete at once. That complexity is exactly why she remains worth studying. Abigail Adams shows that revolutions are not made only in congresses and camps. They are made in correspondence, in households that survive long separations, in people who keep asking whether political principles reach far enough, and in observers who refuse to let a nation flatter itself too easily. She did not write the Declaration of Independence. She did not command troops at Yorktown. She did not sign the Constitution. Yet if one wants to understand what the American Revolution felt like to live through, and what its promises looked like when viewed by someone intelligent enough to admire them, and skeptical enough to test them, Abigail Adams is essential. She saw war begin from home. She saw independence announced while women remained politically excluded. She saw the Republic rise and knew from the start that its work was unfinished. That unfinished quality may be the deepest reason her voice still sounds moderate. She reminds readers that founding moments are not sacred because they are complete. They are important because they begin arguments that later generations must keep pressing. Abigail Adams helped begin those arguments with clarity, courage, and a pen always close at hand.",
+  "segments": [
+    {
+      "id": 0,
+      "start": 0,
+      "end": 4.34,
+      "text": "Chapter 4 The Revolution Seen from a Writing Desk",
+      "avgLogprob": -0.18339,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.37313,
+      "words": [
+        {
+          "word": "Chapter",
+          "start": 0,
+          "end": 0.66,
+          "probability": 0.86
+        },
+        {
+          "word": "4",
+          "start": 0.66,
+          "end": 1.14,
+          "probability": 0.68
+        },
+        {
+          "word": "The",
+          "start": 1.14,
+          "end": 1.88,
+          "probability": 0.29
+        },
+        {
+          "word": "Revolution",
+          "start": 1.88,
+          "end": 2.48,
+          "probability": 0.93
+        },
+        {
+          "word": "Seen",
+          "start": 2.48,
+          "end": 3.06,
+          "probability": 0.95
+        },
+        {
+          "word": "from",
+          "start": 3.06,
+          "end": 3.38,
+          "probability": 0.56
+        },
+        {
+          "word": "a",
+          "start": 3.38,
+          "end": 3.6,
+          "probability": 0.99
+        },
+        {
+          "word": "Writing",
+          "start": 3.6,
+          "end": 3.88,
+          "probability": 0.96
+        },
+        {
+          "word": "Desk",
+          "start": 3.88,
+          "end": 4.34,
+          "probability": 0.98
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "start": 5.79,
+      "end": 11.62,
+      "text": "By the time the American Revolution ended, Abigail Adams had become far more than the",
+      "avgLogprob": -0.18339,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.37313,
+      "words": [
+        {
+          "word": "By",
+          "start": 5.79,
+          "end": 6.06,
+          "probability": 1
+        },
+        {
+          "word": "the",
+          "start": 6.06,
+          "end": 6.18,
+          "probability": 1
+        },
+        {
+          "word": "time",
+          "start": 6.18,
+          "end": 6.54,
+          "probability": 1
+        },
+        {
+          "word": "the",
+          "start": 6.54,
+          "end": 6.78,
+          "probability": 0.98
+        },
+        {
+          "word": "American",
+          "start": 6.78,
+          "end": 7.3,
+          "probability": 1
+        },
+        {
+          "word": "Revolution",
+          "start": 7.3,
+          "end": 7.82,
+          "probability": 0.98
+        },
+        {
+          "word": "ended,",
+          "start": 7.82,
+          "end": 8.38,
+          "probability": 1
+        },
+        {
+          "word": "Abigail",
+          "start": 8.96,
+          "end": 9.42,
+          "probability": 0.88
+        },
+        {
+          "word": "Adams",
+          "start": 9.42,
+          "end": 9.76,
+          "probability": 0.92
+        },
+        {
+          "word": "had",
+          "start": 9.76,
+          "end": 9.98,
+          "probability": 0.99
+        },
+        {
+          "word": "become",
+          "start": 9.98,
+          "end": 10.32,
+          "probability": 0.99
+        },
+        {
+          "word": "far",
+          "start": 10.32,
+          "end": 10.8,
+          "probability": 0.99
+        },
+        {
+          "word": "more",
+          "start": 10.8,
+          "end": 11.22,
+          "probability": 1
+        },
+        {
+          "word": "than",
+          "start": 11.22,
+          "end": 11.46,
+          "probability": 0.99
+        },
+        {
+          "word": "the",
+          "start": 11.46,
+          "end": 11.62,
+          "probability": 0.99
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "start": 11.65,
+      "end": 13.3,
+      "text": "wife of a prominent statesman.",
+      "avgLogprob": -0.18339,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.37313,
+      "words": [
+        {
+          "word": "wife",
+          "start": 11.65,
+          "end": 11.88,
+          "probability": 1
+        },
+        {
+          "word": "of",
+          "start": 11.88,
+          "end": 12.12,
+          "probability": 1
+        },
+        {
+          "word": "a",
+          "start": 12.12,
+          "end": 12.28,
+          "probability": 0.99
+        },
+        {
+          "word": "prominent",
+          "start": 12.28,
+          "end": 12.7,
+          "probability": 1
+        },
+        {
+          "word": "statesman.",
+          "start": 12.7,
+          "end": 13.3,
+          "probability": 0.97
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "start": 14.01,
+      "end": 17.1,
+      "text": "She had become one of the era's sharpest witnesses.",
+      "avgLogprob": -0.18339,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.37313,
+      "words": [
+        {
+          "word": "She",
+          "start": 14.01,
+          "end": 14.28,
+          "probability": 0.99
+        },
+        {
+          "word": "had",
+          "start": 14.28,
+          "end": 14.44,
+          "probability": 1
+        },
+        {
+          "word": "become",
+          "start": 14.44,
+          "end": 14.82,
+          "probability": 1
+        },
+        {
+          "word": "one",
+          "start": 14.82,
+          "end": 15.06,
+          "probability": 0.99
+        },
+        {
+          "word": "of",
+          "start": 15.06,
+          "end": 15.24,
+          "probability": 1
+        },
+        {
+          "word": "the",
+          "start": 15.24,
+          "end": 15.44,
+          "probability": 0.99
+        },
+        {
+          "word": "era's",
+          "start": 15.44,
+          "end": 15.82,
+          "probability": 0.99
+        },
+        {
+          "word": "sharpest",
+          "start": 15.82,
+          "end": 16.56,
+          "probability": 0.98
+        },
+        {
+          "word": "witnesses.",
+          "start": 16.56,
+          "end": 17.1,
+          "probability": 0.99
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "start": 17.7,
+      "end": 24.04,
+      "text": "Her letters chart the movement from imperial crisis to independence, from wartime anxiety",
+      "avgLogprob": -0.17524,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.45455,
+      "words": [
+        {
+          "word": "Her",
+          "start": 17.7,
+          "end": 18.42,
+          "probability": 0.96
+        },
+        {
+          "word": "letters",
+          "start": 18.42,
+          "end": 18.8,
+          "probability": 0.99
+        },
+        {
+          "word": "chart",
+          "start": 18.8,
+          "end": 19.12,
+          "probability": 1
+        },
+        {
+          "word": "the",
+          "start": 19.12,
+          "end": 19.34,
+          "probability": 0.99
+        },
+        {
+          "word": "movement",
+          "start": 19.34,
+          "end": 19.72,
+          "probability": 1
+        },
+        {
+          "word": "from",
+          "start": 19.72,
+          "end": 19.98,
+          "probability": 0.96
+        },
+        {
+          "word": "imperial",
+          "start": 19.98,
+          "end": 20.5,
+          "probability": 0.79
+        },
+        {
+          "word": "crisis",
+          "start": 20.5,
+          "end": 21,
+          "probability": 0.99
+        },
+        {
+          "word": "to",
+          "start": 21,
+          "end": 21.4,
+          "probability": 0.89
+        },
+        {
+          "word": "independence,",
+          "start": 21.4,
+          "end": 21.9,
+          "probability": 0.99
+        },
+        {
+          "word": "from",
+          "start": 22.53,
+          "end": 22.8,
+          "probability": 0.76
+        },
+        {
+          "word": "wartime",
+          "start": 22.8,
+          "end": 23.36,
+          "probability": 0.89
+        },
+        {
+          "word": "anxiety",
+          "start": 23.36,
+          "end": 24.04,
+          "probability": 1
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "start": 24.07,
+      "end": 26.34,
+      "text": "to the difficult work of building a republic.",
+      "avgLogprob": -0.17524,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.45455,
+      "words": [
+        {
+          "word": "to",
+          "start": 24.07,
+          "end": 24.34,
+          "probability": 1
+        },
+        {
+          "word": "the",
+          "start": 24.34,
+          "end": 24.44,
+          "probability": 1
+        },
+        {
+          "word": "difficult",
+          "start": 24.44,
+          "end": 24.8,
+          "probability": 1
+        },
+        {
+          "word": "work",
+          "start": 24.8,
+          "end": 25.28,
+          "probability": 1
+        },
+        {
+          "word": "of",
+          "start": 25.28,
+          "end": 25.46,
+          "probability": 1
+        },
+        {
+          "word": "building",
+          "start": 25.46,
+          "end": 25.84,
+          "probability": 1
+        },
+        {
+          "word": "a",
+          "start": 25.84,
+          "end": 26.04,
+          "probability": 1
+        },
+        {
+          "word": "republic.",
+          "start": 26.04,
+          "end": 26.34,
+          "probability": 0.94
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "start": 27.19,
+      "end": 31.92,
+      "text": "They preserve not only the famous public moments, but the texture around them.",
+      "avgLogprob": -0.17524,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.45455,
+      "words": [
+        {
+          "word": "They",
+          "start": 27.19,
+          "end": 27.44,
+          "probability": 1
+        },
+        {
+          "word": "preserve",
+          "start": 27.44,
+          "end": 27.8,
+          "probability": 0.98
+        },
+        {
+          "word": "not",
+          "start": 27.8,
+          "end": 28.18,
+          "probability": 0.99
+        },
+        {
+          "word": "only",
+          "start": 28.18,
+          "end": 28.48,
+          "probability": 1
+        },
+        {
+          "word": "the",
+          "start": 28.48,
+          "end": 28.68,
+          "probability": 1
+        },
+        {
+          "word": "famous",
+          "start": 28.68,
+          "end": 29.16,
+          "probability": 1
+        },
+        {
+          "word": "public",
+          "start": 29.16,
+          "end": 29.54,
+          "probability": 0.99
+        },
+        {
+          "word": "moments,",
+          "start": 29.54,
+          "end": 30.04,
+          "probability": 0.99
+        },
+        {
+          "word": "but",
+          "start": 30.31,
+          "end": 30.6,
+          "probability": 0.99
+        },
+        {
+          "word": "the",
+          "start": 30.6,
+          "end": 30.7,
+          "probability": 0.99
+        },
+        {
+          "word": "texture",
+          "start": 30.7,
+          "end": 31.18,
+          "probability": 0.96
+        },
+        {
+          "word": "around",
+          "start": 31.18,
+          "end": 31.6,
+          "probability": 1
+        },
+        {
+          "word": "them.",
+          "start": 31.6,
+          "end": 31.92,
+          "probability": 1
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "start": 32.58,
+      "end": 40.9,
+      "text": "Inflation, shortages, family illness, military fear, loneliness, frustration, and determination.",
+      "avgLogprob": -0.17524,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.45455,
+      "words": [
+        {
+          "word": "Inflation,",
+          "start": 32.58,
+          "end": 33,
+          "probability": 0.99
+        },
+        {
+          "word": "shortages,",
+          "start": 33.48,
+          "end": 34,
+          "probability": 0.99
+        },
+        {
+          "word": "family",
+          "start": 34.58,
+          "end": 34.88,
+          "probability": 1
+        },
+        {
+          "word": "illness,",
+          "start": 34.88,
+          "end": 35.46,
+          "probability": 1
+        },
+        {
+          "word": "military",
+          "start": 36.06,
+          "end": 36.46,
+          "probability": 0.98
+        },
+        {
+          "word": "fear,",
+          "start": 36.46,
+          "end": 36.92,
+          "probability": 1
+        },
+        {
+          "word": "loneliness,",
+          "start": 37.5,
+          "end": 38.28,
+          "probability": 0.99
+        },
+        {
+          "word": "frustration,",
+          "start": 38.74,
+          "end": 39.32,
+          "probability": 1
+        },
+        {
+          "word": "and",
+          "start": 39.85,
+          "end": 40.14,
+          "probability": 0.97
+        },
+        {
+          "word": "determination.",
+          "start": 40.14,
+          "end": 40.9,
+          "probability": 1
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "start": 41.5,
+      "end": 47.28,
+      "text": "Historians value these letters because they keep national history from floating away into",
+      "avgLogprob": -0.12528,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.34857,
+      "words": [
+        {
+          "word": "Historians",
+          "start": 41.5,
+          "end": 42.66,
+          "probability": 0.93
+        },
+        {
+          "word": "value",
+          "start": 42.66,
+          "end": 43.24,
+          "probability": 1
+        },
+        {
+          "word": "these",
+          "start": 43.24,
+          "end": 43.46,
+          "probability": 1
+        },
+        {
+          "word": "letters",
+          "start": 43.46,
+          "end": 43.74,
+          "probability": 1
+        },
+        {
+          "word": "because",
+          "start": 43.74,
+          "end": 44.36,
+          "probability": 0.83
+        },
+        {
+          "word": "they",
+          "start": 44.36,
+          "end": 44.52,
+          "probability": 0.98
+        },
+        {
+          "word": "keep",
+          "start": 44.52,
+          "end": 44.8,
+          "probability": 0.97
+        },
+        {
+          "word": "national",
+          "start": 44.8,
+          "end": 45.22,
+          "probability": 0.94
+        },
+        {
+          "word": "history",
+          "start": 45.22,
+          "end": 45.7,
+          "probability": 0.98
+        },
+        {
+          "word": "from",
+          "start": 45.7,
+          "end": 46.1,
+          "probability": 0.9
+        },
+        {
+          "word": "floating",
+          "start": 46.1,
+          "end": 46.66,
+          "probability": 0.94
+        },
+        {
+          "word": "away",
+          "start": 46.66,
+          "end": 46.98,
+          "probability": 0.86
+        },
+        {
+          "word": "into",
+          "start": 46.98,
+          "end": 47.28,
+          "probability": 0.94
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "start": 47.37,
+      "end": 48.16,
+      "text": "speeches alone.",
+      "avgLogprob": -0.12528,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.34857,
+      "words": [
+        {
+          "word": "speeches",
+          "start": 47.37,
+          "end": 47.68,
+          "probability": 1
+        },
+        {
+          "word": "alone.",
+          "start": 47.68,
+          "end": 48.16,
+          "probability": 1
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "start": 49.82,
+      "end": 53.3,
+      "text": "Abigail understood public character with unusual precision.",
+      "avgLogprob": -0.12528,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.34857,
+      "words": [
+        {
+          "word": "Abigail",
+          "start": 49.82,
+          "end": 50.16,
+          "probability": 0.97
+        },
+        {
+          "word": "understood",
+          "start": 50.16,
+          "end": 50.68,
+          "probability": 1
+        },
+        {
+          "word": "public",
+          "start": 50.68,
+          "end": 51.12,
+          "probability": 0.99
+        },
+        {
+          "word": "character",
+          "start": 51.12,
+          "end": 51.6,
+          "probability": 1
+        },
+        {
+          "word": "with",
+          "start": 51.6,
+          "end": 52,
+          "probability": 0.99
+        },
+        {
+          "word": "unusual",
+          "start": 52,
+          "end": 52.6,
+          "probability": 1
+        },
+        {
+          "word": "precision.",
+          "start": 52.6,
+          "end": 53.3,
+          "probability": 1
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "start": 53.99,
+      "end": 57.92,
+      "text": "She watched how men behaved under praise, stress, and authority.",
+      "avgLogprob": -0.12528,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.34857,
+      "words": [
+        {
+          "word": "She",
+          "start": 53.99,
+          "end": 54.26,
+          "probability": 1
+        },
+        {
+          "word": "watched",
+          "start": 54.26,
+          "end": 54.5,
+          "probability": 1
+        },
+        {
+          "word": "how",
+          "start": 54.5,
+          "end": 54.8,
+          "probability": 1
+        },
+        {
+          "word": "men",
+          "start": 54.8,
+          "end": 55.02,
+          "probability": 1
+        },
+        {
+          "word": "behaved",
+          "start": 55.02,
+          "end": 55.44,
+          "probability": 1
+        },
+        {
+          "word": "under",
+          "start": 55.44,
+          "end": 55.82,
+          "probability": 1
+        },
+        {
+          "word": "praise,",
+          "start": 55.82,
+          "end": 56.4,
+          "probability": 1
+        },
+        {
+          "word": "stress,",
+          "start": 56.68,
+          "end": 57.1,
+          "probability": 1
+        },
+        {
+          "word": "and",
+          "start": 57.19,
+          "end": 57.46,
+          "probability": 1
+        },
+        {
+          "word": "authority.",
+          "start": 57.46,
+          "end": 57.92,
+          "probability": 1
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "start": 58.57,
+      "end": 61.4,
+      "text": "She could admire principle while noticing vanity.",
+      "avgLogprob": -0.12528,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.34857,
+      "words": [
+        {
+          "word": "She",
+          "start": 58.57,
+          "end": 58.84,
+          "probability": 1
+        },
+        {
+          "word": "could",
+          "start": 58.84,
+          "end": 58.98,
+          "probability": 1
+        },
+        {
+          "word": "admire",
+          "start": 58.98,
+          "end": 59.4,
+          "probability": 1
+        },
+        {
+          "word": "principle",
+          "start": 59.4,
+          "end": 59.86,
+          "probability": 0.98
+        },
+        {
+          "word": "while",
+          "start": 59.86,
+          "end": 60.46,
+          "probability": 0.91
+        },
+        {
+          "word": "noticing",
+          "start": 60.46,
+          "end": 60.94,
+          "probability": 0.99
+        },
+        {
+          "word": "vanity.",
+          "start": 60.94,
+          "end": 61.4,
+          "probability": 1
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "start": 62.09,
+      "end": 65.7,
+      "text": "She could see when public language outran private conduct.",
+      "avgLogprob": -0.12528,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.34857,
+      "words": [
+        {
+          "word": "She",
+          "start": 62.09,
+          "end": 62.34,
+          "probability": 0.83
+        },
+        {
+          "word": "could",
+          "start": 62.34,
+          "end": 62.5,
+          "probability": 1
+        },
+        {
+          "word": "see",
+          "start": 62.5,
+          "end": 62.82,
+          "probability": 1
+        },
+        {
+          "word": "when",
+          "start": 62.82,
+          "end": 63.04,
+          "probability": 1
+        },
+        {
+          "word": "public",
+          "start": 63.04,
+          "end": 63.46,
+          "probability": 1
+        },
+        {
+          "word": "language",
+          "start": 63.46,
+          "end": 64.02,
+          "probability": 0.98
+        },
+        {
+          "word": "outran",
+          "start": 64.02,
+          "end": 64.7,
+          "probability": 0.99
+        },
+        {
+          "word": "private",
+          "start": 64.7,
+          "end": 65.22,
+          "probability": 1
+        },
+        {
+          "word": "conduct.",
+          "start": 65.22,
+          "end": 65.7,
+          "probability": 1
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "start": 66.1,
+      "end": 71.9,
+      "text": "This habit remained valuable after the war, when the new United States still had to prove",
+      "avgLogprob": -0.14385,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.39683,
+      "words": [
+        {
+          "word": "This",
+          "start": 66.1,
+          "end": 66.88,
+          "probability": 0.92
+        },
+        {
+          "word": "habit",
+          "start": 66.88,
+          "end": 67.16,
+          "probability": 1
+        },
+        {
+          "word": "remained",
+          "start": 67.16,
+          "end": 67.46,
+          "probability": 1
+        },
+        {
+          "word": "valuable",
+          "start": 67.46,
+          "end": 68.02,
+          "probability": 1
+        },
+        {
+          "word": "after",
+          "start": 68.02,
+          "end": 68.54,
+          "probability": 0.99
+        },
+        {
+          "word": "the",
+          "start": 68.54,
+          "end": 68.68,
+          "probability": 1
+        },
+        {
+          "word": "war,",
+          "start": 68.68,
+          "end": 68.92,
+          "probability": 0.97
+        },
+        {
+          "word": "when",
+          "start": 69.31,
+          "end": 69.5,
+          "probability": 0.92
+        },
+        {
+          "word": "the",
+          "start": 69.5,
+          "end": 69.62,
+          "probability": 0.99
+        },
+        {
+          "word": "new",
+          "start": 69.62,
+          "end": 69.88,
+          "probability": 0.92
+        },
+        {
+          "word": "United",
+          "start": 69.88,
+          "end": 70.24,
+          "probability": 0.98
+        },
+        {
+          "word": "States",
+          "start": 70.24,
+          "end": 70.72,
+          "probability": 0.99
+        },
+        {
+          "word": "still",
+          "start": 70.72,
+          "end": 71.2,
+          "probability": 0.96
+        },
+        {
+          "word": "had",
+          "start": 71.2,
+          "end": 71.42,
+          "probability": 0.97
+        },
+        {
+          "word": "to",
+          "start": 71.42,
+          "end": 71.54,
+          "probability": 0.99
+        },
+        {
+          "word": "prove",
+          "start": 71.54,
+          "end": 71.9,
+          "probability": 0.99
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "start": 71.95,
+      "end": 73.48,
+      "text": "that self -government could work.",
+      "avgLogprob": -0.14385,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.39683,
+      "words": [
+        {
+          "word": "that",
+          "start": 71.95,
+          "end": 72.18,
+          "probability": 1
+        },
+        {
+          "word": "self",
+          "start": 72.18,
+          "end": 72.52,
+          "probability": 1
+        },
+        {
+          "word": "-government",
+          "start": 72.52,
+          "end": 72.9,
+          "probability": 0.97
+        },
+        {
+          "word": "could",
+          "start": 72.9,
+          "end": 73.2,
+          "probability": 0.99
+        },
+        {
+          "word": "work.",
+          "start": 73.2,
+          "end": 73.48,
+          "probability": 1
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "start": 74.99,
+      "end": 77.96,
+      "text": "Her life also widened beyond wartime Massachusetts.",
+      "avgLogprob": -0.14385,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.39683,
+      "words": [
+        {
+          "word": "Her",
+          "start": 74.99,
+          "end": 75.24,
+          "probability": 1
+        },
+        {
+          "word": "life",
+          "start": 75.24,
+          "end": 75.46,
+          "probability": 1
+        },
+        {
+          "word": "also",
+          "start": 75.46,
+          "end": 76.02,
+          "probability": 1
+        },
+        {
+          "word": "widened",
+          "start": 76.02,
+          "end": 76.36,
+          "probability": 0.99
+        },
+        {
+          "word": "beyond",
+          "start": 76.36,
+          "end": 76.94,
+          "probability": 1
+        },
+        {
+          "word": "wartime",
+          "start": 76.94,
+          "end": 77.46,
+          "probability": 0.99
+        },
+        {
+          "word": "Massachusetts.",
+          "start": 77.46,
+          "end": 77.96,
+          "probability": 0.99
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "start": 79,
+      "end": 83.4,
+      "text": "John Adams served as diplomat in Europe and later as vice president and president.",
+      "avgLogprob": -0.14385,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.39683,
+      "words": [
+        {
+          "word": "John",
+          "start": 79,
+          "end": 79.1,
+          "probability": 0.99
+        },
+        {
+          "word": "Adams",
+          "start": 79.1,
+          "end": 79.48,
+          "probability": 0.99
+        },
+        {
+          "word": "served",
+          "start": 79.48,
+          "end": 79.8,
+          "probability": 1
+        },
+        {
+          "word": "as",
+          "start": 79.8,
+          "end": 80.04,
+          "probability": 1
+        },
+        {
+          "word": "diplomat",
+          "start": 80.04,
+          "end": 80.32,
+          "probability": 0.93
+        },
+        {
+          "word": "in",
+          "start": 80.32,
+          "end": 80.62,
+          "probability": 1
+        },
+        {
+          "word": "Europe",
+          "start": 80.62,
+          "end": 80.92,
+          "probability": 1
+        },
+        {
+          "word": "and",
+          "start": 80.92,
+          "end": 81.46,
+          "probability": 0.71
+        },
+        {
+          "word": "later",
+          "start": 81.46,
+          "end": 81.74,
+          "probability": 0.98
+        },
+        {
+          "word": "as",
+          "start": 81.74,
+          "end": 82,
+          "probability": 0.99
+        },
+        {
+          "word": "vice",
+          "start": 82,
+          "end": 82.22,
+          "probability": 0.84
+        },
+        {
+          "word": "president",
+          "start": 82.22,
+          "end": 82.74,
+          "probability": 0.88
+        },
+        {
+          "word": "and",
+          "start": 82.74,
+          "end": 82.98,
+          "probability": 0.99
+        },
+        {
+          "word": "president.",
+          "start": 82.98,
+          "end": 83.4,
+          "probability": 0.98
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "start": 84.16,
+      "end": 88.66,
+      "text": "Abigail traveled, observed foreign courts and governments, and compared them to the",
+      "avgLogprob": -0.14385,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.39683,
+      "words": [
+        {
+          "word": "Abigail",
+          "start": 84.16,
+          "end": 84.52,
+          "probability": 0.91
+        },
+        {
+          "word": "traveled,",
+          "start": 84.52,
+          "end": 85,
+          "probability": 0.93
+        },
+        {
+          "word": "observed",
+          "start": 85.36,
+          "end": 85.7,
+          "probability": 1
+        },
+        {
+          "word": "foreign",
+          "start": 85.7,
+          "end": 86.18,
+          "probability": 1
+        },
+        {
+          "word": "courts",
+          "start": 86.18,
+          "end": 86.52,
+          "probability": 0.99
+        },
+        {
+          "word": "and",
+          "start": 86.52,
+          "end": 86.76,
+          "probability": 0.96
+        },
+        {
+          "word": "governments,",
+          "start": 86.76,
+          "end": 87.16,
+          "probability": 1
+        },
+        {
+          "word": "and",
+          "start": 87.53,
+          "end": 87.76,
+          "probability": 0.99
+        },
+        {
+          "word": "compared",
+          "start": 87.76,
+          "end": 88.16,
+          "probability": 1
+        },
+        {
+          "word": "them",
+          "start": 88.16,
+          "end": 88.38,
+          "probability": 1
+        },
+        {
+          "word": "to",
+          "start": 88.38,
+          "end": 88.52,
+          "probability": 1
+        },
+        {
+          "word": "the",
+          "start": 88.52,
+          "end": 88.66,
+          "probability": 0.94
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "start": 88.68,
+      "end": 89.68,
+      "text": "American experiment.",
+      "avgLogprob": -0.14385,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.39683,
+      "words": [
+        {
+          "word": "American",
+          "start": 88.68,
+          "end": 89.14,
+          "probability": 0.98
+        },
+        {
+          "word": "experiment.",
+          "start": 89.14,
+          "end": 89.68,
+          "probability": 0.95
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "start": 90.1,
+      "end": 94.86,
+      "text": "These experiences made her even more valuable as an interpreter of the early republic.",
+      "avgLogprob": -0.12555,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.38614,
+      "words": [
+        {
+          "word": "These",
+          "start": 90.1,
+          "end": 90.86,
+          "probability": 0.91
+        },
+        {
+          "word": "experiences",
+          "start": 90.86,
+          "end": 91.48,
+          "probability": 1
+        },
+        {
+          "word": "made",
+          "start": 91.48,
+          "end": 91.74,
+          "probability": 0.99
+        },
+        {
+          "word": "her",
+          "start": 91.74,
+          "end": 91.9,
+          "probability": 1
+        },
+        {
+          "word": "even",
+          "start": 91.9,
+          "end": 92.18,
+          "probability": 0.99
+        },
+        {
+          "word": "more",
+          "start": 92.18,
+          "end": 92.56,
+          "probability": 0.98
+        },
+        {
+          "word": "valuable",
+          "start": 92.56,
+          "end": 93.04,
+          "probability": 1
+        },
+        {
+          "word": "as",
+          "start": 93.04,
+          "end": 93.28,
+          "probability": 0.94
+        },
+        {
+          "word": "an",
+          "start": 93.28,
+          "end": 93.36,
+          "probability": 0.99
+        },
+        {
+          "word": "interpreter",
+          "start": 93.36,
+          "end": 93.86,
+          "probability": 0.99
+        },
+        {
+          "word": "of",
+          "start": 93.86,
+          "end": 94.12,
+          "probability": 0.98
+        },
+        {
+          "word": "the",
+          "start": 94.12,
+          "end": 94.24,
+          "probability": 0.99
+        },
+        {
+          "word": "early",
+          "start": 94.24,
+          "end": 94.52,
+          "probability": 0.93
+        },
+        {
+          "word": "republic.",
+          "start": 94.52,
+          "end": 94.86,
+          "probability": 0.58
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "start": 95.7,
+      "end": 99.66,
+      "text": "She was not provincial in mind, even when rooted in domestic responsibility.",
+      "avgLogprob": -0.12555,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.38614,
+      "words": [
+        {
+          "word": "She",
+          "start": 95.7,
+          "end": 95.88,
+          "probability": 1
+        },
+        {
+          "word": "was",
+          "start": 95.88,
+          "end": 95.98,
+          "probability": 1
+        },
+        {
+          "word": "not",
+          "start": 95.98,
+          "end": 96.22,
+          "probability": 1
+        },
+        {
+          "word": "provincial",
+          "start": 96.22,
+          "end": 96.76,
+          "probability": 0.99
+        },
+        {
+          "word": "in",
+          "start": 96.76,
+          "end": 96.94,
+          "probability": 1
+        },
+        {
+          "word": "mind,",
+          "start": 96.94,
+          "end": 97.24,
+          "probability": 1
+        },
+        {
+          "word": "even",
+          "start": 97.7,
+          "end": 97.9,
+          "probability": 1
+        },
+        {
+          "word": "when",
+          "start": 97.9,
+          "end": 98.06,
+          "probability": 0.99
+        },
+        {
+          "word": "rooted",
+          "start": 98.06,
+          "end": 98.38,
+          "probability": 1
+        },
+        {
+          "word": "in",
+          "start": 98.38,
+          "end": 98.6,
+          "probability": 1
+        },
+        {
+          "word": "domestic",
+          "start": 98.6,
+          "end": 99.06,
+          "probability": 1
+        },
+        {
+          "word": "responsibility.",
+          "start": 99.06,
+          "end": 99.66,
+          "probability": 0.99
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "start": 101.22,
+      "end": 107.1,
+      "text": "When she lived abroad in places such as Paris and London, Abigail saw monarchy, ceremony,",
+      "avgLogprob": -0.12555,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.38614,
+      "words": [
+        {
+          "word": "When",
+          "start": 101.22,
+          "end": 101.42,
+          "probability": 1
+        },
+        {
+          "word": "she",
+          "start": 101.42,
+          "end": 101.62,
+          "probability": 1
+        },
+        {
+          "word": "lived",
+          "start": 101.62,
+          "end": 101.84,
+          "probability": 1
+        },
+        {
+          "word": "abroad",
+          "start": 101.84,
+          "end": 102.3,
+          "probability": 1
+        },
+        {
+          "word": "in",
+          "start": 102.3,
+          "end": 102.56,
+          "probability": 0.98
+        },
+        {
+          "word": "places",
+          "start": 102.56,
+          "end": 102.94,
+          "probability": 0.99
+        },
+        {
+          "word": "such",
+          "start": 102.94,
+          "end": 103.04,
+          "probability": 0.99
+        },
+        {
+          "word": "as",
+          "start": 103.04,
+          "end": 103.22,
+          "probability": 1
+        },
+        {
+          "word": "Paris",
+          "start": 103.22,
+          "end": 103.7,
+          "probability": 1
+        },
+        {
+          "word": "and",
+          "start": 103.7,
+          "end": 103.9,
+          "probability": 0.99
+        },
+        {
+          "word": "London,",
+          "start": 103.9,
+          "end": 104.3,
+          "probability": 1
+        },
+        {
+          "word": "Abigail",
+          "start": 104.96,
+          "end": 105.22,
+          "probability": 0.97
+        },
+        {
+          "word": "saw",
+          "start": 105.22,
+          "end": 105.5,
+          "probability": 1
+        },
+        {
+          "word": "monarchy,",
+          "start": 105.5,
+          "end": 106.06,
+          "probability": 0.97
+        },
+        {
+          "word": "ceremony,",
+          "start": 106.46,
+          "end": 107.1,
+          "probability": 0.99
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "start": 107.26,
+      "end": 108.88,
+      "text": "and hierarchy close at hand.",
+      "avgLogprob": -0.12555,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.38614,
+      "words": [
+        {
+          "word": "and",
+          "start": 107.26,
+          "end": 107.34,
+          "probability": 0.99
+        },
+        {
+          "word": "hierarchy",
+          "start": 107.34,
+          "end": 107.94,
+          "probability": 1
+        },
+        {
+          "word": "close",
+          "start": 107.94,
+          "end": 108.44,
+          "probability": 1
+        },
+        {
+          "word": "at",
+          "start": 108.44,
+          "end": 108.6,
+          "probability": 1
+        },
+        {
+          "word": "hand.",
+          "start": 108.6,
+          "end": 108.88,
+          "probability": 1
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "start": 109.5,
+      "end": 112.58,
+      "text": "She could compare them to the rougher, less settled American model.",
+      "avgLogprob": -0.12555,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.38614,
+      "words": [
+        {
+          "word": "She",
+          "start": 109.5,
+          "end": 109.66,
+          "probability": 0.69
+        },
+        {
+          "word": "could",
+          "start": 109.66,
+          "end": 109.82,
+          "probability": 0.99
+        },
+        {
+          "word": "compare",
+          "start": 109.82,
+          "end": 110.2,
+          "probability": 1
+        },
+        {
+          "word": "them",
+          "start": 110.2,
+          "end": 110.4,
+          "probability": 1
+        },
+        {
+          "word": "to",
+          "start": 110.4,
+          "end": 110.54,
+          "probability": 1
+        },
+        {
+          "word": "the",
+          "start": 110.54,
+          "end": 110.66,
+          "probability": 1
+        },
+        {
+          "word": "rougher,",
+          "start": 110.66,
+          "end": 111.1,
+          "probability": 1
+        },
+        {
+          "word": "less",
+          "start": 111.36,
+          "end": 111.46,
+          "probability": 1
+        },
+        {
+          "word": "settled",
+          "start": 111.46,
+          "end": 111.78,
+          "probability": 0.63
+        },
+        {
+          "word": "American",
+          "start": 111.78,
+          "end": 112.3,
+          "probability": 0.97
+        },
+        {
+          "word": "model.",
+          "start": 112.3,
+          "end": 112.58,
+          "probability": 0.99
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "start": 113,
+      "end": 116.54,
+      "text": "She did not always enjoy court life, but she learned from it.",
+      "avgLogprob": -0.16321,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.36774,
+      "words": [
+        {
+          "word": "She",
+          "start": 113,
+          "end": 113.5,
+          "probability": 0.97
+        },
+        {
+          "word": "did",
+          "start": 113.5,
+          "end": 113.62,
+          "probability": 0.97
+        },
+        {
+          "word": "not",
+          "start": 113.62,
+          "end": 113.82,
+          "probability": 1
+        },
+        {
+          "word": "always",
+          "start": 113.82,
+          "end": 114.2,
+          "probability": 0.99
+        },
+        {
+          "word": "enjoy",
+          "start": 114.2,
+          "end": 114.64,
+          "probability": 1
+        },
+        {
+          "word": "court",
+          "start": 114.64,
+          "end": 114.9,
+          "probability": 0.98
+        },
+        {
+          "word": "life,",
+          "start": 114.9,
+          "end": 115.14,
+          "probability": 0.98
+        },
+        {
+          "word": "but",
+          "start": 115.5,
+          "end": 115.7,
+          "probability": 0.93
+        },
+        {
+          "word": "she",
+          "start": 115.7,
+          "end": 115.88,
+          "probability": 0.99
+        },
+        {
+          "word": "learned",
+          "start": 115.88,
+          "end": 116.14,
+          "probability": 0.97
+        },
+        {
+          "word": "from",
+          "start": 116.14,
+          "end": 116.4,
+          "probability": 0.99
+        },
+        {
+          "word": "it.",
+          "start": 116.4,
+          "end": 116.54,
+          "probability": 1
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "start": 117.16,
+      "end": 122.28,
+      "text": "She became even more aware that republics are fragile because they lack the easy symbols",
+      "avgLogprob": -0.16321,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.36774,
+      "words": [
+        {
+          "word": "She",
+          "start": 117.16,
+          "end": 117.38,
+          "probability": 1
+        },
+        {
+          "word": "became",
+          "start": 117.38,
+          "end": 117.64,
+          "probability": 0.99
+        },
+        {
+          "word": "even",
+          "start": 117.64,
+          "end": 118.1,
+          "probability": 0.99
+        },
+        {
+          "word": "more",
+          "start": 118.1,
+          "end": 118.46,
+          "probability": 1
+        },
+        {
+          "word": "aware",
+          "start": 118.46,
+          "end": 118.72,
+          "probability": 1
+        },
+        {
+          "word": "that",
+          "start": 118.72,
+          "end": 119.04,
+          "probability": 0.99
+        },
+        {
+          "word": "republics",
+          "start": 119.04,
+          "end": 119.5,
+          "probability": 0.89
+        },
+        {
+          "word": "are",
+          "start": 119.5,
+          "end": 119.64,
+          "probability": 1
+        },
+        {
+          "word": "fragile",
+          "start": 119.64,
+          "end": 120.14,
+          "probability": 0.99
+        },
+        {
+          "word": "because",
+          "start": 120.14,
+          "end": 120.74,
+          "probability": 0.74
+        },
+        {
+          "word": "they",
+          "start": 120.74,
+          "end": 120.88,
+          "probability": 0.99
+        },
+        {
+          "word": "lack",
+          "start": 120.88,
+          "end": 121.16,
+          "probability": 0.99
+        },
+        {
+          "word": "the",
+          "start": 121.16,
+          "end": 121.38,
+          "probability": 0.98
+        },
+        {
+          "word": "easy",
+          "start": 121.38,
+          "end": 121.78,
+          "probability": 1
+        },
+        {
+          "word": "symbols",
+          "start": 121.78,
+          "end": 122.28,
+          "probability": 0.99
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "start": 122.44,
+      "end": 124.84,
+      "text": "and inherited structures monarchies rely on.",
+      "avgLogprob": -0.16321,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.36774,
+      "words": [
+        {
+          "word": "and",
+          "start": 122.44,
+          "end": 122.52,
+          "probability": 1
+        },
+        {
+          "word": "inherited",
+          "start": 122.52,
+          "end": 123.02,
+          "probability": 1
+        },
+        {
+          "word": "structures",
+          "start": 123.02,
+          "end": 123.62,
+          "probability": 0.99
+        },
+        {
+          "word": "monarchies",
+          "start": 123.62,
+          "end": 124.24,
+          "probability": 0.99
+        },
+        {
+          "word": "rely",
+          "start": 124.24,
+          "end": 124.54,
+          "probability": 1
+        },
+        {
+          "word": "on.",
+          "start": 124.54,
+          "end": 124.84,
+          "probability": 1
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "start": 125.36,
+      "end": 129.94,
+      "text": "A republic has to persuade people to behave as citizens, not merely subjects.",
+      "avgLogprob": -0.16321,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.36774,
+      "words": [
+        {
+          "word": "A",
+          "start": 125.36,
+          "end": 125.58,
+          "probability": 0.99
+        },
+        {
+          "word": "republic",
+          "start": 125.58,
+          "end": 125.86,
+          "probability": 0.96
+        },
+        {
+          "word": "has",
+          "start": 125.86,
+          "end": 126.2,
+          "probability": 1
+        },
+        {
+          "word": "to",
+          "start": 126.2,
+          "end": 126.32,
+          "probability": 1
+        },
+        {
+          "word": "persuade",
+          "start": 126.32,
+          "end": 126.84,
+          "probability": 1
+        },
+        {
+          "word": "people",
+          "start": 126.84,
+          "end": 127.24,
+          "probability": 1
+        },
+        {
+          "word": "to",
+          "start": 127.24,
+          "end": 127.4,
+          "probability": 1
+        },
+        {
+          "word": "behave",
+          "start": 127.4,
+          "end": 127.74,
+          "probability": 1
+        },
+        {
+          "word": "as",
+          "start": 127.74,
+          "end": 127.98,
+          "probability": 1
+        },
+        {
+          "word": "citizens,",
+          "start": 127.98,
+          "end": 128.48,
+          "probability": 0.98
+        },
+        {
+          "word": "not",
+          "start": 129.08,
+          "end": 129.2,
+          "probability": 1
+        },
+        {
+          "word": "merely",
+          "start": 129.2,
+          "end": 129.52,
+          "probability": 1
+        },
+        {
+          "word": "subjects.",
+          "start": 129.52,
+          "end": 129.94,
+          "probability": 1
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "start": 130.7,
+      "end": 135.58,
+      "text": "That lesson mattered when John Adams became the second president of the United States",
+      "avgLogprob": -0.19087,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.31677,
+      "words": [
+        {
+          "word": "That",
+          "start": 130.7,
+          "end": 131.72,
+          "probability": 0.95
+        },
+        {
+          "word": "lesson",
+          "start": 131.72,
+          "end": 132.06,
+          "probability": 1
+        },
+        {
+          "word": "mattered",
+          "start": 132.06,
+          "end": 132.42,
+          "probability": 0.99
+        },
+        {
+          "word": "when",
+          "start": 132.42,
+          "end": 132.7,
+          "probability": 0.99
+        },
+        {
+          "word": "John",
+          "start": 132.7,
+          "end": 133,
+          "probability": 0.98
+        },
+        {
+          "word": "Adams",
+          "start": 133,
+          "end": 133.3,
+          "probability": 0.99
+        },
+        {
+          "word": "became",
+          "start": 133.3,
+          "end": 133.66,
+          "probability": 0.98
+        },
+        {
+          "word": "the",
+          "start": 133.66,
+          "end": 133.84,
+          "probability": 0.96
+        },
+        {
+          "word": "second",
+          "start": 133.84,
+          "end": 134.22,
+          "probability": 0.95
+        },
+        {
+          "word": "president",
+          "start": 134.22,
+          "end": 134.64,
+          "probability": 0.56
+        },
+        {
+          "word": "of",
+          "start": 134.64,
+          "end": 134.82,
+          "probability": 0.98
+        },
+        {
+          "word": "the",
+          "start": 134.82,
+          "end": 134.92,
+          "probability": 0.99
+        },
+        {
+          "word": "United",
+          "start": 134.92,
+          "end": 135.16,
+          "probability": 0.94
+        },
+        {
+          "word": "States",
+          "start": 135.16,
+          "end": 135.58,
+          "probability": 0.95
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "start": 135.66,
+      "end": 137.02,
+      "text": "in 1797.",
+      "avgLogprob": -0.19087,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.31677,
+      "words": [
+        {
+          "word": "in",
+          "start": 135.66,
+          "end": 135.88,
+          "probability": 1
+        },
+        {
+          "word": "1797.",
+          "start": 135.88,
+          "end": 137.02,
+          "probability": 1
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "start": 137.86,
+      "end": 143.04,
+      "text": "Abigail, now First Lady, was deeply informed and fully capable of political judgment.",
+      "avgLogprob": -0.19087,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.31677,
+      "words": [
+        {
+          "word": "Abigail,",
+          "start": 137.86,
+          "end": 138.2,
+          "probability": 0.98
+        },
+        {
+          "word": "now",
+          "start": 138.6,
+          "end": 138.72,
+          "probability": 1
+        },
+        {
+          "word": "First",
+          "start": 138.72,
+          "end": 139.08,
+          "probability": 0.65
+        },
+        {
+          "word": "Lady,",
+          "start": 139.08,
+          "end": 139.36,
+          "probability": 0.99
+        },
+        {
+          "word": "was",
+          "start": 139.72,
+          "end": 139.96,
+          "probability": 1
+        },
+        {
+          "word": "deeply",
+          "start": 139.96,
+          "end": 140.4,
+          "probability": 1
+        },
+        {
+          "word": "informed",
+          "start": 140.4,
+          "end": 140.96,
+          "probability": 0.99
+        },
+        {
+          "word": "and",
+          "start": 140.96,
+          "end": 141.18,
+          "probability": 0.99
+        },
+        {
+          "word": "fully",
+          "start": 141.18,
+          "end": 141.64,
+          "probability": 0.99
+        },
+        {
+          "word": "capable",
+          "start": 141.64,
+          "end": 142.04,
+          "probability": 1
+        },
+        {
+          "word": "of",
+          "start": 142.04,
+          "end": 142.3,
+          "probability": 1
+        },
+        {
+          "word": "political",
+          "start": 142.3,
+          "end": 142.64,
+          "probability": 1
+        },
+        {
+          "word": "judgment.",
+          "start": 142.64,
+          "end": 143.04,
+          "probability": 0.71
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "start": 143.66,
+      "end": 148.72,
+      "text": "She read widely, followed debate closely, and remained a trusted advisor to her husband.",
+      "avgLogprob": -0.19087,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.31677,
+      "words": [
+        {
+          "word": "She",
+          "start": 143.66,
+          "end": 143.88,
+          "probability": 1
+        },
+        {
+          "word": "read",
+          "start": 143.88,
+          "end": 144.06,
+          "probability": 0.99
+        },
+        {
+          "word": "widely,",
+          "start": 144.06,
+          "end": 144.62,
+          "probability": 0.99
+        },
+        {
+          "word": "followed",
+          "start": 144.94,
+          "end": 145.32,
+          "probability": 1
+        },
+        {
+          "word": "debate",
+          "start": 145.32,
+          "end": 145.6,
+          "probability": 0.99
+        },
+        {
+          "word": "closely,",
+          "start": 145.6,
+          "end": 146.08,
+          "probability": 1
+        },
+        {
+          "word": "and",
+          "start": 146.46,
+          "end": 146.68,
+          "probability": 1
+        },
+        {
+          "word": "remained",
+          "start": 146.68,
+          "end": 146.96,
+          "probability": 0.99
+        },
+        {
+          "word": "a",
+          "start": 146.96,
+          "end": 147.14,
+          "probability": 1
+        },
+        {
+          "word": "trusted",
+          "start": 147.14,
+          "end": 147.64,
+          "probability": 1
+        },
+        {
+          "word": "advisor",
+          "start": 147.64,
+          "end": 147.96,
+          "probability": 0.75
+        },
+        {
+          "word": "to",
+          "start": 147.96,
+          "end": 148.26,
+          "probability": 1
+        },
+        {
+          "word": "her",
+          "start": 148.26,
+          "end": 148.4,
+          "probability": 1
+        },
+        {
+          "word": "husband.",
+          "start": 148.4,
+          "end": 148.72,
+          "probability": 1
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "start": 149.1,
+      "end": 154.12,
+      "text": "Critics sometimes smeared at her influence, but their smears reveal as much about gender",
+      "avgLogprob": -0.13717,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.26174,
+      "words": [
+        {
+          "word": "Critics",
+          "start": 149.1,
+          "end": 149.82,
+          "probability": 0.99
+        },
+        {
+          "word": "sometimes",
+          "start": 149.82,
+          "end": 150.26,
+          "probability": 1
+        },
+        {
+          "word": "smeared",
+          "start": 150.26,
+          "end": 150.74,
+          "probability": 0.91
+        },
+        {
+          "word": "at",
+          "start": 150.74,
+          "end": 150.88,
+          "probability": 0.99
+        },
+        {
+          "word": "her",
+          "start": 150.88,
+          "end": 151.02,
+          "probability": 1
+        },
+        {
+          "word": "influence,",
+          "start": 151.02,
+          "end": 151.48,
+          "probability": 1
+        },
+        {
+          "word": "but",
+          "start": 151.84,
+          "end": 152.04,
+          "probability": 0.82
+        },
+        {
+          "word": "their",
+          "start": 152.04,
+          "end": 152.24,
+          "probability": 0.99
+        },
+        {
+          "word": "smears",
+          "start": 152.24,
+          "end": 152.68,
+          "probability": 0.97
+        },
+        {
+          "word": "reveal",
+          "start": 152.68,
+          "end": 153.04,
+          "probability": 0.98
+        },
+        {
+          "word": "as",
+          "start": 153.04,
+          "end": 153.26,
+          "probability": 0.98
+        },
+        {
+          "word": "much",
+          "start": 153.26,
+          "end": 153.54,
+          "probability": 0.97
+        },
+        {
+          "word": "about",
+          "start": 153.54,
+          "end": 153.8,
+          "probability": 0.96
+        },
+        {
+          "word": "gender",
+          "start": 153.8,
+          "end": 154.12,
+          "probability": 0.95
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "start": 154.34,
+      "end": 158.9,
+      "text": "expectations as they do about Abigail. Men were often comfortable receiving help from",
+      "avgLogprob": -0.13717,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.26174,
+      "words": [
+        {
+          "word": "expectations",
+          "start": 154.34,
+          "end": 154.78,
+          "probability": 1
+        },
+        {
+          "word": "as",
+          "start": 154.78,
+          "end": 155.18,
+          "probability": 1
+        },
+        {
+          "word": "they",
+          "start": 155.18,
+          "end": 155.3,
+          "probability": 0.99
+        },
+        {
+          "word": "do",
+          "start": 155.3,
+          "end": 155.5,
+          "probability": 1
+        },
+        {
+          "word": "about",
+          "start": 155.5,
+          "end": 155.74,
+          "probability": 0.99
+        },
+        {
+          "word": "Abigail.",
+          "start": 155.74,
+          "end": 156.2,
+          "probability": 0.95
+        },
+        {
+          "word": "Men",
+          "start": 156.8,
+          "end": 157.06,
+          "probability": 0.5
+        },
+        {
+          "word": "were",
+          "start": 157.06,
+          "end": 157.24,
+          "probability": 0.97
+        },
+        {
+          "word": "often",
+          "start": 157.24,
+          "end": 157.52,
+          "probability": 0.99
+        },
+        {
+          "word": "comfortable",
+          "start": 157.52,
+          "end": 158.06,
+          "probability": 1
+        },
+        {
+          "word": "receiving",
+          "start": 158.06,
+          "end": 158.48,
+          "probability": 1
+        },
+        {
+          "word": "help",
+          "start": 158.48,
+          "end": 158.7,
+          "probability": 0.99
+        },
+        {
+          "word": "from",
+          "start": 158.7,
+          "end": 158.9,
+          "probability": 0.98
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "start": 158.96,
+      "end": 163.76,
+      "text": "intelligent women in private while resisting any public acknowledgment that such help mattered.",
+      "avgLogprob": -0.13717,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.26174,
+      "words": [
+        {
+          "word": "intelligent",
+          "start": 158.96,
+          "end": 159.38,
+          "probability": 1
+        },
+        {
+          "word": "women",
+          "start": 159.38,
+          "end": 159.66,
+          "probability": 1
+        },
+        {
+          "word": "in",
+          "start": 159.66,
+          "end": 159.82,
+          "probability": 1
+        },
+        {
+          "word": "private",
+          "start": 159.82,
+          "end": 160.22,
+          "probability": 1
+        },
+        {
+          "word": "while",
+          "start": 160.22,
+          "end": 160.8,
+          "probability": 0.53
+        },
+        {
+          "word": "resisting",
+          "start": 160.8,
+          "end": 161.22,
+          "probability": 1
+        },
+        {
+          "word": "any",
+          "start": 161.22,
+          "end": 161.68,
+          "probability": 1
+        },
+        {
+          "word": "public",
+          "start": 161.68,
+          "end": 162.08,
+          "probability": 1
+        },
+        {
+          "word": "acknowledgment",
+          "start": 162.08,
+          "end": 162.62,
+          "probability": 0.54
+        },
+        {
+          "word": "that",
+          "start": 162.62,
+          "end": 162.92,
+          "probability": 0.98
+        },
+        {
+          "word": "such",
+          "start": 162.92,
+          "end": 163.14,
+          "probability": 1
+        },
+        {
+          "word": "help",
+          "start": 163.14,
+          "end": 163.36,
+          "probability": 0.99
+        },
+        {
+          "word": "mattered.",
+          "start": 163.36,
+          "end": 163.76,
+          "probability": 1
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "start": 164.7,
+      "end": 168.92,
+      "text": "Her life also forces an honest view of the founding generation's limits.",
+      "avgLogprob": -0.18799,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.42723,
+      "words": [
+        {
+          "word": "Her",
+          "start": 164.7,
+          "end": 165.4,
+          "probability": 0.98
+        },
+        {
+          "word": "life",
+          "start": 165.4,
+          "end": 165.64,
+          "probability": 1
+        },
+        {
+          "word": "also",
+          "start": 165.64,
+          "end": 166.12,
+          "probability": 0.98
+        },
+        {
+          "word": "forces",
+          "start": 166.12,
+          "end": 166.48,
+          "probability": 1
+        },
+        {
+          "word": "an",
+          "start": 166.48,
+          "end": 166.66,
+          "probability": 0.99
+        },
+        {
+          "word": "honest",
+          "start": 166.66,
+          "end": 167.1,
+          "probability": 1
+        },
+        {
+          "word": "view",
+          "start": 167.1,
+          "end": 167.36,
+          "probability": 1
+        },
+        {
+          "word": "of",
+          "start": 167.36,
+          "end": 167.54,
+          "probability": 0.97
+        },
+        {
+          "word": "the",
+          "start": 167.54,
+          "end": 167.64,
+          "probability": 0.99
+        },
+        {
+          "word": "founding",
+          "start": 167.64,
+          "end": 168,
+          "probability": 0.76
+        },
+        {
+          "word": "generation's",
+          "start": 168,
+          "end": 168.66,
+          "probability": 0.92
+        },
+        {
+          "word": "limits.",
+          "start": 168.66,
+          "end": 168.92,
+          "probability": 0.99
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "start": 169.76,
+      "end": 174.86,
+      "text": "Abigail criticized slavery, but she lived in a society built around unfree labor and",
+      "avgLogprob": -0.18799,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.42723,
+      "words": [
+        {
+          "word": "Abigail",
+          "start": 169.76,
+          "end": 170.04,
+          "probability": 0.97
+        },
+        {
+          "word": "criticized",
+          "start": 170.04,
+          "end": 170.48,
+          "probability": 0.99
+        },
+        {
+          "word": "slavery,",
+          "start": 170.48,
+          "end": 171.1,
+          "probability": 1
+        },
+        {
+          "word": "but",
+          "start": 171.53,
+          "end": 171.74,
+          "probability": 0.94
+        },
+        {
+          "word": "she",
+          "start": 171.74,
+          "end": 171.86,
+          "probability": 1
+        },
+        {
+          "word": "lived",
+          "start": 171.86,
+          "end": 172.1,
+          "probability": 0.99
+        },
+        {
+          "word": "in",
+          "start": 172.1,
+          "end": 172.28,
+          "probability": 0.99
+        },
+        {
+          "word": "a",
+          "start": 172.28,
+          "end": 172.38,
+          "probability": 0.99
+        },
+        {
+          "word": "society",
+          "start": 172.38,
+          "end": 172.82,
+          "probability": 0.99
+        },
+        {
+          "word": "built",
+          "start": 172.82,
+          "end": 173.18,
+          "probability": 0.98
+        },
+        {
+          "word": "around",
+          "start": 173.18,
+          "end": 173.48,
+          "probability": 0.99
+        },
+        {
+          "word": "unfree",
+          "start": 173.48,
+          "end": 174.04,
+          "probability": 0.83
+        },
+        {
+          "word": "labor",
+          "start": 174.04,
+          "end": 174.34,
+          "probability": 0.96
+        },
+        {
+          "word": "and",
+          "start": 174.34,
+          "end": 174.86,
+          "probability": 0.49
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "start": 174.94,
+      "end": 176.82,
+      "text": "did not stand wholly outside its assumptions.",
+      "avgLogprob": -0.18799,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.42723,
+      "words": [
+        {
+          "word": "did",
+          "start": 174.94,
+          "end": 175.08,
+          "probability": 1
+        },
+        {
+          "word": "not",
+          "start": 175.08,
+          "end": 175.18,
+          "probability": 1
+        },
+        {
+          "word": "stand",
+          "start": 175.18,
+          "end": 175.48,
+          "probability": 1
+        },
+        {
+          "word": "wholly",
+          "start": 175.48,
+          "end": 175.94,
+          "probability": 0.96
+        },
+        {
+          "word": "outside",
+          "start": 175.94,
+          "end": 176.34,
+          "probability": 1
+        },
+        {
+          "word": "its",
+          "start": 176.34,
+          "end": 176.52,
+          "probability": 0.94
+        },
+        {
+          "word": "assumptions.",
+          "start": 176.52,
+          "end": 176.82,
+          "probability": 0.99
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "start": 177.63,
+      "end": 182.36,
+      "text": "She demanded full regard for women, but the legal and political order around her changed",
+      "avgLogprob": -0.18799,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.42723,
+      "words": [
+        {
+          "word": "She",
+          "start": 177.63,
+          "end": 177.84,
+          "probability": 1
+        },
+        {
+          "word": "demanded",
+          "start": 177.84,
+          "end": 178.24,
+          "probability": 1
+        },
+        {
+          "word": "full",
+          "start": 178.24,
+          "end": 178.64,
+          "probability": 0.5
+        },
+        {
+          "word": "regard",
+          "start": 178.64,
+          "end": 179.02,
+          "probability": 0.97
+        },
+        {
+          "word": "for",
+          "start": 179.02,
+          "end": 179.28,
+          "probability": 1
+        },
+        {
+          "word": "women,",
+          "start": 179.28,
+          "end": 179.52,
+          "probability": 1
+        },
+        {
+          "word": "but",
+          "start": 179.91,
+          "end": 180.1,
+          "probability": 1
+        },
+        {
+          "word": "the",
+          "start": 180.1,
+          "end": 180.24,
+          "probability": 1
+        },
+        {
+          "word": "legal",
+          "start": 180.24,
+          "end": 180.56,
+          "probability": 1
+        },
+        {
+          "word": "and",
+          "start": 180.56,
+          "end": 180.74,
+          "probability": 1
+        },
+        {
+          "word": "political",
+          "start": 180.74,
+          "end": 181.08,
+          "probability": 1
+        },
+        {
+          "word": "order",
+          "start": 181.08,
+          "end": 181.46,
+          "probability": 1
+        },
+        {
+          "word": "around",
+          "start": 181.46,
+          "end": 181.78,
+          "probability": 0.99
+        },
+        {
+          "word": "her",
+          "start": 181.78,
+          "end": 182.04,
+          "probability": 1
+        },
+        {
+          "word": "changed",
+          "start": 182.04,
+          "end": 182.36,
+          "probability": 0.99
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "start": 182.6,
+      "end": 182.94,
+      "text": "slowly.",
+      "avgLogprob": -0.18799,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.42723,
+      "words": [
+        {
+          "word": "slowly.",
+          "start": 182.6,
+          "end": 182.94,
+          "probability": 1
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "start": 183.82,
+      "end": 188.72,
+      "text": "She valued Republican principle, but she could also be severe in judgment and partisan in",
+      "avgLogprob": -0.18799,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.42723,
+      "words": [
+        {
+          "word": "She",
+          "start": 183.82,
+          "end": 183.9,
+          "probability": 0.99
+        },
+        {
+          "word": "valued",
+          "start": 183.9,
+          "end": 184.32,
+          "probability": 1
+        },
+        {
+          "word": "Republican",
+          "start": 184.32,
+          "end": 184.9,
+          "probability": 0.8
+        },
+        {
+          "word": "principle,",
+          "start": 184.9,
+          "end": 185.28,
+          "probability": 0.89
+        },
+        {
+          "word": "but",
+          "start": 185.73,
+          "end": 185.92,
+          "probability": 1
+        },
+        {
+          "word": "she",
+          "start": 185.92,
+          "end": 186.04,
+          "probability": 0.99
+        },
+        {
+          "word": "could",
+          "start": 186.04,
+          "end": 186.16,
+          "probability": 0.99
+        },
+        {
+          "word": "also",
+          "start": 186.16,
+          "end": 186.5,
+          "probability": 0.99
+        },
+        {
+          "word": "be",
+          "start": 186.5,
+          "end": 186.76,
+          "probability": 1
+        },
+        {
+          "word": "severe",
+          "start": 186.76,
+          "end": 187.18,
+          "probability": 0.99
+        },
+        {
+          "word": "in",
+          "start": 187.18,
+          "end": 187.44,
+          "probability": 1
+        },
+        {
+          "word": "judgment",
+          "start": 187.44,
+          "end": 187.76,
+          "probability": 0.84
+        },
+        {
+          "word": "and",
+          "start": 187.76,
+          "end": 188.06,
+          "probability": 0.93
+        },
+        {
+          "word": "partisan",
+          "start": 188.06,
+          "end": 188.56,
+          "probability": 1
+        },
+        {
+          "word": "in",
+          "start": 188.56,
+          "end": 188.72,
+          "probability": 0.96
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "start": 189.08,
+      "end": 189.16,
+      "text": "conflict.",
+      "avgLogprob": -0.18799,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.42723,
+      "words": [
+        {
+          "word": "conflict.",
+          "start": 189.08,
+          "end": 189.16,
+          "probability": 0.92
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "start": 189.5,
+      "end": 195.18,
+      "text": "Like the nation she helped observe into being, she was impressive and incomplete at once.",
+      "avgLogprob": -0.18388,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.38813,
+      "words": [
+        {
+          "word": "Like",
+          "start": 189.5,
+          "end": 190.24,
+          "probability": 0.84
+        },
+        {
+          "word": "the",
+          "start": 190.24,
+          "end": 190.38,
+          "probability": 0.97
+        },
+        {
+          "word": "nation",
+          "start": 190.38,
+          "end": 190.7,
+          "probability": 0.96
+        },
+        {
+          "word": "she",
+          "start": 190.7,
+          "end": 190.92,
+          "probability": 0.99
+        },
+        {
+          "word": "helped",
+          "start": 190.92,
+          "end": 191.18,
+          "probability": 0.99
+        },
+        {
+          "word": "observe",
+          "start": 191.18,
+          "end": 191.5,
+          "probability": 0.96
+        },
+        {
+          "word": "into",
+          "start": 191.5,
+          "end": 191.8,
+          "probability": 0.99
+        },
+        {
+          "word": "being,",
+          "start": 191.8,
+          "end": 192.18,
+          "probability": 0.99
+        },
+        {
+          "word": "she",
+          "start": 192.53,
+          "end": 192.72,
+          "probability": 0.92
+        },
+        {
+          "word": "was",
+          "start": 192.72,
+          "end": 192.84,
+          "probability": 1
+        },
+        {
+          "word": "impressive",
+          "start": 192.84,
+          "end": 193.36,
+          "probability": 0.95
+        },
+        {
+          "word": "and",
+          "start": 193.36,
+          "end": 193.94,
+          "probability": 0.95
+        },
+        {
+          "word": "incomplete",
+          "start": 193.94,
+          "end": 194.6,
+          "probability": 1
+        },
+        {
+          "word": "at",
+          "start": 194.6,
+          "end": 194.86,
+          "probability": 0.99
+        },
+        {
+          "word": "once.",
+          "start": 194.86,
+          "end": 195.18,
+          "probability": 1
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "start": 196.82,
+      "end": 199.72,
+      "text": "That complexity is exactly why she remains worth studying.",
+      "avgLogprob": -0.18388,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.38813,
+      "words": [
+        {
+          "word": "That",
+          "start": 196.56,
+          "end": 196.86,
+          "probability": 1
+        },
+        {
+          "word": "complexity",
+          "start": 196.86,
+          "end": 197.44,
+          "probability": 1
+        },
+        {
+          "word": "is",
+          "start": 197.44,
+          "end": 197.68,
+          "probability": 1
+        },
+        {
+          "word": "exactly",
+          "start": 197.68,
+          "end": 198.18,
+          "probability": 0.98
+        },
+        {
+          "word": "why",
+          "start": 198.18,
+          "end": 198.6,
+          "probability": 1
+        },
+        {
+          "word": "she",
+          "start": 198.6,
+          "end": 198.74,
+          "probability": 1
+        },
+        {
+          "word": "remains",
+          "start": 198.74,
+          "end": 199.04,
+          "probability": 1
+        },
+        {
+          "word": "worth",
+          "start": 199.04,
+          "end": 199.28,
+          "probability": 1
+        },
+        {
+          "word": "studying.",
+          "start": 199.28,
+          "end": 199.72,
+          "probability": 0.99
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "start": 200.8,
+      "end": 204.86,
+      "text": "Abigail Adams shows that revolutions are not made only in congresses and camps.",
+      "avgLogprob": -0.18388,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.38813,
+      "words": [
+        {
+          "word": "Abigail",
+          "start": 200.8,
+          "end": 201.1,
+          "probability": 0.94
+        },
+        {
+          "word": "Adams",
+          "start": 201.1,
+          "end": 201.48,
+          "probability": 0.99
+        },
+        {
+          "word": "shows",
+          "start": 201.48,
+          "end": 201.68,
+          "probability": 0.99
+        },
+        {
+          "word": "that",
+          "start": 201.68,
+          "end": 201.92,
+          "probability": 1
+        },
+        {
+          "word": "revolutions",
+          "start": 201.92,
+          "end": 202.44,
+          "probability": 0.89
+        },
+        {
+          "word": "are",
+          "start": 202.44,
+          "end": 202.7,
+          "probability": 0.99
+        },
+        {
+          "word": "not",
+          "start": 202.7,
+          "end": 202.96,
+          "probability": 1
+        },
+        {
+          "word": "made",
+          "start": 202.96,
+          "end": 203.22,
+          "probability": 0.97
+        },
+        {
+          "word": "only",
+          "start": 203.22,
+          "end": 203.62,
+          "probability": 0.99
+        },
+        {
+          "word": "in",
+          "start": 203.62,
+          "end": 203.86,
+          "probability": 1
+        },
+        {
+          "word": "congresses",
+          "start": 203.86,
+          "end": 204.38,
+          "probability": 0.69
+        },
+        {
+          "word": "and",
+          "start": 204.38,
+          "end": 204.56,
+          "probability": 0.94
+        },
+        {
+          "word": "camps.",
+          "start": 204.56,
+          "end": 204.86,
+          "probability": 1
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "start": 205.47,
+      "end": 210.94,
+      "text": "They are made in correspondence, in households that survive long separations, in people who",
+      "avgLogprob": -0.18388,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.38813,
+      "words": [
+        {
+          "word": "They",
+          "start": 205.47,
+          "end": 205.68,
+          "probability": 1
+        },
+        {
+          "word": "are",
+          "start": 205.68,
+          "end": 205.78,
+          "probability": 0.98
+        },
+        {
+          "word": "made",
+          "start": 205.78,
+          "end": 205.96,
+          "probability": 1
+        },
+        {
+          "word": "in",
+          "start": 205.96,
+          "end": 206.14,
+          "probability": 1
+        },
+        {
+          "word": "correspondence,",
+          "start": 206.14,
+          "end": 206.82,
+          "probability": 0.68
+        },
+        {
+          "word": "in",
+          "start": 207.44,
+          "end": 207.52,
+          "probability": 0.99
+        },
+        {
+          "word": "households",
+          "start": 207.52,
+          "end": 208,
+          "probability": 0.98
+        },
+        {
+          "word": "that",
+          "start": 208,
+          "end": 208.26,
+          "probability": 1
+        },
+        {
+          "word": "survive",
+          "start": 208.26,
+          "end": 208.62,
+          "probability": 0.98
+        },
+        {
+          "word": "long",
+          "start": 208.62,
+          "end": 209.04,
+          "probability": 0.99
+        },
+        {
+          "word": "separations,",
+          "start": 209.04,
+          "end": 209.76,
+          "probability": 0.99
+        },
+        {
+          "word": "in",
+          "start": 210.25,
+          "end": 210.46,
+          "probability": 0.97
+        },
+        {
+          "word": "people",
+          "start": 210.46,
+          "end": 210.76,
+          "probability": 1
+        },
+        {
+          "word": "who",
+          "start": 210.76,
+          "end": 210.94,
+          "probability": 0.99
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "start": 211.04,
+      "end": 215.86,
+      "text": "keep asking whether political principles reach far enough, and in observers who refuse to",
+      "avgLogprob": -0.18388,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.38813,
+      "words": [
+        {
+          "word": "keep",
+          "start": 211.04,
+          "end": 211.18,
+          "probability": 1
+        },
+        {
+          "word": "asking",
+          "start": 211.18,
+          "end": 211.66,
+          "probability": 1
+        },
+        {
+          "word": "whether",
+          "start": 211.66,
+          "end": 211.92,
+          "probability": 1
+        },
+        {
+          "word": "political",
+          "start": 211.92,
+          "end": 212.32,
+          "probability": 1
+        },
+        {
+          "word": "principles",
+          "start": 212.32,
+          "end": 212.8,
+          "probability": 0.99
+        },
+        {
+          "word": "reach",
+          "start": 212.8,
+          "end": 213.2,
+          "probability": 1
+        },
+        {
+          "word": "far",
+          "start": 213.2,
+          "end": 213.5,
+          "probability": 0.99
+        },
+        {
+          "word": "enough,",
+          "start": 213.5,
+          "end": 213.96,
+          "probability": 1
+        },
+        {
+          "word": "and",
+          "start": 214.38,
+          "end": 214.46,
+          "probability": 1
+        },
+        {
+          "word": "in",
+          "start": 214.46,
+          "end": 214.52,
+          "probability": 1
+        },
+        {
+          "word": "observers",
+          "start": 214.52,
+          "end": 215.04,
+          "probability": 0.86
+        },
+        {
+          "word": "who",
+          "start": 215.04,
+          "end": 215.22,
+          "probability": 0.99
+        },
+        {
+          "word": "refuse",
+          "start": 215.22,
+          "end": 215.64,
+          "probability": 0.99
+        },
+        {
+          "word": "to",
+          "start": 215.64,
+          "end": 215.94,
+          "probability": 0.99
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "start": 215.86,
+      "end": 217.88,
+      "text": "let a nation flatter itself too easily.",
+      "avgLogprob": -0.41081,
+      "noSpeechProb": 0,
+      "compressionRatio": 1,
+      "words": [
+        {
+          "word": "let",
+          "start": 215.86,
+          "end": 216.08,
+          "probability": 0.47
+        },
+        {
+          "word": "a",
+          "start": 216.08,
+          "end": 216.16,
+          "probability": 0.64
+        },
+        {
+          "word": "nation",
+          "start": 216.16,
+          "end": 216.36,
+          "probability": 0.43
+        },
+        {
+          "word": "flatter",
+          "start": 216.36,
+          "end": 216.88,
+          "probability": 0.99
+        },
+        {
+          "word": "itself",
+          "start": 216.88,
+          "end": 217.2,
+          "probability": 1
+        },
+        {
+          "word": "too",
+          "start": 217.2,
+          "end": 217.48,
+          "probability": 0.98
+        },
+        {
+          "word": "easily.",
+          "start": 217.48,
+          "end": 217.88,
+          "probability": 1
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "start": 218.5,
+      "end": 221.34,
+      "text": "She did not write the Declaration of Independence.",
+      "avgLogprob": -0.11169,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.57778,
+      "words": [
+        {
+          "word": "She",
+          "start": 218.5,
+          "end": 219.48,
+          "probability": 0.9
+        },
+        {
+          "word": "did",
+          "start": 219.48,
+          "end": 219.58,
+          "probability": 0.98
+        },
+        {
+          "word": "not",
+          "start": 219.58,
+          "end": 219.88,
+          "probability": 1
+        },
+        {
+          "word": "write",
+          "start": 219.88,
+          "end": 220.14,
+          "probability": 1
+        },
+        {
+          "word": "the",
+          "start": 220.14,
+          "end": 220.28,
+          "probability": 0.97
+        },
+        {
+          "word": "Declaration",
+          "start": 220.28,
+          "end": 220.72,
+          "probability": 0.98
+        },
+        {
+          "word": "of",
+          "start": 220.72,
+          "end": 220.94,
+          "probability": 1
+        },
+        {
+          "word": "Independence.",
+          "start": 220.94,
+          "end": 221.34,
+          "probability": 0.98
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "start": 222.02,
+      "end": 223.9,
+      "text": "She did not command troops at Yorktown.",
+      "avgLogprob": -0.11169,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.57778,
+      "words": [
+        {
+          "word": "She",
+          "start": 222.02,
+          "end": 222.2,
+          "probability": 1
+        },
+        {
+          "word": "did",
+          "start": 222.2,
+          "end": 222.34,
+          "probability": 0.99
+        },
+        {
+          "word": "not",
+          "start": 222.34,
+          "end": 222.62,
+          "probability": 1
+        },
+        {
+          "word": "command",
+          "start": 222.62,
+          "end": 222.92,
+          "probability": 0.65
+        },
+        {
+          "word": "troops",
+          "start": 222.92,
+          "end": 223.3,
+          "probability": 1
+        },
+        {
+          "word": "at",
+          "start": 223.3,
+          "end": 223.54,
+          "probability": 0.98
+        },
+        {
+          "word": "Yorktown.",
+          "start": 223.54,
+          "end": 223.9,
+          "probability": 1
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "start": 224.54,
+      "end": 226.08,
+      "text": "She did not sign the Constitution.",
+      "avgLogprob": -0.11169,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.57778,
+      "words": [
+        {
+          "word": "She",
+          "start": 224.54,
+          "end": 224.72,
+          "probability": 1
+        },
+        {
+          "word": "did",
+          "start": 224.72,
+          "end": 224.86,
+          "probability": 1
+        },
+        {
+          "word": "not",
+          "start": 224.86,
+          "end": 225.1,
+          "probability": 1
+        },
+        {
+          "word": "sign",
+          "start": 225.1,
+          "end": 225.46,
+          "probability": 1
+        },
+        {
+          "word": "the",
+          "start": 225.46,
+          "end": 225.64,
+          "probability": 1
+        },
+        {
+          "word": "Constitution.",
+          "start": 225.64,
+          "end": 226.08,
+          "probability": 0.8
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "start": 227.24,
+      "end": 231.52,
+      "text": "Yet if one wants to understand what the American Revolution felt like to live through,",
+      "avgLogprob": -0.11169,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.57778,
+      "words": [
+        {
+          "word": "Yet",
+          "start": 227.24,
+          "end": 227.42,
+          "probability": 0.99
+        },
+        {
+          "word": "if",
+          "start": 227.42,
+          "end": 227.62,
+          "probability": 0.57
+        },
+        {
+          "word": "one",
+          "start": 227.62,
+          "end": 227.86,
+          "probability": 1
+        },
+        {
+          "word": "wants",
+          "start": 227.86,
+          "end": 228.14,
+          "probability": 0.99
+        },
+        {
+          "word": "to",
+          "start": 228.14,
+          "end": 228.24,
+          "probability": 1
+        },
+        {
+          "word": "understand",
+          "start": 228.24,
+          "end": 228.7,
+          "probability": 1
+        },
+        {
+          "word": "what",
+          "start": 228.7,
+          "end": 229.06,
+          "probability": 0.84
+        },
+        {
+          "word": "the",
+          "start": 229.06,
+          "end": 229.24,
+          "probability": 0.98
+        },
+        {
+          "word": "American",
+          "start": 229.24,
+          "end": 229.7,
+          "probability": 0.98
+        },
+        {
+          "word": "Revolution",
+          "start": 229.7,
+          "end": 230.14,
+          "probability": 0.85
+        },
+        {
+          "word": "felt",
+          "start": 230.14,
+          "end": 230.54,
+          "probability": 0.94
+        },
+        {
+          "word": "like",
+          "start": 230.54,
+          "end": 230.8,
+          "probability": 0.99
+        },
+        {
+          "word": "to",
+          "start": 230.8,
+          "end": 231,
+          "probability": 0.97
+        },
+        {
+          "word": "live",
+          "start": 231,
+          "end": 231.18,
+          "probability": 0.99
+        },
+        {
+          "word": "through,",
+          "start": 231.18,
+          "end": 231.52,
+          "probability": 0.99
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "start": 232.04,
+      "end": 236.1,
+      "text": "and what its promises looked like when viewed by someone intelligent enough to admire them,",
+      "avgLogprob": -0.11169,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.57778,
+      "words": [
+        {
+          "word": "and",
+          "start": 232.04,
+          "end": 232.12,
+          "probability": 0.99
+        },
+        {
+          "word": "what",
+          "start": 232.12,
+          "end": 232.3,
+          "probability": 1
+        },
+        {
+          "word": "its",
+          "start": 232.3,
+          "end": 232.5,
+          "probability": 0.98
+        },
+        {
+          "word": "promises",
+          "start": 232.5,
+          "end": 232.96,
+          "probability": 0.99
+        },
+        {
+          "word": "looked",
+          "start": 232.96,
+          "end": 233.2,
+          "probability": 0.93
+        },
+        {
+          "word": "like",
+          "start": 233.2,
+          "end": 233.42,
+          "probability": 1
+        },
+        {
+          "word": "when",
+          "start": 233.42,
+          "end": 233.64,
+          "probability": 0.98
+        },
+        {
+          "word": "viewed",
+          "start": 233.64,
+          "end": 233.94,
+          "probability": 0.99
+        },
+        {
+          "word": "by",
+          "start": 233.94,
+          "end": 234.1,
+          "probability": 0.99
+        },
+        {
+          "word": "someone",
+          "start": 234.1,
+          "end": 234.38,
+          "probability": 0.99
+        },
+        {
+          "word": "intelligent",
+          "start": 234.38,
+          "end": 235.04,
+          "probability": 0.96
+        },
+        {
+          "word": "enough",
+          "start": 235.04,
+          "end": 235.28,
+          "probability": 1
+        },
+        {
+          "word": "to",
+          "start": 235.28,
+          "end": 235.5,
+          "probability": 0.97
+        },
+        {
+          "word": "admire",
+          "start": 235.5,
+          "end": 235.8,
+          "probability": 0.98
+        },
+        {
+          "word": "them,",
+          "start": 235.8,
+          "end": 236.1,
+          "probability": 1
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "start": 236.6,
+      "end": 240.18,
+      "text": "and skeptical enough to test them, Abigail Adams is essential.",
+      "avgLogprob": -0.11169,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.57778,
+      "words": [
+        {
+          "word": "and",
+          "start": 236.6,
+          "end": 236.68,
+          "probability": 0.99
+        },
+        {
+          "word": "skeptical",
+          "start": 236.68,
+          "end": 237.1,
+          "probability": 0.98
+        },
+        {
+          "word": "enough",
+          "start": 237.1,
+          "end": 237.44,
+          "probability": 1
+        },
+        {
+          "word": "to",
+          "start": 237.44,
+          "end": 237.64,
+          "probability": 1
+        },
+        {
+          "word": "test",
+          "start": 237.64,
+          "end": 237.84,
+          "probability": 1
+        },
+        {
+          "word": "them,",
+          "start": 237.84,
+          "end": 238.14,
+          "probability": 1
+        },
+        {
+          "word": "Abigail",
+          "start": 238.56,
+          "end": 239.06,
+          "probability": 0.82
+        },
+        {
+          "word": "Adams",
+          "start": 239.06,
+          "end": 239.46,
+          "probability": 0.97
+        },
+        {
+          "word": "is",
+          "start": 239.46,
+          "end": 239.66,
+          "probability": 0.99
+        },
+        {
+          "word": "essential.",
+          "start": 239.66,
+          "end": 240.18,
+          "probability": 0.99
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "start": 240.8,
+      "end": 243,
+      "text": "She saw war begin from home.",
+      "avgLogprob": -0.16237,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.52284,
+      "words": [
+        {
+          "word": "She",
+          "start": 240.8,
+          "end": 241.62,
+          "probability": 0.76
+        },
+        {
+          "word": "saw",
+          "start": 241.62,
+          "end": 241.9,
+          "probability": 0.99
+        },
+        {
+          "word": "war",
+          "start": 241.9,
+          "end": 242.26,
+          "probability": 0.96
+        },
+        {
+          "word": "begin",
+          "start": 242.26,
+          "end": 242.52,
+          "probability": 0.99
+        },
+        {
+          "word": "from",
+          "start": 242.52,
+          "end": 242.72,
+          "probability": 1
+        },
+        {
+          "word": "home.",
+          "start": 242.72,
+          "end": 243,
+          "probability": 0.99
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "start": 243.86,
+      "end": 247.28,
+      "text": "She saw independence announced while women remained politically excluded.",
+      "avgLogprob": -0.16237,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.52284,
+      "words": [
+        {
+          "word": "She",
+          "start": 243.86,
+          "end": 244.04,
+          "probability": 1
+        },
+        {
+          "word": "saw",
+          "start": 244.04,
+          "end": 244.32,
+          "probability": 1
+        },
+        {
+          "word": "independence",
+          "start": 244.32,
+          "end": 244.8,
+          "probability": 0.97
+        },
+        {
+          "word": "announced",
+          "start": 244.8,
+          "end": 245.34,
+          "probability": 1
+        },
+        {
+          "word": "while",
+          "start": 245.34,
+          "end": 245.54,
+          "probability": 0.82
+        },
+        {
+          "word": "women",
+          "start": 245.54,
+          "end": 245.8,
+          "probability": 0.98
+        },
+        {
+          "word": "remained",
+          "start": 245.8,
+          "end": 246.16,
+          "probability": 0.9
+        },
+        {
+          "word": "politically",
+          "start": 246.16,
+          "end": 246.6,
+          "probability": 0.96
+        },
+        {
+          "word": "excluded.",
+          "start": 246.6,
+          "end": 247.28,
+          "probability": 0.99
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "start": 248.2,
+      "end": 252.38,
+      "text": "She saw the Republic rise and knew from the start that its work was unfinished.",
+      "avgLogprob": -0.16237,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.52284,
+      "words": [
+        {
+          "word": "She",
+          "start": 248.2,
+          "end": 248.44,
+          "probability": 1
+        },
+        {
+          "word": "saw",
+          "start": 248.44,
+          "end": 248.7,
+          "probability": 1
+        },
+        {
+          "word": "the",
+          "start": 248.7,
+          "end": 248.84,
+          "probability": 1
+        },
+        {
+          "word": "Republic",
+          "start": 248.84,
+          "end": 249.08,
+          "probability": 0.72
+        },
+        {
+          "word": "rise",
+          "start": 249.08,
+          "end": 249.62,
+          "probability": 1
+        },
+        {
+          "word": "and",
+          "start": 249.62,
+          "end": 250.26,
+          "probability": 0.77
+        },
+        {
+          "word": "knew",
+          "start": 250.26,
+          "end": 250.48,
+          "probability": 0.96
+        },
+        {
+          "word": "from",
+          "start": 250.48,
+          "end": 250.64,
+          "probability": 1
+        },
+        {
+          "word": "the",
+          "start": 250.64,
+          "end": 250.78,
+          "probability": 1
+        },
+        {
+          "word": "start",
+          "start": 250.78,
+          "end": 251.1,
+          "probability": 1
+        },
+        {
+          "word": "that",
+          "start": 251.1,
+          "end": 251.3,
+          "probability": 0.98
+        },
+        {
+          "word": "its",
+          "start": 251.3,
+          "end": 251.46,
+          "probability": 0.96
+        },
+        {
+          "word": "work",
+          "start": 251.46,
+          "end": 251.68,
+          "probability": 0.98
+        },
+        {
+          "word": "was",
+          "start": 251.68,
+          "end": 251.86,
+          "probability": 1
+        },
+        {
+          "word": "unfinished.",
+          "start": 251.86,
+          "end": 252.38,
+          "probability": 1
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "start": 253.6,
+      "end": 257.82,
+      "text": "That unfinished quality may be the deepest reason her voice still sounds moderate.",
+      "avgLogprob": -0.16237,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.52284,
+      "words": [
+        {
+          "word": "That",
+          "start": 253.6,
+          "end": 253.84,
+          "probability": 0.99
+        },
+        {
+          "word": "unfinished",
+          "start": 253.84,
+          "end": 254.4,
+          "probability": 0.99
+        },
+        {
+          "word": "quality",
+          "start": 254.4,
+          "end": 254.92,
+          "probability": 1
+        },
+        {
+          "word": "may",
+          "start": 254.92,
+          "end": 255.14,
+          "probability": 0.98
+        },
+        {
+          "word": "be",
+          "start": 255.14,
+          "end": 255.32,
+          "probability": 1
+        },
+        {
+          "word": "the",
+          "start": 255.32,
+          "end": 255.5,
+          "probability": 1
+        },
+        {
+          "word": "deepest",
+          "start": 255.5,
+          "end": 255.84,
+          "probability": 1
+        },
+        {
+          "word": "reason",
+          "start": 255.84,
+          "end": 256.22,
+          "probability": 1
+        },
+        {
+          "word": "her",
+          "start": 256.22,
+          "end": 256.46,
+          "probability": 0.99
+        },
+        {
+          "word": "voice",
+          "start": 256.46,
+          "end": 256.58,
+          "probability": 1
+        },
+        {
+          "word": "still",
+          "start": 256.58,
+          "end": 256.98,
+          "probability": 0.99
+        },
+        {
+          "word": "sounds",
+          "start": 256.98,
+          "end": 257.36,
+          "probability": 0.99
+        },
+        {
+          "word": "moderate.",
+          "start": 257.36,
+          "end": 257.82,
+          "probability": 0.7
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "start": 258.46,
+      "end": 262.18,
+      "text": "She reminds readers that founding moments are not sacred because they are complete.",
+      "avgLogprob": -0.16237,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.52284,
+      "words": [
+        {
+          "word": "She",
+          "start": 258.46,
+          "end": 258.64,
+          "probability": 1
+        },
+        {
+          "word": "reminds",
+          "start": 258.64,
+          "end": 259.08,
+          "probability": 1
+        },
+        {
+          "word": "readers",
+          "start": 259.08,
+          "end": 259.38,
+          "probability": 1
+        },
+        {
+          "word": "that",
+          "start": 259.38,
+          "end": 259.62,
+          "probability": 1
+        },
+        {
+          "word": "founding",
+          "start": 259.62,
+          "end": 260,
+          "probability": 0.83
+        },
+        {
+          "word": "moments",
+          "start": 260,
+          "end": 260.3,
+          "probability": 0.99
+        },
+        {
+          "word": "are",
+          "start": 260.3,
+          "end": 260.52,
+          "probability": 0.99
+        },
+        {
+          "word": "not",
+          "start": 260.52,
+          "end": 260.74,
+          "probability": 1
+        },
+        {
+          "word": "sacred",
+          "start": 260.74,
+          "end": 261.2,
+          "probability": 1
+        },
+        {
+          "word": "because",
+          "start": 261.2,
+          "end": 261.5,
+          "probability": 0.98
+        },
+        {
+          "word": "they",
+          "start": 261.5,
+          "end": 261.64,
+          "probability": 1
+        },
+        {
+          "word": "are",
+          "start": 261.64,
+          "end": 261.78,
+          "probability": 0.99
+        },
+        {
+          "word": "complete.",
+          "start": 261.78,
+          "end": 262.18,
+          "probability": 0.89
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "start": 262.86,
+      "end": 267.14,
+      "text": "They are important because they begin arguments that later generations must keep pressing.",
+      "avgLogprob": -0.16237,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.52284,
+      "words": [
+        {
+          "word": "They",
+          "start": 262.86,
+          "end": 263.06,
+          "probability": 0.96
+        },
+        {
+          "word": "are",
+          "start": 263.06,
+          "end": 263.18,
+          "probability": 1
+        },
+        {
+          "word": "important",
+          "start": 263.18,
+          "end": 263.68,
+          "probability": 1
+        },
+        {
+          "word": "because",
+          "start": 263.68,
+          "end": 264,
+          "probability": 0.99
+        },
+        {
+          "word": "they",
+          "start": 264,
+          "end": 264.14,
+          "probability": 1
+        },
+        {
+          "word": "begin",
+          "start": 264.14,
+          "end": 264.4,
+          "probability": 0.99
+        },
+        {
+          "word": "arguments",
+          "start": 264.4,
+          "end": 264.96,
+          "probability": 0.99
+        },
+        {
+          "word": "that",
+          "start": 264.96,
+          "end": 265.22,
+          "probability": 0.99
+        },
+        {
+          "word": "later",
+          "start": 265.22,
+          "end": 265.52,
+          "probability": 0.84
+        },
+        {
+          "word": "generations",
+          "start": 265.52,
+          "end": 266,
+          "probability": 1
+        },
+        {
+          "word": "must",
+          "start": 266,
+          "end": 266.42,
+          "probability": 1
+        },
+        {
+          "word": "keep",
+          "start": 266.42,
+          "end": 266.7,
+          "probability": 1
+        },
+        {
+          "word": "pressing.",
+          "start": 266.7,
+          "end": 267.14,
+          "probability": 0.97
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "start": 267.6,
+      "end": 273.98,
+      "text": "Abigail Adams helped begin those arguments with clarity, courage, and a pen always close at hand.",
+      "avgLogprob": -0.16523,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.13514,
+      "words": [
+        {
+          "word": "Abigail",
+          "start": 267.6,
+          "end": 268.74,
+          "probability": 0.85
+        },
+        {
+          "word": "Adams",
+          "start": 268.74,
+          "end": 269.12,
+          "probability": 0.98
+        },
+        {
+          "word": "helped",
+          "start": 269.12,
+          "end": 269.38,
+          "probability": 0.99
+        },
+        {
+          "word": "begin",
+          "start": 269.38,
+          "end": 269.68,
+          "probability": 0.97
+        },
+        {
+          "word": "those",
+          "start": 269.68,
+          "end": 269.88,
+          "probability": 0.96
+        },
+        {
+          "word": "arguments",
+          "start": 269.88,
+          "end": 270.34,
+          "probability": 0.99
+        },
+        {
+          "word": "with",
+          "start": 270.34,
+          "end": 270.66,
+          "probability": 0.97
+        },
+        {
+          "word": "clarity,",
+          "start": 270.66,
+          "end": 271.14,
+          "probability": 0.98
+        },
+        {
+          "word": "courage,",
+          "start": 271.56,
+          "end": 271.88,
+          "probability": 0.98
+        },
+        {
+          "word": "and",
+          "start": 272.24,
+          "end": 272.46,
+          "probability": 0.96
+        },
+        {
+          "word": "a",
+          "start": 272.46,
+          "end": 272.54,
+          "probability": 0.98
+        },
+        {
+          "word": "pen",
+          "start": 272.54,
+          "end": 272.8,
+          "probability": 0.98
+        },
+        {
+          "word": "always",
+          "start": 272.8,
+          "end": 273.3,
+          "probability": 0.96
+        },
+        {
+          "word": "close",
+          "start": 273.3,
+          "end": 273.6,
+          "probability": 0.99
+        },
+        {
+          "word": "at",
+          "start": 273.6,
+          "end": 273.78,
+          "probability": 0.53
+        },
+        {
+          "word": "hand.",
+          "start": 273.78,
+          "end": 273.98,
+          "probability": 0.99
+        }
+      ]
+    }
+  ],
+  "words": [
+    {
+      "word": "Chapter",
+      "start": 0,
+      "end": 0.66,
+      "probability": 0.86
+    },
+    {
+      "word": "4",
+      "start": 0.66,
+      "end": 1.14,
+      "probability": 0.68
+    },
+    {
+      "word": "The",
+      "start": 1.14,
+      "end": 1.88,
+      "probability": 0.29
+    },
+    {
+      "word": "Revolution",
+      "start": 1.88,
+      "end": 2.48,
+      "probability": 0.93
+    },
+    {
+      "word": "Seen",
+      "start": 2.48,
+      "end": 3.06,
+      "probability": 0.95
+    },
+    {
+      "word": "from",
+      "start": 3.06,
+      "end": 3.38,
+      "probability": 0.56
+    },
+    {
+      "word": "a",
+      "start": 3.38,
+      "end": 3.6,
+      "probability": 0.99
+    },
+    {
+      "word": "Writing",
+      "start": 3.6,
+      "end": 3.88,
+      "probability": 0.96
+    },
+    {
+      "word": "Desk",
+      "start": 3.88,
+      "end": 4.34,
+      "probability": 0.98
+    },
+    {
+      "word": "By",
+      "start": 5.79,
+      "end": 6.06,
+      "probability": 1
+    },
+    {
+      "word": "the",
+      "start": 6.06,
+      "end": 6.18,
+      "probability": 1
+    },
+    {
+      "word": "time",
+      "start": 6.18,
+      "end": 6.54,
+      "probability": 1
+    },
+    {
+      "word": "the",
+      "start": 6.54,
+      "end": 6.78,
+      "probability": 0.98
+    },
+    {
+      "word": "American",
+      "start": 6.78,
+      "end": 7.3,
+      "probability": 1
+    },
+    {
+      "word": "Revolution",
+      "start": 7.3,
+      "end": 7.82,
+      "probability": 0.98
+    },
+    {
+      "word": "ended,",
+      "start": 7.82,
+      "end": 8.38,
+      "probability": 1
+    },
+    {
+      "word": "Abigail",
+      "start": 8.96,
+      "end": 9.42,
+      "probability": 0.88
+    },
+    {
+      "word": "Adams",
+      "start": 9.42,
+      "end": 9.76,
+      "probability": 0.92
+    },
+    {
+      "word": "had",
+      "start": 9.76,
+      "end": 9.98,
+      "probability": 0.99
+    },
+    {
+      "word": "become",
+      "start": 9.98,
+      "end": 10.32,
+      "probability": 0.99
+    },
+    {
+      "word": "far",
+      "start": 10.32,
+      "end": 10.8,
+      "probability": 0.99
+    },
+    {
+      "word": "more",
+      "start": 10.8,
+      "end": 11.22,
+      "probability": 1
+    },
+    {
+      "word": "than",
+      "start": 11.22,
+      "end": 11.46,
+      "probability": 0.99
+    },
+    {
+      "word": "the",
+      "start": 11.46,
+      "end": 11.62,
+      "probability": 0.99
+    },
+    {
+      "word": "wife",
+      "start": 11.65,
+      "end": 11.88,
+      "probability": 1
+    },
+    {
+      "word": "of",
+      "start": 11.88,
+      "end": 12.12,
+      "probability": 1
+    },
+    {
+      "word": "a",
+      "start": 12.12,
+      "end": 12.28,
+      "probability": 0.99
+    },
+    {
+      "word": "prominent",
+      "start": 12.28,
+      "end": 12.7,
+      "probability": 1
+    },
+    {
+      "word": "statesman.",
+      "start": 12.7,
+      "end": 13.3,
+      "probability": 0.97
+    },
+    {
+      "word": "She",
+      "start": 14.01,
+      "end": 14.28,
+      "probability": 0.99
+    },
+    {
+      "word": "had",
+      "start": 14.28,
+      "end": 14.44,
+      "probability": 1
+    },
+    {
+      "word": "become",
+      "start": 14.44,
+      "end": 14.82,
+      "probability": 1
+    },
+    {
+      "word": "one",
+      "start": 14.82,
+      "end": 15.06,
+      "probability": 0.99
+    },
+    {
+      "word": "of",
+      "start": 15.06,
+      "end": 15.24,
+      "probability": 1
+    },
+    {
+      "word": "the",
+      "start": 15.24,
+      "end": 15.44,
+      "probability": 0.99
+    },
+    {
+      "word": "era's",
+      "start": 15.44,
+      "end": 15.82,
+      "probability": 0.99
+    },
+    {
+      "word": "sharpest",
+      "start": 15.82,
+      "end": 16.56,
+      "probability": 0.98
+    },
+    {
+      "word": "witnesses.",
+      "start": 16.56,
+      "end": 17.1,
+      "probability": 0.99
+    },
+    {
+      "word": "Her",
+      "start": 17.7,
+      "end": 18.42,
+      "probability": 0.96
+    },
+    {
+      "word": "letters",
+      "start": 18.42,
+      "end": 18.8,
+      "probability": 0.99
+    },
+    {
+      "word": "chart",
+      "start": 18.8,
+      "end": 19.12,
+      "probability": 1
+    },
+    {
+      "word": "the",
+      "start": 19.12,
+      "end": 19.34,
+      "probability": 0.99
+    },
+    {
+      "word": "movement",
+      "start": 19.34,
+      "end": 19.72,
+      "probability": 1
+    },
+    {
+      "word": "from",
+      "start": 19.72,
+      "end": 19.98,
+      "probability": 0.96
+    },
+    {
+      "word": "imperial",
+      "start": 19.98,
+      "end": 20.5,
+      "probability": 0.79
+    },
+    {
+      "word": "crisis",
+      "start": 20.5,
+      "end": 21,
+      "probability": 0.99
+    },
+    {
+      "word": "to",
+      "start": 21,
+      "end": 21.4,
+      "probability": 0.89
+    },
+    {
+      "word": "independence,",
+      "start": 21.4,
+      "end": 21.9,
+      "probability": 0.99
+    },
+    {
+      "word": "from",
+      "start": 22.53,
+      "end": 22.8,
+      "probability": 0.76
+    },
+    {
+      "word": "wartime",
+      "start": 22.8,
+      "end": 23.36,
+      "probability": 0.89
+    },
+    {
+      "word": "anxiety",
+      "start": 23.36,
+      "end": 24.04,
+      "probability": 1
+    },
+    {
+      "word": "to",
+      "start": 24.07,
+      "end": 24.34,
+      "probability": 1
+    },
+    {
+      "word": "the",
+      "start": 24.34,
+      "end": 24.44,
+      "probability": 1
+    },
+    {
+      "word": "difficult",
+      "start": 24.44,
+      "end": 24.8,
+      "probability": 1
+    },
+    {
+      "word": "work",
+      "start": 24.8,
+      "end": 25.28,
+      "probability": 1
+    },
+    {
+      "word": "of",
+      "start": 25.28,
+      "end": 25.46,
+      "probability": 1
+    },
+    {
+      "word": "building",
+      "start": 25.46,
+      "end": 25.84,
+      "probability": 1
+    },
+    {
+      "word": "a",
+      "start": 25.84,
+      "end": 26.04,
+      "probability": 1
+    },
+    {
+      "word": "republic.",
+      "start": 26.04,
+      "end": 26.34,
+      "probability": 0.94
+    },
+    {
+      "word": "They",
+      "start": 27.19,
+      "end": 27.44,
+      "probability": 1
+    },
+    {
+      "word": "preserve",
+      "start": 27.44,
+      "end": 27.8,
+      "probability": 0.98
+    },
+    {
+      "word": "not",
+      "start": 27.8,
+      "end": 28.18,
+      "probability": 0.99
+    },
+    {
+      "word": "only",
+      "start": 28.18,
+      "end": 28.48,
+      "probability": 1
+    },
+    {
+      "word": "the",
+      "start": 28.48,
+      "end": 28.68,
+      "probability": 1
+    },
+    {
+      "word": "famous",
+      "start": 28.68,
+      "end": 29.16,
+      "probability": 1
+    },
+    {
+      "word": "public",
+      "start": 29.16,
+      "end": 29.54,
+      "probability": 0.99
+    },
+    {
+      "word": "moments,",
+      "start": 29.54,
+      "end": 30.04,
+      "probability": 0.99
+    },
+    {
+      "word": "but",
+      "start": 30.31,
+      "end": 30.6,
+      "probability": 0.99
+    },
+    {
+      "word": "the",
+      "start": 30.6,
+      "end": 30.7,
+      "probability": 0.99
+    },
+    {
+      "word": "texture",
+      "start": 30.7,
+      "end": 31.18,
+      "probability": 0.96
+    },
+    {
+      "word": "around",
+      "start": 31.18,
+      "end": 31.6,
+      "probability": 1
+    },
+    {
+      "word": "them.",
+      "start": 31.6,
+      "end": 31.92,
+      "probability": 1
+    },
+    {
+      "word": "Inflation,",
+      "start": 32.58,
+      "end": 33,
+      "probability": 0.99
+    },
+    {
+      "word": "shortages,",
+      "start": 33.48,
+      "end": 34,
+      "probability": 0.99
+    },
+    {
+      "word": "family",
+      "start": 34.58,
+      "end": 34.88,
+      "probability": 1
+    },
+    {
+      "word": "illness,",
+      "start": 34.88,
+      "end": 35.46,
+      "probability": 1
+    },
+    {
+      "word": "military",
+      "start": 36.06,
+      "end": 36.46,
+      "probability": 0.98
+    },
+    {
+      "word": "fear,",
+      "start": 36.46,
+      "end": 36.92,
+      "probability": 1
+    },
+    {
+      "word": "loneliness,",
+      "start": 37.5,
+      "end": 38.28,
+      "probability": 0.99
+    },
+    {
+      "word": "frustration,",
+      "start": 38.74,
+      "end": 39.32,
+      "probability": 1
+    },
+    {
+      "word": "and",
+      "start": 39.85,
+      "end": 40.14,
+      "probability": 0.97
+    },
+    {
+      "word": "determination.",
+      "start": 40.14,
+      "end": 40.9,
+      "probability": 1
+    },
+    {
+      "word": "Historians",
+      "start": 41.5,
+      "end": 42.66,
+      "probability": 0.93
+    },
+    {
+      "word": "value",
+      "start": 42.66,
+      "end": 43.24,
+      "probability": 1
+    },
+    {
+      "word": "these",
+      "start": 43.24,
+      "end": 43.46,
+      "probability": 1
+    },
+    {
+      "word": "letters",
+      "start": 43.46,
+      "end": 43.74,
+      "probability": 1
+    },
+    {
+      "word": "because",
+      "start": 43.74,
+      "end": 44.36,
+      "probability": 0.83
+    },
+    {
+      "word": "they",
+      "start": 44.36,
+      "end": 44.52,
+      "probability": 0.98
+    },
+    {
+      "word": "keep",
+      "start": 44.52,
+      "end": 44.8,
+      "probability": 0.97
+    },
+    {
+      "word": "national",
+      "start": 44.8,
+      "end": 45.22,
+      "probability": 0.94
+    },
+    {
+      "word": "history",
+      "start": 45.22,
+      "end": 45.7,
+      "probability": 0.98
+    },
+    {
+      "word": "from",
+      "start": 45.7,
+      "end": 46.1,
+      "probability": 0.9
+    },
+    {
+      "word": "floating",
+      "start": 46.1,
+      "end": 46.66,
+      "probability": 0.94
+    },
+    {
+      "word": "away",
+      "start": 46.66,
+      "end": 46.98,
+      "probability": 0.86
+    },
+    {
+      "word": "into",
+      "start": 46.98,
+      "end": 47.28,
+      "probability": 0.94
+    },
+    {
+      "word": "speeches",
+      "start": 47.37,
+      "end": 47.68,
+      "probability": 1
+    },
+    {
+      "word": "alone.",
+      "start": 47.68,
+      "end": 48.16,
+      "probability": 1
+    },
+    {
+      "word": "Abigail",
+      "start": 49.82,
+      "end": 50.16,
+      "probability": 0.97
+    },
+    {
+      "word": "understood",
+      "start": 50.16,
+      "end": 50.68,
+      "probability": 1
+    },
+    {
+      "word": "public",
+      "start": 50.68,
+      "end": 51.12,
+      "probability": 0.99
+    },
+    {
+      "word": "character",
+      "start": 51.12,
+      "end": 51.6,
+      "probability": 1
+    },
+    {
+      "word": "with",
+      "start": 51.6,
+      "end": 52,
+      "probability": 0.99
+    },
+    {
+      "word": "unusual",
+      "start": 52,
+      "end": 52.6,
+      "probability": 1
+    },
+    {
+      "word": "precision.",
+      "start": 52.6,
+      "end": 53.3,
+      "probability": 1
+    },
+    {
+      "word": "She",
+      "start": 53.99,
+      "end": 54.26,
+      "probability": 1
+    },
+    {
+      "word": "watched",
+      "start": 54.26,
+      "end": 54.5,
+      "probability": 1
+    },
+    {
+      "word": "how",
+      "start": 54.5,
+      "end": 54.8,
+      "probability": 1
+    },
+    {
+      "word": "men",
+      "start": 54.8,
+      "end": 55.02,
+      "probability": 1
+    },
+    {
+      "word": "behaved",
+      "start": 55.02,
+      "end": 55.44,
+      "probability": 1
+    },
+    {
+      "word": "under",
+      "start": 55.44,
+      "end": 55.82,
+      "probability": 1
+    },
+    {
+      "word": "praise,",
+      "start": 55.82,
+      "end": 56.4,
+      "probability": 1
+    },
+    {
+      "word": "stress,",
+      "start": 56.68,
+      "end": 57.1,
+      "probability": 1
+    },
+    {
+      "word": "and",
+      "start": 57.19,
+      "end": 57.46,
+      "probability": 1
+    },
+    {
+      "word": "authority.",
+      "start": 57.46,
+      "end": 57.92,
+      "probability": 1
+    },
+    {
+      "word": "She",
+      "start": 58.57,
+      "end": 58.84,
+      "probability": 1
+    },
+    {
+      "word": "could",
+      "start": 58.84,
+      "end": 58.98,
+      "probability": 1
+    },
+    {
+      "word": "admire",
+      "start": 58.98,
+      "end": 59.4,
+      "probability": 1
+    },
+    {
+      "word": "principle",
+      "start": 59.4,
+      "end": 59.86,
+      "probability": 0.98
+    },
+    {
+      "word": "while",
+      "start": 59.86,
+      "end": 60.46,
+      "probability": 0.91
+    },
+    {
+      "word": "noticing",
+      "start": 60.46,
+      "end": 60.94,
+      "probability": 0.99
+    },
+    {
+      "word": "vanity.",
+      "start": 60.94,
+      "end": 61.4,
+      "probability": 1
+    },
+    {
+      "word": "She",
+      "start": 62.09,
+      "end": 62.34,
+      "probability": 0.83
+    },
+    {
+      "word": "could",
+      "start": 62.34,
+      "end": 62.5,
+      "probability": 1
+    },
+    {
+      "word": "see",
+      "start": 62.5,
+      "end": 62.82,
+      "probability": 1
+    },
+    {
+      "word": "when",
+      "start": 62.82,
+      "end": 63.04,
+      "probability": 1
+    },
+    {
+      "word": "public",
+      "start": 63.04,
+      "end": 63.46,
+      "probability": 1
+    },
+    {
+      "word": "language",
+      "start": 63.46,
+      "end": 64.02,
+      "probability": 0.98
+    },
+    {
+      "word": "outran",
+      "start": 64.02,
+      "end": 64.7,
+      "probability": 0.99
+    },
+    {
+      "word": "private",
+      "start": 64.7,
+      "end": 65.22,
+      "probability": 1
+    },
+    {
+      "word": "conduct.",
+      "start": 65.22,
+      "end": 65.7,
+      "probability": 1
+    },
+    {
+      "word": "This",
+      "start": 66.1,
+      "end": 66.88,
+      "probability": 0.92
+    },
+    {
+      "word": "habit",
+      "start": 66.88,
+      "end": 67.16,
+      "probability": 1
+    },
+    {
+      "word": "remained",
+      "start": 67.16,
+      "end": 67.46,
+      "probability": 1
+    },
+    {
+      "word": "valuable",
+      "start": 67.46,
+      "end": 68.02,
+      "probability": 1
+    },
+    {
+      "word": "after",
+      "start": 68.02,
+      "end": 68.54,
+      "probability": 0.99
+    },
+    {
+      "word": "the",
+      "start": 68.54,
+      "end": 68.68,
+      "probability": 1
+    },
+    {
+      "word": "war,",
+      "start": 68.68,
+      "end": 68.92,
+      "probability": 0.97
+    },
+    {
+      "word": "when",
+      "start": 69.31,
+      "end": 69.5,
+      "probability": 0.92
+    },
+    {
+      "word": "the",
+      "start": 69.5,
+      "end": 69.62,
+      "probability": 0.99
+    },
+    {
+      "word": "new",
+      "start": 69.62,
+      "end": 69.88,
+      "probability": 0.92
+    },
+    {
+      "word": "United",
+      "start": 69.88,
+      "end": 70.24,
+      "probability": 0.98
+    },
+    {
+      "word": "States",
+      "start": 70.24,
+      "end": 70.72,
+      "probability": 0.99
+    },
+    {
+      "word": "still",
+      "start": 70.72,
+      "end": 71.2,
+      "probability": 0.96
+    },
+    {
+      "word": "had",
+      "start": 71.2,
+      "end": 71.42,
+      "probability": 0.97
+    },
+    {
+      "word": "to",
+      "start": 71.42,
+      "end": 71.54,
+      "probability": 0.99
+    },
+    {
+      "word": "prove",
+      "start": 71.54,
+      "end": 71.9,
+      "probability": 0.99
+    },
+    {
+      "word": "that",
+      "start": 71.95,
+      "end": 72.18,
+      "probability": 1
+    },
+    {
+      "word": "self",
+      "start": 72.18,
+      "end": 72.52,
+      "probability": 1
+    },
+    {
+      "word": "-government",
+      "start": 72.52,
+      "end": 72.9,
+      "probability": 0.97
+    },
+    {
+      "word": "could",
+      "start": 72.9,
+      "end": 73.2,
+      "probability": 0.99
+    },
+    {
+      "word": "work.",
+      "start": 73.2,
+      "end": 73.48,
+      "probability": 1
+    },
+    {
+      "word": "Her",
+      "start": 74.99,
+      "end": 75.24,
+      "probability": 1
+    },
+    {
+      "word": "life",
+      "start": 75.24,
+      "end": 75.46,
+      "probability": 1
+    },
+    {
+      "word": "also",
+      "start": 75.46,
+      "end": 76.02,
+      "probability": 1
+    },
+    {
+      "word": "widened",
+      "start": 76.02,
+      "end": 76.36,
+      "probability": 0.99
+    },
+    {
+      "word": "beyond",
+      "start": 76.36,
+      "end": 76.94,
+      "probability": 1
+    },
+    {
+      "word": "wartime",
+      "start": 76.94,
+      "end": 77.46,
+      "probability": 0.99
+    },
+    {
+      "word": "Massachusetts.",
+      "start": 77.46,
+      "end": 77.96,
+      "probability": 0.99
+    },
+    {
+      "word": "John",
+      "start": 79,
+      "end": 79.1,
+      "probability": 0.99
+    },
+    {
+      "word": "Adams",
+      "start": 79.1,
+      "end": 79.48,
+      "probability": 0.99
+    },
+    {
+      "word": "served",
+      "start": 79.48,
+      "end": 79.8,
+      "probability": 1
+    },
+    {
+      "word": "as",
+      "start": 79.8,
+      "end": 80.04,
+      "probability": 1
+    },
+    {
+      "word": "diplomat",
+      "start": 80.04,
+      "end": 80.32,
+      "probability": 0.93
+    },
+    {
+      "word": "in",
+      "start": 80.32,
+      "end": 80.62,
+      "probability": 1
+    },
+    {
+      "word": "Europe",
+      "start": 80.62,
+      "end": 80.92,
+      "probability": 1
+    },
+    {
+      "word": "and",
+      "start": 80.92,
+      "end": 81.46,
+      "probability": 0.71
+    },
+    {
+      "word": "later",
+      "start": 81.46,
+      "end": 81.74,
+      "probability": 0.98
+    },
+    {
+      "word": "as",
+      "start": 81.74,
+      "end": 82,
+      "probability": 0.99
+    },
+    {
+      "word": "vice",
+      "start": 82,
+      "end": 82.22,
+      "probability": 0.84
+    },
+    {
+      "word": "president",
+      "start": 82.22,
+      "end": 82.74,
+      "probability": 0.88
+    },
+    {
+      "word": "and",
+      "start": 82.74,
+      "end": 82.98,
+      "probability": 0.99
+    },
+    {
+      "word": "president.",
+      "start": 82.98,
+      "end": 83.4,
+      "probability": 0.98
+    },
+    {
+      "word": "Abigail",
+      "start": 84.16,
+      "end": 84.52,
+      "probability": 0.91
+    },
+    {
+      "word": "traveled,",
+      "start": 84.52,
+      "end": 85,
+      "probability": 0.93
+    },
+    {
+      "word": "observed",
+      "start": 85.36,
+      "end": 85.7,
+      "probability": 1
+    },
+    {
+      "word": "foreign",
+      "start": 85.7,
+      "end": 86.18,
+      "probability": 1
+    },
+    {
+      "word": "courts",
+      "start": 86.18,
+      "end": 86.52,
+      "probability": 0.99
+    },
+    {
+      "word": "and",
+      "start": 86.52,
+      "end": 86.76,
+      "probability": 0.96
+    },
+    {
+      "word": "governments,",
+      "start": 86.76,
+      "end": 87.16,
+      "probability": 1
+    },
+    {
+      "word": "and",
+      "start": 87.53,
+      "end": 87.76,
+      "probability": 0.99
+    },
+    {
+      "word": "compared",
+      "start": 87.76,
+      "end": 88.16,
+      "probability": 1
+    },
+    {
+      "word": "them",
+      "start": 88.16,
+      "end": 88.38,
+      "probability": 1
+    },
+    {
+      "word": "to",
+      "start": 88.38,
+      "end": 88.52,
+      "probability": 1
+    },
+    {
+      "word": "the",
+      "start": 88.52,
+      "end": 88.66,
+      "probability": 0.94
+    },
+    {
+      "word": "American",
+      "start": 88.68,
+      "end": 89.14,
+      "probability": 0.98
+    },
+    {
+      "word": "experiment.",
+      "start": 89.14,
+      "end": 89.68,
+      "probability": 0.95
+    },
+    {
+      "word": "These",
+      "start": 90.1,
+      "end": 90.86,
+      "probability": 0.91
+    },
+    {
+      "word": "experiences",
+      "start": 90.86,
+      "end": 91.48,
+      "probability": 1
+    },
+    {
+      "word": "made",
+      "start": 91.48,
+      "end": 91.74,
+      "probability": 0.99
+    },
+    {
+      "word": "her",
+      "start": 91.74,
+      "end": 91.9,
+      "probability": 1
+    },
+    {
+      "word": "even",
+      "start": 91.9,
+      "end": 92.18,
+      "probability": 0.99
+    },
+    {
+      "word": "more",
+      "start": 92.18,
+      "end": 92.56,
+      "probability": 0.98
+    },
+    {
+      "word": "valuable",
+      "start": 92.56,
+      "end": 93.04,
+      "probability": 1
+    },
+    {
+      "word": "as",
+      "start": 93.04,
+      "end": 93.28,
+      "probability": 0.94
+    },
+    {
+      "word": "an",
+      "start": 93.28,
+      "end": 93.36,
+      "probability": 0.99
+    },
+    {
+      "word": "interpreter",
+      "start": 93.36,
+      "end": 93.86,
+      "probability": 0.99
+    },
+    {
+      "word": "of",
+      "start": 93.86,
+      "end": 94.12,
+      "probability": 0.98
+    },
+    {
+      "word": "the",
+      "start": 94.12,
+      "end": 94.24,
+      "probability": 0.99
+    },
+    {
+      "word": "early",
+      "start": 94.24,
+      "end": 94.52,
+      "probability": 0.93
+    },
+    {
+      "word": "republic.",
+      "start": 94.52,
+      "end": 94.86,
+      "probability": 0.58
+    },
+    {
+      "word": "She",
+      "start": 95.7,
+      "end": 95.88,
+      "probability": 1
+    },
+    {
+      "word": "was",
+      "start": 95.88,
+      "end": 95.98,
+      "probability": 1
+    },
+    {
+      "word": "not",
+      "start": 95.98,
+      "end": 96.22,
+      "probability": 1
+    },
+    {
+      "word": "provincial",
+      "start": 96.22,
+      "end": 96.76,
+      "probability": 0.99
+    },
+    {
+      "word": "in",
+      "start": 96.76,
+      "end": 96.94,
+      "probability": 1
+    },
+    {
+      "word": "mind,",
+      "start": 96.94,
+      "end": 97.24,
+      "probability": 1
+    },
+    {
+      "word": "even",
+      "start": 97.7,
+      "end": 97.9,
+      "probability": 1
+    },
+    {
+      "word": "when",
+      "start": 97.9,
+      "end": 98.06,
+      "probability": 0.99
+    },
+    {
+      "word": "rooted",
+      "start": 98.06,
+      "end": 98.38,
+      "probability": 1
+    },
+    {
+      "word": "in",
+      "start": 98.38,
+      "end": 98.6,
+      "probability": 1
+    },
+    {
+      "word": "domestic",
+      "start": 98.6,
+      "end": 99.06,
+      "probability": 1
+    },
+    {
+      "word": "responsibility.",
+      "start": 99.06,
+      "end": 99.66,
+      "probability": 0.99
+    },
+    {
+      "word": "When",
+      "start": 101.22,
+      "end": 101.42,
+      "probability": 1
+    },
+    {
+      "word": "she",
+      "start": 101.42,
+      "end": 101.62,
+      "probability": 1
+    },
+    {
+      "word": "lived",
+      "start": 101.62,
+      "end": 101.84,
+      "probability": 1
+    },
+    {
+      "word": "abroad",
+      "start": 101.84,
+      "end": 102.3,
+      "probability": 1
+    },
+    {
+      "word": "in",
+      "start": 102.3,
+      "end": 102.56,
+      "probability": 0.98
+    },
+    {
+      "word": "places",
+      "start": 102.56,
+      "end": 102.94,
+      "probability": 0.99
+    },
+    {
+      "word": "such",
+      "start": 102.94,
+      "end": 103.04,
+      "probability": 0.99
+    },
+    {
+      "word": "as",
+      "start": 103.04,
+      "end": 103.22,
+      "probability": 1
+    },
+    {
+      "word": "Paris",
+      "start": 103.22,
+      "end": 103.7,
+      "probability": 1
+    },
+    {
+      "word": "and",
+      "start": 103.7,
+      "end": 103.9,
+      "probability": 0.99
+    },
+    {
+      "word": "London,",
+      "start": 103.9,
+      "end": 104.3,
+      "probability": 1
+    },
+    {
+      "word": "Abigail",
+      "start": 104.96,
+      "end": 105.22,
+      "probability": 0.97
+    },
+    {
+      "word": "saw",
+      "start": 105.22,
+      "end": 105.5,
+      "probability": 1
+    },
+    {
+      "word": "monarchy,",
+      "start": 105.5,
+      "end": 106.06,
+      "probability": 0.97
+    },
+    {
+      "word": "ceremony,",
+      "start": 106.46,
+      "end": 107.1,
+      "probability": 0.99
+    },
+    {
+      "word": "and",
+      "start": 107.26,
+      "end": 107.34,
+      "probability": 0.99
+    },
+    {
+      "word": "hierarchy",
+      "start": 107.34,
+      "end": 107.94,
+      "probability": 1
+    },
+    {
+      "word": "close",
+      "start": 107.94,
+      "end": 108.44,
+      "probability": 1
+    },
+    {
+      "word": "at",
+      "start": 108.44,
+      "end": 108.6,
+      "probability": 1
+    },
+    {
+      "word": "hand.",
+      "start": 108.6,
+      "end": 108.88,
+      "probability": 1
+    },
+    {
+      "word": "She",
+      "start": 109.5,
+      "end": 109.66,
+      "probability": 0.69
+    },
+    {
+      "word": "could",
+      "start": 109.66,
+      "end": 109.82,
+      "probability": 0.99
+    },
+    {
+      "word": "compare",
+      "start": 109.82,
+      "end": 110.2,
+      "probability": 1
+    },
+    {
+      "word": "them",
+      "start": 110.2,
+      "end": 110.4,
+      "probability": 1
+    },
+    {
+      "word": "to",
+      "start": 110.4,
+      "end": 110.54,
+      "probability": 1
+    },
+    {
+      "word": "the",
+      "start": 110.54,
+      "end": 110.66,
+      "probability": 1
+    },
+    {
+      "word": "rougher,",
+      "start": 110.66,
+      "end": 111.1,
+      "probability": 1
+    },
+    {
+      "word": "less",
+      "start": 111.36,
+      "end": 111.46,
+      "probability": 1
+    },
+    {
+      "word": "settled",
+      "start": 111.46,
+      "end": 111.78,
+      "probability": 0.63
+    },
+    {
+      "word": "American",
+      "start": 111.78,
+      "end": 112.3,
+      "probability": 0.97
+    },
+    {
+      "word": "model.",
+      "start": 112.3,
+      "end": 112.58,
+      "probability": 0.99
+    },
+    {
+      "word": "She",
+      "start": 113,
+      "end": 113.5,
+      "probability": 0.97
+    },
+    {
+      "word": "did",
+      "start": 113.5,
+      "end": 113.62,
+      "probability": 0.97
+    },
+    {
+      "word": "not",
+      "start": 113.62,
+      "end": 113.82,
+      "probability": 1
+    },
+    {
+      "word": "always",
+      "start": 113.82,
+      "end": 114.2,
+      "probability": 0.99
+    },
+    {
+      "word": "enjoy",
+      "start": 114.2,
+      "end": 114.64,
+      "probability": 1
+    },
+    {
+      "word": "court",
+      "start": 114.64,
+      "end": 114.9,
+      "probability": 0.98
+    },
+    {
+      "word": "life,",
+      "start": 114.9,
+      "end": 115.14,
+      "probability": 0.98
+    },
+    {
+      "word": "but",
+      "start": 115.5,
+      "end": 115.7,
+      "probability": 0.93
+    },
+    {
+      "word": "she",
+      "start": 115.7,
+      "end": 115.88,
+      "probability": 0.99
+    },
+    {
+      "word": "learned",
+      "start": 115.88,
+      "end": 116.14,
+      "probability": 0.97
+    },
+    {
+      "word": "from",
+      "start": 116.14,
+      "end": 116.4,
+      "probability": 0.99
+    },
+    {
+      "word": "it.",
+      "start": 116.4,
+      "end": 116.54,
+      "probability": 1
+    },
+    {
+      "word": "She",
+      "start": 117.16,
+      "end": 117.38,
+      "probability": 1
+    },
+    {
+      "word": "became",
+      "start": 117.38,
+      "end": 117.64,
+      "probability": 0.99
+    },
+    {
+      "word": "even",
+      "start": 117.64,
+      "end": 118.1,
+      "probability": 0.99
+    },
+    {
+      "word": "more",
+      "start": 118.1,
+      "end": 118.46,
+      "probability": 1
+    },
+    {
+      "word": "aware",
+      "start": 118.46,
+      "end": 118.72,
+      "probability": 1
+    },
+    {
+      "word": "that",
+      "start": 118.72,
+      "end": 119.04,
+      "probability": 0.99
+    },
+    {
+      "word": "republics",
+      "start": 119.04,
+      "end": 119.5,
+      "probability": 0.89
+    },
+    {
+      "word": "are",
+      "start": 119.5,
+      "end": 119.64,
+      "probability": 1
+    },
+    {
+      "word": "fragile",
+      "start": 119.64,
+      "end": 120.14,
+      "probability": 0.99
+    },
+    {
+      "word": "because",
+      "start": 120.14,
+      "end": 120.74,
+      "probability": 0.74
+    },
+    {
+      "word": "they",
+      "start": 120.74,
+      "end": 120.88,
+      "probability": 0.99
+    },
+    {
+      "word": "lack",
+      "start": 120.88,
+      "end": 121.16,
+      "probability": 0.99
+    },
+    {
+      "word": "the",
+      "start": 121.16,
+      "end": 121.38,
+      "probability": 0.98
+    },
+    {
+      "word": "easy",
+      "start": 121.38,
+      "end": 121.78,
+      "probability": 1
+    },
+    {
+      "word": "symbols",
+      "start": 121.78,
+      "end": 122.28,
+      "probability": 0.99
+    },
+    {
+      "word": "and",
+      "start": 122.44,
+      "end": 122.52,
+      "probability": 1
+    },
+    {
+      "word": "inherited",
+      "start": 122.52,
+      "end": 123.02,
+      "probability": 1
+    },
+    {
+      "word": "structures",
+      "start": 123.02,
+      "end": 123.62,
+      "probability": 0.99
+    },
+    {
+      "word": "monarchies",
+      "start": 123.62,
+      "end": 124.24,
+      "probability": 0.99
+    },
+    {
+      "word": "rely",
+      "start": 124.24,
+      "end": 124.54,
+      "probability": 1
+    },
+    {
+      "word": "on.",
+      "start": 124.54,
+      "end": 124.84,
+      "probability": 1
+    },
+    {
+      "word": "A",
+      "start": 125.36,
+      "end": 125.58,
+      "probability": 0.99
+    },
+    {
+      "word": "republic",
+      "start": 125.58,
+      "end": 125.86,
+      "probability": 0.96
+    },
+    {
+      "word": "has",
+      "start": 125.86,
+      "end": 126.2,
+      "probability": 1
+    },
+    {
+      "word": "to",
+      "start": 126.2,
+      "end": 126.32,
+      "probability": 1
+    },
+    {
+      "word": "persuade",
+      "start": 126.32,
+      "end": 126.84,
+      "probability": 1
+    },
+    {
+      "word": "people",
+      "start": 126.84,
+      "end": 127.24,
+      "probability": 1
+    },
+    {
+      "word": "to",
+      "start": 127.24,
+      "end": 127.4,
+      "probability": 1
+    },
+    {
+      "word": "behave",
+      "start": 127.4,
+      "end": 127.74,
+      "probability": 1
+    },
+    {
+      "word": "as",
+      "start": 127.74,
+      "end": 127.98,
+      "probability": 1
+    },
+    {
+      "word": "citizens,",
+      "start": 127.98,
+      "end": 128.48,
+      "probability": 0.98
+    },
+    {
+      "word": "not",
+      "start": 129.08,
+      "end": 129.2,
+      "probability": 1
+    },
+    {
+      "word": "merely",
+      "start": 129.2,
+      "end": 129.52,
+      "probability": 1
+    },
+    {
+      "word": "subjects.",
+      "start": 129.52,
+      "end": 129.94,
+      "probability": 1
+    },
+    {
+      "word": "That",
+      "start": 130.7,
+      "end": 131.72,
+      "probability": 0.95
+    },
+    {
+      "word": "lesson",
+      "start": 131.72,
+      "end": 132.06,
+      "probability": 1
+    },
+    {
+      "word": "mattered",
+      "start": 132.06,
+      "end": 132.42,
+      "probability": 0.99
+    },
+    {
+      "word": "when",
+      "start": 132.42,
+      "end": 132.7,
+      "probability": 0.99
+    },
+    {
+      "word": "John",
+      "start": 132.7,
+      "end": 133,
+      "probability": 0.98
+    },
+    {
+      "word": "Adams",
+      "start": 133,
+      "end": 133.3,
+      "probability": 0.99
+    },
+    {
+      "word": "became",
+      "start": 133.3,
+      "end": 133.66,
+      "probability": 0.98
+    },
+    {
+      "word": "the",
+      "start": 133.66,
+      "end": 133.84,
+      "probability": 0.96
+    },
+    {
+      "word": "second",
+      "start": 133.84,
+      "end": 134.22,
+      "probability": 0.95
+    },
+    {
+      "word": "president",
+      "start": 134.22,
+      "end": 134.64,
+      "probability": 0.56
+    },
+    {
+      "word": "of",
+      "start": 134.64,
+      "end": 134.82,
+      "probability": 0.98
+    },
+    {
+      "word": "the",
+      "start": 134.82,
+      "end": 134.92,
+      "probability": 0.99
+    },
+    {
+      "word": "United",
+      "start": 134.92,
+      "end": 135.16,
+      "probability": 0.94
+    },
+    {
+      "word": "States",
+      "start": 135.16,
+      "end": 135.58,
+      "probability": 0.95
+    },
+    {
+      "word": "in",
+      "start": 135.66,
+      "end": 135.88,
+      "probability": 1
+    },
+    {
+      "word": "1797.",
+      "start": 135.88,
+      "end": 137.02,
+      "probability": 1
+    },
+    {
+      "word": "Abigail,",
+      "start": 137.86,
+      "end": 138.2,
+      "probability": 0.98
+    },
+    {
+      "word": "now",
+      "start": 138.6,
+      "end": 138.72,
+      "probability": 1
+    },
+    {
+      "word": "First",
+      "start": 138.72,
+      "end": 139.08,
+      "probability": 0.65
+    },
+    {
+      "word": "Lady,",
+      "start": 139.08,
+      "end": 139.36,
+      "probability": 0.99
+    },
+    {
+      "word": "was",
+      "start": 139.72,
+      "end": 139.96,
+      "probability": 1
+    },
+    {
+      "word": "deeply",
+      "start": 139.96,
+      "end": 140.4,
+      "probability": 1
+    },
+    {
+      "word": "informed",
+      "start": 140.4,
+      "end": 140.96,
+      "probability": 0.99
+    },
+    {
+      "word": "and",
+      "start": 140.96,
+      "end": 141.18,
+      "probability": 0.99
+    },
+    {
+      "word": "fully",
+      "start": 141.18,
+      "end": 141.64,
+      "probability": 0.99
+    },
+    {
+      "word": "capable",
+      "start": 141.64,
+      "end": 142.04,
+      "probability": 1
+    },
+    {
+      "word": "of",
+      "start": 142.04,
+      "end": 142.3,
+      "probability": 1
+    },
+    {
+      "word": "political",
+      "start": 142.3,
+      "end": 142.64,
+      "probability": 1
+    },
+    {
+      "word": "judgment.",
+      "start": 142.64,
+      "end": 143.04,
+      "probability": 0.71
+    },
+    {
+      "word": "She",
+      "start": 143.66,
+      "end": 143.88,
+      "probability": 1
+    },
+    {
+      "word": "read",
+      "start": 143.88,
+      "end": 144.06,
+      "probability": 0.99
+    },
+    {
+      "word": "widely,",
+      "start": 144.06,
+      "end": 144.62,
+      "probability": 0.99
+    },
+    {
+      "word": "followed",
+      "start": 144.94,
+      "end": 145.32,
+      "probability": 1
+    },
+    {
+      "word": "debate",
+      "start": 145.32,
+      "end": 145.6,
+      "probability": 0.99
+    },
+    {
+      "word": "closely,",
+      "start": 145.6,
+      "end": 146.08,
+      "probability": 1
+    },
+    {
+      "word": "and",
+      "start": 146.46,
+      "end": 146.68,
+      "probability": 1
+    },
+    {
+      "word": "remained",
+      "start": 146.68,
+      "end": 146.96,
+      "probability": 0.99
+    },
+    {
+      "word": "a",
+      "start": 146.96,
+      "end": 147.14,
+      "probability": 1
+    },
+    {
+      "word": "trusted",
+      "start": 147.14,
+      "end": 147.64,
+      "probability": 1
+    },
+    {
+      "word": "advisor",
+      "start": 147.64,
+      "end": 147.96,
+      "probability": 0.75
+    },
+    {
+      "word": "to",
+      "start": 147.96,
+      "end": 148.26,
+      "probability": 1
+    },
+    {
+      "word": "her",
+      "start": 148.26,
+      "end": 148.4,
+      "probability": 1
+    },
+    {
+      "word": "husband.",
+      "start": 148.4,
+      "end": 148.72,
+      "probability": 1
+    },
+    {
+      "word": "Critics",
+      "start": 149.1,
+      "end": 149.82,
+      "probability": 0.99
+    },
+    {
+      "word": "sometimes",
+      "start": 149.82,
+      "end": 150.26,
+      "probability": 1
+    },
+    {
+      "word": "smeared",
+      "start": 150.26,
+      "end": 150.74,
+      "probability": 0.91
+    },
+    {
+      "word": "at",
+      "start": 150.74,
+      "end": 150.88,
+      "probability": 0.99
+    },
+    {
+      "word": "her",
+      "start": 150.88,
+      "end": 151.02,
+      "probability": 1
+    },
+    {
+      "word": "influence,",
+      "start": 151.02,
+      "end": 151.48,
+      "probability": 1
+    },
+    {
+      "word": "but",
+      "start": 151.84,
+      "end": 152.04,
+      "probability": 0.82
+    },
+    {
+      "word": "their",
+      "start": 152.04,
+      "end": 152.24,
+      "probability": 0.99
+    },
+    {
+      "word": "smears",
+      "start": 152.24,
+      "end": 152.68,
+      "probability": 0.97
+    },
+    {
+      "word": "reveal",
+      "start": 152.68,
+      "end": 153.04,
+      "probability": 0.98
+    },
+    {
+      "word": "as",
+      "start": 153.04,
+      "end": 153.26,
+      "probability": 0.98
+    },
+    {
+      "word": "much",
+      "start": 153.26,
+      "end": 153.54,
+      "probability": 0.97
+    },
+    {
+      "word": "about",
+      "start": 153.54,
+      "end": 153.8,
+      "probability": 0.96
+    },
+    {
+      "word": "gender",
+      "start": 153.8,
+      "end": 154.12,
+      "probability": 0.95
+    },
+    {
+      "word": "expectations",
+      "start": 154.34,
+      "end": 154.78,
+      "probability": 1
+    },
+    {
+      "word": "as",
+      "start": 154.78,
+      "end": 155.18,
+      "probability": 1
+    },
+    {
+      "word": "they",
+      "start": 155.18,
+      "end": 155.3,
+      "probability": 0.99
+    },
+    {
+      "word": "do",
+      "start": 155.3,
+      "end": 155.5,
+      "probability": 1
+    },
+    {
+      "word": "about",
+      "start": 155.5,
+      "end": 155.74,
+      "probability": 0.99
+    },
+    {
+      "word": "Abigail.",
+      "start": 155.74,
+      "end": 156.2,
+      "probability": 0.95
+    },
+    {
+      "word": "Men",
+      "start": 156.8,
+      "end": 157.06,
+      "probability": 0.5
+    },
+    {
+      "word": "were",
+      "start": 157.06,
+      "end": 157.24,
+      "probability": 0.97
+    },
+    {
+      "word": "often",
+      "start": 157.24,
+      "end": 157.52,
+      "probability": 0.99
+    },
+    {
+      "word": "comfortable",
+      "start": 157.52,
+      "end": 158.06,
+      "probability": 1
+    },
+    {
+      "word": "receiving",
+      "start": 158.06,
+      "end": 158.48,
+      "probability": 1
+    },
+    {
+      "word": "help",
+      "start": 158.48,
+      "end": 158.7,
+      "probability": 0.99
+    },
+    {
+      "word": "from",
+      "start": 158.7,
+      "end": 158.9,
+      "probability": 0.98
+    },
+    {
+      "word": "intelligent",
+      "start": 158.96,
+      "end": 159.38,
+      "probability": 1
+    },
+    {
+      "word": "women",
+      "start": 159.38,
+      "end": 159.66,
+      "probability": 1
+    },
+    {
+      "word": "in",
+      "start": 159.66,
+      "end": 159.82,
+      "probability": 1
+    },
+    {
+      "word": "private",
+      "start": 159.82,
+      "end": 160.22,
+      "probability": 1
+    },
+    {
+      "word": "while",
+      "start": 160.22,
+      "end": 160.8,
+      "probability": 0.53
+    },
+    {
+      "word": "resisting",
+      "start": 160.8,
+      "end": 161.22,
+      "probability": 1
+    },
+    {
+      "word": "any",
+      "start": 161.22,
+      "end": 161.68,
+      "probability": 1
+    },
+    {
+      "word": "public",
+      "start": 161.68,
+      "end": 162.08,
+      "probability": 1
+    },
+    {
+      "word": "acknowledgment",
+      "start": 162.08,
+      "end": 162.62,
+      "probability": 0.54
+    },
+    {
+      "word": "that",
+      "start": 162.62,
+      "end": 162.92,
+      "probability": 0.98
+    },
+    {
+      "word": "such",
+      "start": 162.92,
+      "end": 163.14,
+      "probability": 1
+    },
+    {
+      "word": "help",
+      "start": 163.14,
+      "end": 163.36,
+      "probability": 0.99
+    },
+    {
+      "word": "mattered.",
+      "start": 163.36,
+      "end": 163.76,
+      "probability": 1
+    },
+    {
+      "word": "Her",
+      "start": 164.7,
+      "end": 165.4,
+      "probability": 0.98
+    },
+    {
+      "word": "life",
+      "start": 165.4,
+      "end": 165.64,
+      "probability": 1
+    },
+    {
+      "word": "also",
+      "start": 165.64,
+      "end": 166.12,
+      "probability": 0.98
+    },
+    {
+      "word": "forces",
+      "start": 166.12,
+      "end": 166.48,
+      "probability": 1
+    },
+    {
+      "word": "an",
+      "start": 166.48,
+      "end": 166.66,
+      "probability": 0.99
+    },
+    {
+      "word": "honest",
+      "start": 166.66,
+      "end": 167.1,
+      "probability": 1
+    },
+    {
+      "word": "view",
+      "start": 167.1,
+      "end": 167.36,
+      "probability": 1
+    },
+    {
+      "word": "of",
+      "start": 167.36,
+      "end": 167.54,
+      "probability": 0.97
+    },
+    {
+      "word": "the",
+      "start": 167.54,
+      "end": 167.64,
+      "probability": 0.99
+    },
+    {
+      "word": "founding",
+      "start": 167.64,
+      "end": 168,
+      "probability": 0.76
+    },
+    {
+      "word": "generation's",
+      "start": 168,
+      "end": 168.66,
+      "probability": 0.92
+    },
+    {
+      "word": "limits.",
+      "start": 168.66,
+      "end": 168.92,
+      "probability": 0.99
+    },
+    {
+      "word": "Abigail",
+      "start": 169.76,
+      "end": 170.04,
+      "probability": 0.97
+    },
+    {
+      "word": "criticized",
+      "start": 170.04,
+      "end": 170.48,
+      "probability": 0.99
+    },
+    {
+      "word": "slavery,",
+      "start": 170.48,
+      "end": 171.1,
+      "probability": 1
+    },
+    {
+      "word": "but",
+      "start": 171.53,
+      "end": 171.74,
+      "probability": 0.94
+    },
+    {
+      "word": "she",
+      "start": 171.74,
+      "end": 171.86,
+      "probability": 1
+    },
+    {
+      "word": "lived",
+      "start": 171.86,
+      "end": 172.1,
+      "probability": 0.99
+    },
+    {
+      "word": "in",
+      "start": 172.1,
+      "end": 172.28,
+      "probability": 0.99
+    },
+    {
+      "word": "a",
+      "start": 172.28,
+      "end": 172.38,
+      "probability": 0.99
+    },
+    {
+      "word": "society",
+      "start": 172.38,
+      "end": 172.82,
+      "probability": 0.99
+    },
+    {
+      "word": "built",
+      "start": 172.82,
+      "end": 173.18,
+      "probability": 0.98
+    },
+    {
+      "word": "around",
+      "start": 173.18,
+      "end": 173.48,
+      "probability": 0.99
+    },
+    {
+      "word": "unfree",
+      "start": 173.48,
+      "end": 174.04,
+      "probability": 0.83
+    },
+    {
+      "word": "labor",
+      "start": 174.04,
+      "end": 174.34,
+      "probability": 0.96
+    },
+    {
+      "word": "and",
+      "start": 174.34,
+      "end": 174.86,
+      "probability": 0.49
+    },
+    {
+      "word": "did",
+      "start": 174.94,
+      "end": 175.08,
+      "probability": 1
+    },
+    {
+      "word": "not",
+      "start": 175.08,
+      "end": 175.18,
+      "probability": 1
+    },
+    {
+      "word": "stand",
+      "start": 175.18,
+      "end": 175.48,
+      "probability": 1
+    },
+    {
+      "word": "wholly",
+      "start": 175.48,
+      "end": 175.94,
+      "probability": 0.96
+    },
+    {
+      "word": "outside",
+      "start": 175.94,
+      "end": 176.34,
+      "probability": 1
+    },
+    {
+      "word": "its",
+      "start": 176.34,
+      "end": 176.52,
+      "probability": 0.94
+    },
+    {
+      "word": "assumptions.",
+      "start": 176.52,
+      "end": 176.82,
+      "probability": 0.99
+    },
+    {
+      "word": "She",
+      "start": 177.63,
+      "end": 177.84,
+      "probability": 1
+    },
+    {
+      "word": "demanded",
+      "start": 177.84,
+      "end": 178.24,
+      "probability": 1
+    },
+    {
+      "word": "full",
+      "start": 178.24,
+      "end": 178.64,
+      "probability": 0.5
+    },
+    {
+      "word": "regard",
+      "start": 178.64,
+      "end": 179.02,
+      "probability": 0.97
+    },
+    {
+      "word": "for",
+      "start": 179.02,
+      "end": 179.28,
+      "probability": 1
+    },
+    {
+      "word": "women,",
+      "start": 179.28,
+      "end": 179.52,
+      "probability": 1
+    },
+    {
+      "word": "but",
+      "start": 179.91,
+      "end": 180.1,
+      "probability": 1
+    },
+    {
+      "word": "the",
+      "start": 180.1,
+      "end": 180.24,
+      "probability": 1
+    },
+    {
+      "word": "legal",
+      "start": 180.24,
+      "end": 180.56,
+      "probability": 1
+    },
+    {
+      "word": "and",
+      "start": 180.56,
+      "end": 180.74,
+      "probability": 1
+    },
+    {
+      "word": "political",
+      "start": 180.74,
+      "end": 181.08,
+      "probability": 1
+    },
+    {
+      "word": "order",
+      "start": 181.08,
+      "end": 181.46,
+      "probability": 1
+    },
+    {
+      "word": "around",
+      "start": 181.46,
+      "end": 181.78,
+      "probability": 0.99
+    },
+    {
+      "word": "her",
+      "start": 181.78,
+      "end": 182.04,
+      "probability": 1
+    },
+    {
+      "word": "changed",
+      "start": 182.04,
+      "end": 182.36,
+      "probability": 0.99
+    },
+    {
+      "word": "slowly.",
+      "start": 182.6,
+      "end": 182.94,
+      "probability": 1
+    },
+    {
+      "word": "She",
+      "start": 183.82,
+      "end": 183.9,
+      "probability": 0.99
+    },
+    {
+      "word": "valued",
+      "start": 183.9,
+      "end": 184.32,
+      "probability": 1
+    },
+    {
+      "word": "Republican",
+      "start": 184.32,
+      "end": 184.9,
+      "probability": 0.8
+    },
+    {
+      "word": "principle,",
+      "start": 184.9,
+      "end": 185.28,
+      "probability": 0.89
+    },
+    {
+      "word": "but",
+      "start": 185.73,
+      "end": 185.92,
+      "probability": 1
+    },
+    {
+      "word": "she",
+      "start": 185.92,
+      "end": 186.04,
+      "probability": 0.99
+    },
+    {
+      "word": "could",
+      "start": 186.04,
+      "end": 186.16,
+      "probability": 0.99
+    },
+    {
+      "word": "also",
+      "start": 186.16,
+      "end": 186.5,
+      "probability": 0.99
+    },
+    {
+      "word": "be",
+      "start": 186.5,
+      "end": 186.76,
+      "probability": 1
+    },
+    {
+      "word": "severe",
+      "start": 186.76,
+      "end": 187.18,
+      "probability": 0.99
+    },
+    {
+      "word": "in",
+      "start": 187.18,
+      "end": 187.44,
+      "probability": 1
+    },
+    {
+      "word": "judgment",
+      "start": 187.44,
+      "end": 187.76,
+      "probability": 0.84
+    },
+    {
+      "word": "and",
+      "start": 187.76,
+      "end": 188.06,
+      "probability": 0.93
+    },
+    {
+      "word": "partisan",
+      "start": 188.06,
+      "end": 188.56,
+      "probability": 1
+    },
+    {
+      "word": "in",
+      "start": 188.56,
+      "end": 188.72,
+      "probability": 0.96
+    },
+    {
+      "word": "conflict.",
+      "start": 189.08,
+      "end": 189.16,
+      "probability": 0.92
+    },
+    {
+      "word": "Like",
+      "start": 189.5,
+      "end": 190.24,
+      "probability": 0.84
+    },
+    {
+      "word": "the",
+      "start": 190.24,
+      "end": 190.38,
+      "probability": 0.97
+    },
+    {
+      "word": "nation",
+      "start": 190.38,
+      "end": 190.7,
+      "probability": 0.96
+    },
+    {
+      "word": "she",
+      "start": 190.7,
+      "end": 190.92,
+      "probability": 0.99
+    },
+    {
+      "word": "helped",
+      "start": 190.92,
+      "end": 191.18,
+      "probability": 0.99
+    },
+    {
+      "word": "observe",
+      "start": 191.18,
+      "end": 191.5,
+      "probability": 0.96
+    },
+    {
+      "word": "into",
+      "start": 191.5,
+      "end": 191.8,
+      "probability": 0.99
+    },
+    {
+      "word": "being,",
+      "start": 191.8,
+      "end": 192.18,
+      "probability": 0.99
+    },
+    {
+      "word": "she",
+      "start": 192.53,
+      "end": 192.72,
+      "probability": 0.92
+    },
+    {
+      "word": "was",
+      "start": 192.72,
+      "end": 192.84,
+      "probability": 1
+    },
+    {
+      "word": "impressive",
+      "start": 192.84,
+      "end": 193.36,
+      "probability": 0.95
+    },
+    {
+      "word": "and",
+      "start": 193.36,
+      "end": 193.94,
+      "probability": 0.95
+    },
+    {
+      "word": "incomplete",
+      "start": 193.94,
+      "end": 194.6,
+      "probability": 1
+    },
+    {
+      "word": "at",
+      "start": 194.6,
+      "end": 194.86,
+      "probability": 0.99
+    },
+    {
+      "word": "once.",
+      "start": 194.86,
+      "end": 195.18,
+      "probability": 1
+    },
+    {
+      "word": "That",
+      "start": 196.56,
+      "end": 196.86,
+      "probability": 1
+    },
+    {
+      "word": "complexity",
+      "start": 196.86,
+      "end": 197.44,
+      "probability": 1
+    },
+    {
+      "word": "is",
+      "start": 197.44,
+      "end": 197.68,
+      "probability": 1
+    },
+    {
+      "word": "exactly",
+      "start": 197.68,
+      "end": 198.18,
+      "probability": 0.98
+    },
+    {
+      "word": "why",
+      "start": 198.18,
+      "end": 198.6,
+      "probability": 1
+    },
+    {
+      "word": "she",
+      "start": 198.6,
+      "end": 198.74,
+      "probability": 1
+    },
+    {
+      "word": "remains",
+      "start": 198.74,
+      "end": 199.04,
+      "probability": 1
+    },
+    {
+      "word": "worth",
+      "start": 199.04,
+      "end": 199.28,
+      "probability": 1
+    },
+    {
+      "word": "studying.",
+      "start": 199.28,
+      "end": 199.72,
+      "probability": 0.99
+    },
+    {
+      "word": "Abigail",
+      "start": 200.8,
+      "end": 201.1,
+      "probability": 0.94
+    },
+    {
+      "word": "Adams",
+      "start": 201.1,
+      "end": 201.48,
+      "probability": 0.99
+    },
+    {
+      "word": "shows",
+      "start": 201.48,
+      "end": 201.68,
+      "probability": 0.99
+    },
+    {
+      "word": "that",
+      "start": 201.68,
+      "end": 201.92,
+      "probability": 1
+    },
+    {
+      "word": "revolutions",
+      "start": 201.92,
+      "end": 202.44,
+      "probability": 0.89
+    },
+    {
+      "word": "are",
+      "start": 202.44,
+      "end": 202.7,
+      "probability": 0.99
+    },
+    {
+      "word": "not",
+      "start": 202.7,
+      "end": 202.96,
+      "probability": 1
+    },
+    {
+      "word": "made",
+      "start": 202.96,
+      "end": 203.22,
+      "probability": 0.97
+    },
+    {
+      "word": "only",
+      "start": 203.22,
+      "end": 203.62,
+      "probability": 0.99
+    },
+    {
+      "word": "in",
+      "start": 203.62,
+      "end": 203.86,
+      "probability": 1
+    },
+    {
+      "word": "congresses",
+      "start": 203.86,
+      "end": 204.38,
+      "probability": 0.69
+    },
+    {
+      "word": "and",
+      "start": 204.38,
+      "end": 204.56,
+      "probability": 0.94
+    },
+    {
+      "word": "camps.",
+      "start": 204.56,
+      "end": 204.86,
+      "probability": 1
+    },
+    {
+      "word": "They",
+      "start": 205.47,
+      "end": 205.68,
+      "probability": 1
+    },
+    {
+      "word": "are",
+      "start": 205.68,
+      "end": 205.78,
+      "probability": 0.98
+    },
+    {
+      "word": "made",
+      "start": 205.78,
+      "end": 205.96,
+      "probability": 1
+    },
+    {
+      "word": "in",
+      "start": 205.96,
+      "end": 206.14,
+      "probability": 1
+    },
+    {
+      "word": "correspondence,",
+      "start": 206.14,
+      "end": 206.82,
+      "probability": 0.68
+    },
+    {
+      "word": "in",
+      "start": 207.44,
+      "end": 207.52,
+      "probability": 0.99
+    },
+    {
+      "word": "households",
+      "start": 207.52,
+      "end": 208,
+      "probability": 0.98
+    },
+    {
+      "word": "that",
+      "start": 208,
+      "end": 208.26,
+      "probability": 1
+    },
+    {
+      "word": "survive",
+      "start": 208.26,
+      "end": 208.62,
+      "probability": 0.98
+    },
+    {
+      "word": "long",
+      "start": 208.62,
+      "end": 209.04,
+      "probability": 0.99
+    },
+    {
+      "word": "separations,",
+      "start": 209.04,
+      "end": 209.76,
+      "probability": 0.99
+    },
+    {
+      "word": "in",
+      "start": 210.25,
+      "end": 210.46,
+      "probability": 0.97
+    },
+    {
+      "word": "people",
+      "start": 210.46,
+      "end": 210.76,
+      "probability": 1
+    },
+    {
+      "word": "who",
+      "start": 210.76,
+      "end": 210.94,
+      "probability": 0.99
+    },
+    {
+      "word": "keep",
+      "start": 211.04,
+      "end": 211.18,
+      "probability": 1
+    },
+    {
+      "word": "asking",
+      "start": 211.18,
+      "end": 211.66,
+      "probability": 1
+    },
+    {
+      "word": "whether",
+      "start": 211.66,
+      "end": 211.92,
+      "probability": 1
+    },
+    {
+      "word": "political",
+      "start": 211.92,
+      "end": 212.32,
+      "probability": 1
+    },
+    {
+      "word": "principles",
+      "start": 212.32,
+      "end": 212.8,
+      "probability": 0.99
+    },
+    {
+      "word": "reach",
+      "start": 212.8,
+      "end": 213.2,
+      "probability": 1
+    },
+    {
+      "word": "far",
+      "start": 213.2,
+      "end": 213.5,
+      "probability": 0.99
+    },
+    {
+      "word": "enough,",
+      "start": 213.5,
+      "end": 213.96,
+      "probability": 1
+    },
+    {
+      "word": "and",
+      "start": 214.38,
+      "end": 214.46,
+      "probability": 1
+    },
+    {
+      "word": "in",
+      "start": 214.46,
+      "end": 214.52,
+      "probability": 1
+    },
+    {
+      "word": "observers",
+      "start": 214.52,
+      "end": 215.04,
+      "probability": 0.86
+    },
+    {
+      "word": "who",
+      "start": 215.04,
+      "end": 215.22,
+      "probability": 0.99
+    },
+    {
+      "word": "refuse",
+      "start": 215.22,
+      "end": 215.64,
+      "probability": 0.99
+    },
+    {
+      "word": "to",
+      "start": 215.64,
+      "end": 215.94,
+      "probability": 0.99
+    },
+    {
+      "word": "let",
+      "start": 215.86,
+      "end": 216.08,
+      "probability": 0.47
+    },
+    {
+      "word": "a",
+      "start": 216.08,
+      "end": 216.16,
+      "probability": 0.64
+    },
+    {
+      "word": "nation",
+      "start": 216.16,
+      "end": 216.36,
+      "probability": 0.43
+    },
+    {
+      "word": "flatter",
+      "start": 216.36,
+      "end": 216.88,
+      "probability": 0.99
+    },
+    {
+      "word": "itself",
+      "start": 216.88,
+      "end": 217.2,
+      "probability": 1
+    },
+    {
+      "word": "too",
+      "start": 217.2,
+      "end": 217.48,
+      "probability": 0.98
+    },
+    {
+      "word": "easily.",
+      "start": 217.48,
+      "end": 217.88,
+      "probability": 1
+    },
+    {
+      "word": "She",
+      "start": 218.5,
+      "end": 219.48,
+      "probability": 0.9
+    },
+    {
+      "word": "did",
+      "start": 219.48,
+      "end": 219.58,
+      "probability": 0.98
+    },
+    {
+      "word": "not",
+      "start": 219.58,
+      "end": 219.88,
+      "probability": 1
+    },
+    {
+      "word": "write",
+      "start": 219.88,
+      "end": 220.14,
+      "probability": 1
+    },
+    {
+      "word": "the",
+      "start": 220.14,
+      "end": 220.28,
+      "probability": 0.97
+    },
+    {
+      "word": "Declaration",
+      "start": 220.28,
+      "end": 220.72,
+      "probability": 0.98
+    },
+    {
+      "word": "of",
+      "start": 220.72,
+      "end": 220.94,
+      "probability": 1
+    },
+    {
+      "word": "Independence.",
+      "start": 220.94,
+      "end": 221.34,
+      "probability": 0.98
+    },
+    {
+      "word": "She",
+      "start": 222.02,
+      "end": 222.2,
+      "probability": 1
+    },
+    {
+      "word": "did",
+      "start": 222.2,
+      "end": 222.34,
+      "probability": 0.99
+    },
+    {
+      "word": "not",
+      "start": 222.34,
+      "end": 222.62,
+      "probability": 1
+    },
+    {
+      "word": "command",
+      "start": 222.62,
+      "end": 222.92,
+      "probability": 0.65
+    },
+    {
+      "word": "troops",
+      "start": 222.92,
+      "end": 223.3,
+      "probability": 1
+    },
+    {
+      "word": "at",
+      "start": 223.3,
+      "end": 223.54,
+      "probability": 0.98
+    },
+    {
+      "word": "Yorktown.",
+      "start": 223.54,
+      "end": 223.9,
+      "probability": 1
+    },
+    {
+      "word": "She",
+      "start": 224.54,
+      "end": 224.72,
+      "probability": 1
+    },
+    {
+      "word": "did",
+      "start": 224.72,
+      "end": 224.86,
+      "probability": 1
+    },
+    {
+      "word": "not",
+      "start": 224.86,
+      "end": 225.1,
+      "probability": 1
+    },
+    {
+      "word": "sign",
+      "start": 225.1,
+      "end": 225.46,
+      "probability": 1
+    },
+    {
+      "word": "the",
+      "start": 225.46,
+      "end": 225.64,
+      "probability": 1
+    },
+    {
+      "word": "Constitution.",
+      "start": 225.64,
+      "end": 226.08,
+      "probability": 0.8
+    },
+    {
+      "word": "Yet",
+      "start": 227.24,
+      "end": 227.42,
+      "probability": 0.99
+    },
+    {
+      "word": "if",
+      "start": 227.42,
+      "end": 227.62,
+      "probability": 0.57
+    },
+    {
+      "word": "one",
+      "start": 227.62,
+      "end": 227.86,
+      "probability": 1
+    },
+    {
+      "word": "wants",
+      "start": 227.86,
+      "end": 228.14,
+      "probability": 0.99
+    },
+    {
+      "word": "to",
+      "start": 228.14,
+      "end": 228.24,
+      "probability": 1
+    },
+    {
+      "word": "understand",
+      "start": 228.24,
+      "end": 228.7,
+      "probability": 1
+    },
+    {
+      "word": "what",
+      "start": 228.7,
+      "end": 229.06,
+      "probability": 0.84
+    },
+    {
+      "word": "the",
+      "start": 229.06,
+      "end": 229.24,
+      "probability": 0.98
+    },
+    {
+      "word": "American",
+      "start": 229.24,
+      "end": 229.7,
+      "probability": 0.98
+    },
+    {
+      "word": "Revolution",
+      "start": 229.7,
+      "end": 230.14,
+      "probability": 0.85
+    },
+    {
+      "word": "felt",
+      "start": 230.14,
+      "end": 230.54,
+      "probability": 0.94
+    },
+    {
+      "word": "like",
+      "start": 230.54,
+      "end": 230.8,
+      "probability": 0.99
+    },
+    {
+      "word": "to",
+      "start": 230.8,
+      "end": 231,
+      "probability": 0.97
+    },
+    {
+      "word": "live",
+      "start": 231,
+      "end": 231.18,
+      "probability": 0.99
+    },
+    {
+      "word": "through,",
+      "start": 231.18,
+      "end": 231.52,
+      "probability": 0.99
+    },
+    {
+      "word": "and",
+      "start": 232.04,
+      "end": 232.12,
+      "probability": 0.99
+    },
+    {
+      "word": "what",
+      "start": 232.12,
+      "end": 232.3,
+      "probability": 1
+    },
+    {
+      "word": "its",
+      "start": 232.3,
+      "end": 232.5,
+      "probability": 0.98
+    },
+    {
+      "word": "promises",
+      "start": 232.5,
+      "end": 232.96,
+      "probability": 0.99
+    },
+    {
+      "word": "looked",
+      "start": 232.96,
+      "end": 233.2,
+      "probability": 0.93
+    },
+    {
+      "word": "like",
+      "start": 233.2,
+      "end": 233.42,
+      "probability": 1
+    },
+    {
+      "word": "when",
+      "start": 233.42,
+      "end": 233.64,
+      "probability": 0.98
+    },
+    {
+      "word": "viewed",
+      "start": 233.64,
+      "end": 233.94,
+      "probability": 0.99
+    },
+    {
+      "word": "by",
+      "start": 233.94,
+      "end": 234.1,
+      "probability": 0.99
+    },
+    {
+      "word": "someone",
+      "start": 234.1,
+      "end": 234.38,
+      "probability": 0.99
+    },
+    {
+      "word": "intelligent",
+      "start": 234.38,
+      "end": 235.04,
+      "probability": 0.96
+    },
+    {
+      "word": "enough",
+      "start": 235.04,
+      "end": 235.28,
+      "probability": 1
+    },
+    {
+      "word": "to",
+      "start": 235.28,
+      "end": 235.5,
+      "probability": 0.97
+    },
+    {
+      "word": "admire",
+      "start": 235.5,
+      "end": 235.8,
+      "probability": 0.98
+    },
+    {
+      "word": "them,",
+      "start": 235.8,
+      "end": 236.1,
+      "probability": 1
+    },
+    {
+      "word": "and",
+      "start": 236.6,
+      "end": 236.68,
+      "probability": 0.99
+    },
+    {
+      "word": "skeptical",
+      "start": 236.68,
+      "end": 237.1,
+      "probability": 0.98
+    },
+    {
+      "word": "enough",
+      "start": 237.1,
+      "end": 237.44,
+      "probability": 1
+    },
+    {
+      "word": "to",
+      "start": 237.44,
+      "end": 237.64,
+      "probability": 1
+    },
+    {
+      "word": "test",
+      "start": 237.64,
+      "end": 237.84,
+      "probability": 1
+    },
+    {
+      "word": "them,",
+      "start": 237.84,
+      "end": 238.14,
+      "probability": 1
+    },
+    {
+      "word": "Abigail",
+      "start": 238.56,
+      "end": 239.06,
+      "probability": 0.82
+    },
+    {
+      "word": "Adams",
+      "start": 239.06,
+      "end": 239.46,
+      "probability": 0.97
+    },
+    {
+      "word": "is",
+      "start": 239.46,
+      "end": 239.66,
+      "probability": 0.99
+    },
+    {
+      "word": "essential.",
+      "start": 239.66,
+      "end": 240.18,
+      "probability": 0.99
+    },
+    {
+      "word": "She",
+      "start": 240.8,
+      "end": 241.62,
+      "probability": 0.76
+    },
+    {
+      "word": "saw",
+      "start": 241.62,
+      "end": 241.9,
+      "probability": 0.99
+    },
+    {
+      "word": "war",
+      "start": 241.9,
+      "end": 242.26,
+      "probability": 0.96
+    },
+    {
+      "word": "begin",
+      "start": 242.26,
+      "end": 242.52,
+      "probability": 0.99
+    },
+    {
+      "word": "from",
+      "start": 242.52,
+      "end": 242.72,
+      "probability": 1
+    },
+    {
+      "word": "home.",
+      "start": 242.72,
+      "end": 243,
+      "probability": 0.99
+    },
+    {
+      "word": "She",
+      "start": 243.86,
+      "end": 244.04,
+      "probability": 1
+    },
+    {
+      "word": "saw",
+      "start": 244.04,
+      "end": 244.32,
+      "probability": 1
+    },
+    {
+      "word": "independence",
+      "start": 244.32,
+      "end": 244.8,
+      "probability": 0.97
+    },
+    {
+      "word": "announced",
+      "start": 244.8,
+      "end": 245.34,
+      "probability": 1
+    },
+    {
+      "word": "while",
+      "start": 245.34,
+      "end": 245.54,
+      "probability": 0.82
+    },
+    {
+      "word": "women",
+      "start": 245.54,
+      "end": 245.8,
+      "probability": 0.98
+    },
+    {
+      "word": "remained",
+      "start": 245.8,
+      "end": 246.16,
+      "probability": 0.9
+    },
+    {
+      "word": "politically",
+      "start": 246.16,
+      "end": 246.6,
+      "probability": 0.96
+    },
+    {
+      "word": "excluded.",
+      "start": 246.6,
+      "end": 247.28,
+      "probability": 0.99
+    },
+    {
+      "word": "She",
+      "start": 248.2,
+      "end": 248.44,
+      "probability": 1
+    },
+    {
+      "word": "saw",
+      "start": 248.44,
+      "end": 248.7,
+      "probability": 1
+    },
+    {
+      "word": "the",
+      "start": 248.7,
+      "end": 248.84,
+      "probability": 1
+    },
+    {
+      "word": "Republic",
+      "start": 248.84,
+      "end": 249.08,
+      "probability": 0.72
+    },
+    {
+      "word": "rise",
+      "start": 249.08,
+      "end": 249.62,
+      "probability": 1
+    },
+    {
+      "word": "and",
+      "start": 249.62,
+      "end": 250.26,
+      "probability": 0.77
+    },
+    {
+      "word": "knew",
+      "start": 250.26,
+      "end": 250.48,
+      "probability": 0.96
+    },
+    {
+      "word": "from",
+      "start": 250.48,
+      "end": 250.64,
+      "probability": 1
+    },
+    {
+      "word": "the",
+      "start": 250.64,
+      "end": 250.78,
+      "probability": 1
+    },
+    {
+      "word": "start",
+      "start": 250.78,
+      "end": 251.1,
+      "probability": 1
+    },
+    {
+      "word": "that",
+      "start": 251.1,
+      "end": 251.3,
+      "probability": 0.98
+    },
+    {
+      "word": "its",
+      "start": 251.3,
+      "end": 251.46,
+      "probability": 0.96
+    },
+    {
+      "word": "work",
+      "start": 251.46,
+      "end": 251.68,
+      "probability": 0.98
+    },
+    {
+      "word": "was",
+      "start": 251.68,
+      "end": 251.86,
+      "probability": 1
+    },
+    {
+      "word": "unfinished.",
+      "start": 251.86,
+      "end": 252.38,
+      "probability": 1
+    },
+    {
+      "word": "That",
+      "start": 253.6,
+      "end": 253.84,
+      "probability": 0.99
+    },
+    {
+      "word": "unfinished",
+      "start": 253.84,
+      "end": 254.4,
+      "probability": 0.99
+    },
+    {
+      "word": "quality",
+      "start": 254.4,
+      "end": 254.92,
+      "probability": 1
+    },
+    {
+      "word": "may",
+      "start": 254.92,
+      "end": 255.14,
+      "probability": 0.98
+    },
+    {
+      "word": "be",
+      "start": 255.14,
+      "end": 255.32,
+      "probability": 1
+    },
+    {
+      "word": "the",
+      "start": 255.32,
+      "end": 255.5,
+      "probability": 1
+    },
+    {
+      "word": "deepest",
+      "start": 255.5,
+      "end": 255.84,
+      "probability": 1
+    },
+    {
+      "word": "reason",
+      "start": 255.84,
+      "end": 256.22,
+      "probability": 1
+    },
+    {
+      "word": "her",
+      "start": 256.22,
+      "end": 256.46,
+      "probability": 0.99
+    },
+    {
+      "word": "voice",
+      "start": 256.46,
+      "end": 256.58,
+      "probability": 1
+    },
+    {
+      "word": "still",
+      "start": 256.58,
+      "end": 256.98,
+      "probability": 0.99
+    },
+    {
+      "word": "sounds",
+      "start": 256.98,
+      "end": 257.36,
+      "probability": 0.99
+    },
+    {
+      "word": "moderate.",
+      "start": 257.36,
+      "end": 257.82,
+      "probability": 0.7
+    },
+    {
+      "word": "She",
+      "start": 258.46,
+      "end": 258.64,
+      "probability": 1
+    },
+    {
+      "word": "reminds",
+      "start": 258.64,
+      "end": 259.08,
+      "probability": 1
+    },
+    {
+      "word": "readers",
+      "start": 259.08,
+      "end": 259.38,
+      "probability": 1
+    },
+    {
+      "word": "that",
+      "start": 259.38,
+      "end": 259.62,
+      "probability": 1
+    },
+    {
+      "word": "founding",
+      "start": 259.62,
+      "end": 260,
+      "probability": 0.83
+    },
+    {
+      "word": "moments",
+      "start": 260,
+      "end": 260.3,
+      "probability": 0.99
+    },
+    {
+      "word": "are",
+      "start": 260.3,
+      "end": 260.52,
+      "probability": 0.99
+    },
+    {
+      "word": "not",
+      "start": 260.52,
+      "end": 260.74,
+      "probability": 1
+    },
+    {
+      "word": "sacred",
+      "start": 260.74,
+      "end": 261.2,
+      "probability": 1
+    },
+    {
+      "word": "because",
+      "start": 261.2,
+      "end": 261.5,
+      "probability": 0.98
+    },
+    {
+      "word": "they",
+      "start": 261.5,
+      "end": 261.64,
+      "probability": 1
+    },
+    {
+      "word": "are",
+      "start": 261.64,
+      "end": 261.78,
+      "probability": 0.99
+    },
+    {
+      "word": "complete.",
+      "start": 261.78,
+      "end": 262.18,
+      "probability": 0.89
+    },
+    {
+      "word": "They",
+      "start": 262.86,
+      "end": 263.06,
+      "probability": 0.96
+    },
+    {
+      "word": "are",
+      "start": 263.06,
+      "end": 263.18,
+      "probability": 1
+    },
+    {
+      "word": "important",
+      "start": 263.18,
+      "end": 263.68,
+      "probability": 1
+    },
+    {
+      "word": "because",
+      "start": 263.68,
+      "end": 264,
+      "probability": 0.99
+    },
+    {
+      "word": "they",
+      "start": 264,
+      "end": 264.14,
+      "probability": 1
+    },
+    {
+      "word": "begin",
+      "start": 264.14,
+      "end": 264.4,
+      "probability": 0.99
+    },
+    {
+      "word": "arguments",
+      "start": 264.4,
+      "end": 264.96,
+      "probability": 0.99
+    },
+    {
+      "word": "that",
+      "start": 264.96,
+      "end": 265.22,
+      "probability": 0.99
+    },
+    {
+      "word": "later",
+      "start": 265.22,
+      "end": 265.52,
+      "probability": 0.84
+    },
+    {
+      "word": "generations",
+      "start": 265.52,
+      "end": 266,
+      "probability": 1
+    },
+    {
+      "word": "must",
+      "start": 266,
+      "end": 266.42,
+      "probability": 1
+    },
+    {
+      "word": "keep",
+      "start": 266.42,
+      "end": 266.7,
+      "probability": 1
+    },
+    {
+      "word": "pressing.",
+      "start": 266.7,
+      "end": 267.14,
+      "probability": 0.97
+    },
+    {
+      "word": "Abigail",
+      "start": 267.6,
+      "end": 268.74,
+      "probability": 0.85
+    },
+    {
+      "word": "Adams",
+      "start": 268.74,
+      "end": 269.12,
+      "probability": 0.98
+    },
+    {
+      "word": "helped",
+      "start": 269.12,
+      "end": 269.38,
+      "probability": 0.99
+    },
+    {
+      "word": "begin",
+      "start": 269.38,
+      "end": 269.68,
+      "probability": 0.97
+    },
+    {
+      "word": "those",
+      "start": 269.68,
+      "end": 269.88,
+      "probability": 0.96
+    },
+    {
+      "word": "arguments",
+      "start": 269.88,
+      "end": 270.34,
+      "probability": 0.99
+    },
+    {
+      "word": "with",
+      "start": 270.34,
+      "end": 270.66,
+      "probability": 0.97
+    },
+    {
+      "word": "clarity,",
+      "start": 270.66,
+      "end": 271.14,
+      "probability": 0.98
+    },
+    {
+      "word": "courage,",
+      "start": 271.56,
+      "end": 271.88,
+      "probability": 0.98
+    },
+    {
+      "word": "and",
+      "start": 272.24,
+      "end": 272.46,
+      "probability": 0.96
+    },
+    {
+      "word": "a",
+      "start": 272.46,
+      "end": 272.54,
+      "probability": 0.98
+    },
+    {
+      "word": "pen",
+      "start": 272.54,
+      "end": 272.8,
+      "probability": 0.98
+    },
+    {
+      "word": "always",
+      "start": 272.8,
+      "end": 273.3,
+      "probability": 0.96
+    },
+    {
+      "word": "close",
+      "start": 273.3,
+      "end": 273.6,
+      "probability": 0.99
+    },
+    {
+      "word": "at",
+      "start": 273.6,
+      "end": 273.78,
+      "probability": 0.53
+    },
+    {
+      "word": "hand.",
+      "start": 273.78,
+      "end": 273.98,
+      "probability": 0.99
+    }
+  ]
+}

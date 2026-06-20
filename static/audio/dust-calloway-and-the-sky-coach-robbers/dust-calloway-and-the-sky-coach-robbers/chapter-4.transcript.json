@@ -1,0 +1,9326 @@
+{
+  "schemaVersion": 1,
+  "provider": "whisperkit",
+  "model": "small.en",
+  "generatedAt": "2026-06-19T23:45:24.942Z",
+  "audioFile": "chapter-4.wav",
+  "durationSeconds": 296.24,
+  "language": "en",
+  "text": "Chapter 4, The Green Storm. The storm hit before either of them could say anything smarter. Wind slammed the coach broadside. The whole machine groaned and spun. Gauges jumped. Steam blasted from a split scene near the boiler. The parrot flapped in frantic circles, then landed on the steering wheel because panic had apparently worn out the rest of its choices. \"Hold it steady!\" Varn shouted. \"That sounds like your department!\" Dust said. Lightning flashed so close it turned the front glass white. Down below, cinder flats had become a blur of roofs, streets, and tiny moving people. Dust caught one glimpse of Bishop near the water tower, bucking and braying like he meant to insult the whole gang personally. Varn lunged for the controls again. Dust caught his wrist. \"Call off your men.\" \"In a storm? Especially in a storm.\" He drove an elbow toward her head. She ducked, twisted his arm behind his back, and slammed him face-first onto the silver sacks. The parrot screamed, \"Mercy! No mercy! Maybe mercy?\" Dust yanked a length of utility cord from the sidewall and tied Varn's wrists tight. \"You arrest people very rudely,\" he muttered into the canvas. \"You build crimes with boilers!\" Nobody asked your opinion. Another blast of wind shoved the coach nose down. This time, Dust grabbed the wheel herself. The parrot sidestepped indignantly, but did not leave. \"You know how to fly this thing?\" Varne demanded. \"Absolutely not. Then we're dead.\" \"Not before you tell me which lever keeps us from becoming a crater.\" Varn hesitated. Dust tipped the wheel harder and the coach dove toward the church steeple. \"Middle brass lever!\" he shouted. She yanked it. The veins outside shifted. The coach stopped diving, though it still rattled like a cupboard falling down stairs. Below, figures swarmed around the water tower. Through sheets of rain and dust, dust saw townspeople digging, passing sticks of dynamite hand to hand. Then, Bishop kicked free of somebody's grip, charged a loose outlaw near the fuse, and sent the man sprawling into a host trough. Dust grinned despite herself. Could mule. The mayor and two shopkeepers threw the dynamite bundle into the trough a second before the few sparked out. A muddy burst shot into the air, soaking half the street, and probably improving several personalities. \"Your insurance is cancelled,\" Dust told Vaughan. The outlaw looked disgusted. That mule has no respect for Enterprise. The storm tightened around them. Green clouds spun. Wind shrieked through the veins. Coins still trapped in the coach rattled like hail in every corner. The dust's hands were slick on the wheel now. Where do I put this thing down? Varn laughed once, a short, sharp sound. You don't. It lands what it wants. Long answer. The schoolhouse was too close to the street. The livery was full of horses. The church had enough problems already. Then she saw the cemetery on the fore edge of town. Wide open except for a row of leaning stones and one big marble monument. Nobody had ever polished Kinders. \"That'll do.\" She aimed for it. Varn actually looked alarmed now. \"You cannot be serious!\" \"I can when I'm tired.\" The coach ripped through the edge of the storm, dropping out of the green clouds and a howl of sting the metal. Wheels clipped the top branch of a cottonwood. One thing snapped free and rolled away across the graveyard like a silver sign. The coach slammed into the cemetery dirt, bounced once, crushed a fence, and skidded to a stop against the marble monument. For a moment, everything was silent, fixed up the soft tick, tick, tick of corn brass. The parrot puffed its feathers and said in a much calmer voice, \"I am landing. Just let go of the wheel and breathe.\" The hatch burst open above his townspeople came warning through the gate. The mail arrived first, soaked, muddy, and killing half a shovel. He stared at the wrecked flying coach then it roared trust on the silver sacks. Then it dusted. \"Mushal! Did you just wess the sky?\" Dust stood, wincing at a bruise on her side. \"Oh, the part that was stealing.\"",
+  "segments": [
+    {
+      "id": 0,
+      "start": 0,
+      "end": 3.96,
+      "text": "Chapter 4, The Green Storm.",
+      "avgLogprob": -0.15211,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.37615,
+      "words": [
+        {
+          "word": "Chapter",
+          "start": 0,
+          "end": 0.96,
+          "probability": 0.82
+        },
+        {
+          "word": "4,",
+          "start": 0.96,
+          "end": 1.38,
+          "probability": 0.47
+        },
+        {
+          "word": "The",
+          "start": 2.32,
+          "end": 2.46,
+          "probability": 0.7
+        },
+        {
+          "word": "Green",
+          "start": 2.46,
+          "end": 3.06,
+          "probability": 0.99
+        },
+        {
+          "word": "Storm.",
+          "start": 3.06,
+          "end": 3.96,
+          "probability": 1
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "start": 6.24,
+      "end": 10.16,
+      "text": "The storm hit before either of them could say anything smarter.",
+      "avgLogprob": -0.15211,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.37615,
+      "words": [
+        {
+          "word": "The",
+          "start": 6.24,
+          "end": 6.42,
+          "probability": 0.99
+        },
+        {
+          "word": "storm",
+          "start": 6.42,
+          "end": 7.04,
+          "probability": 0.98
+        },
+        {
+          "word": "hit",
+          "start": 7.04,
+          "end": 7.4,
+          "probability": 1
+        },
+        {
+          "word": "before",
+          "start": 7.4,
+          "end": 8,
+          "probability": 0.98
+        },
+        {
+          "word": "either",
+          "start": 8,
+          "end": 8.42,
+          "probability": 0.99
+        },
+        {
+          "word": "of",
+          "start": 8.42,
+          "end": 8.68,
+          "probability": 0.98
+        },
+        {
+          "word": "them",
+          "start": 8.68,
+          "end": 8.84,
+          "probability": 1
+        },
+        {
+          "word": "could",
+          "start": 8.84,
+          "end": 9.02,
+          "probability": 0.98
+        },
+        {
+          "word": "say",
+          "start": 9.02,
+          "end": 9.26,
+          "probability": 0.98
+        },
+        {
+          "word": "anything",
+          "start": 9.26,
+          "end": 9.74,
+          "probability": 1
+        },
+        {
+          "word": "smarter.",
+          "start": 9.74,
+          "end": 10.16,
+          "probability": 1
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "start": 11.22,
+      "end": 13.02,
+      "text": "Wind slammed the coach broadside.",
+      "avgLogprob": -0.15211,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.37615,
+      "words": [
+        {
+          "word": "Wind",
+          "start": 11.22,
+          "end": 11.38,
+          "probability": 0.99
+        },
+        {
+          "word": "slammed",
+          "start": 11.38,
+          "end": 11.96,
+          "probability": 1
+        },
+        {
+          "word": "the",
+          "start": 11.96,
+          "end": 12.22,
+          "probability": 0.99
+        },
+        {
+          "word": "coach",
+          "start": 12.22,
+          "end": 12.48,
+          "probability": 0.93
+        },
+        {
+          "word": "broadside.",
+          "start": 12.48,
+          "end": 13.02,
+          "probability": 0.98
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "start": 13.56,
+      "end": 16,
+      "text": "The whole machine groaned and spun.",
+      "avgLogprob": -0.15211,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.37615,
+      "words": [
+        {
+          "word": "The",
+          "start": 13.56,
+          "end": 13.78,
+          "probability": 1
+        },
+        {
+          "word": "whole",
+          "start": 13.78,
+          "end": 14.14,
+          "probability": 1
+        },
+        {
+          "word": "machine",
+          "start": 14.14,
+          "end": 14.6,
+          "probability": 1
+        },
+        {
+          "word": "groaned",
+          "start": 14.6,
+          "end": 15.34,
+          "probability": 0.99
+        },
+        {
+          "word": "and",
+          "start": 15.34,
+          "end": 15.5,
+          "probability": 1
+        },
+        {
+          "word": "spun.",
+          "start": 15.5,
+          "end": 16,
+          "probability": 1
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "start": 16.76,
+      "end": 17.38,
+      "text": "Gauges jumped.",
+      "avgLogprob": -0.15211,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.37615,
+      "words": [
+        {
+          "word": "Gauges",
+          "start": 16.76,
+          "end": 17.06,
+          "probability": 0.71
+        },
+        {
+          "word": "jumped.",
+          "start": 17.06,
+          "end": 17.38,
+          "probability": 1
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "start": 18.24,
+      "end": 20.48,
+      "text": "Steam blasted from a split scene near the boiler.",
+      "avgLogprob": -0.15211,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.37615,
+      "words": [
+        {
+          "word": "Steam",
+          "start": 18.24,
+          "end": 18.36,
+          "probability": 0.87
+        },
+        {
+          "word": "blasted",
+          "start": 18.36,
+          "end": 19,
+          "probability": 1
+        },
+        {
+          "word": "from",
+          "start": 19,
+          "end": 19.2,
+          "probability": 1
+        },
+        {
+          "word": "a",
+          "start": 19.2,
+          "end": 19.34,
+          "probability": 1
+        },
+        {
+          "word": "split",
+          "start": 19.34,
+          "end": 19.62,
+          "probability": 1
+        },
+        {
+          "word": "scene",
+          "start": 19.62,
+          "end": 19.94,
+          "probability": 0.89
+        },
+        {
+          "word": "near",
+          "start": 19.94,
+          "end": 20.1,
+          "probability": 1
+        },
+        {
+          "word": "the",
+          "start": 20.1,
+          "end": 20.28,
+          "probability": 1
+        },
+        {
+          "word": "boiler.",
+          "start": 20.28,
+          "end": 20.48,
+          "probability": 0.99
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "start": 21.34,
+      "end": 25.32,
+      "text": "The parrot flapped in frantic circles, then landed on the steering wheel",
+      "avgLogprob": -0.15211,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.37615,
+      "words": [
+        {
+          "word": "The",
+          "start": 21.34,
+          "end": 21.54,
+          "probability": 1
+        },
+        {
+          "word": "parrot",
+          "start": 21.54,
+          "end": 21.9,
+          "probability": 1
+        },
+        {
+          "word": "flapped",
+          "start": 21.9,
+          "end": 22.44,
+          "probability": 0.99
+        },
+        {
+          "word": "in",
+          "start": 22.44,
+          "end": 22.6,
+          "probability": 1
+        },
+        {
+          "word": "frantic",
+          "start": 22.6,
+          "end": 23,
+          "probability": 1
+        },
+        {
+          "word": "circles,",
+          "start": 23,
+          "end": 23.3,
+          "probability": 1
+        },
+        {
+          "word": "then",
+          "start": 23.9,
+          "end": 24.12,
+          "probability": 0.56
+        },
+        {
+          "word": "landed",
+          "start": 24.12,
+          "end": 24.48,
+          "probability": 1
+        },
+        {
+          "word": "on",
+          "start": 24.48,
+          "end": 24.64,
+          "probability": 0.99
+        },
+        {
+          "word": "the",
+          "start": 24.64,
+          "end": 24.8,
+          "probability": 1
+        },
+        {
+          "word": "steering",
+          "start": 24.8,
+          "end": 25.1,
+          "probability": 1
+        },
+        {
+          "word": "wheel",
+          "start": 25.1,
+          "end": 25.32,
+          "probability": 1
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "start": 25.8,
+      "end": 28.78,
+      "text": "because panic had apparently worn out the rest of its choices.",
+      "avgLogprob": -0.15211,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.37615,
+      "words": [
+        {
+          "word": "because",
+          "start": 25.8,
+          "end": 25.94,
+          "probability": 0.91
+        },
+        {
+          "word": "panic",
+          "start": 25.94,
+          "end": 26.44,
+          "probability": 0.95
+        },
+        {
+          "word": "had",
+          "start": 26.44,
+          "end": 26.68,
+          "probability": 1
+        },
+        {
+          "word": "apparently",
+          "start": 26.68,
+          "end": 27.2,
+          "probability": 1
+        },
+        {
+          "word": "worn",
+          "start": 27.2,
+          "end": 27.58,
+          "probability": 1
+        },
+        {
+          "word": "out",
+          "start": 27.58,
+          "end": 27.76,
+          "probability": 1
+        },
+        {
+          "word": "the",
+          "start": 27.76,
+          "end": 27.98,
+          "probability": 1
+        },
+        {
+          "word": "rest",
+          "start": 27.98,
+          "end": 28.1,
+          "probability": 1
+        },
+        {
+          "word": "of",
+          "start": 28.1,
+          "end": 28.36,
+          "probability": 1
+        },
+        {
+          "word": "its",
+          "start": 28.36,
+          "end": 28.46,
+          "probability": 0.99
+        },
+        {
+          "word": "choices.",
+          "start": 28.46,
+          "end": 28.78,
+          "probability": 1
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "start": 29.4,
+      "end": 35.6,
+      "text": "\"Hold it steady!\" Varn shouted. \"That sounds like your department!\" Dust said.",
+      "avgLogprob": -0.17291,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.40092,
+      "words": [
+        {
+          "word": "\"Hold",
+          "start": 29.4,
+          "end": 30.24,
+          "probability": 0.92
+        },
+        {
+          "word": "it",
+          "start": 30.24,
+          "end": 30.4,
+          "probability": 0.99
+        },
+        {
+          "word": "steady!\"",
+          "start": 30.4,
+          "end": 31.36,
+          "probability": 0.85
+        },
+        {
+          "word": "Varn",
+          "start": 31.36,
+          "end": 31.74,
+          "probability": 0.54
+        },
+        {
+          "word": "shouted.",
+          "start": 31.74,
+          "end": 32.14,
+          "probability": 0.99
+        },
+        {
+          "word": "\"That",
+          "start": 32.94,
+          "end": 33.08,
+          "probability": 0.89
+        },
+        {
+          "word": "sounds",
+          "start": 33.08,
+          "end": 33.34,
+          "probability": 0.98
+        },
+        {
+          "word": "like",
+          "start": 33.34,
+          "end": 33.52,
+          "probability": 0.99
+        },
+        {
+          "word": "your",
+          "start": 33.52,
+          "end": 33.9,
+          "probability": 0.78
+        },
+        {
+          "word": "department!\"",
+          "start": 33.9,
+          "end": 35.04,
+          "probability": 0.71
+        },
+        {
+          "word": "Dust",
+          "start": 35.04,
+          "end": 35.24,
+          "probability": 0.82
+        },
+        {
+          "word": "said.",
+          "start": 35.24,
+          "end": 35.6,
+          "probability": 0.92
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "start": 37.06,
+      "end": 42.9,
+      "text": "Lightning flashed so close it turned the front glass white. Down below, cinder",
+      "avgLogprob": -0.17291,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.40092,
+      "words": [
+        {
+          "word": "Lightning",
+          "start": 37.06,
+          "end": 37.26,
+          "probability": 0.86
+        },
+        {
+          "word": "flashed",
+          "start": 37.26,
+          "end": 37.74,
+          "probability": 1
+        },
+        {
+          "word": "so",
+          "start": 37.74,
+          "end": 38.24,
+          "probability": 1
+        },
+        {
+          "word": "close",
+          "start": 38.24,
+          "end": 38.62,
+          "probability": 1
+        },
+        {
+          "word": "it",
+          "start": 38.62,
+          "end": 39.02,
+          "probability": 0.56
+        },
+        {
+          "word": "turned",
+          "start": 39.02,
+          "end": 39.24,
+          "probability": 1
+        },
+        {
+          "word": "the",
+          "start": 39.24,
+          "end": 39.4,
+          "probability": 0.99
+        },
+        {
+          "word": "front",
+          "start": 39.4,
+          "end": 39.66,
+          "probability": 1
+        },
+        {
+          "word": "glass",
+          "start": 39.66,
+          "end": 39.96,
+          "probability": 0.99
+        },
+        {
+          "word": "white.",
+          "start": 39.96,
+          "end": 40.42,
+          "probability": 0.99
+        },
+        {
+          "word": "Down",
+          "start": 41.52,
+          "end": 41.82,
+          "probability": 0.78
+        },
+        {
+          "word": "below,",
+          "start": 41.82,
+          "end": 42.2,
+          "probability": 0.98
+        },
+        {
+          "word": "cinder",
+          "start": 42.74,
+          "end": 42.9,
+          "probability": 0.95
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "start": 43.18,
+      "end": 49.1,
+      "text": "flats had become a blur of roofs, streets, and tiny moving people. Dust caught one",
+      "avgLogprob": -0.17291,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.40092,
+      "words": [
+        {
+          "word": "flats",
+          "start": 43.18,
+          "end": 43.28,
+          "probability": 1
+        },
+        {
+          "word": "had",
+          "start": 43.28,
+          "end": 43.48,
+          "probability": 0.99
+        },
+        {
+          "word": "become",
+          "start": 43.48,
+          "end": 43.72,
+          "probability": 1
+        },
+        {
+          "word": "a",
+          "start": 43.72,
+          "end": 43.92,
+          "probability": 1
+        },
+        {
+          "word": "blur",
+          "start": 43.92,
+          "end": 44.24,
+          "probability": 0.99
+        },
+        {
+          "word": "of",
+          "start": 44.24,
+          "end": 44.5,
+          "probability": 1
+        },
+        {
+          "word": "roofs,",
+          "start": 44.5,
+          "end": 45.02,
+          "probability": 1
+        },
+        {
+          "word": "streets,",
+          "start": 45.28,
+          "end": 45.62,
+          "probability": 1
+        },
+        {
+          "word": "and",
+          "start": 45.87,
+          "end": 46.08,
+          "probability": 1
+        },
+        {
+          "word": "tiny",
+          "start": 46.08,
+          "end": 46.5,
+          "probability": 0.99
+        },
+        {
+          "word": "moving",
+          "start": 46.5,
+          "end": 46.82,
+          "probability": 0.93
+        },
+        {
+          "word": "people.",
+          "start": 46.82,
+          "end": 47.16,
+          "probability": 1
+        },
+        {
+          "word": "Dust",
+          "start": 48.4,
+          "end": 48.48,
+          "probability": 0.74
+        },
+        {
+          "word": "caught",
+          "start": 48.48,
+          "end": 48.74,
+          "probability": 0.75
+        },
+        {
+          "word": "one",
+          "start": 48.74,
+          "end": 49.1,
+          "probability": 0.65
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "start": 49.25,
+      "end": 53.12,
+      "text": "glimpse of Bishop near the water tower, bucking and braying like he meant to",
+      "avgLogprob": -0.17291,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.40092,
+      "words": [
+        {
+          "word": "glimpse",
+          "start": 49.25,
+          "end": 49.44,
+          "probability": 1
+        },
+        {
+          "word": "of",
+          "start": 49.44,
+          "end": 49.64,
+          "probability": 1
+        },
+        {
+          "word": "Bishop",
+          "start": 49.64,
+          "end": 49.98,
+          "probability": 0.94
+        },
+        {
+          "word": "near",
+          "start": 49.98,
+          "end": 50.18,
+          "probability": 1
+        },
+        {
+          "word": "the",
+          "start": 50.18,
+          "end": 50.36,
+          "probability": 1
+        },
+        {
+          "word": "water",
+          "start": 50.36,
+          "end": 50.56,
+          "probability": 0.95
+        },
+        {
+          "word": "tower,",
+          "start": 50.56,
+          "end": 50.9,
+          "probability": 0.98
+        },
+        {
+          "word": "bucking",
+          "start": 51.6,
+          "end": 51.86,
+          "probability": 0.99
+        },
+        {
+          "word": "and",
+          "start": 51.86,
+          "end": 52.02,
+          "probability": 0.98
+        },
+        {
+          "word": "braying",
+          "start": 52.02,
+          "end": 52.42,
+          "probability": 0.79
+        },
+        {
+          "word": "like",
+          "start": 52.42,
+          "end": 52.68,
+          "probability": 0.99
+        },
+        {
+          "word": "he",
+          "start": 52.68,
+          "end": 52.86,
+          "probability": 1
+        },
+        {
+          "word": "meant",
+          "start": 52.86,
+          "end": 53,
+          "probability": 0.99
+        },
+        {
+          "word": "to",
+          "start": 53,
+          "end": 53.12,
+          "probability": 0.99
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "start": 53.22,
+      "end": 54.7,
+      "text": "insult the whole gang personally.",
+      "avgLogprob": -0.17291,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.40092,
+      "words": [
+        {
+          "word": "insult",
+          "start": 53.22,
+          "end": 53.44,
+          "probability": 0.8
+        },
+        {
+          "word": "the",
+          "start": 53.44,
+          "end": 53.62,
+          "probability": 1
+        },
+        {
+          "word": "whole",
+          "start": 53.62,
+          "end": 53.9,
+          "probability": 1
+        },
+        {
+          "word": "gang",
+          "start": 53.9,
+          "end": 54.14,
+          "probability": 1
+        },
+        {
+          "word": "personally.",
+          "start": 54.14,
+          "end": 54.7,
+          "probability": 0.94
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "start": 55.4,
+      "end": 62.28,
+      "text": "Varn lunged for the controls again. Dust caught his wrist. \"Call off your men.\"",
+      "avgLogprob": -0.22925,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.38249,
+      "words": [
+        {
+          "word": "Varn",
+          "start": 55.4,
+          "end": 56.4,
+          "probability": 0.53
+        },
+        {
+          "word": "lunged",
+          "start": 56.4,
+          "end": 56.98,
+          "probability": 0.98
+        },
+        {
+          "word": "for",
+          "start": 56.98,
+          "end": 57.1,
+          "probability": 1
+        },
+        {
+          "word": "the",
+          "start": 57.1,
+          "end": 57.2,
+          "probability": 0.99
+        },
+        {
+          "word": "controls",
+          "start": 57.2,
+          "end": 57.52,
+          "probability": 1
+        },
+        {
+          "word": "again.",
+          "start": 57.52,
+          "end": 57.86,
+          "probability": 0.99
+        },
+        {
+          "word": "Dust",
+          "start": 58.84,
+          "end": 59.06,
+          "probability": 0.65
+        },
+        {
+          "word": "caught",
+          "start": 59.06,
+          "end": 59.4,
+          "probability": 0.99
+        },
+        {
+          "word": "his",
+          "start": 59.4,
+          "end": 59.6,
+          "probability": 1
+        },
+        {
+          "word": "wrist.",
+          "start": 59.6,
+          "end": 60,
+          "probability": 0.98
+        },
+        {
+          "word": "\"Call",
+          "start": 60.64,
+          "end": 61.24,
+          "probability": 0.63
+        },
+        {
+          "word": "off",
+          "start": 61.24,
+          "end": 61.64,
+          "probability": 0.98
+        },
+        {
+          "word": "your",
+          "start": 61.64,
+          "end": 61.92,
+          "probability": 0.98
+        },
+        {
+          "word": "men.\"",
+          "start": 61.92,
+          "end": 62.28,
+          "probability": 0.66
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "start": 63.28,
+      "end": 70.26,
+      "text": "\"In a storm? Especially in a storm.\" He drove an elbow toward her head. She ducked,",
+      "avgLogprob": -0.22925,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.38249,
+      "words": [
+        {
+          "word": "\"In",
+          "start": 63.28,
+          "end": 63.4,
+          "probability": 0.93
+        },
+        {
+          "word": "a",
+          "start": 63.4,
+          "end": 63.54,
+          "probability": 1
+        },
+        {
+          "word": "storm?",
+          "start": 63.54,
+          "end": 64.12,
+          "probability": 0.98
+        },
+        {
+          "word": "Especially",
+          "start": 64.82,
+          "end": 65.46,
+          "probability": 0.95
+        },
+        {
+          "word": "in",
+          "start": 65.46,
+          "end": 65.78,
+          "probability": 0.99
+        },
+        {
+          "word": "a",
+          "start": 65.78,
+          "end": 65.9,
+          "probability": 1
+        },
+        {
+          "word": "storm.\"",
+          "start": 65.9,
+          "end": 66.74,
+          "probability": 0.7
+        },
+        {
+          "word": "He",
+          "start": 66.74,
+          "end": 67.6,
+          "probability": 0.86
+        },
+        {
+          "word": "drove",
+          "start": 67.6,
+          "end": 67.96,
+          "probability": 1
+        },
+        {
+          "word": "an",
+          "start": 67.96,
+          "end": 68.16,
+          "probability": 0.99
+        },
+        {
+          "word": "elbow",
+          "start": 68.16,
+          "end": 68.5,
+          "probability": 0.96
+        },
+        {
+          "word": "toward",
+          "start": 68.5,
+          "end": 68.82,
+          "probability": 0.96
+        },
+        {
+          "word": "her",
+          "start": 68.82,
+          "end": 69.02,
+          "probability": 0.99
+        },
+        {
+          "word": "head.",
+          "start": 69.02,
+          "end": 69.22,
+          "probability": 0.98
+        },
+        {
+          "word": "She",
+          "start": 69.78,
+          "end": 70,
+          "probability": 0.58
+        },
+        {
+          "word": "ducked,",
+          "start": 70,
+          "end": 70.26,
+          "probability": 0.61
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "start": 70.34,
+      "end": 74.54,
+      "text": "twisted his arm behind his back, and slammed him face -first onto the silver sacks.",
+      "avgLogprob": -0.22925,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.38249,
+      "words": [
+        {
+          "word": "twisted",
+          "start": 70.34,
+          "end": 70.96,
+          "probability": 1
+        },
+        {
+          "word": "his",
+          "start": 70.96,
+          "end": 71.16,
+          "probability": 1
+        },
+        {
+          "word": "arm",
+          "start": 71.16,
+          "end": 71.34,
+          "probability": 1
+        },
+        {
+          "word": "behind",
+          "start": 71.34,
+          "end": 71.56,
+          "probability": 1
+        },
+        {
+          "word": "his",
+          "start": 71.56,
+          "end": 71.74,
+          "probability": 1
+        },
+        {
+          "word": "back,",
+          "start": 71.74,
+          "end": 71.98,
+          "probability": 1
+        },
+        {
+          "word": "and",
+          "start": 72.3,
+          "end": 72.42,
+          "probability": 1
+        },
+        {
+          "word": "slammed",
+          "start": 72.42,
+          "end": 72.72,
+          "probability": 1
+        },
+        {
+          "word": "him",
+          "start": 72.72,
+          "end": 72.9,
+          "probability": 1
+        },
+        {
+          "word": "face",
+          "start": 72.9,
+          "end": 73.28,
+          "probability": 0.96
+        },
+        {
+          "word": "-first",
+          "start": 73.28,
+          "end": 73.56,
+          "probability": 0.73
+        },
+        {
+          "word": "onto",
+          "start": 73.56,
+          "end": 73.88,
+          "probability": 0.96
+        },
+        {
+          "word": "the",
+          "start": 73.88,
+          "end": 73.98,
+          "probability": 0.99
+        },
+        {
+          "word": "silver",
+          "start": 73.98,
+          "end": 74.2,
+          "probability": 0.91
+        },
+        {
+          "word": "sacks.",
+          "start": 74.2,
+          "end": 74.54,
+          "probability": 0.25
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "start": 75.72,
+      "end": 79.88,
+      "text": "The parrot screamed, \"Mercy! No mercy! Maybe mercy?\"",
+      "avgLogprob": -0.22925,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.38249,
+      "words": [
+        {
+          "word": "The",
+          "start": 75.72,
+          "end": 75.92,
+          "probability": 0.92
+        },
+        {
+          "word": "parrot",
+          "start": 75.92,
+          "end": 76.24,
+          "probability": 0.99
+        },
+        {
+          "word": "screamed,",
+          "start": 76.24,
+          "end": 76.64,
+          "probability": 1
+        },
+        {
+          "word": "\"Mercy!",
+          "start": 77.24,
+          "end": 77.6,
+          "probability": 0.94
+        },
+        {
+          "word": "No",
+          "start": 77.98,
+          "end": 78.1,
+          "probability": 0.97
+        },
+        {
+          "word": "mercy!",
+          "start": 78.1,
+          "end": 78.44,
+          "probability": 0.92
+        },
+        {
+          "word": "Maybe",
+          "start": 78.88,
+          "end": 79.36,
+          "probability": 0.96
+        },
+        {
+          "word": "mercy?\"",
+          "start": 79.36,
+          "end": 79.88,
+          "probability": 0.69
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "start": 80.6,
+      "end": 85.86,
+      "text": "Dust yanked a length of utility cord from the sidewall and tied Varn's wrists tight.",
+      "avgLogprob": -0.23595,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.26174,
+      "words": [
+        {
+          "word": "Dust",
+          "start": 80.6,
+          "end": 81.6,
+          "probability": 0.72
+        },
+        {
+          "word": "yanked",
+          "start": 81.6,
+          "end": 81.92,
+          "probability": 0.99
+        },
+        {
+          "word": "a",
+          "start": 81.92,
+          "end": 82.06,
+          "probability": 0.99
+        },
+        {
+          "word": "length",
+          "start": 82.06,
+          "end": 82.26,
+          "probability": 1
+        },
+        {
+          "word": "of",
+          "start": 82.26,
+          "end": 82.44,
+          "probability": 1
+        },
+        {
+          "word": "utility",
+          "start": 82.44,
+          "end": 82.84,
+          "probability": 0.99
+        },
+        {
+          "word": "cord",
+          "start": 82.84,
+          "end": 83.2,
+          "probability": 0.99
+        },
+        {
+          "word": "from",
+          "start": 83.2,
+          "end": 83.38,
+          "probability": 0.98
+        },
+        {
+          "word": "the",
+          "start": 83.38,
+          "end": 83.48,
+          "probability": 1
+        },
+        {
+          "word": "sidewall",
+          "start": 83.48,
+          "end": 84.02,
+          "probability": 0.78
+        },
+        {
+          "word": "and",
+          "start": 84.02,
+          "end": 84.3,
+          "probability": 0.82
+        },
+        {
+          "word": "tied",
+          "start": 84.3,
+          "end": 84.76,
+          "probability": 0.99
+        },
+        {
+          "word": "Varn's",
+          "start": 84.76,
+          "end": 85.06,
+          "probability": 0.73
+        },
+        {
+          "word": "wrists",
+          "start": 85.06,
+          "end": 85.3,
+          "probability": 0.94
+        },
+        {
+          "word": "tight.",
+          "start": 85.3,
+          "end": 85.86,
+          "probability": 0.72
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "start": 87.2,
+      "end": 91.16,
+      "text": "\"You arrest people very rudely,\" he muttered into the canvas.",
+      "avgLogprob": -0.23595,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.26174,
+      "words": [
+        {
+          "word": "\"You",
+          "start": 87.2,
+          "end": 87.46,
+          "probability": 0.93
+        },
+        {
+          "word": "arrest",
+          "start": 87.46,
+          "end": 88,
+          "probability": 0.99
+        },
+        {
+          "word": "people",
+          "start": 88,
+          "end": 88.36,
+          "probability": 1
+        },
+        {
+          "word": "very",
+          "start": 88.36,
+          "end": 88.8,
+          "probability": 0.97
+        },
+        {
+          "word": "rudely,\"",
+          "start": 88.8,
+          "end": 89.9,
+          "probability": 0.85
+        },
+        {
+          "word": "he",
+          "start": 89.9,
+          "end": 90.16,
+          "probability": 0.99
+        },
+        {
+          "word": "muttered",
+          "start": 90.16,
+          "end": 90.36,
+          "probability": 1
+        },
+        {
+          "word": "into",
+          "start": 90.36,
+          "end": 90.68,
+          "probability": 0.98
+        },
+        {
+          "word": "the",
+          "start": 90.68,
+          "end": 90.8,
+          "probability": 0.99
+        },
+        {
+          "word": "canvas.",
+          "start": 90.8,
+          "end": 91.16,
+          "probability": 0.98
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "start": 92.34,
+      "end": 94.84,
+      "text": "\"You build crimes with boilers!\"",
+      "avgLogprob": -0.23595,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.26174,
+      "words": [
+        {
+          "word": "\"You",
+          "start": 92.34,
+          "end": 92.52,
+          "probability": 0.99
+        },
+        {
+          "word": "build",
+          "start": 92.52,
+          "end": 92.96,
+          "probability": 0.99
+        },
+        {
+          "word": "crimes",
+          "start": 92.96,
+          "end": 93.42,
+          "probability": 0.99
+        },
+        {
+          "word": "with",
+          "start": 93.42,
+          "end": 93.76,
+          "probability": 1
+        },
+        {
+          "word": "boilers!\"",
+          "start": 93.76,
+          "end": 94.84,
+          "probability": 0.59
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "start": 94.84,
+      "end": 95.92,
+      "text": "Nobody asked your opinion.",
+      "avgLogprob": -0.23595,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.26174,
+      "words": [
+        {
+          "word": "Nobody",
+          "start": 94.84,
+          "end": 95.06,
+          "probability": 0.97
+        },
+        {
+          "word": "asked",
+          "start": 95.06,
+          "end": 95.34,
+          "probability": 1
+        },
+        {
+          "word": "your",
+          "start": 95.34,
+          "end": 95.5,
+          "probability": 0.99
+        },
+        {
+          "word": "opinion.",
+          "start": 95.5,
+          "end": 95.92,
+          "probability": 0.99
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "start": 96.7,
+      "end": 100.22,
+      "text": "Another blast of wind shoved the coach nose down.",
+      "avgLogprob": -0.2378,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.4,
+      "words": [
+        {
+          "word": "Another",
+          "start": 96.7,
+          "end": 97.66,
+          "probability": 0.82
+        },
+        {
+          "word": "blast",
+          "start": 97.66,
+          "end": 98.16,
+          "probability": 1
+        },
+        {
+          "word": "of",
+          "start": 98.16,
+          "end": 98.3,
+          "probability": 1
+        },
+        {
+          "word": "wind",
+          "start": 98.3,
+          "end": 98.54,
+          "probability": 1
+        },
+        {
+          "word": "shoved",
+          "start": 98.54,
+          "end": 98.94,
+          "probability": 0.93
+        },
+        {
+          "word": "the",
+          "start": 98.94,
+          "end": 99.14,
+          "probability": 1
+        },
+        {
+          "word": "coach",
+          "start": 99.14,
+          "end": 99.34,
+          "probability": 0.98
+        },
+        {
+          "word": "nose",
+          "start": 99.34,
+          "end": 99.76,
+          "probability": 0.98
+        },
+        {
+          "word": "down.",
+          "start": 99.76,
+          "end": 100.22,
+          "probability": 0.86
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "start": 101.3,
+      "end": 103.22,
+      "text": "This time, Dust grabbed the wheel herself.",
+      "avgLogprob": -0.2378,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.4,
+      "words": [
+        {
+          "word": "This",
+          "start": 101.3,
+          "end": 101.42,
+          "probability": 1
+        },
+        {
+          "word": "time,",
+          "start": 101.42,
+          "end": 101.7,
+          "probability": 1
+        },
+        {
+          "word": "Dust",
+          "start": 102,
+          "end": 102.1,
+          "probability": 0.87
+        },
+        {
+          "word": "grabbed",
+          "start": 102.1,
+          "end": 102.36,
+          "probability": 1
+        },
+        {
+          "word": "the",
+          "start": 102.36,
+          "end": 102.52,
+          "probability": 1
+        },
+        {
+          "word": "wheel",
+          "start": 102.52,
+          "end": 102.7,
+          "probability": 1
+        },
+        {
+          "word": "herself.",
+          "start": 102.7,
+          "end": 103.22,
+          "probability": 0.98
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "start": 104.35,
+      "end": 107.46,
+      "text": "The parrot sidestepped indignantly, but did not leave.",
+      "avgLogprob": -0.2378,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.4,
+      "words": [
+        {
+          "word": "The",
+          "start": 104.35,
+          "end": 104.56,
+          "probability": 1
+        },
+        {
+          "word": "parrot",
+          "start": 104.56,
+          "end": 104.94,
+          "probability": 0.96
+        },
+        {
+          "word": "sidestepped",
+          "start": 104.94,
+          "end": 105.52,
+          "probability": 0.87
+        },
+        {
+          "word": "indignantly,",
+          "start": 105.52,
+          "end": 106.18,
+          "probability": 0.97
+        },
+        {
+          "word": "but",
+          "start": 106.49,
+          "end": 106.7,
+          "probability": 0.99
+        },
+        {
+          "word": "did",
+          "start": 106.7,
+          "end": 106.96,
+          "probability": 0.98
+        },
+        {
+          "word": "not",
+          "start": 106.96,
+          "end": 107.16,
+          "probability": 1
+        },
+        {
+          "word": "leave.",
+          "start": 107.16,
+          "end": 107.46,
+          "probability": 1
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "start": 108.46,
+      "end": 110.44,
+      "text": "\"You know how to fly this thing?\"",
+      "avgLogprob": -0.2378,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.4,
+      "words": [
+        {
+          "word": "\"You",
+          "start": 108.46,
+          "end": 108.8,
+          "probability": 0.95
+        },
+        {
+          "word": "know",
+          "start": 108.8,
+          "end": 109.02,
+          "probability": 1
+        },
+        {
+          "word": "how",
+          "start": 109.02,
+          "end": 109.12,
+          "probability": 1
+        },
+        {
+          "word": "to",
+          "start": 109.12,
+          "end": 109.28,
+          "probability": 1
+        },
+        {
+          "word": "fly",
+          "start": 109.28,
+          "end": 109.58,
+          "probability": 1
+        },
+        {
+          "word": "this",
+          "start": 109.58,
+          "end": 109.78,
+          "probability": 0.99
+        },
+        {
+          "word": "thing?\"",
+          "start": 109.78,
+          "end": 110.44,
+          "probability": 0.91
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "start": 110.64,
+      "end": 111.14,
+      "text": "Varne demanded.",
+      "avgLogprob": -0.2378,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.4,
+      "words": [
+        {
+          "word": "Varne",
+          "start": 110.64,
+          "end": 110.8,
+          "probability": 0.68
+        },
+        {
+          "word": "demanded.",
+          "start": 110.8,
+          "end": 111.14,
+          "probability": 1
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "start": 111.96,
+      "end": 113.12,
+      "text": "\"Absolutely not.",
+      "avgLogprob": -0.2378,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.4,
+      "words": [
+        {
+          "word": "\"Absolutely",
+          "start": 111.96,
+          "end": 112.56,
+          "probability": 0.99
+        },
+        {
+          "word": "not.",
+          "start": 112.56,
+          "end": 113.12,
+          "probability": 0.99
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "start": 113.74,
+      "end": 115.92,
+      "text": "Then we're dead.\"",
+      "avgLogprob": -0.2378,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.4,
+      "words": [
+        {
+          "word": "Then",
+          "start": 113.74,
+          "end": 114.34,
+          "probability": 0.98
+        },
+        {
+          "word": "we're",
+          "start": 114.34,
+          "end": 114.5,
+          "probability": 0.97
+        },
+        {
+          "word": "dead.\"",
+          "start": 114.5,
+          "end": 115.92,
+          "probability": 0.74
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "start": 115.92,
+      "end": 119.62,
+      "text": "\"Not before you tell me which lever keeps us from becoming a crater.\"",
+      "avgLogprob": -0.2378,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.4,
+      "words": [
+        {
+          "word": "\"Not",
+          "start": 115.92,
+          "end": 116.46,
+          "probability": 0.92
+        },
+        {
+          "word": "before",
+          "start": 116.46,
+          "end": 116.8,
+          "probability": 1
+        },
+        {
+          "word": "you",
+          "start": 116.8,
+          "end": 117.06,
+          "probability": 1
+        },
+        {
+          "word": "tell",
+          "start": 117.06,
+          "end": 117.26,
+          "probability": 1
+        },
+        {
+          "word": "me",
+          "start": 117.26,
+          "end": 117.46,
+          "probability": 1
+        },
+        {
+          "word": "which",
+          "start": 117.46,
+          "end": 117.72,
+          "probability": 0.99
+        },
+        {
+          "word": "lever",
+          "start": 117.72,
+          "end": 118.02,
+          "probability": 0.99
+        },
+        {
+          "word": "keeps",
+          "start": 118.02,
+          "end": 118.3,
+          "probability": 1
+        },
+        {
+          "word": "us",
+          "start": 118.3,
+          "end": 118.48,
+          "probability": 1
+        },
+        {
+          "word": "from",
+          "start": 118.48,
+          "end": 118.64,
+          "probability": 1
+        },
+        {
+          "word": "becoming",
+          "start": 118.64,
+          "end": 118.96,
+          "probability": 0.99
+        },
+        {
+          "word": "a",
+          "start": 118.96,
+          "end": 119.12,
+          "probability": 1
+        },
+        {
+          "word": "crater.\"",
+          "start": 119.12,
+          "end": 119.62,
+          "probability": 0.87
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "start": 120.2,
+      "end": 126.16,
+      "text": "Varn hesitated. Dust tipped the wheel harder and the coach dove toward the church steeple.",
+      "avgLogprob": -0.22466,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.34162,
+      "words": [
+        {
+          "word": "Varn",
+          "start": 120.2,
+          "end": 121.24,
+          "probability": 0.74
+        },
+        {
+          "word": "hesitated.",
+          "start": 121.24,
+          "end": 121.72,
+          "probability": 0.97
+        },
+        {
+          "word": "Dust",
+          "start": 122.92,
+          "end": 123.1,
+          "probability": 0.84
+        },
+        {
+          "word": "tipped",
+          "start": 123.1,
+          "end": 123.32,
+          "probability": 0.99
+        },
+        {
+          "word": "the",
+          "start": 123.32,
+          "end": 123.5,
+          "probability": 1
+        },
+        {
+          "word": "wheel",
+          "start": 123.5,
+          "end": 123.64,
+          "probability": 1
+        },
+        {
+          "word": "harder",
+          "start": 123.64,
+          "end": 124.08,
+          "probability": 0.99
+        },
+        {
+          "word": "and",
+          "start": 124.08,
+          "end": 124.4,
+          "probability": 0.62
+        },
+        {
+          "word": "the",
+          "start": 124.4,
+          "end": 124.48,
+          "probability": 0.98
+        },
+        {
+          "word": "coach",
+          "start": 124.48,
+          "end": 124.68,
+          "probability": 0.98
+        },
+        {
+          "word": "dove",
+          "start": 124.68,
+          "end": 125.04,
+          "probability": 0.95
+        },
+        {
+          "word": "toward",
+          "start": 125.04,
+          "end": 125.32,
+          "probability": 0.94
+        },
+        {
+          "word": "the",
+          "start": 125.32,
+          "end": 125.46,
+          "probability": 0.97
+        },
+        {
+          "word": "church",
+          "start": 125.46,
+          "end": 125.7,
+          "probability": 0.51
+        },
+        {
+          "word": "steeple.",
+          "start": 125.7,
+          "end": 126.16,
+          "probability": 0.98
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "start": 127.4,
+      "end": 131.56,
+      "text": "\"Middle brass lever!\" he shouted. She yanked it.",
+      "avgLogprob": -0.22466,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.34162,
+      "words": [
+        {
+          "word": "\"Middle",
+          "start": 127.4,
+          "end": 127.92,
+          "probability": 0.78
+        },
+        {
+          "word": "brass",
+          "start": 127.92,
+          "end": 128.4,
+          "probability": 0.58
+        },
+        {
+          "word": "lever!\"",
+          "start": 128.4,
+          "end": 129.2,
+          "probability": 0.89
+        },
+        {
+          "word": "he",
+          "start": 129.2,
+          "end": 129.5,
+          "probability": 0.85
+        },
+        {
+          "word": "shouted.",
+          "start": 129.5,
+          "end": 129.74,
+          "probability": 1
+        },
+        {
+          "word": "She",
+          "start": 131,
+          "end": 131.1,
+          "probability": 0.79
+        },
+        {
+          "word": "yanked",
+          "start": 131.1,
+          "end": 131.32,
+          "probability": 0.99
+        },
+        {
+          "word": "it.",
+          "start": 131.32,
+          "end": 131.56,
+          "probability": 1
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "start": 132.71,
+      "end": 137.96,
+      "text": "The veins outside shifted. The coach stopped diving, though it still rattled like a cupboard",
+      "avgLogprob": -0.22466,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.34162,
+      "words": [
+        {
+          "word": "The",
+          "start": 132.71,
+          "end": 132.9,
+          "probability": 1
+        },
+        {
+          "word": "veins",
+          "start": 132.9,
+          "end": 133.2,
+          "probability": 0.69
+        },
+        {
+          "word": "outside",
+          "start": 133.2,
+          "end": 133.62,
+          "probability": 1
+        },
+        {
+          "word": "shifted.",
+          "start": 133.62,
+          "end": 134.06,
+          "probability": 0.99
+        },
+        {
+          "word": "The",
+          "start": 134.55,
+          "end": 134.76,
+          "probability": 0.98
+        },
+        {
+          "word": "coach",
+          "start": 134.76,
+          "end": 135,
+          "probability": 1
+        },
+        {
+          "word": "stopped",
+          "start": 135,
+          "end": 135.36,
+          "probability": 1
+        },
+        {
+          "word": "diving,",
+          "start": 135.36,
+          "end": 135.84,
+          "probability": 1
+        },
+        {
+          "word": "though",
+          "start": 136.42,
+          "end": 136.5,
+          "probability": 0.98
+        },
+        {
+          "word": "it",
+          "start": 136.5,
+          "end": 136.58,
+          "probability": 0.99
+        },
+        {
+          "word": "still",
+          "start": 136.58,
+          "end": 136.82,
+          "probability": 0.93
+        },
+        {
+          "word": "rattled",
+          "start": 136.82,
+          "end": 137.24,
+          "probability": 0.99
+        },
+        {
+          "word": "like",
+          "start": 137.24,
+          "end": 137.46,
+          "probability": 0.98
+        },
+        {
+          "word": "a",
+          "start": 137.46,
+          "end": 137.62,
+          "probability": 0.99
+        },
+        {
+          "word": "cupboard",
+          "start": 137.62,
+          "end": 137.96,
+          "probability": 0.97
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "start": 138.14,
+      "end": 138.86,
+      "text": "falling down stairs.",
+      "avgLogprob": -0.22466,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.34162,
+      "words": [
+        {
+          "word": "falling",
+          "start": 138.14,
+          "end": 138.26,
+          "probability": 0.85
+        },
+        {
+          "word": "down",
+          "start": 138.26,
+          "end": 138.5,
+          "probability": 0.78
+        },
+        {
+          "word": "stairs.",
+          "start": 138.5,
+          "end": 138.86,
+          "probability": 0.97
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "start": 140.2,
+      "end": 142.66,
+      "text": "Below, figures swarmed around the water tower.",
+      "avgLogprob": -0.21047,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.3401,
+      "words": [
+        {
+          "word": "Below,",
+          "start": 140.2,
+          "end": 140.68,
+          "probability": 0.96
+        },
+        {
+          "word": "figures",
+          "start": 141.1,
+          "end": 141.2,
+          "probability": 0.89
+        },
+        {
+          "word": "swarmed",
+          "start": 141.2,
+          "end": 141.84,
+          "probability": 1
+        },
+        {
+          "word": "around",
+          "start": 141.84,
+          "end": 142.06,
+          "probability": 0.99
+        },
+        {
+          "word": "the",
+          "start": 142.06,
+          "end": 142.18,
+          "probability": 0.99
+        },
+        {
+          "word": "water",
+          "start": 142.18,
+          "end": 142.48,
+          "probability": 0.99
+        },
+        {
+          "word": "tower.",
+          "start": 142.48,
+          "end": 142.66,
+          "probability": 0.96
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "start": 143.54,
+      "end": 148.96,
+      "text": "Through sheets of rain and dust, dust saw townspeople digging, passing sticks of dynamite hand to",
+      "avgLogprob": -0.21047,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.3401,
+      "words": [
+        {
+          "word": "Through",
+          "start": 143.54,
+          "end": 143.72,
+          "probability": 1
+        },
+        {
+          "word": "sheets",
+          "start": 143.72,
+          "end": 143.98,
+          "probability": 0.99
+        },
+        {
+          "word": "of",
+          "start": 143.98,
+          "end": 144.18,
+          "probability": 1
+        },
+        {
+          "word": "rain",
+          "start": 144.18,
+          "end": 144.54,
+          "probability": 1
+        },
+        {
+          "word": "and",
+          "start": 144.54,
+          "end": 144.78,
+          "probability": 1
+        },
+        {
+          "word": "dust,",
+          "start": 144.78,
+          "end": 145.02,
+          "probability": 1
+        },
+        {
+          "word": "dust",
+          "start": 145.58,
+          "end": 145.72,
+          "probability": 0.95
+        },
+        {
+          "word": "saw",
+          "start": 145.72,
+          "end": 145.96,
+          "probability": 0.97
+        },
+        {
+          "word": "townspeople",
+          "start": 145.96,
+          "end": 146.56,
+          "probability": 0.88
+        },
+        {
+          "word": "digging,",
+          "start": 146.56,
+          "end": 147,
+          "probability": 0.99
+        },
+        {
+          "word": "passing",
+          "start": 147.36,
+          "end": 147.64,
+          "probability": 0.96
+        },
+        {
+          "word": "sticks",
+          "start": 147.64,
+          "end": 147.88,
+          "probability": 0.98
+        },
+        {
+          "word": "of",
+          "start": 147.88,
+          "end": 148.14,
+          "probability": 1
+        },
+        {
+          "word": "dynamite",
+          "start": 148.14,
+          "end": 148.52,
+          "probability": 1
+        },
+        {
+          "word": "hand",
+          "start": 148.52,
+          "end": 148.82,
+          "probability": 0.65
+        },
+        {
+          "word": "to",
+          "start": 148.82,
+          "end": 148.96,
+          "probability": 0.41
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "start": 149.14,
+      "end": 149.28,
+      "text": "hand.",
+      "avgLogprob": -0.21047,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.3401,
+      "words": [
+        {
+          "word": "hand.",
+          "start": 149.14,
+          "end": 149.28,
+          "probability": 1
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "start": 150.06,
+      "end": 154.48,
+      "text": "Then, Bishop kicked free of somebody's grip, charged a loose outlaw near the fuse, and",
+      "avgLogprob": -0.21047,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.3401,
+      "words": [
+        {
+          "word": "Then,",
+          "start": 150.06,
+          "end": 150.22,
+          "probability": 0.99
+        },
+        {
+          "word": "Bishop",
+          "start": 150.54,
+          "end": 150.68,
+          "probability": 0.82
+        },
+        {
+          "word": "kicked",
+          "start": 150.68,
+          "end": 151,
+          "probability": 1
+        },
+        {
+          "word": "free",
+          "start": 151,
+          "end": 151.28,
+          "probability": 1
+        },
+        {
+          "word": "of",
+          "start": 151.28,
+          "end": 151.44,
+          "probability": 0.98
+        },
+        {
+          "word": "somebody's",
+          "start": 151.44,
+          "end": 151.84,
+          "probability": 0.93
+        },
+        {
+          "word": "grip,",
+          "start": 151.84,
+          "end": 152.1,
+          "probability": 0.99
+        },
+        {
+          "word": "charged",
+          "start": 152.44,
+          "end": 152.8,
+          "probability": 0.98
+        },
+        {
+          "word": "a",
+          "start": 152.8,
+          "end": 152.96,
+          "probability": 0.99
+        },
+        {
+          "word": "loose",
+          "start": 152.96,
+          "end": 153.22,
+          "probability": 1
+        },
+        {
+          "word": "outlaw",
+          "start": 153.22,
+          "end": 153.54,
+          "probability": 0.99
+        },
+        {
+          "word": "near",
+          "start": 153.54,
+          "end": 153.74,
+          "probability": 0.99
+        },
+        {
+          "word": "the",
+          "start": 153.74,
+          "end": 153.92,
+          "probability": 0.99
+        },
+        {
+          "word": "fuse,",
+          "start": 153.92,
+          "end": 154.2,
+          "probability": 0.96
+        },
+        {
+          "word": "and",
+          "start": 154.32,
+          "end": 154.48,
+          "probability": 0.93
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "start": 154.64,
+      "end": 156.38,
+      "text": "sent the man sprawling into a host trough.",
+      "avgLogprob": -0.21047,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.3401,
+      "words": [
+        {
+          "word": "sent",
+          "start": 154.64,
+          "end": 154.7,
+          "probability": 1
+        },
+        {
+          "word": "the",
+          "start": 154.7,
+          "end": 154.88,
+          "probability": 0.98
+        },
+        {
+          "word": "man",
+          "start": 154.88,
+          "end": 154.94,
+          "probability": 0.98
+        },
+        {
+          "word": "sprawling",
+          "start": 154.94,
+          "end": 155.56,
+          "probability": 0.99
+        },
+        {
+          "word": "into",
+          "start": 155.56,
+          "end": 155.74,
+          "probability": 0.99
+        },
+        {
+          "word": "a",
+          "start": 155.74,
+          "end": 155.92,
+          "probability": 0.99
+        },
+        {
+          "word": "host",
+          "start": 155.92,
+          "end": 156.14,
+          "probability": 0.59
+        },
+        {
+          "word": "trough.",
+          "start": 156.14,
+          "end": 156.38,
+          "probability": 0.92
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "start": 157.8,
+      "end": 159.14,
+      "text": "Dust grinned despite herself.",
+      "avgLogprob": -0.21047,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.3401,
+      "words": [
+        {
+          "word": "Dust",
+          "start": 157.8,
+          "end": 157.96,
+          "probability": 0.94
+        },
+        {
+          "word": "grinned",
+          "start": 157.96,
+          "end": 158.42,
+          "probability": 0.93
+        },
+        {
+          "word": "despite",
+          "start": 158.42,
+          "end": 158.82,
+          "probability": 0.86
+        },
+        {
+          "word": "herself.",
+          "start": 158.82,
+          "end": 159.14,
+          "probability": 0.95
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "start": 159.98,
+      "end": 160.96,
+      "text": "Could mule.",
+      "avgLogprob": -0.2302,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.37931,
+      "words": [
+        {
+          "word": "Could",
+          "start": 159.98,
+          "end": 160.54,
+          "probability": 0.52
+        },
+        {
+          "word": "mule.",
+          "start": 160.54,
+          "end": 160.96,
+          "probability": 0.95
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "start": 162.26,
+      "end": 166.32,
+      "text": "The mayor and two shopkeepers threw the dynamite bundle into the trough a second before the",
+      "avgLogprob": -0.2302,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.37931,
+      "words": [
+        {
+          "word": "The",
+          "start": 162.26,
+          "end": 162.44,
+          "probability": 1
+        },
+        {
+          "word": "mayor",
+          "start": 162.44,
+          "end": 162.74,
+          "probability": 0.86
+        },
+        {
+          "word": "and",
+          "start": 162.74,
+          "end": 162.92,
+          "probability": 0.99
+        },
+        {
+          "word": "two",
+          "start": 162.92,
+          "end": 163.14,
+          "probability": 0.95
+        },
+        {
+          "word": "shopkeepers",
+          "start": 163.14,
+          "end": 163.66,
+          "probability": 0.95
+        },
+        {
+          "word": "threw",
+          "start": 163.66,
+          "end": 164.04,
+          "probability": 0.92
+        },
+        {
+          "word": "the",
+          "start": 164.04,
+          "end": 164.26,
+          "probability": 0.99
+        },
+        {
+          "word": "dynamite",
+          "start": 164.26,
+          "end": 164.6,
+          "probability": 1
+        },
+        {
+          "word": "bundle",
+          "start": 164.6,
+          "end": 164.86,
+          "probability": 0.99
+        },
+        {
+          "word": "into",
+          "start": 164.86,
+          "end": 165.12,
+          "probability": 0.97
+        },
+        {
+          "word": "the",
+          "start": 165.12,
+          "end": 165.24,
+          "probability": 0.99
+        },
+        {
+          "word": "trough",
+          "start": 165.24,
+          "end": 165.46,
+          "probability": 0.99
+        },
+        {
+          "word": "a",
+          "start": 165.46,
+          "end": 165.62,
+          "probability": 0.96
+        },
+        {
+          "word": "second",
+          "start": 165.62,
+          "end": 165.92,
+          "probability": 0.99
+        },
+        {
+          "word": "before",
+          "start": 165.92,
+          "end": 166.22,
+          "probability": 0.96
+        },
+        {
+          "word": "the",
+          "start": 166.22,
+          "end": 166.32,
+          "probability": 0.99
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "start": 166.46,
+      "end": 167.14,
+      "text": "few sparked out.",
+      "avgLogprob": -0.2302,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.37931,
+      "words": [
+        {
+          "word": "few",
+          "start": 166.46,
+          "end": 166.54,
+          "probability": 0.62
+        },
+        {
+          "word": "sparked",
+          "start": 166.54,
+          "end": 166.82,
+          "probability": 0.99
+        },
+        {
+          "word": "out.",
+          "start": 166.82,
+          "end": 167.14,
+          "probability": 1
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "start": 167.84,
+      "end": 173.2,
+      "text": "A muddy burst shot into the air, soaking half the street, and probably improving several",
+      "avgLogprob": -0.2302,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.37931,
+      "words": [
+        {
+          "word": "A",
+          "start": 167.84,
+          "end": 168.04,
+          "probability": 1
+        },
+        {
+          "word": "muddy",
+          "start": 168.04,
+          "end": 168.36,
+          "probability": 1
+        },
+        {
+          "word": "burst",
+          "start": 168.36,
+          "end": 168.74,
+          "probability": 0.99
+        },
+        {
+          "word": "shot",
+          "start": 168.74,
+          "end": 169.22,
+          "probability": 0.99
+        },
+        {
+          "word": "into",
+          "start": 169.22,
+          "end": 169.32,
+          "probability": 0.99
+        },
+        {
+          "word": "the",
+          "start": 169.32,
+          "end": 169.54,
+          "probability": 1
+        },
+        {
+          "word": "air,",
+          "start": 169.54,
+          "end": 169.66,
+          "probability": 1
+        },
+        {
+          "word": "soaking",
+          "start": 170.12,
+          "end": 170.24,
+          "probability": 1
+        },
+        {
+          "word": "half",
+          "start": 170.24,
+          "end": 170.52,
+          "probability": 0.99
+        },
+        {
+          "word": "the",
+          "start": 170.52,
+          "end": 170.7,
+          "probability": 0.97
+        },
+        {
+          "word": "street,",
+          "start": 170.7,
+          "end": 170.98,
+          "probability": 0.99
+        },
+        {
+          "word": "and",
+          "start": 171.52,
+          "end": 171.72,
+          "probability": 0.97
+        },
+        {
+          "word": "probably",
+          "start": 171.72,
+          "end": 172.26,
+          "probability": 0.98
+        },
+        {
+          "word": "improving",
+          "start": 172.26,
+          "end": 172.78,
+          "probability": 0.99
+        },
+        {
+          "word": "several",
+          "start": 172.78,
+          "end": 173.2,
+          "probability": 0.99
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "start": 173.4,
+      "end": 173.86,
+      "text": "personalities.",
+      "avgLogprob": -0.2302,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.37931,
+      "words": [
+        {
+          "word": "personalities.",
+          "start": 173.4,
+          "end": 173.86,
+          "probability": 0.99
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "start": 175.12,
+      "end": 177.82,
+      "text": "\"Your insurance is cancelled,\" Dust told Vaughan.",
+      "avgLogprob": -0.2302,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.37931,
+      "words": [
+        {
+          "word": "\"Your",
+          "start": 175.12,
+          "end": 175.32,
+          "probability": 0.95
+        },
+        {
+          "word": "insurance",
+          "start": 175.32,
+          "end": 175.86,
+          "probability": 1
+        },
+        {
+          "word": "is",
+          "start": 175.86,
+          "end": 176.04,
+          "probability": 0.99
+        },
+        {
+          "word": "cancelled,\"",
+          "start": 176.04,
+          "end": 177.06,
+          "probability": 0.77
+        },
+        {
+          "word": "Dust",
+          "start": 177.06,
+          "end": 177.28,
+          "probability": 0.8
+        },
+        {
+          "word": "told",
+          "start": 177.28,
+          "end": 177.52,
+          "probability": 0.96
+        },
+        {
+          "word": "Vaughan.",
+          "start": 177.52,
+          "end": 177.82,
+          "probability": 0.4
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "start": 179,
+      "end": 180.1,
+      "text": "The outlaw looked disgusted.",
+      "avgLogprob": -0.2302,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.37931,
+      "words": [
+        {
+          "word": "The",
+          "start": 179,
+          "end": 179.08,
+          "probability": 0.98
+        },
+        {
+          "word": "outlaw",
+          "start": 179.08,
+          "end": 179.34,
+          "probability": 0.96
+        },
+        {
+          "word": "looked",
+          "start": 179.34,
+          "end": 179.62,
+          "probability": 0.99
+        },
+        {
+          "word": "disgusted.",
+          "start": 179.62,
+          "end": 180.1,
+          "probability": 0.99
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "start": 180.4,
+      "end": 183.34,
+      "text": "That mule has no respect for Enterprise.",
+      "avgLogprob": -0.34771,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.41277,
+      "words": [
+        {
+          "word": "That",
+          "start": 180.4,
+          "end": 181.32,
+          "probability": 0.45
+        },
+        {
+          "word": "mule",
+          "start": 181.32,
+          "end": 181.72,
+          "probability": 0.96
+        },
+        {
+          "word": "has",
+          "start": 181.72,
+          "end": 181.9,
+          "probability": 0.98
+        },
+        {
+          "word": "no",
+          "start": 181.9,
+          "end": 182.2,
+          "probability": 0.99
+        },
+        {
+          "word": "respect",
+          "start": 182.2,
+          "end": 182.6,
+          "probability": 1
+        },
+        {
+          "word": "for",
+          "start": 182.6,
+          "end": 182.82,
+          "probability": 0.99
+        },
+        {
+          "word": "Enterprise.",
+          "start": 182.82,
+          "end": 183.34,
+          "probability": 0.72
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "start": 184.5,
+      "end": 186,
+      "text": "The storm tightened around them.",
+      "avgLogprob": -0.34771,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.41277,
+      "words": [
+        {
+          "word": "The",
+          "start": 184.5,
+          "end": 184.68,
+          "probability": 0.99
+        },
+        {
+          "word": "storm",
+          "start": 184.68,
+          "end": 185.1,
+          "probability": 0.97
+        },
+        {
+          "word": "tightened",
+          "start": 185.1,
+          "end": 185.5,
+          "probability": 0.99
+        },
+        {
+          "word": "around",
+          "start": 185.5,
+          "end": 185.76,
+          "probability": 0.98
+        },
+        {
+          "word": "them.",
+          "start": 185.76,
+          "end": 186,
+          "probability": 0.95
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "start": 187,
+      "end": 188,
+      "text": "Green clouds spun.",
+      "avgLogprob": -0.34771,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.41277,
+      "words": [
+        {
+          "word": "Green",
+          "start": 187,
+          "end": 187.14,
+          "probability": 0.99
+        },
+        {
+          "word": "clouds",
+          "start": 187.14,
+          "end": 187.44,
+          "probability": 0.77
+        },
+        {
+          "word": "spun.",
+          "start": 187.44,
+          "end": 188,
+          "probability": 1
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "start": 188.76,
+      "end": 190.02,
+      "text": "Wind shrieked through the veins.",
+      "avgLogprob": -0.34771,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.41277,
+      "words": [
+        {
+          "word": "Wind",
+          "start": 188.76,
+          "end": 188.88,
+          "probability": 0.75
+        },
+        {
+          "word": "shrieked",
+          "start": 188.88,
+          "end": 189.52,
+          "probability": 0.97
+        },
+        {
+          "word": "through",
+          "start": 189.52,
+          "end": 189.62,
+          "probability": 0.99
+        },
+        {
+          "word": "the",
+          "start": 189.62,
+          "end": 189.78,
+          "probability": 0.99
+        },
+        {
+          "word": "veins.",
+          "start": 189.78,
+          "end": 190.02,
+          "probability": 0.99
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "start": 190.8,
+      "end": 193.76,
+      "text": "Coins still trapped in the coach rattled like hail in every corner.",
+      "avgLogprob": -0.34771,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.41277,
+      "words": [
+        {
+          "word": "Coins",
+          "start": 190.8,
+          "end": 190.94,
+          "probability": 0.73
+        },
+        {
+          "word": "still",
+          "start": 190.94,
+          "end": 191.24,
+          "probability": 0.99
+        },
+        {
+          "word": "trapped",
+          "start": 191.24,
+          "end": 191.54,
+          "probability": 1
+        },
+        {
+          "word": "in",
+          "start": 191.54,
+          "end": 191.64,
+          "probability": 0.99
+        },
+        {
+          "word": "the",
+          "start": 191.64,
+          "end": 191.74,
+          "probability": 0.99
+        },
+        {
+          "word": "coach",
+          "start": 191.74,
+          "end": 191.96,
+          "probability": 0.83
+        },
+        {
+          "word": "rattled",
+          "start": 191.96,
+          "end": 192.3,
+          "probability": 0.91
+        },
+        {
+          "word": "like",
+          "start": 192.3,
+          "end": 192.56,
+          "probability": 0.98
+        },
+        {
+          "word": "hail",
+          "start": 192.56,
+          "end": 192.9,
+          "probability": 0.98
+        },
+        {
+          "word": "in",
+          "start": 192.9,
+          "end": 193.12,
+          "probability": 0.95
+        },
+        {
+          "word": "every",
+          "start": 193.12,
+          "end": 193.42,
+          "probability": 1
+        },
+        {
+          "word": "corner.",
+          "start": 193.42,
+          "end": 193.76,
+          "probability": 1
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "start": 194.72,
+      "end": 196.62,
+      "text": "The dust's hands were slick on the wheel now.",
+      "avgLogprob": -0.34771,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.41277,
+      "words": [
+        {
+          "word": "The",
+          "start": 194.72,
+          "end": 194.94,
+          "probability": 0.55
+        },
+        {
+          "word": "dust's",
+          "start": 194.94,
+          "end": 195.3,
+          "probability": 0.89
+        },
+        {
+          "word": "hands",
+          "start": 195.3,
+          "end": 195.42,
+          "probability": 0.99
+        },
+        {
+          "word": "were",
+          "start": 195.42,
+          "end": 195.6,
+          "probability": 0.99
+        },
+        {
+          "word": "slick",
+          "start": 195.6,
+          "end": 195.96,
+          "probability": 1
+        },
+        {
+          "word": "on",
+          "start": 195.96,
+          "end": 196.12,
+          "probability": 1
+        },
+        {
+          "word": "the",
+          "start": 196.12,
+          "end": 196.28,
+          "probability": 1
+        },
+        {
+          "word": "wheel",
+          "start": 196.28,
+          "end": 196.34,
+          "probability": 0.99
+        },
+        {
+          "word": "now.",
+          "start": 196.34,
+          "end": 196.62,
+          "probability": 0.96
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "start": 197.32,
+      "end": 199,
+      "text": "Where do I put this thing down?",
+      "avgLogprob": -0.34771,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.41277,
+      "words": [
+        {
+          "word": "Where",
+          "start": 197.32,
+          "end": 197.88,
+          "probability": 0.54
+        },
+        {
+          "word": "do",
+          "start": 197.88,
+          "end": 197.96,
+          "probability": 1
+        },
+        {
+          "word": "I",
+          "start": 197.96,
+          "end": 198.06,
+          "probability": 0.99
+        },
+        {
+          "word": "put",
+          "start": 198.06,
+          "end": 198.24,
+          "probability": 1
+        },
+        {
+          "word": "this",
+          "start": 198.24,
+          "end": 198.42,
+          "probability": 0.99
+        },
+        {
+          "word": "thing",
+          "start": 198.42,
+          "end": 198.6,
+          "probability": 0.99
+        },
+        {
+          "word": "down?",
+          "start": 198.6,
+          "end": 199,
+          "probability": 1
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "start": 200.08,
+      "end": 202.32,
+      "text": "Varn laughed once, a short, sharp sound.",
+      "avgLogprob": -0.34771,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.41277,
+      "words": [
+        {
+          "word": "Varn",
+          "start": 200.08,
+          "end": 200.3,
+          "probability": 0.48
+        },
+        {
+          "word": "laughed",
+          "start": 200.3,
+          "end": 200.72,
+          "probability": 1
+        },
+        {
+          "word": "once,",
+          "start": 200.72,
+          "end": 201.08,
+          "probability": 0.99
+        },
+        {
+          "word": "a",
+          "start": 201.32,
+          "end": 201.4,
+          "probability": 1
+        },
+        {
+          "word": "short,",
+          "start": 201.4,
+          "end": 201.68,
+          "probability": 0.99
+        },
+        {
+          "word": "sharp",
+          "start": 201.88,
+          "end": 202.06,
+          "probability": 1
+        },
+        {
+          "word": "sound.",
+          "start": 202.06,
+          "end": 202.32,
+          "probability": 1
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "start": 202.92,
+      "end": 203.9,
+      "text": "You don't.",
+      "avgLogprob": -0.34771,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.41277,
+      "words": [
+        {
+          "word": "You",
+          "start": 202.92,
+          "end": 203.48,
+          "probability": 0.7
+        },
+        {
+          "word": "don't.",
+          "start": 203.48,
+          "end": 203.9,
+          "probability": 1
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "start": 204.14,
+      "end": 205.32,
+      "text": "It lands what it wants.",
+      "avgLogprob": -0.34771,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.41277,
+      "words": [
+        {
+          "word": "It",
+          "start": 204.14,
+          "end": 204.32,
+          "probability": 0.97
+        },
+        {
+          "word": "lands",
+          "start": 204.32,
+          "end": 204.62,
+          "probability": 0.99
+        },
+        {
+          "word": "what",
+          "start": 204.62,
+          "end": 204.82,
+          "probability": 0.94
+        },
+        {
+          "word": "it",
+          "start": 204.82,
+          "end": 204.92,
+          "probability": 1
+        },
+        {
+          "word": "wants.",
+          "start": 204.92,
+          "end": 205.32,
+          "probability": 1
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "start": 206.04,
+      "end": 206.96,
+      "text": "Long answer.",
+      "avgLogprob": -0.34771,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.41277,
+      "words": [
+        {
+          "word": "Long",
+          "start": 206.04,
+          "end": 206.6,
+          "probability": 0.88
+        },
+        {
+          "word": "answer.",
+          "start": 206.6,
+          "end": 206.96,
+          "probability": 0.99
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "start": 209.3,
+      "end": 211.42,
+      "text": "The schoolhouse was too close to the street.",
+      "avgLogprob": -0.15312,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.40476,
+      "words": [
+        {
+          "word": "The",
+          "start": 209.3,
+          "end": 209.78,
+          "probability": 0.48
+        },
+        {
+          "word": "schoolhouse",
+          "start": 209.78,
+          "end": 210.26,
+          "probability": 0.87
+        },
+        {
+          "word": "was",
+          "start": 210.26,
+          "end": 210.44,
+          "probability": 0.99
+        },
+        {
+          "word": "too",
+          "start": 210.44,
+          "end": 210.7,
+          "probability": 0.97
+        },
+        {
+          "word": "close",
+          "start": 210.7,
+          "end": 210.94,
+          "probability": 1
+        },
+        {
+          "word": "to",
+          "start": 210.94,
+          "end": 211.08,
+          "probability": 0.99
+        },
+        {
+          "word": "the",
+          "start": 211.08,
+          "end": 211.22,
+          "probability": 0.99
+        },
+        {
+          "word": "street.",
+          "start": 211.22,
+          "end": 211.42,
+          "probability": 0.97
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "start": 212.14,
+      "end": 213.5,
+      "text": "The livery was full of horses.",
+      "avgLogprob": -0.15312,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.40476,
+      "words": [
+        {
+          "word": "The",
+          "start": 212.14,
+          "end": 212.3,
+          "probability": 0.97
+        },
+        {
+          "word": "livery",
+          "start": 212.3,
+          "end": 212.66,
+          "probability": 0.99
+        },
+        {
+          "word": "was",
+          "start": 212.66,
+          "end": 212.86,
+          "probability": 1
+        },
+        {
+          "word": "full",
+          "start": 212.86,
+          "end": 213.1,
+          "probability": 0.99
+        },
+        {
+          "word": "of",
+          "start": 213.1,
+          "end": 213.26,
+          "probability": 1
+        },
+        {
+          "word": "horses.",
+          "start": 213.26,
+          "end": 213.5,
+          "probability": 0.99
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "start": 214.18,
+      "end": 215.82,
+      "text": "The church had enough problems already.",
+      "avgLogprob": -0.15312,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.40476,
+      "words": [
+        {
+          "word": "The",
+          "start": 214.18,
+          "end": 214.34,
+          "probability": 0.99
+        },
+        {
+          "word": "church",
+          "start": 214.34,
+          "end": 214.56,
+          "probability": 0.93
+        },
+        {
+          "word": "had",
+          "start": 214.56,
+          "end": 214.74,
+          "probability": 0.99
+        },
+        {
+          "word": "enough",
+          "start": 214.74,
+          "end": 215,
+          "probability": 1
+        },
+        {
+          "word": "problems",
+          "start": 215,
+          "end": 215.44,
+          "probability": 0.99
+        },
+        {
+          "word": "already.",
+          "start": 215.44,
+          "end": 215.82,
+          "probability": 0.99
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "start": 216.74,
+      "end": 219.04,
+      "text": "Then she saw the cemetery on the fore edge of town.",
+      "avgLogprob": -0.15312,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.40476,
+      "words": [
+        {
+          "word": "Then",
+          "start": 216.74,
+          "end": 216.86,
+          "probability": 0.98
+        },
+        {
+          "word": "she",
+          "start": 216.86,
+          "end": 217.16,
+          "probability": 0.69
+        },
+        {
+          "word": "saw",
+          "start": 217.16,
+          "end": 217.36,
+          "probability": 1
+        },
+        {
+          "word": "the",
+          "start": 217.36,
+          "end": 217.58,
+          "probability": 0.97
+        },
+        {
+          "word": "cemetery",
+          "start": 217.58,
+          "end": 217.9,
+          "probability": 0.99
+        },
+        {
+          "word": "on",
+          "start": 217.9,
+          "end": 218.14,
+          "probability": 0.98
+        },
+        {
+          "word": "the",
+          "start": 218.14,
+          "end": 218.3,
+          "probability": 1
+        },
+        {
+          "word": "fore",
+          "start": 218.3,
+          "end": 218.5,
+          "probability": 0.48
+        },
+        {
+          "word": "edge",
+          "start": 218.5,
+          "end": 218.66,
+          "probability": 0.75
+        },
+        {
+          "word": "of",
+          "start": 218.66,
+          "end": 218.72,
+          "probability": 0.99
+        },
+        {
+          "word": "town.",
+          "start": 218.72,
+          "end": 219.04,
+          "probability": 0.99
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "start": 219.82,
+      "end": 223.12,
+      "text": "Wide open except for a row of leaning stones and one big marble monument.",
+      "avgLogprob": -0.15312,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.40476,
+      "words": [
+        {
+          "word": "Wide",
+          "start": 219.82,
+          "end": 219.92,
+          "probability": 0.99
+        },
+        {
+          "word": "open",
+          "start": 219.92,
+          "end": 220.14,
+          "probability": 0.91
+        },
+        {
+          "word": "except",
+          "start": 220.14,
+          "end": 220.38,
+          "probability": 0.76
+        },
+        {
+          "word": "for",
+          "start": 220.38,
+          "end": 220.54,
+          "probability": 0.98
+        },
+        {
+          "word": "a",
+          "start": 220.54,
+          "end": 220.66,
+          "probability": 0.98
+        },
+        {
+          "word": "row",
+          "start": 220.66,
+          "end": 220.8,
+          "probability": 0.98
+        },
+        {
+          "word": "of",
+          "start": 220.8,
+          "end": 220.96,
+          "probability": 0.99
+        },
+        {
+          "word": "leaning",
+          "start": 220.96,
+          "end": 221.24,
+          "probability": 0.97
+        },
+        {
+          "word": "stones",
+          "start": 221.24,
+          "end": 221.62,
+          "probability": 0.99
+        },
+        {
+          "word": "and",
+          "start": 221.62,
+          "end": 221.92,
+          "probability": 0.73
+        },
+        {
+          "word": "one",
+          "start": 221.92,
+          "end": 222.08,
+          "probability": 0.93
+        },
+        {
+          "word": "big",
+          "start": 222.08,
+          "end": 222.34,
+          "probability": 0.98
+        },
+        {
+          "word": "marble",
+          "start": 222.34,
+          "end": 222.7,
+          "probability": 0.98
+        },
+        {
+          "word": "monument.",
+          "start": 222.7,
+          "end": 223.12,
+          "probability": 0.99
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "start": 223.36,
+      "end": 224.64,
+      "text": "Nobody had ever polished Kinders.",
+      "avgLogprob": -0.15312,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.40476,
+      "words": [
+        {
+          "word": "Nobody",
+          "start": 223.36,
+          "end": 223.5,
+          "probability": 0.97
+        },
+        {
+          "word": "had",
+          "start": 223.5,
+          "end": 223.66,
+          "probability": 0.98
+        },
+        {
+          "word": "ever",
+          "start": 223.66,
+          "end": 223.8,
+          "probability": 0.99
+        },
+        {
+          "word": "polished",
+          "start": 223.8,
+          "end": 224.22,
+          "probability": 0.99
+        },
+        {
+          "word": "Kinders.",
+          "start": 224.22,
+          "end": 224.64,
+          "probability": 0.58
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "start": 225.6,
+      "end": 228,
+      "text": "\"That'll do.\" She aimed for it.",
+      "avgLogprob": -0.30944,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.44,
+      "words": [
+        {
+          "word": "\"That'll",
+          "start": 225.6,
+          "end": 225.88,
+          "probability": 0.72
+        },
+        {
+          "word": "do.\"",
+          "start": 225.88,
+          "end": 226.94,
+          "probability": 0.83
+        },
+        {
+          "word": "She",
+          "start": 226.94,
+          "end": 227.28,
+          "probability": 0.55
+        },
+        {
+          "word": "aimed",
+          "start": 227.28,
+          "end": 227.52,
+          "probability": 0.99
+        },
+        {
+          "word": "for",
+          "start": 227.52,
+          "end": 227.76,
+          "probability": 0.99
+        },
+        {
+          "word": "it.",
+          "start": 227.76,
+          "end": 228,
+          "probability": 1
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "start": 228.9,
+      "end": 230.38,
+      "text": "Varn actually looked alarmed now.",
+      "avgLogprob": -0.30944,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.44,
+      "words": [
+        {
+          "word": "Varn",
+          "start": 228.9,
+          "end": 229.06,
+          "probability": 0.35
+        },
+        {
+          "word": "actually",
+          "start": 229.06,
+          "end": 229.5,
+          "probability": 0.96
+        },
+        {
+          "word": "looked",
+          "start": 229.5,
+          "end": 229.72,
+          "probability": 0.98
+        },
+        {
+          "word": "alarmed",
+          "start": 229.72,
+          "end": 230.1,
+          "probability": 0.99
+        },
+        {
+          "word": "now.",
+          "start": 230.1,
+          "end": 230.38,
+          "probability": 0.97
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "start": 231.18,
+      "end": 232.92,
+      "text": "\"You cannot be serious!\"",
+      "avgLogprob": -0.30944,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.44,
+      "words": [
+        {
+          "word": "\"You",
+          "start": 231.18,
+          "end": 231.34,
+          "probability": 0.98
+        },
+        {
+          "word": "cannot",
+          "start": 231.34,
+          "end": 231.7,
+          "probability": 0.81
+        },
+        {
+          "word": "be",
+          "start": 231.7,
+          "end": 231.94,
+          "probability": 1
+        },
+        {
+          "word": "serious!\"",
+          "start": 231.94,
+          "end": 232.92,
+          "probability": 0.72
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "start": 233.26,
+      "end": 235.6,
+      "text": "\"I can when I'm tired.\"",
+      "avgLogprob": -0.30944,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.44,
+      "words": [
+        {
+          "word": "\"I",
+          "start": 233.26,
+          "end": 233.66,
+          "probability": 0.87
+        },
+        {
+          "word": "can",
+          "start": 233.66,
+          "end": 233.96,
+          "probability": 1
+        },
+        {
+          "word": "when",
+          "start": 233.96,
+          "end": 234.14,
+          "probability": 0.97
+        },
+        {
+          "word": "I'm",
+          "start": 234.14,
+          "end": 234.28,
+          "probability": 0.99
+        },
+        {
+          "word": "tired.\"",
+          "start": 234.28,
+          "end": 235.6,
+          "probability": 0.95
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "start": 235.74,
+      "end": 239.58,
+      "text": "The coach ripped through the edge of the storm, dropping out of the green clouds and a howl",
+      "avgLogprob": -0.30944,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.44,
+      "words": [
+        {
+          "word": "The",
+          "start": 235.74,
+          "end": 235.9,
+          "probability": 1
+        },
+        {
+          "word": "coach",
+          "start": 235.9,
+          "end": 236.16,
+          "probability": 0.97
+        },
+        {
+          "word": "ripped",
+          "start": 236.16,
+          "end": 236.52,
+          "probability": 0.97
+        },
+        {
+          "word": "through",
+          "start": 236.52,
+          "end": 236.76,
+          "probability": 0.99
+        },
+        {
+          "word": "the",
+          "start": 236.76,
+          "end": 236.92,
+          "probability": 1
+        },
+        {
+          "word": "edge",
+          "start": 236.92,
+          "end": 236.98,
+          "probability": 0.99
+        },
+        {
+          "word": "of",
+          "start": 236.98,
+          "end": 237.1,
+          "probability": 1
+        },
+        {
+          "word": "the",
+          "start": 237.1,
+          "end": 237.18,
+          "probability": 0.97
+        },
+        {
+          "word": "storm,",
+          "start": 237.18,
+          "end": 237.48,
+          "probability": 1
+        },
+        {
+          "word": "dropping",
+          "start": 237.78,
+          "end": 238.12,
+          "probability": 0.96
+        },
+        {
+          "word": "out",
+          "start": 238.12,
+          "end": 238.3,
+          "probability": 0.99
+        },
+        {
+          "word": "of",
+          "start": 238.3,
+          "end": 238.32,
+          "probability": 0.98
+        },
+        {
+          "word": "the",
+          "start": 238.32,
+          "end": 238.44,
+          "probability": 0.99
+        },
+        {
+          "word": "green",
+          "start": 238.44,
+          "end": 238.66,
+          "probability": 0.96
+        },
+        {
+          "word": "clouds",
+          "start": 238.66,
+          "end": 238.98,
+          "probability": 0.99
+        },
+        {
+          "word": "and",
+          "start": 238.98,
+          "end": 239.14,
+          "probability": 0.68
+        },
+        {
+          "word": "a",
+          "start": 239.14,
+          "end": 239.32,
+          "probability": 0.96
+        },
+        {
+          "word": "howl",
+          "start": 239.32,
+          "end": 239.58,
+          "probability": 0.97
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "start": 239.58,
+      "end": 240.42,
+      "text": "of sting the metal.",
+      "avgLogprob": -0.30944,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.44,
+      "words": [
+        {
+          "word": "of",
+          "start": 239.58,
+          "end": 239.68,
+          "probability": 1
+        },
+        {
+          "word": "sting",
+          "start": 239.68,
+          "end": 240,
+          "probability": 0.67
+        },
+        {
+          "word": "the",
+          "start": 240,
+          "end": 240.16,
+          "probability": 0.42
+        },
+        {
+          "word": "metal.",
+          "start": 240.16,
+          "end": 240.42,
+          "probability": 1
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "start": 241.34,
+      "end": 243.12,
+      "text": "Wheels clipped the top branch of a cottonwood.",
+      "avgLogprob": -0.30944,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.44,
+      "words": [
+        {
+          "word": "Wheels",
+          "start": 241.34,
+          "end": 241.52,
+          "probability": 0.92
+        },
+        {
+          "word": "clipped",
+          "start": 241.52,
+          "end": 241.74,
+          "probability": 0.81
+        },
+        {
+          "word": "the",
+          "start": 241.74,
+          "end": 241.92,
+          "probability": 0.99
+        },
+        {
+          "word": "top",
+          "start": 241.92,
+          "end": 242.18,
+          "probability": 1
+        },
+        {
+          "word": "branch",
+          "start": 242.18,
+          "end": 242.48,
+          "probability": 0.98
+        },
+        {
+          "word": "of",
+          "start": 242.48,
+          "end": 242.56,
+          "probability": 0.96
+        },
+        {
+          "word": "a",
+          "start": 242.56,
+          "end": 242.64,
+          "probability": 0.8
+        },
+        {
+          "word": "cottonwood.",
+          "start": 242.64,
+          "end": 243.12,
+          "probability": 0.96
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "start": 243.84,
+      "end": 247.26,
+      "text": "One thing snapped free and rolled away across the graveyard like a silver sign.",
+      "avgLogprob": -0.30944,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.44,
+      "words": [
+        {
+          "word": "One",
+          "start": 243.84,
+          "end": 243.92,
+          "probability": 0.97
+        },
+        {
+          "word": "thing",
+          "start": 243.92,
+          "end": 244.14,
+          "probability": 0.89
+        },
+        {
+          "word": "snapped",
+          "start": 244.14,
+          "end": 244.58,
+          "probability": 1
+        },
+        {
+          "word": "free",
+          "start": 244.58,
+          "end": 244.88,
+          "probability": 0.99
+        },
+        {
+          "word": "and",
+          "start": 244.88,
+          "end": 245.02,
+          "probability": 0.99
+        },
+        {
+          "word": "rolled",
+          "start": 245.02,
+          "end": 245.3,
+          "probability": 0.94
+        },
+        {
+          "word": "away",
+          "start": 245.3,
+          "end": 245.52,
+          "probability": 0.96
+        },
+        {
+          "word": "across",
+          "start": 245.52,
+          "end": 245.78,
+          "probability": 0.99
+        },
+        {
+          "word": "the",
+          "start": 245.78,
+          "end": 245.98,
+          "probability": 0.98
+        },
+        {
+          "word": "graveyard",
+          "start": 245.98,
+          "end": 246.34,
+          "probability": 0.97
+        },
+        {
+          "word": "like",
+          "start": 246.34,
+          "end": 246.52,
+          "probability": 0.97
+        },
+        {
+          "word": "a",
+          "start": 246.52,
+          "end": 246.66,
+          "probability": 1
+        },
+        {
+          "word": "silver",
+          "start": 246.66,
+          "end": 247,
+          "probability": 0.93
+        },
+        {
+          "word": "sign.",
+          "start": 247,
+          "end": 247.26,
+          "probability": 0.2
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "start": 249.88,
+      "end": 254.44,
+      "text": "The coach slammed into the cemetery dirt, bounced once, crushed a fence, and skidded",
+      "avgLogprob": -0.29672,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.46479,
+      "words": [
+        {
+          "word": "The",
+          "start": 249.88,
+          "end": 250.36,
+          "probability": 0.32
+        },
+        {
+          "word": "coach",
+          "start": 250.36,
+          "end": 250.58,
+          "probability": 0.99
+        },
+        {
+          "word": "slammed",
+          "start": 250.58,
+          "end": 251.04,
+          "probability": 0.99
+        },
+        {
+          "word": "into",
+          "start": 251.04,
+          "end": 251.28,
+          "probability": 0.98
+        },
+        {
+          "word": "the",
+          "start": 251.28,
+          "end": 251.4,
+          "probability": 0.99
+        },
+        {
+          "word": "cemetery",
+          "start": 251.4,
+          "end": 251.72,
+          "probability": 0.95
+        },
+        {
+          "word": "dirt,",
+          "start": 251.72,
+          "end": 252.1,
+          "probability": 0.96
+        },
+        {
+          "word": "bounced",
+          "start": 252.48,
+          "end": 252.62,
+          "probability": 0.98
+        },
+        {
+          "word": "once,",
+          "start": 252.62,
+          "end": 252.98,
+          "probability": 0.99
+        },
+        {
+          "word": "crushed",
+          "start": 253.28,
+          "end": 253.4,
+          "probability": 0.98
+        },
+        {
+          "word": "a",
+          "start": 253.4,
+          "end": 253.5,
+          "probability": 0.92
+        },
+        {
+          "word": "fence,",
+          "start": 253.5,
+          "end": 253.8,
+          "probability": 0.99
+        },
+        {
+          "word": "and",
+          "start": 254,
+          "end": 254.08,
+          "probability": 0.94
+        },
+        {
+          "word": "skidded",
+          "start": 254.08,
+          "end": 254.44,
+          "probability": 0.97
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "start": 254.5,
+      "end": 255.88,
+      "text": "to a stop against the marble monument.",
+      "avgLogprob": -0.29672,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.46479,
+      "words": [
+        {
+          "word": "to",
+          "start": 254.5,
+          "end": 254.56,
+          "probability": 0.98
+        },
+        {
+          "word": "a",
+          "start": 254.56,
+          "end": 254.64,
+          "probability": 0.98
+        },
+        {
+          "word": "stop",
+          "start": 254.64,
+          "end": 254.9,
+          "probability": 0.99
+        },
+        {
+          "word": "against",
+          "start": 254.9,
+          "end": 255.1,
+          "probability": 0.99
+        },
+        {
+          "word": "the",
+          "start": 255.1,
+          "end": 255.26,
+          "probability": 0.88
+        },
+        {
+          "word": "marble",
+          "start": 255.26,
+          "end": 255.5,
+          "probability": 0.97
+        },
+        {
+          "word": "monument.",
+          "start": 255.5,
+          "end": 255.88,
+          "probability": 1
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "start": 257.14,
+      "end": 261.78,
+      "text": "For a moment, everything was silent, fixed up the soft tick, tick, tick of corn brass.",
+      "avgLogprob": -0.29672,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.46479,
+      "words": [
+        {
+          "word": "For",
+          "start": 257.14,
+          "end": 257.24,
+          "probability": 1
+        },
+        {
+          "word": "a",
+          "start": 257.24,
+          "end": 257.42,
+          "probability": 1
+        },
+        {
+          "word": "moment,",
+          "start": 257.42,
+          "end": 257.58,
+          "probability": 1
+        },
+        {
+          "word": "everything",
+          "start": 257.94,
+          "end": 258.24,
+          "probability": 0.99
+        },
+        {
+          "word": "was",
+          "start": 258.24,
+          "end": 258.42,
+          "probability": 1
+        },
+        {
+          "word": "silent,",
+          "start": 258.42,
+          "end": 258.82,
+          "probability": 0.99
+        },
+        {
+          "word": "fixed",
+          "start": 259.2,
+          "end": 259.3,
+          "probability": 0.78
+        },
+        {
+          "word": "up",
+          "start": 259.3,
+          "end": 259.4,
+          "probability": 0.98
+        },
+        {
+          "word": "the",
+          "start": 259.4,
+          "end": 259.5,
+          "probability": 0.86
+        },
+        {
+          "word": "soft",
+          "start": 259.5,
+          "end": 259.78,
+          "probability": 0.99
+        },
+        {
+          "word": "tick,",
+          "start": 259.78,
+          "end": 260,
+          "probability": 0.79
+        },
+        {
+          "word": "tick,",
+          "start": 260.28,
+          "end": 260.36,
+          "probability": 0.99
+        },
+        {
+          "word": "tick",
+          "start": 260.68,
+          "end": 260.9,
+          "probability": 0.99
+        },
+        {
+          "word": "of",
+          "start": 260.9,
+          "end": 261.16,
+          "probability": 0.89
+        },
+        {
+          "word": "corn",
+          "start": 261.16,
+          "end": 261.48,
+          "probability": 0.96
+        },
+        {
+          "word": "brass.",
+          "start": 261.48,
+          "end": 261.78,
+          "probability": 0.27
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "start": 262.98,
+      "end": 267.38,
+      "text": "The parrot puffed its feathers and said in a much calmer voice, \"I am landing.",
+      "avgLogprob": -0.29672,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.46479,
+      "words": [
+        {
+          "word": "The",
+          "start": 262.98,
+          "end": 263.16,
+          "probability": 0.99
+        },
+        {
+          "word": "parrot",
+          "start": 263.16,
+          "end": 263.5,
+          "probability": 0.97
+        },
+        {
+          "word": "puffed",
+          "start": 263.5,
+          "end": 263.74,
+          "probability": 0.99
+        },
+        {
+          "word": "its",
+          "start": 263.74,
+          "end": 263.9,
+          "probability": 0.97
+        },
+        {
+          "word": "feathers",
+          "start": 263.9,
+          "end": 264.14,
+          "probability": 1
+        },
+        {
+          "word": "and",
+          "start": 264.14,
+          "end": 264.5,
+          "probability": 0.91
+        },
+        {
+          "word": "said",
+          "start": 264.5,
+          "end": 264.7,
+          "probability": 0.98
+        },
+        {
+          "word": "in",
+          "start": 264.7,
+          "end": 264.84,
+          "probability": 0.82
+        },
+        {
+          "word": "a",
+          "start": 264.84,
+          "end": 264.94,
+          "probability": 0.99
+        },
+        {
+          "word": "much",
+          "start": 264.94,
+          "end": 265.28,
+          "probability": 0.99
+        },
+        {
+          "word": "calmer",
+          "start": 265.28,
+          "end": 265.56,
+          "probability": 0.92
+        },
+        {
+          "word": "voice,",
+          "start": 265.56,
+          "end": 265.96,
+          "probability": 1
+        },
+        {
+          "word": "\"I",
+          "start": 266.84,
+          "end": 266.92,
+          "probability": 0.74
+        },
+        {
+          "word": "am",
+          "start": 266.92,
+          "end": 267.02,
+          "probability": 0.91
+        },
+        {
+          "word": "landing.",
+          "start": 267.02,
+          "end": 267.38,
+          "probability": 0.99
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "start": 268.56,
+      "end": 271.54,
+      "text": "Just let go of the wheel and breathe.\"",
+      "avgLogprob": -0.29672,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.46479,
+      "words": [
+        {
+          "word": "Just",
+          "start": 268.56,
+          "end": 268.66,
+          "probability": 0.93
+        },
+        {
+          "word": "let",
+          "start": 268.66,
+          "end": 268.86,
+          "probability": 0.99
+        },
+        {
+          "word": "go",
+          "start": 268.86,
+          "end": 269.1,
+          "probability": 1
+        },
+        {
+          "word": "of",
+          "start": 269.1,
+          "end": 269.22,
+          "probability": 0.99
+        },
+        {
+          "word": "the",
+          "start": 269.22,
+          "end": 269.38,
+          "probability": 1
+        },
+        {
+          "word": "wheel",
+          "start": 269.38,
+          "end": 269.5,
+          "probability": 1
+        },
+        {
+          "word": "and",
+          "start": 269.5,
+          "end": 269.62,
+          "probability": 0.7
+        },
+        {
+          "word": "breathe.\"",
+          "start": 269.62,
+          "end": 271.54,
+          "probability": 0.62
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "start": 273.1,
+      "end": 276.32,
+      "text": "The hatch burst open above his townspeople came warning through the gate.",
+      "avgLogprob": -0.37415,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.42739,
+      "words": [
+        {
+          "word": "The",
+          "start": 273.1,
+          "end": 273.62,
+          "probability": 0.85
+        },
+        {
+          "word": "hatch",
+          "start": 273.62,
+          "end": 273.88,
+          "probability": 1
+        },
+        {
+          "word": "burst",
+          "start": 273.88,
+          "end": 274.24,
+          "probability": 0.79
+        },
+        {
+          "word": "open",
+          "start": 274.24,
+          "end": 274.44,
+          "probability": 1
+        },
+        {
+          "word": "above",
+          "start": 274.44,
+          "end": 274.68,
+          "probability": 1
+        },
+        {
+          "word": "his",
+          "start": 274.68,
+          "end": 274.86,
+          "probability": 0.39
+        },
+        {
+          "word": "townspeople",
+          "start": 274.86,
+          "end": 275.36,
+          "probability": 1
+        },
+        {
+          "word": "came",
+          "start": 275.36,
+          "end": 275.56,
+          "probability": 0.6
+        },
+        {
+          "word": "warning",
+          "start": 275.56,
+          "end": 275.86,
+          "probability": 0.91
+        },
+        {
+          "word": "through",
+          "start": 275.86,
+          "end": 276.06,
+          "probability": 1
+        },
+        {
+          "word": "the",
+          "start": 276.06,
+          "end": 276.16,
+          "probability": 1
+        },
+        {
+          "word": "gate.",
+          "start": 276.16,
+          "end": 276.32,
+          "probability": 1
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "start": 276.95,
+      "end": 280.32,
+      "text": "The mail arrived first, soaked, muddy, and killing half a shovel.",
+      "avgLogprob": -0.37415,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.42739,
+      "words": [
+        {
+          "word": "The",
+          "start": 276.95,
+          "end": 277.14,
+          "probability": 1
+        },
+        {
+          "word": "mail",
+          "start": 277.14,
+          "end": 277.42,
+          "probability": 0.11
+        },
+        {
+          "word": "arrived",
+          "start": 277.42,
+          "end": 277.74,
+          "probability": 0.99
+        },
+        {
+          "word": "first,",
+          "start": 277.74,
+          "end": 278.18,
+          "probability": 1
+        },
+        {
+          "word": "soaked,",
+          "start": 278.5,
+          "end": 278.68,
+          "probability": 1
+        },
+        {
+          "word": "muddy,",
+          "start": 278.96,
+          "end": 279.08,
+          "probability": 1
+        },
+        {
+          "word": "and",
+          "start": 279.19,
+          "end": 279.38,
+          "probability": 1
+        },
+        {
+          "word": "killing",
+          "start": 279.38,
+          "end": 279.64,
+          "probability": 0.98
+        },
+        {
+          "word": "half",
+          "start": 279.64,
+          "end": 279.9,
+          "probability": 0.61
+        },
+        {
+          "word": "a",
+          "start": 279.9,
+          "end": 280.1,
+          "probability": 1
+        },
+        {
+          "word": "shovel.",
+          "start": 280.1,
+          "end": 280.32,
+          "probability": 1
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "start": 281.11,
+      "end": 284.48,
+      "text": "He stared at the wrecked flying coach then it roared trust on the silver sacks.",
+      "avgLogprob": -0.37415,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.42739,
+      "words": [
+        {
+          "word": "He",
+          "start": 281.11,
+          "end": 281.3,
+          "probability": 1
+        },
+        {
+          "word": "stared",
+          "start": 281.3,
+          "end": 281.62,
+          "probability": 1
+        },
+        {
+          "word": "at",
+          "start": 281.62,
+          "end": 281.76,
+          "probability": 1
+        },
+        {
+          "word": "the",
+          "start": 281.76,
+          "end": 281.86,
+          "probability": 1
+        },
+        {
+          "word": "wrecked",
+          "start": 281.86,
+          "end": 282.12,
+          "probability": 0.98
+        },
+        {
+          "word": "flying",
+          "start": 282.12,
+          "end": 282.44,
+          "probability": 0.99
+        },
+        {
+          "word": "coach",
+          "start": 282.44,
+          "end": 282.76,
+          "probability": 1
+        },
+        {
+          "word": "then",
+          "start": 282.76,
+          "end": 283.04,
+          "probability": 0.16
+        },
+        {
+          "word": "it",
+          "start": 283.04,
+          "end": 283.12,
+          "probability": 0.99
+        },
+        {
+          "word": "roared",
+          "start": 283.12,
+          "end": 283.38,
+          "probability": 0.91
+        },
+        {
+          "word": "trust",
+          "start": 283.38,
+          "end": 283.72,
+          "probability": 0.17
+        },
+        {
+          "word": "on",
+          "start": 283.72,
+          "end": 283.88,
+          "probability": 1
+        },
+        {
+          "word": "the",
+          "start": 283.88,
+          "end": 284.04,
+          "probability": 1
+        },
+        {
+          "word": "silver",
+          "start": 284.04,
+          "end": 284.2,
+          "probability": 0.99
+        },
+        {
+          "word": "sacks.",
+          "start": 284.2,
+          "end": 284.48,
+          "probability": 0.97
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "start": 285.32,
+      "end": 286.04,
+      "text": "Then it dusted.",
+      "avgLogprob": -0.37415,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.42739,
+      "words": [
+        {
+          "word": "Then",
+          "start": 285.32,
+          "end": 285.4,
+          "probability": 1
+        },
+        {
+          "word": "it",
+          "start": 285.4,
+          "end": 285.48,
+          "probability": 1
+        },
+        {
+          "word": "dusted.",
+          "start": 285.48,
+          "end": 286.04,
+          "probability": 0.93
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "start": 287.3,
+      "end": 287.82,
+      "text": "\"Mushal!",
+      "avgLogprob": -0.37415,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.42739,
+      "words": [
+        {
+          "word": "\"Mushal!",
+          "start": 287.3,
+          "end": 287.82,
+          "probability": 0.81
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "start": 288.26,
+      "end": 290.4,
+      "text": "Did you just wess the sky?\"",
+      "avgLogprob": -0.37415,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.42739,
+      "words": [
+        {
+          "word": "Did",
+          "start": 288.26,
+          "end": 288.52,
+          "probability": 1
+        },
+        {
+          "word": "you",
+          "start": 288.52,
+          "end": 288.68,
+          "probability": 1
+        },
+        {
+          "word": "just",
+          "start": 288.68,
+          "end": 288.86,
+          "probability": 1
+        },
+        {
+          "word": "wess",
+          "start": 288.86,
+          "end": 289.2,
+          "probability": 0.18
+        },
+        {
+          "word": "the",
+          "start": 289.2,
+          "end": 289.38,
+          "probability": 1
+        },
+        {
+          "word": "sky?\"",
+          "start": 289.38,
+          "end": 290.4,
+          "probability": 1
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "start": 291.02,
+      "end": 293.38,
+      "text": "Dust stood, wincing at a bruise on her side.",
+      "avgLogprob": -0.37415,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.42739,
+      "words": [
+        {
+          "word": "Dust",
+          "start": 291.02,
+          "end": 291.42,
+          "probability": 0.99
+        },
+        {
+          "word": "stood,",
+          "start": 291.42,
+          "end": 291.84,
+          "probability": 1
+        },
+        {
+          "word": "wincing",
+          "start": 292.22,
+          "end": 292.4,
+          "probability": 0.99
+        },
+        {
+          "word": "at",
+          "start": 292.4,
+          "end": 292.52,
+          "probability": 1
+        },
+        {
+          "word": "a",
+          "start": 292.52,
+          "end": 292.6,
+          "probability": 1
+        },
+        {
+          "word": "bruise",
+          "start": 292.6,
+          "end": 292.92,
+          "probability": 1
+        },
+        {
+          "word": "on",
+          "start": 292.92,
+          "end": 292.98,
+          "probability": 0.99
+        },
+        {
+          "word": "her",
+          "start": 292.98,
+          "end": 293.08,
+          "probability": 1
+        },
+        {
+          "word": "side.",
+          "start": 293.08,
+          "end": 293.38,
+          "probability": 1
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "start": 294.34,
+      "end": 296,
+      "text": "\"Oh, the part that was stealing.\"",
+      "avgLogprob": -0.37415,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.42739,
+      "words": [
+        {
+          "word": "\"Oh,",
+          "start": 294.34,
+          "end": 294.62,
+          "probability": 0.53
+        },
+        {
+          "word": "the",
+          "start": 294.64,
+          "end": 294.76,
+          "probability": 0.48
+        },
+        {
+          "word": "part",
+          "start": 294.76,
+          "end": 295.08,
+          "probability": 0.21
+        },
+        {
+          "word": "that",
+          "start": 295.08,
+          "end": 295.26,
+          "probability": 0.93
+        },
+        {
+          "word": "was",
+          "start": 295.26,
+          "end": 295.38,
+          "probability": 1
+        },
+        {
+          "word": "stealing.\"",
+          "start": 295.38,
+          "end": 296,
+          "probability": 0.75
+        }
+      ]
+    }
+  ],
+  "words": [
+    {
+      "word": "Chapter",
+      "start": 0,
+      "end": 0.96,
+      "probability": 0.82
+    },
+    {
+      "word": "4,",
+      "start": 0.96,
+      "end": 1.38,
+      "probability": 0.47
+    },
+    {
+      "word": "The",
+      "start": 2.32,
+      "end": 2.46,
+      "probability": 0.7
+    },
+    {
+      "word": "Green",
+      "start": 2.46,
+      "end": 3.06,
+      "probability": 0.99
+    },
+    {
+      "word": "Storm.",
+      "start": 3.06,
+      "end": 3.96,
+      "probability": 1
+    },
+    {
+      "word": "The",
+      "start": 6.24,
+      "end": 6.42,
+      "probability": 0.99
+    },
+    {
+      "word": "storm",
+      "start": 6.42,
+      "end": 7.04,
+      "probability": 0.98
+    },
+    {
+      "word": "hit",
+      "start": 7.04,
+      "end": 7.4,
+      "probability": 1
+    },
+    {
+      "word": "before",
+      "start": 7.4,
+      "end": 8,
+      "probability": 0.98
+    },
+    {
+      "word": "either",
+      "start": 8,
+      "end": 8.42,
+      "probability": 0.99
+    },
+    {
+      "word": "of",
+      "start": 8.42,
+      "end": 8.68,
+      "probability": 0.98
+    },
+    {
+      "word": "them",
+      "start": 8.68,
+      "end": 8.84,
+      "probability": 1
+    },
+    {
+      "word": "could",
+      "start": 8.84,
+      "end": 9.02,
+      "probability": 0.98
+    },
+    {
+      "word": "say",
+      "start": 9.02,
+      "end": 9.26,
+      "probability": 0.98
+    },
+    {
+      "word": "anything",
+      "start": 9.26,
+      "end": 9.74,
+      "probability": 1
+    },
+    {
+      "word": "smarter.",
+      "start": 9.74,
+      "end": 10.16,
+      "probability": 1
+    },
+    {
+      "word": "Wind",
+      "start": 11.22,
+      "end": 11.38,
+      "probability": 0.99
+    },
+    {
+      "word": "slammed",
+      "start": 11.38,
+      "end": 11.96,
+      "probability": 1
+    },
+    {
+      "word": "the",
+      "start": 11.96,
+      "end": 12.22,
+      "probability": 0.99
+    },
+    {
+      "word": "coach",
+      "start": 12.22,
+      "end": 12.48,
+      "probability": 0.93
+    },
+    {
+      "word": "broadside.",
+      "start": 12.48,
+      "end": 13.02,
+      "probability": 0.98
+    },
+    {
+      "word": "The",
+      "start": 13.56,
+      "end": 13.78,
+      "probability": 1
+    },
+    {
+      "word": "whole",
+      "start": 13.78,
+      "end": 14.14,
+      "probability": 1
+    },
+    {
+      "word": "machine",
+      "start": 14.14,
+      "end": 14.6,
+      "probability": 1
+    },
+    {
+      "word": "groaned",
+      "start": 14.6,
+      "end": 15.34,
+      "probability": 0.99
+    },
+    {
+      "word": "and",
+      "start": 15.34,
+      "end": 15.5,
+      "probability": 1
+    },
+    {
+      "word": "spun.",
+      "start": 15.5,
+      "end": 16,
+      "probability": 1
+    },
+    {
+      "word": "Gauges",
+      "start": 16.76,
+      "end": 17.06,
+      "probability": 0.71
+    },
+    {
+      "word": "jumped.",
+      "start": 17.06,
+      "end": 17.38,
+      "probability": 1
+    },
+    {
+      "word": "Steam",
+      "start": 18.24,
+      "end": 18.36,
+      "probability": 0.87
+    },
+    {
+      "word": "blasted",
+      "start": 18.36,
+      "end": 19,
+      "probability": 1
+    },
+    {
+      "word": "from",
+      "start": 19,
+      "end": 19.2,
+      "probability": 1
+    },
+    {
+      "word": "a",
+      "start": 19.2,
+      "end": 19.34,
+      "probability": 1
+    },
+    {
+      "word": "split",
+      "start": 19.34,
+      "end": 19.62,
+      "probability": 1
+    },
+    {
+      "word": "scene",
+      "start": 19.62,
+      "end": 19.94,
+      "probability": 0.89
+    },
+    {
+      "word": "near",
+      "start": 19.94,
+      "end": 20.1,
+      "probability": 1
+    },
+    {
+      "word": "the",
+      "start": 20.1,
+      "end": 20.28,
+      "probability": 1
+    },
+    {
+      "word": "boiler.",
+      "start": 20.28,
+      "end": 20.48,
+      "probability": 0.99
+    },
+    {
+      "word": "The",
+      "start": 21.34,
+      "end": 21.54,
+      "probability": 1
+    },
+    {
+      "word": "parrot",
+      "start": 21.54,
+      "end": 21.9,
+      "probability": 1
+    },
+    {
+      "word": "flapped",
+      "start": 21.9,
+      "end": 22.44,
+      "probability": 0.99
+    },
+    {
+      "word": "in",
+      "start": 22.44,
+      "end": 22.6,
+      "probability": 1
+    },
+    {
+      "word": "frantic",
+      "start": 22.6,
+      "end": 23,
+      "probability": 1
+    },
+    {
+      "word": "circles,",
+      "start": 23,
+      "end": 23.3,
+      "probability": 1
+    },
+    {
+      "word": "then",
+      "start": 23.9,
+      "end": 24.12,
+      "probability": 0.56
+    },
+    {
+      "word": "landed",
+      "start": 24.12,
+      "end": 24.48,
+      "probability": 1
+    },
+    {
+      "word": "on",
+      "start": 24.48,
+      "end": 24.64,
+      "probability": 0.99
+    },
+    {
+      "word": "the",
+      "start": 24.64,
+      "end": 24.8,
+      "probability": 1
+    },
+    {
+      "word": "steering",
+      "start": 24.8,
+      "end": 25.1,
+      "probability": 1
+    },
+    {
+      "word": "wheel",
+      "start": 25.1,
+      "end": 25.32,
+      "probability": 1
+    },
+    {
+      "word": "because",
+      "start": 25.8,
+      "end": 25.94,
+      "probability": 0.91
+    },
+    {
+      "word": "panic",
+      "start": 25.94,
+      "end": 26.44,
+      "probability": 0.95
+    },
+    {
+      "word": "had",
+      "start": 26.44,
+      "end": 26.68,
+      "probability": 1
+    },
+    {
+      "word": "apparently",
+      "start": 26.68,
+      "end": 27.2,
+      "probability": 1
+    },
+    {
+      "word": "worn",
+      "start": 27.2,
+      "end": 27.58,
+      "probability": 1
+    },
+    {
+      "word": "out",
+      "start": 27.58,
+      "end": 27.76,
+      "probability": 1
+    },
+    {
+      "word": "the",
+      "start": 27.76,
+      "end": 27.98,
+      "probability": 1
+    },
+    {
+      "word": "rest",
+      "start": 27.98,
+      "end": 28.1,
+      "probability": 1
+    },
+    {
+      "word": "of",
+      "start": 28.1,
+      "end": 28.36,
+      "probability": 1
+    },
+    {
+      "word": "its",
+      "start": 28.36,
+      "end": 28.46,
+      "probability": 0.99
+    },
+    {
+      "word": "choices.",
+      "start": 28.46,
+      "end": 28.78,
+      "probability": 1
+    },
+    {
+      "word": "\"Hold",
+      "start": 29.4,
+      "end": 30.24,
+      "probability": 0.92
+    },
+    {
+      "word": "it",
+      "start": 30.24,
+      "end": 30.4,
+      "probability": 0.99
+    },
+    {
+      "word": "steady!\"",
+      "start": 30.4,
+      "end": 31.36,
+      "probability": 0.85
+    },
+    {
+      "word": "Varn",
+      "start": 31.36,
+      "end": 31.74,
+      "probability": 0.54
+    },
+    {
+      "word": "shouted.",
+      "start": 31.74,
+      "end": 32.14,
+      "probability": 0.99
+    },
+    {
+      "word": "\"That",
+      "start": 32.94,
+      "end": 33.08,
+      "probability": 0.89
+    },
+    {
+      "word": "sounds",
+      "start": 33.08,
+      "end": 33.34,
+      "probability": 0.98
+    },
+    {
+      "word": "like",
+      "start": 33.34,
+      "end": 33.52,
+      "probability": 0.99
+    },
+    {
+      "word": "your",
+      "start": 33.52,
+      "end": 33.9,
+      "probability": 0.78
+    },
+    {
+      "word": "department!\"",
+      "start": 33.9,
+      "end": 35.04,
+      "probability": 0.71
+    },
+    {
+      "word": "Dust",
+      "start": 35.04,
+      "end": 35.24,
+      "probability": 0.82
+    },
+    {
+      "word": "said.",
+      "start": 35.24,
+      "end": 35.6,
+      "probability": 0.92
+    },
+    {
+      "word": "Lightning",
+      "start": 37.06,
+      "end": 37.26,
+      "probability": 0.86
+    },
+    {
+      "word": "flashed",
+      "start": 37.26,
+      "end": 37.74,
+      "probability": 1
+    },
+    {
+      "word": "so",
+      "start": 37.74,
+      "end": 38.24,
+      "probability": 1
+    },
+    {
+      "word": "close",
+      "start": 38.24,
+      "end": 38.62,
+      "probability": 1
+    },
+    {
+      "word": "it",
+      "start": 38.62,
+      "end": 39.02,
+      "probability": 0.56
+    },
+    {
+      "word": "turned",
+      "start": 39.02,
+      "end": 39.24,
+      "probability": 1
+    },
+    {
+      "word": "the",
+      "start": 39.24,
+      "end": 39.4,
+      "probability": 0.99
+    },
+    {
+      "word": "front",
+      "start": 39.4,
+      "end": 39.66,
+      "probability": 1
+    },
+    {
+      "word": "glass",
+      "start": 39.66,
+      "end": 39.96,
+      "probability": 0.99
+    },
+    {
+      "word": "white.",
+      "start": 39.96,
+      "end": 40.42,
+      "probability": 0.99
+    },
+    {
+      "word": "Down",
+      "start": 41.52,
+      "end": 41.82,
+      "probability": 0.78
+    },
+    {
+      "word": "below,",
+      "start": 41.82,
+      "end": 42.2,
+      "probability": 0.98
+    },
+    {
+      "word": "cinder",
+      "start": 42.74,
+      "end": 42.9,
+      "probability": 0.95
+    },
+    {
+      "word": "flats",
+      "start": 43.18,
+      "end": 43.28,
+      "probability": 1
+    },
+    {
+      "word": "had",
+      "start": 43.28,
+      "end": 43.48,
+      "probability": 0.99
+    },
+    {
+      "word": "become",
+      "start": 43.48,
+      "end": 43.72,
+      "probability": 1
+    },
+    {
+      "word": "a",
+      "start": 43.72,
+      "end": 43.92,
+      "probability": 1
+    },
+    {
+      "word": "blur",
+      "start": 43.92,
+      "end": 44.24,
+      "probability": 0.99
+    },
+    {
+      "word": "of",
+      "start": 44.24,
+      "end": 44.5,
+      "probability": 1
+    },
+    {
+      "word": "roofs,",
+      "start": 44.5,
+      "end": 45.02,
+      "probability": 1
+    },
+    {
+      "word": "streets,",
+      "start": 45.28,
+      "end": 45.62,
+      "probability": 1
+    },
+    {
+      "word": "and",
+      "start": 45.87,
+      "end": 46.08,
+      "probability": 1
+    },
+    {
+      "word": "tiny",
+      "start": 46.08,
+      "end": 46.5,
+      "probability": 0.99
+    },
+    {
+      "word": "moving",
+      "start": 46.5,
+      "end": 46.82,
+      "probability": 0.93
+    },
+    {
+      "word": "people.",
+      "start": 46.82,
+      "end": 47.16,
+      "probability": 1
+    },
+    {
+      "word": "Dust",
+      "start": 48.4,
+      "end": 48.48,
+      "probability": 0.74
+    },
+    {
+      "word": "caught",
+      "start": 48.48,
+      "end": 48.74,
+      "probability": 0.75
+    },
+    {
+      "word": "one",
+      "start": 48.74,
+      "end": 49.1,
+      "probability": 0.65
+    },
+    {
+      "word": "glimpse",
+      "start": 49.25,
+      "end": 49.44,
+      "probability": 1
+    },
+    {
+      "word": "of",
+      "start": 49.44,
+      "end": 49.64,
+      "probability": 1
+    },
+    {
+      "word": "Bishop",
+      "start": 49.64,
+      "end": 49.98,
+      "probability": 0.94
+    },
+    {
+      "word": "near",
+      "start": 49.98,
+      "end": 50.18,
+      "probability": 1
+    },
+    {
+      "word": "the",
+      "start": 50.18,
+      "end": 50.36,
+      "probability": 1
+    },
+    {
+      "word": "water",
+      "start": 50.36,
+      "end": 50.56,
+      "probability": 0.95
+    },
+    {
+      "word": "tower,",
+      "start": 50.56,
+      "end": 50.9,
+      "probability": 0.98
+    },
+    {
+      "word": "bucking",
+      "start": 51.6,
+      "end": 51.86,
+      "probability": 0.99
+    },
+    {
+      "word": "and",
+      "start": 51.86,
+      "end": 52.02,
+      "probability": 0.98
+    },
+    {
+      "word": "braying",
+      "start": 52.02,
+      "end": 52.42,
+      "probability": 0.79
+    },
+    {
+      "word": "like",
+      "start": 52.42,
+      "end": 52.68,
+      "probability": 0.99
+    },
+    {
+      "word": "he",
+      "start": 52.68,
+      "end": 52.86,
+      "probability": 1
+    },
+    {
+      "word": "meant",
+      "start": 52.86,
+      "end": 53,
+      "probability": 0.99
+    },
+    {
+      "word": "to",
+      "start": 53,
+      "end": 53.12,
+      "probability": 0.99
+    },
+    {
+      "word": "insult",
+      "start": 53.22,
+      "end": 53.44,
+      "probability": 0.8
+    },
+    {
+      "word": "the",
+      "start": 53.44,
+      "end": 53.62,
+      "probability": 1
+    },
+    {
+      "word": "whole",
+      "start": 53.62,
+      "end": 53.9,
+      "probability": 1
+    },
+    {
+      "word": "gang",
+      "start": 53.9,
+      "end": 54.14,
+      "probability": 1
+    },
+    {
+      "word": "personally.",
+      "start": 54.14,
+      "end": 54.7,
+      "probability": 0.94
+    },
+    {
+      "word": "Varn",
+      "start": 55.4,
+      "end": 56.4,
+      "probability": 0.53
+    },
+    {
+      "word": "lunged",
+      "start": 56.4,
+      "end": 56.98,
+      "probability": 0.98
+    },
+    {
+      "word": "for",
+      "start": 56.98,
+      "end": 57.1,
+      "probability": 1
+    },
+    {
+      "word": "the",
+      "start": 57.1,
+      "end": 57.2,
+      "probability": 0.99
+    },
+    {
+      "word": "controls",
+      "start": 57.2,
+      "end": 57.52,
+      "probability": 1
+    },
+    {
+      "word": "again.",
+      "start": 57.52,
+      "end": 57.86,
+      "probability": 0.99
+    },
+    {
+      "word": "Dust",
+      "start": 58.84,
+      "end": 59.06,
+      "probability": 0.65
+    },
+    {
+      "word": "caught",
+      "start": 59.06,
+      "end": 59.4,
+      "probability": 0.99
+    },
+    {
+      "word": "his",
+      "start": 59.4,
+      "end": 59.6,
+      "probability": 1
+    },
+    {
+      "word": "wrist.",
+      "start": 59.6,
+      "end": 60,
+      "probability": 0.98
+    },
+    {
+      "word": "\"Call",
+      "start": 60.64,
+      "end": 61.24,
+      "probability": 0.63
+    },
+    {
+      "word": "off",
+      "start": 61.24,
+      "end": 61.64,
+      "probability": 0.98
+    },
+    {
+      "word": "your",
+      "start": 61.64,
+      "end": 61.92,
+      "probability": 0.98
+    },
+    {
+      "word": "men.\"",
+      "start": 61.92,
+      "end": 62.28,
+      "probability": 0.66
+    },
+    {
+      "word": "\"In",
+      "start": 63.28,
+      "end": 63.4,
+      "probability": 0.93
+    },
+    {
+      "word": "a",
+      "start": 63.4,
+      "end": 63.54,
+      "probability": 1
+    },
+    {
+      "word": "storm?",
+      "start": 63.54,
+      "end": 64.12,
+      "probability": 0.98
+    },
+    {
+      "word": "Especially",
+      "start": 64.82,
+      "end": 65.46,
+      "probability": 0.95
+    },
+    {
+      "word": "in",
+      "start": 65.46,
+      "end": 65.78,
+      "probability": 0.99
+    },
+    {
+      "word": "a",
+      "start": 65.78,
+      "end": 65.9,
+      "probability": 1
+    },
+    {
+      "word": "storm.\"",
+      "start": 65.9,
+      "end": 66.74,
+      "probability": 0.7
+    },
+    {
+      "word": "He",
+      "start": 66.74,
+      "end": 67.6,
+      "probability": 0.86
+    },
+    {
+      "word": "drove",
+      "start": 67.6,
+      "end": 67.96,
+      "probability": 1
+    },
+    {
+      "word": "an",
+      "start": 67.96,
+      "end": 68.16,
+      "probability": 0.99
+    },
+    {
+      "word": "elbow",
+      "start": 68.16,
+      "end": 68.5,
+      "probability": 0.96
+    },
+    {
+      "word": "toward",
+      "start": 68.5,
+      "end": 68.82,
+      "probability": 0.96
+    },
+    {
+      "word": "her",
+      "start": 68.82,
+      "end": 69.02,
+      "probability": 0.99
+    },
+    {
+      "word": "head.",
+      "start": 69.02,
+      "end": 69.22,
+      "probability": 0.98
+    },
+    {
+      "word": "She",
+      "start": 69.78,
+      "end": 70,
+      "probability": 0.58
+    },
+    {
+      "word": "ducked,",
+      "start": 70,
+      "end": 70.26,
+      "probability": 0.61
+    },
+    {
+      "word": "twisted",
+      "start": 70.34,
+      "end": 70.96,
+      "probability": 1
+    },
+    {
+      "word": "his",
+      "start": 70.96,
+      "end": 71.16,
+      "probability": 1
+    },
+    {
+      "word": "arm",
+      "start": 71.16,
+      "end": 71.34,
+      "probability": 1
+    },
+    {
+      "word": "behind",
+      "start": 71.34,
+      "end": 71.56,
+      "probability": 1
+    },
+    {
+      "word": "his",
+      "start": 71.56,
+      "end": 71.74,
+      "probability": 1
+    },
+    {
+      "word": "back,",
+      "start": 71.74,
+      "end": 71.98,
+      "probability": 1
+    },
+    {
+      "word": "and",
+      "start": 72.3,
+      "end": 72.42,
+      "probability": 1
+    },
+    {
+      "word": "slammed",
+      "start": 72.42,
+      "end": 72.72,
+      "probability": 1
+    },
+    {
+      "word": "him",
+      "start": 72.72,
+      "end": 72.9,
+      "probability": 1
+    },
+    {
+      "word": "face",
+      "start": 72.9,
+      "end": 73.28,
+      "probability": 0.96
+    },
+    {
+      "word": "-first",
+      "start": 73.28,
+      "end": 73.56,
+      "probability": 0.73
+    },
+    {
+      "word": "onto",
+      "start": 73.56,
+      "end": 73.88,
+      "probability": 0.96
+    },
+    {
+      "word": "the",
+      "start": 73.88,
+      "end": 73.98,
+      "probability": 0.99
+    },
+    {
+      "word": "silver",
+      "start": 73.98,
+      "end": 74.2,
+      "probability": 0.91
+    },
+    {
+      "word": "sacks.",
+      "start": 74.2,
+      "end": 74.54,
+      "probability": 0.25
+    },
+    {
+      "word": "The",
+      "start": 75.72,
+      "end": 75.92,
+      "probability": 0.92
+    },
+    {
+      "word": "parrot",
+      "start": 75.92,
+      "end": 76.24,
+      "probability": 0.99
+    },
+    {
+      "word": "screamed,",
+      "start": 76.24,
+      "end": 76.64,
+      "probability": 1
+    },
+    {
+      "word": "\"Mercy!",
+      "start": 77.24,
+      "end": 77.6,
+      "probability": 0.94
+    },
+    {
+      "word": "No",
+      "start": 77.98,
+      "end": 78.1,
+      "probability": 0.97
+    },
+    {
+      "word": "mercy!",
+      "start": 78.1,
+      "end": 78.44,
+      "probability": 0.92
+    },
+    {
+      "word": "Maybe",
+      "start": 78.88,
+      "end": 79.36,
+      "probability": 0.96
+    },
+    {
+      "word": "mercy?\"",
+      "start": 79.36,
+      "end": 79.88,
+      "probability": 0.69
+    },
+    {
+      "word": "Dust",
+      "start": 80.6,
+      "end": 81.6,
+      "probability": 0.72
+    },
+    {
+      "word": "yanked",
+      "start": 81.6,
+      "end": 81.92,
+      "probability": 0.99
+    },
+    {
+      "word": "a",
+      "start": 81.92,
+      "end": 82.06,
+      "probability": 0.99
+    },
+    {
+      "word": "length",
+      "start": 82.06,
+      "end": 82.26,
+      "probability": 1
+    },
+    {
+      "word": "of",
+      "start": 82.26,
+      "end": 82.44,
+      "probability": 1
+    },
+    {
+      "word": "utility",
+      "start": 82.44,
+      "end": 82.84,
+      "probability": 0.99
+    },
+    {
+      "word": "cord",
+      "start": 82.84,
+      "end": 83.2,
+      "probability": 0.99
+    },
+    {
+      "word": "from",
+      "start": 83.2,
+      "end": 83.38,
+      "probability": 0.98
+    },
+    {
+      "word": "the",
+      "start": 83.38,
+      "end": 83.48,
+      "probability": 1
+    },
+    {
+      "word": "sidewall",
+      "start": 83.48,
+      "end": 84.02,
+      "probability": 0.78
+    },
+    {
+      "word": "and",
+      "start": 84.02,
+      "end": 84.3,
+      "probability": 0.82
+    },
+    {
+      "word": "tied",
+      "start": 84.3,
+      "end": 84.76,
+      "probability": 0.99
+    },
+    {
+      "word": "Varn's",
+      "start": 84.76,
+      "end": 85.06,
+      "probability": 0.73
+    },
+    {
+      "word": "wrists",
+      "start": 85.06,
+      "end": 85.3,
+      "probability": 0.94
+    },
+    {
+      "word": "tight.",
+      "start": 85.3,
+      "end": 85.86,
+      "probability": 0.72
+    },
+    {
+      "word": "\"You",
+      "start": 87.2,
+      "end": 87.46,
+      "probability": 0.93
+    },
+    {
+      "word": "arrest",
+      "start": 87.46,
+      "end": 88,
+      "probability": 0.99
+    },
+    {
+      "word": "people",
+      "start": 88,
+      "end": 88.36,
+      "probability": 1
+    },
+    {
+      "word": "very",
+      "start": 88.36,
+      "end": 88.8,
+      "probability": 0.97
+    },
+    {
+      "word": "rudely,\"",
+      "start": 88.8,
+      "end": 89.9,
+      "probability": 0.85
+    },
+    {
+      "word": "he",
+      "start": 89.9,
+      "end": 90.16,
+      "probability": 0.99
+    },
+    {
+      "word": "muttered",
+      "start": 90.16,
+      "end": 90.36,
+      "probability": 1
+    },
+    {
+      "word": "into",
+      "start": 90.36,
+      "end": 90.68,
+      "probability": 0.98
+    },
+    {
+      "word": "the",
+      "start": 90.68,
+      "end": 90.8,
+      "probability": 0.99
+    },
+    {
+      "word": "canvas.",
+      "start": 90.8,
+      "end": 91.16,
+      "probability": 0.98
+    },
+    {
+      "word": "\"You",
+      "start": 92.34,
+      "end": 92.52,
+      "probability": 0.99
+    },
+    {
+      "word": "build",
+      "start": 92.52,
+      "end": 92.96,
+      "probability": 0.99
+    },
+    {
+      "word": "crimes",
+      "start": 92.96,
+      "end": 93.42,
+      "probability": 0.99
+    },
+    {
+      "word": "with",
+      "start": 93.42,
+      "end": 93.76,
+      "probability": 1
+    },
+    {
+      "word": "boilers!\"",
+      "start": 93.76,
+      "end": 94.84,
+      "probability": 0.59
+    },
+    {
+      "word": "Nobody",
+      "start": 94.84,
+      "end": 95.06,
+      "probability": 0.97
+    },
+    {
+      "word": "asked",
+      "start": 95.06,
+      "end": 95.34,
+      "probability": 1
+    },
+    {
+      "word": "your",
+      "start": 95.34,
+      "end": 95.5,
+      "probability": 0.99
+    },
+    {
+      "word": "opinion.",
+      "start": 95.5,
+      "end": 95.92,
+      "probability": 0.99
+    },
+    {
+      "word": "Another",
+      "start": 96.7,
+      "end": 97.66,
+      "probability": 0.82
+    },
+    {
+      "word": "blast",
+      "start": 97.66,
+      "end": 98.16,
+      "probability": 1
+    },
+    {
+      "word": "of",
+      "start": 98.16,
+      "end": 98.3,
+      "probability": 1
+    },
+    {
+      "word": "wind",
+      "start": 98.3,
+      "end": 98.54,
+      "probability": 1
+    },
+    {
+      "word": "shoved",
+      "start": 98.54,
+      "end": 98.94,
+      "probability": 0.93
+    },
+    {
+      "word": "the",
+      "start": 98.94,
+      "end": 99.14,
+      "probability": 1
+    },
+    {
+      "word": "coach",
+      "start": 99.14,
+      "end": 99.34,
+      "probability": 0.98
+    },
+    {
+      "word": "nose",
+      "start": 99.34,
+      "end": 99.76,
+      "probability": 0.98
+    },
+    {
+      "word": "down.",
+      "start": 99.76,
+      "end": 100.22,
+      "probability": 0.86
+    },
+    {
+      "word": "This",
+      "start": 101.3,
+      "end": 101.42,
+      "probability": 1
+    },
+    {
+      "word": "time,",
+      "start": 101.42,
+      "end": 101.7,
+      "probability": 1
+    },
+    {
+      "word": "Dust",
+      "start": 102,
+      "end": 102.1,
+      "probability": 0.87
+    },
+    {
+      "word": "grabbed",
+      "start": 102.1,
+      "end": 102.36,
+      "probability": 1
+    },
+    {
+      "word": "the",
+      "start": 102.36,
+      "end": 102.52,
+      "probability": 1
+    },
+    {
+      "word": "wheel",
+      "start": 102.52,
+      "end": 102.7,
+      "probability": 1
+    },
+    {
+      "word": "herself.",
+      "start": 102.7,
+      "end": 103.22,
+      "probability": 0.98
+    },
+    {
+      "word": "The",
+      "start": 104.35,
+      "end": 104.56,
+      "probability": 1
+    },
+    {
+      "word": "parrot",
+      "start": 104.56,
+      "end": 104.94,
+      "probability": 0.96
+    },
+    {
+      "word": "sidestepped",
+      "start": 104.94,
+      "end": 105.52,
+      "probability": 0.87
+    },
+    {
+      "word": "indignantly,",
+      "start": 105.52,
+      "end": 106.18,
+      "probability": 0.97
+    },
+    {
+      "word": "but",
+      "start": 106.49,
+      "end": 106.7,
+      "probability": 0.99
+    },
+    {
+      "word": "did",
+      "start": 106.7,
+      "end": 106.96,
+      "probability": 0.98
+    },
+    {
+      "word": "not",
+      "start": 106.96,
+      "end": 107.16,
+      "probability": 1
+    },
+    {
+      "word": "leave.",
+      "start": 107.16,
+      "end": 107.46,
+      "probability": 1
+    },
+    {
+      "word": "\"You",
+      "start": 108.46,
+      "end": 108.8,
+      "probability": 0.95
+    },
+    {
+      "word": "know",
+      "start": 108.8,
+      "end": 109.02,
+      "probability": 1
+    },
+    {
+      "word": "how",
+      "start": 109.02,
+      "end": 109.12,
+      "probability": 1
+    },
+    {
+      "word": "to",
+      "start": 109.12,
+      "end": 109.28,
+      "probability": 1
+    },
+    {
+      "word": "fly",
+      "start": 109.28,
+      "end": 109.58,
+      "probability": 1
+    },
+    {
+      "word": "this",
+      "start": 109.58,
+      "end": 109.78,
+      "probability": 0.99
+    },
+    {
+      "word": "thing?\"",
+      "start": 109.78,
+      "end": 110.44,
+      "probability": 0.91
+    },
+    {
+      "word": "Varne",
+      "start": 110.64,
+      "end": 110.8,
+      "probability": 0.68
+    },
+    {
+      "word": "demanded.",
+      "start": 110.8,
+      "end": 111.14,
+      "probability": 1
+    },
+    {
+      "word": "\"Absolutely",
+      "start": 111.96,
+      "end": 112.56,
+      "probability": 0.99
+    },
+    {
+      "word": "not.",
+      "start": 112.56,
+      "end": 113.12,
+      "probability": 0.99
+    },
+    {
+      "word": "Then",
+      "start": 113.74,
+      "end": 114.34,
+      "probability": 0.98
+    },
+    {
+      "word": "we're",
+      "start": 114.34,
+      "end": 114.5,
+      "probability": 0.97
+    },
+    {
+      "word": "dead.\"",
+      "start": 114.5,
+      "end": 115.92,
+      "probability": 0.74
+    },
+    {
+      "word": "\"Not",
+      "start": 115.92,
+      "end": 116.46,
+      "probability": 0.92
+    },
+    {
+      "word": "before",
+      "start": 116.46,
+      "end": 116.8,
+      "probability": 1
+    },
+    {
+      "word": "you",
+      "start": 116.8,
+      "end": 117.06,
+      "probability": 1
+    },
+    {
+      "word": "tell",
+      "start": 117.06,
+      "end": 117.26,
+      "probability": 1
+    },
+    {
+      "word": "me",
+      "start": 117.26,
+      "end": 117.46,
+      "probability": 1
+    },
+    {
+      "word": "which",
+      "start": 117.46,
+      "end": 117.72,
+      "probability": 0.99
+    },
+    {
+      "word": "lever",
+      "start": 117.72,
+      "end": 118.02,
+      "probability": 0.99
+    },
+    {
+      "word": "keeps",
+      "start": 118.02,
+      "end": 118.3,
+      "probability": 1
+    },
+    {
+      "word": "us",
+      "start": 118.3,
+      "end": 118.48,
+      "probability": 1
+    },
+    {
+      "word": "from",
+      "start": 118.48,
+      "end": 118.64,
+      "probability": 1
+    },
+    {
+      "word": "becoming",
+      "start": 118.64,
+      "end": 118.96,
+      "probability": 0.99
+    },
+    {
+      "word": "a",
+      "start": 118.96,
+      "end": 119.12,
+      "probability": 1
+    },
+    {
+      "word": "crater.\"",
+      "start": 119.12,
+      "end": 119.62,
+      "probability": 0.87
+    },
+    {
+      "word": "Varn",
+      "start": 120.2,
+      "end": 121.24,
+      "probability": 0.74
+    },
+    {
+      "word": "hesitated.",
+      "start": 121.24,
+      "end": 121.72,
+      "probability": 0.97
+    },
+    {
+      "word": "Dust",
+      "start": 122.92,
+      "end": 123.1,
+      "probability": 0.84
+    },
+    {
+      "word": "tipped",
+      "start": 123.1,
+      "end": 123.32,
+      "probability": 0.99
+    },
+    {
+      "word": "the",
+      "start": 123.32,
+      "end": 123.5,
+      "probability": 1
+    },
+    {
+      "word": "wheel",
+      "start": 123.5,
+      "end": 123.64,
+      "probability": 1
+    },
+    {
+      "word": "harder",
+      "start": 123.64,
+      "end": 124.08,
+      "probability": 0.99
+    },
+    {
+      "word": "and",
+      "start": 124.08,
+      "end": 124.4,
+      "probability": 0.62
+    },
+    {
+      "word": "the",
+      "start": 124.4,
+      "end": 124.48,
+      "probability": 0.98
+    },
+    {
+      "word": "coach",
+      "start": 124.48,
+      "end": 124.68,
+      "probability": 0.98
+    },
+    {
+      "word": "dove",
+      "start": 124.68,
+      "end": 125.04,
+      "probability": 0.95
+    },
+    {
+      "word": "toward",
+      "start": 125.04,
+      "end": 125.32,
+      "probability": 0.94
+    },
+    {
+      "word": "the",
+      "start": 125.32,
+      "end": 125.46,
+      "probability": 0.97
+    },
+    {
+      "word": "church",
+      "start": 125.46,
+      "end": 125.7,
+      "probability": 0.51
+    },
+    {
+      "word": "steeple.",
+      "start": 125.7,
+      "end": 126.16,
+      "probability": 0.98
+    },
+    {
+      "word": "\"Middle",
+      "start": 127.4,
+      "end": 127.92,
+      "probability": 0.78
+    },
+    {
+      "word": "brass",
+      "start": 127.92,
+      "end": 128.4,
+      "probability": 0.58
+    },
+    {
+      "word": "lever!\"",
+      "start": 128.4,
+      "end": 129.2,
+      "probability": 0.89
+    },
+    {
+      "word": "he",
+      "start": 129.2,
+      "end": 129.5,
+      "probability": 0.85
+    },
+    {
+      "word": "shouted.",
+      "start": 129.5,
+      "end": 129.74,
+      "probability": 1
+    },
+    {
+      "word": "She",
+      "start": 131,
+      "end": 131.1,
+      "probability": 0.79
+    },
+    {
+      "word": "yanked",
+      "start": 131.1,
+      "end": 131.32,
+      "probability": 0.99
+    },
+    {
+      "word": "it.",
+      "start": 131.32,
+      "end": 131.56,
+      "probability": 1
+    },
+    {
+      "word": "The",
+      "start": 132.71,
+      "end": 132.9,
+      "probability": 1
+    },
+    {
+      "word": "veins",
+      "start": 132.9,
+      "end": 133.2,
+      "probability": 0.69
+    },
+    {
+      "word": "outside",
+      "start": 133.2,
+      "end": 133.62,
+      "probability": 1
+    },
+    {
+      "word": "shifted.",
+      "start": 133.62,
+      "end": 134.06,
+      "probability": 0.99
+    },
+    {
+      "word": "The",
+      "start": 134.55,
+      "end": 134.76,
+      "probability": 0.98
+    },
+    {
+      "word": "coach",
+      "start": 134.76,
+      "end": 135,
+      "probability": 1
+    },
+    {
+      "word": "stopped",
+      "start": 135,
+      "end": 135.36,
+      "probability": 1
+    },
+    {
+      "word": "diving,",
+      "start": 135.36,
+      "end": 135.84,
+      "probability": 1
+    },
+    {
+      "word": "though",
+      "start": 136.42,
+      "end": 136.5,
+      "probability": 0.98
+    },
+    {
+      "word": "it",
+      "start": 136.5,
+      "end": 136.58,
+      "probability": 0.99
+    },
+    {
+      "word": "still",
+      "start": 136.58,
+      "end": 136.82,
+      "probability": 0.93
+    },
+    {
+      "word": "rattled",
+      "start": 136.82,
+      "end": 137.24,
+      "probability": 0.99
+    },
+    {
+      "word": "like",
+      "start": 137.24,
+      "end": 137.46,
+      "probability": 0.98
+    },
+    {
+      "word": "a",
+      "start": 137.46,
+      "end": 137.62,
+      "probability": 0.99
+    },
+    {
+      "word": "cupboard",
+      "start": 137.62,
+      "end": 137.96,
+      "probability": 0.97
+    },
+    {
+      "word": "falling",
+      "start": 138.14,
+      "end": 138.26,
+      "probability": 0.85
+    },
+    {
+      "word": "down",
+      "start": 138.26,
+      "end": 138.5,
+      "probability": 0.78
+    },
+    {
+      "word": "stairs.",
+      "start": 138.5,
+      "end": 138.86,
+      "probability": 0.97
+    },
+    {
+      "word": "Below,",
+      "start": 140.2,
+      "end": 140.68,
+      "probability": 0.96
+    },
+    {
+      "word": "figures",
+      "start": 141.1,
+      "end": 141.2,
+      "probability": 0.89
+    },
+    {
+      "word": "swarmed",
+      "start": 141.2,
+      "end": 141.84,
+      "probability": 1
+    },
+    {
+      "word": "around",
+      "start": 141.84,
+      "end": 142.06,
+      "probability": 0.99
+    },
+    {
+      "word": "the",
+      "start": 142.06,
+      "end": 142.18,
+      "probability": 0.99
+    },
+    {
+      "word": "water",
+      "start": 142.18,
+      "end": 142.48,
+      "probability": 0.99
+    },
+    {
+      "word": "tower.",
+      "start": 142.48,
+      "end": 142.66,
+      "probability": 0.96
+    },
+    {
+      "word": "Through",
+      "start": 143.54,
+      "end": 143.72,
+      "probability": 1
+    },
+    {
+      "word": "sheets",
+      "start": 143.72,
+      "end": 143.98,
+      "probability": 0.99
+    },
+    {
+      "word": "of",
+      "start": 143.98,
+      "end": 144.18,
+      "probability": 1
+    },
+    {
+      "word": "rain",
+      "start": 144.18,
+      "end": 144.54,
+      "probability": 1
+    },
+    {
+      "word": "and",
+      "start": 144.54,
+      "end": 144.78,
+      "probability": 1
+    },
+    {
+      "word": "dust,",
+      "start": 144.78,
+      "end": 145.02,
+      "probability": 1
+    },
+    {
+      "word": "dust",
+      "start": 145.58,
+      "end": 145.72,
+      "probability": 0.95
+    },
+    {
+      "word": "saw",
+      "start": 145.72,
+      "end": 145.96,
+      "probability": 0.97
+    },
+    {
+      "word": "townspeople",
+      "start": 145.96,
+      "end": 146.56,
+      "probability": 0.88
+    },
+    {
+      "word": "digging,",
+      "start": 146.56,
+      "end": 147,
+      "probability": 0.99
+    },
+    {
+      "word": "passing",
+      "start": 147.36,
+      "end": 147.64,
+      "probability": 0.96
+    },
+    {
+      "word": "sticks",
+      "start": 147.64,
+      "end": 147.88,
+      "probability": 0.98
+    },
+    {
+      "word": "of",
+      "start": 147.88,
+      "end": 148.14,
+      "probability": 1
+    },
+    {
+      "word": "dynamite",
+      "start": 148.14,
+      "end": 148.52,
+      "probability": 1
+    },
+    {
+      "word": "hand",
+      "start": 148.52,
+      "end": 148.82,
+      "probability": 0.65
+    },
+    {
+      "word": "to",
+      "start": 148.82,
+      "end": 148.96,
+      "probability": 0.41
+    },
+    {
+      "word": "hand.",
+      "start": 149.14,
+      "end": 149.28,
+      "probability": 1
+    },
+    {
+      "word": "Then,",
+      "start": 150.06,
+      "end": 150.22,
+      "probability": 0.99
+    },
+    {
+      "word": "Bishop",
+      "start": 150.54,
+      "end": 150.68,
+      "probability": 0.82
+    },
+    {
+      "word": "kicked",
+      "start": 150.68,
+      "end": 151,
+      "probability": 1
+    },
+    {
+      "word": "free",
+      "start": 151,
+      "end": 151.28,
+      "probability": 1
+    },
+    {
+      "word": "of",
+      "start": 151.28,
+      "end": 151.44,
+      "probability": 0.98
+    },
+    {
+      "word": "somebody's",
+      "start": 151.44,
+      "end": 151.84,
+      "probability": 0.93
+    },
+    {
+      "word": "grip,",
+      "start": 151.84,
+      "end": 152.1,
+      "probability": 0.99
+    },
+    {
+      "word": "charged",
+      "start": 152.44,
+      "end": 152.8,
+      "probability": 0.98
+    },
+    {
+      "word": "a",
+      "start": 152.8,
+      "end": 152.96,
+      "probability": 0.99
+    },
+    {
+      "word": "loose",
+      "start": 152.96,
+      "end": 153.22,
+      "probability": 1
+    },
+    {
+      "word": "outlaw",
+      "start": 153.22,
+      "end": 153.54,
+      "probability": 0.99
+    },
+    {
+      "word": "near",
+      "start": 153.54,
+      "end": 153.74,
+      "probability": 0.99
+    },
+    {
+      "word": "the",
+      "start": 153.74,
+      "end": 153.92,
+      "probability": 0.99
+    },
+    {
+      "word": "fuse,",
+      "start": 153.92,
+      "end": 154.2,
+      "probability": 0.96
+    },
+    {
+      "word": "and",
+      "start": 154.32,
+      "end": 154.48,
+      "probability": 0.93
+    },
+    {
+      "word": "sent",
+      "start": 154.64,
+      "end": 154.7,
+      "probability": 1
+    },
+    {
+      "word": "the",
+      "start": 154.7,
+      "end": 154.88,
+      "probability": 0.98
+    },
+    {
+      "word": "man",
+      "start": 154.88,
+      "end": 154.94,
+      "probability": 0.98
+    },
+    {
+      "word": "sprawling",
+      "start": 154.94,
+      "end": 155.56,
+      "probability": 0.99
+    },
+    {
+      "word": "into",
+      "start": 155.56,
+      "end": 155.74,
+      "probability": 0.99
+    },
+    {
+      "word": "a",
+      "start": 155.74,
+      "end": 155.92,
+      "probability": 0.99
+    },
+    {
+      "word": "host",
+      "start": 155.92,
+      "end": 156.14,
+      "probability": 0.59
+    },
+    {
+      "word": "trough.",
+      "start": 156.14,
+      "end": 156.38,
+      "probability": 0.92
+    },
+    {
+      "word": "Dust",
+      "start": 157.8,
+      "end": 157.96,
+      "probability": 0.94
+    },
+    {
+      "word": "grinned",
+      "start": 157.96,
+      "end": 158.42,
+      "probability": 0.93
+    },
+    {
+      "word": "despite",
+      "start": 158.42,
+      "end": 158.82,
+      "probability": 0.86
+    },
+    {
+      "word": "herself.",
+      "start": 158.82,
+      "end": 159.14,
+      "probability": 0.95
+    },
+    {
+      "word": "Could",
+      "start": 159.98,
+      "end": 160.54,
+      "probability": 0.52
+    },
+    {
+      "word": "mule.",
+      "start": 160.54,
+      "end": 160.96,
+      "probability": 0.95
+    },
+    {
+      "word": "The",
+      "start": 162.26,
+      "end": 162.44,
+      "probability": 1
+    },
+    {
+      "word": "mayor",
+      "start": 162.44,
+      "end": 162.74,
+      "probability": 0.86
+    },
+    {
+      "word": "and",
+      "start": 162.74,
+      "end": 162.92,
+      "probability": 0.99
+    },
+    {
+      "word": "two",
+      "start": 162.92,
+      "end": 163.14,
+      "probability": 0.95
+    },
+    {
+      "word": "shopkeepers",
+      "start": 163.14,
+      "end": 163.66,
+      "probability": 0.95
+    },
+    {
+      "word": "threw",
+      "start": 163.66,
+      "end": 164.04,
+      "probability": 0.92
+    },
+    {
+      "word": "the",
+      "start": 164.04,
+      "end": 164.26,
+      "probability": 0.99
+    },
+    {
+      "word": "dynamite",
+      "start": 164.26,
+      "end": 164.6,
+      "probability": 1
+    },
+    {
+      "word": "bundle",
+      "start": 164.6,
+      "end": 164.86,
+      "probability": 0.99
+    },
+    {
+      "word": "into",
+      "start": 164.86,
+      "end": 165.12,
+      "probability": 0.97
+    },
+    {
+      "word": "the",
+      "start": 165.12,
+      "end": 165.24,
+      "probability": 0.99
+    },
+    {
+      "word": "trough",
+      "start": 165.24,
+      "end": 165.46,
+      "probability": 0.99
+    },
+    {
+      "word": "a",
+      "start": 165.46,
+      "end": 165.62,
+      "probability": 0.96
+    },
+    {
+      "word": "second",
+      "start": 165.62,
+      "end": 165.92,
+      "probability": 0.99
+    },
+    {
+      "word": "before",
+      "start": 165.92,
+      "end": 166.22,
+      "probability": 0.96
+    },
+    {
+      "word": "the",
+      "start": 166.22,
+      "end": 166.32,
+      "probability": 0.99
+    },
+    {
+      "word": "few",
+      "start": 166.46,
+      "end": 166.54,
+      "probability": 0.62
+    },
+    {
+      "word": "sparked",
+      "start": 166.54,
+      "end": 166.82,
+      "probability": 0.99
+    },
+    {
+      "word": "out.",
+      "start": 166.82,
+      "end": 167.14,
+      "probability": 1
+    },
+    {
+      "word": "A",
+      "start": 167.84,
+      "end": 168.04,
+      "probability": 1
+    },
+    {
+      "word": "muddy",
+      "start": 168.04,
+      "end": 168.36,
+      "probability": 1
+    },
+    {
+      "word": "burst",
+      "start": 168.36,
+      "end": 168.74,
+      "probability": 0.99
+    },
+    {
+      "word": "shot",
+      "start": 168.74,
+      "end": 169.22,
+      "probability": 0.99
+    },
+    {
+      "word": "into",
+      "start": 169.22,
+      "end": 169.32,
+      "probability": 0.99
+    },
+    {
+      "word": "the",
+      "start": 169.32,
+      "end": 169.54,
+      "probability": 1
+    },
+    {
+      "word": "air,",
+      "start": 169.54,
+      "end": 169.66,
+      "probability": 1
+    },
+    {
+      "word": "soaking",
+      "start": 170.12,
+      "end": 170.24,
+      "probability": 1
+    },
+    {
+      "word": "half",
+      "start": 170.24,
+      "end": 170.52,
+      "probability": 0.99
+    },
+    {
+      "word": "the",
+      "start": 170.52,
+      "end": 170.7,
+      "probability": 0.97
+    },
+    {
+      "word": "street,",
+      "start": 170.7,
+      "end": 170.98,
+      "probability": 0.99
+    },
+    {
+      "word": "and",
+      "start": 171.52,
+      "end": 171.72,
+      "probability": 0.97
+    },
+    {
+      "word": "probably",
+      "start": 171.72,
+      "end": 172.26,
+      "probability": 0.98
+    },
+    {
+      "word": "improving",
+      "start": 172.26,
+      "end": 172.78,
+      "probability": 0.99
+    },
+    {
+      "word": "several",
+      "start": 172.78,
+      "end": 173.2,
+      "probability": 0.99
+    },
+    {
+      "word": "personalities.",
+      "start": 173.4,
+      "end": 173.86,
+      "probability": 0.99
+    },
+    {
+      "word": "\"Your",
+      "start": 175.12,
+      "end": 175.32,
+      "probability": 0.95
+    },
+    {
+      "word": "insurance",
+      "start": 175.32,
+      "end": 175.86,
+      "probability": 1
+    },
+    {
+      "word": "is",
+      "start": 175.86,
+      "end": 176.04,
+      "probability": 0.99
+    },
+    {
+      "word": "cancelled,\"",
+      "start": 176.04,
+      "end": 177.06,
+      "probability": 0.77
+    },
+    {
+      "word": "Dust",
+      "start": 177.06,
+      "end": 177.28,
+      "probability": 0.8
+    },
+    {
+      "word": "told",
+      "start": 177.28,
+      "end": 177.52,
+      "probability": 0.96
+    },
+    {
+      "word": "Vaughan.",
+      "start": 177.52,
+      "end": 177.82,
+      "probability": 0.4
+    },
+    {
+      "word": "The",
+      "start": 179,
+      "end": 179.08,
+      "probability": 0.98
+    },
+    {
+      "word": "outlaw",
+      "start": 179.08,
+      "end": 179.34,
+      "probability": 0.96
+    },
+    {
+      "word": "looked",
+      "start": 179.34,
+      "end": 179.62,
+      "probability": 0.99
+    },
+    {
+      "word": "disgusted.",
+      "start": 179.62,
+      "end": 180.1,
+      "probability": 0.99
+    },
+    {
+      "word": "That",
+      "start": 180.4,
+      "end": 181.32,
+      "probability": 0.45
+    },
+    {
+      "word": "mule",
+      "start": 181.32,
+      "end": 181.72,
+      "probability": 0.96
+    },
+    {
+      "word": "has",
+      "start": 181.72,
+      "end": 181.9,
+      "probability": 0.98
+    },
+    {
+      "word": "no",
+      "start": 181.9,
+      "end": 182.2,
+      "probability": 0.99
+    },
+    {
+      "word": "respect",
+      "start": 182.2,
+      "end": 182.6,
+      "probability": 1
+    },
+    {
+      "word": "for",
+      "start": 182.6,
+      "end": 182.82,
+      "probability": 0.99
+    },
+    {
+      "word": "Enterprise.",
+      "start": 182.82,
+      "end": 183.34,
+      "probability": 0.72
+    },
+    {
+      "word": "The",
+      "start": 184.5,
+      "end": 184.68,
+      "probability": 0.99
+    },
+    {
+      "word": "storm",
+      "start": 184.68,
+      "end": 185.1,
+      "probability": 0.97
+    },
+    {
+      "word": "tightened",
+      "start": 185.1,
+      "end": 185.5,
+      "probability": 0.99
+    },
+    {
+      "word": "around",
+      "start": 185.5,
+      "end": 185.76,
+      "probability": 0.98
+    },
+    {
+      "word": "them.",
+      "start": 185.76,
+      "end": 186,
+      "probability": 0.95
+    },
+    {
+      "word": "Green",
+      "start": 187,
+      "end": 187.14,
+      "probability": 0.99
+    },
+    {
+      "word": "clouds",
+      "start": 187.14,
+      "end": 187.44,
+      "probability": 0.77
+    },
+    {
+      "word": "spun.",
+      "start": 187.44,
+      "end": 188,
+      "probability": 1
+    },
+    {
+      "word": "Wind",
+      "start": 188.76,
+      "end": 188.88,
+      "probability": 0.75
+    },
+    {
+      "word": "shrieked",
+      "start": 188.88,
+      "end": 189.52,
+      "probability": 0.97
+    },
+    {
+      "word": "through",
+      "start": 189.52,
+      "end": 189.62,
+      "probability": 0.99
+    },
+    {
+      "word": "the",
+      "start": 189.62,
+      "end": 189.78,
+      "probability": 0.99
+    },
+    {
+      "word": "veins.",
+      "start": 189.78,
+      "end": 190.02,
+      "probability": 0.99
+    },
+    {
+      "word": "Coins",
+      "start": 190.8,
+      "end": 190.94,
+      "probability": 0.73
+    },
+    {
+      "word": "still",
+      "start": 190.94,
+      "end": 191.24,
+      "probability": 0.99
+    },
+    {
+      "word": "trapped",
+      "start": 191.24,
+      "end": 191.54,
+      "probability": 1
+    },
+    {
+      "word": "in",
+      "start": 191.54,
+      "end": 191.64,
+      "probability": 0.99
+    },
+    {
+      "word": "the",
+      "start": 191.64,
+      "end": 191.74,
+      "probability": 0.99
+    },
+    {
+      "word": "coach",
+      "start": 191.74,
+      "end": 191.96,
+      "probability": 0.83
+    },
+    {
+      "word": "rattled",
+      "start": 191.96,
+      "end": 192.3,
+      "probability": 0.91
+    },
+    {
+      "word": "like",
+      "start": 192.3,
+      "end": 192.56,
+      "probability": 0.98
+    },
+    {
+      "word": "hail",
+      "start": 192.56,
+      "end": 192.9,
+      "probability": 0.98
+    },
+    {
+      "word": "in",
+      "start": 192.9,
+      "end": 193.12,
+      "probability": 0.95
+    },
+    {
+      "word": "every",
+      "start": 193.12,
+      "end": 193.42,
+      "probability": 1
+    },
+    {
+      "word": "corner.",
+      "start": 193.42,
+      "end": 193.76,
+      "probability": 1
+    },
+    {
+      "word": "The",
+      "start": 194.72,
+      "end": 194.94,
+      "probability": 0.55
+    },
+    {
+      "word": "dust's",
+      "start": 194.94,
+      "end": 195.3,
+      "probability": 0.89
+    },
+    {
+      "word": "hands",
+      "start": 195.3,
+      "end": 195.42,
+      "probability": 0.99
+    },
+    {
+      "word": "were",
+      "start": 195.42,
+      "end": 195.6,
+      "probability": 0.99
+    },
+    {
+      "word": "slick",
+      "start": 195.6,
+      "end": 195.96,
+      "probability": 1
+    },
+    {
+      "word": "on",
+      "start": 195.96,
+      "end": 196.12,
+      "probability": 1
+    },
+    {
+      "word": "the",
+      "start": 196.12,
+      "end": 196.28,
+      "probability": 1
+    },
+    {
+      "word": "wheel",
+      "start": 196.28,
+      "end": 196.34,
+      "probability": 0.99
+    },
+    {
+      "word": "now.",
+      "start": 196.34,
+      "end": 196.62,
+      "probability": 0.96
+    },
+    {
+      "word": "Where",
+      "start": 197.32,
+      "end": 197.88,
+      "probability": 0.54
+    },
+    {
+      "word": "do",
+      "start": 197.88,
+      "end": 197.96,
+      "probability": 1
+    },
+    {
+      "word": "I",
+      "start": 197.96,
+      "end": 198.06,
+      "probability": 0.99
+    },
+    {
+      "word": "put",
+      "start": 198.06,
+      "end": 198.24,
+      "probability": 1
+    },
+    {
+      "word": "this",
+      "start": 198.24,
+      "end": 198.42,
+      "probability": 0.99
+    },
+    {
+      "word": "thing",
+      "start": 198.42,
+      "end": 198.6,
+      "probability": 0.99
+    },
+    {
+      "word": "down?",
+      "start": 198.6,
+      "end": 199,
+      "probability": 1
+    },
+    {
+      "word": "Varn",
+      "start": 200.08,
+      "end": 200.3,
+      "probability": 0.48
+    },
+    {
+      "word": "laughed",
+      "start": 200.3,
+      "end": 200.72,
+      "probability": 1
+    },
+    {
+      "word": "once,",
+      "start": 200.72,
+      "end": 201.08,
+      "probability": 0.99
+    },
+    {
+      "word": "a",
+      "start": 201.32,
+      "end": 201.4,
+      "probability": 1
+    },
+    {
+      "word": "short,",
+      "start": 201.4,
+      "end": 201.68,
+      "probability": 0.99
+    },
+    {
+      "word": "sharp",
+      "start": 201.88,
+      "end": 202.06,
+      "probability": 1
+    },
+    {
+      "word": "sound.",
+      "start": 202.06,
+      "end": 202.32,
+      "probability": 1
+    },
+    {
+      "word": "You",
+      "start": 202.92,
+      "end": 203.48,
+      "probability": 0.7
+    },
+    {
+      "word": "don't.",
+      "start": 203.48,
+      "end": 203.9,
+      "probability": 1
+    },
+    {
+      "word": "It",
+      "start": 204.14,
+      "end": 204.32,
+      "probability": 0.97
+    },
+    {
+      "word": "lands",
+      "start": 204.32,
+      "end": 204.62,
+      "probability": 0.99
+    },
+    {
+      "word": "what",
+      "start": 204.62,
+      "end": 204.82,
+      "probability": 0.94
+    },
+    {
+      "word": "it",
+      "start": 204.82,
+      "end": 204.92,
+      "probability": 1
+    },
+    {
+      "word": "wants.",
+      "start": 204.92,
+      "end": 205.32,
+      "probability": 1
+    },
+    {
+      "word": "Long",
+      "start": 206.04,
+      "end": 206.6,
+      "probability": 0.88
+    },
+    {
+      "word": "answer.",
+      "start": 206.6,
+      "end": 206.96,
+      "probability": 0.99
+    },
+    {
+      "word": "The",
+      "start": 209.3,
+      "end": 209.78,
+      "probability": 0.48
+    },
+    {
+      "word": "schoolhouse",
+      "start": 209.78,
+      "end": 210.26,
+      "probability": 0.87
+    },
+    {
+      "word": "was",
+      "start": 210.26,
+      "end": 210.44,
+      "probability": 0.99
+    },
+    {
+      "word": "too",
+      "start": 210.44,
+      "end": 210.7,
+      "probability": 0.97
+    },
+    {
+      "word": "close",
+      "start": 210.7,
+      "end": 210.94,
+      "probability": 1
+    },
+    {
+      "word": "to",
+      "start": 210.94,
+      "end": 211.08,
+      "probability": 0.99
+    },
+    {
+      "word": "the",
+      "start": 211.08,
+      "end": 211.22,
+      "probability": 0.99
+    },
+    {
+      "word": "street.",
+      "start": 211.22,
+      "end": 211.42,
+      "probability": 0.97
+    },
+    {
+      "word": "The",
+      "start": 212.14,
+      "end": 212.3,
+      "probability": 0.97
+    },
+    {
+      "word": "livery",
+      "start": 212.3,
+      "end": 212.66,
+      "probability": 0.99
+    },
+    {
+      "word": "was",
+      "start": 212.66,
+      "end": 212.86,
+      "probability": 1
+    },
+    {
+      "word": "full",
+      "start": 212.86,
+      "end": 213.1,
+      "probability": 0.99
+    },
+    {
+      "word": "of",
+      "start": 213.1,
+      "end": 213.26,
+      "probability": 1
+    },
+    {
+      "word": "horses.",
+      "start": 213.26,
+      "end": 213.5,
+      "probability": 0.99
+    },
+    {
+      "word": "The",
+      "start": 214.18,
+      "end": 214.34,
+      "probability": 0.99
+    },
+    {
+      "word": "church",
+      "start": 214.34,
+      "end": 214.56,
+      "probability": 0.93
+    },
+    {
+      "word": "had",
+      "start": 214.56,
+      "end": 214.74,
+      "probability": 0.99
+    },
+    {
+      "word": "enough",
+      "start": 214.74,
+      "end": 215,
+      "probability": 1
+    },
+    {
+      "word": "problems",
+      "start": 215,
+      "end": 215.44,
+      "probability": 0.99
+    },
+    {
+      "word": "already.",
+      "start": 215.44,
+      "end": 215.82,
+      "probability": 0.99
+    },
+    {
+      "word": "Then",
+      "start": 216.74,
+      "end": 216.86,
+      "probability": 0.98
+    },
+    {
+      "word": "she",
+      "start": 216.86,
+      "end": 217.16,
+      "probability": 0.69
+    },
+    {
+      "word": "saw",
+      "start": 217.16,
+      "end": 217.36,
+      "probability": 1
+    },
+    {
+      "word": "the",
+      "start": 217.36,
+      "end": 217.58,
+      "probability": 0.97
+    },
+    {
+      "word": "cemetery",
+      "start": 217.58,
+      "end": 217.9,
+      "probability": 0.99
+    },
+    {
+      "word": "on",
+      "start": 217.9,
+      "end": 218.14,
+      "probability": 0.98
+    },
+    {
+      "word": "the",
+      "start": 218.14,
+      "end": 218.3,
+      "probability": 1
+    },
+    {
+      "word": "fore",
+      "start": 218.3,
+      "end": 218.5,
+      "probability": 0.48
+    },
+    {
+      "word": "edge",
+      "start": 218.5,
+      "end": 218.66,
+      "probability": 0.75
+    },
+    {
+      "word": "of",
+      "start": 218.66,
+      "end": 218.72,
+      "probability": 0.99
+    },
+    {
+      "word": "town.",
+      "start": 218.72,
+      "end": 219.04,
+      "probability": 0.99
+    },
+    {
+      "word": "Wide",
+      "start": 219.82,
+      "end": 219.92,
+      "probability": 0.99
+    },
+    {
+      "word": "open",
+      "start": 219.92,
+      "end": 220.14,
+      "probability": 0.91
+    },
+    {
+      "word": "except",
+      "start": 220.14,
+      "end": 220.38,
+      "probability": 0.76
+    },
+    {
+      "word": "for",
+      "start": 220.38,
+      "end": 220.54,
+      "probability": 0.98
+    },
+    {
+      "word": "a",
+      "start": 220.54,
+      "end": 220.66,
+      "probability": 0.98
+    },
+    {
+      "word": "row",
+      "start": 220.66,
+      "end": 220.8,
+      "probability": 0.98
+    },
+    {
+      "word": "of",
+      "start": 220.8,
+      "end": 220.96,
+      "probability": 0.99
+    },
+    {
+      "word": "leaning",
+      "start": 220.96,
+      "end": 221.24,
+      "probability": 0.97
+    },
+    {
+      "word": "stones",
+      "start": 221.24,
+      "end": 221.62,
+      "probability": 0.99
+    },
+    {
+      "word": "and",
+      "start": 221.62,
+      "end": 221.92,
+      "probability": 0.73
+    },
+    {
+      "word": "one",
+      "start": 221.92,
+      "end": 222.08,
+      "probability": 0.93
+    },
+    {
+      "word": "big",
+      "start": 222.08,
+      "end": 222.34,
+      "probability": 0.98
+    },
+    {
+      "word": "marble",
+      "start": 222.34,
+      "end": 222.7,
+      "probability": 0.98
+    },
+    {
+      "word": "monument.",
+      "start": 222.7,
+      "end": 223.12,
+      "probability": 0.99
+    },
+    {
+      "word": "Nobody",
+      "start": 223.36,
+      "end": 223.5,
+      "probability": 0.97
+    },
+    {
+      "word": "had",
+      "start": 223.5,
+      "end": 223.66,
+      "probability": 0.98
+    },
+    {
+      "word": "ever",
+      "start": 223.66,
+      "end": 223.8,
+      "probability": 0.99
+    },
+    {
+      "word": "polished",
+      "start": 223.8,
+      "end": 224.22,
+      "probability": 0.99
+    },
+    {
+      "word": "Kinders.",
+      "start": 224.22,
+      "end": 224.64,
+      "probability": 0.58
+    },
+    {
+      "word": "\"That'll",
+      "start": 225.6,
+      "end": 225.88,
+      "probability": 0.72
+    },
+    {
+      "word": "do.\"",
+      "start": 225.88,
+      "end": 226.94,
+      "probability": 0.83
+    },
+    {
+      "word": "She",
+      "start": 226.94,
+      "end": 227.28,
+      "probability": 0.55
+    },
+    {
+      "word": "aimed",
+      "start": 227.28,
+      "end": 227.52,
+      "probability": 0.99
+    },
+    {
+      "word": "for",
+      "start": 227.52,
+      "end": 227.76,
+      "probability": 0.99
+    },
+    {
+      "word": "it.",
+      "start": 227.76,
+      "end": 228,
+      "probability": 1
+    },
+    {
+      "word": "Varn",
+      "start": 228.9,
+      "end": 229.06,
+      "probability": 0.35
+    },
+    {
+      "word": "actually",
+      "start": 229.06,
+      "end": 229.5,
+      "probability": 0.96
+    },
+    {
+      "word": "looked",
+      "start": 229.5,
+      "end": 229.72,
+      "probability": 0.98
+    },
+    {
+      "word": "alarmed",
+      "start": 229.72,
+      "end": 230.1,
+      "probability": 0.99
+    },
+    {
+      "word": "now.",
+      "start": 230.1,
+      "end": 230.38,
+      "probability": 0.97
+    },
+    {
+      "word": "\"You",
+      "start": 231.18,
+      "end": 231.34,
+      "probability": 0.98
+    },
+    {
+      "word": "cannot",
+      "start": 231.34,
+      "end": 231.7,
+      "probability": 0.81
+    },
+    {
+      "word": "be",
+      "start": 231.7,
+      "end": 231.94,
+      "probability": 1
+    },
+    {
+      "word": "serious!\"",
+      "start": 231.94,
+      "end": 232.92,
+      "probability": 0.72
+    },
+    {
+      "word": "\"I",
+      "start": 233.26,
+      "end": 233.66,
+      "probability": 0.87
+    },
+    {
+      "word": "can",
+      "start": 233.66,
+      "end": 233.96,
+      "probability": 1
+    },
+    {
+      "word": "when",
+      "start": 233.96,
+      "end": 234.14,
+      "probability": 0.97
+    },
+    {
+      "word": "I'm",
+      "start": 234.14,
+      "end": 234.28,
+      "probability": 0.99
+    },
+    {
+      "word": "tired.\"",
+      "start": 234.28,
+      "end": 235.6,
+      "probability": 0.95
+    },
+    {
+      "word": "The",
+      "start": 235.74,
+      "end": 235.9,
+      "probability": 1
+    },
+    {
+      "word": "coach",
+      "start": 235.9,
+      "end": 236.16,
+      "probability": 0.97
+    },
+    {
+      "word": "ripped",
+      "start": 236.16,
+      "end": 236.52,
+      "probability": 0.97
+    },
+    {
+      "word": "through",
+      "start": 236.52,
+      "end": 236.76,
+      "probability": 0.99
+    },
+    {
+      "word": "the",
+      "start": 236.76,
+      "end": 236.92,
+      "probability": 1
+    },
+    {
+      "word": "edge",
+      "start": 236.92,
+      "end": 236.98,
+      "probability": 0.99
+    },
+    {
+      "word": "of",
+      "start": 236.98,
+      "end": 237.1,
+      "probability": 1
+    },
+    {
+      "word": "the",
+      "start": 237.1,
+      "end": 237.18,
+      "probability": 0.97
+    },
+    {
+      "word": "storm,",
+      "start": 237.18,
+      "end": 237.48,
+      "probability": 1
+    },
+    {
+      "word": "dropping",
+      "start": 237.78,
+      "end": 238.12,
+      "probability": 0.96
+    },
+    {
+      "word": "out",
+      "start": 238.12,
+      "end": 238.3,
+      "probability": 0.99
+    },
+    {
+      "word": "of",
+      "start": 238.3,
+      "end": 238.32,
+      "probability": 0.98
+    },
+    {
+      "word": "the",
+      "start": 238.32,
+      "end": 238.44,
+      "probability": 0.99
+    },
+    {
+      "word": "green",
+      "start": 238.44,
+      "end": 238.66,
+      "probability": 0.96
+    },
+    {
+      "word": "clouds",
+      "start": 238.66,
+      "end": 238.98,
+      "probability": 0.99
+    },
+    {
+      "word": "and",
+      "start": 238.98,
+      "end": 239.14,
+      "probability": 0.68
+    },
+    {
+      "word": "a",
+      "start": 239.14,
+      "end": 239.32,
+      "probability": 0.96
+    },
+    {
+      "word": "howl",
+      "start": 239.32,
+      "end": 239.58,
+      "probability": 0.97
+    },
+    {
+      "word": "of",
+      "start": 239.58,
+      "end": 239.68,
+      "probability": 1
+    },
+    {
+      "word": "sting",
+      "start": 239.68,
+      "end": 240,
+      "probability": 0.67
+    },
+    {
+      "word": "the",
+      "start": 240,
+      "end": 240.16,
+      "probability": 0.42
+    },
+    {
+      "word": "metal.",
+      "start": 240.16,
+      "end": 240.42,
+      "probability": 1
+    },
+    {
+      "word": "Wheels",
+      "start": 241.34,
+      "end": 241.52,
+      "probability": 0.92
+    },
+    {
+      "word": "clipped",
+      "start": 241.52,
+      "end": 241.74,
+      "probability": 0.81
+    },
+    {
+      "word": "the",
+      "start": 241.74,
+      "end": 241.92,
+      "probability": 0.99
+    },
+    {
+      "word": "top",
+      "start": 241.92,
+      "end": 242.18,
+      "probability": 1
+    },
+    {
+      "word": "branch",
+      "start": 242.18,
+      "end": 242.48,
+      "probability": 0.98
+    },
+    {
+      "word": "of",
+      "start": 242.48,
+      "end": 242.56,
+      "probability": 0.96
+    },
+    {
+      "word": "a",
+      "start": 242.56,
+      "end": 242.64,
+      "probability": 0.8
+    },
+    {
+      "word": "cottonwood.",
+      "start": 242.64,
+      "end": 243.12,
+      "probability": 0.96
+    },
+    {
+      "word": "One",
+      "start": 243.84,
+      "end": 243.92,
+      "probability": 0.97
+    },
+    {
+      "word": "thing",
+      "start": 243.92,
+      "end": 244.14,
+      "probability": 0.89
+    },
+    {
+      "word": "snapped",
+      "start": 244.14,
+      "end": 244.58,
+      "probability": 1
+    },
+    {
+      "word": "free",
+      "start": 244.58,
+      "end": 244.88,
+      "probability": 0.99
+    },
+    {
+      "word": "and",
+      "start": 244.88,
+      "end": 245.02,
+      "probability": 0.99
+    },
+    {
+      "word": "rolled",
+      "start": 245.02,
+      "end": 245.3,
+      "probability": 0.94
+    },
+    {
+      "word": "away",
+      "start": 245.3,
+      "end": 245.52,
+      "probability": 0.96
+    },
+    {
+      "word": "across",
+      "start": 245.52,
+      "end": 245.78,
+      "probability": 0.99
+    },
+    {
+      "word": "the",
+      "start": 245.78,
+      "end": 245.98,
+      "probability": 0.98
+    },
+    {
+      "word": "graveyard",
+      "start": 245.98,
+      "end": 246.34,
+      "probability": 0.97
+    },
+    {
+      "word": "like",
+      "start": 246.34,
+      "end": 246.52,
+      "probability": 0.97
+    },
+    {
+      "word": "a",
+      "start": 246.52,
+      "end": 246.66,
+      "probability": 1
+    },
+    {
+      "word": "silver",
+      "start": 246.66,
+      "end": 247,
+      "probability": 0.93
+    },
+    {
+      "word": "sign.",
+      "start": 247,
+      "end": 247.26,
+      "probability": 0.2
+    },
+    {
+      "word": "The",
+      "start": 249.88,
+      "end": 250.36,
+      "probability": 0.32
+    },
+    {
+      "word": "coach",
+      "start": 250.36,
+      "end": 250.58,
+      "probability": 0.99
+    },
+    {
+      "word": "slammed",
+      "start": 250.58,
+      "end": 251.04,
+      "probability": 0.99
+    },
+    {
+      "word": "into",
+      "start": 251.04,
+      "end": 251.28,
+      "probability": 0.98
+    },
+    {
+      "word": "the",
+      "start": 251.28,
+      "end": 251.4,
+      "probability": 0.99
+    },
+    {
+      "word": "cemetery",
+      "start": 251.4,
+      "end": 251.72,
+      "probability": 0.95
+    },
+    {
+      "word": "dirt,",
+      "start": 251.72,
+      "end": 252.1,
+      "probability": 0.96
+    },
+    {
+      "word": "bounced",
+      "start": 252.48,
+      "end": 252.62,
+      "probability": 0.98
+    },
+    {
+      "word": "once,",
+      "start": 252.62,
+      "end": 252.98,
+      "probability": 0.99
+    },
+    {
+      "word": "crushed",
+      "start": 253.28,
+      "end": 253.4,
+      "probability": 0.98
+    },
+    {
+      "word": "a",
+      "start": 253.4,
+      "end": 253.5,
+      "probability": 0.92
+    },
+    {
+      "word": "fence,",
+      "start": 253.5,
+      "end": 253.8,
+      "probability": 0.99
+    },
+    {
+      "word": "and",
+      "start": 254,
+      "end": 254.08,
+      "probability": 0.94
+    },
+    {
+      "word": "skidded",
+      "start": 254.08,
+      "end": 254.44,
+      "probability": 0.97
+    },
+    {
+      "word": "to",
+      "start": 254.5,
+      "end": 254.56,
+      "probability": 0.98
+    },
+    {
+      "word": "a",
+      "start": 254.56,
+      "end": 254.64,
+      "probability": 0.98
+    },
+    {
+      "word": "stop",
+      "start": 254.64,
+      "end": 254.9,
+      "probability": 0.99
+    },
+    {
+      "word": "against",
+      "start": 254.9,
+      "end": 255.1,
+      "probability": 0.99
+    },
+    {
+      "word": "the",
+      "start": 255.1,
+      "end": 255.26,
+      "probability": 0.88
+    },
+    {
+      "word": "marble",
+      "start": 255.26,
+      "end": 255.5,
+      "probability": 0.97
+    },
+    {
+      "word": "monument.",
+      "start": 255.5,
+      "end": 255.88,
+      "probability": 1
+    },
+    {
+      "word": "For",
+      "start": 257.14,
+      "end": 257.24,
+      "probability": 1
+    },
+    {
+      "word": "a",
+      "start": 257.24,
+      "end": 257.42,
+      "probability": 1
+    },
+    {
+      "word": "moment,",
+      "start": 257.42,
+      "end": 257.58,
+      "probability": 1
+    },
+    {
+      "word": "everything",
+      "start": 257.94,
+      "end": 258.24,
+      "probability": 0.99
+    },
+    {
+      "word": "was",
+      "start": 258.24,
+      "end": 258.42,
+      "probability": 1
+    },
+    {
+      "word": "silent,",
+      "start": 258.42,
+      "end": 258.82,
+      "probability": 0.99
+    },
+    {
+      "word": "fixed",
+      "start": 259.2,
+      "end": 259.3,
+      "probability": 0.78
+    },
+    {
+      "word": "up",
+      "start": 259.3,
+      "end": 259.4,
+      "probability": 0.98
+    },
+    {
+      "word": "the",
+      "start": 259.4,
+      "end": 259.5,
+      "probability": 0.86
+    },
+    {
+      "word": "soft",
+      "start": 259.5,
+      "end": 259.78,
+      "probability": 0.99
+    },
+    {
+      "word": "tick,",
+      "start": 259.78,
+      "end": 260,
+      "probability": 0.79
+    },
+    {
+      "word": "tick,",
+      "start": 260.28,
+      "end": 260.36,
+      "probability": 0.99
+    },
+    {
+      "word": "tick",
+      "start": 260.68,
+      "end": 260.9,
+      "probability": 0.99
+    },
+    {
+      "word": "of",
+      "start": 260.9,
+      "end": 261.16,
+      "probability": 0.89
+    },
+    {
+      "word": "corn",
+      "start": 261.16,
+      "end": 261.48,
+      "probability": 0.96
+    },
+    {
+      "word": "brass.",
+      "start": 261.48,
+      "end": 261.78,
+      "probability": 0.27
+    },
+    {
+      "word": "The",
+      "start": 262.98,
+      "end": 263.16,
+      "probability": 0.99
+    },
+    {
+      "word": "parrot",
+      "start": 263.16,
+      "end": 263.5,
+      "probability": 0.97
+    },
+    {
+      "word": "puffed",
+      "start": 263.5,
+      "end": 263.74,
+      "probability": 0.99
+    },
+    {
+      "word": "its",
+      "start": 263.74,
+      "end": 263.9,
+      "probability": 0.97
+    },
+    {
+      "word": "feathers",
+      "start": 263.9,
+      "end": 264.14,
+      "probability": 1
+    },
+    {
+      "word": "and",
+      "start": 264.14,
+      "end": 264.5,
+      "probability": 0.91
+    },
+    {
+      "word": "said",
+      "start": 264.5,
+      "end": 264.7,
+      "probability": 0.98
+    },
+    {
+      "word": "in",
+      "start": 264.7,
+      "end": 264.84,
+      "probability": 0.82
+    },
+    {
+      "word": "a",
+      "start": 264.84,
+      "end": 264.94,
+      "probability": 0.99
+    },
+    {
+      "word": "much",
+      "start": 264.94,
+      "end": 265.28,
+      "probability": 0.99
+    },
+    {
+      "word": "calmer",
+      "start": 265.28,
+      "end": 265.56,
+      "probability": 0.92
+    },
+    {
+      "word": "voice,",
+      "start": 265.56,
+      "end": 265.96,
+      "probability": 1
+    },
+    {
+      "word": "\"I",
+      "start": 266.84,
+      "end": 266.92,
+      "probability": 0.74
+    },
+    {
+      "word": "am",
+      "start": 266.92,
+      "end": 267.02,
+      "probability": 0.91
+    },
+    {
+      "word": "landing.",
+      "start": 267.02,
+      "end": 267.38,
+      "probability": 0.99
+    },
+    {
+      "word": "Just",
+      "start": 268.56,
+      "end": 268.66,
+      "probability": 0.93
+    },
+    {
+      "word": "let",
+      "start": 268.66,
+      "end": 268.86,
+      "probability": 0.99
+    },
+    {
+      "word": "go",
+      "start": 268.86,
+      "end": 269.1,
+      "probability": 1
+    },
+    {
+      "word": "of",
+      "start": 269.1,
+      "end": 269.22,
+      "probability": 0.99
+    },
+    {
+      "word": "the",
+      "start": 269.22,
+      "end": 269.38,
+      "probability": 1
+    },
+    {
+      "word": "wheel",
+      "start": 269.38,
+      "end": 269.5,
+      "probability": 1
+    },
+    {
+      "word": "and",
+      "start": 269.5,
+      "end": 269.62,
+      "probability": 0.7
+    },
+    {
+      "word": "breathe.\"",
+      "start": 269.62,
+      "end": 271.54,
+      "probability": 0.62
+    },
+    {
+      "word": "The",
+      "start": 273.1,
+      "end": 273.62,
+      "probability": 0.85
+    },
+    {
+      "word": "hatch",
+      "start": 273.62,
+      "end": 273.88,
+      "probability": 1
+    },
+    {
+      "word": "burst",
+      "start": 273.88,
+      "end": 274.24,
+      "probability": 0.79
+    },
+    {
+      "word": "open",
+      "start": 274.24,
+      "end": 274.44,
+      "probability": 1
+    },
+    {
+      "word": "above",
+      "start": 274.44,
+      "end": 274.68,
+      "probability": 1
+    },
+    {
+      "word": "his",
+      "start": 274.68,
+      "end": 274.86,
+      "probability": 0.39
+    },
+    {
+      "word": "townspeople",
+      "start": 274.86,
+      "end": 275.36,
+      "probability": 1
+    },
+    {
+      "word": "came",
+      "start": 275.36,
+      "end": 275.56,
+      "probability": 0.6
+    },
+    {
+      "word": "warning",
+      "start": 275.56,
+      "end": 275.86,
+      "probability": 0.91
+    },
+    {
+      "word": "through",
+      "start": 275.86,
+      "end": 276.06,
+      "probability": 1
+    },
+    {
+      "word": "the",
+      "start": 276.06,
+      "end": 276.16,
+      "probability": 1
+    },
+    {
+      "word": "gate.",
+      "start": 276.16,
+      "end": 276.32,
+      "probability": 1
+    },
+    {
+      "word": "The",
+      "start": 276.95,
+      "end": 277.14,
+      "probability": 1
+    },
+    {
+      "word": "mail",
+      "start": 277.14,
+      "end": 277.42,
+      "probability": 0.11
+    },
+    {
+      "word": "arrived",
+      "start": 277.42,
+      "end": 277.74,
+      "probability": 0.99
+    },
+    {
+      "word": "first,",
+      "start": 277.74,
+      "end": 278.18,
+      "probability": 1
+    },
+    {
+      "word": "soaked,",
+      "start": 278.5,
+      "end": 278.68,
+      "probability": 1
+    },
+    {
+      "word": "muddy,",
+      "start": 278.96,
+      "end": 279.08,
+      "probability": 1
+    },
+    {
+      "word": "and",
+      "start": 279.19,
+      "end": 279.38,
+      "probability": 1
+    },
+    {
+      "word": "killing",
+      "start": 279.38,
+      "end": 279.64,
+      "probability": 0.98
+    },
+    {
+      "word": "half",
+      "start": 279.64,
+      "end": 279.9,
+      "probability": 0.61
+    },
+    {
+      "word": "a",
+      "start": 279.9,
+      "end": 280.1,
+      "probability": 1
+    },
+    {
+      "word": "shovel.",
+      "start": 280.1,
+      "end": 280.32,
+      "probability": 1
+    },
+    {
+      "word": "He",
+      "start": 281.11,
+      "end": 281.3,
+      "probability": 1
+    },
+    {
+      "word": "stared",
+      "start": 281.3,
+      "end": 281.62,
+      "probability": 1
+    },
+    {
+      "word": "at",
+      "start": 281.62,
+      "end": 281.76,
+      "probability": 1
+    },
+    {
+      "word": "the",
+      "start": 281.76,
+      "end": 281.86,
+      "probability": 1
+    },
+    {
+      "word": "wrecked",
+      "start": 281.86,
+      "end": 282.12,
+      "probability": 0.98
+    },
+    {
+      "word": "flying",
+      "start": 282.12,
+      "end": 282.44,
+      "probability": 0.99
+    },
+    {
+      "word": "coach",
+      "start": 282.44,
+      "end": 282.76,
+      "probability": 1
+    },
+    {
+      "word": "then",
+      "start": 282.76,
+      "end": 283.04,
+      "probability": 0.16
+    },
+    {
+      "word": "it",
+      "start": 283.04,
+      "end": 283.12,
+      "probability": 0.99
+    },
+    {
+      "word": "roared",
+      "start": 283.12,
+      "end": 283.38,
+      "probability": 0.91
+    },
+    {
+      "word": "trust",
+      "start": 283.38,
+      "end": 283.72,
+      "probability": 0.17
+    },
+    {
+      "word": "on",
+      "start": 283.72,
+      "end": 283.88,
+      "probability": 1
+    },
+    {
+      "word": "the",
+      "start": 283.88,
+      "end": 284.04,
+      "probability": 1
+    },
+    {
+      "word": "silver",
+      "start": 284.04,
+      "end": 284.2,
+      "probability": 0.99
+    },
+    {
+      "word": "sacks.",
+      "start": 284.2,
+      "end": 284.48,
+      "probability": 0.97
+    },
+    {
+      "word": "Then",
+      "start": 285.32,
+      "end": 285.4,
+      "probability": 1
+    },
+    {
+      "word": "it",
+      "start": 285.4,
+      "end": 285.48,
+      "probability": 1
+    },
+    {
+      "word": "dusted.",
+      "start": 285.48,
+      "end": 286.04,
+      "probability": 0.93
+    },
+    {
+      "word": "\"Mushal!",
+      "start": 287.3,
+      "end": 287.82,
+      "probability": 0.81
+    },
+    {
+      "word": "Did",
+      "start": 288.26,
+      "end": 288.52,
+      "probability": 1
+    },
+    {
+      "word": "you",
+      "start": 288.52,
+      "end": 288.68,
+      "probability": 1
+    },
+    {
+      "word": "just",
+      "start": 288.68,
+      "end": 288.86,
+      "probability": 1
+    },
+    {
+      "word": "wess",
+      "start": 288.86,
+      "end": 289.2,
+      "probability": 0.18
+    },
+    {
+      "word": "the",
+      "start": 289.2,
+      "end": 289.38,
+      "probability": 1
+    },
+    {
+      "word": "sky?\"",
+      "start": 289.38,
+      "end": 290.4,
+      "probability": 1
+    },
+    {
+      "word": "Dust",
+      "start": 291.02,
+      "end": 291.42,
+      "probability": 0.99
+    },
+    {
+      "word": "stood,",
+      "start": 291.42,
+      "end": 291.84,
+      "probability": 1
+    },
+    {
+      "word": "wincing",
+      "start": 292.22,
+      "end": 292.4,
+      "probability": 0.99
+    },
+    {
+      "word": "at",
+      "start": 292.4,
+      "end": 292.52,
+      "probability": 1
+    },
+    {
+      "word": "a",
+      "start": 292.52,
+      "end": 292.6,
+      "probability": 1
+    },
+    {
+      "word": "bruise",
+      "start": 292.6,
+      "end": 292.92,
+      "probability": 1
+    },
+    {
+      "word": "on",
+      "start": 292.92,
+      "end": 292.98,
+      "probability": 0.99
+    },
+    {
+      "word": "her",
+      "start": 292.98,
+      "end": 293.08,
+      "probability": 1
+    },
+    {
+      "word": "side.",
+      "start": 293.08,
+      "end": 293.38,
+      "probability": 1
+    },
+    {
+      "word": "\"Oh,",
+      "start": 294.34,
+      "end": 294.62,
+      "probability": 0.53
+    },
+    {
+      "word": "the",
+      "start": 294.64,
+      "end": 294.76,
+      "probability": 0.48
+    },
+    {
+      "word": "part",
+      "start": 294.76,
+      "end": 295.08,
+      "probability": 0.21
+    },
+    {
+      "word": "that",
+      "start": 295.08,
+      "end": 295.26,
+      "probability": 0.93
+    },
+    {
+      "word": "was",
+      "start": 295.26,
+      "end": 295.38,
+      "probability": 1
+    },
+    {
+      "word": "stealing.\"",
+      "start": 295.38,
+      "end": 296,
+      "probability": 0.75
+    }
+  ]
+}

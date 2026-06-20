@@ -7,6 +7,8 @@
 	let { story } = $props();
 
 	let currentChapter = $state(1);
+	let isAudioPlaying = $state(false);
+	let audioChapterTrailElement = $state(null);
 	const chaptersWithContent = $derived(
 		story
 			? story.chapters.map((chapter) => ({
@@ -25,6 +27,34 @@
 	const currentAudioTitle = $derived(
 		story ? story.chapters.find((chapter) => chapter.id === currentChapter)?.title || '' : ''
 	);
+	const shouldShowAudioSidebar = $derived(Boolean(story?.audio?.available && isAudioPlaying));
+
+	function handleAudioPlayingChange(nextIsPlaying) {
+		isAudioPlaying = Boolean(story?.audio?.available && nextIsPlaying);
+	}
+
+	function scrollActiveAudioChapterIntoView(chapterNumber) {
+		const container = audioChapterTrailElement;
+		const activeLink = container?.querySelector(`[data-audio-chapter-link="${chapterNumber}"]`);
+		if (!container || !activeLink) return;
+
+		const targetScrollTop =
+			activeLink.offsetTop - container.clientHeight / 2 + activeLink.offsetHeight / 2;
+
+		container.scrollTo({
+			top: Math.max(0, targetScrollTop),
+			behavior: 'smooth'
+		});
+	}
+
+	$effect(() => {
+		if (!browser || !shouldShowAudioSidebar || !audioChapterTrailElement) return;
+
+		const chapterNumber = currentChapter;
+		const frameId = requestAnimationFrame(() => scrollActiveAudioChapterIntoView(chapterNumber));
+
+		return () => cancelAnimationFrame(frameId);
+	});
 
 	function scrollToChapter(chapterNumber) {
 		const element = document.getElementById(`chapter-${chapterNumber}`);
@@ -58,21 +88,21 @@
 </script>
 
 {#if story && chaptersWithContent.length > 0}
-	<div class="story-container mx-auto max-w-[700px] px-5 py-3 sm:px-8">
-		<header class="story-masthead mb-8 pt-8 pb-6">
-			<div class="mb-8">
+	<div class="story-container mx-auto max-w-[760px] px-4 py-2 sm:px-6">
+		<header class="story-masthead mb-8 pt-5 pb-8 sm:pt-8 sm:pb-10">
+			<div class="mb-7">
 				<h1
-					class="mb-4 {fontClass} text-6xl font-semibold tracking-tight text-pretty text-stone-950 dark:text-stone-50"
+					class="mb-5 {fontClass} text-5xl leading-[1.02] font-semibold text-pretty text-stone-950 sm:text-6xl dark:text-stone-50"
 				>
 					{story.title}
 				</h1>
-				<p class="max-w-[42ch] text-lg leading-8 text-pretty text-stone-600 dark:text-stone-400">
+				<p class="max-w-[44rem] text-lg leading-8 text-pretty text-stone-600 dark:text-stone-400">
 					{story.description}
 				</p>
 			</div>
 
 			<!-- Metadata pills -->
-			<div class="story-metadata mb-8 flex flex-wrap gap-2">
+			<div class="story-metadata mb-6 flex flex-wrap gap-2">
 				<span
 					class="rounded-full border border-stone-200 px-3 py-1.5 text-sm font-medium text-stone-600 tabular-nums dark:border-stone-700 dark:text-stone-400"
 				>
@@ -108,13 +138,14 @@
 
 			<!-- Audio Player -->
 			{#if story.audio?.available}
-				<div class="mb-8">
+				<div class="mb-6">
 					{#if browser && currentAudioUrl}
 						<AudioPlayer
 							audioUrl={currentAudioUrl}
 							title={`Chapter ${currentChapter}: ${currentAudioTitle}`}
 							onEnded={goToNextChapter}
-							className="max-w-2xl"
+							onPlayingChange={handleAudioPlayingChange}
+							className="story-audio"
 							{currentChapter}
 							{story}
 							{goToNextChapter}
@@ -178,6 +209,45 @@
 			</div>
 		</header>
 
+		{#if shouldShowAudioSidebar}
+			<aside class="audio-follow-sidebar no-lift" aria-label="Audio chapter progress">
+				<p class="mb-3 text-xs font-semibold text-stone-500 uppercase dark:text-stone-400">
+					Listening
+				</p>
+				<div
+					bind:this={audioChapterTrailElement}
+					role="list"
+					class="chapter-trail audio-follow-trail"
+				>
+					{#each story.chapters as chapter (chapter.number)}
+						<div role="listitem">
+							<a
+								href="#chapter-{chapter.number}"
+								class:active={currentChapter === chapter.number}
+								aria-current={currentChapter === chapter.number ? 'true' : undefined}
+								data-audio-chapter-link={chapter.number}
+								class="group flex items-baseline justify-between py-2.5"
+								title="Jump to {chapter.title}"
+								onclick={(event) => handleChapterLinkClick(event, chapter.number)}
+							>
+								<span aria-hidden="true" class="chapter-dot"></span>
+								<span
+									class="chapter-link-title text-sm font-medium text-stone-800 transition-colors group-hover:text-stone-950 dark:text-stone-300 dark:group-hover:text-stone-50"
+								>
+									{chapter.title}
+								</span>
+								<span
+									class="chapter-number ml-4 shrink-0 text-sm text-stone-400 tabular-nums dark:text-stone-600"
+								>
+									{chapter.number}
+								</span>
+							</a>
+						</div>
+					{/each}
+				</div>
+			</aside>
+		{/if}
+
 		<!-- All Chapters -->
 		<main
 			class="prose prose-lg prose-stone dark:prose-invert max-w-none text-stone-900 {fontClass} story-content dark:text-stone-100"
@@ -232,6 +302,9 @@
 		--story-accent-soft: rgba(38, 136, 221, 0.16);
 		--story-paper: rgba(255, 255, 255, 0.62);
 		--story-ink-soft: rgba(41, 37, 36, 0.5);
+		--story-frame: rgba(242, 242, 237, 0.32);
+		--story-frame-border: rgba(232, 231, 230, 0.96);
+		--chapter-surface: #faf8f5;
 	}
 
 	:global(.dark .story-container) {
@@ -239,35 +312,19 @@
 		--story-accent-soft: rgba(124, 199, 255, 0.16);
 		--story-paper: rgba(255, 255, 255, 0.04);
 		--story-ink-soft: rgba(245, 245, 244, 0.38);
+		--story-frame: rgba(255, 255, 255, 0.05);
+		--story-frame-border: rgba(255, 255, 255, 0.1);
+		--chapter-surface: #161412;
 	}
 
 	.story-masthead {
 		position: relative;
-	}
-
-	.story-masthead::before {
-		content: '';
-		position: absolute;
-		top: 0.75rem;
-		right: 0;
-		width: min(8rem, 28vw);
-		height: 0.5rem;
-		border-block: 1px solid color-mix(in srgb, currentColor 10%, transparent);
-		opacity: 0.7;
-		background-image: repeating-linear-gradient(
-			90deg,
-			var(--story-accent) 0 0.5rem,
-			transparent 0.5rem 0.9rem
-		);
-		background-size: 1.8rem 100%;
+		border-bottom: 1px solid color-mix(in srgb, currentColor 9%, transparent);
 	}
 
 	:global(.story-metadata > span) {
-		background:
-			linear-gradient(180deg, rgba(255, 255, 255, 0.46), rgba(255, 255, 255, 0)), var(--story-paper);
-		box-shadow:
-			inset 0 1px 0 rgba(255, 255, 255, 0.6),
-			0 1px 2px rgba(0, 0, 0, 0.04);
+		background: var(--story-paper);
+		box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.56);
 	}
 
 	:global(.dark .story-metadata > span) {
@@ -278,13 +335,16 @@
 	}
 
 	.story-contents {
+		--chapter-dot-size: 1rem;
+		--chapter-link-pad-x: 0.875rem;
+		--chapter-line-x: calc(var(--chapter-link-pad-x) + (var(--chapter-dot-size) / 2));
 		position: relative;
-		border-radius: 0.875rem;
-		padding: 1rem;
-		background: linear-gradient(180deg, var(--story-paper), rgba(255, 255, 255, 0));
+		border-radius: 0.5rem;
+		padding: 0.875rem;
+		background: color-mix(in srgb, var(--story-paper) 88%, transparent);
 		box-shadow:
 			inset 0 0 0 1px rgba(120, 113, 108, 0.12),
-			inset 0 1px 0 rgba(255, 255, 255, 0.55);
+			inset 0 1px 0 rgba(255, 255, 255, 0.46);
 	}
 
 	:global(.dark .story-contents) {
@@ -294,6 +354,10 @@
 			inset 0 1px 0 rgba(255, 255, 255, 0.06);
 	}
 
+	.audio-follow-sidebar {
+		display: none;
+	}
+
 	.chapter-trail {
 		position: relative;
 	}
@@ -301,22 +365,27 @@
 	.chapter-trail::before {
 		content: '';
 		position: absolute;
-		top: 1.25rem;
-		bottom: 1.25rem;
-		left: 0.375rem;
+		top: 1.55rem;
+		bottom: 1.55rem;
+		left: calc(var(--chapter-line-x) - 0.5px);
 		width: 1px;
 		background: linear-gradient(180deg, transparent, rgba(120, 113, 108, 0.28), transparent);
 	}
 
-	:global(.story-contents a) {
+	:global(.story-contents a),
+	.audio-follow-sidebar a {
 		position: relative;
-		gap: 0.75rem;
+		align-items: center;
+		min-height: 2.75rem;
+		gap: 0.85rem;
 		border-radius: 0.5rem;
-		padding-inline: 0.25rem 0.375rem;
+		padding-inline: var(--chapter-link-pad-x, 0.875rem) 0.375rem;
 	}
 
 	:global(.story-contents a:hover),
-	:global(.story-contents a.active) {
+	:global(.story-contents a.active),
+	.audio-follow-sidebar a:hover,
+	.audio-follow-sidebar a.active {
 		background: var(--story-accent-soft);
 	}
 
@@ -324,20 +393,34 @@
 		position: relative;
 		z-index: 1;
 		display: inline-grid;
-		width: 0.8rem;
-		height: 0.8rem;
+		width: var(--chapter-dot-size, 1rem);
+		height: var(--chapter-dot-size, 1rem);
 		flex: 0 0 auto;
-		align-self: center;
 		place-items: center;
 		border-radius: 999px;
-		border: 2px solid rgba(120, 113, 108, 0.18);
-		background: color-mix(in srgb, var(--story-paper) 80%, white);
-		box-shadow: 0 0 0 3px color-mix(in srgb, var(--story-paper) 80%, transparent);
+		border: 2px solid rgba(120, 113, 108, 0.2);
+		background: var(--chapter-surface);
+		box-shadow: 0 0 0 4px var(--chapter-surface);
+	}
+
+	.chapter-dot::after {
+		content: '';
+		width: 0.45rem;
+		height: 0.45rem;
+		border-radius: inherit;
+		background: transparent;
 	}
 
 	:global(.story-contents a:hover .chapter-dot),
-	:global(.story-contents a.active .chapter-dot) {
+	:global(.story-contents a.active .chapter-dot),
+	.audio-follow-sidebar a:hover .chapter-dot,
+	.audio-follow-sidebar a.active .chapter-dot {
 		border-color: color-mix(in srgb, var(--story-accent) 60%, white);
+		background: color-mix(in srgb, var(--story-accent) 14%, var(--chapter-surface));
+	}
+
+	:global(.story-contents a.active .chapter-dot::after),
+	.audio-follow-sidebar a.active .chapter-dot::after {
 		background: var(--story-accent);
 	}
 
@@ -346,9 +429,28 @@
 	}
 
 	.chapter-number {
+		display: inline-grid;
+		width: 2rem;
+		height: 2rem;
+		place-items: center;
 		border-radius: 999px;
-		padding: 0.1rem 0.45rem;
-		background: rgba(120, 113, 108, 0.08);
+		border: 1px solid rgba(120, 113, 108, 0.08);
+		padding: 0;
+		background: rgba(120, 113, 108, 0.06);
+		font-weight: 600;
+	}
+
+	:global(.story-contents a.active .chapter-number),
+	.audio-follow-sidebar a.active .chapter-number {
+		border-color: color-mix(in srgb, var(--story-accent) 22%, transparent);
+		background: color-mix(in srgb, var(--story-accent) 16%, white);
+		color: color-mix(in srgb, var(--story-accent) 70%, #1c1917) !important;
+	}
+
+	:global(.dark .story-contents a.active .chapter-number),
+	:global(.dark .audio-follow-sidebar a.active .chapter-number) {
+		background: color-mix(in srgb, var(--story-accent) 24%, #111113);
+		color: color-mix(in srgb, var(--story-accent) 74%, white) !important;
 	}
 
 	/* Better spacing between chapters */
@@ -359,19 +461,11 @@
 	:global(.story-container a),
 	:global(.story-container button) {
 		font-weight: 500;
-		transition: all 0.2s ease;
-	}
-
-	:global(.story-container a:not(.no-lift *):hover),
-	:global(.story-container button:not(.no-lift *):hover) {
-		transform: translateY(-1px);
-		box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
-	}
-
-	:global(.story-container .no-lift a:hover),
-	:global(.story-container .no-lift button:hover) {
-		transform: none;
-		box-shadow: none;
+		transition:
+			background-color 0.2s ease,
+			border-color 0.2s ease,
+			box-shadow 0.2s ease,
+			color 0.2s ease;
 	}
 
 	/* Ensure all story content inherits the text color */
@@ -381,40 +475,12 @@
 
 	/* Typography styles that adapt to current design */
 	:global(.story-container .prose h1) {
-		position: relative;
 		font-weight: 700;
 		margin: 0 0 2rem;
-		padding-top: 1.4rem;
-		line-height: 1.3;
-		font-size: 2.5rem;
+		padding-top: 0.4rem;
+		line-height: 1.2;
+		font-size: 2.35rem;
 		text-wrap: pretty;
-	}
-
-	:global(.story-container .prose h1::before) {
-		content: 'Chapter ' counter(story-chapter);
-		display: flex;
-		width: max-content;
-		margin-bottom: 0.65rem;
-		border: 1px solid rgba(120, 113, 108, 0.2);
-		border-radius: 999px;
-		padding: 0.18rem 0.65rem;
-		background: var(--story-paper);
-		box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5);
-		color: var(--story-ink-soft) !important;
-		font-family:
-			ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New',
-			monospace;
-		font-size: 0.75rem;
-		font-weight: 500;
-		line-height: 1.25;
-	}
-
-	.story-chapter {
-		counter-increment: story-chapter;
-	}
-
-	:global(.story-content) {
-		counter-reset: story-chapter;
 	}
 
 	:global(.story-container .prose h2) {
@@ -446,13 +512,16 @@
 
 	:global(.story-container .prose .story-illustration-wrap) {
 		position: relative;
-		margin: 0.75rem 0 2.75rem;
-		border-radius: 0.85rem;
+		margin: 1rem 0 2.75rem;
+		border: 1.5px solid var(--story-frame-border);
+		border-radius: 0.75rem;
 		overflow: hidden;
-		background: color-mix(in srgb, var(--story-accent) 5%, #f8fafc);
+		padding: 0.5rem;
+		background: var(--story-frame);
 		box-shadow:
-			0 1px 2px rgba(41, 37, 36, 0.08),
-			0 18px 36px rgba(41, 37, 36, 0.1);
+			0 1px 0 rgba(255, 255, 255, 0.72),
+			inset 2px 3px 4px 0 rgba(152, 146, 140, 0.16),
+			0 12px 28px rgba(41, 37, 36, 0.09);
 		line-height: 0;
 	}
 
@@ -460,15 +529,16 @@
 		display: block;
 		width: 100%;
 		height: auto;
-		border-radius: inherit;
+		margin: 0 !important;
+		border-radius: 0.5rem;
 		background: transparent;
 	}
 
 	:global(.dark .story-container .prose .story-illustration-wrap) {
-		background: color-mix(in srgb, var(--story-accent) 10%, #111827);
 		box-shadow:
 			0 1px 2px rgba(0, 0, 0, 0.28),
-			0 18px 36px rgba(0, 0, 0, 0.34);
+			0 18px 36px rgba(0, 0, 0, 0.34),
+			inset 2px 3px 4px rgba(255, 255, 255, 0.04);
 	}
 
 	/* Drop caps for chapter beginnings */
@@ -508,9 +578,57 @@
 			inset 0 1px 0 rgba(255, 255, 255, 0.5);
 	}
 
+	@media (min-width: 1180px) {
+		.audio-follow-sidebar {
+			position: fixed;
+			top: 7rem;
+			right: max(1.25rem, calc((100vw - 1080px) / 2));
+			z-index: 20;
+			display: block;
+			width: 14rem;
+			max-height: calc(100vh - 8rem);
+			border: 1px solid color-mix(in srgb, currentColor 10%, transparent);
+			border-radius: 0.65rem;
+			padding: 0.875rem;
+			background: color-mix(in srgb, var(--story-paper) 92%, transparent);
+			box-shadow:
+				inset 0 1px 0 rgba(255, 255, 255, 0.5),
+				0 12px 32px rgba(41, 37, 36, 0.1);
+			backdrop-filter: blur(18px);
+		}
+
+		:global(.dark) .audio-follow-sidebar {
+			border-color: rgba(255, 255, 255, 0.1);
+			background: color-mix(in srgb, #1c1917 84%, transparent);
+			box-shadow:
+				inset 0 1px 0 rgba(255, 255, 255, 0.06),
+				0 16px 38px rgba(0, 0, 0, 0.34);
+		}
+
+		.audio-follow-trail {
+			max-height: calc(100vh - 12rem);
+			overflow-y: auto;
+			padding-right: 0.25rem;
+			scrollbar-width: thin;
+			scrollbar-color: color-mix(in srgb, var(--story-accent) 45%, transparent) transparent;
+		}
+	}
+
 	@media (max-width: 640px) {
+		.story-masthead {
+			padding-bottom: 2rem;
+		}
+
 		:global(.story-container .prose h1) {
 			font-size: 2.1rem;
+		}
+
+		:global(.story-container .prose p) {
+			font-size: 1.2rem;
+		}
+
+		:global(.story-container .prose .story-illustration-wrap) {
+			padding: 0.375rem;
 		}
 
 		.story-contents {

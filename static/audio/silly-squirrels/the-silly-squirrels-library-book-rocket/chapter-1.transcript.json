@@ -1,0 +1,4040 @@
+{
+  "schemaVersion": 1,
+  "provider": "whisperkit",
+  "model": "small.en",
+  "generatedAt": "2026-06-19T23:05:44.807Z",
+  "audioFile": "chapter-1.wav",
+  "durationSeconds": 150.28,
+  "language": "en",
+  "text": "Chapter 1 The Overdue Book Problem The Nutville Library had a problem with returns. Not ordinary returns. Not one book under the couch returns. An avalanche of overdue books. Miss Maple, the librarian, had sent reminder notes to the whole town. Some books were under beds, some were in wagons. One cookbook had somehow been borrowed by the Goops, and three adventure novels were currently being used to level a wobbly table at the mayor's office. Miss Maple sighed into a stack of paperwork. Books belong on shelves, not under casseroles. Nutty, Mama, and Papa were standing at the desk with a pile of slightly late books and one extremely late atlas that Papa claimed had hidden under a blanket all by itself. \"What the library needs,\" Nutty said, eyeshining, \"is a faster return system.\" Miss Maple froze. Define faster. \"Immediate!\" Nutty said. \"Townwide! Efficient! Exciting!\" Grandma Nut Wobble, who had been quietly selecting a gardening book, closed her eyes. \"The library does not need exciting!\" Nutty already had the notebook out. He drew a tube, a launch ramp, a receiving basket, and a little arrow labeled \"Books go whoosh! Knowledge arrives!\" Mama gasped happily. \"A book rocket!\" Miss Maple clutched the desk. \"Books are not supposed to whoosh!\" Papa considered this. Some adventure books seem like they want to. The more nutty explained, the worse and better it sounded. He wanted a return launcher in the town square that could send books directly to the library's new rooftop basket. Overdue books would zoom home, shelves would refill faster, reading would become more aerodynamic. Miss Maple was horrified, but she was also tired, and the overdue pile was large enough to qualify as furniture. \"One demonstration,\" she said at last, \"with a soft basket and absolutely no encyclopedias.\" Nutty saluted, \"You won't regret this.\" Grandma muttered, \"I will.\"",
+  "segments": [
+    {
+      "id": 0,
+      "start": 0,
+      "end": 3.44,
+      "text": "Chapter 1 The Overdue Book Problem",
+      "avgLogprob": -0.26516,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.34615,
+      "words": [
+        {
+          "word": "Chapter",
+          "start": 0,
+          "end": 0.64,
+          "probability": 0.79
+        },
+        {
+          "word": "1",
+          "start": 0.64,
+          "end": 1.08,
+          "probability": 0.49
+        },
+        {
+          "word": "The",
+          "start": 1.08,
+          "end": 1.82,
+          "probability": 0.28
+        },
+        {
+          "word": "Overdue",
+          "start": 1.82,
+          "end": 2.54,
+          "probability": 0.92
+        },
+        {
+          "word": "Book",
+          "start": 2.54,
+          "end": 2.94,
+          "probability": 1
+        },
+        {
+          "word": "Problem",
+          "start": 2.94,
+          "end": 3.44,
+          "probability": 0.99
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "start": 5.17,
+      "end": 8.42,
+      "text": "The Nutville Library had a problem with returns.",
+      "avgLogprob": -0.26516,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.34615,
+      "words": [
+        {
+          "word": "The",
+          "start": 5.17,
+          "end": 5.5,
+          "probability": 0.99
+        },
+        {
+          "word": "Nutville",
+          "start": 5.5,
+          "end": 6.04,
+          "probability": 0.84
+        },
+        {
+          "word": "Library",
+          "start": 6.04,
+          "end": 6.58,
+          "probability": 0.89
+        },
+        {
+          "word": "had",
+          "start": 6.58,
+          "end": 7,
+          "probability": 0.99
+        },
+        {
+          "word": "a",
+          "start": 7,
+          "end": 7.16,
+          "probability": 1
+        },
+        {
+          "word": "problem",
+          "start": 7.16,
+          "end": 7.68,
+          "probability": 1
+        },
+        {
+          "word": "with",
+          "start": 7.68,
+          "end": 7.94,
+          "probability": 1
+        },
+        {
+          "word": "returns.",
+          "start": 7.94,
+          "end": 8.42,
+          "probability": 0.98
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "start": 9.26,
+      "end": 11.1,
+      "text": "Not ordinary returns.",
+      "avgLogprob": -0.26516,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.34615,
+      "words": [
+        {
+          "word": "Not",
+          "start": 9.26,
+          "end": 9.58,
+          "probability": 0.99
+        },
+        {
+          "word": "ordinary",
+          "start": 9.58,
+          "end": 10.42,
+          "probability": 1
+        },
+        {
+          "word": "returns.",
+          "start": 10.42,
+          "end": 11.1,
+          "probability": 1
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "start": 11.7,
+      "end": 13.92,
+      "text": "Not one book under the couch returns.",
+      "avgLogprob": -0.26516,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.34615,
+      "words": [
+        {
+          "word": "Not",
+          "start": 11.7,
+          "end": 11.88,
+          "probability": 1
+        },
+        {
+          "word": "one",
+          "start": 11.88,
+          "end": 12.38,
+          "probability": 0.93
+        },
+        {
+          "word": "book",
+          "start": 12.38,
+          "end": 12.64,
+          "probability": 1
+        },
+        {
+          "word": "under",
+          "start": 12.64,
+          "end": 13,
+          "probability": 0.99
+        },
+        {
+          "word": "the",
+          "start": 13,
+          "end": 13.16,
+          "probability": 0.96
+        },
+        {
+          "word": "couch",
+          "start": 13.16,
+          "end": 13.42,
+          "probability": 0.99
+        },
+        {
+          "word": "returns.",
+          "start": 13.42,
+          "end": 13.92,
+          "probability": 1
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "start": 14.45,
+      "end": 16.9,
+      "text": "An avalanche of overdue books.",
+      "avgLogprob": -0.26516,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.34615,
+      "words": [
+        {
+          "word": "An",
+          "start": 14.45,
+          "end": 14.8,
+          "probability": 0.98
+        },
+        {
+          "word": "avalanche",
+          "start": 14.8,
+          "end": 15.66,
+          "probability": 1
+        },
+        {
+          "word": "of",
+          "start": 15.66,
+          "end": 15.98,
+          "probability": 1
+        },
+        {
+          "word": "overdue",
+          "start": 15.98,
+          "end": 16.48,
+          "probability": 0.99
+        },
+        {
+          "word": "books.",
+          "start": 16.48,
+          "end": 16.9,
+          "probability": 1
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "start": 17.4,
+      "end": 22.5,
+      "text": "Miss Maple, the librarian, had sent reminder notes to the whole town.",
+      "avgLogprob": -0.16204,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.47273,
+      "words": [
+        {
+          "word": "Miss",
+          "start": 17.4,
+          "end": 18.3,
+          "probability": 0.73
+        },
+        {
+          "word": "Maple,",
+          "start": 18.3,
+          "end": 18.62,
+          "probability": 0.93
+        },
+        {
+          "word": "the",
+          "start": 18.78,
+          "end": 18.98,
+          "probability": 0.99
+        },
+        {
+          "word": "librarian,",
+          "start": 18.98,
+          "end": 19.54,
+          "probability": 0.97
+        },
+        {
+          "word": "had",
+          "start": 19.96,
+          "end": 20.12,
+          "probability": 0.94
+        },
+        {
+          "word": "sent",
+          "start": 20.12,
+          "end": 20.36,
+          "probability": 0.99
+        },
+        {
+          "word": "reminder",
+          "start": 20.36,
+          "end": 20.82,
+          "probability": 0.98
+        },
+        {
+          "word": "notes",
+          "start": 20.82,
+          "end": 21.26,
+          "probability": 0.99
+        },
+        {
+          "word": "to",
+          "start": 21.26,
+          "end": 21.46,
+          "probability": 0.94
+        },
+        {
+          "word": "the",
+          "start": 21.46,
+          "end": 21.58,
+          "probability": 0.99
+        },
+        {
+          "word": "whole",
+          "start": 21.58,
+          "end": 21.98,
+          "probability": 0.99
+        },
+        {
+          "word": "town.",
+          "start": 21.98,
+          "end": 22.5,
+          "probability": 0.99
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "start": 23.48,
+      "end": 26.1,
+      "text": "Some books were under beds, some were in wagons.",
+      "avgLogprob": -0.16204,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.47273,
+      "words": [
+        {
+          "word": "Some",
+          "start": 23.48,
+          "end": 23.6,
+          "probability": 1
+        },
+        {
+          "word": "books",
+          "start": 23.6,
+          "end": 23.82,
+          "probability": 1
+        },
+        {
+          "word": "were",
+          "start": 23.82,
+          "end": 23.96,
+          "probability": 1
+        },
+        {
+          "word": "under",
+          "start": 23.96,
+          "end": 24.18,
+          "probability": 1
+        },
+        {
+          "word": "beds,",
+          "start": 24.18,
+          "end": 24.7,
+          "probability": 1
+        },
+        {
+          "word": "some",
+          "start": 25.22,
+          "end": 25.32,
+          "probability": 0.99
+        },
+        {
+          "word": "were",
+          "start": 25.32,
+          "end": 25.52,
+          "probability": 0.98
+        },
+        {
+          "word": "in",
+          "start": 25.52,
+          "end": 25.6,
+          "probability": 1
+        },
+        {
+          "word": "wagons.",
+          "start": 25.6,
+          "end": 26.1,
+          "probability": 1
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "start": 26.88,
+      "end": 32.08,
+      "text": "One cookbook had somehow been borrowed by the Goops, and three adventure novels were",
+      "avgLogprob": -0.16204,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.47273,
+      "words": [
+        {
+          "word": "One",
+          "start": 26.88,
+          "end": 27.14,
+          "probability": 1
+        },
+        {
+          "word": "cookbook",
+          "start": 27.14,
+          "end": 27.7,
+          "probability": 0.98
+        },
+        {
+          "word": "had",
+          "start": 27.7,
+          "end": 27.9,
+          "probability": 1
+        },
+        {
+          "word": "somehow",
+          "start": 27.9,
+          "end": 28.3,
+          "probability": 0.98
+        },
+        {
+          "word": "been",
+          "start": 28.3,
+          "end": 28.52,
+          "probability": 1
+        },
+        {
+          "word": "borrowed",
+          "start": 28.52,
+          "end": 28.92,
+          "probability": 1
+        },
+        {
+          "word": "by",
+          "start": 28.92,
+          "end": 29.18,
+          "probability": 1
+        },
+        {
+          "word": "the",
+          "start": 29.18,
+          "end": 29.32,
+          "probability": 0.97
+        },
+        {
+          "word": "Goops,",
+          "start": 29.32,
+          "end": 29.76,
+          "probability": 0.7
+        },
+        {
+          "word": "and",
+          "start": 30.36,
+          "end": 30.6,
+          "probability": 0.9
+        },
+        {
+          "word": "three",
+          "start": 30.6,
+          "end": 30.96,
+          "probability": 0.98
+        },
+        {
+          "word": "adventure",
+          "start": 30.96,
+          "end": 31.4,
+          "probability": 0.98
+        },
+        {
+          "word": "novels",
+          "start": 31.4,
+          "end": 31.76,
+          "probability": 1
+        },
+        {
+          "word": "were",
+          "start": 31.76,
+          "end": 32.08,
+          "probability": 0.99
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "start": 32.1,
+      "end": 35.88,
+      "text": "currently being used to level a wobbly table at the mayor's office.",
+      "avgLogprob": -0.16204,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.47273,
+      "words": [
+        {
+          "word": "currently",
+          "start": 32.1,
+          "end": 32.56,
+          "probability": 1
+        },
+        {
+          "word": "being",
+          "start": 32.56,
+          "end": 32.92,
+          "probability": 0.99
+        },
+        {
+          "word": "used",
+          "start": 32.92,
+          "end": 33.2,
+          "probability": 1
+        },
+        {
+          "word": "to",
+          "start": 33.2,
+          "end": 33.42,
+          "probability": 1
+        },
+        {
+          "word": "level",
+          "start": 33.42,
+          "end": 33.66,
+          "probability": 1
+        },
+        {
+          "word": "a",
+          "start": 33.66,
+          "end": 33.9,
+          "probability": 1
+        },
+        {
+          "word": "wobbly",
+          "start": 33.9,
+          "end": 34.44,
+          "probability": 1
+        },
+        {
+          "word": "table",
+          "start": 34.44,
+          "end": 34.78,
+          "probability": 1
+        },
+        {
+          "word": "at",
+          "start": 34.78,
+          "end": 35.02,
+          "probability": 1
+        },
+        {
+          "word": "the",
+          "start": 35.02,
+          "end": 35.3,
+          "probability": 1
+        },
+        {
+          "word": "mayor's",
+          "start": 35.3,
+          "end": 35.58,
+          "probability": 0.9
+        },
+        {
+          "word": "office.",
+          "start": 35.58,
+          "end": 35.88,
+          "probability": 1
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "start": 37.32,
+      "end": 39.86,
+      "text": "Miss Maple sighed into a stack of paperwork.",
+      "avgLogprob": -0.16204,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.47273,
+      "words": [
+        {
+          "word": "Miss",
+          "start": 37.32,
+          "end": 37.44,
+          "probability": 0.97
+        },
+        {
+          "word": "Maple",
+          "start": 37.44,
+          "end": 37.8,
+          "probability": 0.99
+        },
+        {
+          "word": "sighed",
+          "start": 37.8,
+          "end": 38.36,
+          "probability": 0.87
+        },
+        {
+          "word": "into",
+          "start": 38.36,
+          "end": 38.68,
+          "probability": 1
+        },
+        {
+          "word": "a",
+          "start": 38.68,
+          "end": 38.8,
+          "probability": 1
+        },
+        {
+          "word": "stack",
+          "start": 38.8,
+          "end": 39.18,
+          "probability": 1
+        },
+        {
+          "word": "of",
+          "start": 39.18,
+          "end": 39.32,
+          "probability": 1
+        },
+        {
+          "word": "paperwork.",
+          "start": 39.32,
+          "end": 39.86,
+          "probability": 0.98
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "start": 40.94,
+      "end": 43.96,
+      "text": "Books belong on shelves, not under casseroles.",
+      "avgLogprob": -0.16204,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.47273,
+      "words": [
+        {
+          "word": "Books",
+          "start": 40.94,
+          "end": 41.12,
+          "probability": 0.8
+        },
+        {
+          "word": "belong",
+          "start": 41.12,
+          "end": 41.52,
+          "probability": 0.98
+        },
+        {
+          "word": "on",
+          "start": 41.52,
+          "end": 41.78,
+          "probability": 1
+        },
+        {
+          "word": "shelves,",
+          "start": 41.78,
+          "end": 42.24,
+          "probability": 1
+        },
+        {
+          "word": "not",
+          "start": 42.84,
+          "end": 42.96,
+          "probability": 1
+        },
+        {
+          "word": "under",
+          "start": 42.96,
+          "end": 43.28,
+          "probability": 1
+        },
+        {
+          "word": "casseroles.",
+          "start": 43.28,
+          "end": 43.96,
+          "probability": 0.99
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "start": 45.62,
+      "end": 51.58,
+      "text": "Nutty, Mama, and Papa were standing at the desk with a pile of slightly late books and",
+      "avgLogprob": -0.20898,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.44262,
+      "words": [
+        {
+          "word": "Nutty,",
+          "start": 45.62,
+          "end": 46.26,
+          "probability": 0.95
+        },
+        {
+          "word": "Mama,",
+          "start": 46.64,
+          "end": 46.78,
+          "probability": 0.9
+        },
+        {
+          "word": "and",
+          "start": 47.04,
+          "end": 47.18,
+          "probability": 0.99
+        },
+        {
+          "word": "Papa",
+          "start": 47.18,
+          "end": 47.44,
+          "probability": 0.96
+        },
+        {
+          "word": "were",
+          "start": 47.44,
+          "end": 47.72,
+          "probability": 0.99
+        },
+        {
+          "word": "standing",
+          "start": 47.72,
+          "end": 48.12,
+          "probability": 0.99
+        },
+        {
+          "word": "at",
+          "start": 48.12,
+          "end": 48.28,
+          "probability": 0.99
+        },
+        {
+          "word": "the",
+          "start": 48.28,
+          "end": 48.44,
+          "probability": 0.99
+        },
+        {
+          "word": "desk",
+          "start": 48.44,
+          "end": 48.7,
+          "probability": 1
+        },
+        {
+          "word": "with",
+          "start": 48.7,
+          "end": 48.86,
+          "probability": 0.93
+        },
+        {
+          "word": "a",
+          "start": 48.86,
+          "end": 49,
+          "probability": 0.99
+        },
+        {
+          "word": "pile",
+          "start": 49,
+          "end": 49.22,
+          "probability": 1
+        },
+        {
+          "word": "of",
+          "start": 49.22,
+          "end": 49.52,
+          "probability": 0.99
+        },
+        {
+          "word": "slightly",
+          "start": 49.52,
+          "end": 50,
+          "probability": 0.98
+        },
+        {
+          "word": "late",
+          "start": 50,
+          "end": 50.5,
+          "probability": 0.93
+        },
+        {
+          "word": "books",
+          "start": 50.5,
+          "end": 50.86,
+          "probability": 0.98
+        },
+        {
+          "word": "and",
+          "start": 50.86,
+          "end": 51.58,
+          "probability": 0.56
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "start": 51.76,
+      "end": 57.1,
+      "text": "one extremely late atlas that Papa claimed had hidden under a blanket all by itself.",
+      "avgLogprob": -0.20898,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.44262,
+      "words": [
+        {
+          "word": "one",
+          "start": 51.76,
+          "end": 51.92,
+          "probability": 1
+        },
+        {
+          "word": "extremely",
+          "start": 51.92,
+          "end": 52.78,
+          "probability": 0.98
+        },
+        {
+          "word": "late",
+          "start": 52.78,
+          "end": 53.34,
+          "probability": 0.99
+        },
+        {
+          "word": "atlas",
+          "start": 53.34,
+          "end": 53.82,
+          "probability": 0.94
+        },
+        {
+          "word": "that",
+          "start": 53.82,
+          "end": 54.22,
+          "probability": 0.99
+        },
+        {
+          "word": "Papa",
+          "start": 54.22,
+          "end": 54.56,
+          "probability": 0.99
+        },
+        {
+          "word": "claimed",
+          "start": 54.56,
+          "end": 54.88,
+          "probability": 0.99
+        },
+        {
+          "word": "had",
+          "start": 54.88,
+          "end": 55.14,
+          "probability": 0.99
+        },
+        {
+          "word": "hidden",
+          "start": 55.14,
+          "end": 55.44,
+          "probability": 0.97
+        },
+        {
+          "word": "under",
+          "start": 55.44,
+          "end": 55.74,
+          "probability": 1
+        },
+        {
+          "word": "a",
+          "start": 55.74,
+          "end": 55.92,
+          "probability": 0.99
+        },
+        {
+          "word": "blanket",
+          "start": 55.92,
+          "end": 56.22,
+          "probability": 1
+        },
+        {
+          "word": "all",
+          "start": 56.22,
+          "end": 56.6,
+          "probability": 0.99
+        },
+        {
+          "word": "by",
+          "start": 56.6,
+          "end": 56.76,
+          "probability": 0.99
+        },
+        {
+          "word": "itself.",
+          "start": 56.76,
+          "end": 57.1,
+          "probability": 1
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "start": 58.18,
+      "end": 64.98,
+      "text": "\"What the library needs,\" Nutty said, eyeshining, \"is a faster return system.\"",
+      "avgLogprob": -0.20898,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.44262,
+      "words": [
+        {
+          "word": "\"What",
+          "start": 58.18,
+          "end": 58.82,
+          "probability": 0.98
+        },
+        {
+          "word": "the",
+          "start": 58.82,
+          "end": 59,
+          "probability": 1
+        },
+        {
+          "word": "library",
+          "start": 59,
+          "end": 59.32,
+          "probability": 0.9
+        },
+        {
+          "word": "needs,\"",
+          "start": 59.32,
+          "end": 60.58,
+          "probability": 0.89
+        },
+        {
+          "word": "Nutty",
+          "start": 60.58,
+          "end": 60.72,
+          "probability": 1
+        },
+        {
+          "word": "said,",
+          "start": 60.72,
+          "end": 60.94,
+          "probability": 1
+        },
+        {
+          "word": "eyeshining,",
+          "start": 61.42,
+          "end": 61.84,
+          "probability": 0.78
+        },
+        {
+          "word": "\"is",
+          "start": 62.24,
+          "end": 62.46,
+          "probability": 0.98
+        },
+        {
+          "word": "a",
+          "start": 62.46,
+          "end": 62.62,
+          "probability": 0.99
+        },
+        {
+          "word": "faster",
+          "start": 62.62,
+          "end": 63.04,
+          "probability": 0.98
+        },
+        {
+          "word": "return",
+          "start": 63.04,
+          "end": 63.56,
+          "probability": 0.99
+        },
+        {
+          "word": "system.\"",
+          "start": 63.56,
+          "end": 64.98,
+          "probability": 0.95
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "start": 65.28,
+      "end": 65.94,
+      "text": "Miss Maple froze.",
+      "avgLogprob": -0.20898,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.44262,
+      "words": [
+        {
+          "word": "Miss",
+          "start": 65.28,
+          "end": 65.36,
+          "probability": 0.77
+        },
+        {
+          "word": "Maple",
+          "start": 65.36,
+          "end": 65.62,
+          "probability": 0.96
+        },
+        {
+          "word": "froze.",
+          "start": 65.62,
+          "end": 65.94,
+          "probability": 0.99
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "start": 67.52,
+      "end": 68.8,
+      "text": "Define faster.",
+      "avgLogprob": -0.20898,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.44262,
+      "words": [
+        {
+          "word": "Define",
+          "start": 67.52,
+          "end": 68.16,
+          "probability": 0.7
+        },
+        {
+          "word": "faster.",
+          "start": 68.16,
+          "end": 68.8,
+          "probability": 0.44
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "start": 70.08,
+      "end": 74.74,
+      "text": "\"Immediate!\" Nutty said. \"Townwide! Efficient! Exciting!\"",
+      "avgLogprob": -0.2219,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.49309,
+      "words": [
+        {
+          "word": "\"Immediate!\"",
+          "start": 70.08,
+          "end": 70.76,
+          "probability": 0.78
+        },
+        {
+          "word": "Nutty",
+          "start": 70.76,
+          "end": 71.1,
+          "probability": 0.91
+        },
+        {
+          "word": "said.",
+          "start": 71.1,
+          "end": 71.32,
+          "probability": 1
+        },
+        {
+          "word": "\"Townwide!",
+          "start": 71.74,
+          "end": 72.42,
+          "probability": 0.71
+        },
+        {
+          "word": "Efficient!",
+          "start": 72.82,
+          "end": 73.2,
+          "probability": 0.97
+        },
+        {
+          "word": "Exciting!\"",
+          "start": 74.06,
+          "end": 74.74,
+          "probability": 0.97
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "start": 75.7,
+      "end": 81.66,
+      "text": "Grandma Nut Wobble, who had been quietly selecting a gardening book, closed her eyes. \"The library",
+      "avgLogprob": -0.2219,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.49309,
+      "words": [
+        {
+          "word": "Grandma",
+          "start": 75.7,
+          "end": 76.1,
+          "probability": 0.97
+        },
+        {
+          "word": "Nut",
+          "start": 76.1,
+          "end": 76.32,
+          "probability": 0.9
+        },
+        {
+          "word": "Wobble,",
+          "start": 76.32,
+          "end": 76.72,
+          "probability": 0.68
+        },
+        {
+          "word": "who",
+          "start": 76.79,
+          "end": 77,
+          "probability": 1
+        },
+        {
+          "word": "had",
+          "start": 77,
+          "end": 77.08,
+          "probability": 0.99
+        },
+        {
+          "word": "been",
+          "start": 77.08,
+          "end": 77.2,
+          "probability": 0.99
+        },
+        {
+          "word": "quietly",
+          "start": 77.2,
+          "end": 77.68,
+          "probability": 1
+        },
+        {
+          "word": "selecting",
+          "start": 77.68,
+          "end": 78.26,
+          "probability": 1
+        },
+        {
+          "word": "a",
+          "start": 78.26,
+          "end": 78.42,
+          "probability": 0.99
+        },
+        {
+          "word": "gardening",
+          "start": 78.42,
+          "end": 78.74,
+          "probability": 0.97
+        },
+        {
+          "word": "book,",
+          "start": 78.74,
+          "end": 79,
+          "probability": 0.99
+        },
+        {
+          "word": "closed",
+          "start": 79.4,
+          "end": 79.68,
+          "probability": 0.97
+        },
+        {
+          "word": "her",
+          "start": 79.68,
+          "end": 79.94,
+          "probability": 1
+        },
+        {
+          "word": "eyes.",
+          "start": 79.94,
+          "end": 80.26,
+          "probability": 1
+        },
+        {
+          "word": "\"The",
+          "start": 80.9,
+          "end": 81.08,
+          "probability": 0.76
+        },
+        {
+          "word": "library",
+          "start": 81.08,
+          "end": 81.66,
+          "probability": 0.9
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "start": 81.69,
+      "end": 87.52,
+      "text": "does not need exciting!\" Nutty already had the notebook out. He drew",
+      "avgLogprob": -0.2219,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.49309,
+      "words": [
+        {
+          "word": "does",
+          "start": 81.69,
+          "end": 81.9,
+          "probability": 0.99
+        },
+        {
+          "word": "not",
+          "start": 81.9,
+          "end": 82.32,
+          "probability": 0.98
+        },
+        {
+          "word": "need",
+          "start": 82.32,
+          "end": 82.7,
+          "probability": 1
+        },
+        {
+          "word": "exciting!\"",
+          "start": 82.7,
+          "end": 84.5,
+          "probability": 0.73
+        },
+        {
+          "word": "Nutty",
+          "start": 84.5,
+          "end": 85.38,
+          "probability": 0.92
+        },
+        {
+          "word": "already",
+          "start": 85.38,
+          "end": 85.82,
+          "probability": 0.99
+        },
+        {
+          "word": "had",
+          "start": 85.82,
+          "end": 86.08,
+          "probability": 0.99
+        },
+        {
+          "word": "the",
+          "start": 86.08,
+          "end": 86.22,
+          "probability": 1
+        },
+        {
+          "word": "notebook",
+          "start": 86.22,
+          "end": 86.48,
+          "probability": 0.93
+        },
+        {
+          "word": "out.",
+          "start": 86.48,
+          "end": 86.76,
+          "probability": 1
+        },
+        {
+          "word": "He",
+          "start": 87.22,
+          "end": 87.38,
+          "probability": 0.99
+        },
+        {
+          "word": "drew",
+          "start": 87.38,
+          "end": 87.52,
+          "probability": 1
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "start": 87.62,
+      "end": 93.54,
+      "text": "a tube, a launch ramp, a receiving basket, and a little arrow labeled \"Books go whoosh!",
+      "avgLogprob": -0.2219,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.49309,
+      "words": [
+        {
+          "word": "a",
+          "start": 87.62,
+          "end": 87.72,
+          "probability": 0.99
+        },
+        {
+          "word": "tube,",
+          "start": 87.72,
+          "end": 88.14,
+          "probability": 1
+        },
+        {
+          "word": "a",
+          "start": 88.39,
+          "end": 88.62,
+          "probability": 1
+        },
+        {
+          "word": "launch",
+          "start": 88.62,
+          "end": 88.96,
+          "probability": 0.97
+        },
+        {
+          "word": "ramp,",
+          "start": 88.96,
+          "end": 89.3,
+          "probability": 0.92
+        },
+        {
+          "word": "a",
+          "start": 89.45,
+          "end": 89.7,
+          "probability": 1
+        },
+        {
+          "word": "receiving",
+          "start": 89.7,
+          "end": 90.1,
+          "probability": 0.99
+        },
+        {
+          "word": "basket,",
+          "start": 90.1,
+          "end": 90.54,
+          "probability": 1
+        },
+        {
+          "word": "and",
+          "start": 90.79,
+          "end": 91.02,
+          "probability": 0.99
+        },
+        {
+          "word": "a",
+          "start": 91.02,
+          "end": 91.28,
+          "probability": 0.99
+        },
+        {
+          "word": "little",
+          "start": 91.28,
+          "end": 91.42,
+          "probability": 1
+        },
+        {
+          "word": "arrow",
+          "start": 91.42,
+          "end": 91.72,
+          "probability": 0.99
+        },
+        {
+          "word": "labeled",
+          "start": 91.72,
+          "end": 92.12,
+          "probability": 0.77
+        },
+        {
+          "word": "\"Books",
+          "start": 92.12,
+          "end": 92.72,
+          "probability": 0.81
+        },
+        {
+          "word": "go",
+          "start": 92.72,
+          "end": 93.06,
+          "probability": 0.59
+        },
+        {
+          "word": "whoosh!",
+          "start": 93.06,
+          "end": 93.54,
+          "probability": 0.8
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "start": 94.1,
+      "end": 95.14,
+      "text": "Knowledge arrives!\"",
+      "avgLogprob": -0.2219,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.49309,
+      "words": [
+        {
+          "word": "Knowledge",
+          "start": 94.1,
+          "end": 94.34,
+          "probability": 0.79
+        },
+        {
+          "word": "arrives!\"",
+          "start": 94.34,
+          "end": 95.14,
+          "probability": 0.92
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "start": 95.5,
+      "end": 102.8,
+      "text": "Mama gasped happily. \"A book rocket!\" Miss Maple clutched the desk. \"Books are not",
+      "avgLogprob": -0.17928,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.37736,
+      "words": [
+        {
+          "word": "Mama",
+          "start": 95.5,
+          "end": 96.42,
+          "probability": 0.69
+        },
+        {
+          "word": "gasped",
+          "start": 96.42,
+          "end": 96.88,
+          "probability": 0.98
+        },
+        {
+          "word": "happily.",
+          "start": 96.88,
+          "end": 97.38,
+          "probability": 0.99
+        },
+        {
+          "word": "\"A",
+          "start": 97.8,
+          "end": 98,
+          "probability": 0.61
+        },
+        {
+          "word": "book",
+          "start": 98,
+          "end": 98.36,
+          "probability": 0.95
+        },
+        {
+          "word": "rocket!\"",
+          "start": 98.36,
+          "end": 99.84,
+          "probability": 0.92
+        },
+        {
+          "word": "Miss",
+          "start": 99.84,
+          "end": 100.2,
+          "probability": 0.8
+        },
+        {
+          "word": "Maple",
+          "start": 100.2,
+          "end": 100.38,
+          "probability": 0.92
+        },
+        {
+          "word": "clutched",
+          "start": 100.38,
+          "end": 100.94,
+          "probability": 0.99
+        },
+        {
+          "word": "the",
+          "start": 100.94,
+          "end": 101.08,
+          "probability": 0.98
+        },
+        {
+          "word": "desk.",
+          "start": 101.08,
+          "end": 101.32,
+          "probability": 0.97
+        },
+        {
+          "word": "\"Books",
+          "start": 101.96,
+          "end": 102.22,
+          "probability": 0.85
+        },
+        {
+          "word": "are",
+          "start": 102.22,
+          "end": 102.5,
+          "probability": 0.96
+        },
+        {
+          "word": "not",
+          "start": 102.5,
+          "end": 102.8,
+          "probability": 0.71
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "start": 102.98,
+      "end": 108.5,
+      "text": "supposed to whoosh!\" Papa considered this. Some adventure books seem like they want to.",
+      "avgLogprob": -0.17928,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.37736,
+      "words": [
+        {
+          "word": "supposed",
+          "start": 102.98,
+          "end": 103.18,
+          "probability": 1
+        },
+        {
+          "word": "to",
+          "start": 103.18,
+          "end": 103.44,
+          "probability": 1
+        },
+        {
+          "word": "whoosh!\"",
+          "start": 103.44,
+          "end": 104.7,
+          "probability": 0.86
+        },
+        {
+          "word": "Papa",
+          "start": 104.7,
+          "end": 105.24,
+          "probability": 0.92
+        },
+        {
+          "word": "considered",
+          "start": 105.24,
+          "end": 105.54,
+          "probability": 1
+        },
+        {
+          "word": "this.",
+          "start": 105.54,
+          "end": 105.86,
+          "probability": 0.99
+        },
+        {
+          "word": "Some",
+          "start": 106.54,
+          "end": 106.8,
+          "probability": 0.72
+        },
+        {
+          "word": "adventure",
+          "start": 106.8,
+          "end": 107.24,
+          "probability": 0.96
+        },
+        {
+          "word": "books",
+          "start": 107.24,
+          "end": 107.48,
+          "probability": 0.99
+        },
+        {
+          "word": "seem",
+          "start": 107.48,
+          "end": 107.74,
+          "probability": 0.7
+        },
+        {
+          "word": "like",
+          "start": 107.74,
+          "end": 107.9,
+          "probability": 0.97
+        },
+        {
+          "word": "they",
+          "start": 107.9,
+          "end": 108.02,
+          "probability": 0.99
+        },
+        {
+          "word": "want",
+          "start": 108.02,
+          "end": 108.28,
+          "probability": 0.65
+        },
+        {
+          "word": "to.",
+          "start": 108.28,
+          "end": 108.5,
+          "probability": 0.65
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "start": 110.22,
+      "end": 115.98,
+      "text": "The more nutty explained, the worse and better it sounded. He wanted a return launcher in",
+      "avgLogprob": -0.17928,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.37736,
+      "words": [
+        {
+          "word": "The",
+          "start": 110.22,
+          "end": 110.42,
+          "probability": 1
+        },
+        {
+          "word": "more",
+          "start": 110.42,
+          "end": 110.76,
+          "probability": 0.99
+        },
+        {
+          "word": "nutty",
+          "start": 110.76,
+          "end": 111.02,
+          "probability": 0.95
+        },
+        {
+          "word": "explained,",
+          "start": 111.02,
+          "end": 111.46,
+          "probability": 0.94
+        },
+        {
+          "word": "the",
+          "start": 111.6,
+          "end": 111.8,
+          "probability": 0.99
+        },
+        {
+          "word": "worse",
+          "start": 111.8,
+          "end": 112.22,
+          "probability": 0.98
+        },
+        {
+          "word": "and",
+          "start": 112.22,
+          "end": 112.74,
+          "probability": 0.96
+        },
+        {
+          "word": "better",
+          "start": 112.74,
+          "end": 113.06,
+          "probability": 1
+        },
+        {
+          "word": "it",
+          "start": 113.06,
+          "end": 113.32,
+          "probability": 0.99
+        },
+        {
+          "word": "sounded.",
+          "start": 113.32,
+          "end": 113.7,
+          "probability": 1
+        },
+        {
+          "word": "He",
+          "start": 114.36,
+          "end": 114.54,
+          "probability": 0.99
+        },
+        {
+          "word": "wanted",
+          "start": 114.54,
+          "end": 114.8,
+          "probability": 1
+        },
+        {
+          "word": "a",
+          "start": 114.8,
+          "end": 115,
+          "probability": 1
+        },
+        {
+          "word": "return",
+          "start": 115,
+          "end": 115.42,
+          "probability": 0.97
+        },
+        {
+          "word": "launcher",
+          "start": 115.42,
+          "end": 115.78,
+          "probability": 0.9
+        },
+        {
+          "word": "in",
+          "start": 115.78,
+          "end": 115.98,
+          "probability": 0.99
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "start": 115.98,
+      "end": 120.46,
+      "text": "the town square that could send books directly to the library's new rooftop basket.",
+      "avgLogprob": -0.17928,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.37736,
+      "words": [
+        {
+          "word": "the",
+          "start": 115.98,
+          "end": 116.1,
+          "probability": 0.83
+        },
+        {
+          "word": "town",
+          "start": 116.1,
+          "end": 116.36,
+          "probability": 0.94
+        },
+        {
+          "word": "square",
+          "start": 116.36,
+          "end": 116.7,
+          "probability": 0.99
+        },
+        {
+          "word": "that",
+          "start": 116.7,
+          "end": 117.1,
+          "probability": 0.98
+        },
+        {
+          "word": "could",
+          "start": 117.1,
+          "end": 117.22,
+          "probability": 0.99
+        },
+        {
+          "word": "send",
+          "start": 117.22,
+          "end": 117.52,
+          "probability": 1
+        },
+        {
+          "word": "books",
+          "start": 117.52,
+          "end": 117.76,
+          "probability": 0.99
+        },
+        {
+          "word": "directly",
+          "start": 117.76,
+          "end": 118.22,
+          "probability": 0.99
+        },
+        {
+          "word": "to",
+          "start": 118.22,
+          "end": 118.58,
+          "probability": 0.99
+        },
+        {
+          "word": "the",
+          "start": 118.58,
+          "end": 118.72,
+          "probability": 1
+        },
+        {
+          "word": "library's",
+          "start": 118.72,
+          "end": 119.22,
+          "probability": 0.99
+        },
+        {
+          "word": "new",
+          "start": 119.22,
+          "end": 119.5,
+          "probability": 0.98
+        },
+        {
+          "word": "rooftop",
+          "start": 119.5,
+          "end": 119.98,
+          "probability": 0.99
+        },
+        {
+          "word": "basket.",
+          "start": 119.98,
+          "end": 120.46,
+          "probability": 0.99
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "start": 120.6,
+      "end": 128.04,
+      "text": "Overdue books would zoom home, shelves would refill faster, reading would become more aerodynamic.",
+      "avgLogprob": -0.2309,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.46087,
+      "words": [
+        {
+          "word": "Overdue",
+          "start": 120.6,
+          "end": 121.54,
+          "probability": 0.72
+        },
+        {
+          "word": "books",
+          "start": 121.54,
+          "end": 121.78,
+          "probability": 1
+        },
+        {
+          "word": "would",
+          "start": 121.78,
+          "end": 121.94,
+          "probability": 0.99
+        },
+        {
+          "word": "zoom",
+          "start": 121.94,
+          "end": 122.32,
+          "probability": 0.98
+        },
+        {
+          "word": "home,",
+          "start": 122.32,
+          "end": 122.68,
+          "probability": 0.99
+        },
+        {
+          "word": "shelves",
+          "start": 123.08,
+          "end": 123.32,
+          "probability": 0.92
+        },
+        {
+          "word": "would",
+          "start": 123.32,
+          "end": 123.62,
+          "probability": 1
+        },
+        {
+          "word": "refill",
+          "start": 123.62,
+          "end": 124.06,
+          "probability": 0.98
+        },
+        {
+          "word": "faster,",
+          "start": 124.06,
+          "end": 124.56,
+          "probability": 1
+        },
+        {
+          "word": "reading",
+          "start": 125.16,
+          "end": 125.42,
+          "probability": 0.89
+        },
+        {
+          "word": "would",
+          "start": 125.42,
+          "end": 125.6,
+          "probability": 0.99
+        },
+        {
+          "word": "become",
+          "start": 125.6,
+          "end": 125.88,
+          "probability": 0.97
+        },
+        {
+          "word": "more",
+          "start": 125.88,
+          "end": 126.78,
+          "probability": 0.84
+        },
+        {
+          "word": "aerodynamic.",
+          "start": 126.78,
+          "end": 128.04,
+          "probability": 0.98
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "start": 129.26,
+      "end": 135.94,
+      "text": "Miss Maple was horrified, but she was also tired, and the overdue pile was large enough to qualify as furniture.",
+      "avgLogprob": -0.2309,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.46087,
+      "words": [
+        {
+          "word": "Miss",
+          "start": 129.26,
+          "end": 129.58,
+          "probability": 0.77
+        },
+        {
+          "word": "Maple",
+          "start": 129.58,
+          "end": 129.8,
+          "probability": 0.9
+        },
+        {
+          "word": "was",
+          "start": 129.8,
+          "end": 130,
+          "probability": 1
+        },
+        {
+          "word": "horrified,",
+          "start": 130,
+          "end": 130.62,
+          "probability": 1
+        },
+        {
+          "word": "but",
+          "start": 131.22,
+          "end": 131.44,
+          "probability": 0.98
+        },
+        {
+          "word": "she",
+          "start": 131.44,
+          "end": 131.6,
+          "probability": 1
+        },
+        {
+          "word": "was",
+          "start": 131.6,
+          "end": 131.7,
+          "probability": 1
+        },
+        {
+          "word": "also",
+          "start": 131.7,
+          "end": 132.04,
+          "probability": 0.98
+        },
+        {
+          "word": "tired,",
+          "start": 132.04,
+          "end": 132.6,
+          "probability": 1
+        },
+        {
+          "word": "and",
+          "start": 132.94,
+          "end": 133.18,
+          "probability": 0.91
+        },
+        {
+          "word": "the",
+          "start": 133.18,
+          "end": 133.26,
+          "probability": 0.99
+        },
+        {
+          "word": "overdue",
+          "start": 133.26,
+          "end": 133.66,
+          "probability": 0.95
+        },
+        {
+          "word": "pile",
+          "start": 133.66,
+          "end": 133.94,
+          "probability": 1
+        },
+        {
+          "word": "was",
+          "start": 133.94,
+          "end": 134.16,
+          "probability": 0.99
+        },
+        {
+          "word": "large",
+          "start": 134.16,
+          "end": 134.46,
+          "probability": 0.99
+        },
+        {
+          "word": "enough",
+          "start": 134.46,
+          "end": 134.68,
+          "probability": 0.99
+        },
+        {
+          "word": "to",
+          "start": 134.68,
+          "end": 134.82,
+          "probability": 0.56
+        },
+        {
+          "word": "qualify",
+          "start": 134.82,
+          "end": 135.24,
+          "probability": 0.99
+        },
+        {
+          "word": "as",
+          "start": 135.24,
+          "end": 135.48,
+          "probability": 0.98
+        },
+        {
+          "word": "furniture.",
+          "start": 135.48,
+          "end": 135.94,
+          "probability": 0.9
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "start": 137.74,
+      "end": 144.24,
+      "text": "\"One demonstration,\" she said at last, \"with a soft basket and absolutely no encyclopedias.\"",
+      "avgLogprob": -0.2309,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.46087,
+      "words": [
+        {
+          "word": "\"One",
+          "start": 137.74,
+          "end": 138.46,
+          "probability": 0.72
+        },
+        {
+          "word": "demonstration,\"",
+          "start": 138.46,
+          "end": 139.18,
+          "probability": 0.96
+        },
+        {
+          "word": "she",
+          "start": 139.18,
+          "end": 139.28,
+          "probability": 0.99
+        },
+        {
+          "word": "said",
+          "start": 139.28,
+          "end": 139.4,
+          "probability": 1
+        },
+        {
+          "word": "at",
+          "start": 139.4,
+          "end": 139.54,
+          "probability": 0.98
+        },
+        {
+          "word": "last,",
+          "start": 139.54,
+          "end": 139.8,
+          "probability": 1
+        },
+        {
+          "word": "\"with",
+          "start": 140.24,
+          "end": 140.44,
+          "probability": 0.95
+        },
+        {
+          "word": "a",
+          "start": 140.44,
+          "end": 140.56,
+          "probability": 1
+        },
+        {
+          "word": "soft",
+          "start": 140.56,
+          "end": 141,
+          "probability": 1
+        },
+        {
+          "word": "basket",
+          "start": 141,
+          "end": 141.38,
+          "probability": 1
+        },
+        {
+          "word": "and",
+          "start": 141.38,
+          "end": 141.86,
+          "probability": 0.78
+        },
+        {
+          "word": "absolutely",
+          "start": 141.86,
+          "end": 142.5,
+          "probability": 0.98
+        },
+        {
+          "word": "no",
+          "start": 142.5,
+          "end": 143.1,
+          "probability": 0.99
+        },
+        {
+          "word": "encyclopedias.\"",
+          "start": 143.1,
+          "end": 144.24,
+          "probability": 0.94
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "start": 145.26,
+      "end": 147.26,
+      "text": "Nutty saluted, \"You won't regret this.\"",
+      "avgLogprob": -0.2309,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.46087,
+      "words": [
+        {
+          "word": "Nutty",
+          "start": 145.26,
+          "end": 145.4,
+          "probability": 0.92
+        },
+        {
+          "word": "saluted,",
+          "start": 145.4,
+          "end": 145.72,
+          "probability": 0.99
+        },
+        {
+          "word": "\"You",
+          "start": 145.96,
+          "end": 146.38,
+          "probability": 0.97
+        },
+        {
+          "word": "won't",
+          "start": 146.38,
+          "end": 146.56,
+          "probability": 1
+        },
+        {
+          "word": "regret",
+          "start": 146.56,
+          "end": 146.84,
+          "probability": 1
+        },
+        {
+          "word": "this.\"",
+          "start": 146.84,
+          "end": 147.26,
+          "probability": 0.8
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "start": 148.32,
+      "end": 150.58,
+      "text": "Grandma muttered, \"I will.\"",
+      "avgLogprob": -0.2309,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.46087,
+      "words": [
+        {
+          "word": "Grandma",
+          "start": 148.32,
+          "end": 148.5,
+          "probability": 0.82
+        },
+        {
+          "word": "muttered,",
+          "start": 148.5,
+          "end": 148.68,
+          "probability": 1
+        },
+        {
+          "word": "\"I",
+          "start": 149.12,
+          "end": 149.5,
+          "probability": 0.99
+        },
+        {
+          "word": "will.\"",
+          "start": 149.5,
+          "end": 150.58,
+          "probability": 0.96
+        }
+      ]
+    }
+  ],
+  "words": [
+    {
+      "word": "Chapter",
+      "start": 0,
+      "end": 0.64,
+      "probability": 0.79
+    },
+    {
+      "word": "1",
+      "start": 0.64,
+      "end": 1.08,
+      "probability": 0.49
+    },
+    {
+      "word": "The",
+      "start": 1.08,
+      "end": 1.82,
+      "probability": 0.28
+    },
+    {
+      "word": "Overdue",
+      "start": 1.82,
+      "end": 2.54,
+      "probability": 0.92
+    },
+    {
+      "word": "Book",
+      "start": 2.54,
+      "end": 2.94,
+      "probability": 1
+    },
+    {
+      "word": "Problem",
+      "start": 2.94,
+      "end": 3.44,
+      "probability": 0.99
+    },
+    {
+      "word": "The",
+      "start": 5.17,
+      "end": 5.5,
+      "probability": 0.99
+    },
+    {
+      "word": "Nutville",
+      "start": 5.5,
+      "end": 6.04,
+      "probability": 0.84
+    },
+    {
+      "word": "Library",
+      "start": 6.04,
+      "end": 6.58,
+      "probability": 0.89
+    },
+    {
+      "word": "had",
+      "start": 6.58,
+      "end": 7,
+      "probability": 0.99
+    },
+    {
+      "word": "a",
+      "start": 7,
+      "end": 7.16,
+      "probability": 1
+    },
+    {
+      "word": "problem",
+      "start": 7.16,
+      "end": 7.68,
+      "probability": 1
+    },
+    {
+      "word": "with",
+      "start": 7.68,
+      "end": 7.94,
+      "probability": 1
+    },
+    {
+      "word": "returns.",
+      "start": 7.94,
+      "end": 8.42,
+      "probability": 0.98
+    },
+    {
+      "word": "Not",
+      "start": 9.26,
+      "end": 9.58,
+      "probability": 0.99
+    },
+    {
+      "word": "ordinary",
+      "start": 9.58,
+      "end": 10.42,
+      "probability": 1
+    },
+    {
+      "word": "returns.",
+      "start": 10.42,
+      "end": 11.1,
+      "probability": 1
+    },
+    {
+      "word": "Not",
+      "start": 11.7,
+      "end": 11.88,
+      "probability": 1
+    },
+    {
+      "word": "one",
+      "start": 11.88,
+      "end": 12.38,
+      "probability": 0.93
+    },
+    {
+      "word": "book",
+      "start": 12.38,
+      "end": 12.64,
+      "probability": 1
+    },
+    {
+      "word": "under",
+      "start": 12.64,
+      "end": 13,
+      "probability": 0.99
+    },
+    {
+      "word": "the",
+      "start": 13,
+      "end": 13.16,
+      "probability": 0.96
+    },
+    {
+      "word": "couch",
+      "start": 13.16,
+      "end": 13.42,
+      "probability": 0.99
+    },
+    {
+      "word": "returns.",
+      "start": 13.42,
+      "end": 13.92,
+      "probability": 1
+    },
+    {
+      "word": "An",
+      "start": 14.45,
+      "end": 14.8,
+      "probability": 0.98
+    },
+    {
+      "word": "avalanche",
+      "start": 14.8,
+      "end": 15.66,
+      "probability": 1
+    },
+    {
+      "word": "of",
+      "start": 15.66,
+      "end": 15.98,
+      "probability": 1
+    },
+    {
+      "word": "overdue",
+      "start": 15.98,
+      "end": 16.48,
+      "probability": 0.99
+    },
+    {
+      "word": "books.",
+      "start": 16.48,
+      "end": 16.9,
+      "probability": 1
+    },
+    {
+      "word": "Miss",
+      "start": 17.4,
+      "end": 18.3,
+      "probability": 0.73
+    },
+    {
+      "word": "Maple,",
+      "start": 18.3,
+      "end": 18.62,
+      "probability": 0.93
+    },
+    {
+      "word": "the",
+      "start": 18.78,
+      "end": 18.98,
+      "probability": 0.99
+    },
+    {
+      "word": "librarian,",
+      "start": 18.98,
+      "end": 19.54,
+      "probability": 0.97
+    },
+    {
+      "word": "had",
+      "start": 19.96,
+      "end": 20.12,
+      "probability": 0.94
+    },
+    {
+      "word": "sent",
+      "start": 20.12,
+      "end": 20.36,
+      "probability": 0.99
+    },
+    {
+      "word": "reminder",
+      "start": 20.36,
+      "end": 20.82,
+      "probability": 0.98
+    },
+    {
+      "word": "notes",
+      "start": 20.82,
+      "end": 21.26,
+      "probability": 0.99
+    },
+    {
+      "word": "to",
+      "start": 21.26,
+      "end": 21.46,
+      "probability": 0.94
+    },
+    {
+      "word": "the",
+      "start": 21.46,
+      "end": 21.58,
+      "probability": 0.99
+    },
+    {
+      "word": "whole",
+      "start": 21.58,
+      "end": 21.98,
+      "probability": 0.99
+    },
+    {
+      "word": "town.",
+      "start": 21.98,
+      "end": 22.5,
+      "probability": 0.99
+    },
+    {
+      "word": "Some",
+      "start": 23.48,
+      "end": 23.6,
+      "probability": 1
+    },
+    {
+      "word": "books",
+      "start": 23.6,
+      "end": 23.82,
+      "probability": 1
+    },
+    {
+      "word": "were",
+      "start": 23.82,
+      "end": 23.96,
+      "probability": 1
+    },
+    {
+      "word": "under",
+      "start": 23.96,
+      "end": 24.18,
+      "probability": 1
+    },
+    {
+      "word": "beds,",
+      "start": 24.18,
+      "end": 24.7,
+      "probability": 1
+    },
+    {
+      "word": "some",
+      "start": 25.22,
+      "end": 25.32,
+      "probability": 0.99
+    },
+    {
+      "word": "were",
+      "start": 25.32,
+      "end": 25.52,
+      "probability": 0.98
+    },
+    {
+      "word": "in",
+      "start": 25.52,
+      "end": 25.6,
+      "probability": 1
+    },
+    {
+      "word": "wagons.",
+      "start": 25.6,
+      "end": 26.1,
+      "probability": 1
+    },
+    {
+      "word": "One",
+      "start": 26.88,
+      "end": 27.14,
+      "probability": 1
+    },
+    {
+      "word": "cookbook",
+      "start": 27.14,
+      "end": 27.7,
+      "probability": 0.98
+    },
+    {
+      "word": "had",
+      "start": 27.7,
+      "end": 27.9,
+      "probability": 1
+    },
+    {
+      "word": "somehow",
+      "start": 27.9,
+      "end": 28.3,
+      "probability": 0.98
+    },
+    {
+      "word": "been",
+      "start": 28.3,
+      "end": 28.52,
+      "probability": 1
+    },
+    {
+      "word": "borrowed",
+      "start": 28.52,
+      "end": 28.92,
+      "probability": 1
+    },
+    {
+      "word": "by",
+      "start": 28.92,
+      "end": 29.18,
+      "probability": 1
+    },
+    {
+      "word": "the",
+      "start": 29.18,
+      "end": 29.32,
+      "probability": 0.97
+    },
+    {
+      "word": "Goops,",
+      "start": 29.32,
+      "end": 29.76,
+      "probability": 0.7
+    },
+    {
+      "word": "and",
+      "start": 30.36,
+      "end": 30.6,
+      "probability": 0.9
+    },
+    {
+      "word": "three",
+      "start": 30.6,
+      "end": 30.96,
+      "probability": 0.98
+    },
+    {
+      "word": "adventure",
+      "start": 30.96,
+      "end": 31.4,
+      "probability": 0.98
+    },
+    {
+      "word": "novels",
+      "start": 31.4,
+      "end": 31.76,
+      "probability": 1
+    },
+    {
+      "word": "were",
+      "start": 31.76,
+      "end": 32.08,
+      "probability": 0.99
+    },
+    {
+      "word": "currently",
+      "start": 32.1,
+      "end": 32.56,
+      "probability": 1
+    },
+    {
+      "word": "being",
+      "start": 32.56,
+      "end": 32.92,
+      "probability": 0.99
+    },
+    {
+      "word": "used",
+      "start": 32.92,
+      "end": 33.2,
+      "probability": 1
+    },
+    {
+      "word": "to",
+      "start": 33.2,
+      "end": 33.42,
+      "probability": 1
+    },
+    {
+      "word": "level",
+      "start": 33.42,
+      "end": 33.66,
+      "probability": 1
+    },
+    {
+      "word": "a",
+      "start": 33.66,
+      "end": 33.9,
+      "probability": 1
+    },
+    {
+      "word": "wobbly",
+      "start": 33.9,
+      "end": 34.44,
+      "probability": 1
+    },
+    {
+      "word": "table",
+      "start": 34.44,
+      "end": 34.78,
+      "probability": 1
+    },
+    {
+      "word": "at",
+      "start": 34.78,
+      "end": 35.02,
+      "probability": 1
+    },
+    {
+      "word": "the",
+      "start": 35.02,
+      "end": 35.3,
+      "probability": 1
+    },
+    {
+      "word": "mayor's",
+      "start": 35.3,
+      "end": 35.58,
+      "probability": 0.9
+    },
+    {
+      "word": "office.",
+      "start": 35.58,
+      "end": 35.88,
+      "probability": 1
+    },
+    {
+      "word": "Miss",
+      "start": 37.32,
+      "end": 37.44,
+      "probability": 0.97
+    },
+    {
+      "word": "Maple",
+      "start": 37.44,
+      "end": 37.8,
+      "probability": 0.99
+    },
+    {
+      "word": "sighed",
+      "start": 37.8,
+      "end": 38.36,
+      "probability": 0.87
+    },
+    {
+      "word": "into",
+      "start": 38.36,
+      "end": 38.68,
+      "probability": 1
+    },
+    {
+      "word": "a",
+      "start": 38.68,
+      "end": 38.8,
+      "probability": 1
+    },
+    {
+      "word": "stack",
+      "start": 38.8,
+      "end": 39.18,
+      "probability": 1
+    },
+    {
+      "word": "of",
+      "start": 39.18,
+      "end": 39.32,
+      "probability": 1
+    },
+    {
+      "word": "paperwork.",
+      "start": 39.32,
+      "end": 39.86,
+      "probability": 0.98
+    },
+    {
+      "word": "Books",
+      "start": 40.94,
+      "end": 41.12,
+      "probability": 0.8
+    },
+    {
+      "word": "belong",
+      "start": 41.12,
+      "end": 41.52,
+      "probability": 0.98
+    },
+    {
+      "word": "on",
+      "start": 41.52,
+      "end": 41.78,
+      "probability": 1
+    },
+    {
+      "word": "shelves,",
+      "start": 41.78,
+      "end": 42.24,
+      "probability": 1
+    },
+    {
+      "word": "not",
+      "start": 42.84,
+      "end": 42.96,
+      "probability": 1
+    },
+    {
+      "word": "under",
+      "start": 42.96,
+      "end": 43.28,
+      "probability": 1
+    },
+    {
+      "word": "casseroles.",
+      "start": 43.28,
+      "end": 43.96,
+      "probability": 0.99
+    },
+    {
+      "word": "Nutty,",
+      "start": 45.62,
+      "end": 46.26,
+      "probability": 0.95
+    },
+    {
+      "word": "Mama,",
+      "start": 46.64,
+      "end": 46.78,
+      "probability": 0.9
+    },
+    {
+      "word": "and",
+      "start": 47.04,
+      "end": 47.18,
+      "probability": 0.99
+    },
+    {
+      "word": "Papa",
+      "start": 47.18,
+      "end": 47.44,
+      "probability": 0.96
+    },
+    {
+      "word": "were",
+      "start": 47.44,
+      "end": 47.72,
+      "probability": 0.99
+    },
+    {
+      "word": "standing",
+      "start": 47.72,
+      "end": 48.12,
+      "probability": 0.99
+    },
+    {
+      "word": "at",
+      "start": 48.12,
+      "end": 48.28,
+      "probability": 0.99
+    },
+    {
+      "word": "the",
+      "start": 48.28,
+      "end": 48.44,
+      "probability": 0.99
+    },
+    {
+      "word": "desk",
+      "start": 48.44,
+      "end": 48.7,
+      "probability": 1
+    },
+    {
+      "word": "with",
+      "start": 48.7,
+      "end": 48.86,
+      "probability": 0.93
+    },
+    {
+      "word": "a",
+      "start": 48.86,
+      "end": 49,
+      "probability": 0.99
+    },
+    {
+      "word": "pile",
+      "start": 49,
+      "end": 49.22,
+      "probability": 1
+    },
+    {
+      "word": "of",
+      "start": 49.22,
+      "end": 49.52,
+      "probability": 0.99
+    },
+    {
+      "word": "slightly",
+      "start": 49.52,
+      "end": 50,
+      "probability": 0.98
+    },
+    {
+      "word": "late",
+      "start": 50,
+      "end": 50.5,
+      "probability": 0.93
+    },
+    {
+      "word": "books",
+      "start": 50.5,
+      "end": 50.86,
+      "probability": 0.98
+    },
+    {
+      "word": "and",
+      "start": 50.86,
+      "end": 51.58,
+      "probability": 0.56
+    },
+    {
+      "word": "one",
+      "start": 51.76,
+      "end": 51.92,
+      "probability": 1
+    },
+    {
+      "word": "extremely",
+      "start": 51.92,
+      "end": 52.78,
+      "probability": 0.98
+    },
+    {
+      "word": "late",
+      "start": 52.78,
+      "end": 53.34,
+      "probability": 0.99
+    },
+    {
+      "word": "atlas",
+      "start": 53.34,
+      "end": 53.82,
+      "probability": 0.94
+    },
+    {
+      "word": "that",
+      "start": 53.82,
+      "end": 54.22,
+      "probability": 0.99
+    },
+    {
+      "word": "Papa",
+      "start": 54.22,
+      "end": 54.56,
+      "probability": 0.99
+    },
+    {
+      "word": "claimed",
+      "start": 54.56,
+      "end": 54.88,
+      "probability": 0.99
+    },
+    {
+      "word": "had",
+      "start": 54.88,
+      "end": 55.14,
+      "probability": 0.99
+    },
+    {
+      "word": "hidden",
+      "start": 55.14,
+      "end": 55.44,
+      "probability": 0.97
+    },
+    {
+      "word": "under",
+      "start": 55.44,
+      "end": 55.74,
+      "probability": 1
+    },
+    {
+      "word": "a",
+      "start": 55.74,
+      "end": 55.92,
+      "probability": 0.99
+    },
+    {
+      "word": "blanket",
+      "start": 55.92,
+      "end": 56.22,
+      "probability": 1
+    },
+    {
+      "word": "all",
+      "start": 56.22,
+      "end": 56.6,
+      "probability": 0.99
+    },
+    {
+      "word": "by",
+      "start": 56.6,
+      "end": 56.76,
+      "probability": 0.99
+    },
+    {
+      "word": "itself.",
+      "start": 56.76,
+      "end": 57.1,
+      "probability": 1
+    },
+    {
+      "word": "\"What",
+      "start": 58.18,
+      "end": 58.82,
+      "probability": 0.98
+    },
+    {
+      "word": "the",
+      "start": 58.82,
+      "end": 59,
+      "probability": 1
+    },
+    {
+      "word": "library",
+      "start": 59,
+      "end": 59.32,
+      "probability": 0.9
+    },
+    {
+      "word": "needs,\"",
+      "start": 59.32,
+      "end": 60.58,
+      "probability": 0.89
+    },
+    {
+      "word": "Nutty",
+      "start": 60.58,
+      "end": 60.72,
+      "probability": 1
+    },
+    {
+      "word": "said,",
+      "start": 60.72,
+      "end": 60.94,
+      "probability": 1
+    },
+    {
+      "word": "eyeshining,",
+      "start": 61.42,
+      "end": 61.84,
+      "probability": 0.78
+    },
+    {
+      "word": "\"is",
+      "start": 62.24,
+      "end": 62.46,
+      "probability": 0.98
+    },
+    {
+      "word": "a",
+      "start": 62.46,
+      "end": 62.62,
+      "probability": 0.99
+    },
+    {
+      "word": "faster",
+      "start": 62.62,
+      "end": 63.04,
+      "probability": 0.98
+    },
+    {
+      "word": "return",
+      "start": 63.04,
+      "end": 63.56,
+      "probability": 0.99
+    },
+    {
+      "word": "system.\"",
+      "start": 63.56,
+      "end": 64.98,
+      "probability": 0.95
+    },
+    {
+      "word": "Miss",
+      "start": 65.28,
+      "end": 65.36,
+      "probability": 0.77
+    },
+    {
+      "word": "Maple",
+      "start": 65.36,
+      "end": 65.62,
+      "probability": 0.96
+    },
+    {
+      "word": "froze.",
+      "start": 65.62,
+      "end": 65.94,
+      "probability": 0.99
+    },
+    {
+      "word": "Define",
+      "start": 67.52,
+      "end": 68.16,
+      "probability": 0.7
+    },
+    {
+      "word": "faster.",
+      "start": 68.16,
+      "end": 68.8,
+      "probability": 0.44
+    },
+    {
+      "word": "\"Immediate!\"",
+      "start": 70.08,
+      "end": 70.76,
+      "probability": 0.78
+    },
+    {
+      "word": "Nutty",
+      "start": 70.76,
+      "end": 71.1,
+      "probability": 0.91
+    },
+    {
+      "word": "said.",
+      "start": 71.1,
+      "end": 71.32,
+      "probability": 1
+    },
+    {
+      "word": "\"Townwide!",
+      "start": 71.74,
+      "end": 72.42,
+      "probability": 0.71
+    },
+    {
+      "word": "Efficient!",
+      "start": 72.82,
+      "end": 73.2,
+      "probability": 0.97
+    },
+    {
+      "word": "Exciting!\"",
+      "start": 74.06,
+      "end": 74.74,
+      "probability": 0.97
+    },
+    {
+      "word": "Grandma",
+      "start": 75.7,
+      "end": 76.1,
+      "probability": 0.97
+    },
+    {
+      "word": "Nut",
+      "start": 76.1,
+      "end": 76.32,
+      "probability": 0.9
+    },
+    {
+      "word": "Wobble,",
+      "start": 76.32,
+      "end": 76.72,
+      "probability": 0.68
+    },
+    {
+      "word": "who",
+      "start": 76.79,
+      "end": 77,
+      "probability": 1
+    },
+    {
+      "word": "had",
+      "start": 77,
+      "end": 77.08,
+      "probability": 0.99
+    },
+    {
+      "word": "been",
+      "start": 77.08,
+      "end": 77.2,
+      "probability": 0.99
+    },
+    {
+      "word": "quietly",
+      "start": 77.2,
+      "end": 77.68,
+      "probability": 1
+    },
+    {
+      "word": "selecting",
+      "start": 77.68,
+      "end": 78.26,
+      "probability": 1
+    },
+    {
+      "word": "a",
+      "start": 78.26,
+      "end": 78.42,
+      "probability": 0.99
+    },
+    {
+      "word": "gardening",
+      "start": 78.42,
+      "end": 78.74,
+      "probability": 0.97
+    },
+    {
+      "word": "book,",
+      "start": 78.74,
+      "end": 79,
+      "probability": 0.99
+    },
+    {
+      "word": "closed",
+      "start": 79.4,
+      "end": 79.68,
+      "probability": 0.97
+    },
+    {
+      "word": "her",
+      "start": 79.68,
+      "end": 79.94,
+      "probability": 1
+    },
+    {
+      "word": "eyes.",
+      "start": 79.94,
+      "end": 80.26,
+      "probability": 1
+    },
+    {
+      "word": "\"The",
+      "start": 80.9,
+      "end": 81.08,
+      "probability": 0.76
+    },
+    {
+      "word": "library",
+      "start": 81.08,
+      "end": 81.66,
+      "probability": 0.9
+    },
+    {
+      "word": "does",
+      "start": 81.69,
+      "end": 81.9,
+      "probability": 0.99
+    },
+    {
+      "word": "not",
+      "start": 81.9,
+      "end": 82.32,
+      "probability": 0.98
+    },
+    {
+      "word": "need",
+      "start": 82.32,
+      "end": 82.7,
+      "probability": 1
+    },
+    {
+      "word": "exciting!\"",
+      "start": 82.7,
+      "end": 84.5,
+      "probability": 0.73
+    },
+    {
+      "word": "Nutty",
+      "start": 84.5,
+      "end": 85.38,
+      "probability": 0.92
+    },
+    {
+      "word": "already",
+      "start": 85.38,
+      "end": 85.82,
+      "probability": 0.99
+    },
+    {
+      "word": "had",
+      "start": 85.82,
+      "end": 86.08,
+      "probability": 0.99
+    },
+    {
+      "word": "the",
+      "start": 86.08,
+      "end": 86.22,
+      "probability": 1
+    },
+    {
+      "word": "notebook",
+      "start": 86.22,
+      "end": 86.48,
+      "probability": 0.93
+    },
+    {
+      "word": "out.",
+      "start": 86.48,
+      "end": 86.76,
+      "probability": 1
+    },
+    {
+      "word": "He",
+      "start": 87.22,
+      "end": 87.38,
+      "probability": 0.99
+    },
+    {
+      "word": "drew",
+      "start": 87.38,
+      "end": 87.52,
+      "probability": 1
+    },
+    {
+      "word": "a",
+      "start": 87.62,
+      "end": 87.72,
+      "probability": 0.99
+    },
+    {
+      "word": "tube,",
+      "start": 87.72,
+      "end": 88.14,
+      "probability": 1
+    },
+    {
+      "word": "a",
+      "start": 88.39,
+      "end": 88.62,
+      "probability": 1
+    },
+    {
+      "word": "launch",
+      "start": 88.62,
+      "end": 88.96,
+      "probability": 0.97
+    },
+    {
+      "word": "ramp,",
+      "start": 88.96,
+      "end": 89.3,
+      "probability": 0.92
+    },
+    {
+      "word": "a",
+      "start": 89.45,
+      "end": 89.7,
+      "probability": 1
+    },
+    {
+      "word": "receiving",
+      "start": 89.7,
+      "end": 90.1,
+      "probability": 0.99
+    },
+    {
+      "word": "basket,",
+      "start": 90.1,
+      "end": 90.54,
+      "probability": 1
+    },
+    {
+      "word": "and",
+      "start": 90.79,
+      "end": 91.02,
+      "probability": 0.99
+    },
+    {
+      "word": "a",
+      "start": 91.02,
+      "end": 91.28,
+      "probability": 0.99
+    },
+    {
+      "word": "little",
+      "start": 91.28,
+      "end": 91.42,
+      "probability": 1
+    },
+    {
+      "word": "arrow",
+      "start": 91.42,
+      "end": 91.72,
+      "probability": 0.99
+    },
+    {
+      "word": "labeled",
+      "start": 91.72,
+      "end": 92.12,
+      "probability": 0.77
+    },
+    {
+      "word": "\"Books",
+      "start": 92.12,
+      "end": 92.72,
+      "probability": 0.81
+    },
+    {
+      "word": "go",
+      "start": 92.72,
+      "end": 93.06,
+      "probability": 0.59
+    },
+    {
+      "word": "whoosh!",
+      "start": 93.06,
+      "end": 93.54,
+      "probability": 0.8
+    },
+    {
+      "word": "Knowledge",
+      "start": 94.1,
+      "end": 94.34,
+      "probability": 0.79
+    },
+    {
+      "word": "arrives!\"",
+      "start": 94.34,
+      "end": 95.14,
+      "probability": 0.92
+    },
+    {
+      "word": "Mama",
+      "start": 95.5,
+      "end": 96.42,
+      "probability": 0.69
+    },
+    {
+      "word": "gasped",
+      "start": 96.42,
+      "end": 96.88,
+      "probability": 0.98
+    },
+    {
+      "word": "happily.",
+      "start": 96.88,
+      "end": 97.38,
+      "probability": 0.99
+    },
+    {
+      "word": "\"A",
+      "start": 97.8,
+      "end": 98,
+      "probability": 0.61
+    },
+    {
+      "word": "book",
+      "start": 98,
+      "end": 98.36,
+      "probability": 0.95
+    },
+    {
+      "word": "rocket!\"",
+      "start": 98.36,
+      "end": 99.84,
+      "probability": 0.92
+    },
+    {
+      "word": "Miss",
+      "start": 99.84,
+      "end": 100.2,
+      "probability": 0.8
+    },
+    {
+      "word": "Maple",
+      "start": 100.2,
+      "end": 100.38,
+      "probability": 0.92
+    },
+    {
+      "word": "clutched",
+      "start": 100.38,
+      "end": 100.94,
+      "probability": 0.99
+    },
+    {
+      "word": "the",
+      "start": 100.94,
+      "end": 101.08,
+      "probability": 0.98
+    },
+    {
+      "word": "desk.",
+      "start": 101.08,
+      "end": 101.32,
+      "probability": 0.97
+    },
+    {
+      "word": "\"Books",
+      "start": 101.96,
+      "end": 102.22,
+      "probability": 0.85
+    },
+    {
+      "word": "are",
+      "start": 102.22,
+      "end": 102.5,
+      "probability": 0.96
+    },
+    {
+      "word": "not",
+      "start": 102.5,
+      "end": 102.8,
+      "probability": 0.71
+    },
+    {
+      "word": "supposed",
+      "start": 102.98,
+      "end": 103.18,
+      "probability": 1
+    },
+    {
+      "word": "to",
+      "start": 103.18,
+      "end": 103.44,
+      "probability": 1
+    },
+    {
+      "word": "whoosh!\"",
+      "start": 103.44,
+      "end": 104.7,
+      "probability": 0.86
+    },
+    {
+      "word": "Papa",
+      "start": 104.7,
+      "end": 105.24,
+      "probability": 0.92
+    },
+    {
+      "word": "considered",
+      "start": 105.24,
+      "end": 105.54,
+      "probability": 1
+    },
+    {
+      "word": "this.",
+      "start": 105.54,
+      "end": 105.86,
+      "probability": 0.99
+    },
+    {
+      "word": "Some",
+      "start": 106.54,
+      "end": 106.8,
+      "probability": 0.72
+    },
+    {
+      "word": "adventure",
+      "start": 106.8,
+      "end": 107.24,
+      "probability": 0.96
+    },
+    {
+      "word": "books",
+      "start": 107.24,
+      "end": 107.48,
+      "probability": 0.99
+    },
+    {
+      "word": "seem",
+      "start": 107.48,
+      "end": 107.74,
+      "probability": 0.7
+    },
+    {
+      "word": "like",
+      "start": 107.74,
+      "end": 107.9,
+      "probability": 0.97
+    },
+    {
+      "word": "they",
+      "start": 107.9,
+      "end": 108.02,
+      "probability": 0.99
+    },
+    {
+      "word": "want",
+      "start": 108.02,
+      "end": 108.28,
+      "probability": 0.65
+    },
+    {
+      "word": "to.",
+      "start": 108.28,
+      "end": 108.5,
+      "probability": 0.65
+    },
+    {
+      "word": "The",
+      "start": 110.22,
+      "end": 110.42,
+      "probability": 1
+    },
+    {
+      "word": "more",
+      "start": 110.42,
+      "end": 110.76,
+      "probability": 0.99
+    },
+    {
+      "word": "nutty",
+      "start": 110.76,
+      "end": 111.02,
+      "probability": 0.95
+    },
+    {
+      "word": "explained,",
+      "start": 111.02,
+      "end": 111.46,
+      "probability": 0.94
+    },
+    {
+      "word": "the",
+      "start": 111.6,
+      "end": 111.8,
+      "probability": 0.99
+    },
+    {
+      "word": "worse",
+      "start": 111.8,
+      "end": 112.22,
+      "probability": 0.98
+    },
+    {
+      "word": "and",
+      "start": 112.22,
+      "end": 112.74,
+      "probability": 0.96
+    },
+    {
+      "word": "better",
+      "start": 112.74,
+      "end": 113.06,
+      "probability": 1
+    },
+    {
+      "word": "it",
+      "start": 113.06,
+      "end": 113.32,
+      "probability": 0.99
+    },
+    {
+      "word": "sounded.",
+      "start": 113.32,
+      "end": 113.7,
+      "probability": 1
+    },
+    {
+      "word": "He",
+      "start": 114.36,
+      "end": 114.54,
+      "probability": 0.99
+    },
+    {
+      "word": "wanted",
+      "start": 114.54,
+      "end": 114.8,
+      "probability": 1
+    },
+    {
+      "word": "a",
+      "start": 114.8,
+      "end": 115,
+      "probability": 1
+    },
+    {
+      "word": "return",
+      "start": 115,
+      "end": 115.42,
+      "probability": 0.97
+    },
+    {
+      "word": "launcher",
+      "start": 115.42,
+      "end": 115.78,
+      "probability": 0.9
+    },
+    {
+      "word": "in",
+      "start": 115.78,
+      "end": 115.98,
+      "probability": 0.99
+    },
+    {
+      "word": "the",
+      "start": 115.98,
+      "end": 116.1,
+      "probability": 0.83
+    },
+    {
+      "word": "town",
+      "start": 116.1,
+      "end": 116.36,
+      "probability": 0.94
+    },
+    {
+      "word": "square",
+      "start": 116.36,
+      "end": 116.7,
+      "probability": 0.99
+    },
+    {
+      "word": "that",
+      "start": 116.7,
+      "end": 117.1,
+      "probability": 0.98
+    },
+    {
+      "word": "could",
+      "start": 117.1,
+      "end": 117.22,
+      "probability": 0.99
+    },
+    {
+      "word": "send",
+      "start": 117.22,
+      "end": 117.52,
+      "probability": 1
+    },
+    {
+      "word": "books",
+      "start": 117.52,
+      "end": 117.76,
+      "probability": 0.99
+    },
+    {
+      "word": "directly",
+      "start": 117.76,
+      "end": 118.22,
+      "probability": 0.99
+    },
+    {
+      "word": "to",
+      "start": 118.22,
+      "end": 118.58,
+      "probability": 0.99
+    },
+    {
+      "word": "the",
+      "start": 118.58,
+      "end": 118.72,
+      "probability": 1
+    },
+    {
+      "word": "library's",
+      "start": 118.72,
+      "end": 119.22,
+      "probability": 0.99
+    },
+    {
+      "word": "new",
+      "start": 119.22,
+      "end": 119.5,
+      "probability": 0.98
+    },
+    {
+      "word": "rooftop",
+      "start": 119.5,
+      "end": 119.98,
+      "probability": 0.99
+    },
+    {
+      "word": "basket.",
+      "start": 119.98,
+      "end": 120.46,
+      "probability": 0.99
+    },
+    {
+      "word": "Overdue",
+      "start": 120.6,
+      "end": 121.54,
+      "probability": 0.72
+    },
+    {
+      "word": "books",
+      "start": 121.54,
+      "end": 121.78,
+      "probability": 1
+    },
+    {
+      "word": "would",
+      "start": 121.78,
+      "end": 121.94,
+      "probability": 0.99
+    },
+    {
+      "word": "zoom",
+      "start": 121.94,
+      "end": 122.32,
+      "probability": 0.98
+    },
+    {
+      "word": "home,",
+      "start": 122.32,
+      "end": 122.68,
+      "probability": 0.99
+    },
+    {
+      "word": "shelves",
+      "start": 123.08,
+      "end": 123.32,
+      "probability": 0.92
+    },
+    {
+      "word": "would",
+      "start": 123.32,
+      "end": 123.62,
+      "probability": 1
+    },
+    {
+      "word": "refill",
+      "start": 123.62,
+      "end": 124.06,
+      "probability": 0.98
+    },
+    {
+      "word": "faster,",
+      "start": 124.06,
+      "end": 124.56,
+      "probability": 1
+    },
+    {
+      "word": "reading",
+      "start": 125.16,
+      "end": 125.42,
+      "probability": 0.89
+    },
+    {
+      "word": "would",
+      "start": 125.42,
+      "end": 125.6,
+      "probability": 0.99
+    },
+    {
+      "word": "become",
+      "start": 125.6,
+      "end": 125.88,
+      "probability": 0.97
+    },
+    {
+      "word": "more",
+      "start": 125.88,
+      "end": 126.78,
+      "probability": 0.84
+    },
+    {
+      "word": "aerodynamic.",
+      "start": 126.78,
+      "end": 128.04,
+      "probability": 0.98
+    },
+    {
+      "word": "Miss",
+      "start": 129.26,
+      "end": 129.58,
+      "probability": 0.77
+    },
+    {
+      "word": "Maple",
+      "start": 129.58,
+      "end": 129.8,
+      "probability": 0.9
+    },
+    {
+      "word": "was",
+      "start": 129.8,
+      "end": 130,
+      "probability": 1
+    },
+    {
+      "word": "horrified,",
+      "start": 130,
+      "end": 130.62,
+      "probability": 1
+    },
+    {
+      "word": "but",
+      "start": 131.22,
+      "end": 131.44,
+      "probability": 0.98
+    },
+    {
+      "word": "she",
+      "start": 131.44,
+      "end": 131.6,
+      "probability": 1
+    },
+    {
+      "word": "was",
+      "start": 131.6,
+      "end": 131.7,
+      "probability": 1
+    },
+    {
+      "word": "also",
+      "start": 131.7,
+      "end": 132.04,
+      "probability": 0.98
+    },
+    {
+      "word": "tired,",
+      "start": 132.04,
+      "end": 132.6,
+      "probability": 1
+    },
+    {
+      "word": "and",
+      "start": 132.94,
+      "end": 133.18,
+      "probability": 0.91
+    },
+    {
+      "word": "the",
+      "start": 133.18,
+      "end": 133.26,
+      "probability": 0.99
+    },
+    {
+      "word": "overdue",
+      "start": 133.26,
+      "end": 133.66,
+      "probability": 0.95
+    },
+    {
+      "word": "pile",
+      "start": 133.66,
+      "end": 133.94,
+      "probability": 1
+    },
+    {
+      "word": "was",
+      "start": 133.94,
+      "end": 134.16,
+      "probability": 0.99
+    },
+    {
+      "word": "large",
+      "start": 134.16,
+      "end": 134.46,
+      "probability": 0.99
+    },
+    {
+      "word": "enough",
+      "start": 134.46,
+      "end": 134.68,
+      "probability": 0.99
+    },
+    {
+      "word": "to",
+      "start": 134.68,
+      "end": 134.82,
+      "probability": 0.56
+    },
+    {
+      "word": "qualify",
+      "start": 134.82,
+      "end": 135.24,
+      "probability": 0.99
+    },
+    {
+      "word": "as",
+      "start": 135.24,
+      "end": 135.48,
+      "probability": 0.98
+    },
+    {
+      "word": "furniture.",
+      "start": 135.48,
+      "end": 135.94,
+      "probability": 0.9
+    },
+    {
+      "word": "\"One",
+      "start": 137.74,
+      "end": 138.46,
+      "probability": 0.72
+    },
+    {
+      "word": "demonstration,\"",
+      "start": 138.46,
+      "end": 139.18,
+      "probability": 0.96
+    },
+    {
+      "word": "she",
+      "start": 139.18,
+      "end": 139.28,
+      "probability": 0.99
+    },
+    {
+      "word": "said",
+      "start": 139.28,
+      "end": 139.4,
+      "probability": 1
+    },
+    {
+      "word": "at",
+      "start": 139.4,
+      "end": 139.54,
+      "probability": 0.98
+    },
+    {
+      "word": "last,",
+      "start": 139.54,
+      "end": 139.8,
+      "probability": 1
+    },
+    {
+      "word": "\"with",
+      "start": 140.24,
+      "end": 140.44,
+      "probability": 0.95
+    },
+    {
+      "word": "a",
+      "start": 140.44,
+      "end": 140.56,
+      "probability": 1
+    },
+    {
+      "word": "soft",
+      "start": 140.56,
+      "end": 141,
+      "probability": 1
+    },
+    {
+      "word": "basket",
+      "start": 141,
+      "end": 141.38,
+      "probability": 1
+    },
+    {
+      "word": "and",
+      "start": 141.38,
+      "end": 141.86,
+      "probability": 0.78
+    },
+    {
+      "word": "absolutely",
+      "start": 141.86,
+      "end": 142.5,
+      "probability": 0.98
+    },
+    {
+      "word": "no",
+      "start": 142.5,
+      "end": 143.1,
+      "probability": 0.99
+    },
+    {
+      "word": "encyclopedias.\"",
+      "start": 143.1,
+      "end": 144.24,
+      "probability": 0.94
+    },
+    {
+      "word": "Nutty",
+      "start": 145.26,
+      "end": 145.4,
+      "probability": 0.92
+    },
+    {
+      "word": "saluted,",
+      "start": 145.4,
+      "end": 145.72,
+      "probability": 0.99
+    },
+    {
+      "word": "\"You",
+      "start": 145.96,
+      "end": 146.38,
+      "probability": 0.97
+    },
+    {
+      "word": "won't",
+      "start": 146.38,
+      "end": 146.56,
+      "probability": 1
+    },
+    {
+      "word": "regret",
+      "start": 146.56,
+      "end": 146.84,
+      "probability": 1
+    },
+    {
+      "word": "this.\"",
+      "start": 146.84,
+      "end": 147.26,
+      "probability": 0.8
+    },
+    {
+      "word": "Grandma",
+      "start": 148.32,
+      "end": 148.5,
+      "probability": 0.82
+    },
+    {
+      "word": "muttered,",
+      "start": 148.5,
+      "end": 148.68,
+      "probability": 1
+    },
+    {
+      "word": "\"I",
+      "start": 149.12,
+      "end": 149.5,
+      "probability": 0.99
+    },
+    {
+      "word": "will.\"",
+      "start": 149.5,
+      "end": 150.58,
+      "probability": 0.96
+    }
+  ]
+}

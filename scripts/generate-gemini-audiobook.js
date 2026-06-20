@@ -222,6 +222,40 @@ function writeWav(outputPath, pcmBuffers) {
 	return pcmDurationSeconds(pcmBuffer);
 }
 
+function readWavDurationSeconds(filePath) {
+	const buffer = readFileSync(filePath);
+	if (buffer.toString('ascii', 0, 4) !== 'RIFF' || buffer.toString('ascii', 8, 12) !== 'WAVE') {
+		return null;
+	}
+
+	let offset = 12;
+	let byteRate = null;
+	let dataByteLength = null;
+
+	while (offset + 8 <= buffer.length) {
+		const chunkId = buffer.toString('ascii', offset, offset + 4);
+		const chunkSize = buffer.readUInt32LE(offset + 4);
+		const chunkDataOffset = offset + 8;
+
+		if (chunkId === 'fmt ') {
+			byteRate = buffer.readUInt32LE(chunkDataOffset + 8);
+		}
+
+		if (chunkId === 'data') {
+			dataByteLength = chunkSize;
+			break;
+		}
+
+		offset = chunkDataOffset + chunkSize + (chunkSize % 2);
+	}
+
+	if (!byteRate || !dataByteLength) {
+		return null;
+	}
+
+	return dataByteLength / byteRate;
+}
+
 function extractInlineAudio(responseJson) {
 	const parts = responseJson?.candidates?.[0]?.content?.parts || [];
 	const audioPart = parts.find((part) => part.inlineData?.data || part.inline_data?.data);
@@ -279,14 +313,20 @@ async function callWithRetries(options, retries) {
 		try {
 			return await callGeminiTts(options);
 		} catch (error) {
-			if (attempt >= retries || ![429, 500, 502, 503, 504].includes(error.status)) {
+			const retryableNetworkError =
+				!error.status &&
+				/(ETIMEDOUT|ECONNRESET|EAI_AGAIN|ENOTFOUND|fetch failed|HeadersTimeoutError)/i.test(
+					`${error.message || ''} ${error.cause?.message || ''} ${error.cause?.code || ''}`
+				);
+			const retryableStatus = [429, 500, 502, 503, 504].includes(error.status);
+
+			if (attempt >= retries || (!retryableStatus && !retryableNetworkError)) {
 				throw error;
 			}
 
 			const delay = Math.min(120000, 15000 * 2 ** attempt);
-			console.warn(
-				`Gemini returned ${error.status}; waiting ${Math.round(delay / 1000)}s before retry.`
-			);
+			const reason = retryableStatus ? `Gemini returned ${error.status}` : 'Gemini request failed';
+			console.warn(`${reason}; waiting ${Math.round(delay / 1000)}s before retry.`);
 			await sleep(delay);
 			attempt += 1;
 		}
@@ -371,14 +411,17 @@ async function generateStoryAudio(story, chapters, argv) {
 		const outputPath = join(outputDir, `chapter-${chapter.id}.wav`);
 		if (existsSync(outputPath) && !argv.force) {
 			console.log(`Skipping existing chapter-${chapter.id}.wav`);
-			generatedChapters.push(
-				manifestChapters.get(chapter.id) || {
+			const existingChapter = manifestChapters.get(chapter.id);
+			const durationSeconds =
+				existingChapter?.durationSeconds ?? Number(readWavDurationSeconds(outputPath)?.toFixed(2));
+			generatedChapters.push({
+				...(existingChapter || {
 					id: chapter.id,
 					filename: `chapter-${chapter.id}.wav`,
-					title: chapter.title,
-					skipped: true
-				}
-			);
+					title: chapter.title
+				}),
+				durationSeconds
+			});
 			continue;
 		}
 

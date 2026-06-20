@@ -1,0 +1,310 @@
+- main [ref=e5]:
+  - generic [ref=e7]:
+    - region "Featured story world" [ref=e8]:
+      - generic [ref=e9]:
+        - generic [ref=e10]:
+          - generic [ref=e11]:
+            - 'button "Try another story world. Current theme: Plain Paper" [ref=e12] [cursor=pointer]':
+              - img "Roughdraft Storytime" [ref=e13]
+              - generic [ref=e14]: press
+            - generic [ref=e15]: "Story world: Plain Paper"
+          - heading "Roughdraft Storytime" [level=1] [ref=e16]
+        - region "Featured Favorites" [ref=e17]:
+          - generic [ref=e18]:
+            - heading "Featured Favorites" [level=2] [ref=e19]
+            - img [ref=e20]
+          - generic [ref=e23]:
+            - link "Read Dust Calloway and the Sky Coach Robbers" [ref=e25] [cursor=pointer]:
+              - /url: /dust-calloway-and-the-sky-coach-robbers/dust-calloway-and-the-sky-coach-robbers
+              - heading "Dust Calloway and the Sky Coach Robbers" [level=3] [ref=e32]
+            - link "Read The Delivery Drone That Wouldn't Leave" [ref=e39] [cursor=pointer]:
+              - /url: /the-delivery-drone-that-wouldnt-leave/the-delivery-drone-that-wouldnt-leave
+              - heading "The Delivery Drone That Wouldn't Leave" [level=3] [ref=e46]
+            - link "Read The Dragon Who Breathed Bubbles" [ref=e53] [cursor=pointer]:
+              - /url: /the-dragon-who-breathed-bubbles/the-dragon-who-breathed-bubbles
+              - heading "The Dragon Who Breathed Bubbles" [level=3] [ref=e60]
+            - link "Read The Silly Squirrels and the Pizza Jetpack Delivery" [ref=e67] [cursor=pointer]:
+              - /url: /silly-squirrels/the-silly-squirrels-pizza-jetpack-delivery
+              - heading "The Silly Squirrels and the Pizza Jetpack Delivery" [level=3] [ref=e74]
+        - region "Story filters" [ref=e80]:
+          - group "Filter stories by shelf" [ref=e81]:
+            - button "All Stories 63" [pressed] [ref=e82] [cursor=pointer]:
+              - generic [ref=e83]: 📚
+              - generic [ref=e84]: All Stories
+              - generic [ref=e85]: "63"
+            - button "Read + Listen 19" [ref=e86] [cursor=pointer]:
+              - generic [ref=e87]: ♪
+              - generic [ref=e88]: Read + Listen
+              - generic [ref=e89]: "19"
+            - button "Silly 22" [ref=e90] [cursor=pointer]:
+              - generic [ref=e91]: 🐿️
+              - generic [ref=e92]: Silly
+              - generic [ref=e93]: "22"
+            - button "History 27" [ref=e94] [cursor=pointer]:
+              - generic [ref=e95]: 🏛️
+              - generic [ref=e96]: History
+              - generic [ref=e97]: "27"
+            - button "Funny 35" [ref=e98] [cursor=pointer]:
+              - generic [ref=e99]: 😄
+              - generic [ref=e100]: Funny
+              - generic [ref=e101]: "35"
+            - button "Adventure 14" [ref=e102] [cursor=pointer]:
+              - generic [ref=e103]: 🗺️
+              - generic [ref=e104]: Adventure
+              - generic [ref=e105]: "14"
+            - button "Standalone 3" [ref=e106] [cursor=pointer]:
+              - generic [ref=e107]: 📖
+              - generic [ref=e108]: Standalone
+              - generic [ref=e109]: "3"
+          - generic [ref=e111]:
+            - img
+            - searchbox "Search titles, genres, tags, and descriptions" [ref=e112]
+    - region "Story list view" [ref=e113]:
+      - generic [ref=e114]:
+        - generic [ref=e116]:
+          - heading "Browse the catalog" [level=2] [ref=e117]
+          - paragraph [ref=e118]: Showing 1-12 of 63 stories.
+        - table [ref=e120]:
+          - rowgroup [ref=e121]:
+            - row "Story Shelf Open" [ref=e122]:
+              - columnheader "Story" [ref=e123]
+              - columnheader "Shelf" [ref=e124]
+              - columnheader "Open" [ref=e125]
+          - rowgroup [ref=e126]:
+            - link "Read Downriver" [ref=e127] [cursor=pointer]:
+              - cell "Downriver Samuel Corwin is eleven years old when he joins his uncle on a timber raft floa..." [ref=e128]:
+                - generic [ref=e135]:
+                  - generic [ref=e136]: Downriver
+                  - generic [ref=e137]: Samuel Corwin is eleven years old when he joins his uncle on a timber raft floa...
+              - cell "Downriver Historical Fiction Tags for Downriver" [ref=e138]:
+                - generic [ref=e139]:
+                  - generic [ref=e140]: Downriver
+                  - generic [ref=e141]: Historical Fiction
+                  - generic "Tags for Downriver" [ref=e142]:
+                    - generic [ref=e143]: historical
+                    - generic [ref=e144]: 1850s
+              - cell "Read" [ref=e145]:
+                - link "Read" [ref=e146]:
+                  - /url: /downriver/downriver
+                  - text: Read
+                  - img [ref=e147]
+            - link "Read Dust Calloway and the Sky Coach Robbers" [ref=e149] [cursor=pointer]:
+              - cell "Dust Calloway and the Sky Coach Robbers When a floating stagecoach starts raining stolen gold over Cinder Flats, Marsha..." [ref=e150]:
+                - generic [ref=e157]:
+                  - generic [ref=e158]: Dust Calloway and the Sky Coach Robbers
+                  - generic [ref=e159]: When a floating stagecoach starts raining stolen gold over Cinder Flats, Marsha...
+              - cell "Dust Calloway and the Sky Coach Robbers Adventure Tags for Dust Calloway and the Sky Coach Robbers" [ref=e160]:
+                - generic [ref=e161]:
+                  - generic [ref=e162]: Dust Calloway and the Sky Coach Robbers
+                  - generic [ref=e163]: Adventure
+                  - generic "Tags for Dust Calloway and the Sky Coach Robbers" [ref=e164]:
+                    - generic [ref=e165]: wild west
+                    - generic [ref=e166]: adventure
+              - cell "Read" [ref=e167]:
+                - link "Read" [ref=e168]:
+                  - /url: /dust-calloway-and-the-sky-coach-robbers/dust-calloway-and-the-sky-coach-robbers
+                  - text: Read
+                  - img [ref=e169]
+            - link "Read Field Day Fiasco" [ref=e171] [cursor=pointer]:
+              - cell "Field Day Fiasco Casey Chen's parents take everything literally. EVERYTHING. So when they volunt..." [ref=e172]:
+                - generic [ref=e179]:
+                  - generic [ref=e180]: Field Day Fiasco
+                  - generic [ref=e181]: Casey Chen's parents take everything literally. EVERYTHING. So when they volunt...
+              - cell "Field Day Fiasco Humor Tags for Field Day Fiasco" [ref=e182]:
+                - generic [ref=e183]:
+                  - generic [ref=e184]: Field Day Fiasco
+                  - generic [ref=e185]: Humor
+                  - generic "Tags for Field Day Fiasco" [ref=e186]:
+                    - generic [ref=e187]: literal
+                    - generic [ref=e188]: parents
+              - cell "Read" [ref=e189]:
+                - link "Read" [ref=e190]:
+                  - /url: /field-day-fiasco/field-day-fiasco
+                  - text: Read
+                  - img [ref=e191]
+            - link "Read Julius Caesar and the End of the Republic" [ref=e193] [cursor=pointer]:
+              - cell "Julius Caesar and the End of the Republic Julius Caesar rose through ambition, debt, politics, and war until he overshado..." [ref=e194]:
+                - generic [ref=e195]:
+                  - generic [ref=e200]: 🏛️
+                  - generic [ref=e203]:
+                    - generic [ref=e204]: Julius Caesar and the End of the Republic
+                    - generic [ref=e205]: Julius Caesar rose through ambition, debt, politics, and war until he overshado...
+              - cell "History Close-Up Narrative History Tags for Julius Caesar and the End of the Republic" [ref=e206]:
+                - generic [ref=e207]:
+                  - generic [ref=e208]: History Close-Up
+                  - generic [ref=e209]: Narrative History
+                  - generic "Tags for Julius Caesar and the End of the Republic" [ref=e210]:
+                    - generic [ref=e211]: julius caesar
+                    - generic [ref=e212]: rome
+              - cell "Read" [ref=e213]:
+                - link "Read" [ref=e214]:
+                  - /url: /history-close-up/julius-caesar-and-the-end-of-the-republic
+                  - text: Read
+                  - img [ref=e215]
+            - 'link "Read Napoleon: The Corsican Who Reshaped Europe" [ref=e217] [cursor=pointer]':
+              - 'cell "Napoleon: The Corsican Who Reshaped Europe Napoleon Bonaparte began life on an island at the edge of Europe and ended as t..." [ref=e218]':
+                - generic [ref=e219]:
+                  - generic [ref=e224]: 🏛️
+                  - generic [ref=e227]:
+                    - generic [ref=e228]: "Napoleon: The Corsican Who Reshaped Europe"
+                    - generic [ref=e229]: Napoleon Bonaparte began life on an island at the edge of Europe and ended as t...
+              - 'cell "History Close-Up Narrative History Tags for Napoleon: The Corsican Who Reshaped Europe" [ref=e230]':
+                - generic [ref=e231]:
+                  - generic [ref=e232]: History Close-Up
+                  - generic [ref=e233]: Narrative History
+                  - 'generic "Tags for Napoleon: The Corsican Who Reshaped Europe" [ref=e234]':
+                    - generic [ref=e235]: napoleon
+                    - generic [ref=e236]: corsica
+              - cell "Read" [ref=e237]:
+                - link "Read" [ref=e238]:
+                  - /url: /history-close-up/napoleon-the-corsican-who-reshaped-europe
+                  - text: Read
+                  - img [ref=e239]
+            - link "Read Lawrence Washington and the War Before the Revolution" [ref=e241] [cursor=pointer]:
+              - cell "Lawrence Washington and the War Before the Revolution Before George Washington became the best-known Virginian in the world, he looke..." [ref=e242]:
+                - generic [ref=e243]:
+                  - generic [ref=e248]: 🏛️
+                  - generic [ref=e251]:
+                    - generic [ref=e252]: Lawrence Washington and the War Before the Revolution
+                    - generic [ref=e253]: Before George Washington became the best-known Virginian in the world, he looke...
+              - cell "History Close-Up Narrative History Tags for Lawrence Washington and the War Before the Revolution" [ref=e254]:
+                - generic [ref=e255]:
+                  - generic [ref=e256]: History Close-Up
+                  - generic [ref=e257]: Narrative History
+                  - generic "Tags for Lawrence Washington and the War Before the Revolution" [ref=e258]:
+                    - generic [ref=e259]: american history
+                    - generic [ref=e260]: george washington
+              - cell "Read" [ref=e261]:
+                - link "Read" [ref=e262]:
+                  - /url: /history-close-up/lawrence-washington-and-the-war-before-the-revolution
+                  - text: Read
+                  - img [ref=e263]
+            - link "Read George Washington and the Weight of Command" [ref=e265] [cursor=pointer]:
+              - cell "George Washington and the Weight of Command George Washington was not born a legend. This factual narrative follows him fro..." [ref=e266]:
+                - generic [ref=e267]:
+                  - generic [ref=e272]: 🏛️
+                  - generic [ref=e275]:
+                    - generic [ref=e276]: George Washington and the Weight of Command
+                    - generic [ref=e277]: George Washington was not born a legend. This factual narrative follows him fro...
+              - cell "History Close-Up Narrative History Tags for George Washington and the Weight of Command" [ref=e278]:
+                - generic [ref=e279]:
+                  - generic [ref=e280]: History Close-Up
+                  - generic [ref=e281]: Narrative History
+                  - generic "Tags for George Washington and the Weight of Command" [ref=e282]:
+                    - generic [ref=e283]: george washington
+                    - generic [ref=e284]: american revolution
+              - cell "Read" [ref=e285]:
+                - link "Read" [ref=e286]:
+                  - /url: /history-close-up/george-washington-and-the-weight-of-command
+                  - text: Read
+                  - img [ref=e287]
+            - link "Read Samuel Adams and the Fire in Boston" [ref=e289] [cursor=pointer]:
+              - cell "Samuel Adams and the Fire in Boston Samuel Adams did not command armies, but he helped turn Boston's anger into org..." [ref=e290]:
+                - generic [ref=e291]:
+                  - generic [ref=e296]: 🏛️
+                  - generic [ref=e299]:
+                    - generic [ref=e300]: Samuel Adams and the Fire in Boston
+                    - generic [ref=e301]: Samuel Adams did not command armies, but he helped turn Boston's anger into org...
+              - cell "History Close-Up Narrative History Tags for Samuel Adams and the Fire in Boston" [ref=e302]:
+                - generic [ref=e303]:
+                  - generic [ref=e304]: History Close-Up
+                  - generic [ref=e305]: Narrative History
+                  - generic "Tags for Samuel Adams and the Fire in Boston" [ref=e306]:
+                    - generic [ref=e307]: samuel adams
+                    - generic [ref=e308]: boston tea party
+              - cell "Read" [ref=e309]:
+                - link "Read" [ref=e310]:
+                  - /url: /history-close-up/samuel-adams-and-the-fire-in-boston
+                  - text: Read
+                  - img [ref=e311]
+            - link "Read Crispus Attucks and the Night on King Street" [ref=e313] [cursor=pointer]:
+              - cell "Crispus Attucks and the Night on King Street Crispus Attucks died in the Boston Massacre years before independence was decla..." [ref=e314]:
+                - generic [ref=e315]:
+                  - generic [ref=e320]: 🏛️
+                  - generic [ref=e323]:
+                    - generic [ref=e324]: Crispus Attucks and the Night on King Street
+                    - generic [ref=e325]: Crispus Attucks died in the Boston Massacre years before independence was decla...
+              - cell "History Close-Up Narrative History Tags for Crispus Attucks and the Night on King Street" [ref=e326]:
+                - generic [ref=e327]:
+                  - generic [ref=e328]: History Close-Up
+                  - generic [ref=e329]: Narrative History
+                  - generic "Tags for Crispus Attucks and the Night on King Street" [ref=e330]:
+                    - generic [ref=e331]: crispus attucks
+                    - generic [ref=e332]: boston massacre
+              - cell "Read" [ref=e333]:
+                - link "Read" [ref=e334]:
+                  - /url: /history-close-up/crispus-attucks-and-the-night-on-king-street
+                  - text: Read
+                  - img [ref=e335]
+            - link "Read Thomas Paine and the Words That Marched" [ref=e337] [cursor=pointer]:
+              - cell "Thomas Paine and the Words That Marched Thomas Paine reached America just before the Revolution and quickly became one..." [ref=e338]:
+                - generic [ref=e339]:
+                  - generic [ref=e344]: 🏛️
+                  - generic [ref=e347]:
+                    - generic [ref=e348]: Thomas Paine and the Words That Marched
+                    - generic [ref=e349]: Thomas Paine reached America just before the Revolution and quickly became one...
+              - cell "History Close-Up Narrative History Tags for Thomas Paine and the Words That Marched" [ref=e350]:
+                - generic [ref=e351]:
+                  - generic [ref=e352]: History Close-Up
+                  - generic [ref=e353]: Narrative History
+                  - generic "Tags for Thomas Paine and the Words That Marched" [ref=e354]:
+                    - generic [ref=e355]: thomas paine
+                    - generic [ref=e356]: common sense
+              - cell "Read" [ref=e357]:
+                - link "Read" [ref=e358]:
+                  - /url: /history-close-up/thomas-paine-and-the-words-that-marched
+                  - text: Read
+                  - img [ref=e359]
+            - link "Read Abigail Adams and the Revolution at Home" [ref=e361] [cursor=pointer]:
+              - cell "Abigail Adams and the Revolution at Home Abigail Adams did not command armies, but she watched a revolution unfold from..." [ref=e362]:
+                - generic [ref=e369]:
+                  - generic [ref=e370]: Abigail Adams and the Revolution at Home
+                  - generic [ref=e371]: Abigail Adams did not command armies, but she watched a revolution unfold from...
+              - cell "History Close-Up Narrative History Tags for Abigail Adams and the Revolution at Home" [ref=e372]:
+                - generic [ref=e373]:
+                  - generic [ref=e374]: History Close-Up
+                  - generic [ref=e375]: Narrative History
+                  - generic "Tags for Abigail Adams and the Revolution at Home" [ref=e376]:
+                    - generic [ref=e377]: abigail adams
+                    - generic [ref=e378]: american revolution
+              - cell "Read" [ref=e379]:
+                - link "Read" [ref=e380]:
+                  - /url: /history-close-up/abigail-adams-and-the-revolution-at-home
+                  - text: Read
+                  - img [ref=e381]
+            - link "Read Henry Knox and the Winter Guns" [ref=e383] [cursor=pointer]:
+              - cell "Henry Knox and the Winter Guns Before Henry Knox became George Washington's chief of artillery, he was a Bosto..." [ref=e384]:
+                - generic [ref=e385]:
+                  - generic [ref=e390]: 🏛️
+                  - generic [ref=e393]:
+                    - generic [ref=e394]: Henry Knox and the Winter Guns
+                    - generic [ref=e395]: Before Henry Knox became George Washington's chief of artillery, he was a Bosto...
+              - cell "History Close-Up Narrative History Tags for Henry Knox and the Winter Guns" [ref=e396]:
+                - generic [ref=e397]:
+                  - generic [ref=e398]: History Close-Up
+                  - generic [ref=e399]: Narrative History
+                  - generic "Tags for Henry Knox and the Winter Guns" [ref=e400]:
+                    - generic [ref=e401]: american revolution
+                    - generic [ref=e402]: henry knox
+              - cell "Read" [ref=e403]:
+                - link "Read" [ref=e404]:
+                  - /url: /history-close-up/henry-knox-and-the-winter-guns
+                  - text: Read
+                  - img [ref=e405]
+      - navigation "Story catalog pages" [ref=e407]:
+        - paragraph [ref=e408]: Page 1 of 6 / 1-12 of 63
+        - generic [ref=e409]:
+          - button "Previous page" [disabled] [ref=e410]:
+            - img [ref=e411]
+          - button "1" [ref=e413] [cursor=pointer]:
+            - generic [ref=e414]: "1"
+          - button "2" [ref=e415] [cursor=pointer]:
+            - generic [ref=e416]: "2"
+          - button "3" [ref=e417] [cursor=pointer]:
+            - generic [ref=e418]: "3"
+          - button "4" [ref=e419] [cursor=pointer]:
+            - generic [ref=e420]: "4"
+          - button "5" [ref=e421] [cursor=pointer]:
+            - generic [ref=e422]: "5"
+          - button "Next page" [ref=e423] [cursor=pointer]:
+            - img [ref=e424]

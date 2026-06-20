@@ -2,7 +2,6 @@
 	import { goto } from '$app/navigation';
 	import { browser } from '$app/environment';
 	import { onMount } from 'svelte';
-	import { tick } from 'svelte';
 	import { getBookshelfBooks } from '$lib/content-loader.js';
 	import {
 		absoluteUrl,
@@ -38,8 +37,7 @@
 		adventure: '🗺️',
 		standalone: '📖'
 	};
-	const INITIAL_VISIBLE_STORIES = 24;
-	const STORIES_PER_LOAD = 18;
+	const MAX_VISIBLE_PAGE_BUTTONS = 5;
 	const HOME_LOGO = {
 		src: '/logo-sign.webp',
 		srcset:
@@ -48,6 +46,361 @@
 		width: 1536,
 		height: 1024
 	};
+	const HOME_THEME_STORAGE_KEY = 'roughdraft-home-theme';
+	const STAGE_RATIO_STANDARD = 1586 / 992;
+	const STAGE_RATIO_PILLOW = 1606 / 979;
+	const STAGE_RATIO_WIDE = 1672 / 941;
+
+	function stageTheme({
+		id,
+		name,
+		image,
+		backdrop,
+		positionMobile = '50% top',
+		artRatio = STAGE_RATIO_STANDARD,
+		centerWash = 'rgba(255, 248, 232, 0.66)',
+		edgeWash = 'rgba(70, 54, 32, 0.08)',
+		topWash = 'rgba(255, 249, 229, 0.15)',
+		bottomWash = 'rgba(87, 62, 34, 0.1)',
+		heading = '#352b1f',
+		accent = '#b47c26',
+		ink = '#324f61'
+	}) {
+		return {
+			id,
+			name,
+			image,
+			backdrop,
+			positionDesktop: 'center top',
+			positionMobile,
+			artRatio,
+			centerWash,
+			edgeWash,
+			topWash,
+			bottomWash,
+			ink,
+			heading,
+			accent
+		};
+	}
+
+	const HOME_THEMES = [
+		stageTheme({
+			id: 'paper-stage',
+			name: 'Plain Paper',
+			image: null,
+			backdrop: '#fffaf0',
+			positionMobile: '50% top',
+			artRatio: STAGE_RATIO_STANDARD,
+			centerWash: 'rgba(255, 253, 246, 0.34)',
+			edgeWash: 'rgba(109, 77, 35, 0.03)',
+			topWash: 'rgba(255, 255, 255, 0.08)',
+			bottomWash: 'rgba(116, 83, 45, 0.05)',
+			ink: '#4e5d6d',
+			heading: '#352b1f',
+			accent: '#b47c26'
+		}),
+		stageTheme({
+			id: 'map-world',
+			name: 'Adventure Map',
+			image: '/home-stages/map-world.webp',
+			backdrop: '#f4dfad',
+			positionMobile: '18% top',
+			artRatio: STAGE_RATIO_STANDARD,
+			centerWash: 'rgba(255, 249, 232, 0.64)',
+			edgeWash: 'rgba(76, 56, 28, 0.07)',
+			topWash: 'rgba(255, 247, 219, 0.2)',
+			bottomWash: 'rgba(65, 47, 23, 0.1)',
+			ink: '#324f61',
+			heading: '#332a20',
+			accent: '#b47c26'
+		}),
+		stageTheme({
+			id: 'cloud-treehouse',
+			name: 'Cloud Treehouse',
+			image: '/home-stages/cloud-treehouse.webp',
+			backdrop: '#f7ead0',
+			positionMobile: '20% top',
+			artRatio: STAGE_RATIO_STANDARD,
+			centerWash: 'rgba(255, 249, 232, 0.66)',
+			edgeWash: 'rgba(43, 71, 54, 0.08)',
+			topWash: 'rgba(255, 247, 225, 0.22)',
+			bottomWash: 'rgba(72, 64, 34, 0.1)',
+			ink: '#3f5e68',
+			heading: '#342b20',
+			accent: '#a97728'
+		}),
+		stageTheme({
+			id: 'frontier-campfire',
+			name: 'Frontier Campfire',
+			image: '/home-stages/frontier-campfire.webp',
+			backdrop: '#3a2c34',
+			positionMobile: '18% top',
+			artRatio: STAGE_RATIO_STANDARD,
+			centerWash: 'rgba(255, 230, 190, 0.58)',
+			edgeWash: 'rgba(42, 22, 18, 0.18)',
+			topWash: 'rgba(38, 31, 66, 0.08)',
+			bottomWash: 'rgba(42, 22, 12, 0.2)',
+			ink: '#27445b',
+			heading: '#3a2d21',
+			accent: '#d08b36'
+		}),
+		stageTheme({
+			id: 'notebook-desk',
+			name: 'Notebook Desk',
+			image: '/home-stages/notebook-desk.webp',
+			backdrop: '#f6efe1',
+			positionMobile: '82% top',
+			artRatio: STAGE_RATIO_STANDARD,
+			centerWash: 'rgba(255, 255, 255, 0.46)',
+			edgeWash: 'rgba(46, 75, 96, 0.05)',
+			topWash: 'rgba(255, 255, 255, 0.08)',
+			bottomWash: 'rgba(93, 70, 42, 0.08)',
+			ink: '#2e526b',
+			heading: '#2e2720',
+			accent: '#4f91c9'
+		}),
+		stageTheme({
+			id: 'moonlit-library',
+			name: 'Moonlit Library',
+			image: '/home-stages/moonlit-library.webp',
+			backdrop: '#1b2731',
+			positionMobile: '18% top',
+			artRatio: STAGE_RATIO_STANDARD,
+			centerWash: 'rgba(255, 239, 202, 0.62)',
+			edgeWash: 'rgba(4, 12, 18, 0.18)',
+			topWash: 'rgba(18, 28, 42, 0.08)',
+			bottomWash: 'rgba(18, 10, 6, 0.22)',
+			ink: '#28485d',
+			heading: '#3a2d21',
+			accent: '#d39b4c'
+		}),
+		stageTheme({
+			id: 'rocket-garden',
+			name: 'Rocket Garden',
+			image: '/home-stages/rocket-garden.webp',
+			backdrop: '#192640',
+			positionMobile: '82% top',
+			artRatio: STAGE_RATIO_STANDARD,
+			centerWash: 'rgba(255, 236, 199, 0.54)',
+			edgeWash: 'rgba(9, 17, 34, 0.17)',
+			topWash: 'rgba(16, 25, 50, 0.06)',
+			bottomWash: 'rgba(31, 20, 28, 0.2)',
+			ink: '#284961',
+			heading: '#3a2d21',
+			accent: '#dca24a'
+		}),
+		stageTheme({
+			id: 'underwater-cove',
+			name: 'Underwater Cove',
+			image: '/home-stages/underwater-cove.webp',
+			backdrop: '#dff4ee',
+			positionMobile: '18% top',
+			artRatio: STAGE_RATIO_STANDARD,
+			centerWash: 'rgba(255, 249, 222, 0.62)',
+			edgeWash: 'rgba(18, 102, 104, 0.1)',
+			topWash: 'rgba(203, 246, 244, 0.18)',
+			bottomWash: 'rgba(26, 120, 120, 0.1)',
+			ink: '#28556b',
+			heading: '#263a36',
+			accent: '#1d92a0'
+		}),
+		stageTheme({
+			id: 'pillow-fort',
+			name: 'Pillow Fort',
+			image: '/home-stages/pillow-fort.webp',
+			backdrop: '#f7e7c8',
+			positionMobile: '82% top',
+			artRatio: STAGE_RATIO_PILLOW,
+			centerWash: 'rgba(255, 246, 225, 0.58)',
+			edgeWash: 'rgba(107, 54, 45, 0.09)',
+			topWash: 'rgba(255, 238, 198, 0.12)',
+			bottomWash: 'rgba(107, 54, 45, 0.12)',
+			ink: '#3c5364',
+			heading: '#352b1f',
+			accent: '#c1763d'
+		}),
+		stageTheme({
+			id: 'paper-theater',
+			name: 'Paper Theater',
+			image: '/home-stages/paper-theater.webp',
+			backdrop: '#f5dfb4',
+			positionMobile: '50% top',
+			artRatio: STAGE_RATIO_STANDARD,
+			centerWash: 'rgba(255, 237, 196, 0.48)',
+			edgeWash: 'rgba(108, 37, 28, 0.16)',
+			topWash: 'rgba(137, 48, 41, 0.05)',
+			bottomWash: 'rgba(100, 56, 24, 0.14)',
+			ink: '#3c5364',
+			heading: '#3a2a1f',
+			accent: '#bf4f35'
+		}),
+		stageTheme({
+			id: 'lighthouse-cove',
+			name: 'Lighthouse Cove',
+			image: '/home-stages/lighthouse-cove.webp',
+			backdrop: '#e7f0e8',
+			positionMobile: '82% top',
+			artRatio: STAGE_RATIO_STANDARD,
+			centerWash: 'rgba(255, 248, 229, 0.66)',
+			edgeWash: 'rgba(40, 93, 109, 0.1)',
+			topWash: 'rgba(226, 244, 248, 0.14)',
+			bottomWash: 'rgba(64, 98, 83, 0.09)',
+			ink: '#2d5368',
+			heading: '#2f2a21',
+			accent: '#c97835'
+		}),
+		stageTheme({
+			id: 'floating-observatory',
+			name: 'Floating Observatory',
+			image: '/home-stages/floating-observatory.webp',
+			backdrop: '#242742',
+			positionMobile: '20% top',
+			artRatio: STAGE_RATIO_WIDE,
+			centerWash: 'rgba(255, 238, 197, 0.58)',
+			edgeWash: 'rgba(18, 18, 44, 0.2)',
+			topWash: 'rgba(29, 30, 70, 0.06)',
+			bottomWash: 'rgba(29, 19, 39, 0.22)',
+			ink: '#284961',
+			heading: '#3a2d21',
+			accent: '#d5a34c'
+		}),
+		stageTheme({
+			id: 'story-train',
+			name: 'Story Train',
+			image: '/home-stages/story-train.webp',
+			backdrop: '#ead6b4',
+			positionMobile: '82% top',
+			artRatio: STAGE_RATIO_WIDE,
+			centerWash: 'rgba(255, 240, 205, 0.54)',
+			edgeWash: 'rgba(73, 48, 32, 0.14)',
+			topWash: 'rgba(255, 238, 202, 0.12)',
+			bottomWash: 'rgba(86, 58, 33, 0.16)',
+			ink: '#344d5c',
+			heading: '#352b1f',
+			accent: '#b36f2a'
+		}),
+		stageTheme({
+			id: 'garden-maze',
+			name: 'Garden Maze',
+			image: '/home-stages/garden-maze.webp',
+			backdrop: '#eef3d7',
+			positionMobile: '20% top',
+			artRatio: STAGE_RATIO_WIDE,
+			centerWash: 'rgba(255, 249, 225, 0.66)',
+			edgeWash: 'rgba(58, 108, 61, 0.11)',
+			topWash: 'rgba(232, 249, 205, 0.12)',
+			bottomWash: 'rgba(68, 100, 50, 0.09)',
+			ink: '#325465',
+			heading: '#2e2b20',
+			accent: '#6d993f'
+		}),
+		stageTheme({
+			id: 'snowy-village',
+			name: 'Snowy Village',
+			image: '/home-stages/snowy-village.webp',
+			backdrop: '#edf3ec',
+			positionMobile: '82% top',
+			artRatio: STAGE_RATIO_WIDE,
+			centerWash: 'rgba(255, 248, 225, 0.66)',
+			edgeWash: 'rgba(74, 94, 111, 0.09)',
+			topWash: 'rgba(235, 248, 255, 0.12)',
+			bottomWash: 'rgba(62, 89, 93, 0.09)',
+			ink: '#31536a',
+			heading: '#302b22',
+			accent: '#b8473a'
+		}),
+		stageTheme({
+			id: 'firefly-forest',
+			name: 'Firefly Forest',
+			image: '/home-stages/firefly-forest.webp',
+			backdrop: '#263d31',
+			positionMobile: '20% top',
+			artRatio: STAGE_RATIO_WIDE,
+			centerWash: 'rgba(255, 236, 194, 0.58)',
+			edgeWash: 'rgba(8, 32, 24, 0.2)',
+			topWash: 'rgba(29, 61, 46, 0.08)',
+			bottomWash: 'rgba(20, 41, 27, 0.2)',
+			ink: '#284961',
+			heading: '#3a2d21',
+			accent: '#c4a33d'
+		}),
+		stageTheme({
+			id: 'pirate-cove',
+			name: 'Pirate Cove',
+			image: '/home-stages/pirate-cove.webp',
+			backdrop: '#f2dcae',
+			positionMobile: '82% top',
+			artRatio: STAGE_RATIO_WIDE,
+			centerWash: 'rgba(255, 246, 221, 0.62)',
+			edgeWash: 'rgba(57, 85, 67, 0.12)',
+			topWash: 'rgba(251, 235, 191, 0.12)',
+			bottomWash: 'rgba(95, 64, 33, 0.11)',
+			ink: '#2d5368',
+			heading: '#312a20',
+			accent: '#c98229'
+		}),
+		stageTheme({
+			id: 'kitchen-lab',
+			name: 'Kitchen Lab',
+			image: '/home-stages/kitchen-lab.webp',
+			backdrop: '#f8eac9',
+			positionMobile: '18% top',
+			artRatio: STAGE_RATIO_WIDE,
+			centerWash: 'rgba(255, 248, 227, 0.6)',
+			edgeWash: 'rgba(132, 67, 42, 0.1)',
+			topWash: 'rgba(255, 243, 214, 0.12)',
+			bottomWash: 'rgba(122, 75, 46, 0.1)',
+			ink: '#344d5c',
+			heading: '#342b20',
+			accent: '#cc6d3a'
+		}),
+		stageTheme({
+			id: 'rainy-attic',
+			name: 'Rainy Attic',
+			image: '/home-stages/rainy-attic.webp',
+			backdrop: '#d9c7ae',
+			positionMobile: '50% top',
+			artRatio: STAGE_RATIO_WIDE,
+			centerWash: 'rgba(255, 235, 198, 0.5)',
+			edgeWash: 'rgba(47, 48, 61, 0.16)',
+			topWash: 'rgba(60, 72, 90, 0.07)',
+			bottomWash: 'rgba(75, 48, 29, 0.18)',
+			ink: '#344d5c',
+			heading: '#3a2d21',
+			accent: '#ba7442'
+		}),
+		stageTheme({
+			id: 'castle-meadow',
+			name: 'Castle Meadow',
+			image: '/home-stages/castle-meadow.webp',
+			backdrop: '#f0e7bd',
+			positionMobile: '82% top',
+			artRatio: STAGE_RATIO_WIDE,
+			centerWash: 'rgba(255, 248, 223, 0.64)',
+			edgeWash: 'rgba(57, 101, 59, 0.11)',
+			topWash: 'rgba(240, 248, 220, 0.12)',
+			bottomWash: 'rgba(77, 101, 48, 0.09)',
+			ink: '#31536a',
+			heading: '#332a20',
+			accent: '#b64937'
+		}),
+		stageTheme({
+			id: 'paper-portal',
+			name: 'Paper Portal',
+			image: '/home-stages/paper-portal.webp',
+			backdrop: '#f7ead3',
+			positionMobile: '18% top',
+			artRatio: STAGE_RATIO_WIDE,
+			centerWash: 'rgba(255, 249, 232, 0.62)',
+			edgeWash: 'rgba(56, 74, 88, 0.1)',
+			topWash: 'rgba(255, 248, 229, 0.12)',
+			bottomWash: 'rgba(90, 67, 43, 0.1)',
+			ink: '#324f61',
+			heading: '#312a20',
+			accent: '#4f91c9'
+		})
+	];
 	const homeCanonicalUrl = absoluteUrl('/');
 	const homeStructuredData = JSON.stringify({
 		'@context': 'https://schema.org',
@@ -67,6 +420,8 @@
 			'Historical stories for kids'
 		]
 	});
+	const homeStructuredDataScript =
+		`<script type="application/ld+json">${homeStructuredData}</` + 'script>';
 	const COVER_IMAGE_VARIANTS = {
 		'/covers/silly-squirrels.jpg': {
 			src: '/optimized/silly-squirrels-160.webp',
@@ -79,11 +434,9 @@
 
 	let activeFilter = $state('all');
 	let searchQuery = $state('');
-	let displayMode = $state('covers');
-	let hoveredBook = $state(null);
-	let hoveredBookPopupPlacement = $state('above');
-	let visibleStoryCount = $state(INITIAL_VISIBLE_STORIES);
+	let currentPage = $state(1);
 	let previousResultKey = $state('');
+	let activeHomeThemeIndex = $state(0);
 
 	let featuredBooksPerShelf = $state(5);
 	let viewportWidth = $state(1440);
@@ -108,41 +461,69 @@
 		}
 	}
 
-	onMount(() => {
-		const storedDisplayMode = window.localStorage.getItem('roughdraft-home-view');
+	function isEditableShortcutTarget(target) {
+		if (!(target instanceof Element)) return false;
+
+		return Boolean(
+			target.closest(
+				'input, textarea, select, [contenteditable="true"], [contenteditable=""], [role="textbox"], [role="searchbox"]'
+			)
+		);
+	}
+
+	function handleHomeThemeKeydown(event) {
 		if (
-			storedDisplayMode === 'table' ||
-			storedDisplayMode === 'covers' ||
-			storedDisplayMode === 'spines'
+			event.defaultPrevented ||
+			event.metaKey ||
+			event.ctrlKey ||
+			event.altKey ||
+			event.shiftKey ||
+			isEditableShortcutTarget(event.target)
 		) {
-			displayMode = storedDisplayMode;
+			return;
+		}
+
+		if (event.key === 'ArrowRight') {
+			event.preventDefault();
+			cycleHomeTheme();
+		}
+
+		if (event.key === 'ArrowLeft') {
+			event.preventDefault();
+			cycleHomeThemeBackward();
+		}
+	}
+
+	onMount(() => {
+		const storedTheme = Number(window.localStorage.getItem(HOME_THEME_STORAGE_KEY));
+		if (Number.isInteger(storedTheme) && storedTheme >= 0 && storedTheme < HOME_THEMES.length) {
+			activeHomeThemeIndex = storedTheme;
 		}
 
 		updateBooksPerShelf();
 		window.addEventListener('resize', updateBooksPerShelf);
+		window.addEventListener('keydown', handleHomeThemeKeydown);
+		preloadHomeTheme(getNextHomeThemeIndex());
+		preloadHomeTheme(getPreviousHomeThemeIndex());
 
 		return () => {
 			window.removeEventListener('resize', updateBooksPerShelf);
+			window.removeEventListener('keydown', handleHomeThemeKeydown);
 		};
 	});
 
 	$effect(() => {
-		// Re-calculate when mode changes
-		displayMode;
-		updateBooksPerShelf();
-	});
-
-	$effect(() => {
-		if (!browser) return;
-		window.localStorage.setItem('roughdraft-home-view', displayMode);
-	});
-
-	$effect(() => {
-		const resultKey = `${activeFilter}|${searchQuery.trim().toLowerCase()}|${displayMode}`;
+		const resultKey = `${activeFilter}|${searchQuery.trim().toLowerCase()}`;
 		if (resultKey === previousResultKey) return;
 
 		previousResultKey = resultKey;
-		visibleStoryCount = INITIAL_VISIBLE_STORIES;
+		currentPage = 1;
+	});
+
+	$effect(() => {
+		if (currentPage > pageCount) {
+			currentPage = pageCount;
+		}
 	});
 
 	function selectBook(book) {
@@ -156,56 +537,89 @@
 		}
 	}
 
-	async function updateHoveredBook(book, event) {
-		hoveredBook = book.id;
-		hoveredBookPopupPlacement = 'above';
-
-		if (!browser) return;
-
-		await tick();
-
-		const buttonRect = event.currentTarget?.getBoundingClientRect?.();
-		const popup = event.currentTarget?.parentElement?.querySelector?.('.book-info-popup');
-		const popupRect = popup?.getBoundingClientRect?.();
-		if (!buttonRect || !popupRect) return;
-
-		const gap = 18;
-		const spaceAbove = buttonRect.top;
-		const spaceBelow = window.innerHeight - buttonRect.bottom;
-
-		if (spaceAbove < popupRect.height + gap && spaceBelow > spaceAbove) {
-			hoveredBookPopupPlacement = 'below';
-		}
-	}
-
-	function clearHoveredBook() {
-		hoveredBook = null;
-		hoveredBookPopupPlacement = 'above';
-	}
-
-	function getDisplayHeight(book) {
-		if (displayMode === 'spines') {
-			return Math.round(222 + (book.height - 230) * 0.95);
-		}
-
+	function getDisplayHeight() {
 		return 238;
 	}
 
-	function getDisplayWidth(book) {
+	function getDisplayWidth() {
 		// Maintain ~2/3 aspect ratio
-		return Math.round(getDisplayHeight(book) * 0.67);
+		return Math.round(getDisplayHeight() * 0.67);
 	}
 
 	function getDisplayDepth(book) {
 		return Math.max(16, Math.round(book.thickness * 0.32));
 	}
 
-	function setDisplayMode(mode) {
-		displayMode = mode;
+	function getStoriesPerPage() {
+		return viewportWidth < 768 ? 8 : 12;
 	}
 
-	function showMoreStories() {
-		visibleStoryCount = Math.min(filteredBookList.length, visibleStoryCount + STORIES_PER_LOAD);
+	function setCatalogPage(page) {
+		const nextPage = Math.max(1, Math.min(pageCount, page));
+		if (nextPage === currentPage) return;
+
+		currentPage = nextPage;
+
+		if (browser) {
+			requestAnimationFrame(() => {
+				document.querySelector('[data-catalog-page]')?.scrollIntoView({
+					behavior: 'smooth',
+					block: 'start'
+				});
+			});
+		}
+	}
+
+	function getNextHomeThemeIndex() {
+		return (activeHomeThemeIndex + 1) % HOME_THEMES.length;
+	}
+
+	function getPreviousHomeThemeIndex() {
+		return (activeHomeThemeIndex - 1 + HOME_THEMES.length) % HOME_THEMES.length;
+	}
+
+	function preloadHomeTheme(themeIndex) {
+		if (!browser) return;
+
+		if (!HOME_THEMES[themeIndex]?.image) return;
+
+		const image = new Image();
+		image.src = HOME_THEMES[themeIndex].image;
+	}
+
+	function setHomeThemeIndex(themeIndex) {
+		activeHomeThemeIndex = (themeIndex + HOME_THEMES.length) % HOME_THEMES.length;
+
+		if (browser) {
+			window.localStorage.setItem(HOME_THEME_STORAGE_KEY, String(activeHomeThemeIndex));
+			preloadHomeTheme(getNextHomeThemeIndex());
+			preloadHomeTheme(getPreviousHomeThemeIndex());
+		}
+	}
+
+	function cycleHomeTheme() {
+		setHomeThemeIndex(getNextHomeThemeIndex());
+	}
+
+	function cycleHomeThemeBackward() {
+		setHomeThemeIndex(getPreviousHomeThemeIndex());
+	}
+
+	function getHomeThemeStyle(theme) {
+		return [
+			`--home-theme-image: ${theme.image ? `url('${theme.image}')` : 'none'}`,
+			`--home-theme-backdrop: ${theme.backdrop}`,
+			`--home-theme-position-desktop: ${theme.positionDesktop}`,
+			`--home-theme-position-mobile: ${theme.positionMobile}`,
+			`--stage-art-ratio: ${theme.artRatio}`,
+			`--home-theme-center-wash: ${theme.centerWash}`,
+			`--home-theme-edge-wash: ${theme.edgeWash}`,
+			`--home-theme-top-wash: ${theme.topWash}`,
+			`--home-theme-bottom-wash: ${theme.bottomWash}`,
+			`--home-theme-ink: ${theme.ink}`,
+			`--home-theme-heading: ${theme.heading}`,
+			`--home-theme-accent: ${theme.accent}`
+		].join('; ');
 	}
 
 	function getBookHref(book) {
@@ -216,67 +630,8 @@
 		return COVER_IMAGE_VARIANTS[book.coverImage] ?? null;
 	}
 
-	function getSpineWidth(book) {
-		const spineTitle = getSpineTitle(book);
-		const titleLength = spineTitle.length;
-		const baseWidth = getDisplayDepth(book) * 1.5;
-
-		// Titles over ~14 chars will wrap to 2 lines — give them more width
-		const needsTwoLines = titleLength > 14;
-		const minWidth = needsTwoLines ? 32 : 24;
-		const maxWidth = needsTwoLines ? 52 : 40;
-		const titleAllowance = Math.min(16, Math.floor(titleLength / 3));
-
-		return Math.max(minWidth, Math.min(maxWidth, Math.round(baseWidth + titleAllowance)));
-	}
-
-	function getSpineFontSize(book) {
-		const titleLength = book.title.length;
-
-		if (titleLength > 34) return 0.68;
-		if (titleLength > 26) return 0.72;
-		if (titleLength > 18) return 0.76;
-		return 0.82;
-	}
-
-	function getSpineLetterSpacing(book) {
-		const titleLength = book.title.length;
-
-		if (titleLength > 30) return 0.5;
-		if (titleLength > 22) return 0.75;
-		return 1;
-	}
-
-	function getSpineTitle(book) {
-		const title = book.title.trim();
-		if (title.length <= 24) return title;
-
-		const colonTitle = title.split(':')[0]?.trim();
-		if (colonTitle && colonTitle.length >= 8 && colonTitle.length <= 24) {
-			return colonTitle;
-		}
-
-		const andTheIndex = title.toLowerCase().indexOf(' and the ');
-		if (andTheIndex > 8) {
-			const truncated = title.slice(0, andTheIndex).trim();
-			if (truncated.length <= 24) return truncated;
-		}
-
-		const words = title.split(/\s+/);
-		if (words.length >= 3) {
-			const compact = words.slice(0, 3).join(' ');
-			if (compact.length <= 24) return compact;
-		}
-
-		return title;
-	}
-
 	function getDisplayTilt(book) {
 		return Math.max(-1, Math.min(1, book.tilt * 0.3));
-	}
-
-	function getSpineTilt(book) {
-		return Math.max(-0.15, Math.min(0.15, book.tilt * 0.06));
 	}
 
 	function matchesBook(book, keywords) {
@@ -300,12 +655,15 @@
 
 	function getTableDescription(book) {
 		if (!book.description) return '';
-		if (book.description.length <= 120) return book.description;
-		return `${book.description.slice(0, 117).trimEnd()}...`;
+		if (book.description.length <= 82) return book.description;
+		return `${book.description
+			.slice(0, 79)
+			.trimEnd()
+			.replace(/[,\s]+$/, '')}...`;
 	}
 
 	function getTagPreview(book) {
-		return (book.tags || []).slice(0, 3);
+		return (book.tags || []).slice(0, 2);
 	}
 
 	function searchMatches(book, query) {
@@ -315,52 +673,6 @@
 		if (!normalizedQuery) return true;
 
 		return matchesBook(book, [normalizedQuery]);
-	}
-
-	function getMainShelfWidth() {
-		if (viewportWidth < 480) return Math.max(280, viewportWidth - 28);
-		if (viewportWidth < 768) return Math.max(340, viewportWidth - 38);
-		if (viewportWidth < 1024) return Math.min(736, viewportWidth - 44);
-		return Math.min(1088, viewportWidth - 64);
-	}
-
-	function getShelfGap() {
-		return displayMode === 'spines' ? 2 : viewportWidth < 480 ? 9 : 16;
-	}
-
-	function getBookFootprint(book) {
-		return displayMode === 'spines' ? getSpineWidth(book) : getDisplayWidth(book);
-	}
-
-	function packBooksIntoShelves(books) {
-		if (!books.length) return [];
-
-		const rows = [];
-		const maxWidth = getMainShelfWidth();
-		const gap = getShelfGap();
-		let currentRow = [];
-		let currentWidth = 0;
-
-		for (const book of books) {
-			const bookWidth = getBookFootprint(book);
-			const nextWidth = currentRow.length === 0 ? bookWidth : currentWidth + gap + bookWidth;
-
-			if (currentRow.length > 0 && nextWidth > maxWidth) {
-				rows.push(currentRow);
-				currentRow = [book];
-				currentWidth = bookWidth;
-				continue;
-			}
-
-			currentRow.push(book);
-			currentWidth = nextWidth;
-		}
-
-		if (currentRow.length > 0) {
-			rows.push(currentRow);
-		}
-
-		return rows;
 	}
 
 	function filterMatches(book, filterId) {
@@ -412,9 +724,26 @@
 		bookList.filter((book) => filterMatches(book, activeFilter) && searchMatches(book, searchQuery))
 	);
 
-	const visibleBookList = $derived(filteredBookList.slice(0, visibleStoryCount));
-	const hiddenBookCount = $derived(Math.max(0, filteredBookList.length - visibleBookList.length));
-	const mainBookShelves = $derived.by(() => packBooksIntoShelves(visibleBookList));
+	const storiesPerPage = $derived(getStoriesPerPage());
+	const pageCount = $derived(Math.max(1, Math.ceil(filteredBookList.length / storiesPerPage)));
+	const pageStartIndex = $derived((currentPage - 1) * storiesPerPage);
+	const pageEndIndex = $derived(Math.min(filteredBookList.length, currentPage * storiesPerPage));
+	const pageShowingStart = $derived(filteredBookList.length === 0 ? 0 : pageStartIndex + 1);
+	const visibleBookList = $derived(filteredBookList.slice(pageStartIndex, pageEndIndex));
+	const paginationPages = $derived.by(() => {
+		const visibleCount = Math.min(MAX_VISIBLE_PAGE_BUTTONS, pageCount);
+		const half = Math.floor(visibleCount / 2);
+		let start = Math.max(1, currentPage - half);
+		let end = start + visibleCount - 1;
+
+		if (end > pageCount) {
+			end = pageCount;
+			start = Math.max(1, end - visibleCount + 1);
+		}
+
+		return Array.from({ length: end - start + 1 }, (_, index) => start + index);
+	});
+	const activeHomeTheme = $derived(HOME_THEMES[activeHomeThemeIndex] ?? HOME_THEMES[0]);
 </script>
 
 <svelte:head>
@@ -429,6 +758,7 @@
 		imagesrcset={HOME_LOGO.srcset}
 		imagesizes={HOME_LOGO.sizes}
 	/>
+	<link rel="preload" as="image" href={HOME_THEMES[1].image} />
 	<meta property="og:title" content={HOME_TITLE} />
 	<meta property="og:description" content={HOME_DESCRIPTION} />
 	<meta property="og:type" content="website" />
@@ -439,10 +769,15 @@
 	<meta name="twitter:title" content={HOME_TITLE} />
 	<meta name="twitter:description" content={HOME_DESCRIPTION} />
 	<meta name="twitter:image" content={DEFAULT_OG_IMAGE} />
-	{@html `<script type="application/ld+json">${homeStructuredData}</script>`}
+	<!-- eslint-disable-next-line svelte/no-at-html-tags -->
+	{@html homeStructuredDataScript}
 </svelte:head>
 
-<div class="bookshelf-room">
+<div
+	class="bookshelf-room"
+	data-home-theme={activeHomeTheme.id}
+	style={getHomeThemeStyle(activeHomeTheme)}
+>
 	{#snippet coverBook(book, variant)}
 		<div class="book-item">
 			<a
@@ -520,7 +855,7 @@
 				onclick={() => {
 					activeFilter = 'all';
 					searchQuery = '';
-					visibleStoryCount = INITIAL_VISIBLE_STORIES;
+					currentPage = 1;
 				}}
 			>
 				Show every story
@@ -528,407 +863,320 @@
 		</div>
 	{/snippet}
 
-	{#snippet loadMoreControl()}
-		{#if filteredBookList.length > 0 && hiddenBookCount > 0}
-			<div class="catalog-load-more">
+	{#snippet pageTurnIcon(direction)}
+		<svg class="page-turn-icon" viewBox="0 0 16 16" aria-hidden="true">
+			{#if direction === 'previous'}
+				<path
+					d="M9.8 3.2 5.1 8l4.7 4.8"
+					fill="none"
+					stroke="currentColor"
+					stroke-width="2"
+					stroke-linecap="round"
+					stroke-linejoin="round"
+				/>
+			{:else}
+				<path
+					d="m6.2 3.2 4.7 4.8-4.7 4.8"
+					fill="none"
+					stroke="currentColor"
+					stroke-width="2"
+					stroke-linecap="round"
+					stroke-linejoin="round"
+				/>
+			{/if}
+		</svg>
+	{/snippet}
+
+	{#snippet paginationControl()}
+		{#if filteredBookList.length > 0}
+			<nav class="catalog-pagination" aria-label="Story catalog pages">
 				<p>
-					Showing {visibleBookList.length} of {filteredBookList.length}
-					{filteredBookList.length === 1 ? 'story' : 'stories'}.
+					Page {currentPage} of {pageCount}
+					<span aria-hidden="true">/</span>
+					<span class="pagination-range">
+						{pageShowingStart}-{pageEndIndex} of {filteredBookList.length}
+					</span>
 				</p>
-				<button type="button" class="read-book-button load-more-button" onclick={showMoreStories}>
-					Show more stories
-				</button>
-			</div>
+				<div class="page-turn-buttons">
+					<button
+						type="button"
+						class="page-turn-button icon-only"
+						disabled={currentPage === 1}
+						aria-label="Previous page"
+						onclick={() => setCatalogPage(currentPage - 1)}
+					>
+						{@render pageTurnIcon('previous')}
+					</button>
+					{#each paginationPages as pageNumber (pageNumber)}
+						<button
+							type="button"
+							class="page-turn-button page-number"
+							class:active={pageNumber === currentPage}
+							aria-current={pageNumber === currentPage ? 'page' : undefined}
+							onclick={() => setCatalogPage(pageNumber)}
+						>
+							<span class="page-number-label">{pageNumber}</span>
+						</button>
+					{/each}
+					<button
+						type="button"
+						class="page-turn-button icon-only"
+						disabled={currentPage === pageCount}
+						aria-label="Next page"
+						onclick={() => setCatalogPage(currentPage + 1)}
+					>
+						{@render pageTurnIcon('next')}
+					</button>
+				</div>
+			</nav>
 		{/if}
 	{/snippet}
 
 	<div class="container">
-		<header class="bookshelf-header">
-			<div class="logo-container">
-				<div class="logo-glow" aria-hidden="true"></div>
-				<img
-					src={HOME_LOGO.src}
-					srcset={HOME_LOGO.srcset}
-					sizes={HOME_LOGO.sizes}
-					width={HOME_LOGO.width}
-					height={HOME_LOGO.height}
-					alt="Roughdraft Storytime"
-					class="logo"
-					fetchpriority="high"
-					loading="eager"
-					decoding="async"
-				/>
-			</div>
-			<div class="hero-copy">
-				<h1 class="sr-only">{SITE_NAME}</h1>
-				<p class="hero-tagline">
-					Online kids stories for read-aloud time, bedtime, and independent readers, from silly
-					adventures to narrative history.
-				</p>
-			</div>
-		</header>
+		<section class="story-world-stage" aria-label="Featured story world">
+			<div class="story-world-content">
+				<header class="bookshelf-header">
+					<div class="logo-container">
+						<div class="logo-glow" aria-hidden="true"></div>
+						<button
+							type="button"
+							class="logo-button"
+							onclick={cycleHomeTheme}
+							aria-label={`Try another story world. Current theme: ${activeHomeTheme.name}. Use left and right arrow keys to move through themes.`}
+							title="Try another story world (Left/Right arrows)"
+						>
+							<img
+								src={HOME_LOGO.src}
+								srcset={HOME_LOGO.srcset}
+								sizes={HOME_LOGO.sizes}
+								width={HOME_LOGO.width}
+								height={HOME_LOGO.height}
+								alt="Roughdraft Storytime"
+								class="logo"
+								fetchpriority="high"
+								loading="eager"
+								decoding="async"
+								draggable="false"
+							/>
+							<span class="logo-press-tab" aria-hidden="true">press</span>
+						</button>
+						<span class="sr-only" aria-live="polite">Story world: {activeHomeTheme.name}</span>
+					</div>
+					<h1 class="sr-only">{SITE_NAME}</h1>
+				</header>
 
-		{#if featuredBooks.length > 0}
-			<section class="featured-shelf-section" aria-labelledby="featured-shelf-heading">
-				<div class="featured-copy">
-					<h2 id="featured-shelf-heading">Featured Favorites</h2>
-					<svg class="head-doodle" viewBox="0 0 132 12" aria-hidden="true">
-						<path
-							d="M3 8 Q 20 3 37 7 T 70 7 T 102 6 T 129 7"
-							fill="none"
-							stroke="currentColor"
-							stroke-width="3"
-							stroke-linecap="round"
-						/>
-					</svg>
-				</div>
+				{#if featuredBooks.length > 0}
+					<section class="featured-shelf-section" aria-labelledby="featured-shelf-heading">
+						<div class="featured-copy">
+							<h2 id="featured-shelf-heading">Featured Favorites</h2>
+							<svg class="head-doodle" viewBox="0 0 132 12" aria-hidden="true">
+								<path
+									d="M3 8 Q 20 3 37 7 T 70 7 T 102 6 T 129 7"
+									fill="none"
+									stroke="currentColor"
+									stroke-width="3"
+									stroke-linecap="round"
+								/>
+							</svg>
+						</div>
 
-				{#each featuredBookShelves as featuredShelf, shelfIndex (shelfIndex)}
-					<div class="shelf-row featured-shelf-row">
-						<div class="shelf-back-glow" aria-hidden="true"></div>
+						{#each featuredBookShelves as featuredShelf, shelfIndex (shelfIndex)}
+							<div class="shelf-row featured-shelf-row">
+								<div class="shelf-back-glow" aria-hidden="true"></div>
 
-						{@render woodenShelf()}
+								{@render woodenShelf()}
 
-						<div class="shelf-books covers-mode featured-shelf-books">
-							{#each featuredShelf as book (book.id)}
-								{@render coverBook(book, 'featured-book-card')}
-							{/each}
+								<div class="shelf-books covers-mode featured-shelf-books">
+									{#each featuredShelf as book (book.id)}
+										{@render coverBook(book, 'featured-book-card')}
+									{/each}
+								</div>
+							</div>
+						{/each}
+					</section>
+				{/if}
+
+				<section class="bookshelf-controls" aria-label="Story filters">
+					<div class="filter-chips" role="group" aria-label="Filter stories by shelf">
+						{#each availableFilters as filter (filter.id)}
+							<button
+								type="button"
+								class="filter-chip"
+								class:active={activeFilter === filter.id}
+								aria-pressed={activeFilter === filter.id}
+								title={filter.description}
+								onclick={() => (activeFilter = filter.id)}
+							>
+								<span class="chip-emoji" aria-hidden="true">{FILTER_EMOJI[filter.id] ?? '✨'}</span>
+								<span>{filter.label}</span>
+								<span class="chip-count">{filter.count}</span>
+							</button>
+						{/each}
+					</div>
+
+					<div class="control-search-row">
+						<div class="search-box">
+							<svg class="search-icon" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+								<circle cx="8.5" cy="8.5" r="5.75" stroke="currentColor" stroke-width="2" />
+								<path
+									d="M13 13l4.5 4.5"
+									stroke="currentColor"
+									stroke-width="2"
+									stroke-linecap="round"
+								/>
+							</svg>
+							<input
+								id="story-search"
+								class="control-input"
+								type="search"
+								bind:value={searchQuery}
+								placeholder="Search for a story, a place, a squirrel…"
+								aria-label="Search titles, genres, tags, and descriptions"
+								autocomplete="off"
+							/>
 						</div>
 					</div>
-				{/each}
-			</section>
-		{/if}
-
-		<section class="bookshelf-controls" aria-label="Story filters">
-			<div class="filter-chips" role="group" aria-label="Filter stories by shelf">
-				{#each availableFilters as filter (filter.id)}
-					<button
-						type="button"
-						class="filter-chip"
-						class:active={activeFilter === filter.id}
-						aria-pressed={activeFilter === filter.id}
-						title={filter.description}
-						onclick={() => (activeFilter = filter.id)}
-					>
-						<span class="chip-emoji" aria-hidden="true">{FILTER_EMOJI[filter.id] ?? '✨'}</span>
-						<span>{filter.label}</span>
-						<span class="chip-count">{filter.count}</span>
-					</button>
-				{/each}
-			</div>
-
-			<div class="control-search-row">
-				<div class="search-box">
-					<svg class="search-icon" viewBox="0 0 20 20" fill="none" aria-hidden="true">
-						<circle cx="8.5" cy="8.5" r="5.75" stroke="currentColor" stroke-width="2" />
-						<path
-							d="M13 13l4.5 4.5"
-							stroke="currentColor"
-							stroke-width="2"
-							stroke-linecap="round"
-						/>
-					</svg>
-					<input
-						id="story-search"
-						class="control-input"
-						type="search"
-						bind:value={searchQuery}
-						placeholder="Search for a story, a place, a squirrel…"
-						aria-label="Search titles, genres, tags, and descriptions"
-						autocomplete="off"
-					/>
-				</div>
-
-				<div class="view-toggle" role="tablist" aria-label="Choose story view">
-					<button
-						type="button"
-						class:active={displayMode === 'table'}
-						class="view-toggle-button"
-						role="tab"
-						aria-selected={displayMode === 'table'}
-						aria-controls="story-table-view"
-						onclick={() => setDisplayMode('table')}
-					>
-						<svg class="view-icon" viewBox="0 0 16 16" aria-hidden="true">
-							<path
-								d="M2.5 3.5h11M2.5 8h11M2.5 12.5h7"
-								stroke="currentColor"
-								stroke-width="2"
-								stroke-linecap="round"
-								fill="none"
-							/>
-						</svg>
-						List
-					</button>
-					<button
-						type="button"
-						class:active={displayMode === 'covers'}
-						class="view-toggle-button"
-						role="tab"
-						aria-selected={displayMode === 'covers'}
-						aria-controls="story-cover-view"
-						onclick={() => setDisplayMode('covers')}
-					>
-						<svg class="view-icon" viewBox="0 0 16 16" aria-hidden="true">
-							<rect
-								x="3"
-								y="2"
-								width="10"
-								height="12"
-								rx="1.6"
-								stroke="currentColor"
-								stroke-width="2"
-								fill="none"
-							/>
-							<path d="M5.9 2.4v11.2" stroke="currentColor" stroke-width="1.6" fill="none" />
-						</svg>
-						Covers
-					</button>
-					<button
-						type="button"
-						class:active={displayMode === 'spines'}
-						class="view-toggle-button"
-						role="tab"
-						aria-selected={displayMode === 'spines'}
-						aria-controls="story-spine-view"
-						onclick={() => setDisplayMode('spines')}
-					>
-						<svg class="view-icon" viewBox="0 0 16 16" aria-hidden="true">
-							<path
-								d="M3.5 2.5v11M8 2.5v11M12.5 4.5v9"
-								stroke="currentColor"
-								stroke-width="2.2"
-								stroke-linecap="round"
-								fill="none"
-							/>
-						</svg>
-						Spines
-					</button>
-				</div>
+				</section>
 			</div>
 		</section>
 
-		{#if displayMode === 'table'}
-			<section class="story-table-shell" id="story-table-view" aria-label="Story list view">
-				<div class="ledger-paper">
-					<div class="story-table-header">
-						<div>
-							<h2>Browse the catalog</h2>
-							<p>
-								Showing {visibleBookList.length} of {filteredBookList.length}
-								{filteredBookList.length === 1 ? 'story' : 'stories'}.
-							</p>
-						</div>
-						<div class="catalog-stamp" aria-hidden="true">
-							<span class="stamp-count">{filteredBookList.length}</span>
-							<span class="stamp-label">{filteredBookList.length === 1 ? 'story' : 'stories'}</span>
-						</div>
+		<section
+			class="story-table-shell catalog-page"
+			id="story-table-view"
+			data-catalog-page
+			aria-label="Story list view"
+		>
+			<div class="ledger-paper">
+				<div class="story-table-header">
+					<div>
+						<h2>Browse the catalog</h2>
+						<p>
+							Showing {pageShowingStart}-{pageEndIndex} of {filteredBookList.length}
+							{filteredBookList.length === 1 ? 'story' : 'stories'}.
+						</p>
 					</div>
-
-					<div class="story-table-scroll">
-						<table class="story-table">
-							<thead>
-								<tr>
-									<th scope="col">Story</th>
-									<th scope="col">Shelf</th>
-									<th scope="col" class="table-action-heading">Open</th>
-								</tr>
-							</thead>
-							<tbody>
-								{#each visibleBookList as book (book.id)}
-									<tr>
-										<td>
-											<div class="story-cell">
-												<div
-													class="story-cover-preview"
-													style={`--cover-color: ${book.leatherColor};`}
-												>
-													<div class="story-mini-book">
-														<div class="story-mini-cover">
-															{#if book.coverImage}
-																{@const coverImageProps = getCoverImageProps(book)}
-																<img
-																	src={coverImageProps?.src ?? book.coverImage}
-																	srcset={coverImageProps?.srcset}
-																	sizes="44px"
-																	alt=""
-																	class="story-cover-image"
-																	width="44"
-																	height="58"
-																	loading="lazy"
-																	decoding="async"
-																/>
-															{:else}
-																<div class="story-cover-fallback">
-																	<span aria-hidden="true">{book.emoji}</span>
-																</div>
-															{/if}
-														</div>
-														<div class="story-mini-pages" aria-hidden="true"></div>
-														<div class="story-mini-spine" aria-hidden="true"></div>
-													</div>
-												</div>
-												<div class="story-meta">
-													<div class="story-title-line">
-														{book.title}
-													</div>
-													<div class="story-subline">{getTableDescription(book)}</div>
-												</div>
-											</div>
-										</td>
-										<td>
-											<div class="table-book-details">
-												<div class="series-chip" style={`--chip-color: ${book.leatherColor};`}>
-													{book.seriesTitle}
-												</div>
-												<div class="genre-copy">{book.genre}</div>
-												<div class="tag-list" aria-label={`Tags for ${book.title}`}>
-													{#each getTagPreview(book) as tag (tag)}
-														<span class="tag-pill">{tag}</span>
-													{/each}
-												</div>
-											</div>
-										</td>
-										<td class="table-action-cell">
-											<a class="read-book-button" href={getBookHref(book)}>
-												Read book
-												<svg class="button-arrow" viewBox="0 0 14 14" aria-hidden="true">
-													<path
-														d="M2.5 7h8m0 0L7 3.5M10.5 7 7 10.5"
-														stroke="currentColor"
-														stroke-width="2"
-														stroke-linecap="round"
-														stroke-linejoin="round"
-														fill="none"
-													/>
-												</svg>
-											</a>
-										</td>
-									</tr>
-								{/each}
-							</tbody>
-						</table>
-					</div>
-
-					{#if filteredBookList.length === 0}
-						{@render emptyShelf()}
-					{/if}
 				</div>
-			</section>
-		{:else if displayMode === 'covers'}
-			<section class="bookshelf-container" id="story-cover-view" aria-label="Story cover view">
-				{#each mainBookShelves as shelfBooks, shelfIndex (shelfIndex)}
-					<div class="shelf-row">
-						<div class="shelf-back-glow" aria-hidden="true"></div>
 
-						{@render woodenShelf()}
-
-						<div class="shelf-books covers-mode">
-							{#each shelfBooks as book (book.id)}
-								{@render coverBook(book, '')}
-							{/each}
-						</div>
-					</div>
-				{/each}
-
-				{#if filteredBookList.length === 0}
-					{@render emptyShelf()}
-				{/if}
-			</section>
-		{:else}
-			<!-- Bookshelf with spines -->
-			<div class="bookshelf-container" id="story-spine-view">
-				{#each mainBookShelves as shelfBooks, shelfIndex (shelfIndex)}
-					<div class="shelf-row">
-						<div class="shelf-back-glow" aria-hidden="true"></div>
-
-						{@render woodenShelf()}
-
-						<div class="shelf-books spines-mode">
-							{#each shelfBooks as book (book.id)}
-								<div class="book-item">
-									{#if hoveredBook === book.id}
-										<div
-											class:below={hoveredBookPopupPlacement === 'below'}
-											class="book-info-popup"
-										>
-											<div class="popup-content">
-												<h4>{book.title}</h4>
-												<p class="popup-description">{book.description?.slice(0, 100)}...</p>
-											</div>
-											<div class="popup-arrow"></div>
-										</div>
-									{/if}
-
-									<a
-										href={getBookHref(book)}
-										class="book-card spines"
-										style="--book-color: {book.leatherColor}; --book-width: {getSpineWidth(
-											book
-										)}px; --book-height: {getDisplayHeight(book)}px; --book-depth: {getDisplayWidth(
-											book
-										)}px; --book-lean: {getSpineTilt(
-											book
-										)}deg; --spine-font-size: {getSpineFontSize(
-											book
-										)}rem; --spine-letter-spacing: {getSpineLetterSpacing(book)}px;"
-										onkeydown={(e) => handleKeyDown(e, book)}
-										onmouseenter={(event) => updateHoveredBook(book, event)}
-										onmouseleave={clearHoveredBook}
-										aria-label="Select {book.title}"
-									>
-										<div class="book-3d-wrapper">
+				<div class="story-table-scroll">
+					<table class="story-table">
+						<thead>
+							<tr>
+								<th scope="col">Story</th>
+								<th scope="col">Shelf</th>
+								<th scope="col" class="table-action-heading">Open</th>
+							</tr>
+						</thead>
+						<tbody>
+							{#each visibleBookList as book (book.id)}
+								<tr
+									class="story-row-link"
+									role="link"
+									tabindex="0"
+									aria-label={`Read ${book.title}`}
+									onclick={() => selectBook(book)}
+									onkeydown={(event) => handleKeyDown(event, book)}
+								>
+									<td>
+										<div class="story-cell">
 											<div
-												class="spine-front-view"
-												style="background-color: var(--book-color); --band-offset: {book.bandOffset}%;"
+												class="story-cover-preview"
+												style={`--cover-color: ${book.leatherColor};`}
 											>
-												<div class="spine-title-container">
-													<span class="spine-title-text">{getSpineTitle(book)}</span>
+												<div class="story-mini-book">
+													<div class="story-mini-cover">
+														{#if book.coverImage}
+															{@const coverImageProps = getCoverImageProps(book)}
+															<img
+																src={coverImageProps?.src ?? book.coverImage}
+																srcset={coverImageProps?.srcset}
+																sizes="62px"
+																alt=""
+																class="story-cover-image"
+																width="62"
+																height="82"
+																loading="lazy"
+																decoding="async"
+															/>
+														{:else}
+															<div class="story-cover-fallback">
+																<span aria-hidden="true">{book.emoji}</span>
+															</div>
+														{/if}
+													</div>
+													<div class="story-mini-pages" aria-hidden="true"></div>
+													<div class="story-mini-spine" aria-hidden="true"></div>
 												</div>
-												<span class="spine-emoji" aria-hidden="true">{book.emoji}</span>
-												{#if book.accentMetal !== 'none'}
-													{#if book.bandStyle === 'double'}
-														<div class="spine-accents top {book.accentMetal}"></div>
-														<div class="spine-accents bottom {book.accentMetal}"></div>
-													{:else if book.bandStyle === 'single-top'}
-														<div class="spine-accents top {book.accentMetal}"></div>
-													{:else if book.bandStyle === 'triple'}
-														<div class="spine-accents top {book.accentMetal}"></div>
-														<div class="spine-accents mid {book.accentMetal}"></div>
-														<div class="spine-accents bottom {book.accentMetal}"></div>
-													{/if}
-												{/if}
 											</div>
-											<div class="book-cover-side-view">
-												<div class="cover-texture"></div>
+											<div class="story-meta">
+												<div class="story-title-line">
+													{book.title}
+												</div>
+												<div class="story-subline">{getTableDescription(book)}</div>
+												<a
+													class="row-open-link story-mobile-read-link"
+													href={getBookHref(book)}
+													onclick={(event) => event.stopPropagation()}
+												>
+													Read book
+													<svg class="button-arrow" viewBox="0 0 14 14" aria-hidden="true">
+														<path
+															d="M2.5 7h8m0 0L7 3.5M10.5 7 7 10.5"
+															stroke="currentColor"
+															stroke-width="2"
+															stroke-linecap="round"
+															stroke-linejoin="round"
+															fill="none"
+														/>
+													</svg>
+												</a>
 											</div>
-											<div class="book-pages-top" aria-hidden="true"></div>
-											<div class="book-pages-bottom" aria-hidden="true"></div>
-											<div class="book-pages-right-view" aria-hidden="true"></div>
 										</div>
-									</a>
-								</div>
+									</td>
+									<td>
+										<div class="table-book-details">
+											<div class="series-chip" style={`--chip-color: ${book.leatherColor};`}>
+												{book.seriesTitle}
+											</div>
+											<div class="genre-copy">{book.genre}</div>
+											<div class="tag-list" aria-label={`Tags for ${book.title}`}>
+												{#each getTagPreview(book) as tag (tag)}
+													<span class="tag-pill">{tag}</span>
+												{/each}
+											</div>
+										</div>
+									</td>
+									<td class="table-action-cell">
+										<a
+											class="row-open-link"
+											href={getBookHref(book)}
+											onclick={(event) => event.stopPropagation()}
+										>
+											<span class="row-open-label row-open-label-short">Read</span>
+											<span class="row-open-label row-open-label-mobile">Read book</span>
+											<svg class="button-arrow" viewBox="0 0 14 14" aria-hidden="true">
+												<path
+													d="M2.5 7h8m0 0L7 3.5M10.5 7 7 10.5"
+													stroke="currentColor"
+													stroke-width="2"
+													stroke-linecap="round"
+													stroke-linejoin="round"
+													fill="none"
+												/>
+											</svg>
+										</a>
+									</td>
+								</tr>
 							{/each}
-						</div>
-					</div>
-				{/each}
+						</tbody>
+					</table>
+				</div>
 
 				{#if filteredBookList.length === 0}
 					{@render emptyShelf()}
 				{/if}
 			</div>
-		{/if}
-
-		{@render loadMoreControl()}
-
-		<footer class="the-end">
-			<div class="end-ornament" aria-hidden="true">
-				<span class="end-rule"></span>
-				<span class="end-moon">🌙</span>
-				<span class="end-rule"></span>
-			</div>
-			<p>The end of the shelf — new stories are always on the way.</p>
-		</footer>
+			{@render paginationControl()}
+		</section>
 	</div>
 </div>
 
@@ -941,6 +1189,8 @@
 		--font-display: 'Caprasimo', 'Baloo 2', 'Lora', Georgia, serif;
 		--font-round: 'Baloo 2', 'Trebuchet MS', system-ui, sans-serif;
 		--font-book: 'Lora', Georgia, serif;
+		--font-hand: 'Patrick Hand SC', 'Mynerve', 'Caveat', var(--font-round);
+		--font-notebook: 'Caveat', 'Nothing You Could Do', 'Patrick Hand', cursive;
 
 		--cream: #fff8ea;
 		--cream-soft: rgba(70, 58, 41, 0.74);
@@ -950,30 +1200,54 @@
 		--honey-400: #f7ad45;
 		--honey-600: #b87a1c;
 		--honey-ink: #5b3408;
-		--paper: #fffaf0;
+		--paper: #fffefe;
 		--ink: #352b1f;
 		--ink-soft: #6c5a43;
 		--ink-faint: rgba(85, 69, 48, 0.56);
-		--rule: rgba(116, 97, 68, 0.26);
+		--rule: rgba(75, 137, 197, 0.24);
+		--rule-strong: rgba(54, 126, 196, 0.58);
 		--margin-red: rgba(208, 100, 84, 0.55);
+		--home-theme-image: url('/home-themes/map-world.webp');
+		--home-theme-backdrop: #f4dfad;
+		--home-theme-position-desktop: center top;
+		--home-theme-position-mobile: 50% top;
+		--home-theme-center-wash: rgba(255, 249, 232, 0.64);
+		--home-theme-edge-wash: rgba(76, 56, 28, 0.07);
+		--home-theme-top-wash: rgba(255, 247, 219, 0.2);
+		--home-theme-bottom-wash: rgba(65, 47, 23, 0.1);
+		--home-theme-ink: #324f61;
+		--home-theme-heading: #332a20;
+		--home-theme-accent: #b47c26;
+		--stage-art-ratio: 1.6;
+		--story-stage-art-height: clamp(48rem, 66vw, 60rem);
 
 		font-family: var(--font-round);
 		--book-scale: 1;
 		min-height: 100vh;
 		background:
-			linear-gradient(rgba(84, 72, 52, 0.055) 1px, transparent 1px),
-			linear-gradient(90deg, rgba(84, 72, 52, 0.055) 1px, transparent 1px),
-			url('/optimized/paper-texture.webp'),
-			linear-gradient(180deg, #fdfbf5 0%, #f6f0e4 58%, #efe5d6 100%) #f7f1e7;
+			linear-gradient(180deg, rgba(255, 255, 255, 0.2), rgba(255, 250, 239, 0.55)),
+			url('/optimized/paper-texture.webp'), #fffaf0;
 		background-size:
-			1.35rem 4.2rem,
-			1.35rem 4.2rem,
+			auto,
 			360px 360px,
 			auto;
-		background-attachment: local;
+		background-blend-mode: normal, multiply, normal;
 		position: relative;
+		isolation: isolate;
 		overflow-x: hidden;
 		transition: filter 0.3s ease-out;
+	}
+
+	.bookshelf-room::before {
+		content: '';
+		position: absolute;
+		inset: 0;
+		z-index: 0;
+		background:
+			radial-gradient(ellipse at 12% 10%, rgba(88, 144, 165, 0.08), transparent 30rem),
+			radial-gradient(ellipse at 88% 18%, rgba(226, 175, 82, 0.1), transparent 32rem),
+			radial-gradient(ellipse at 20% 80%, rgba(82, 132, 100, 0.07), transparent 34rem);
+		pointer-events: none;
 	}
 
 	:global(.light) .bookshelf-room {
@@ -988,27 +1262,179 @@
 		width: 100%;
 		max-width: 1380px;
 		margin: 0 auto;
-		padding: 1.6rem 1.5rem 4rem;
+		padding: 0 1.5rem 3rem;
+	}
+
+	.story-world-stage {
+		position: relative;
+		width: 100vw;
+		margin-left: calc(50% - 50vw);
+		margin-right: calc(50% - 50vw);
+		margin-bottom: 0;
+		padding: clamp(1.1rem, 2.1vw, 1.9rem) 1.5rem clamp(3.55rem, 5vw, 5.15rem);
+		overflow: hidden;
+		background: var(--home-theme-backdrop);
+		box-shadow:
+			inset 0 -1px 0 rgba(91, 66, 38, 0.16),
+			0 1.1rem 2rem rgba(97, 69, 36, 0.07);
+	}
+
+	.story-world-stage::before,
+	.story-world-stage::after {
+		content: '';
+		position: absolute;
+		inset: 0;
+		pointer-events: none;
+	}
+
+	.story-world-stage::before {
+		z-index: 0;
+		background-image: var(--home-theme-image);
+		background-position: var(--home-theme-position-desktop);
+		background-repeat: no-repeat;
+		background-size: max(100vw, calc(var(--story-stage-art-height) * var(--stage-art-ratio))) auto;
+	}
+
+	.bookshelf-room[data-home-theme='paper-stage'] .story-world-stage::before {
+		background:
+			radial-gradient(ellipse at 16% 8%, rgba(88, 144, 165, 0.08), transparent 34rem),
+			radial-gradient(ellipse at 86% 16%, rgba(226, 175, 82, 0.11), transparent 32rem),
+			radial-gradient(ellipse at 22% 76%, rgba(82, 132, 100, 0.08), transparent 34rem),
+			linear-gradient(180deg, #fffefe 0%, #fff8ed 48%, #fffefe 100%),
+			url('/optimized/paper-texture.webp');
+		background-size:
+			auto,
+			auto,
+			auto,
+			auto,
+			360px 360px;
+		background-blend-mode: normal, normal, normal, normal, multiply;
+	}
+
+	.story-world-stage::after {
+		z-index: 1;
+		background:
+			radial-gradient(
+				ellipse at 50% 17rem,
+				var(--home-theme-center-wash) 0%,
+				var(--home-theme-center-wash) 20%,
+				transparent 62%
+			),
+			radial-gradient(ellipse at 50% 56rem, rgba(255, 252, 244, 0.24) 0%, transparent 58%),
+			linear-gradient(
+				90deg,
+				var(--home-theme-edge-wash) 0%,
+				transparent 16%,
+				transparent 84%,
+				var(--home-theme-edge-wash) 100%
+			);
+	}
+
+	.story-world-content {
+		position: relative;
+		z-index: 2;
+		width: 100%;
+		max-width: 1380px;
+		margin: 0 auto;
 	}
 
 	/* ============ Hero ============ */
 
 	.bookshelf-header {
 		text-align: center;
-		margin-bottom: 2.15rem;
+		margin-bottom: clamp(0.3rem, 1.2vw, 0.85rem);
 		position: relative;
 		z-index: 10;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		gap: 1.05rem;
+		gap: 0;
 	}
 
 	.logo-container {
 		position: relative;
-		width: min(520px, 92vw);
+		width: min(470px, 88vw);
 		margin: 0 auto;
 		overflow: visible;
+	}
+
+	.logo-button {
+		position: relative;
+		z-index: 1;
+		display: block;
+		width: 100%;
+		padding: 0;
+		border: 0;
+		background: transparent;
+		cursor: pointer;
+		-webkit-tap-highlight-color: transparent;
+	}
+
+	.logo-button:focus-visible {
+		outline: 3px solid color-mix(in srgb, var(--home-theme-accent), white 22%);
+		outline-offset: 0.3rem;
+		border-radius: 2.5rem;
+	}
+
+	.logo-button:hover .logo {
+		transform: translateY(-2px) rotate(-0.3deg);
+		filter: drop-shadow(0 18px 28px rgba(82, 57, 25, 0.22))
+			drop-shadow(0 0 16px rgba(255, 205, 106, 0.24));
+	}
+
+	.logo-button:active .logo {
+		transform: translateY(1px) scale(0.985);
+	}
+
+	.logo-press-tab {
+		position: absolute;
+		right: 3.5%;
+		bottom: 18%;
+		z-index: 3;
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		min-width: 3.25rem;
+		height: 1.72rem;
+		padding: 0 0.58rem;
+		border-radius: 0.28rem 0.2rem 0.34rem 0.2rem;
+		border: 1px solid rgba(67, 36, 13, 0.34);
+		background:
+			linear-gradient(
+				90deg,
+				rgba(255, 223, 145, 0.24),
+				transparent 22%,
+				transparent 78%,
+				rgba(58, 29, 10, 0.18)
+			),
+			linear-gradient(180deg, rgba(151, 86, 31, 0.98), rgba(91, 49, 19, 0.98)),
+			url('/optimized/shelf-wood-texture.webp');
+		background-size:
+			auto,
+			auto,
+			180px 90px;
+		background-blend-mode: soft-light, multiply, normal;
+		color: #fff0bf;
+		font-family: var(--font-hand);
+		font-size: clamp(0.86rem, 1.5vw, 1.02rem);
+		font-weight: 700;
+		line-height: 1;
+		text-transform: uppercase;
+		box-shadow:
+			inset 0 1px 0 rgba(255, 232, 176, 0.32),
+			inset 0 -1px 0 rgba(44, 22, 8, 0.28),
+			0 0.22rem 0 rgba(58, 29, 10, 0.28),
+			0 0.7rem 1.2rem rgba(72, 45, 16, 0.22);
+		text-shadow: 0 1px 0 rgba(45, 21, 6, 0.52);
+		transform: rotate(-7deg);
+		transition:
+			transform 0.2s ease,
+			filter 0.2s ease;
+	}
+
+	.logo-button:hover .logo-press-tab {
+		filter: saturate(1.06);
+		transform: rotate(-4deg) translateY(-2px);
 	}
 
 	.logo-glow {
@@ -1046,65 +1472,36 @@
 		display: block;
 		aspect-ratio: 3 / 2;
 		filter: drop-shadow(0 16px 24px rgba(82, 57, 25, 0.18));
-	}
-
-	.hero-copy {
-		max-width: 44rem;
-		text-align: center;
-	}
-
-	.hero-tagline {
-		margin: 0 auto;
-		max-width: 40rem;
-		font-family: var(--font-book);
-		font-style: italic;
-		font-size: clamp(1.08rem, 1.6vw, 1.32rem);
-		line-height: 1.75;
-		color: var(--ink-soft);
-		text-wrap: pretty;
-	}
-
-	.hero-tagline::before,
-	.hero-tagline::after {
-		content: '✦';
-		font-style: normal;
-		font-size: 0.72em;
-		color: rgba(178, 120, 36, 0.65);
-		vertical-align: 0.18em;
-	}
-
-	.hero-tagline::before {
-		margin-right: 0.75rem;
-	}
-
-	.hero-tagline::after {
-		margin-left: 0.75rem;
+		transition:
+			transform 0.22s ease,
+			filter 0.22s ease;
+		user-select: none;
 	}
 
 	/* ============ Featured shelf ============ */
 
 	.featured-shelf-section {
-		margin: 0 auto 3rem;
+		margin: 0 auto clamp(0.7rem, 2vw, 1.35rem);
 		max-width: 1240px;
 	}
 
 	.featured-copy {
-		margin-bottom: 1.1rem;
+		margin-bottom: 0.25rem;
 		padding: 0 0.75rem;
 		display: flex;
 		flex-direction: column;
-		align-items: flex-start;
-		gap: 0.25rem;
+		align-items: center;
+		gap: 0.14rem;
+		text-align: center;
 	}
 
 	.featured-copy h2 {
 		margin: 0;
-		font-family: var(--font-display);
+		font-family: var(--font-hand);
 		font-weight: 400;
-		font-size: clamp(1.6rem, 2.7vw, 2.2rem);
+		font-size: clamp(2rem, 3.1vw, 2.7rem);
 		line-height: 1.08;
-		letter-spacing: 0.01em;
-		color: var(--ink);
+		color: var(--home-theme-heading);
 		text-shadow: 0 1px 0 rgba(255, 255, 255, 0.75);
 		text-wrap: balance;
 	}
@@ -1112,9 +1509,8 @@
 	.head-doodle {
 		width: 8.75rem;
 		height: 0.8rem;
-		color: rgba(184, 122, 28, 0.68);
+		color: color-mix(in srgb, var(--home-theme-accent), #2d86c8 40%);
 		opacity: 1;
-		margin-left: 0.15rem;
 	}
 
 	/* ============ Controls: chips, search, view toggle ============ */
@@ -1125,7 +1521,7 @@
 		gap: 0.9rem;
 		width: 100%;
 		max-width: 1240px;
-		margin: 0 auto 2.4rem;
+		margin: 0 auto;
 		padding: 0 0.75rem;
 	}
 
@@ -1198,7 +1594,7 @@
 
 	.control-search-row {
 		display: grid;
-		grid-template-columns: minmax(0, 1fr) auto;
+		grid-template-columns: minmax(0, 1fr);
 		gap: 0.9rem;
 		align-items: center;
 	}
@@ -1252,172 +1648,190 @@
 		box-shadow: 0 0 0 4px rgba(247, 173, 69, 0.16);
 	}
 
-	.view-toggle {
-		display: inline-grid;
-		grid-template-columns: repeat(3, minmax(0, 1fr));
-		gap: 0.18rem;
-		padding: 0.26rem;
-		border: 1.5px solid rgba(84, 72, 52, 0.12);
-		border-radius: 999px;
-		background: rgba(255, 255, 255, 0.62);
-		backdrop-filter: blur(14px);
+	/* ============ Notebook catalog page ============ */
+
+	.catalog-page {
+		--paper-hole-center: 1.85rem;
+		--paper-hole-top: 9.65rem;
+		--paper-hole-radius: 0.72rem;
+		--paper-hole-rim: 0.86rem;
+		--paper-hole-outer: 0.92rem;
+		--paper-content-top: 2.35rem;
+		--paper-first-rule: calc(var(--notebook-line) * 3);
+		--paper-margin: 4.35rem;
+		--notebook-line: 2.72rem;
+		--rule-width: 0.055rem;
+		--top-rule-width: 0.12rem;
+		--catalog-table-body-height: calc(var(--notebook-line) * 24);
+		--catalog-ledger-extra-space: calc(var(--notebook-line) * 1.1);
+		--catalog-ledger-min-height: calc(
+			(var(--paper-first-rule) - var(--paper-content-top)) + var(--notebook-line) +
+				var(--catalog-table-body-height) + var(--catalog-ledger-extra-space)
+		);
+		position: relative;
+		z-index: 2;
+		width: min(72rem, calc(100vw - 2.5rem));
+		max-width: 72rem;
+		margin: clamp(-4.25rem, -4vw, -2.5rem) auto 0;
+		padding: var(--paper-content-top) 2.1rem 1.65rem 5.35rem;
+		border-radius: 0.16rem 0.62rem 0.54rem 0.18rem;
+		border: 1px solid rgba(77, 98, 116, 0.12);
+		min-height: clamp(42rem, 77vw, 55.6rem);
+		background:
+			radial-gradient(
+				circle at var(--paper-hole-center) var(--paper-hole-top),
+				rgba(242, 237, 226, 0.96) 0 var(--paper-hole-radius),
+				rgba(85, 103, 118, 0.28) calc(var(--paper-hole-radius) + 0.03rem),
+				rgba(85, 103, 118, 0.28) var(--paper-hole-rim),
+				transparent var(--paper-hole-outer)
+			),
+			radial-gradient(
+				circle at var(--paper-hole-center) 50%,
+				rgba(242, 237, 226, 0.96) 0 var(--paper-hole-radius),
+				rgba(85, 103, 118, 0.28) calc(var(--paper-hole-radius) + 0.03rem),
+				rgba(85, 103, 118, 0.28) var(--paper-hole-rim),
+				transparent var(--paper-hole-outer)
+			),
+			radial-gradient(
+				circle at var(--paper-hole-center) calc(100% - var(--paper-hole-top)),
+				rgba(242, 237, 226, 0.96) 0 var(--paper-hole-radius),
+				rgba(85, 103, 118, 0.28) calc(var(--paper-hole-radius) + 0.03rem),
+				rgba(85, 103, 118, 0.28) var(--paper-hole-rim),
+				transparent var(--paper-hole-outer)
+			),
+			linear-gradient(
+				90deg,
+				transparent 0,
+				transparent var(--paper-margin),
+				var(--margin-red) var(--paper-margin),
+				var(--margin-red) calc(var(--paper-margin) + 0.07rem),
+				transparent calc(var(--paper-margin) + 0.07rem)
+			),
+			linear-gradient(
+				180deg,
+				transparent 0,
+				transparent calc(var(--paper-first-rule) - var(--top-rule-width)),
+				var(--rule-strong) calc(var(--paper-first-rule) - var(--top-rule-width)),
+				var(--rule-strong) var(--paper-first-rule),
+				transparent var(--paper-first-rule)
+			),
+			linear-gradient(
+				180deg,
+				#fff 0,
+				#fff calc(var(--paper-first-rule) - var(--top-rule-width)),
+				transparent calc(var(--paper-first-rule) - var(--top-rule-width))
+			),
+			repeating-linear-gradient(
+				180deg,
+				#fff 0,
+				#fff calc(var(--notebook-line) - var(--rule-width)),
+				var(--rule) calc(var(--notebook-line) - var(--rule-width)),
+				var(--rule) var(--notebook-line)
+			),
+			url('/optimized/paper-texture.webp'), #fff;
+		background-size:
+			auto,
+			auto,
+			auto,
+			auto,
+			auto,
+			auto,
+			auto,
+			360px 360px,
+			auto;
+		background-position:
+			0 0,
+			0 0,
+			0 0,
+			0 0,
+			0 0,
+			0 0,
+			0 0,
+			0 0,
+			0 0;
+		background-blend-mode: normal, normal, normal, normal, normal, normal, normal, multiply, normal;
 		box-shadow:
-			inset 0 1px 0 rgba(255, 255, 255, 0.82),
-			0 0.8rem 1.8rem rgba(75, 59, 34, 0.08);
+			inset 0.28rem 0 0 rgba(210, 218, 226, 0.12),
+			0 0.15rem 0 rgba(54, 77, 99, 0.08),
+			0 1.35rem 3rem rgba(60, 70, 82, 0.15);
 	}
 
-	.view-toggle-button {
-		display: inline-flex;
-		align-items: center;
-		justify-content: center;
-		gap: 0.42rem;
-		min-width: 6.1rem;
-		height: 2.5rem;
-		padding: 0 0.95rem;
-		border: none;
-		border-radius: 999px;
-		background: transparent;
-		color: var(--ink-soft);
-		font-family: var(--font-round);
-		font-size: 0.92rem;
-		font-weight: 700;
-		cursor: pointer;
-		transition:
-			background 0.2s ease,
-			color 0.2s ease,
-			box-shadow 0.2s ease;
+	.catalog-page::before {
+		content: '';
+		position: absolute;
+		inset: 0;
+		border-radius: inherit;
+		background:
+			linear-gradient(90deg, rgba(255, 255, 255, 0.78), transparent 18%),
+			radial-gradient(90% 38% at 50% 0%, rgba(255, 255, 255, 0.74), transparent 72%);
+		pointer-events: none;
 	}
 
-	.view-icon {
-		width: 0.95rem;
-		height: 0.95rem;
-	}
-
-	.view-toggle-button:hover {
-		color: var(--ink);
-	}
-
-	.view-toggle-button.active {
-		background: linear-gradient(180deg, #ffe2a3, #ffc45f);
-		color: var(--honey-ink);
-		box-shadow:
-			inset 0 1px 0 rgba(255, 255, 255, 0.5),
-			0 2px 0 rgba(156, 100, 24, 0.42),
-			0 0.4rem 0.9rem rgba(131, 83, 20, 0.15);
+	.catalog-page > * {
+		position: relative;
+		z-index: 1;
 	}
 
 	/* ============ Catalog ledger (table view) ============ */
 
 	.story-table-shell {
 		width: 100%;
-		max-width: 1240px;
-		margin: 0 auto;
-		padding: 0.5rem 0.75rem 0;
+	}
+
+	.story-table-shell.catalog-page {
+		width: min(72rem, calc(100vw - 2.5rem));
+		max-width: 72rem;
+		margin: clamp(-4.25rem, -4vw, -2.5rem) auto 0;
+		padding: var(--paper-content-top) 2.1rem 1.65rem 5.35rem;
 	}
 
 	.ledger-paper {
 		position: relative;
-		border-radius: 0.9rem;
-		border: 1px solid rgba(84, 72, 52, 0.14);
-		background:
-			linear-gradient(rgba(116, 97, 68, 0.055) 1px, transparent 1px),
-			linear-gradient(90deg, rgba(116, 97, 68, 0.04) 1px, transparent 1px),
-			radial-gradient(120% 55% at 50% 0%, rgba(255, 255, 255, 0.72), transparent 60%),
-			linear-gradient(180deg, rgba(255, 255, 255, 0.86), rgba(255, 250, 240, 0.78));
-		background-size:
-			2.8rem 2.8rem,
-			2.8rem 2.8rem,
-			auto,
-			auto;
-		box-shadow:
-			inset 0 1px 0 rgba(255, 255, 255, 0.88),
-			0 0.5rem 1.2rem rgba(75, 59, 34, 0.08),
-			0 2rem 3.2rem rgba(75, 59, 34, 0.1);
-		padding: 1.9rem 0 1.1rem;
-		overflow: hidden;
+		z-index: 1;
+		min-height: var(--catalog-ledger-min-height);
 	}
 
 	.ledger-paper::before {
-		content: '';
-		position: absolute;
-		inset: 0;
-		border-radius: inherit;
-		background: url('/optimized/paper-texture.webp');
-		background-size: 300px;
-		opacity: 0.16;
-		mix-blend-mode: multiply;
-		pointer-events: none;
+		display: none;
 	}
 
 	.ledger-paper::after {
-		content: '';
-		position: absolute;
-		top: 1.1rem;
-		bottom: 1.1rem;
-		left: 4.4rem;
-		width: 2px;
-		background: rgba(208, 100, 84, 0.28);
-		opacity: 0.68;
-		pointer-events: none;
+		display: none;
 	}
 
 	.story-table-header {
 		position: relative;
 		z-index: 1;
 		display: flex;
-		align-items: center;
+		align-items: flex-end;
 		justify-content: space-between;
 		gap: 1rem;
-		padding: 0 2rem 1.1rem 5.6rem;
+		min-height: calc(var(--paper-first-rule) - var(--paper-content-top));
+		padding: 0;
+	}
+
+	.story-table-header > div {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: baseline;
+		gap: 0.45rem 1rem;
 	}
 
 	.story-table-header h2 {
 		margin: 0;
-		font-family: var(--font-display);
-		font-weight: 400;
-		font-size: clamp(1.45rem, 2.2vw, 1.95rem);
-		letter-spacing: 0.01em;
-		color: var(--ink);
+		font-family: var(--font-notebook);
+		font-weight: 700;
+		font-size: clamp(2.35rem, 3.6vw, 3.18rem);
+		line-height: 0.84;
+		color: #21486d;
 	}
 
 	.story-table-header p {
-		margin: 0.35rem 0 0;
-		font-family: var(--font-book);
-		font-style: italic;
-		color: var(--ink-soft);
-		font-size: 0.98rem;
-		line-height: 1.5;
-	}
-
-	.catalog-stamp {
-		--stamp-ink: #c25f4e;
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
-		gap: 0.1rem;
-		width: 5.4rem;
-		height: 5.4rem;
-		border-radius: 50%;
-		border: 3px double var(--stamp-ink);
-		color: var(--stamp-ink);
-		transform: rotate(-12deg);
-		font-family: var(--font-round);
-		text-transform: uppercase;
-		opacity: 0.68;
-		flex-shrink: 0;
-	}
-
-	.stamp-count {
-		font-size: 1.5rem;
-		font-weight: 800;
-		line-height: 1;
-	}
-
-	.stamp-label {
-		font-size: 0.58rem;
-		font-weight: 800;
-		letter-spacing: 0.2em;
+		margin: 0;
+		font-family: var(--font-notebook);
+		color: #506d83;
+		font-size: clamp(1.18rem, 1.5vw, 1.38rem);
+		font-weight: 600;
 		line-height: 1;
 	}
 
@@ -1425,58 +1839,78 @@
 		position: relative;
 		z-index: 1;
 		overflow-x: auto;
-		padding: 0 1.4rem;
+		padding: 0;
 	}
 
 	.story-table {
+		--row-height: calc(var(--notebook-line) * 2);
 		width: 100%;
-		min-width: 660px;
+		min-width: 700px;
 		border-collapse: separate;
 		border-spacing: 0;
 		background: transparent;
 	}
 
 	.story-table thead th {
-		padding: 0.7rem 1rem 0.6rem;
+		height: var(--notebook-line);
+		padding: 0.1rem 1rem 0;
 		text-align: left;
-		font-family: var(--font-round);
-		font-size: 0.72rem;
-		font-weight: 800;
-		letter-spacing: 0.14em;
-		text-transform: uppercase;
+		font-family: var(--font-notebook);
+		font-size: 1.32rem;
+		font-weight: 700;
+		letter-spacing: 0;
+		text-transform: none;
 		white-space: nowrap;
-		color: var(--ink-faint);
-		border-bottom: 3px double rgba(141, 110, 68, 0.55);
+		color: rgba(39, 91, 138, 0.78);
+	}
+
+	.story-table th:nth-child(1),
+	.story-table td:nth-child(1) {
+		width: 50%;
+	}
+
+	.story-table th:nth-child(2),
+	.story-table td:nth-child(2) {
+		width: 38%;
+	}
+
+	.story-table th:nth-child(3),
+	.story-table td:nth-child(3) {
+		width: 12%;
 	}
 
 	.story-table tbody tr {
-		transition: background 0.18s ease;
+		height: var(--row-height);
+		cursor: pointer;
+		transition:
+			background 0.18s ease,
+			box-shadow 0.18s ease;
 	}
 
-	.story-table tbody tr:hover {
-		background: rgba(255, 255, 255, 0.5);
+	.story-table tbody tr:hover,
+	.story-table tbody tr:focus-visible {
+		outline: none;
+		background: rgba(76, 143, 207, 0.055);
+		box-shadow: inset 0.28rem 0 0 rgba(73, 143, 207, 0.32);
 	}
 
 	.story-table tbody td {
-		padding: 1.05rem 1rem;
+		height: var(--row-height);
+		padding: 0 1rem;
 		vertical-align: middle;
-		border-bottom: 1px dashed var(--rule);
-	}
-
-	.story-table tbody tr:last-child td {
-		border-bottom: none;
 	}
 
 	.story-cell {
 		display: grid;
-		grid-template-columns: 2.75rem minmax(0, 1fr);
+		grid-template-columns: 3.65rem minmax(0, 1fr);
 		gap: 1rem;
 		align-items: center;
+		min-height: var(--row-height);
 	}
 
 	.story-cover-preview {
-		width: 2.75rem;
-		height: 3.65rem;
+		width: 3.45rem;
+		height: 4.58rem;
 		perspective: 800px;
 	}
 
@@ -1491,7 +1925,7 @@
 	}
 
 	.story-table tbody tr:hover .story-mini-book {
-		transform: rotateY(-26deg) rotateX(6deg) translateY(-2px);
+		transform: rotateY(-24deg) rotateX(6deg) translateY(-2px);
 	}
 
 	.story-mini-cover {
@@ -1576,44 +2010,67 @@
 	}
 
 	.story-meta {
+		display: grid;
+		grid-template-rows: repeat(2, 1fr);
+		align-items: center;
+		height: var(--row-height);
 		min-width: 0;
 	}
 
 	.story-title-line {
 		color: var(--ink);
-		font-family: var(--font-round);
-		font-size: 1.04rem;
+		font-family: var(--font-notebook);
+		font-size: 1.54rem;
 		font-weight: 700;
-		line-height: 1.25;
+		line-height: 1;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
 	}
 
 	.story-subline {
-		margin-top: 0.28rem;
+		margin: 0;
 		max-width: 48ch;
-		color: var(--ink-soft);
-		font-family: var(--font-book);
-		font-size: 0.92rem;
-		line-height: 1.55;
+		color: #536b7d;
+		font-family: var(--font-notebook);
+		font-size: 1.34rem;
+		font-weight: 500;
+		line-height: 1;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
 	}
 
 	.table-book-details {
-		display: flex;
-		flex-wrap: wrap;
+		display: grid;
+		grid-template-columns: auto minmax(0, 1fr);
+		grid-template-rows: repeat(2, 1fr);
 		align-items: center;
-		gap: 0.55rem;
+		column-gap: 0.6rem;
+		height: var(--row-height);
 		max-width: 34rem;
 	}
 
 	.series-chip {
 		display: inline-flex;
 		align-items: center;
-		padding: 0.4rem 0.75rem;
-		border-radius: 0.65rem;
+		grid-column: 1;
+		grid-row: 1;
+		width: max-content;
+		max-width: 19rem;
+		min-height: 1.72rem;
+		padding: 0.12rem 0.65rem 0.02rem;
+		border-radius: 0.32rem;
 		background: var(--chip-color, #4a5d4e);
 		border: 1px solid rgba(255, 255, 255, 0.22);
 		color: #fffaf0;
-		font-size: 0.82rem;
+		font-family: var(--font-notebook);
+		font-size: 1.18rem;
 		font-weight: 700;
+		line-height: 1;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
 		transform: rotate(-1.6deg);
 		box-shadow:
 			inset 0 1px 0 rgba(255, 255, 255, 0.18),
@@ -1625,33 +2082,81 @@
 	}
 
 	.genre-copy {
+		grid-column: 2;
+		grid-row: 1;
+		min-width: 0;
 		color: #8a6a3a;
-		font-size: 0.88rem;
+		font-family: var(--font-notebook);
+		font-size: 1.24rem;
 		font-weight: 700;
+		line-height: 1;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
 	}
 
 	.tag-list {
+		grid-column: 1 / -1;
+		grid-row: 2;
 		display: flex;
-		flex-wrap: wrap;
-		gap: 0.45rem;
+		flex-wrap: nowrap;
+		gap: 0.42rem;
+		min-width: 0;
+		overflow: hidden;
 	}
 
 	.tag-pill {
 		display: inline-flex;
 		align-items: center;
+		min-height: 1.62rem;
 		border-radius: 999px;
-		padding: 0.28rem 0.62rem;
-		background: rgba(255, 255, 255, 0.58);
-		border: 1.5px dashed rgba(141, 110, 68, 0.34);
-		color: #7a5b32;
-		font-size: 0.78rem;
-		font-weight: 600;
+		padding: 0.08rem 0.56rem 0;
+		background: rgba(255, 255, 255, 0.5);
+		border: 1.5px dashed rgba(73, 143, 207, 0.28);
+		color: #49677d;
+		font-family: var(--font-notebook);
+		font-size: 1.06rem;
+		font-weight: 700;
+		line-height: 1;
 		text-transform: lowercase;
+		white-space: nowrap;
 	}
 
 	.table-action-heading,
 	.table-action-cell {
 		text-align: right;
+	}
+
+	.row-open-link {
+		display: inline-flex;
+		align-items: center;
+		justify-content: flex-end;
+		gap: 0.32rem;
+		color: #275b8a;
+		font-family: var(--font-notebook);
+		font-size: 1.38rem;
+		font-weight: 700;
+		line-height: 1;
+		text-decoration: none;
+		white-space: nowrap;
+		transition:
+			color 0.16s ease,
+			transform 0.16s ease;
+	}
+
+	.story-row-link:hover .row-open-link,
+	.story-row-link:focus-visible .row-open-link,
+	.row-open-link:hover {
+		color: #163f64;
+		transform: translateX(2px);
+	}
+
+	.row-open-label-mobile {
+		display: none;
+	}
+
+	.story-mobile-read-link {
+		display: none;
 	}
 
 	/* ============ Squishy storybook button ============ */
@@ -1700,28 +2205,90 @@
 			0 0.3rem 0.5rem rgba(58, 32, 6, 0.25);
 	}
 
-	.catalog-load-more {
+	.catalog-pagination {
+		position: relative;
+		z-index: 2;
 		display: flex;
 		flex-wrap: wrap;
 		align-items: center;
-		justify-content: center;
-		gap: 0.85rem;
-		max-width: 1240px;
-		margin: 0.4rem auto 0;
-		padding: 0 0.75rem;
-		text-align: center;
+		justify-content: space-between;
+		gap: 1rem;
+		margin: calc(var(--notebook-line) * 0.5) 0 0;
+		padding-top: 0;
 	}
 
-	.catalog-load-more p {
+	.catalog-pagination p {
 		margin: 0;
-		color: var(--ink-soft);
-		font-family: var(--font-book);
-		font-size: 0.98rem;
-		line-height: 1.45;
+		color: #49677d;
+		font-family: var(--font-notebook);
+		font-size: clamp(1.24rem, 1.8vw, 1.55rem);
+		font-weight: 700;
+		line-height: 1;
 	}
 
-	.load-more-button {
-		min-width: 11rem;
+	.pagination-range {
+		color: rgba(73, 103, 125, 0.78);
+	}
+
+	.page-turn-buttons {
+		display: inline-flex;
+		align-items: center;
+		gap: 0.36rem;
+		padding: 0.24rem;
+		border-radius: 999px;
+		background: rgba(255, 255, 255, 0.58);
+		border: 1px solid rgba(76, 143, 207, 0.2);
+		box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.8);
+	}
+
+	.page-turn-button {
+		display: inline-grid;
+		place-items: center;
+		width: 2.2rem;
+		height: 2.2rem;
+		border-radius: 999px;
+		border: 1px solid transparent;
+		background: transparent;
+		color: #48677f;
+		font-family: var(--font-notebook);
+		font-size: 1.34rem;
+		line-height: 1;
+		cursor: pointer;
+		transition:
+			transform 0.16s ease,
+			background 0.16s ease,
+			color 0.16s ease,
+			border-color 0.16s ease;
+	}
+
+	.page-turn-button:hover:not(:disabled) {
+		transform: translateY(-1px);
+		background: rgba(76, 143, 207, 0.12);
+		border-color: rgba(76, 143, 207, 0.22);
+		color: #21476b;
+	}
+
+	.page-turn-button.active {
+		background: #316fa8;
+		color: #fff;
+		border-color: rgba(33, 71, 107, 0.25);
+		box-shadow: 0 2px 0 rgba(28, 68, 105, 0.35);
+	}
+
+	.page-number-label {
+		display: block;
+		margin-top: -0.14rem;
+		margin-left: -0.08rem;
+	}
+
+	.page-turn-button:disabled {
+		cursor: not-allowed;
+		opacity: 0.38;
+	}
+
+	.page-turn-icon {
+		width: 1rem;
+		height: 1rem;
 	}
 
 	.button-arrow {
@@ -1730,7 +2297,9 @@
 		transition: transform 0.2s ease;
 	}
 
-	.read-book-button:hover .button-arrow {
+	.row-open-link:hover .button-arrow,
+	.story-row-link:hover .button-arrow,
+	.story-row-link:focus-visible .button-arrow {
 		transform: translateX(3px);
 	}
 
@@ -1791,13 +2360,13 @@
 
 	.featured-shelf-row {
 		--book-scale: 0.9;
-		margin-bottom: 3.2rem;
-		height: 21.4rem;
+		margin-bottom: 1.25rem;
+		height: 18.6rem;
 	}
 
 	.featured-shelf-books {
 		width: min(48rem, calc(100% - 1rem));
-		height: 18.75rem;
+		height: 16.7rem;
 		justify-content: center;
 		gap: clamp(0.75rem, 2vw, 1.5rem);
 	}
@@ -1981,88 +2550,10 @@
 		z-index: 4;
 	}
 
-	/* ============ Spine-hover popup ============ */
-
-	.book-info-popup {
-		position: absolute;
-		bottom: 100%;
-		left: 50%;
-		transform: translateX(-50%) translateY(-20px);
-		width: 250px;
-		max-width: min(250px, calc(100vw - 24px));
-		background: linear-gradient(180deg, #fdf5e0, #f7ebcd);
-		border: 1px solid rgba(105, 78, 38, 0.45);
-		border-radius: 0.9rem 1.1rem 0.95rem 1.05rem / 1.05rem 0.95rem 1.1rem 0.9rem;
-		padding: 15px 16px;
-		box-shadow:
-			0 14px 32px rgba(0, 0, 0, 0.4),
-			inset 0 1px 0 rgba(255, 255, 255, 0.6);
-		z-index: 2000;
-		pointer-events: none;
-		animation: popupFadeIn 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
-	}
-
-	.book-info-popup.below {
-		bottom: auto;
-		top: 100%;
-		transform: translateX(-50%) translateY(16px);
-	}
-
-	@keyframes popupFadeIn {
-		from {
-			opacity: 0;
-			transform: translateX(-50%) translateY(-10px) scale(0.9);
-		}
-		to {
-			opacity: 1;
-			transform: translateX(-50%) translateY(-20px) scale(1);
-		}
-	}
-
-	.popup-content h4 {
-		margin: 0 0 7px 0;
-		font-family: var(--font-round);
-		font-size: 1.02rem;
-		font-weight: 800;
-		line-height: 1.22;
-		color: var(--ink);
-	}
-
-	.popup-description {
-		margin: 0;
-		font-family: var(--font-book);
-		font-size: 0.9rem;
-		line-height: 1.5;
-		color: var(--ink-soft);
-	}
-
-	.popup-arrow {
-		position: absolute;
-		top: 100%;
-		left: 50%;
-		transform: translateX(-50%);
-		width: 0;
-		height: 0;
-		border-left: 10px solid transparent;
-		border-right: 10px solid transparent;
-		border-top: 10px solid #f7ebcd;
-	}
-
-	.book-info-popup.below .popup-arrow {
-		top: auto;
-		bottom: 100%;
-		border-top: none;
-		border-bottom: 10px solid #fdf5e0;
-	}
-
 	/* ============ 3D books ============ */
 
 	.covers-mode {
 		gap: clamp(0.75rem, 2vw, 1.75rem);
-	}
-
-	.spines-mode {
-		gap: 2px;
 	}
 
 	.book-card {
@@ -2444,229 +2935,16 @@
 		backface-visibility: hidden;
 	}
 
-	/* ============ Spines mode ============ */
-
-	.book-card.spines .book-3d-wrapper {
-		transform: rotateY(0deg) rotateX(0deg);
-	}
-
-	.book-card.spines {
-		transform: translateY(0) rotateZ(var(--book-lean));
-	}
-
-	.book-card.spines .book-pages-top,
-	.book-card.spines .book-pages-bottom,
-	.book-card.spines .book-pages-right-view {
-		background: var(--book-color);
-		background-image: none;
-	}
-
-	.book-card.spines:hover .book-3d-wrapper {
-		transform: translateZ(0) translateY(-6px) rotateY(0deg);
-	}
-
-	.spine-front-view {
-		position: absolute;
-		inset: 0;
-		z-index: 10;
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
-		overflow: hidden;
-		box-shadow:
-			inset 0 0 10px rgba(0, 0, 0, 0.3),
-			2px 0 5px rgba(0, 0, 0, 0.2);
-		background-image: linear-gradient(
-			to right,
-			rgba(0, 0, 0, 0.25),
-			transparent 25%,
-			transparent 75%,
-			rgba(0, 0, 0, 0.25)
-		);
-	}
-
-	.spine-title-container {
-		position: absolute;
-		top: 50%;
-		left: 50%;
-		width: calc(var(--book-height) * 0.72);
-		max-width: calc(var(--book-height) * 0.72);
-		padding: 0 0.1rem;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		transform: translate(-50%, -50%) rotate(90deg);
-	}
-
-	.spine-title-text {
-		color: rgba(255, 248, 237, 0.8);
-		font-family: var(--font-round);
-		font-size: var(--spine-font-size, 0.8rem);
-		font-weight: 700;
-		text-transform: uppercase;
-		letter-spacing: var(--spine-letter-spacing, 1px);
-		line-height: 1.05;
-		text-align: center;
-		display: -webkit-box;
-		-webkit-line-clamp: 2;
-		-webkit-box-orient: vertical;
-		overflow: hidden;
-		max-width: 100%;
-		text-wrap: balance;
-	}
-
-	.spine-emoji {
-		position: absolute;
-		bottom: 7px;
-		left: 50%;
-		transform: translateX(-50%);
-		font-size: 0.74rem;
-		line-height: 1;
-		filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.5));
-	}
-
-	.spine-accents {
-		position: absolute;
-		left: 0;
-		right: 0;
-		height: 7px;
-	}
-
-	.spine-accents.gold {
-		background: linear-gradient(
-			to bottom,
-			transparent 0%,
-			rgba(255, 215, 0, 0.2) 30%,
-			rgba(255, 215, 0, 0.25) 50%,
-			rgba(255, 215, 0, 0.2) 70%,
-			transparent 100%
-		);
-	}
-
-	.spine-accents.silver {
-		background: linear-gradient(
-			to bottom,
-			transparent 0%,
-			rgba(200, 210, 225, 0.22) 30%,
-			rgba(220, 225, 235, 0.28) 50%,
-			rgba(200, 210, 225, 0.22) 70%,
-			transparent 100%
-		);
-	}
-
-	.spine-accents.copper {
-		background: linear-gradient(
-			to bottom,
-			transparent 0%,
-			rgba(200, 130, 60, 0.22) 30%,
-			rgba(210, 140, 70, 0.28) 50%,
-			rgba(200, 130, 60, 0.22) 70%,
-			transparent 100%
-		);
-	}
-
-	.spine-accents.top {
-		top: var(--band-offset, 10%);
-	}
-	.spine-accents.mid {
-		top: 50%;
-		transform: translateY(-50%);
-		height: 4px;
-		opacity: 0.6;
-	}
-	.spine-accents.bottom {
-		bottom: var(--band-offset, 10%);
-	}
-
-	.book-cover-side-view {
-		position: absolute;
-		top: 0;
-		bottom: 0;
-		width: var(--book-depth);
-		right: 0;
-		transform-origin: right center;
-		transform: rotateY(-90deg);
-		background-color: var(--book-color);
-		z-index: 5;
-	}
-
-	.book-pages-right-view {
-		position: absolute;
-		top: 2px;
-		bottom: 2px;
-		width: calc(var(--book-depth) - 4px);
-		right: 4px;
-		transform-origin: right center;
-		transform: rotateY(-90deg);
-		background: #fff;
-		background-image: repeating-linear-gradient(
-			to right,
-			transparent,
-			transparent 2px,
-			rgba(0, 0, 0, 0.05) 2px,
-			rgba(0, 0, 0, 0.05) 3px
-		);
-	}
-
-	/* ============ Sign-off ============ */
-
-	.the-end {
-		position: relative;
-		max-width: 1240px;
-		margin: 3.25rem auto 0;
-		padding: 0 1.5rem 2.2rem;
-		text-align: center;
-		color: var(--ink-faint);
-	}
-
-	.end-ornament {
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		gap: 0.85rem;
-		margin-bottom: 0.85rem;
-	}
-
-	.end-rule {
-		width: 5.5rem;
-		height: 2px;
-		border-radius: 999px;
-		background: linear-gradient(90deg, transparent, rgba(93, 76, 52, 0.26));
-	}
-
-	.end-rule:last-child {
-		transform: scaleX(-1);
-	}
-
-	.end-moon {
-		font-size: 1.15rem;
-		filter: drop-shadow(0 0 8px rgba(255, 220, 140, 0.25));
-		animation: moonBob 5.5s ease-in-out infinite;
-	}
-
-	@keyframes moonBob {
-		0%,
-		100% {
-			transform: translateY(0) rotate(-6deg);
-		}
-		50% {
-			transform: translateY(-4px) rotate(7deg);
-		}
-	}
-
-	.the-end p {
-		margin: 0;
-		font-family: var(--font-book);
-		font-style: italic;
-		font-size: 0.95rem;
-	}
-
 	/* ============ Responsive ============ */
 
 	@media (max-width: 1024px) {
 		.bookshelf-room {
 			--book-scale: 0.86;
+		}
+
+		.story-table-shell.catalog-page {
+			width: min(68rem, calc(100vw - 2rem));
+			padding: var(--paper-content-top) 1.55rem 1.55rem 5rem;
 		}
 
 		.container {
@@ -2697,14 +2975,67 @@
 	}
 
 	@media (max-width: 768px) {
+		.bookshelf-room {
+			--book-scale: 0.76;
+			--story-stage-art-height: clamp(68rem, 300vw, 78rem);
+		}
+
+		.story-world-stage {
+			padding: 1.25rem 0.7rem 3.75rem;
+		}
+
+		.story-world-stage::before {
+			background-position: var(--home-theme-position-mobile);
+		}
+
+		.story-world-stage::after {
+			background:
+				radial-gradient(
+					ellipse at 50% 10rem,
+					var(--home-theme-center-wash) 0%,
+					var(--home-theme-center-wash) 24%,
+					transparent 68%
+				),
+				radial-gradient(ellipse at 50% 34rem, rgba(255, 252, 244, 0.26) 0%, transparent 62%),
+				linear-gradient(
+					90deg,
+					color-mix(in srgb, var(--home-theme-edge-wash), transparent 28%) 0%,
+					transparent 24%,
+					transparent 76%,
+					color-mix(in srgb, var(--home-theme-edge-wash), transparent 28%) 100%
+				);
+		}
+
 		.shelf-row {
 			--shelf-offset: 1.1rem;
 			--shelf-height: 3.7rem;
 			--shelf-seam-from-top: 2.54rem;
 		}
 
-		.bookshelf-room {
-			--book-scale: 0.76;
+		.catalog-page {
+			--paper-hole-center: 1.4rem;
+			--paper-hole-top: 9.05rem;
+			--paper-hole-radius: 0.62rem;
+			--paper-hole-rim: 0.74rem;
+			--paper-hole-outer: 0.8rem;
+			--paper-content-top: 2.55rem;
+			--paper-first-rule: calc(var(--notebook-line) * 3);
+			--paper-margin: 3.2rem;
+			--notebook-line: 2.6rem;
+			--catalog-table-body-height: calc(var(--notebook-line) * 16);
+			aspect-ratio: auto;
+			min-height: 34rem;
+			border-radius: 0.34rem;
+		}
+
+		.story-table-shell.catalog-page {
+			width: 100%;
+			padding: var(--paper-content-top) 0.85rem 1.3rem 3.85rem;
+		}
+
+		.catalog-pagination {
+			align-items: flex-start;
+			flex-direction: column;
 		}
 
 		.featured-copy {
@@ -2719,14 +3050,6 @@
 			grid-template-columns: 1fr;
 		}
 
-		.view-toggle {
-			width: 100%;
-		}
-
-		.view-toggle-button {
-			min-width: 0;
-		}
-
 		.story-table-shell {
 			padding: 0.5rem 0.35rem 0;
 		}
@@ -2736,16 +3059,81 @@
 		}
 
 		.story-table-header {
-			padding: 0 1.4rem 1rem;
-		}
-
-		.catalog-stamp {
-			width: 4.6rem;
-			height: 4.6rem;
+			padding: 0.12rem 0 0.16rem;
 		}
 
 		.story-table-scroll {
-			padding: 0 0.9rem;
+			padding: 0;
+			overflow-x: visible;
+		}
+
+		.story-table {
+			min-width: 0;
+			table-layout: fixed;
+		}
+
+		.story-table th:nth-child(1),
+		.story-table td:nth-child(1) {
+			width: auto;
+		}
+
+		.story-table th:nth-child(2),
+		.story-table th:nth-child(3),
+		.story-table td:nth-child(2),
+		.story-table td:nth-child(3) {
+			display: none;
+		}
+
+		.story-table thead th {
+			padding: 0.1rem 0.72rem 0;
+		}
+
+		.story-table tbody td {
+			padding: 0 0.72rem;
+		}
+
+		.story-cell {
+			grid-template-columns: 3.1rem minmax(0, 1fr);
+			gap: 0.7rem;
+			min-width: 0;
+		}
+
+		.story-cover-preview {
+			width: 2.95rem;
+			height: 3.92rem;
+		}
+
+		.story-meta {
+			grid-template-rows: repeat(2, 1fr);
+		}
+
+		.story-title-line {
+			font-size: clamp(1.18rem, 3.8vw, 1.46rem);
+		}
+
+		.story-subline {
+			display: none;
+		}
+
+		.row-open-link {
+			gap: 0.22rem;
+			font-size: clamp(1.02rem, 2.8vw, 1.2rem);
+		}
+
+		.row-open-label-short {
+			display: none;
+		}
+
+		.row-open-label-mobile {
+			display: inline;
+		}
+
+		.story-mobile-read-link {
+			display: inline-flex;
+			grid-row: 2;
+			justify-content: flex-start;
+			width: max-content;
+			font-size: clamp(1.02rem, 2.8vw, 1.2rem);
 		}
 
 		.shelf-books {
@@ -2796,6 +3184,33 @@
 			padding: 1.75rem 0.7rem 3.25rem;
 		}
 
+		.catalog-page {
+			--paper-hole-center: 1.05rem;
+			--paper-hole-top: 8.55rem;
+			--paper-hole-radius: 0.54rem;
+			--paper-hole-rim: 0.64rem;
+			--paper-hole-outer: 0.7rem;
+			--paper-content-top: 2.35rem;
+			--paper-first-rule: calc(var(--notebook-line) * 3);
+			--paper-margin: 2.45rem;
+			--notebook-line: 2.46rem;
+			--catalog-table-body-height: calc(var(--notebook-line) * 16);
+			width: calc(100vw - 0.8rem);
+		}
+
+		.story-table-shell.catalog-page {
+			padding: var(--paper-content-top) 0.48rem 1.05rem 2.95rem;
+		}
+
+		.catalog-pagination p {
+			font-size: 1.18rem;
+		}
+
+		.page-turn-buttons {
+			max-width: 100%;
+			overflow-x: auto;
+		}
+
 		.bookshelf-header {
 			margin-bottom: 1.75rem;
 			gap: 1.3rem;
@@ -2816,23 +3231,22 @@
 			font-size: 0.85rem;
 		}
 
-		.catalog-stamp {
-			display: none;
+		.story-table thead th {
+			padding: 0.1rem 0.62rem;
 		}
 
-		.story-table thead th,
 		.story-table tbody td {
-			padding: 0.85rem 0.7rem;
+			padding: 0 0.62rem;
 		}
 
 		.story-cell {
-			grid-template-columns: 2.35rem minmax(0, 1fr);
-			gap: 0.7rem;
+			grid-template-columns: 2.95rem minmax(0, 1fr);
+			gap: 0.62rem;
 		}
 
 		.story-cover-preview {
-			width: 2.35rem;
-			height: 3.1rem;
+			width: 2.78rem;
+			height: 3.7rem;
 		}
 
 		.shelf-row {
@@ -2872,10 +3286,6 @@
 			top: 0.98rem;
 			width: 2.5rem;
 			height: 1.95rem;
-		}
-
-		.the-end {
-			margin-top: 2.5rem;
 		}
 	}
 </style>

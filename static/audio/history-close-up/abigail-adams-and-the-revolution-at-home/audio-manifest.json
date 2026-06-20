@@ -7,13 +7,47 @@
   "voice": "Zephyr",
   "format": "wav",
   "sampleRate": 24000,
-  "generatedAt": "2026-06-03T01:10:59.277Z",
+  "generatedAt": "2026-06-19T23:37:39.518Z",
   "chapters": [
     {
       "id": 1,
       "title": "A Farm, a Family, and a Gathering Crisis",
       "filename": "chapter-1.wav",
-      "durationSeconds": 364.44
+      "durationSeconds": 364.44,
+      "transcriptFile": "chapter-1.transcript.json",
+      "captionsFile": "chapter-1.srt",
+      "levelsFile": "chapter-1.levels.json",
+      "levelBinSizeSeconds": 0.1
+    },
+    {
+      "id": 2,
+      "title": "Watching War Begin",
+      "filename": "chapter-2.wav",
+      "durationSeconds": 302.08,
+      "transcriptFile": "chapter-2.transcript.json",
+      "captionsFile": "chapter-2.srt",
+      "levelsFile": "chapter-2.levels.json",
+      "levelBinSizeSeconds": 0.1
+    },
+    {
+      "id": 3,
+      "title": "Remember the Ladies",
+      "filename": "chapter-3.wav",
+      "durationSeconds": 311.04,
+      "transcriptFile": "chapter-3.transcript.json",
+      "captionsFile": "chapter-3.srt",
+      "levelsFile": "chapter-3.levels.json",
+      "levelBinSizeSeconds": 0.1
+    },
+    {
+      "id": 4,
+      "title": "The Revolution Seen from a Writing Desk",
+      "filename": "chapter-4.wav",
+      "durationSeconds": 274.64,
+      "transcriptFile": "chapter-4.transcript.json",
+      "captionsFile": "chapter-4.srt",
+      "levelsFile": "chapter-4.levels.json",
+      "levelBinSizeSeconds": 0.1
     }
   ]
 }

@@ -13,7 +13,11 @@
       "id": 1,
       "title": "The Overdue Book Problem",
       "filename": "chapter-1.wav",
-      "durationSeconds": 150.28
+      "durationSeconds": 150.28,
+      "transcriptFile": "chapter-1.transcript.json",
+      "captionsFile": "chapter-1.srt",
+      "levelsFile": "chapter-1.levels.json",
+      "levelBinSizeSeconds": 0.1
     },
     {
       "id": 2,

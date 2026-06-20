@@ -523,7 +523,19 @@ async function loadAudioManifestMap() {
 						generatedAt: manifest.generatedAt,
 						chapters: (manifest.chapters || []).map((chapter) => ({
 							id: chapter.id,
-							audioUrl: `/audio/${seriesId}/${storyId}/${chapter.filename}`
+							title: chapter.title,
+							durationSeconds: chapter.durationSeconds,
+							audioUrl: `/audio/${seriesId}/${storyId}/${chapter.filename}`,
+							transcriptUrl: chapter.transcriptFile
+								? `/audio/${seriesId}/${storyId}/${chapter.transcriptFile}`
+								: null,
+							captionsUrl: chapter.captionsFile
+								? `/audio/${seriesId}/${storyId}/${chapter.captionsFile}`
+								: null,
+							levelsUrl: chapter.levelsFile
+								? `/audio/${seriesId}/${storyId}/${chapter.levelsFile}`
+								: null,
+							levelBinSizeSeconds: chapter.levelBinSizeSeconds
 						}))
 					}
 				];

@@ -17,6 +17,7 @@
 		"audio:check": "node scripts/generate-audio.js check",
 		"audio:clean": "node scripts/generate-audio.js clean",
 		"audio:gemini": "node scripts/generate-gemini-audiobook.js",
+		"audio:transcribe": "node scripts/transcribe-audio.js",
 		"epub:generate": "node scripts/generate-epub.js generate --all",
 		"epub:history": "node scripts/generate-epub.js generate --series history-close-up --all=false"
 	},

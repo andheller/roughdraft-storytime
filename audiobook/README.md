@@ -32,6 +32,22 @@ pnpm run audio:gemini -- generate silly-squirrels/the-silly-squirrels-library-bo
 
 Outputs go to `static/audio/[seriesId]/[storyId]/` as `.wav` files plus `audio-manifest.json`, which the existing story reader can already discover after `pnpm run content:generate`.
 
+## Transcripts, Timestamps, and Levels
+
+Generate local WhisperKit transcript sidecars with word timestamps and waveform-level data:
+
+```bash
+pnpm run audio:transcribe -- story silly-squirrels/the-silly-squirrels-library-book-rocket --chapter 1
+```
+
+This writes files next to the chapter audio:
+
+- `chapter-1.transcript.json` with transcript text, segments, and word timestamps
+- `chapter-1.srt` with timestamped captions from WhisperKit
+- `chapter-1.levels.json` with 100ms RMS/peak level bins
+
+Then run `pnpm run content:generate` so generated story data exposes `transcriptUrl`, `captionsUrl`, and `levelsUrl` on each audio chapter.
+
 ## Free-Tier Guardrails
 
 The current script defaults are intentionally conservative:

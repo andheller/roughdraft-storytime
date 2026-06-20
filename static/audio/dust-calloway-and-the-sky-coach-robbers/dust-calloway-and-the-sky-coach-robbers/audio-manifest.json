@@ -1,0 +1,63 @@
+{
+  "seriesId": "dust-calloway-and-the-sky-coach-robbers",
+  "storyId": "dust-calloway-and-the-sky-coach-robbers",
+  "title": "Dust Calloway and the Sky Coach Robbers",
+  "provider": "google-gemini",
+  "model": "gemini-3.1-flash-tts-preview",
+  "voice": "Zephyr",
+  "format": "wav",
+  "sampleRate": 24000,
+  "generatedAt": "2026-06-19T23:29:45.653Z",
+  "chapters": [
+    {
+      "id": 1,
+      "title": "The Woman Who Rode Into Trouble",
+      "filename": "chapter-1.wav",
+      "durationSeconds": 230.68,
+      "transcriptFile": "chapter-1.transcript.json",
+      "captionsFile": "chapter-1.srt",
+      "levelsFile": "chapter-1.levels.json",
+      "levelBinSizeSeconds": 0.1
+    },
+    {
+      "id": 2,
+      "title": "Gold From the Sky",
+      "filename": "chapter-2.wav",
+      "durationSeconds": 285.6,
+      "transcriptFile": "chapter-2.transcript.json",
+      "captionsFile": "chapter-2.srt",
+      "levelsFile": "chapter-2.levels.json",
+      "levelBinSizeSeconds": 0.1
+    },
+    {
+      "id": 3,
+      "title": "Blackjack Varn's Trick",
+      "filename": "chapter-3.wav",
+      "durationSeconds": 366,
+      "transcriptFile": "chapter-3.transcript.json",
+      "captionsFile": "chapter-3.srt",
+      "levelsFile": "chapter-3.levels.json",
+      "levelBinSizeSeconds": 0.1
+    },
+    {
+      "id": 4,
+      "title": "The Green Storm",
+      "filename": "chapter-4.wav",
+      "durationSeconds": 296.24,
+      "transcriptFile": "chapter-4.transcript.json",
+      "captionsFile": "chapter-4.srt",
+      "levelsFile": "chapter-4.levels.json",
+      "levelBinSizeSeconds": 0.1
+    },
+    {
+      "id": 5,
+      "title": "The Map on the Cactus",
+      "filename": "chapter-5.wav",
+      "durationSeconds": 251.8,
+      "transcriptFile": "chapter-5.transcript.json",
+      "captionsFile": "chapter-5.srt",
+      "levelsFile": "chapter-5.levels.json",
+      "levelBinSizeSeconds": 0.1
+    }
+  ]
+}

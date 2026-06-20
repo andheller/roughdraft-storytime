@@ -1,0 +1,5570 @@
+{
+  "schemaVersion": 1,
+  "provider": "groq",
+  "model": "whisper-large-v3-turbo",
+  "generatedAt": "2026-06-19T23:51:16.728Z",
+  "audioFile": "chapter-3.wav",
+  "durationSeconds": 366,
+  "language": "English",
+  "text": "Chapter 3. Blackjack Varn's Trick. Dust did not have time for a proper plan, so she settled for the kind that involved speed, rooftops, and a high chance of regretting things later. She rode Bishop straight through town. At the dry goods store, she stood in the stirrups and caught the edge of an awning. At the tailors, she climbed from awning to balcony. From the balcony, she hauled herself onto the roof of the boarding house. Someone below shouted, Marshall, that seems unsafe. Then don't copy me, she shouted back. Wind struck her as she reached the highest roof on Main Street. Up there, the floating stagecoach looked even stranger. The body was built like a rich man's travel coach, but brass pipes ran along its sides. Iron tanks clung to the rear axle. At the roofline, folded veins snapped in the wind like metal feathers. Smoke hissed from a crooked stack near the driver's box. It was not elegant. It was an airborne argument with common sense. The three fools on the saloon roof had finally managed to snag one rope around the back wheel. They cheered too early. The wheel spun, wrapped the rope, and yanked them belly first across the shingles in a single howling line. Dust stepped onto the saloon sign, balanced once, and judged the distance This is going to be annoying she told the sky Then she jumped For one terrible heartbeat there was nothing under her boots Then she hit the coach roof hard enough to bite her tongue She slid halfway to the edge, grabbed a brass whale, and hauled herself flat while the coach rocked wildly. All right, she muttered. I'm here. Everybody can stop being dramatic. A hatch in the roof banged open below her. Steam belched upward. Dust dropped through into the coach. The inside looked like a gambling hall and a machine shop had gotten into a fistfight. Velvet seats were torn out to make room for gears, levers, gauges, and two large copper boilers that rattled with dangerous enthusiasm. Silver sacks were piled nearly to the ceiling. At the front, one man rustled to controls. Black Jack Varn wore black gloves, a black vest, and a grin so sharp it seemed like part of the weaponry. His hair was slicked back, his mustache curved like quotation marks around a joke nobody trusted. On his shoulder sat a green parrot with a missing tail feather. The parrot took one look at Dust and screamed, Law! Afternoon, Varn, Dust said. Black Jack Varn did not turn around right away. He only yanked a lever, cursed at a gauge, and said, Marshal Calloway, I ought to be insulted. You boarded my invention without buying a ticket. You dropped half your ticket money on the town. Now he looked over his grin wild Temporary complication You call dynamite under the water tower temporary too I call it insurance Dust's hand drifted toward her revolver. Vor noticed and laughed. Go ahead and draw, he said. One stray shot and this one machine comes down in splinters and steam. Dust believed him. The coach bucked sideways. One of the boilers whined like it had seen the future and disliked it. You built this? Dusk asked. Designed it. Built it. Improved it. The roads belong to sheriffs and toll men and weather. The sky belongs to the first fool bold enough to take it. The parrot bobbed its head. Bold fool! Bold fool! Vaughn flecked a switch. The folded beams outside snap and vibrate. The coat clanged another few feet. You're not clean, you're friend. You're circling! I touched him, going scattered at the beach. Crosswind caught a speed-rise over the middle of the gorge. Nothing I can't say. Coach looked tall enough to knock a foot back into the wall. What a smile about you. You're a star-doller. Don't reach for another moment. Don't reach for a star-study. Get kids with the receptors you can use. You're not a good kid. You're a good kid. Thank you So, Fast and dirty. Dust blocked one swing, took another to the ribs, and answered with a hard right that snapped his head sideways. He staggered into a wheel mounted on the front column. The parrot landed on top of it and shrieked, We're doomed! Outside, the green clouds thickened. Dust didn't notice them before from the street, but up here they looked worse. A spinning storm wall, green as bottle glass, rolling in low over the plains. Vaughn wiped blood from the corner of his mouth. He'll paint a bad time to interfere, Marshall. Dust glanced through the front glass. No, she said. You picked a bad day to fly.",
+  "segments": [
+    {
+      "id": 0,
+      "start": 0,
+      "end": 3.66,
+      "text": "Chapter 3. Blackjack Varn's Trick.",
+      "avgLogprob": -0.1283,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.56972,
+      "words": []
+    },
+    {
+      "id": 1,
+      "start": 4.62,
+      "end": 10.14,
+      "text": "Dust did not have time for a proper plan, so she settled for the kind that involved speed,",
+      "avgLogprob": -0.1283,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.56972,
+      "words": []
+    },
+    {
+      "id": 2,
+      "start": 10.72,
+      "end": 17.02,
+      "text": "rooftops, and a high chance of regretting things later. She rode Bishop straight through town.",
+      "avgLogprob": -0.1283,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.56972,
+      "words": []
+    },
+    {
+      "id": 3,
+      "start": 17.68,
+      "end": 21.44,
+      "text": "At the dry goods store, she stood in the stirrups and caught the edge of an awning.",
+      "avgLogprob": -0.1283,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.56972,
+      "words": []
+    },
+    {
+      "id": 4,
+      "start": 21.98,
+      "end": 27.12,
+      "text": "At the tailors, she climbed from awning to balcony. From the balcony, she hauled herself",
+      "avgLogprob": -0.1283,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.56972,
+      "words": []
+    },
+    {
+      "id": 5,
+      "start": 27.12,
+      "end": 32.92,
+      "text": "onto the roof of the boarding house. Someone below shouted, Marshall, that seems unsafe.",
+      "avgLogprob": -0.09704,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.55422,
+      "words": []
+    },
+    {
+      "id": 6,
+      "start": 33.54,
+      "end": 40.52,
+      "text": "Then don't copy me, she shouted back. Wind struck her as she reached the highest roof on Main Street.",
+      "avgLogprob": -0.09704,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.55422,
+      "words": []
+    },
+    {
+      "id": 7,
+      "start": 41.24,
+      "end": 47.3,
+      "text": "Up there, the floating stagecoach looked even stranger. The body was built like a rich man's",
+      "avgLogprob": -0.09704,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.55422,
+      "words": []
+    },
+    {
+      "id": 8,
+      "start": 47.3,
+      "end": 54.72,
+      "text": "travel coach, but brass pipes ran along its sides. Iron tanks clung to the rear axle. At the roofline,",
+      "avgLogprob": -0.09704,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.55422,
+      "words": []
+    },
+    {
+      "id": 9,
+      "start": 54.72,
+      "end": 60.72,
+      "text": "folded veins snapped in the wind like metal feathers. Smoke hissed from a crooked stack",
+      "avgLogprob": -0.06798,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.6087,
+      "words": []
+    },
+    {
+      "id": 10,
+      "start": 60.72,
+      "end": 67.66,
+      "text": "near the driver's box. It was not elegant. It was an airborne argument with common sense.",
+      "avgLogprob": -0.06798,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.6087,
+      "words": []
+    },
+    {
+      "id": 11,
+      "start": 68.36,
+      "end": 73.38,
+      "text": "The three fools on the saloon roof had finally managed to snag one rope around the back wheel.",
+      "avgLogprob": -0.06798,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.6087,
+      "words": []
+    },
+    {
+      "id": 12,
+      "start": 73.94,
+      "end": 79.92,
+      "text": "They cheered too early. The wheel spun, wrapped the rope, and yanked them belly first across the",
+      "avgLogprob": -0.06798,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.6087,
+      "words": []
+    },
+    {
+      "id": 13,
+      "start": 79.92,
+      "end": 86.32,
+      "text": "shingles in a single howling line. Dust stepped onto the saloon sign, balanced once, and judged",
+      "avgLogprob": -0.12096,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.44,
+      "words": []
+    },
+    {
+      "id": 14,
+      "start": 86.32,
+      "end": 100.98,
+      "text": "the distance This is going to be annoying she told the sky Then she jumped For one terrible heartbeat there was nothing under her boots Then she hit the coach roof hard enough to bite her tongue",
+      "avgLogprob": -0.10015,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.56017,
+      "words": []
+    },
+    {
+      "id": 15,
+      "start": 101.62,
+      "end": 106.26,
+      "text": "She slid halfway to the edge, grabbed a brass whale, and hauled herself flat while the coach",
+      "avgLogprob": -0.10015,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.56017,
+      "words": []
+    },
+    {
+      "id": 16,
+      "start": 106.26,
+      "end": 112.02,
+      "text": "rocked wildly. All right, she muttered. I'm here. Everybody can stop being dramatic.",
+      "avgLogprob": -0.10015,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.56017,
+      "words": []
+    },
+    {
+      "id": 17,
+      "start": 112.98,
+      "end": 115.46,
+      "text": "A hatch in the roof banged open below her.",
+      "avgLogprob": -0.17687,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.58397,
+      "words": []
+    },
+    {
+      "id": 18,
+      "start": 115.9,
+      "end": 117.04,
+      "text": "Steam belched upward.",
+      "avgLogprob": -0.17687,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.58397,
+      "words": []
+    },
+    {
+      "id": 19,
+      "start": 117.92,
+      "end": 119.7,
+      "text": "Dust dropped through into the coach.",
+      "avgLogprob": -0.17687,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.58397,
+      "words": []
+    },
+    {
+      "id": 20,
+      "start": 120.56,
+      "end": 124.92,
+      "text": "The inside looked like a gambling hall and a machine shop had gotten into a fistfight.",
+      "avgLogprob": -0.17687,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.58397,
+      "words": []
+    },
+    {
+      "id": 21,
+      "start": 125.8,
+      "end": 129.54,
+      "text": "Velvet seats were torn out to make room for gears, levers, gauges,",
+      "avgLogprob": -0.17687,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.58397,
+      "words": []
+    },
+    {
+      "id": 22,
+      "start": 129.54,
+      "end": 133.54,
+      "text": "and two large copper boilers that rattled with dangerous enthusiasm.",
+      "avgLogprob": -0.17687,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.58397,
+      "words": []
+    },
+    {
+      "id": 23,
+      "start": 134.46,
+      "end": 136.74,
+      "text": "Silver sacks were piled nearly to the ceiling.",
+      "avgLogprob": -0.17687,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.58397,
+      "words": []
+    },
+    {
+      "id": 24,
+      "start": 137.66,
+      "end": 140.08,
+      "text": "At the front, one man rustled to controls.",
+      "avgLogprob": -0.17687,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.58397,
+      "words": []
+    },
+    {
+      "id": 25,
+      "start": 141.08,
+      "end": 147.06,
+      "text": "Black Jack Varn wore black gloves, a black vest, and a grin so sharp it seemed like part of the weaponry.",
+      "avgLogprob": -0.20109,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.59677,
+      "words": []
+    },
+    {
+      "id": 26,
+      "start": 147.62,
+      "end": 152.62,
+      "text": "His hair was slicked back, his mustache curved like quotation marks around a joke nobody trusted.",
+      "avgLogprob": -0.20109,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.59677,
+      "words": []
+    },
+    {
+      "id": 27,
+      "start": 153.62,
+      "end": 156.56,
+      "text": "On his shoulder sat a green parrot with a missing tail feather.",
+      "avgLogprob": -0.20109,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.59677,
+      "words": []
+    },
+    {
+      "id": 28,
+      "start": 157.32,
+      "end": 159.5,
+      "text": "The parrot took one look at Dust and screamed,",
+      "avgLogprob": -0.20109,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.59677,
+      "words": []
+    },
+    {
+      "id": 29,
+      "start": 159.86,
+      "end": 160.22,
+      "text": "Law!",
+      "avgLogprob": -0.20109,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.59677,
+      "words": []
+    },
+    {
+      "id": 30,
+      "start": 161.38,
+      "end": 163.16,
+      "text": "Afternoon, Varn, Dust said.",
+      "avgLogprob": -0.20109,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.59677,
+      "words": []
+    },
+    {
+      "id": 31,
+      "start": 164.02,
+      "end": 166.12,
+      "text": "Black Jack Varn did not turn around right away.",
+      "avgLogprob": -0.20109,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.59677,
+      "words": []
+    },
+    {
+      "id": 32,
+      "start": 166.12,
+      "end": 168.9,
+      "text": "He only yanked a lever, cursed at a gauge, and said,",
+      "avgLogprob": -0.28004,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.46919,
+      "words": []
+    },
+    {
+      "id": 33,
+      "start": 169.4,
+      "end": 171.9,
+      "text": "Marshal Calloway, I ought to be insulted.",
+      "avgLogprob": -0.28004,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.46919,
+      "words": []
+    },
+    {
+      "id": 34,
+      "start": 172.3,
+      "end": 174.46,
+      "text": "You boarded my invention without buying a ticket.",
+      "avgLogprob": -0.28004,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.46919,
+      "words": []
+    },
+    {
+      "id": 35,
+      "start": 175.38,
+      "end": 177.32,
+      "text": "You dropped half your ticket money on the town.",
+      "avgLogprob": -0.28004,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.46919,
+      "words": []
+    },
+    {
+      "id": 36,
+      "start": 178.2,
+      "end": 189.12,
+      "text": "Now he looked over his grin wild Temporary complication You call dynamite under the water tower temporary too I call it insurance",
+      "avgLogprob": -0.31598,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.49145,
+      "words": []
+    },
+    {
+      "id": 37,
+      "start": 190.44,
+      "end": 192.28,
+      "text": "Dust's hand drifted toward her revolver.",
+      "avgLogprob": -0.31598,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.49145,
+      "words": []
+    },
+    {
+      "id": 38,
+      "start": 192.8,
+      "end": 193.9,
+      "text": "Vor noticed and laughed.",
+      "avgLogprob": -0.31598,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.49145,
+      "words": []
+    },
+    {
+      "id": 39,
+      "start": 194.8,
+      "end": 196.52,
+      "text": "Go ahead and draw, he said.",
+      "avgLogprob": -0.31598,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.49145,
+      "words": []
+    },
+    {
+      "id": 40,
+      "start": 196.96,
+      "end": 200.7,
+      "text": "One stray shot and this one machine comes down in splinters and steam.",
+      "avgLogprob": -0.31598,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.49145,
+      "words": []
+    },
+    {
+      "id": 41,
+      "start": 201.6,
+      "end": 202.4,
+      "text": "Dust believed him.",
+      "avgLogprob": -0.31598,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.49145,
+      "words": []
+    },
+    {
+      "id": 42,
+      "start": 202.9,
+      "end": 204.58,
+      "text": "The coach bucked sideways.",
+      "avgLogprob": -0.31598,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.49145,
+      "words": []
+    },
+    {
+      "id": 43,
+      "start": 205.14,
+      "end": 208.12,
+      "text": "One of the boilers whined like it had seen the future and disliked it.",
+      "avgLogprob": -0.30924,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.65019,
+      "words": []
+    },
+    {
+      "id": 44,
+      "start": 209,
+      "end": 210.78,
+      "text": "You built this? Dusk asked.",
+      "avgLogprob": -0.30924,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.65019,
+      "words": []
+    },
+    {
+      "id": 45,
+      "start": 211.72,
+      "end": 214.08,
+      "text": "Designed it. Built it. Improved it.",
+      "avgLogprob": -0.30924,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.65019,
+      "words": []
+    },
+    {
+      "id": 46,
+      "start": 214.58,
+      "end": 217,
+      "text": "The roads belong to sheriffs and toll men and weather.",
+      "avgLogprob": -0.30924,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.65019,
+      "words": []
+    },
+    {
+      "id": 47,
+      "start": 217.5,
+      "end": 220.36,
+      "text": "The sky belongs to the first fool bold enough to take it.",
+      "avgLogprob": -0.30924,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.65019,
+      "words": []
+    },
+    {
+      "id": 48,
+      "start": 220.82,
+      "end": 222.44,
+      "text": "The parrot bobbed its head.",
+      "avgLogprob": -0.30924,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.65019,
+      "words": []
+    },
+    {
+      "id": 49,
+      "start": 223.04,
+      "end": 224.54,
+      "text": "Bold fool! Bold fool!",
+      "avgLogprob": -0.30924,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.65019,
+      "words": []
+    },
+    {
+      "id": 50,
+      "start": 225.52,
+      "end": 226.74,
+      "text": "Vaughn flecked a switch.",
+      "avgLogprob": -0.30924,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.65019,
+      "words": []
+    },
+    {
+      "id": 51,
+      "start": 227.24,
+      "end": 229.22,
+      "text": "The folded beams outside snap and vibrate.",
+      "avgLogprob": -0.30924,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.65019,
+      "words": []
+    },
+    {
+      "id": 52,
+      "start": 229.74,
+      "end": 231.16,
+      "text": "The coat clanged another few feet.",
+      "avgLogprob": -0.30924,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.65019,
+      "words": []
+    },
+    {
+      "id": 53,
+      "start": 232.1,
+      "end": 233.78,
+      "text": "You're not clean, you're friend.",
+      "avgLogprob": -0.30924,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.65019,
+      "words": []
+    },
+    {
+      "id": 54,
+      "start": 233.78,
+      "end": 235.78,
+      "text": "You're circling!",
+      "avgLogprob": -0.76673,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.63223,
+      "words": []
+    },
+    {
+      "id": 55,
+      "start": 235.78,
+      "end": 238.78,
+      "text": "I touched him, going scattered at the beach.",
+      "avgLogprob": -0.76673,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.63223,
+      "words": []
+    },
+    {
+      "id": 56,
+      "start": 238.78,
+      "end": 241.78,
+      "text": "Crosswind caught a speed-rise over the middle of the gorge.",
+      "avgLogprob": -0.76673,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.63223,
+      "words": []
+    },
+    {
+      "id": 57,
+      "start": 241.78,
+      "end": 243.78,
+      "text": "Nothing I can't say.",
+      "avgLogprob": -0.76673,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.63223,
+      "words": []
+    },
+    {
+      "id": 58,
+      "start": 243.78,
+      "end": 247.78,
+      "text": "Coach looked tall enough to knock a foot back into the wall.",
+      "avgLogprob": -0.76673,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.63223,
+      "words": []
+    },
+    {
+      "id": 59,
+      "start": 247.78,
+      "end": 249.78,
+      "text": "What a smile about you.",
+      "avgLogprob": -0.76673,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.63223,
+      "words": []
+    },
+    {
+      "id": 60,
+      "start": 249.78,
+      "end": 251.78,
+      "text": "You're a star-doller.",
+      "avgLogprob": -0.76673,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.63223,
+      "words": []
+    },
+    {
+      "id": 61,
+      "start": 251.78,
+      "end": 253.78,
+      "text": "Don't reach for another moment.",
+      "avgLogprob": -0.76673,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.63223,
+      "words": []
+    },
+    {
+      "id": 62,
+      "start": 253.78,
+      "end": 255.78,
+      "text": "Don't reach for a star-study.",
+      "avgLogprob": -0.76673,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.63223,
+      "words": []
+    },
+    {
+      "id": 63,
+      "start": 255.78,
+      "end": 257.78,
+      "text": "Get kids with the receptors you can use.",
+      "avgLogprob": -0.76673,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.63223,
+      "words": []
+    },
+    {
+      "id": 64,
+      "start": 257.78,
+      "end": 259.78,
+      "text": "You're not a good kid.",
+      "avgLogprob": -0.76673,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.63223,
+      "words": []
+    },
+    {
+      "id": 65,
+      "start": 259.78,
+      "end": 261.78,
+      "text": "You're a good kid.",
+      "avgLogprob": -0.76673,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.63223,
+      "words": []
+    },
+    {
+      "id": 66,
+      "start": 261.78,
+      "end": 299.48,
+      "text": "Thank you",
+      "avgLogprob": -0.12507,
+      "noSpeechProb": 0,
+      "compressionRatio": 0.57895,
+      "words": []
+    },
+    {
+      "id": 67,
+      "start": 299.5,
+      "end": 329.48,
+      "text": "So,",
+      "avgLogprob": -1.17959,
+      "noSpeechProb": 0,
+      "compressionRatio": 0.33333,
+      "words": []
+    },
+    {
+      "id": 68,
+      "start": 329.5,
+      "end": 330.3,
+      "text": "Fast and dirty.",
+      "avgLogprob": -0.21408,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.61027,
+      "words": []
+    },
+    {
+      "id": 69,
+      "start": 330.94,
+      "end": 333.16,
+      "text": "Dust blocked one swing, took another to the ribs,",
+      "avgLogprob": -0.21408,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.61027,
+      "words": []
+    },
+    {
+      "id": 70,
+      "start": 333.38,
+      "end": 335.74,
+      "text": "and answered with a hard right that snapped his head sideways.",
+      "avgLogprob": -0.21408,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.61027,
+      "words": []
+    },
+    {
+      "id": 71,
+      "start": 336.6,
+      "end": 338.82,
+      "text": "He staggered into a wheel mounted on the front column.",
+      "avgLogprob": -0.21408,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.61027,
+      "words": []
+    },
+    {
+      "id": 72,
+      "start": 339.58,
+      "end": 341.38,
+      "text": "The parrot landed on top of it and shrieked,",
+      "avgLogprob": -0.21408,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.61027,
+      "words": []
+    },
+    {
+      "id": 73,
+      "start": 341.72,
+      "end": 342.56,
+      "text": "We're doomed!",
+      "avgLogprob": -0.21408,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.61027,
+      "words": []
+    },
+    {
+      "id": 74,
+      "start": 343.52,
+      "end": 345.3,
+      "text": "Outside, the green clouds thickened.",
+      "avgLogprob": -0.21408,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.61027,
+      "words": []
+    },
+    {
+      "id": 75,
+      "start": 346,
+      "end": 347.6,
+      "text": "Dust didn't notice them before from the street,",
+      "avgLogprob": -0.21408,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.61027,
+      "words": []
+    },
+    {
+      "id": 76,
+      "start": 347.6,
+      "end": 349.18,
+      "text": "but up here they looked worse.",
+      "avgLogprob": -0.21408,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.61027,
+      "words": []
+    },
+    {
+      "id": 77,
+      "start": 349.58,
+      "end": 351.96,
+      "text": "A spinning storm wall, green as bottle glass,",
+      "avgLogprob": -0.21408,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.61027,
+      "words": []
+    },
+    {
+      "id": 78,
+      "start": 352.2,
+      "end": 353.54,
+      "text": "rolling in low over the plains.",
+      "avgLogprob": -0.21408,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.61027,
+      "words": []
+    },
+    {
+      "id": 79,
+      "start": 354.58,
+      "end": 356.36,
+      "text": "Vaughn wiped blood from the corner of his mouth.",
+      "avgLogprob": -0.21408,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.61027,
+      "words": []
+    },
+    {
+      "id": 80,
+      "start": 357.18,
+      "end": 359.36,
+      "text": "He'll paint a bad time to interfere, Marshall.",
+      "avgLogprob": -0.21408,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.61027,
+      "words": []
+    },
+    {
+      "id": 81,
+      "start": 359.5,
+      "end": 361.74,
+      "text": "Dust glanced through the front glass.",
+      "avgLogprob": -0.31436,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.0125,
+      "words": []
+    },
+    {
+      "id": 82,
+      "start": 362.44,
+      "end": 363.42,
+      "text": "No, she said.",
+      "avgLogprob": -0.31436,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.0125,
+      "words": []
+    },
+    {
+      "id": 83,
+      "start": 363.72,
+      "end": 365.52,
+      "text": "You picked a bad day to fly.",
+      "avgLogprob": -0.31436,
+      "noSpeechProb": 0,
+      "compressionRatio": 1.0125,
+      "words": []
+    }
+  ],
+  "words": [
+    {
+      "word": "Chapter",
+      "start": 0.28,
+      "end": 0.6,
+      "probability": null
+    },
+    {
+      "word": "3.",
+      "start": 0.6,
+      "end": 1.42,
+      "probability": null
+    },
+    {
+      "word": "Blackjack",
+      "start": 1.42,
+      "end": 2.5,
+      "probability": null
+    },
+    {
+      "word": "Varn's",
+      "start": 2.5,
+      "end": 3.14,
+      "probability": null
+    },
+    {
+      "word": "Trick.",
+      "start": 3.14,
+      "end": 3.76,
+      "probability": null
+    },
+    {
+      "word": "Dust",
+      "start": 4.88,
+      "end": 5.18,
+      "probability": null
+    },
+    {
+      "word": "did",
+      "start": 5.18,
+      "end": 5.5,
+      "probability": null
+    },
+    {
+      "word": "not",
+      "start": 5.5,
+      "end": 5.66,
+      "probability": null
+    },
+    {
+      "word": "have",
+      "start": 5.66,
+      "end": 5.86,
+      "probability": null
+    },
+    {
+      "word": "time",
+      "start": 5.86,
+      "end": 6.16,
+      "probability": null
+    },
+    {
+      "word": "for",
+      "start": 6.16,
+      "end": 6.4,
+      "probability": null
+    },
+    {
+      "word": "a",
+      "start": 6.4,
+      "end": 6.5,
+      "probability": null
+    },
+    {
+      "word": "proper",
+      "start": 6.5,
+      "end": 6.8,
+      "probability": null
+    },
+    {
+      "word": "plan,",
+      "start": 6.8,
+      "end": 7.42,
+      "probability": null
+    },
+    {
+      "word": "so",
+      "start": 7.42,
+      "end": 7.76,
+      "probability": null
+    },
+    {
+      "word": "she",
+      "start": 7.76,
+      "end": 7.96,
+      "probability": null
+    },
+    {
+      "word": "settled",
+      "start": 7.96,
+      "end": 8.26,
+      "probability": null
+    },
+    {
+      "word": "for",
+      "start": 8.26,
+      "end": 8.48,
+      "probability": null
+    },
+    {
+      "word": "the",
+      "start": 8.48,
+      "end": 8.6,
+      "probability": null
+    },
+    {
+      "word": "kind",
+      "start": 8.6,
+      "end": 8.92,
+      "probability": null
+    },
+    {
+      "word": "that",
+      "start": 8.92,
+      "end": 9.14,
+      "probability": null
+    },
+    {
+      "word": "involved",
+      "start": 9.14,
+      "end": 9.52,
+      "probability": null
+    },
+    {
+      "word": "speed,",
+      "start": 9.52,
+      "end": 10.52,
+      "probability": null
+    },
+    {
+      "word": "rooftops,",
+      "start": 10.66,
+      "end": 11.42,
+      "probability": null
+    },
+    {
+      "word": "and",
+      "start": 11.42,
+      "end": 11.8,
+      "probability": null
+    },
+    {
+      "word": "a",
+      "start": 11.8,
+      "end": 11.92,
+      "probability": null
+    },
+    {
+      "word": "high",
+      "start": 11.92,
+      "end": 12.32,
+      "probability": null
+    },
+    {
+      "word": "chance",
+      "start": 12.32,
+      "end": 12.74,
+      "probability": null
+    },
+    {
+      "word": "of",
+      "start": 12.74,
+      "end": 12.96,
+      "probability": null
+    },
+    {
+      "word": "regretting",
+      "start": 12.96,
+      "end": 13.5,
+      "probability": null
+    },
+    {
+      "word": "things",
+      "start": 13.5,
+      "end": 13.8,
+      "probability": null
+    },
+    {
+      "word": "later.",
+      "start": 13.8,
+      "end": 14.1,
+      "probability": null
+    },
+    {
+      "word": "She",
+      "start": 14.1,
+      "end": 15.12,
+      "probability": null
+    },
+    {
+      "word": "rode",
+      "start": 15.12,
+      "end": 15.52,
+      "probability": null
+    },
+    {
+      "word": "Bishop",
+      "start": 15.52,
+      "end": 15.82,
+      "probability": null
+    },
+    {
+      "word": "straight",
+      "start": 15.82,
+      "end": 16.38,
+      "probability": null
+    },
+    {
+      "word": "through",
+      "start": 16.38,
+      "end": 16.66,
+      "probability": null
+    },
+    {
+      "word": "town.",
+      "start": 16.66,
+      "end": 16.98,
+      "probability": null
+    },
+    {
+      "word": "At",
+      "start": 17.74,
+      "end": 17.88,
+      "probability": null
+    },
+    {
+      "word": "the",
+      "start": 17.88,
+      "end": 18,
+      "probability": null
+    },
+    {
+      "word": "dry",
+      "start": 18,
+      "end": 18.28,
+      "probability": null
+    },
+    {
+      "word": "goods",
+      "start": 18.28,
+      "end": 18.44,
+      "probability": null
+    },
+    {
+      "word": "store,",
+      "start": 18.44,
+      "end": 18.86,
+      "probability": null
+    },
+    {
+      "word": "she",
+      "start": 18.86,
+      "end": 18.98,
+      "probability": null
+    },
+    {
+      "word": "stood",
+      "start": 18.98,
+      "end": 19.34,
+      "probability": null
+    },
+    {
+      "word": "in",
+      "start": 19.34,
+      "end": 19.5,
+      "probability": null
+    },
+    {
+      "word": "the",
+      "start": 19.5,
+      "end": 19.58,
+      "probability": null
+    },
+    {
+      "word": "stirrups",
+      "start": 19.58,
+      "end": 19.94,
+      "probability": null
+    },
+    {
+      "word": "and",
+      "start": 19.94,
+      "end": 20.16,
+      "probability": null
+    },
+    {
+      "word": "caught",
+      "start": 20.16,
+      "end": 20.5,
+      "probability": null
+    },
+    {
+      "word": "the",
+      "start": 20.5,
+      "end": 20.68,
+      "probability": null
+    },
+    {
+      "word": "edge",
+      "start": 20.68,
+      "end": 20.88,
+      "probability": null
+    },
+    {
+      "word": "of",
+      "start": 20.88,
+      "end": 21,
+      "probability": null
+    },
+    {
+      "word": "an",
+      "start": 21,
+      "end": 21.1,
+      "probability": null
+    },
+    {
+      "word": "awning.",
+      "start": 21.1,
+      "end": 21.6,
+      "probability": null
+    },
+    {
+      "word": "At",
+      "start": 22.12,
+      "end": 22.28,
+      "probability": null
+    },
+    {
+      "word": "the",
+      "start": 22.28,
+      "end": 22.42,
+      "probability": null
+    },
+    {
+      "word": "tailors,",
+      "start": 22.42,
+      "end": 23,
+      "probability": null
+    },
+    {
+      "word": "she",
+      "start": 23,
+      "end": 23.12,
+      "probability": null
+    },
+    {
+      "word": "climbed",
+      "start": 23.12,
+      "end": 23.38,
+      "probability": null
+    },
+    {
+      "word": "from",
+      "start": 23.38,
+      "end": 23.62,
+      "probability": null
+    },
+    {
+      "word": "awning",
+      "start": 23.62,
+      "end": 24,
+      "probability": null
+    },
+    {
+      "word": "to",
+      "start": 24,
+      "end": 24.34,
+      "probability": null
+    },
+    {
+      "word": "balcony.",
+      "start": 24.34,
+      "end": 24.74,
+      "probability": null
+    },
+    {
+      "word": "From",
+      "start": 24.74,
+      "end": 25.62,
+      "probability": null
+    },
+    {
+      "word": "the",
+      "start": 25.62,
+      "end": 25.76,
+      "probability": null
+    },
+    {
+      "word": "balcony,",
+      "start": 25.76,
+      "end": 26.28,
+      "probability": null
+    },
+    {
+      "word": "she",
+      "start": 26.28,
+      "end": 26.38,
+      "probability": null
+    },
+    {
+      "word": "hauled",
+      "start": 26.38,
+      "end": 26.8,
+      "probability": null
+    },
+    {
+      "word": "herself",
+      "start": 26.8,
+      "end": 27.06,
+      "probability": null
+    },
+    {
+      "word": "onto",
+      "start": 27.12,
+      "end": 27.34,
+      "probability": null
+    },
+    {
+      "word": "the",
+      "start": 27.34,
+      "end": 27.52,
+      "probability": null
+    },
+    {
+      "word": "roof",
+      "start": 27.52,
+      "end": 27.76,
+      "probability": null
+    },
+    {
+      "word": "of",
+      "start": 27.76,
+      "end": 27.9,
+      "probability": null
+    },
+    {
+      "word": "the",
+      "start": 27.9,
+      "end": 28.02,
+      "probability": null
+    },
+    {
+      "word": "boarding",
+      "start": 28.02,
+      "end": 28.28,
+      "probability": null
+    },
+    {
+      "word": "house.",
+      "start": 28.28,
+      "end": 29.18,
+      "probability": null
+    },
+    {
+      "word": "Someone",
+      "start": 29.18,
+      "end": 29.68,
+      "probability": null
+    },
+    {
+      "word": "below",
+      "start": 29.68,
+      "end": 29.96,
+      "probability": null
+    },
+    {
+      "word": "shouted,",
+      "start": 29.96,
+      "end": 30.56,
+      "probability": null
+    },
+    {
+      "word": "Marshall,",
+      "start": 30.56,
+      "end": 31.46,
+      "probability": null
+    },
+    {
+      "word": "that",
+      "start": 31.46,
+      "end": 31.82,
+      "probability": null
+    },
+    {
+      "word": "seems",
+      "start": 31.82,
+      "end": 32.12,
+      "probability": null
+    },
+    {
+      "word": "unsafe.",
+      "start": 32.12,
+      "end": 32.68,
+      "probability": null
+    },
+    {
+      "word": "Then",
+      "start": 33.56,
+      "end": 33.78,
+      "probability": null
+    },
+    {
+      "word": "don't",
+      "start": 33.78,
+      "end": 34.16,
+      "probability": null
+    },
+    {
+      "word": "copy",
+      "start": 34.16,
+      "end": 34.58,
+      "probability": null
+    },
+    {
+      "word": "me,",
+      "start": 34.58,
+      "end": 35.18,
+      "probability": null
+    },
+    {
+      "word": "she",
+      "start": 35.18,
+      "end": 35.5,
+      "probability": null
+    },
+    {
+      "word": "shouted",
+      "start": 35.5,
+      "end": 35.8,
+      "probability": null
+    },
+    {
+      "word": "back.",
+      "start": 35.8,
+      "end": 36.68,
+      "probability": null
+    },
+    {
+      "word": "Wind",
+      "start": 36.68,
+      "end": 37.52,
+      "probability": null
+    },
+    {
+      "word": "struck",
+      "start": 37.52,
+      "end": 38.06,
+      "probability": null
+    },
+    {
+      "word": "her",
+      "start": 38.06,
+      "end": 38.26,
+      "probability": null
+    },
+    {
+      "word": "as",
+      "start": 38.26,
+      "end": 38.44,
+      "probability": null
+    },
+    {
+      "word": "she",
+      "start": 38.44,
+      "end": 38.56,
+      "probability": null
+    },
+    {
+      "word": "reached",
+      "start": 38.56,
+      "end": 38.86,
+      "probability": null
+    },
+    {
+      "word": "the",
+      "start": 38.86,
+      "end": 39.06,
+      "probability": null
+    },
+    {
+      "word": "highest",
+      "start": 39.06,
+      "end": 39.42,
+      "probability": null
+    },
+    {
+      "word": "roof",
+      "start": 39.42,
+      "end": 39.76,
+      "probability": null
+    },
+    {
+      "word": "on",
+      "start": 39.76,
+      "end": 39.96,
+      "probability": null
+    },
+    {
+      "word": "Main",
+      "start": 39.96,
+      "end": 40.16,
+      "probability": null
+    },
+    {
+      "word": "Street.",
+      "start": 40.16,
+      "end": 40.7,
+      "probability": null
+    },
+    {
+      "word": "Up",
+      "start": 41.26,
+      "end": 41.42,
+      "probability": null
+    },
+    {
+      "word": "there,",
+      "start": 41.42,
+      "end": 41.96,
+      "probability": null
+    },
+    {
+      "word": "the",
+      "start": 41.96,
+      "end": 42.06,
+      "probability": null
+    },
+    {
+      "word": "floating",
+      "start": 42.06,
+      "end": 42.5,
+      "probability": null
+    },
+    {
+      "word": "stagecoach",
+      "start": 42.5,
+      "end": 43.24,
+      "probability": null
+    },
+    {
+      "word": "looked",
+      "start": 43.24,
+      "end": 43.48,
+      "probability": null
+    },
+    {
+      "word": "even",
+      "start": 43.48,
+      "end": 43.88,
+      "probability": null
+    },
+    {
+      "word": "stranger.",
+      "start": 43.88,
+      "end": 44.72,
+      "probability": null
+    },
+    {
+      "word": "The",
+      "start": 44.72,
+      "end": 45.7,
+      "probability": null
+    },
+    {
+      "word": "body",
+      "start": 45.7,
+      "end": 46.02,
+      "probability": null
+    },
+    {
+      "word": "was",
+      "start": 46.02,
+      "end": 46.24,
+      "probability": null
+    },
+    {
+      "word": "built",
+      "start": 46.24,
+      "end": 46.42,
+      "probability": null
+    },
+    {
+      "word": "like",
+      "start": 46.42,
+      "end": 46.6,
+      "probability": null
+    },
+    {
+      "word": "a",
+      "start": 46.6,
+      "end": 46.7,
+      "probability": null
+    },
+    {
+      "word": "rich",
+      "start": 46.7,
+      "end": 46.94,
+      "probability": null
+    },
+    {
+      "word": "man's",
+      "start": 46.94,
+      "end": 47.24,
+      "probability": null
+    },
+    {
+      "word": "travel",
+      "start": 46.8,
+      "end": 47.66,
+      "probability": null
+    },
+    {
+      "word": "coach,",
+      "start": 47.66,
+      "end": 48.3,
+      "probability": null
+    },
+    {
+      "word": "but",
+      "start": 48.3,
+      "end": 48.42,
+      "probability": null
+    },
+    {
+      "word": "brass",
+      "start": 48.42,
+      "end": 48.94,
+      "probability": null
+    },
+    {
+      "word": "pipes",
+      "start": 48.94,
+      "end": 49.32,
+      "probability": null
+    },
+    {
+      "word": "ran",
+      "start": 49.32,
+      "end": 49.68,
+      "probability": null
+    },
+    {
+      "word": "along",
+      "start": 49.68,
+      "end": 49.92,
+      "probability": null
+    },
+    {
+      "word": "its",
+      "start": 49.92,
+      "end": 50.14,
+      "probability": null
+    },
+    {
+      "word": "sides.",
+      "start": 50.14,
+      "end": 51.14,
+      "probability": null
+    },
+    {
+      "word": "Iron",
+      "start": 51.14,
+      "end": 51.5,
+      "probability": null
+    },
+    {
+      "word": "tanks",
+      "start": 51.5,
+      "end": 51.9,
+      "probability": null
+    },
+    {
+      "word": "clung",
+      "start": 51.9,
+      "end": 52.38,
+      "probability": null
+    },
+    {
+      "word": "to",
+      "start": 52.38,
+      "end": 52.54,
+      "probability": null
+    },
+    {
+      "word": "the",
+      "start": 52.54,
+      "end": 52.66,
+      "probability": null
+    },
+    {
+      "word": "rear",
+      "start": 52.66,
+      "end": 52.88,
+      "probability": null
+    },
+    {
+      "word": "axle.",
+      "start": 52.88,
+      "end": 53.24,
+      "probability": null
+    },
+    {
+      "word": "At",
+      "start": 53.24,
+      "end": 54.08,
+      "probability": null
+    },
+    {
+      "word": "the",
+      "start": 54.08,
+      "end": 54.18,
+      "probability": null
+    },
+    {
+      "word": "roofline,",
+      "start": 54.18,
+      "end": 54.86,
+      "probability": null
+    },
+    {
+      "word": "folded",
+      "start": 55.04,
+      "end": 55.34,
+      "probability": null
+    },
+    {
+      "word": "veins",
+      "start": 55.34,
+      "end": 55.82,
+      "probability": null
+    },
+    {
+      "word": "snapped",
+      "start": 55.82,
+      "end": 56.32,
+      "probability": null
+    },
+    {
+      "word": "in",
+      "start": 56.32,
+      "end": 56.56,
+      "probability": null
+    },
+    {
+      "word": "the",
+      "start": 56.56,
+      "end": 56.66,
+      "probability": null
+    },
+    {
+      "word": "wind",
+      "start": 56.66,
+      "end": 56.88,
+      "probability": null
+    },
+    {
+      "word": "like",
+      "start": 56.88,
+      "end": 57.14,
+      "probability": null
+    },
+    {
+      "word": "metal",
+      "start": 57.14,
+      "end": 57.46,
+      "probability": null
+    },
+    {
+      "word": "feathers.",
+      "start": 57.46,
+      "end": 58.46,
+      "probability": null
+    },
+    {
+      "word": "Smoke",
+      "start": 58.46,
+      "end": 59.22,
+      "probability": null
+    },
+    {
+      "word": "hissed",
+      "start": 59.22,
+      "end": 59.76,
+      "probability": null
+    },
+    {
+      "word": "from",
+      "start": 59.76,
+      "end": 59.9,
+      "probability": null
+    },
+    {
+      "word": "a",
+      "start": 59.9,
+      "end": 60,
+      "probability": null
+    },
+    {
+      "word": "crooked",
+      "start": 60,
+      "end": 60.22,
+      "probability": null
+    },
+    {
+      "word": "stack",
+      "start": 60.22,
+      "end": 60.62,
+      "probability": null
+    },
+    {
+      "word": "near",
+      "start": 60.38,
+      "end": 60.88,
+      "probability": null
+    },
+    {
+      "word": "the",
+      "start": 60.88,
+      "end": 61.02,
+      "probability": null
+    },
+    {
+      "word": "driver's",
+      "start": 61.02,
+      "end": 61.36,
+      "probability": null
+    },
+    {
+      "word": "box.",
+      "start": 61.36,
+      "end": 62.02,
+      "probability": null
+    },
+    {
+      "word": "It",
+      "start": 62.02,
+      "end": 62.62,
+      "probability": null
+    },
+    {
+      "word": "was",
+      "start": 62.62,
+      "end": 62.86,
+      "probability": null
+    },
+    {
+      "word": "not",
+      "start": 62.86,
+      "end": 63.38,
+      "probability": null
+    },
+    {
+      "word": "elegant.",
+      "start": 63.38,
+      "end": 63.98,
+      "probability": null
+    },
+    {
+      "word": "It",
+      "start": 63.98,
+      "end": 64.94,
+      "probability": null
+    },
+    {
+      "word": "was",
+      "start": 64.94,
+      "end": 65.1,
+      "probability": null
+    },
+    {
+      "word": "an",
+      "start": 65.1,
+      "end": 65.24,
+      "probability": null
+    },
+    {
+      "word": "airborne",
+      "start": 65.24,
+      "end": 65.74,
+      "probability": null
+    },
+    {
+      "word": "argument",
+      "start": 65.74,
+      "end": 66.48,
+      "probability": null
+    },
+    {
+      "word": "with",
+      "start": 66.48,
+      "end": 66.88,
+      "probability": null
+    },
+    {
+      "word": "common",
+      "start": 66.88,
+      "end": 67.2,
+      "probability": null
+    },
+    {
+      "word": "sense.",
+      "start": 67.2,
+      "end": 67.76,
+      "probability": null
+    },
+    {
+      "word": "The",
+      "start": 68.42,
+      "end": 68.72,
+      "probability": null
+    },
+    {
+      "word": "three",
+      "start": 68.72,
+      "end": 68.94,
+      "probability": null
+    },
+    {
+      "word": "fools",
+      "start": 68.94,
+      "end": 69.32,
+      "probability": null
+    },
+    {
+      "word": "on",
+      "start": 69.32,
+      "end": 69.52,
+      "probability": null
+    },
+    {
+      "word": "the",
+      "start": 69.52,
+      "end": 69.6,
+      "probability": null
+    },
+    {
+      "word": "saloon",
+      "start": 69.6,
+      "end": 69.9,
+      "probability": null
+    },
+    {
+      "word": "roof",
+      "start": 69.9,
+      "end": 70.18,
+      "probability": null
+    },
+    {
+      "word": "had",
+      "start": 70.18,
+      "end": 70.36,
+      "probability": null
+    },
+    {
+      "word": "finally",
+      "start": 70.36,
+      "end": 70.82,
+      "probability": null
+    },
+    {
+      "word": "managed",
+      "start": 70.82,
+      "end": 71.2,
+      "probability": null
+    },
+    {
+      "word": "to",
+      "start": 71.2,
+      "end": 71.42,
+      "probability": null
+    },
+    {
+      "word": "snag",
+      "start": 71.42,
+      "end": 71.72,
+      "probability": null
+    },
+    {
+      "word": "one",
+      "start": 71.72,
+      "end": 72.16,
+      "probability": null
+    },
+    {
+      "word": "rope",
+      "start": 72.16,
+      "end": 72.5,
+      "probability": null
+    },
+    {
+      "word": "around",
+      "start": 72.5,
+      "end": 72.74,
+      "probability": null
+    },
+    {
+      "word": "the",
+      "start": 72.74,
+      "end": 72.9,
+      "probability": null
+    },
+    {
+      "word": "back",
+      "start": 72.9,
+      "end": 73.08,
+      "probability": null
+    },
+    {
+      "word": "wheel.",
+      "start": 73.08,
+      "end": 73.64,
+      "probability": null
+    },
+    {
+      "word": "They",
+      "start": 73.94,
+      "end": 74.14,
+      "probability": null
+    },
+    {
+      "word": "cheered",
+      "start": 74.14,
+      "end": 74.52,
+      "probability": null
+    },
+    {
+      "word": "too",
+      "start": 74.52,
+      "end": 74.86,
+      "probability": null
+    },
+    {
+      "word": "early.",
+      "start": 74.86,
+      "end": 75.6,
+      "probability": null
+    },
+    {
+      "word": "The",
+      "start": 75.6,
+      "end": 76.08,
+      "probability": null
+    },
+    {
+      "word": "wheel",
+      "start": 76.08,
+      "end": 76.26,
+      "probability": null
+    },
+    {
+      "word": "spun,",
+      "start": 76.26,
+      "end": 77.14,
+      "probability": null
+    },
+    {
+      "word": "wrapped",
+      "start": 77.14,
+      "end": 77.34,
+      "probability": null
+    },
+    {
+      "word": "the",
+      "start": 77.34,
+      "end": 77.56,
+      "probability": null
+    },
+    {
+      "word": "rope,",
+      "start": 77.56,
+      "end": 77.8,
+      "probability": null
+    },
+    {
+      "word": "and",
+      "start": 77.8,
+      "end": 78.14,
+      "probability": null
+    },
+    {
+      "word": "yanked",
+      "start": 78.14,
+      "end": 78.58,
+      "probability": null
+    },
+    {
+      "word": "them",
+      "start": 78.58,
+      "end": 78.72,
+      "probability": null
+    },
+    {
+      "word": "belly",
+      "start": 78.72,
+      "end": 79.12,
+      "probability": null
+    },
+    {
+      "word": "first",
+      "start": 79.12,
+      "end": 79.38,
+      "probability": null
+    },
+    {
+      "word": "across",
+      "start": 79.38,
+      "end": 79.66,
+      "probability": null
+    },
+    {
+      "word": "the",
+      "start": 79.66,
+      "end": 79.86,
+      "probability": null
+    },
+    {
+      "word": "shingles",
+      "start": 79.92,
+      "end": 80.2,
+      "probability": null
+    },
+    {
+      "word": "in",
+      "start": 80.2,
+      "end": 80.36,
+      "probability": null
+    },
+    {
+      "word": "a",
+      "start": 80.36,
+      "end": 80.44,
+      "probability": null
+    },
+    {
+      "word": "single",
+      "start": 80.44,
+      "end": 80.82,
+      "probability": null
+    },
+    {
+      "word": "howling",
+      "start": 80.82,
+      "end": 81.38,
+      "probability": null
+    },
+    {
+      "word": "line.",
+      "start": 81.38,
+      "end": 81.9,
+      "probability": null
+    },
+    {
+      "word": "Dust",
+      "start": 81.9,
+      "end": 83.14,
+      "probability": null
+    },
+    {
+      "word": "stepped",
+      "start": 83.14,
+      "end": 83.52,
+      "probability": null
+    },
+    {
+      "word": "onto",
+      "start": 83.52,
+      "end": 83.72,
+      "probability": null
+    },
+    {
+      "word": "the",
+      "start": 83.72,
+      "end": 83.88,
+      "probability": null
+    },
+    {
+      "word": "saloon",
+      "start": 83.88,
+      "end": 84.22,
+      "probability": null
+    },
+    {
+      "word": "sign,",
+      "start": 84.22,
+      "end": 84.84,
+      "probability": null
+    },
+    {
+      "word": "balanced",
+      "start": 84.84,
+      "end": 85.16,
+      "probability": null
+    },
+    {
+      "word": "once,",
+      "start": 85.16,
+      "end": 85.84,
+      "probability": null
+    },
+    {
+      "word": "and",
+      "start": 85.84,
+      "end": 85.94,
+      "probability": null
+    },
+    {
+      "word": "judged",
+      "start": 85.94,
+      "end": 86.3,
+      "probability": null
+    },
+    {
+      "word": "the",
+      "start": 85.82,
+      "end": 86.5,
+      "probability": null
+    },
+    {
+      "word": "distance.",
+      "start": 86.5,
+      "end": 87.16,
+      "probability": null
+    },
+    {
+      "word": "This",
+      "start": 87.16,
+      "end": 88.62,
+      "probability": null
+    },
+    {
+      "word": "is",
+      "start": 88.62,
+      "end": 88.8,
+      "probability": null
+    },
+    {
+      "word": "going",
+      "start": 88.8,
+      "end": 88.98,
+      "probability": null
+    },
+    {
+      "word": "to",
+      "start": 88.98,
+      "end": 89.14,
+      "probability": null
+    },
+    {
+      "word": "be",
+      "start": 89.14,
+      "end": 89.22,
+      "probability": null
+    },
+    {
+      "word": "annoying,",
+      "start": 89.22,
+      "end": 90.08,
+      "probability": null
+    },
+    {
+      "word": "she",
+      "start": 90.08,
+      "end": 90.32,
+      "probability": null
+    },
+    {
+      "word": "told",
+      "start": 90.32,
+      "end": 90.48,
+      "probability": null
+    },
+    {
+      "word": "the",
+      "start": 90.48,
+      "end": 90.66,
+      "probability": null
+    },
+    {
+      "word": "sky.",
+      "start": 90.62,
+      "end": 91.44,
+      "probability": null
+    },
+    {
+      "word": "Then",
+      "start": 91.44,
+      "end": 92.12,
+      "probability": null
+    },
+    {
+      "word": "she",
+      "start": 92.12,
+      "end": 92.8,
+      "probability": null
+    },
+    {
+      "word": "jumped.",
+      "start": 92.8,
+      "end": 93.82,
+      "probability": null
+    },
+    {
+      "word": "For",
+      "start": 93.82,
+      "end": 94.38,
+      "probability": null
+    },
+    {
+      "word": "one",
+      "start": 94.38,
+      "end": 94.72,
+      "probability": null
+    },
+    {
+      "word": "terrible",
+      "start": 94.72,
+      "end": 95.26,
+      "probability": null
+    },
+    {
+      "word": "heartbeat,",
+      "start": 95.26,
+      "end": 95.92,
+      "probability": null
+    },
+    {
+      "word": "there",
+      "start": 95.86,
+      "end": 95.98,
+      "probability": null
+    },
+    {
+      "word": "was",
+      "start": 95.98,
+      "end": 96.12,
+      "probability": null
+    },
+    {
+      "word": "nothing",
+      "start": 96.12,
+      "end": 96.66,
+      "probability": null
+    },
+    {
+      "word": "under",
+      "start": 96.66,
+      "end": 96.98,
+      "probability": null
+    },
+    {
+      "word": "her",
+      "start": 96.98,
+      "end": 97.14,
+      "probability": null
+    },
+    {
+      "word": "boots.",
+      "start": 97.14,
+      "end": 97.68,
+      "probability": null
+    },
+    {
+      "word": "Then",
+      "start": 97.68,
+      "end": 98.4,
+      "probability": null
+    },
+    {
+      "word": "she",
+      "start": 98.4,
+      "end": 98.62,
+      "probability": null
+    },
+    {
+      "word": "hit",
+      "start": 98.62,
+      "end": 98.94,
+      "probability": null
+    },
+    {
+      "word": "the",
+      "start": 98.94,
+      "end": 99.1,
+      "probability": null
+    },
+    {
+      "word": "coach",
+      "start": 99.1,
+      "end": 99.34,
+      "probability": null
+    },
+    {
+      "word": "roof",
+      "start": 99.34,
+      "end": 99.52,
+      "probability": null
+    },
+    {
+      "word": "hard",
+      "start": 99.52,
+      "end": 99.86,
+      "probability": null
+    },
+    {
+      "word": "enough",
+      "start": 99.86,
+      "end": 100.06,
+      "probability": null
+    },
+    {
+      "word": "to",
+      "start": 100.06,
+      "end": 100.18,
+      "probability": null
+    },
+    {
+      "word": "bite",
+      "start": 100.18,
+      "end": 100.46,
+      "probability": null
+    },
+    {
+      "word": "her",
+      "start": 100.46,
+      "end": 100.62,
+      "probability": null
+    },
+    {
+      "word": "tongue.",
+      "start": 100.62,
+      "end": 101.14,
+      "probability": null
+    },
+    {
+      "word": "She",
+      "start": 101.76,
+      "end": 101.9,
+      "probability": null
+    },
+    {
+      "word": "slid",
+      "start": 101.9,
+      "end": 102.26,
+      "probability": null
+    },
+    {
+      "word": "halfway",
+      "start": 102.26,
+      "end": 102.64,
+      "probability": null
+    },
+    {
+      "word": "to",
+      "start": 102.64,
+      "end": 102.86,
+      "probability": null
+    },
+    {
+      "word": "the",
+      "start": 102.86,
+      "end": 102.98,
+      "probability": null
+    },
+    {
+      "word": "edge,",
+      "start": 102.98,
+      "end": 103.44,
+      "probability": null
+    },
+    {
+      "word": "grabbed",
+      "start": 103.44,
+      "end": 103.7,
+      "probability": null
+    },
+    {
+      "word": "a",
+      "start": 103.7,
+      "end": 103.86,
+      "probability": null
+    },
+    {
+      "word": "brass",
+      "start": 103.86,
+      "end": 104.12,
+      "probability": null
+    },
+    {
+      "word": "whale,",
+      "start": 104.12,
+      "end": 104.48,
+      "probability": null
+    },
+    {
+      "word": "and",
+      "start": 104.48,
+      "end": 104.6,
+      "probability": null
+    },
+    {
+      "word": "hauled",
+      "start": 104.6,
+      "end": 105.04,
+      "probability": null
+    },
+    {
+      "word": "herself",
+      "start": 105.04,
+      "end": 105.28,
+      "probability": null
+    },
+    {
+      "word": "flat",
+      "start": 105.28,
+      "end": 105.7,
+      "probability": null
+    },
+    {
+      "word": "while",
+      "start": 105.7,
+      "end": 105.92,
+      "probability": null
+    },
+    {
+      "word": "the",
+      "start": 105.92,
+      "end": 106.04,
+      "probability": null
+    },
+    {
+      "word": "coach",
+      "start": 106.04,
+      "end": 106.24,
+      "probability": null
+    },
+    {
+      "word": "rocked",
+      "start": 105.86,
+      "end": 106.74,
+      "probability": null
+    },
+    {
+      "word": "wildly.",
+      "start": 106.74,
+      "end": 107.96,
+      "probability": null
+    },
+    {
+      "word": "All",
+      "start": 107.96,
+      "end": 108.46,
+      "probability": null
+    },
+    {
+      "word": "right,",
+      "start": 108.46,
+      "end": 108.84,
+      "probability": null
+    },
+    {
+      "word": "she",
+      "start": 108.84,
+      "end": 109.08,
+      "probability": null
+    },
+    {
+      "word": "muttered.",
+      "start": 109.08,
+      "end": 109.58,
+      "probability": null
+    },
+    {
+      "word": "I'm",
+      "start": 109.58,
+      "end": 109.96,
+      "probability": null
+    },
+    {
+      "word": "here.",
+      "start": 109.96,
+      "end": 110.62,
+      "probability": null
+    },
+    {
+      "word": "Everybody",
+      "start": 110.62,
+      "end": 110.8,
+      "probability": null
+    },
+    {
+      "word": "can",
+      "start": 110.8,
+      "end": 111.04,
+      "probability": null
+    },
+    {
+      "word": "stop",
+      "start": 111.04,
+      "end": 111.3,
+      "probability": null
+    },
+    {
+      "word": "being",
+      "start": 111.3,
+      "end": 111.48,
+      "probability": null
+    },
+    {
+      "word": "dramatic.",
+      "start": 111.48,
+      "end": 111.9,
+      "probability": null
+    },
+    {
+      "word": "A",
+      "start": 113.18,
+      "end": 113.28,
+      "probability": null
+    },
+    {
+      "word": "hatch",
+      "start": 113.28,
+      "end": 113.64,
+      "probability": null
+    },
+    {
+      "word": "in",
+      "start": 113.64,
+      "end": 113.82,
+      "probability": null
+    },
+    {
+      "word": "the",
+      "start": 113.82,
+      "end": 113.92,
+      "probability": null
+    },
+    {
+      "word": "roof",
+      "start": 113.92,
+      "end": 114.12,
+      "probability": null
+    },
+    {
+      "word": "banged",
+      "start": 114.12,
+      "end": 114.66,
+      "probability": null
+    },
+    {
+      "word": "open",
+      "start": 114.66,
+      "end": 114.9,
+      "probability": null
+    },
+    {
+      "word": "below",
+      "start": 114.9,
+      "end": 115.14,
+      "probability": null
+    },
+    {
+      "word": "her.",
+      "start": 115.14,
+      "end": 115.62,
+      "probability": null
+    },
+    {
+      "word": "Steam",
+      "start": 115.9,
+      "end": 116.18,
+      "probability": null
+    },
+    {
+      "word": "belched",
+      "start": 116.18,
+      "end": 116.66,
+      "probability": null
+    },
+    {
+      "word": "upward.",
+      "start": 116.66,
+      "end": 116.96,
+      "probability": null
+    },
+    {
+      "word": "Dust",
+      "start": 117.88,
+      "end": 118.12,
+      "probability": null
+    },
+    {
+      "word": "dropped",
+      "start": 118.12,
+      "end": 118.56,
+      "probability": null
+    },
+    {
+      "word": "through",
+      "start": 118.56,
+      "end": 118.96,
+      "probability": null
+    },
+    {
+      "word": "into",
+      "start": 118.96,
+      "end": 119.28,
+      "probability": null
+    },
+    {
+      "word": "the",
+      "start": 119.28,
+      "end": 119.42,
+      "probability": null
+    },
+    {
+      "word": "coach.",
+      "start": 119.42,
+      "end": 120.18,
+      "probability": null
+    },
+    {
+      "word": "The",
+      "start": 120.74,
+      "end": 120.88,
+      "probability": null
+    },
+    {
+      "word": "inside",
+      "start": 120.88,
+      "end": 121.3,
+      "probability": null
+    },
+    {
+      "word": "looked",
+      "start": 121.3,
+      "end": 121.6,
+      "probability": null
+    },
+    {
+      "word": "like",
+      "start": 121.6,
+      "end": 121.78,
+      "probability": null
+    },
+    {
+      "word": "a",
+      "start": 121.78,
+      "end": 121.9,
+      "probability": null
+    },
+    {
+      "word": "gambling",
+      "start": 121.9,
+      "end": 122.36,
+      "probability": null
+    },
+    {
+      "word": "hall",
+      "start": 122.36,
+      "end": 122.72,
+      "probability": null
+    },
+    {
+      "word": "and",
+      "start": 122.72,
+      "end": 122.94,
+      "probability": null
+    },
+    {
+      "word": "a",
+      "start": 122.94,
+      "end": 123.02,
+      "probability": null
+    },
+    {
+      "word": "machine",
+      "start": 123.02,
+      "end": 123.32,
+      "probability": null
+    },
+    {
+      "word": "shop",
+      "start": 123.32,
+      "end": 123.66,
+      "probability": null
+    },
+    {
+      "word": "had",
+      "start": 123.66,
+      "end": 123.88,
+      "probability": null
+    },
+    {
+      "word": "gotten",
+      "start": 123.88,
+      "end": 124,
+      "probability": null
+    },
+    {
+      "word": "into",
+      "start": 124,
+      "end": 124.22,
+      "probability": null
+    },
+    {
+      "word": "a",
+      "start": 124.22,
+      "end": 124.34,
+      "probability": null
+    },
+    {
+      "word": "fistfight.",
+      "start": 124.34,
+      "end": 124.88,
+      "probability": null
+    },
+    {
+      "word": "Velvet",
+      "start": 125.76,
+      "end": 126.08,
+      "probability": null
+    },
+    {
+      "word": "seats",
+      "start": 126.08,
+      "end": 126.38,
+      "probability": null
+    },
+    {
+      "word": "were",
+      "start": 126.38,
+      "end": 126.58,
+      "probability": null
+    },
+    {
+      "word": "torn",
+      "start": 126.58,
+      "end": 126.94,
+      "probability": null
+    },
+    {
+      "word": "out",
+      "start": 126.94,
+      "end": 127.12,
+      "probability": null
+    },
+    {
+      "word": "to",
+      "start": 127.12,
+      "end": 127.28,
+      "probability": null
+    },
+    {
+      "word": "make",
+      "start": 127.28,
+      "end": 127.4,
+      "probability": null
+    },
+    {
+      "word": "room",
+      "start": 127.4,
+      "end": 127.54,
+      "probability": null
+    },
+    {
+      "word": "for",
+      "start": 127.54,
+      "end": 127.7,
+      "probability": null
+    },
+    {
+      "word": "gears,",
+      "start": 127.7,
+      "end": 128.42,
+      "probability": null
+    },
+    {
+      "word": "levers,",
+      "start": 128.42,
+      "end": 129.12,
+      "probability": null
+    },
+    {
+      "word": "gauges,",
+      "start": 129.12,
+      "end": 129.54,
+      "probability": null
+    },
+    {
+      "word": "and",
+      "start": 129.04,
+      "end": 129.96,
+      "probability": null
+    },
+    {
+      "word": "two",
+      "start": 129.96,
+      "end": 130.24,
+      "probability": null
+    },
+    {
+      "word": "large",
+      "start": 130.24,
+      "end": 130.66,
+      "probability": null
+    },
+    {
+      "word": "copper",
+      "start": 130.66,
+      "end": 130.98,
+      "probability": null
+    },
+    {
+      "word": "boilers",
+      "start": 130.98,
+      "end": 131.52,
+      "probability": null
+    },
+    {
+      "word": "that",
+      "start": 131.52,
+      "end": 131.68,
+      "probability": null
+    },
+    {
+      "word": "rattled",
+      "start": 131.68,
+      "end": 132.14,
+      "probability": null
+    },
+    {
+      "word": "with",
+      "start": 132.14,
+      "end": 132.32,
+      "probability": null
+    },
+    {
+      "word": "dangerous",
+      "start": 132.32,
+      "end": 132.8,
+      "probability": null
+    },
+    {
+      "word": "enthusiasm.",
+      "start": 132.8,
+      "end": 133.38,
+      "probability": null
+    },
+    {
+      "word": "Silver",
+      "start": 134.54,
+      "end": 134.82,
+      "probability": null
+    },
+    {
+      "word": "sacks",
+      "start": 134.82,
+      "end": 135.2,
+      "probability": null
+    },
+    {
+      "word": "were",
+      "start": 135.2,
+      "end": 135.4,
+      "probability": null
+    },
+    {
+      "word": "piled",
+      "start": 135.4,
+      "end": 135.66,
+      "probability": null
+    },
+    {
+      "word": "nearly",
+      "start": 135.66,
+      "end": 136.02,
+      "probability": null
+    },
+    {
+      "word": "to",
+      "start": 136.02,
+      "end": 136.22,
+      "probability": null
+    },
+    {
+      "word": "the",
+      "start": 136.22,
+      "end": 136.3,
+      "probability": null
+    },
+    {
+      "word": "ceiling.",
+      "start": 136.3,
+      "end": 136.7,
+      "probability": null
+    },
+    {
+      "word": "At",
+      "start": 137.82,
+      "end": 137.94,
+      "probability": null
+    },
+    {
+      "word": "the",
+      "start": 137.94,
+      "end": 138.06,
+      "probability": null
+    },
+    {
+      "word": "front,",
+      "start": 138.06,
+      "end": 138.52,
+      "probability": null
+    },
+    {
+      "word": "one",
+      "start": 138.52,
+      "end": 138.82,
+      "probability": null
+    },
+    {
+      "word": "man",
+      "start": 138.82,
+      "end": 139.08,
+      "probability": null
+    },
+    {
+      "word": "rustled",
+      "start": 139.08,
+      "end": 139.5,
+      "probability": null
+    },
+    {
+      "word": "to",
+      "start": 139.5,
+      "end": 139.6,
+      "probability": null
+    },
+    {
+      "word": "controls.",
+      "start": 139.6,
+      "end": 139.96,
+      "probability": null
+    },
+    {
+      "word": "Black",
+      "start": 141.1,
+      "end": 141.38,
+      "probability": null
+    },
+    {
+      "word": "Jack",
+      "start": 141.38,
+      "end": 141.6,
+      "probability": null
+    },
+    {
+      "word": "Varn",
+      "start": 141.6,
+      "end": 141.92,
+      "probability": null
+    },
+    {
+      "word": "wore",
+      "start": 141.92,
+      "end": 142.16,
+      "probability": null
+    },
+    {
+      "word": "black",
+      "start": 142.16,
+      "end": 142.54,
+      "probability": null
+    },
+    {
+      "word": "gloves,",
+      "start": 142.54,
+      "end": 143.24,
+      "probability": null
+    },
+    {
+      "word": "a",
+      "start": 143.24,
+      "end": 143.34,
+      "probability": null
+    },
+    {
+      "word": "black",
+      "start": 143.34,
+      "end": 143.64,
+      "probability": null
+    },
+    {
+      "word": "vest,",
+      "start": 143.64,
+      "end": 144.14,
+      "probability": null
+    },
+    {
+      "word": "and",
+      "start": 144.14,
+      "end": 144.38,
+      "probability": null
+    },
+    {
+      "word": "a",
+      "start": 144.38,
+      "end": 144.5,
+      "probability": null
+    },
+    {
+      "word": "grin",
+      "start": 144.5,
+      "end": 144.78,
+      "probability": null
+    },
+    {
+      "word": "so",
+      "start": 144.78,
+      "end": 145.14,
+      "probability": null
+    },
+    {
+      "word": "sharp",
+      "start": 145.14,
+      "end": 145.62,
+      "probability": null
+    },
+    {
+      "word": "it",
+      "start": 145.62,
+      "end": 145.8,
+      "probability": null
+    },
+    {
+      "word": "seemed",
+      "start": 145.8,
+      "end": 145.98,
+      "probability": null
+    },
+    {
+      "word": "like",
+      "start": 145.98,
+      "end": 146.14,
+      "probability": null
+    },
+    {
+      "word": "part",
+      "start": 146.14,
+      "end": 146.34,
+      "probability": null
+    },
+    {
+      "word": "of",
+      "start": 146.34,
+      "end": 146.42,
+      "probability": null
+    },
+    {
+      "word": "the",
+      "start": 146.42,
+      "end": 146.54,
+      "probability": null
+    },
+    {
+      "word": "weaponry.",
+      "start": 146.54,
+      "end": 147.16,
+      "probability": null
+    },
+    {
+      "word": "His",
+      "start": 147.68,
+      "end": 147.82,
+      "probability": null
+    },
+    {
+      "word": "hair",
+      "start": 147.82,
+      "end": 148.06,
+      "probability": null
+    },
+    {
+      "word": "was",
+      "start": 148.06,
+      "end": 148.26,
+      "probability": null
+    },
+    {
+      "word": "slicked",
+      "start": 148.26,
+      "end": 148.6,
+      "probability": null
+    },
+    {
+      "word": "back,",
+      "start": 148.6,
+      "end": 148.94,
+      "probability": null
+    },
+    {
+      "word": "his",
+      "start": 148.94,
+      "end": 149.4,
+      "probability": null
+    },
+    {
+      "word": "mustache",
+      "start": 149.4,
+      "end": 149.76,
+      "probability": null
+    },
+    {
+      "word": "curved",
+      "start": 149.76,
+      "end": 150.22,
+      "probability": null
+    },
+    {
+      "word": "like",
+      "start": 150.22,
+      "end": 150.44,
+      "probability": null
+    },
+    {
+      "word": "quotation",
+      "start": 150.44,
+      "end": 150.86,
+      "probability": null
+    },
+    {
+      "word": "marks",
+      "start": 150.86,
+      "end": 151.16,
+      "probability": null
+    },
+    {
+      "word": "around",
+      "start": 151.16,
+      "end": 151.38,
+      "probability": null
+    },
+    {
+      "word": "a",
+      "start": 151.38,
+      "end": 151.5,
+      "probability": null
+    },
+    {
+      "word": "joke",
+      "start": 151.5,
+      "end": 151.68,
+      "probability": null
+    },
+    {
+      "word": "nobody",
+      "start": 151.68,
+      "end": 152.14,
+      "probability": null
+    },
+    {
+      "word": "trusted.",
+      "start": 152.14,
+      "end": 152.62,
+      "probability": null
+    },
+    {
+      "word": "On",
+      "start": 153.68,
+      "end": 153.92,
+      "probability": null
+    },
+    {
+      "word": "his",
+      "start": 153.92,
+      "end": 154.02,
+      "probability": null
+    },
+    {
+      "word": "shoulder",
+      "start": 154.02,
+      "end": 154.4,
+      "probability": null
+    },
+    {
+      "word": "sat",
+      "start": 154.4,
+      "end": 154.58,
+      "probability": null
+    },
+    {
+      "word": "a",
+      "start": 154.58,
+      "end": 154.7,
+      "probability": null
+    },
+    {
+      "word": "green",
+      "start": 154.7,
+      "end": 155.06,
+      "probability": null
+    },
+    {
+      "word": "parrot",
+      "start": 155.06,
+      "end": 155.38,
+      "probability": null
+    },
+    {
+      "word": "with",
+      "start": 155.38,
+      "end": 155.58,
+      "probability": null
+    },
+    {
+      "word": "a",
+      "start": 155.58,
+      "end": 155.68,
+      "probability": null
+    },
+    {
+      "word": "missing",
+      "start": 155.68,
+      "end": 155.96,
+      "probability": null
+    },
+    {
+      "word": "tail",
+      "start": 155.96,
+      "end": 156.3,
+      "probability": null
+    },
+    {
+      "word": "feather.",
+      "start": 156.3,
+      "end": 156.72,
+      "probability": null
+    },
+    {
+      "word": "The",
+      "start": 157.48,
+      "end": 157.62,
+      "probability": null
+    },
+    {
+      "word": "parrot",
+      "start": 157.62,
+      "end": 157.86,
+      "probability": null
+    },
+    {
+      "word": "took",
+      "start": 157.86,
+      "end": 158.06,
+      "probability": null
+    },
+    {
+      "word": "one",
+      "start": 158.06,
+      "end": 158.38,
+      "probability": null
+    },
+    {
+      "word": "look",
+      "start": 158.38,
+      "end": 158.56,
+      "probability": null
+    },
+    {
+      "word": "at",
+      "start": 158.56,
+      "end": 158.76,
+      "probability": null
+    },
+    {
+      "word": "Dust",
+      "start": 158.76,
+      "end": 158.92,
+      "probability": null
+    },
+    {
+      "word": "and",
+      "start": 158.92,
+      "end": 159.12,
+      "probability": null
+    },
+    {
+      "word": "screamed,",
+      "start": 159.12,
+      "end": 159.66,
+      "probability": null
+    },
+    {
+      "word": "Law!",
+      "start": 159.86,
+      "end": 160.12,
+      "probability": null
+    },
+    {
+      "word": "Afternoon,",
+      "start": 161.38,
+      "end": 162,
+      "probability": null
+    },
+    {
+      "word": "Varn,",
+      "start": 162,
+      "end": 162.7,
+      "probability": null
+    },
+    {
+      "word": "Dust",
+      "start": 162.7,
+      "end": 162.84,
+      "probability": null
+    },
+    {
+      "word": "said.",
+      "start": 162.84,
+      "end": 163.64,
+      "probability": null
+    },
+    {
+      "word": "Black",
+      "start": 164.12,
+      "end": 164.34,
+      "probability": null
+    },
+    {
+      "word": "Jack",
+      "start": 164.34,
+      "end": 164.56,
+      "probability": null
+    },
+    {
+      "word": "Varn",
+      "start": 164.56,
+      "end": 164.8,
+      "probability": null
+    },
+    {
+      "word": "did",
+      "start": 164.8,
+      "end": 164.96,
+      "probability": null
+    },
+    {
+      "word": "not",
+      "start": 164.96,
+      "end": 165.2,
+      "probability": null
+    },
+    {
+      "word": "turn",
+      "start": 165.2,
+      "end": 165.42,
+      "probability": null
+    },
+    {
+      "word": "around",
+      "start": 165.42,
+      "end": 165.64,
+      "probability": null
+    },
+    {
+      "word": "right",
+      "start": 165.64,
+      "end": 165.86,
+      "probability": null
+    },
+    {
+      "word": "away.",
+      "start": 165.86,
+      "end": 166.04,
+      "probability": null
+    },
+    {
+      "word": "He",
+      "start": 166.56,
+      "end": 166.6,
+      "probability": null
+    },
+    {
+      "word": "only",
+      "start": 166.6,
+      "end": 166.78,
+      "probability": null
+    },
+    {
+      "word": "yanked",
+      "start": 166.78,
+      "end": 167.12,
+      "probability": null
+    },
+    {
+      "word": "a",
+      "start": 167.12,
+      "end": 167.24,
+      "probability": null
+    },
+    {
+      "word": "lever,",
+      "start": 167.24,
+      "end": 167.62,
+      "probability": null
+    },
+    {
+      "word": "cursed",
+      "start": 167.62,
+      "end": 168,
+      "probability": null
+    },
+    {
+      "word": "at",
+      "start": 168,
+      "end": 168.16,
+      "probability": null
+    },
+    {
+      "word": "a",
+      "start": 168.16,
+      "end": 168.24,
+      "probability": null
+    },
+    {
+      "word": "gauge,",
+      "start": 168.24,
+      "end": 168.64,
+      "probability": null
+    },
+    {
+      "word": "and",
+      "start": 168.64,
+      "end": 168.72,
+      "probability": null
+    },
+    {
+      "word": "said,",
+      "start": 168.72,
+      "end": 168.94,
+      "probability": null
+    },
+    {
+      "word": "Marshal",
+      "start": 169.44,
+      "end": 169.84,
+      "probability": null
+    },
+    {
+      "word": "Calloway,",
+      "start": 169.84,
+      "end": 170.68,
+      "probability": null
+    },
+    {
+      "word": "I",
+      "start": 170.68,
+      "end": 171,
+      "probability": null
+    },
+    {
+      "word": "ought",
+      "start": 171,
+      "end": 171.16,
+      "probability": null
+    },
+    {
+      "word": "to",
+      "start": 171.16,
+      "end": 171.28,
+      "probability": null
+    },
+    {
+      "word": "be",
+      "start": 171.28,
+      "end": 171.38,
+      "probability": null
+    },
+    {
+      "word": "insulted.",
+      "start": 171.38,
+      "end": 172.18,
+      "probability": null
+    },
+    {
+      "word": "You",
+      "start": 172.3,
+      "end": 172.52,
+      "probability": null
+    },
+    {
+      "word": "boarded",
+      "start": 172.52,
+      "end": 172.96,
+      "probability": null
+    },
+    {
+      "word": "my",
+      "start": 172.96,
+      "end": 173.08,
+      "probability": null
+    },
+    {
+      "word": "invention",
+      "start": 173.08,
+      "end": 173.46,
+      "probability": null
+    },
+    {
+      "word": "without",
+      "start": 173.46,
+      "end": 173.72,
+      "probability": null
+    },
+    {
+      "word": "buying",
+      "start": 173.72,
+      "end": 174,
+      "probability": null
+    },
+    {
+      "word": "a",
+      "start": 174,
+      "end": 174.14,
+      "probability": null
+    },
+    {
+      "word": "ticket.",
+      "start": 174.14,
+      "end": 174.48,
+      "probability": null
+    },
+    {
+      "word": "You",
+      "start": 175.38,
+      "end": 175.58,
+      "probability": null
+    },
+    {
+      "word": "dropped",
+      "start": 175.58,
+      "end": 175.88,
+      "probability": null
+    },
+    {
+      "word": "half",
+      "start": 175.88,
+      "end": 176.08,
+      "probability": null
+    },
+    {
+      "word": "your",
+      "start": 176.08,
+      "end": 176.24,
+      "probability": null
+    },
+    {
+      "word": "ticket",
+      "start": 176.24,
+      "end": 176.5,
+      "probability": null
+    },
+    {
+      "word": "money",
+      "start": 176.5,
+      "end": 176.7,
+      "probability": null
+    },
+    {
+      "word": "on",
+      "start": 176.7,
+      "end": 176.86,
+      "probability": null
+    },
+    {
+      "word": "the",
+      "start": 176.86,
+      "end": 176.98,
+      "probability": null
+    },
+    {
+      "word": "town.",
+      "start": 176.98,
+      "end": 177.5,
+      "probability": null
+    },
+    {
+      "word": "Now",
+      "start": 178.22,
+      "end": 178.46,
+      "probability": null
+    },
+    {
+      "word": "he",
+      "start": 178.46,
+      "end": 178.62,
+      "probability": null
+    },
+    {
+      "word": "looked",
+      "start": 178.62,
+      "end": 178.8,
+      "probability": null
+    },
+    {
+      "word": "over,",
+      "start": 178.8,
+      "end": 179.42,
+      "probability": null
+    },
+    {
+      "word": "his",
+      "start": 179.42,
+      "end": 179.68,
+      "probability": null
+    },
+    {
+      "word": "grin",
+      "start": 179.68,
+      "end": 179.98,
+      "probability": null
+    },
+    {
+      "word": "wild.",
+      "start": 179.98,
+      "end": 180.8,
+      "probability": null
+    },
+    {
+      "word": "Temporary",
+      "start": 181.54,
+      "end": 182.22,
+      "probability": null
+    },
+    {
+      "word": "complication.",
+      "start": 182.22,
+      "end": 183.36,
+      "probability": null
+    },
+    {
+      "word": "You",
+      "start": 184.24,
+      "end": 184.46,
+      "probability": null
+    },
+    {
+      "word": "call",
+      "start": 184.46,
+      "end": 184.64,
+      "probability": null
+    },
+    {
+      "word": "dynamite",
+      "start": 184.64,
+      "end": 185.18,
+      "probability": null
+    },
+    {
+      "word": "under",
+      "start": 185.18,
+      "end": 185.32,
+      "probability": null
+    },
+    {
+      "word": "the",
+      "start": 185.32,
+      "end": 185.44,
+      "probability": null
+    },
+    {
+      "word": "water",
+      "start": 185.44,
+      "end": 185.7,
+      "probability": null
+    },
+    {
+      "word": "tower",
+      "start": 185.7,
+      "end": 185.98,
+      "probability": null
+    },
+    {
+      "word": "temporary",
+      "start": 185.98,
+      "end": 186.48,
+      "probability": null
+    },
+    {
+      "word": "too?",
+      "start": 186.48,
+      "end": 186.9,
+      "probability": null
+    },
+    {
+      "word": "I",
+      "start": 187.86,
+      "end": 188.06,
+      "probability": null
+    },
+    {
+      "word": "call",
+      "start": 188.06,
+      "end": 188.32,
+      "probability": null
+    },
+    {
+      "word": "it",
+      "start": 188.32,
+      "end": 188.48,
+      "probability": null
+    },
+    {
+      "word": "insurance.",
+      "start": 188.48,
+      "end": 189.04,
+      "probability": null
+    },
+    {
+      "word": "Dust's",
+      "start": 190.44,
+      "end": 190.78,
+      "probability": null
+    },
+    {
+      "word": "hand",
+      "start": 190.78,
+      "end": 191,
+      "probability": null
+    },
+    {
+      "word": "drifted",
+      "start": 191,
+      "end": 191.46,
+      "probability": null
+    },
+    {
+      "word": "toward",
+      "start": 191.46,
+      "end": 191.66,
+      "probability": null
+    },
+    {
+      "word": "her",
+      "start": 191.66,
+      "end": 191.78,
+      "probability": null
+    },
+    {
+      "word": "revolver.",
+      "start": 191.78,
+      "end": 192.24,
+      "probability": null
+    },
+    {
+      "word": "Vor",
+      "start": 192.72,
+      "end": 192.9,
+      "probability": null
+    },
+    {
+      "word": "noticed",
+      "start": 192.9,
+      "end": 193.3,
+      "probability": null
+    },
+    {
+      "word": "and",
+      "start": 193.3,
+      "end": 193.54,
+      "probability": null
+    },
+    {
+      "word": "laughed.",
+      "start": 193.54,
+      "end": 194.1,
+      "probability": null
+    },
+    {
+      "word": "Go",
+      "start": 194.78,
+      "end": 195,
+      "probability": null
+    },
+    {
+      "word": "ahead",
+      "start": 195,
+      "end": 195.28,
+      "probability": null
+    },
+    {
+      "word": "and",
+      "start": 195.28,
+      "end": 195.44,
+      "probability": null
+    },
+    {
+      "word": "draw,",
+      "start": 195.44,
+      "end": 196.1,
+      "probability": null
+    },
+    {
+      "word": "he",
+      "start": 196.1,
+      "end": 196.24,
+      "probability": null
+    },
+    {
+      "word": "said.",
+      "start": 196.24,
+      "end": 196.56,
+      "probability": null
+    },
+    {
+      "word": "One",
+      "start": 197.14,
+      "end": 197.38,
+      "probability": null
+    },
+    {
+      "word": "stray",
+      "start": 197.38,
+      "end": 197.78,
+      "probability": null
+    },
+    {
+      "word": "shot",
+      "start": 197.78,
+      "end": 198.08,
+      "probability": null
+    },
+    {
+      "word": "and",
+      "start": 198.08,
+      "end": 198.26,
+      "probability": null
+    },
+    {
+      "word": "this",
+      "start": 198.26,
+      "end": 198.4,
+      "probability": null
+    },
+    {
+      "word": "one",
+      "start": 198.4,
+      "end": 198.66,
+      "probability": null
+    },
+    {
+      "word": "machine",
+      "start": 198.66,
+      "end": 198.9,
+      "probability": null
+    },
+    {
+      "word": "comes",
+      "start": 198.9,
+      "end": 199.18,
+      "probability": null
+    },
+    {
+      "word": "down",
+      "start": 199.18,
+      "end": 199.34,
+      "probability": null
+    },
+    {
+      "word": "in",
+      "start": 199.34,
+      "end": 199.48,
+      "probability": null
+    },
+    {
+      "word": "splinters",
+      "start": 199.48,
+      "end": 199.98,
+      "probability": null
+    },
+    {
+      "word": "and",
+      "start": 199.98,
+      "end": 200.22,
+      "probability": null
+    },
+    {
+      "word": "steam.",
+      "start": 200.22,
+      "end": 200.84,
+      "probability": null
+    },
+    {
+      "word": "Dust",
+      "start": 201.56,
+      "end": 201.82,
+      "probability": null
+    },
+    {
+      "word": "believed",
+      "start": 201.82,
+      "end": 202.14,
+      "probability": null
+    },
+    {
+      "word": "him.",
+      "start": 202.14,
+      "end": 202.36,
+      "probability": null
+    },
+    {
+      "word": "The",
+      "start": 203.32,
+      "end": 203.48,
+      "probability": null
+    },
+    {
+      "word": "coach",
+      "start": 203.48,
+      "end": 203.74,
+      "probability": null
+    },
+    {
+      "word": "bucked",
+      "start": 203.74,
+      "end": 204.18,
+      "probability": null
+    },
+    {
+      "word": "sideways.",
+      "start": 204.18,
+      "end": 204.88,
+      "probability": null
+    },
+    {
+      "word": "One",
+      "start": 205.2,
+      "end": 205.36,
+      "probability": null
+    },
+    {
+      "word": "of",
+      "start": 205.36,
+      "end": 205.42,
+      "probability": null
+    },
+    {
+      "word": "the",
+      "start": 205.42,
+      "end": 205.52,
+      "probability": null
+    },
+    {
+      "word": "boilers",
+      "start": 205.52,
+      "end": 205.86,
+      "probability": null
+    },
+    {
+      "word": "whined",
+      "start": 205.86,
+      "end": 206.24,
+      "probability": null
+    },
+    {
+      "word": "like",
+      "start": 206.24,
+      "end": 206.44,
+      "probability": null
+    },
+    {
+      "word": "it",
+      "start": 206.44,
+      "end": 206.54,
+      "probability": null
+    },
+    {
+      "word": "had",
+      "start": 206.54,
+      "end": 206.68,
+      "probability": null
+    },
+    {
+      "word": "seen",
+      "start": 206.68,
+      "end": 206.84,
+      "probability": null
+    },
+    {
+      "word": "the",
+      "start": 206.84,
+      "end": 207,
+      "probability": null
+    },
+    {
+      "word": "future",
+      "start": 207,
+      "end": 207.3,
+      "probability": null
+    },
+    {
+      "word": "and",
+      "start": 207.3,
+      "end": 207.46,
+      "probability": null
+    },
+    {
+      "word": "disliked",
+      "start": 207.46,
+      "end": 207.9,
+      "probability": null
+    },
+    {
+      "word": "it.",
+      "start": 207.9,
+      "end": 208.18,
+      "probability": null
+    },
+    {
+      "word": "You",
+      "start": 209,
+      "end": 209.18,
+      "probability": null
+    },
+    {
+      "word": "built",
+      "start": 209.18,
+      "end": 209.54,
+      "probability": null
+    },
+    {
+      "word": "this?",
+      "start": 209.54,
+      "end": 210.04,
+      "probability": null
+    },
+    {
+      "word": "Dusk",
+      "start": 210.04,
+      "end": 210.56,
+      "probability": null
+    },
+    {
+      "word": "asked.",
+      "start": 210.56,
+      "end": 211.2,
+      "probability": null
+    },
+    {
+      "word": "Designed",
+      "start": 211.76,
+      "end": 212.22,
+      "probability": null
+    },
+    {
+      "word": "it.",
+      "start": 212.22,
+      "end": 212.5,
+      "probability": null
+    },
+    {
+      "word": "Built",
+      "start": 212.5,
+      "end": 212.9,
+      "probability": null
+    },
+    {
+      "word": "it.",
+      "start": 212.9,
+      "end": 213.2,
+      "probability": null
+    },
+    {
+      "word": "Improved",
+      "start": 213.2,
+      "end": 213.84,
+      "probability": null
+    },
+    {
+      "word": "it.",
+      "start": 213.84,
+      "end": 214.12,
+      "probability": null
+    },
+    {
+      "word": "The",
+      "start": 214.64,
+      "end": 214.78,
+      "probability": null
+    },
+    {
+      "word": "roads",
+      "start": 214.78,
+      "end": 215.08,
+      "probability": null
+    },
+    {
+      "word": "belong",
+      "start": 215.08,
+      "end": 215.36,
+      "probability": null
+    },
+    {
+      "word": "to",
+      "start": 215.36,
+      "end": 215.52,
+      "probability": null
+    },
+    {
+      "word": "sheriffs",
+      "start": 215.52,
+      "end": 215.92,
+      "probability": null
+    },
+    {
+      "word": "and",
+      "start": 215.92,
+      "end": 216.14,
+      "probability": null
+    },
+    {
+      "word": "toll",
+      "start": 216.14,
+      "end": 216.4,
+      "probability": null
+    },
+    {
+      "word": "men",
+      "start": 216.4,
+      "end": 216.58,
+      "probability": null
+    },
+    {
+      "word": "and",
+      "start": 216.58,
+      "end": 216.76,
+      "probability": null
+    },
+    {
+      "word": "weather.",
+      "start": 216.76,
+      "end": 217.16,
+      "probability": null
+    },
+    {
+      "word": "The",
+      "start": 217.56,
+      "end": 217.72,
+      "probability": null
+    },
+    {
+      "word": "sky",
+      "start": 217.72,
+      "end": 218.06,
+      "probability": null
+    },
+    {
+      "word": "belongs",
+      "start": 218.06,
+      "end": 218.44,
+      "probability": null
+    },
+    {
+      "word": "to",
+      "start": 218.44,
+      "end": 218.56,
+      "probability": null
+    },
+    {
+      "word": "the",
+      "start": 218.56,
+      "end": 218.7,
+      "probability": null
+    },
+    {
+      "word": "first",
+      "start": 218.7,
+      "end": 219.02,
+      "probability": null
+    },
+    {
+      "word": "fool",
+      "start": 219.02,
+      "end": 219.3,
+      "probability": null
+    },
+    {
+      "word": "bold",
+      "start": 219.3,
+      "end": 219.56,
+      "probability": null
+    },
+    {
+      "word": "enough",
+      "start": 219.56,
+      "end": 219.76,
+      "probability": null
+    },
+    {
+      "word": "to",
+      "start": 219.76,
+      "end": 219.9,
+      "probability": null
+    },
+    {
+      "word": "take",
+      "start": 219.9,
+      "end": 220.16,
+      "probability": null
+    },
+    {
+      "word": "it.",
+      "start": 220.16,
+      "end": 220.36,
+      "probability": null
+    },
+    {
+      "word": "The",
+      "start": 221.26,
+      "end": 221.4,
+      "probability": null
+    },
+    {
+      "word": "parrot",
+      "start": 221.4,
+      "end": 221.7,
+      "probability": null
+    },
+    {
+      "word": "bobbed",
+      "start": 221.7,
+      "end": 222.02,
+      "probability": null
+    },
+    {
+      "word": "its",
+      "start": 222.02,
+      "end": 222.18,
+      "probability": null
+    },
+    {
+      "word": "head.",
+      "start": 222.18,
+      "end": 222.6,
+      "probability": null
+    },
+    {
+      "word": "Bold",
+      "start": 222.98,
+      "end": 223.3,
+      "probability": null
+    },
+    {
+      "word": "fool!",
+      "start": 223.3,
+      "end": 223.78,
+      "probability": null
+    },
+    {
+      "word": "Bold",
+      "start": 223.78,
+      "end": 224.12,
+      "probability": null
+    },
+    {
+      "word": "fool!",
+      "start": 224.12,
+      "end": 224.74,
+      "probability": null
+    },
+    {
+      "word": "Vaughn",
+      "start": 225.64,
+      "end": 225.96,
+      "probability": null
+    },
+    {
+      "word": "flecked",
+      "start": 225.96,
+      "end": 226.22,
+      "probability": null
+    },
+    {
+      "word": "a",
+      "start": 226.22,
+      "end": 226.44,
+      "probability": null
+    },
+    {
+      "word": "switch.",
+      "start": 226.44,
+      "end": 226.96,
+      "probability": null
+    },
+    {
+      "word": "The",
+      "start": 227.28,
+      "end": 227.4,
+      "probability": null
+    },
+    {
+      "word": "folded",
+      "start": 227.4,
+      "end": 227.72,
+      "probability": null
+    },
+    {
+      "word": "beams",
+      "start": 227.72,
+      "end": 227.98,
+      "probability": null
+    },
+    {
+      "word": "outside",
+      "start": 227.98,
+      "end": 228.34,
+      "probability": null
+    },
+    {
+      "word": "snap",
+      "start": 228.34,
+      "end": 228.72,
+      "probability": null
+    },
+    {
+      "word": "and",
+      "start": 228.72,
+      "end": 228.9,
+      "probability": null
+    },
+    {
+      "word": "vibrate.",
+      "start": 228.9,
+      "end": 229.4,
+      "probability": null
+    },
+    {
+      "word": "The",
+      "start": 229.7,
+      "end": 229.88,
+      "probability": null
+    },
+    {
+      "word": "coat",
+      "start": 229.88,
+      "end": 230.1,
+      "probability": null
+    },
+    {
+      "word": "clanged",
+      "start": 230.1,
+      "end": 230.34,
+      "probability": null
+    },
+    {
+      "word": "another",
+      "start": 230.34,
+      "end": 230.6,
+      "probability": null
+    },
+    {
+      "word": "few",
+      "start": 230.6,
+      "end": 230.84,
+      "probability": null
+    },
+    {
+      "word": "feet.",
+      "start": 230.84,
+      "end": 231.26,
+      "probability": null
+    },
+    {
+      "word": "You're",
+      "start": 232.04,
+      "end": 232.28,
+      "probability": null
+    },
+    {
+      "word": "not",
+      "start": 232.28,
+      "end": 232.46,
+      "probability": null
+    },
+    {
+      "word": "clean,",
+      "start": 232.46,
+      "end": 233.28,
+      "probability": null
+    },
+    {
+      "word": "you're",
+      "start": 233.28,
+      "end": 233.56,
+      "probability": null
+    },
+    {
+      "word": "friend.",
+      "start": 233.56,
+      "end": 233.96,
+      "probability": null
+    },
+    {
+      "word": "You're",
+      "start": 234.14,
+      "end": 234.42,
+      "probability": null
+    },
+    {
+      "word": "circling!",
+      "start": 234.42,
+      "end": 235.14,
+      "probability": null
+    },
+    {
+      "word": "I",
+      "start": 235.88,
+      "end": 236.12,
+      "probability": null
+    },
+    {
+      "word": "touched",
+      "start": 236.12,
+      "end": 236.42,
+      "probability": null
+    },
+    {
+      "word": "him,",
+      "start": 236.42,
+      "end": 236.76,
+      "probability": null
+    },
+    {
+      "word": "going",
+      "start": 236.76,
+      "end": 237.62,
+      "probability": null
+    },
+    {
+      "word": "scattered",
+      "start": 237.62,
+      "end": 238.1,
+      "probability": null
+    },
+    {
+      "word": "at",
+      "start": 238.1,
+      "end": 238.28,
+      "probability": null
+    },
+    {
+      "word": "the",
+      "start": 238.28,
+      "end": 238.36,
+      "probability": null
+    },
+    {
+      "word": "beach.",
+      "start": 238.36,
+      "end": 238.76,
+      "probability": null
+    },
+    {
+      "word": "Crosswind",
+      "start": 238.28,
+      "end": 240.02,
+      "probability": null
+    },
+    {
+      "word": "caught",
+      "start": 240.02,
+      "end": 240.26,
+      "probability": null
+    },
+    {
+      "word": "a",
+      "start": 240.26,
+      "end": 240.4,
+      "probability": null
+    },
+    {
+      "word": "speed-rise",
+      "start": 240.4,
+      "end": 240.78,
+      "probability": null
+    },
+    {
+      "word": "over",
+      "start": 240.78,
+      "end": 241.06,
+      "probability": null
+    },
+    {
+      "word": "the",
+      "start": 241.06,
+      "end": 241.18,
+      "probability": null
+    },
+    {
+      "word": "middle",
+      "start": 241.18,
+      "end": 241.3,
+      "probability": null
+    },
+    {
+      "word": "of",
+      "start": 241.3,
+      "end": 241.48,
+      "probability": null
+    },
+    {
+      "word": "the",
+      "start": 241.48,
+      "end": 241.6,
+      "probability": null
+    },
+    {
+      "word": "gorge.",
+      "start": 241.6,
+      "end": 241.92,
+      "probability": null
+    },
+    {
+      "word": "Nothing",
+      "start": 241.84,
+      "end": 242.28,
+      "probability": null
+    },
+    {
+      "word": "I",
+      "start": 242.28,
+      "end": 242.46,
+      "probability": null
+    },
+    {
+      "word": "can't",
+      "start": 242.46,
+      "end": 242.7,
+      "probability": null
+    },
+    {
+      "word": "say.",
+      "start": 242.7,
+      "end": 243.1,
+      "probability": null
+    },
+    {
+      "word": "Coach",
+      "start": 244,
+      "end": 244.4,
+      "probability": null
+    },
+    {
+      "word": "looked",
+      "start": 244.4,
+      "end": 244.66,
+      "probability": null
+    },
+    {
+      "word": "tall",
+      "start": 244.66,
+      "end": 244.94,
+      "probability": null
+    },
+    {
+      "word": "enough",
+      "start": 244.94,
+      "end": 245.12,
+      "probability": null
+    },
+    {
+      "word": "to",
+      "start": 245.12,
+      "end": 245.28,
+      "probability": null
+    },
+    {
+      "word": "knock",
+      "start": 245.28,
+      "end": 245.42,
+      "probability": null
+    },
+    {
+      "word": "a",
+      "start": 245.42,
+      "end": 245.78,
+      "probability": null
+    },
+    {
+      "word": "foot",
+      "start": 245.78,
+      "end": 245.8,
+      "probability": null
+    },
+    {
+      "word": "back",
+      "start": 245.8,
+      "end": 246.24,
+      "probability": null
+    },
+    {
+      "word": "into",
+      "start": 246.24,
+      "end": 246.58,
+      "probability": null
+    },
+    {
+      "word": "the",
+      "start": 246.58,
+      "end": 246.78,
+      "probability": null
+    },
+    {
+      "word": "wall.",
+      "start": 246.78,
+      "end": 247.22,
+      "probability": null
+    },
+    {
+      "word": "What",
+      "start": 247.7,
+      "end": 248.02,
+      "probability": null
+    },
+    {
+      "word": "a",
+      "start": 248.02,
+      "end": 248.22,
+      "probability": null
+    },
+    {
+      "word": "smile",
+      "start": 248.22,
+      "end": 248.42,
+      "probability": null
+    },
+    {
+      "word": "about",
+      "start": 248.42,
+      "end": 248.6,
+      "probability": null
+    },
+    {
+      "word": "you.",
+      "start": 248.6,
+      "end": 249,
+      "probability": null
+    },
+    {
+      "word": "You're",
+      "start": 249.8,
+      "end": 250.18,
+      "probability": null
+    },
+    {
+      "word": "a",
+      "start": 250.18,
+      "end": 250.44,
+      "probability": null
+    },
+    {
+      "word": "star-doller.",
+      "start": 250.44,
+      "end": 251.48,
+      "probability": null
+    },
+    {
+      "word": "Don't",
+      "start": 252.02,
+      "end": 252.5,
+      "probability": null
+    },
+    {
+      "word": "reach",
+      "start": 252.5,
+      "end": 252.68,
+      "probability": null
+    },
+    {
+      "word": "for",
+      "start": 252.68,
+      "end": 252.88,
+      "probability": null
+    },
+    {
+      "word": "another",
+      "start": 252.88,
+      "end": 253.12,
+      "probability": null
+    },
+    {
+      "word": "moment.",
+      "start": 253.12,
+      "end": 253.82,
+      "probability": null
+    },
+    {
+      "word": "Don't",
+      "start": 253.56,
+      "end": 254.6,
+      "probability": null
+    },
+    {
+      "word": "reach",
+      "start": 254.6,
+      "end": 254.64,
+      "probability": null
+    },
+    {
+      "word": "for",
+      "start": 254.64,
+      "end": 254.9,
+      "probability": null
+    },
+    {
+      "word": "a",
+      "start": 254.9,
+      "end": 255.06,
+      "probability": null
+    },
+    {
+      "word": "star-study.",
+      "start": 255.06,
+      "end": 255.46,
+      "probability": null
+    },
+    {
+      "word": "Get",
+      "start": 255.9,
+      "end": 256.2,
+      "probability": null
+    },
+    {
+      "word": "kids",
+      "start": 256.2,
+      "end": 256.42,
+      "probability": null
+    },
+    {
+      "word": "with",
+      "start": 256.42,
+      "end": 256.6,
+      "probability": null
+    },
+    {
+      "word": "the",
+      "start": 256.6,
+      "end": 256.72,
+      "probability": null
+    },
+    {
+      "word": "receptors",
+      "start": 256.72,
+      "end": 257.06,
+      "probability": null
+    },
+    {
+      "word": "you",
+      "start": 257.06,
+      "end": 257.34,
+      "probability": null
+    },
+    {
+      "word": "can",
+      "start": 257.34,
+      "end": 257.46,
+      "probability": null
+    },
+    {
+      "word": "use.",
+      "start": 257.46,
+      "end": 257.7,
+      "probability": null
+    },
+    {
+      "word": "You're",
+      "start": 257.28,
+      "end": 258.26,
+      "probability": null
+    },
+    {
+      "word": "not",
+      "start": 258.26,
+      "end": 258.42,
+      "probability": null
+    },
+    {
+      "word": "a",
+      "start": 258.42,
+      "end": 258.64,
+      "probability": null
+    },
+    {
+      "word": "good",
+      "start": 258.64,
+      "end": 258.8,
+      "probability": null
+    },
+    {
+      "word": "kid.",
+      "start": 258.8,
+      "end": 259.12,
+      "probability": null
+    },
+    {
+      "word": "You're",
+      "start": 259.34,
+      "end": 259.78,
+      "probability": null
+    },
+    {
+      "word": "a",
+      "start": 259.78,
+      "end": 259.9,
+      "probability": null
+    },
+    {
+      "word": "good",
+      "start": 259.9,
+      "end": 259.98,
+      "probability": null
+    },
+    {
+      "word": "kid.",
+      "start": 259.98,
+      "end": 260.72,
+      "probability": null
+    },
+    {
+      "word": "Thank",
+      "start": 261.78,
+      "end": 270.66,
+      "probability": null
+    },
+    {
+      "word": "you.",
+      "start": 270.62,
+      "end": 299.48,
+      "probability": null
+    },
+    {
+      "word": "So,",
+      "start": 328.86,
+      "end": 329,
+      "probability": null
+    },
+    {
+      "word": "Fast",
+      "start": 329.5,
+      "end": 329.8,
+      "probability": null
+    },
+    {
+      "word": "and",
+      "start": 329.8,
+      "end": 329.98,
+      "probability": null
+    },
+    {
+      "word": "dirty.",
+      "start": 329.98,
+      "end": 330.76,
+      "probability": null
+    },
+    {
+      "word": "Dust",
+      "start": 330.88,
+      "end": 331.08,
+      "probability": null
+    },
+    {
+      "word": "blocked",
+      "start": 331.08,
+      "end": 331.38,
+      "probability": null
+    },
+    {
+      "word": "one",
+      "start": 331.38,
+      "end": 331.68,
+      "probability": null
+    },
+    {
+      "word": "swing,",
+      "start": 331.68,
+      "end": 332.26,
+      "probability": null
+    },
+    {
+      "word": "took",
+      "start": 332.26,
+      "end": 332.38,
+      "probability": null
+    },
+    {
+      "word": "another",
+      "start": 332.38,
+      "end": 332.62,
+      "probability": null
+    },
+    {
+      "word": "to",
+      "start": 332.62,
+      "end": 332.76,
+      "probability": null
+    },
+    {
+      "word": "the",
+      "start": 332.76,
+      "end": 332.84,
+      "probability": null
+    },
+    {
+      "word": "ribs,",
+      "start": 332.84,
+      "end": 333.24,
+      "probability": null
+    },
+    {
+      "word": "and",
+      "start": 333.34,
+      "end": 333.5,
+      "probability": null
+    },
+    {
+      "word": "answered",
+      "start": 333.5,
+      "end": 333.76,
+      "probability": null
+    },
+    {
+      "word": "with",
+      "start": 333.76,
+      "end": 333.92,
+      "probability": null
+    },
+    {
+      "word": "a",
+      "start": 333.92,
+      "end": 334.02,
+      "probability": null
+    },
+    {
+      "word": "hard",
+      "start": 334.02,
+      "end": 334.36,
+      "probability": null
+    },
+    {
+      "word": "right",
+      "start": 334.36,
+      "end": 334.56,
+      "probability": null
+    },
+    {
+      "word": "that",
+      "start": 334.56,
+      "end": 334.7,
+      "probability": null
+    },
+    {
+      "word": "snapped",
+      "start": 334.7,
+      "end": 335,
+      "probability": null
+    },
+    {
+      "word": "his",
+      "start": 335,
+      "end": 335.2,
+      "probability": null
+    },
+    {
+      "word": "head",
+      "start": 335.2,
+      "end": 335.32,
+      "probability": null
+    },
+    {
+      "word": "sideways.",
+      "start": 335.32,
+      "end": 335.66,
+      "probability": null
+    },
+    {
+      "word": "He",
+      "start": 336.68,
+      "end": 336.82,
+      "probability": null
+    },
+    {
+      "word": "staggered",
+      "start": 336.82,
+      "end": 337.3,
+      "probability": null
+    },
+    {
+      "word": "into",
+      "start": 337.3,
+      "end": 337.44,
+      "probability": null
+    },
+    {
+      "word": "a",
+      "start": 337.44,
+      "end": 337.58,
+      "probability": null
+    },
+    {
+      "word": "wheel",
+      "start": 337.58,
+      "end": 337.76,
+      "probability": null
+    },
+    {
+      "word": "mounted",
+      "start": 337.76,
+      "end": 338.02,
+      "probability": null
+    },
+    {
+      "word": "on",
+      "start": 338.02,
+      "end": 338.2,
+      "probability": null
+    },
+    {
+      "word": "the",
+      "start": 338.2,
+      "end": 338.26,
+      "probability": null
+    },
+    {
+      "word": "front",
+      "start": 338.26,
+      "end": 338.46,
+      "probability": null
+    },
+    {
+      "word": "column.",
+      "start": 338.46,
+      "end": 338.78,
+      "probability": null
+    },
+    {
+      "word": "The",
+      "start": 339.7,
+      "end": 339.82,
+      "probability": null
+    },
+    {
+      "word": "parrot",
+      "start": 339.82,
+      "end": 340.06,
+      "probability": null
+    },
+    {
+      "word": "landed",
+      "start": 340.06,
+      "end": 340.34,
+      "probability": null
+    },
+    {
+      "word": "on",
+      "start": 340.34,
+      "end": 340.54,
+      "probability": null
+    },
+    {
+      "word": "top",
+      "start": 340.54,
+      "end": 340.72,
+      "probability": null
+    },
+    {
+      "word": "of",
+      "start": 340.72,
+      "end": 340.88,
+      "probability": null
+    },
+    {
+      "word": "it",
+      "start": 340.88,
+      "end": 340.9,
+      "probability": null
+    },
+    {
+      "word": "and",
+      "start": 340.9,
+      "end": 341.02,
+      "probability": null
+    },
+    {
+      "word": "shrieked,",
+      "start": 341.02,
+      "end": 341.48,
+      "probability": null
+    },
+    {
+      "word": "We're",
+      "start": 341.66,
+      "end": 341.96,
+      "probability": null
+    },
+    {
+      "word": "doomed!",
+      "start": 341.96,
+      "end": 342.28,
+      "probability": null
+    },
+    {
+      "word": "Outside,",
+      "start": 343.68,
+      "end": 343.98,
+      "probability": null
+    },
+    {
+      "word": "the",
+      "start": 343.98,
+      "end": 344.18,
+      "probability": null
+    },
+    {
+      "word": "green",
+      "start": 344.18,
+      "end": 344.42,
+      "probability": null
+    },
+    {
+      "word": "clouds",
+      "start": 344.42,
+      "end": 344.74,
+      "probability": null
+    },
+    {
+      "word": "thickened.",
+      "start": 344.74,
+      "end": 345.32,
+      "probability": null
+    },
+    {
+      "word": "Dust",
+      "start": 345.98,
+      "end": 346.16,
+      "probability": null
+    },
+    {
+      "word": "didn't",
+      "start": 346.16,
+      "end": 346.32,
+      "probability": null
+    },
+    {
+      "word": "notice",
+      "start": 346.32,
+      "end": 346.54,
+      "probability": null
+    },
+    {
+      "word": "them",
+      "start": 346.54,
+      "end": 346.66,
+      "probability": null
+    },
+    {
+      "word": "before",
+      "start": 346.66,
+      "end": 346.94,
+      "probability": null
+    },
+    {
+      "word": "from",
+      "start": 346.94,
+      "end": 347.14,
+      "probability": null
+    },
+    {
+      "word": "the",
+      "start": 347.14,
+      "end": 347.24,
+      "probability": null
+    },
+    {
+      "word": "street,",
+      "start": 347.24,
+      "end": 347.7,
+      "probability": null
+    },
+    {
+      "word": "but",
+      "start": 347.8,
+      "end": 347.92,
+      "probability": null
+    },
+    {
+      "word": "up",
+      "start": 347.92,
+      "end": 348.08,
+      "probability": null
+    },
+    {
+      "word": "here",
+      "start": 348.08,
+      "end": 348.34,
+      "probability": null
+    },
+    {
+      "word": "they",
+      "start": 348.34,
+      "end": 348.54,
+      "probability": null
+    },
+    {
+      "word": "looked",
+      "start": 348.54,
+      "end": 348.7,
+      "probability": null
+    },
+    {
+      "word": "worse.",
+      "start": 348.7,
+      "end": 349.14,
+      "probability": null
+    },
+    {
+      "word": "A",
+      "start": 349.54,
+      "end": 349.7,
+      "probability": null
+    },
+    {
+      "word": "spinning",
+      "start": 349.7,
+      "end": 350.06,
+      "probability": null
+    },
+    {
+      "word": "storm",
+      "start": 350.06,
+      "end": 350.46,
+      "probability": null
+    },
+    {
+      "word": "wall,",
+      "start": 350.46,
+      "end": 351.02,
+      "probability": null
+    },
+    {
+      "word": "green",
+      "start": 351.02,
+      "end": 351.18,
+      "probability": null
+    },
+    {
+      "word": "as",
+      "start": 351.18,
+      "end": 351.36,
+      "probability": null
+    },
+    {
+      "word": "bottle",
+      "start": 351.36,
+      "end": 351.64,
+      "probability": null
+    },
+    {
+      "word": "glass,",
+      "start": 351.64,
+      "end": 352.04,
+      "probability": null
+    },
+    {
+      "word": "rolling",
+      "start": 352.18,
+      "end": 352.48,
+      "probability": null
+    },
+    {
+      "word": "in",
+      "start": 352.48,
+      "end": 352.64,
+      "probability": null
+    },
+    {
+      "word": "low",
+      "start": 352.64,
+      "end": 352.86,
+      "probability": null
+    },
+    {
+      "word": "over",
+      "start": 352.86,
+      "end": 353.06,
+      "probability": null
+    },
+    {
+      "word": "the",
+      "start": 353.06,
+      "end": 353.18,
+      "probability": null
+    },
+    {
+      "word": "plains.",
+      "start": 353.18,
+      "end": 354.02,
+      "probability": null
+    },
+    {
+      "word": "Vaughn",
+      "start": 354.58,
+      "end": 354.82,
+      "probability": null
+    },
+    {
+      "word": "wiped",
+      "start": 354.82,
+      "end": 355.06,
+      "probability": null
+    },
+    {
+      "word": "blood",
+      "start": 355.06,
+      "end": 355.34,
+      "probability": null
+    },
+    {
+      "word": "from",
+      "start": 355.34,
+      "end": 355.52,
+      "probability": null
+    },
+    {
+      "word": "the",
+      "start": 355.52,
+      "end": 355.6,
+      "probability": null
+    },
+    {
+      "word": "corner",
+      "start": 355.6,
+      "end": 355.8,
+      "probability": null
+    },
+    {
+      "word": "of",
+      "start": 355.8,
+      "end": 355.98,
+      "probability": null
+    },
+    {
+      "word": "his",
+      "start": 355.98,
+      "end": 356.06,
+      "probability": null
+    },
+    {
+      "word": "mouth.",
+      "start": 356.06,
+      "end": 356.78,
+      "probability": null
+    },
+    {
+      "word": "He'll",
+      "start": 357.14,
+      "end": 357.42,
+      "probability": null
+    },
+    {
+      "word": "paint",
+      "start": 357.42,
+      "end": 357.52,
+      "probability": null
+    },
+    {
+      "word": "a",
+      "start": 357.52,
+      "end": 357.7,
+      "probability": null
+    },
+    {
+      "word": "bad",
+      "start": 357.7,
+      "end": 358.04,
+      "probability": null
+    },
+    {
+      "word": "time",
+      "start": 358.04,
+      "end": 358.26,
+      "probability": null
+    },
+    {
+      "word": "to",
+      "start": 358.26,
+      "end": 358.4,
+      "probability": null
+    },
+    {
+      "word": "interfere,",
+      "start": 358.4,
+      "end": 359.08,
+      "probability": null
+    },
+    {
+      "word": "Marshall.",
+      "start": 359.08,
+      "end": 359.48,
+      "probability": null
+    },
+    {
+      "word": "Dust",
+      "start": 360.36,
+      "end": 360.5,
+      "probability": null
+    },
+    {
+      "word": "glanced",
+      "start": 360.5,
+      "end": 360.84,
+      "probability": null
+    },
+    {
+      "word": "through",
+      "start": 360.84,
+      "end": 361.02,
+      "probability": null
+    },
+    {
+      "word": "the",
+      "start": 361.02,
+      "end": 361.12,
+      "probability": null
+    },
+    {
+      "word": "front",
+      "start": 361.12,
+      "end": 361.3,
+      "probability": null
+    },
+    {
+      "word": "glass.",
+      "start": 361.3,
+      "end": 361.98,
+      "probability": null
+    },
+    {
+      "word": "No,",
+      "start": 362.48,
+      "end": 362.92,
+      "probability": null
+    },
+    {
+      "word": "she",
+      "start": 362.92,
+      "end": 363.16,
+      "probability": null
+    },
+    {
+      "word": "said.",
+      "start": 363.16,
+      "end": 363.44,
+      "probability": null
+    },
+    {
+      "word": "You",
+      "start": 363.88,
+      "end": 364.08,
+      "probability": null
+    },
+    {
+      "word": "picked",
+      "start": 364.08,
+      "end": 364.3,
+      "probability": null
+    },
+    {
+      "word": "a",
+      "start": 364.3,
+      "end": 364.44,
+      "probability": null
+    },
+    {
+      "word": "bad",
+      "start": 364.44,
+      "end": 364.76,
+      "probability": null
+    },
+    {
+      "word": "day",
+      "start": 364.76,
+      "end": 364.94,
+      "probability": null
+    },
+    {
+      "word": "to",
+      "start": 364.94,
+      "end": 365.06,
+      "probability": null
+    },
+    {
+      "word": "fly.",
+      "start": 365.06,
+      "end": 365.66,
+      "probability": null
+    }
+  ]
+}

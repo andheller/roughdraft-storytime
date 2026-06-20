@@ -10,7 +10,7 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 	<link
 		rel="stylesheet"
-		href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Caprasimo&family=Lora:ital,wght@0,400..600;1,400..600&display=swap"
+		href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Caprasimo&family=Caveat:wght@400..700&family=Lora:ital,wght@0,400..600;1,400..600&family=Mynerve&family=Nothing+You+Could+Do&family=Patrick+Hand&family=Patrick+Hand+SC&display=swap"
 	/>
 </svelte:head>
 

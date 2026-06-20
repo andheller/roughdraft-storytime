@@ -1,12 +1,11 @@
 <script>
-	import { onMount } from 'svelte';
-
 	// Props
 	const {
 		audioUrl = $bindable(),
 		title = '',
 		autoplay = false,
 		onEnded = () => {},
+		onPlayingChange = () => {},
 		className = '',
 		currentChapter = 1,
 		story = null,
@@ -21,16 +20,54 @@
 	let isLoaded = $state(false);
 	let audioElement = $state(null);
 	let playbackRate = $state(1);
+	let shouldContinuePlayback = $state(false);
+	let isAdvancingWithPlayback = $state(false);
+	let previousAudioUrl = $state(audioUrl);
+
+	async function playAudio() {
+		if (!audioElement) return;
+
+		audioElement.playbackRate = playbackRate;
+
+		try {
+			await audioElement.play();
+		} catch {
+			isPlaying = false;
+			shouldContinuePlayback = false;
+			isAdvancingWithPlayback = false;
+			onPlayingChange(false);
+		}
+	}
 
 	// Audio control functions
 	function togglePlay() {
 		if (!audioElement || !isLoaded) return;
 
 		if (isPlaying) {
+			shouldContinuePlayback = false;
+			isAdvancingWithPlayback = false;
 			audioElement.pause();
 		} else {
-			audioElement.play();
+			shouldContinuePlayback = true;
+			playAudio();
 		}
+	}
+
+	function prepareForChapterChange() {
+		if (isPlaying || shouldContinuePlayback) {
+			shouldContinuePlayback = true;
+			isAdvancingWithPlayback = true;
+		}
+	}
+
+	function handleNextChapterClick() {
+		prepareForChapterChange();
+		goToNextChapter();
+	}
+
+	function handlePreviousChapterClick() {
+		prepareForChapterChange();
+		goToPreviousChapter();
 	}
 
 	function seek(event) {
@@ -70,9 +107,23 @@
 	}
 
 	// Audio event handlers
-	function handleLoadedMetadata() {
+	function resetAudioState() {
+		isLoaded = false;
+		isPlaying = false;
+		currentTime = 0;
+		duration = 0;
+	}
+
+	async function handleLoadedMetadata() {
 		isLoaded = true;
 		duration = audioElement.duration;
+		audioElement.playbackRate = playbackRate;
+
+		if (autoplay || shouldContinuePlayback || isAdvancingWithPlayback) {
+			await playAudio();
+		}
+
+		isAdvancingWithPlayback = false;
 	}
 
 	function handleTimeUpdate() {
@@ -81,34 +132,56 @@
 
 	function handlePlay() {
 		isPlaying = true;
+		shouldContinuePlayback = true;
+		onPlayingChange(true);
 	}
 
 	function handlePause() {
 		isPlaying = false;
+		if (!audioElement?.ended && !isAdvancingWithPlayback) {
+			shouldContinuePlayback = false;
+			onPlayingChange(false);
+		}
 	}
 
 	function handleEnded() {
 		isPlaying = false;
 		currentTime = 0;
+		if (story && currentChapter >= story.chapters.length) {
+			shouldContinuePlayback = false;
+			isAdvancingWithPlayback = false;
+			onPlayingChange(false);
+		} else {
+			shouldContinuePlayback = true;
+			isAdvancingWithPlayback = true;
+			onPlayingChange(true);
+		}
 		onEnded();
 	}
 
-	// Auto-play when URL changes
+	// Reset loading state when chapter audio changes; metadata will trigger playback if needed.
 	$effect(() => {
-		if (audioUrl && autoplay && isLoaded) {
-			audioElement?.play();
+		if (audioUrl !== previousAudioUrl) {
+			const wasContinuing = isPlaying || shouldContinuePlayback || isAdvancingWithPlayback;
+			previousAudioUrl = audioUrl;
+			resetAudioState();
+			if (wasContinuing) {
+				shouldContinuePlayback = true;
+				isAdvancingWithPlayback = true;
+			}
 		}
 	});
 </script>
 
 {#if audioUrl}
 	<div
-		class="audio-player no-lift rounded-2xl border border-stone-200 bg-white/80 p-4 shadow-lg backdrop-blur-md dark:border-white/10 dark:bg-stone-900/80 {className}"
+		class="audio-player no-lift rounded-lg border border-stone-200/90 bg-white/72 p-4 shadow-sm backdrop-blur-md dark:border-white/10 dark:bg-stone-900/72 {className}"
 	>
 		<audio
 			bind:this={audioElement}
 			src={audioUrl}
 			preload="metadata"
+			onloadstart={resetAudioState}
 			onloadedmetadata={handleLoadedMetadata}
 			ontimeupdate={handleTimeUpdate}
 			onplay={handlePlay}
@@ -119,6 +192,7 @@
 		<div class="flex items-center gap-4">
 			<!-- Play/Pause Button -->
 			<button
+				type="button"
 				onclick={togglePlay}
 				disabled={!isLoaded}
 				class="audio-play-button flex h-12 w-12 items-center justify-center rounded-full shadow-md transition-all duration-200 hover:scale-105 active:scale-95 disabled:cursor-not-allowed"
@@ -136,9 +210,9 @@
 			</button>
 
 			<!-- Progress Bar -->
-			<div class="flex flex-1 flex-col gap-1.5">
+			<div class="flex min-w-0 flex-1 flex-col gap-1.5">
 				<div
-					class="flex items-center justify-between text-[10px] font-bold tracking-wider text-stone-400 uppercase dark:text-stone-500"
+					class="flex items-center justify-between text-[10px] font-bold text-stone-400 uppercase dark:text-stone-500"
 				>
 					<span>{formatTime(currentTime)}</span>
 					<span>{formatTime(duration)}</span>
@@ -164,9 +238,10 @@
 			<!-- Speed Control -->
 			<div class="flex items-center">
 				<button
+					type="button"
 					onclick={() =>
 						setPlaybackRate(playbackRate === 1 ? 1.5 : playbackRate === 1.5 ? 0.75 : 1)}
-					class="h-10 rounded-xl border border-stone-200 bg-stone-100 px-3 text-sm font-bold text-stone-600 transition-colors hover:bg-stone-200 dark:border-white/5 dark:bg-stone-800 dark:text-stone-300 dark:hover:bg-stone-700"
+					class="h-10 min-w-12 rounded-lg border border-stone-200 bg-stone-100 px-3 text-sm font-bold text-stone-600 transition-colors hover:bg-stone-200 dark:border-white/5 dark:bg-stone-800 dark:text-stone-300 dark:hover:bg-stone-700"
 					aria-label="Playback speed"
 				>
 					{playbackRate}x
@@ -184,9 +259,10 @@
 				class="mt-4 flex items-center justify-between border-t border-stone-200 pt-4 dark:border-white/10"
 			>
 				<button
-					onclick={goToPreviousChapter}
+					type="button"
+					onclick={handlePreviousChapterClick}
 					disabled={currentChapter === 1}
-					class="flex items-center gap-2 rounded-xl bg-stone-100 px-4 py-2 text-sm font-semibold text-stone-600 transition-all hover:bg-stone-200 disabled:cursor-not-allowed disabled:opacity-30 dark:bg-stone-800 dark:text-stone-300 dark:hover:bg-stone-700"
+					class="flex items-center gap-2 rounded-lg bg-stone-100 px-4 py-2 text-sm font-semibold text-stone-600 transition-all hover:bg-stone-200 disabled:cursor-not-allowed disabled:opacity-30 dark:bg-stone-800 dark:text-stone-300 dark:hover:bg-stone-700"
 				>
 					<svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 						<path
@@ -198,15 +274,14 @@
 					</svg>
 					Prev
 				</button>
-				<span
-					class="text-xs font-bold tracking-widest text-stone-400 uppercase dark:text-stone-500"
-				>
+				<span class="text-xs font-bold text-stone-400 uppercase dark:text-stone-500">
 					{currentChapter} / {story.chapters.length}
 				</span>
 				<button
-					onclick={goToNextChapter}
+					type="button"
+					onclick={handleNextChapterClick}
 					disabled={currentChapter === story.chapters.length}
-					class="flex items-center gap-2 rounded-xl bg-stone-100 px-4 py-2 text-sm font-semibold text-stone-600 transition-all hover:bg-stone-200 disabled:cursor-not-allowed disabled:opacity-30 dark:bg-stone-800 dark:text-stone-300 dark:hover:bg-stone-700"
+					class="flex items-center gap-2 rounded-lg bg-stone-100 px-4 py-2 text-sm font-semibold text-stone-600 transition-all hover:bg-stone-200 disabled:cursor-not-allowed disabled:opacity-30 dark:bg-stone-800 dark:text-stone-300 dark:hover:bg-stone-700"
 				>
 					Next
 					<svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">

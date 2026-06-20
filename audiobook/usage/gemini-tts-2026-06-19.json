@@ -1,0 +1,88 @@
+{
+  "path": "/Users/andrew/dev/more/roughdraft/audiobook/usage/gemini-tts-2026-06-19.json",
+  "date": "2026-06-19",
+  "requests": 10,
+  "estimatedOutputTokens": 77365,
+  "items": [
+    {
+      "at": "2026-06-19T23:08:45.875Z",
+      "story": "dust-calloway-and-the-sky-coach-robbers/dust-calloway-and-the-sky-coach-robbers",
+      "chapter": 1,
+      "chunk": 1,
+      "durationSeconds": 230.68,
+      "estimatedOutputTokens": 5767
+    },
+    {
+      "at": "2026-06-19T23:20:08.348Z",
+      "story": "dust-calloway-and-the-sky-coach-robbers/dust-calloway-and-the-sky-coach-robbers",
+      "chapter": 2,
+      "chunk": 1,
+      "durationSeconds": 285.6,
+      "estimatedOutputTokens": 7141
+    },
+    {
+      "at": "2026-06-19T23:23:22.662Z",
+      "story": "dust-calloway-and-the-sky-coach-robbers/dust-calloway-and-the-sky-coach-robbers",
+      "chapter": 3,
+      "chunk": 1,
+      "durationSeconds": 366,
+      "estimatedOutputTokens": 9150
+    },
+    {
+      "at": "2026-06-19T23:26:18.185Z",
+      "story": "dust-calloway-and-the-sky-coach-robbers/dust-calloway-and-the-sky-coach-robbers",
+      "chapter": 4,
+      "chunk": 1,
+      "durationSeconds": 296.24,
+      "estimatedOutputTokens": 7406
+    },
+    {
+      "at": "2026-06-19T23:29:00.818Z",
+      "story": "dust-calloway-and-the-sky-coach-robbers/dust-calloway-and-the-sky-coach-robbers",
+      "chapter": 5,
+      "chunk": 1,
+      "durationSeconds": 251.8,
+      "estimatedOutputTokens": 6295
+    },
+    {
+      "at": "2026-06-19T23:32:22.725Z",
+      "story": "history-close-up/abigail-adams-and-the-revolution-at-home",
+      "chapter": 2,
+      "chunk": 1,
+      "durationSeconds": 302.08,
+      "estimatedOutputTokens": 7552
+    },
+    {
+      "at": "2026-06-19T23:35:00.644Z",
+      "story": "history-close-up/abigail-adams-and-the-revolution-at-home",
+      "chapter": 3,
+      "chunk": 1,
+      "durationSeconds": 311.04,
+      "estimatedOutputTokens": 7777
+    },
+    {
+      "at": "2026-06-19T23:37:39.510Z",
+      "story": "history-close-up/abigail-adams-and-the-revolution-at-home",
+      "chapter": 4,
+      "chunk": 1,
+      "durationSeconds": 274.64,
+      "estimatedOutputTokens": 6866
+    },
+    {
+      "at": "2026-06-19T23:40:58.192Z",
+      "story": "history-close-up/baron-von-steuben-and-the-army-at-valley-forge",
+      "chapter": 1,
+      "chunk": 1,
+      "durationSeconds": 396.08,
+      "estimatedOutputTokens": 9902
+    },
+    {
+      "at": "2026-06-19T23:44:03.066Z",
+      "story": "history-close-up/baron-von-steuben-and-the-army-at-valley-forge",
+      "chapter": 2,
+      "chunk": 1,
+      "durationSeconds": 380.36,
+      "estimatedOutputTokens": 9509
+    }
+  ]
+}
